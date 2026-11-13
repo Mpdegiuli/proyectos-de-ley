@@ -1,0 +1,51 @@
+marca (por mil palabras)            Anthropic     OpenAI     Google        xAI    Mistral     chinas
+30 % (espacio antes del %)               1.08       0.89       0.21       1.75       0.04       0.74
+30% (sin espacio)                        0.61       0.28       1.59       0.10       1.89       1.00
+« » (comillas angulares)                 0.07       0.74       0.07       0.35       0.00       0.07
+“ ” (comillas tipográficas)              0.00       1.30       0.00       2.26       0.00       1.02
+" (comillas rectas)                      6.68       1.00       9.08       0.00      14.23       3.97
+> cita en bloque                         0.13       0.17       0.06       0.00       0.02       0.25
+RR. HH. (con espacio)                    0.01       0.11       0.00       0.03       0.00       0.00
+RRHH / RR.HH. (sin espacio)              0.06       0.00       0.00       0.10       0.28       0.07
+# título markdown (H1/H2)                1.13       0.84       0.00       0.09       0.06       1.02
+"principios/comienzos de 2025"           0.11       0.00       0.00       0.00       0.00       0.06
+de momento                               0.00       0.00       0.00       0.00       0.00       0.00
+así nomás                                0.00       0.00       0.00       0.00       0.00       0.00
+palabras {'Anthropic': 444082, 'Google': 68033, 'chinas': 342624, 'xAI': 68048, 'OpenAI': 242997, 'Mistral': 54107}
+
+Por casa: comillas tipográficas “, angulares « y rectas ", por mil palabras
+  Anthropic  claude-opus-5-5            “  0.00   «  0.24   "   9.46
+  Anthropic  claude-opus-5              “  0.00   «  0.06   "   4.91
+  Anthropic  claude-sonnet-4-6          “  0.00   «  0.00   "   2.97
+  Anthropic  claude-sonnet-5            “  0.00   «  0.03   "   8.52
+  Anthropic  claude-sonnet-5-5          “  0.00   «  0.05   "  11.67
+  Anthropic  claude-fable-5             “  0.00   «  0.22   "  12.07
+  Anthropic  claude-haiku-5-5           “  0.00   «  0.22   "  10.01
+  Anthropic  claude-opus-4-7            “  0.00   «  0.00   "  12.29
+  Anthropic  claude-opus-4-8            “  0.00   «  0.77   "  10.81
+  Anthropic  claude-haiku-4-5           “  0.00   «  0.00   "  14.49
+  Google     gemini-3.1-pro-preview     “  0.00   «  0.05   "   8.93
+  Google     gemini-4-argon             “  0.00   «  0.21   "  10.08
+  Meta       muse-wonder-1.0            “  0.50   «  0.33   "   2.65
+  Mistral    mistral-large-4            “  0.00   «  0.00   "  17.47
+  Mistral    mistral-medium-3.5         “  0.00   «  0.00   "  12.98
+  OpenAI     gpt-5.5-2026-04-23         “  3.23   «  0.00   "   0.00
+  OpenAI     gpt-6-luna                 “  1.50   «  2.73   "   0.00
+  OpenAI     gpt-5.6-sol                “  0.90   «  0.86   "   0.00
+  OpenAI     gpt-6-astra                “  0.65   «  0.82   "   0.00
+  OpenAI     gpt-3.5-turbo-0125         “  0.00   «  0.00   "   0.00
+  OpenAI     gpt-4-0613                 “  0.00   «  0.00   "   3.07
+  OpenAI     gpt-4o-mini                “  0.00   «  0.00   "   6.21
+  OpenAI     gpt-4o                     “  0.00   «  0.00   "   7.55
+  OpenAI     gpt-6-sol                  “  0.00   «  3.96   "   0.00
+  OpenAI     gpt-6.1-sol                “  0.00   «  0.00   "   0.00
+  chinas     qwen3.8-max-0902           “  4.01   «  0.00   "   0.00
+  chinas     deepseek-flash             “  2.88   «  0.00   "   0.00
+  chinas     deepseek-v4-pro            “  1.77   «  0.02   "   0.00
+  chinas     kimi-k3                    “  0.03   «  0.17   "   4.48
+  chinas     minimax-m3                 “  0.02   «  0.02   "   4.99
+  chinas     glm-5.3                    “  0.00   «  0.05   "   6.48
+  chinas     mimo-v2.6-pro              “  0.00   «  0.31   "  14.10
+  otras      mercury-3                  “  0.46   «  0.00   "   1.59
+  xAI        grok-4.7                   “  2.28   «  0.99   "   0.00
+  xAI        grok-4.6                   “  2.26   «  0.14   "   0.00

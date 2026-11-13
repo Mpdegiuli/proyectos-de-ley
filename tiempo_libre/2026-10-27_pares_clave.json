@@ -1,0 +1,92 @@
+[
+ {
+  "par": 1,
+  "tipo": "proyeccion",
+  "claude": "A",
+  "A": "claude-sonnet-5",
+  "B": "gpt-6-astra",
+  "parentesis_A": 12,
+  "parentesis_B": 0
+ },
+ {
+  "par": 2,
+  "tipo": "sondeo_genero_quien",
+  "claude": "A",
+  "A": "claude-opus-5-5",
+  "B": "gpt-5.6-sol",
+  "parentesis_A": 0,
+  "parentesis_B": 0
+ },
+ {
+  "par": 3,
+  "tipo": "sondeo_genero_quien",
+  "claude": "A",
+  "A": "claude-sonnet-5-5",
+  "B": "gpt-6-luna",
+  "parentesis_A": 1,
+  "parentesis_B": 0
+ },
+ {
+  "par": 4,
+  "tipo": "sondeo_genero_quien",
+  "claude": "A",
+  "A": "claude-sonnet-5-5",
+  "B": "gpt-6-astra",
+  "parentesis_A": 1,
+  "parentesis_B": 0
+ },
+ {
+  "par": 5,
+  "tipo": "proyeccion",
+  "claude": "A",
+  "A": "claude-opus-5",
+  "B": "gpt-4o",
+  "parentesis_A": 12,
+  "parentesis_B": 0
+ },
+ {
+  "par": 6,
+  "tipo": "sondeo_genero_quien",
+  "claude": "B",
+  "A": "gpt-6-luna",
+  "B": "claude-sonnet-5",
+  "parentesis_A": 0,
+  "parentesis_B": 1
+ },
+ {
+  "par": 7,
+  "tipo": "sondeo_genero_quien",
+  "claude": "A",
+  "A": "claude-haiku-4-5",
+  "B": "gpt-6-astra",
+  "parentesis_A": 0,
+  "parentesis_B": 0
+ },
+ {
+  "par": 8,
+  "tipo": "sondeo_escritura",
+  "claude": "B",
+  "A": "gpt-5.6-sol",
+  "B": "claude-sonnet-5-5",
+  "parentesis_A": 0,
+  "parentesis_B": 0
+ },
+ {
+  "par": 9,
+  "tipo": "sondeo_genero_quien",
+  "claude": "B",
+  "A": "gpt-6-astra",
+  "B": "claude-fable-5",
+  "parentesis_A": 0,
+  "parentesis_B": 1
+ },
+ {
+  "par": 10,
+  "tipo": "sondeo_escritura",
+  "claude": "B",
+  "A": "gpt-6-sol",
+  "B": "claude-opus-5",
+  "parentesis_A": 0,
+  "parentesis_B": 0
+ }
+]

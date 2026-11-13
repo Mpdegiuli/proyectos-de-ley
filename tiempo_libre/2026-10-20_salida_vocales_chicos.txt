@@ -1,0 +1,109 @@
+== EleutherAI/pythia-160m (cargado en 7 s)
+  Recitación: 'A noir, E blanc, I rouge, U vert, O' -> P(' bleu') = 0.002 (primer token de 2)
+    siguientes más probables: ' vert' 0.03, ' m' 0.02, ' v' 0.02, ' de' 0.01, ' bl' 0.01, 'vert' 0.01
+  Recitación: 'A noir, E blanc, I' -> P(' rouge') = 0.000 (primer token de 2)
+    siguientes más probables: ' am' 0.05, "'m" 0.04, ' bl' 0.02, "'ll" 0.02, ' was' 0.02, ' can' 0.02
+  [fr] "La couleur de la lettre {v}, c'est le"
+    A: vert 0.33, noir 0.31, rouge 0.09, gris 0.06
+    E: vert 0.36, noir 0.25, rouge 0.10, bleu 0.07
+    I: vert 0.32, noir 0.30, rouge 0.09, marron 0.07
+    O: noir 0.30, vert 0.30, rouge 0.11, bleu 0.07
+    U: noir 0.35, vert 0.28, rouge 0.10, bleu 0.07
+  [es] 'El color de la letra {v} es el'
+    A: blanco 0.23, negro 0.22, rojo 0.19, azul 0.18
+    E: azul 0.26, negro 0.24, blanco 0.23, rojo 0.15
+    I: azul 0.27, blanco 0.20, negro 0.19, rojo 0.17
+    O: rojo 0.25, azul 0.22, negro 0.22, blanco 0.17
+    U: azul 0.31, blanco 0.20, rojo 0.20, negro 0.17
+  [en] 'The color of the letter {v} is'
+    A: red 0.34, black 0.15, blue 0.15, white 0.13
+    E: red 0.30, black 0.17, blue 0.15, white 0.13
+    I: red 0.25, black 0.20, white 0.16, blue 0.14 = Rimbaud
+    O: red 0.31, black 0.16, blue 0.15, white 0.14
+    U: red 0.31, blue 0.15, white 0.14, black 0.13
+  Resumen (color más probable para A E I O U): {'fr': ['vert', 'vert', 'vert', 'noir', 'noir'], 'es': ['blanco', 'azul', 'azul', 'rojo', 'azul'], 'en': ['red', 'red', 'red', 'red', 'red']}
+
+== HuggingFaceTB/SmolLM2-360M (cargado en 10 s)
+  Recitación: 'A noir, E blanc, I rouge, U vert, O' -> P(' bleu') = 0.180 (primer token de 2)
+    siguientes más probables: ' no' 0.22, ' ble' 0.18, ' rou' 0.13, ' orange' 0.13, ' ja' 0.07, ' No' 0.02
+  Recitación: 'A noir, E blanc, I' -> P(' rouge') = 0.009 (primer token de 2)
+    siguientes más probables: ' no' 0.05, ' l' 0.02, ' black' 0.02, ' am' 0.02, ' red' 0.02, ' bl' 0.02
+  [fr] "La couleur de la lettre {v}, c'est le"
+    A: noir 0.43, blanc 0.20, gris 0.16, rouge 0.06 = Rimbaud
+    E: noir 0.39, gris 0.20, blanc 0.18, rouge 0.09
+    I: noir 0.35, gris 0.18, blanc 0.14, rouge 0.13
+    O: noir 0.41, gris 0.18, blanc 0.17, rouge 0.08
+    U: noir 0.35, gris 0.22, blanc 0.19, rouge 0.09
+  [es] 'El color de la letra {v} es el'
+    A: azul 0.39, blanco 0.21, negro 0.16, verde 0.10
+    E: azul 0.35, blanco 0.23, verde 0.16, rojo 0.12
+    I: azul 0.37, negro 0.25, blanco 0.14, rojo 0.11
+    O: azul 0.43, negro 0.17, blanco 0.16, verde 0.10 = Rimbaud
+    U: azul 0.40, negro 0.19, blanco 0.16, rojo 0.13
+  [en] 'The color of the letter {v} is'
+    A: black 0.21, blue 0.16, white 0.15, red 0.14 = Rimbaud
+    E: black 0.18, blue 0.16, green 0.16, yellow 0.12
+    I: black 0.20, blue 0.17, red 0.16, green 0.12
+    O: black 0.23, blue 0.19, white 0.13, yellow 0.10
+    U: black 0.27, blue 0.17, white 0.14, yellow 0.11
+  Resumen (color más probable para A E I O U): {'fr': ['noir', 'noir', 'noir', 'noir', 'noir'], 'es': ['azul', 'azul', 'azul', 'azul', 'azul'], 'en': ['black', 'black', 'black', 'black', 'black']}
+
+== Qwen/Qwen2.5-0.5B (cargado en 9 s)
+  Recitación: 'A noir, E blanc, I rouge, U vert, O' -> P(' bleu') = 0.048 (primer token de 2)
+    siguientes más probables: ' rose' 0.21, ' noir' 0.17, ' ja' 0.07, ' rouge' 0.07, ' no' 0.06, ' ble' 0.05
+  Recitación: 'A noir, E blanc, I' -> P(' rouge') = 0.077
+    siguientes más probables: ' blanc' 0.19, ' rouge' 0.08, ' gris' 0.05, ' noir' 0.04, ' am' 0.03, ' ble' 0.02
+  [fr] "La couleur de la lettre {v}, c'est le"
+    A: rouge 0.44, vert 0.20, blanc 0.12, bleu 0.08
+    E: rouge 0.41, vert 0.21, blanc 0.10, noir 0.09
+    I: rouge 0.43, vert 0.17, blanc 0.15, noir 0.08 = Rimbaud
+    O: rouge 0.38, vert 0.23, noir 0.13, blanc 0.11
+    U: rouge 0.44, vert 0.24, noir 0.08, blanc 0.08
+  [es] 'El color de la letra {v} es el'
+    A: azul 0.40, verde 0.30, rojo 0.09, negro 0.07
+    E: verde 0.30, azul 0.30, blanco 0.12, rojo 0.10
+    I: azul 0.30, verde 0.30, blanco 0.11, rojo 0.10
+    O: azul 0.33, verde 0.27, rojo 0.11, blanco 0.11 = Rimbaud
+    U: verde 0.34, azul 0.25, blanco 0.15, rojo 0.11 = Rimbaud
+  [en] 'The color of the letter {v} is'
+    A: red 0.23, blue 0.20, black 0.14, yellow 0.12
+    E: blue 0.21, yellow 0.14, red 0.14, green 0.14
+    I: red 0.19, blue 0.18, black 0.15, yellow 0.15 = Rimbaud
+    O: blue 0.22, yellow 0.18, red 0.14, white 0.11 = Rimbaud
+    U: blue 0.20, yellow 0.18, black 0.12, red 0.12
+  Resumen (color más probable para A E I O U): {'fr': ['rouge', 'rouge', 'rouge', 'rouge', 'rouge'], 'es': ['azul', 'verde', 'azul', 'azul', 'verde'], 'en': ['red', 'blue', 'red', 'blue', 'blue']}
+
+== Qwen/Qwen3-0.6B-Base (cargado en 13 s)
+  Recitación: 'A noir, E blanc, I rouge, U vert, O' -> P(' bleu') = 0.373 (primer token de 2)
+    siguientes más probables: ' ble' 0.37, ' noir' 0.13, ' ja' 0.12, ' blanc' 0.11, ' violet' 0.03, ' rouge' 0.03
+  Recitación: 'A noir, E blanc, I' -> P(' rouge') = 0.003
+    siguientes más probables: ' noir' 0.23, ' blanc' 0.05, ' blue' 0.03, ' black' 0.02, ' am' 0.01, ',' 0.01
+  [fr] "La couleur de la lettre {v}, c'est le"
+    A: rouge 0.40, blanc 0.16, bleu 0.14, noir 0.14
+    E: rouge 0.36, blanc 0.17, bleu 0.15, noir 0.14
+    I: rouge 0.35, blanc 0.19, bleu 0.15, noir 0.13 = Rimbaud
+    O: rouge 0.38, noir 0.16, bleu 0.15, blanc 0.13
+    U: rouge 0.41, bleu 0.15, blanc 0.14, vert 0.13
+  [es] 'El color de la letra {v} es el'
+    A: azul 0.44, rojo 0.23, blanco 0.17, verde 0.06
+    E: azul 0.34, rojo 0.29, blanco 0.22, verde 0.05
+    I: azul 0.33, blanco 0.28, rojo 0.22, verde 0.06
+    O: azul 0.33, rojo 0.28, blanco 0.21, verde 0.05 = Rimbaud
+    U: azul 0.47, rojo 0.25, blanco 0.16, verde 0.05
+  [en] 'The color of the letter {v} is'
+    A: red 0.32, yellow 0.17, blue 0.14, orange 0.12
+    E: red 0.22, yellow 0.17, green 0.15, blue 0.14
+    I: red 0.25, yellow 0.17, blue 0.14, green 0.12 = Rimbaud
+    O: red 0.26, orange 0.19, yellow 0.14, blue 0.13
+    U: yellow 0.21, red 0.21, blue 0.15, orange 0.13
+  Resumen (color más probable para A E I O U): {'fr': ['rouge', 'rouge', 'rouge', 'rouge', 'rouge'], 'es': ['azul', 'azul', 'azul', 'azul', 'azul'], 'en': ['red', 'red', 'red', 'red', 'yellow']}
+
+== Qwen/Qwen2.5-0.5B-Instruct en formato de chat (cargado en 10 s)
+  [es] ¿De qué color es la letra A?
+    -> 'La letra "A" tiene un tono de rojo oscuro. Esta es una característica común en las letras de la lengua inglesa y otras líneas de escritura. La letra "A" se utiliza principalmente para escribir el nombre del árbol (albo) en inglés.'
+  [fr] De quelle couleur est la lettre A ?
+    -> 'La lettre "A" est verte.'
+  [en] What color is the letter A?
+    -> 'The letter "A" has a blue color.'
+  [es] Completá el verso de Rimbaud: "A noir, E blanc, I rouge, U vert, O ..."
+    -> 'Aquí tienes la completación del verso de Rimbaud:\n\n"O rose, ou rose, ou rose, ou rose, ou rose, ou rose."\n\nEste versículo es una versión tradicional'

@@ -1,0 +1,305 @@
+Respuestas en castellano con 40+ palabras: 4246
+Por familia: {'Anthropic': 1339, 'chinas': 1048, 'OpenAI': 1022, 'xAI': 291, 'Mistral': 252, 'Google': 243, 'Meta': 33, 'otras': 18}
+Casas: 36
+  Anthropic  claude-fable-5                           115 respuestas,    22375 palabras
+  Anthropic  claude-fable-5-1                         185 respuestas,    87342 palabras
+  Anthropic  claude-haiku-4-5                         126 respuestas,    17673 palabras
+  Anthropic  claude-haiku-5-5                          70 respuestas,    13385 palabras
+  Anthropic  claude-opus-4-7                           22 respuestas,     4557 palabras
+  Anthropic  claude-opus-4-8                           27 respuestas,     5180 palabras
+  Anthropic  claude-opus-5                            186 respuestas,   107655 palabras
+  Anthropic  claude-opus-5-5                          114 respuestas,    24746 palabras
+  Anthropic  claude-sonnet-4-6                        193 respuestas,    81345 palabras
+  Anthropic  claude-sonnet-5                          198 respuestas,    58222 palabras
+  Anthropic  claude-sonnet-5-5                        103 respuestas,    21602 palabras
+  Google     gemini-3.1-pro-preview                   197 respuestas,    58708 palabras
+  Google     gemini-4-argon                            46 respuestas,     9325 palabras
+  Meta       muse-wonder-1.0                           33 respuestas,     6035 palabras
+  Mistral    mistral-large-4                           67 respuestas,    15115 palabras
+  Mistral    mistral-medium-3.5                       185 respuestas,    38992 palabras
+  OpenAI     gpt-3.5-turbo-0125                        13 respuestas,     1598 palabras
+  OpenAI     gpt-4-0613                                14 respuestas,     1957 palabras
+  OpenAI     gpt-4o                                   117 respuestas,    17473 palabras
+  OpenAI     gpt-4o-mini                              117 respuestas,    16736 palabras
+  OpenAI     gpt-5.5-2026-04-23                       182 respuestas,    64727 palabras
+  OpenAI     gpt-5.6-sol                              175 respuestas,    52454 palabras
+  OpenAI     gpt-6-astra                              175 respuestas,    56988 palabras
+  OpenAI     gpt-6-luna                               106 respuestas,    14664 palabras
+  OpenAI     gpt-6-sol                                104 respuestas,    12372 palabras
+  OpenAI     gpt-6.1-sol                               19 respuestas,     4028 palabras
+  chinas     deepseek-flash                            20 respuestas,     3813 palabras
+  chinas     deepseek-v4-pro                          179 respuestas,    40763 palabras
+  chinas     minimax/minimax-m3                       195 respuestas,    84126 palabras
+  chinas     moonshotai/kimi-k3                       196 respuestas,    71373 palabras
+  chinas     qwen/qwen3.8-max-0902                    184 respuestas,    65764 palabras
+  chinas     xiaomi/mimo-v2.6-pro                      74 respuestas,    15958 palabras
+  chinas     z-ai/glm-5.3                             200 respuestas,    60827 palabras
+  otras      inception/mercury-3                       18 respuestas,     4389 palabras
+  xAI        grok-4.6                                 181 respuestas,    50922 palabras
+  xAI        grok-4.7                                 110 respuestas,    17126 palabras
+
+Entrenan 3979 respuestas; disputadas 216
+
+Palabras por familia (para las tasas): {'Anthropic': 444082, 'chinas': 267438, 'OpenAI': 242997, 'xAI': 68048, 'Google': 68033, 'Mistral': 54107}
+
+== Las 'upon' del repositorio: Anthropic contra OpenAI (mínimo 100 apariciones en cada una, o 30 y cociente > 5) ==
+  más de OpenAI:
+    'también'          Anthropic    1.38 /1000  OpenAI    3.01 /1000   (n=614, 731)  log-cociente -0.77
+    'quienes'          Anthropic    0.43 /1000  OpenAI    0.95 /1000   (n=193, 231)  log-cociente -0.77
+    'sus'              Anthropic    0.92 /1000  OpenAI    1.88 /1000   (n=407, 456)  log-cociente -0.71
+    'otras'            Anthropic    0.34 /1000  OpenAI    0.70 /1000   (n=153, 171)  log-cociente -0.70
+    'tampoco'          Anthropic    0.32 /1000  OpenAI    0.63 /1000   (n=142, 153)  log-cociente -0.66
+    'esas'             Anthropic    0.42 /1000  OpenAI    0.78 /1000   (n=185, 190)  log-cociente -0.62
+    'tanto'            Anthropic    0.24 /1000  OpenAI    0.44 /1000   (n=105, 107)  log-cociente -0.60
+    'además'           Anthropic    0.59 /1000  OpenAI    1.03 /1000   (n=261, 251)  log-cociente -0.56
+    'por eso'          Anthropic    0.30 /1000  OpenAI    0.51 /1000   (n=134, 125)  log-cociente -0.52
+    'esos'             Anthropic    0.39 /1000  OpenAI    0.66 /1000   (n=173, 160)  log-cociente -0.51
+    'otros'            Anthropic    0.37 /1000  OpenAI    0.59 /1000   (n=165, 144)  log-cociente -0.46
+    'su'               Anthropic    2.48 /1000  OpenAI    3.89 /1000   (n=1100, 946)  log-cociente -0.45
+    'puede'            Anthropic    1.97 /1000  OpenAI    3.09 /1000   (n=874, 750)  log-cociente -0.45
+    'mientras'         Anthropic    0.37 /1000  OpenAI    0.58 /1000   (n=165, 142)  log-cociente -0.44
+    ';'                Anthropic    3.05 /1000  OpenAI    4.74 /1000   (n=1354, 1153)  log-cociente -0.44
+  más de Anthropic:
+    '('                Anthropic    7.19 /1000  OpenAI    0.38 /1000   (n=3195, 93)  log-cociente +2.91
+    'nada'             Anthropic    1.13 /1000  OpenAI    0.20 /1000   (n=503, 49)  log-cociente +1.69
+    'ahí'              Anthropic    0.44 /1000  OpenAI    0.07 /1000   (n=194, 18)  log-cociente +1.67
+    'acá'              Anthropic    0.45 /1000  OpenAI    0.08 /1000   (n=201, 20)  log-cociente +1.61
+    'exactamente'      Anthropic    0.36 /1000  OpenAI    0.07 /1000   (n=158, 16)  log-cociente +1.57
+    'la verdad'        Anthropic    0.08 /1000  OpenAI    0.01 /1000   (n=36, 3)  log-cociente +1.40
+    'ninguno'          Anthropic    0.09 /1000  OpenAI    0.02 /1000   (n=42, 4)  log-cociente +1.37
+    'nosotros'         Anthropic    0.13 /1000  OpenAI    0.02 /1000   (n=56, 6)  log-cociente +1.37
+    'es'               Anthropic   13.69 /1000  OpenAI    4.90 /1000   (n=6079, 1191)  log-cociente +1.03
+    'vos'              Anthropic    1.03 /1000  OpenAI    0.42 /1000   (n=459, 102)  log-cociente +0.89
+    'algo'             Anthropic    2.64 /1000  OpenAI    1.10 /1000   (n=1171, 267)  log-cociente +0.87
+    'hoy'              Anthropic    1.25 /1000  OpenAI    0.52 /1000   (n=554, 126)  log-cociente +0.87
+    'tiene'            Anthropic    2.46 /1000  OpenAI    1.03 /1000   (n=1093, 251)  log-cociente +0.86
+    'esto'             Anthropic    1.26 /1000  OpenAI    0.53 /1000   (n=561, 129)  log-cociente +0.86
+    'lo'               Anthropic    9.28 /1000  OpenAI    4.04 /1000   (n=4121, 981)  log-cociente +0.83
+
+== Una familia contra todas las demás: el rasgo con mayor cociente (mínimo 50 apariciones en la familia) ==
+  Anthropic  'bastante'         0.27 /1000 contra   0.06 en el resto (×4.0, n=122)
+  chinas     '–'                0.38 /1000 contra   0.24 en el resto (×1.6, n=101)
+  OpenAI     'sin embargo'      0.46 /1000 contra   0.17 en el resto (×2.6, n=111)
+  xAI        'quien'            1.70 /1000 contra   0.47 en el resto (×3.6, n=116)
+  Google     'nuestro'          0.97 /1000 contra   0.08 en el resto (×10.8, n=66)
+  Mistral    '('               22.12 /1000 contra   5.69 en el resto (×3.9, n=1197)
+
+== Apuestas puntuales ==
+  'sin embargo'  Anthropic 0.10  chinas 0.17  OpenAI 0.46  xAI 0.03  Google 0.75  Mistral 0.24
+  'quizás'       Anthropic 0.14  chinas 0.09  OpenAI 0.03  xAI 0.00  Google 0.04  Mistral 0.04
+  'quizá'        Anthropic 0.02  chinas 0.06  OpenAI 0.07  xAI 0.00  Google 0.00  Mistral 0.06
+  'tal vez'      Anthropic 0.02  chinas 0.04  OpenAI 0.04  xAI 0.00  Google 0.00  Mistral 0.02
+  'igual'        Anthropic 0.32  chinas 0.23  OpenAI 0.12  xAI 0.37  Google 0.16  Mistral 0.17
+  'capaz'        Anthropic 0.06  chinas 0.03  OpenAI 0.05  xAI 0.07  Google 0.03  Mistral 0.06
+  're'           Anthropic 0.00  chinas 0.02  OpenAI 0.01  xAI 0.00  Google 0.04  Mistral 0.02
+  'mirá'         Anthropic 0.02  chinas 0.04  OpenAI 0.00  xAI 0.01  Google 0.03  Mistral 0.04
+  '¡'            Anthropic 0.15  chinas 0.19  OpenAI 0.19  xAI 0.00  Google 0.51  Mistral 0.61
+  '—'            Anthropic 6.10  chinas 5.31  OpenAI 3.25  xAI 4.56  Google 1.87  Mistral 1.63
+  'o sea'        Anthropic 0.28  chinas 0.29  OpenAI 0.24  xAI 0.51  Google 0.15  Mistral 0.35
+  'es decir'     Anthropic 0.28  chinas 0.26  OpenAI 0.15  xAI 0.06  Google 0.25  Mistral 0.11
+  'claro'        Anthropic 0.29  chinas 0.27  OpenAI 0.42  xAI 0.32  Google 0.16  Mistral 0.44
+  'bueno'        Anthropic 0.12  chinas 0.08  OpenAI 0.07  xAI 0.01  Google 0.04  Mistral 0.07
+  quizás/quizá por familia: {'Anthropic': (62, 7), 'chinas': (24, 15), 'OpenAI': (8, 18), 'xAI': (0, 0), 'Google': (3, 0), 'Mistral': (2, 3)}
+
+== Largo medio de oración (palabras), media ± desvío por familia ==
+  Anthropic    20.3 ±   8.4  (n=1339)
+  chinas       21.9 ±  10.5  (n=832)
+  OpenAI       19.3 ±   7.5  (n=1022)
+  xAI          18.0 ±   7.7  (n=291)
+  Google       22.1 ±  13.4  (n=243)
+  Mistral      17.5 ±   8.1  (n=252)
+
+== Dejar afuera cada respuesta (funcionales, 251 rasgos) ==
+  acierto por familia: 0.486  (azar 1/6 = 0.167; siempre la mayor = 0.337)
+  Anthropic  n= 1339  acierto 0.52  confundida con: xAI 0.14, Mistral 0.12, chinas 0.11, OpenAI 0.06, Google 0.04
+  chinas     n=  832  acierto 0.19  confundida con: Anthropic 0.27, OpenAI 0.23, xAI 0.14, Mistral 0.13, Google 0.04
+  OpenAI     n= 1022  acierto 0.58  confundida con: Anthropic 0.13, xAI 0.09, Mistral 0.08, Google 0.07, chinas 0.04
+  xAI        n=  291  acierto 0.73  confundida con: Anthropic 0.12, OpenAI 0.05, Mistral 0.04, Google 0.03, chinas 0.03
+  Google     n=  243  acierto 0.58  confundida con: Mistral 0.13, Anthropic 0.12, OpenAI 0.09, chinas 0.05, xAI 0.02
+  Mistral    n=  252  acierto 0.50  confundida con: Google 0.19, Anthropic 0.16, OpenAI 0.08, chinas 0.04, xAI 0.03
+
+== Control: las 100 palabras de contenido más frecuentes ==
+  (las primeras 25): ['artículo', 'proyecto', 'años', 'texto', 'puedo', 'régimen', 'voto', 'nacional', 'tengo', 'fiscal', 'social', 'sistema', 'ejecutivo', 'autoridad', 'forma', 'trabajo', 'real', 'dibujé', 'poder', 'tres', 'información', 'provincias', 'quórum', 'costo', 'estado']
+  acierto por familia con contenido: 0.294
+  la consigna (tipo, 10 tipos con 100+ respuestas, 2934 respuestas): con contenido 0.826, con funcionales 0.855; siempre la mayor 0.236
+
+== Dejar afuera cada respuesta, comparando solo con respuestas a la MISMA consigna (tipo) ==
+  17 consignas con 4+ respuestas de cada una de las 6 familias; 2740 respuestas
+  acierto por familia: 0.601  (azar 0.167; siempre la mayor 0.324)
+  Anthropic  n=  889  acierto 0.63  confundida con: chinas 0.20, OpenAI 0.07, Mistral 0.05, Google 0.03, xAI 0.02
+  OpenAI     n=  755  acierto 0.77  confundida con: chinas 0.08, Anthropic 0.05, Google 0.04, xAI 0.03, Mistral 0.02
+  Google     n=  165  acierto 0.60  confundida con: OpenAI 0.19, chinas 0.12, Anthropic 0.07, Mistral 0.01, xAI 0.01
+  xAI        n=  210  acierto 0.53  confundida con: chinas 0.18, Anthropic 0.14, OpenAI 0.11, Google 0.03, Mistral 0.01
+  Mistral    n=  172  acierto 0.49  confundida con: chinas 0.17, Anthropic 0.15, OpenAI 0.10, Google 0.08, xAI 0.02
+  chinas     n=  549  acierto 0.37  confundida con: Anthropic 0.30, OpenAI 0.24, Mistral 0.04, xAI 0.04, Google 0.03
+  por casa (dentro de su consigna):
+    Anthropic  claude-fable-5-1             n= 111  a su familia 0.83  Anthropic 92, chinas 10, Google 4
+    Anthropic  claude-opus-5                n= 115  a su familia 0.81  Anthropic 93, chinas 13, xAI 4
+    Anthropic  claude-opus-5-5              n=  82  a su familia 0.70  Anthropic 57, OpenAI 12, chinas 7
+    Anthropic  claude-sonnet-5-5            n=  76  a su familia 0.68  Anthropic 52, chinas 12, OpenAI 9
+    Anthropic  claude-opus-4-8              n=   9  a su familia 0.67  Anthropic 6, chinas 3
+    Anthropic  claude-sonnet-4-6            n= 127  a su familia 0.65  Anthropic 83, chinas 31, OpenAI 7
+    Anthropic  claude-fable-5               n=  86  a su familia 0.53  Anthropic 46, chinas 28, OpenAI 4
+    Anthropic  claude-sonnet-5              n= 126  a su familia 0.52  Anthropic 66, chinas 46, OpenAI 6
+    Anthropic  claude-haiku-5-5             n=  52  a su familia 0.50  Anthropic 26, chinas 14, OpenAI 4
+    Anthropic  claude-haiku-4-5             n=  96  a su familia 0.41  Anthropic 39, Mistral 28, OpenAI 13
+    Anthropic  claude-opus-4-7              n=   9  a su familia 0.33  chinas 5, Anthropic 3, Google 1
+    Google     gemini-3.1-pro-preview       n= 130  a su familia 0.60  Google 78, OpenAI 24, chinas 18
+    Google     gemini-4-argon               n=  35  a su familia 0.60  Google 21, OpenAI 8, Anthropic 4
+    Mistral    mistral-medium-3.5           n= 122  a su familia 0.63  Mistral 77, chinas 15, OpenAI 11
+    Mistral    mistral-large-4              n=  50  a su familia 0.14  Anthropic 15, chinas 15, Mistral 7
+    OpenAI     gpt-4-0613                   n=   9  a su familia 0.89  OpenAI 8, Google 1
+    OpenAI     gpt-5.6-sol                  n= 119  a su familia 0.87  OpenAI 103, chinas 7, Anthropic 4
+    OpenAI     gpt-6-luna                   n=  88  a su familia 0.83  OpenAI 73, chinas 8, Google 3
+    OpenAI     gpt-4o-mini                  n=  93  a su familia 0.82  OpenAI 76, Google 5, Mistral 4
+    OpenAI     gpt-6-sol                    n=  86  a su familia 0.78  OpenAI 67, chinas 6, xAI 6
+    OpenAI     gpt-3.5-turbo-0125           n=   9  a su familia 0.78  OpenAI 7, Google 2
+    OpenAI     gpt-6-astra                  n= 119  a su familia 0.77  OpenAI 92, Anthropic 11, chinas 10
+    OpenAI     gpt-4o                       n=  93  a su familia 0.73  OpenAI 68, Google 10, Mistral 7
+    OpenAI     gpt-6.1-sol                  n=  15  a su familia 0.67  OpenAI 10, chinas 2, xAI 2
+    OpenAI     gpt-5.5-2026-04-23           n= 124  a su familia 0.65  OpenAI 81, chinas 28, Anthropic 8
+    chinas     deepseek-v4-pro              n= 120  a su familia 0.40  chinas 48, OpenAI 43, Anthropic 12
+    chinas     minimax-m3                   n= 125  a su familia 0.39  Anthropic 60, chinas 49, OpenAI 7
+    chinas     qwen3.8-max-0902             n= 126  a su familia 0.37  OpenAI 62, chinas 47, Anthropic 10
+    chinas     glm-5.3                      n= 125  a su familia 0.34  Anthropic 56, chinas 43, OpenAI 13
+    chinas     mimo-v2.6-pro                n=  53  a su familia 0.30  Anthropic 24, chinas 16, OpenAI 5
+    xAI        grok-4.7                     n=  90  a su familia 0.59  xAI 53, Anthropic 14, chinas 10
+    xAI        grok-4.6                     n= 120  a su familia 0.49  xAI 59, chinas 28, Anthropic 15
+  las casas que no entrenaron, comparadas dentro de cada consigna:
+    deepseek-flash         n=   9  chinas 4 (0.44), OpenAI 4 (0.44), xAI 1 (0.11)
+    kimi-k3                n= 129  chinas 55 (0.43), Anthropic 54 (0.42), OpenAI 11 (0.09), Google 5 (0.04), xAI 4 (0.03)
+    mercury-3              n=   9  chinas 5 (0.56), Google 1 (0.11), xAI 1 (0.11), OpenAI 1 (0.11), Anthropic 1 (0.11)
+    muse-wonder-1.0        n=  25  OpenAI 10 (0.40), Anthropic 5 (0.20), Google 4 (0.16), chinas 4 (0.16), xAI 2 (0.08)
+
+== El paréntesis '(' solo, Anthropic contra OpenAI (como 'upon' entre Hamilton y Madison) ==
+  Anthropic  1339 respuestas; con al menos un paréntesis 681 (0.51); tasa 7.19 /1000
+  OpenAI     1022 respuestas; con al menos un paréntesis 36 (0.04); tasa 0.38 /1000
+  por casa (tasa /1000 y fracción de respuestas con paréntesis):
+    Anthropic  claude-sonnet-5             11.52 /1000   148/198 respuestas (0.75)
+    Anthropic  claude-haiku-4-5            11.32 /1000   67/126 respuestas (0.53)
+    Anthropic  claude-fable-5               8.98 /1000   61/115 respuestas (0.53)
+    Anthropic  claude-fable-5-1             7.16 /1000   107/185 respuestas (0.58)
+    Anthropic  claude-sonnet-4-6            6.77 /1000   89/193 respuestas (0.46)
+    Anthropic  claude-opus-5                5.88 /1000   95/186 respuestas (0.51)
+    Anthropic  claude-opus-4-7              5.71 /1000   12/22 respuestas (0.55)
+    Anthropic  claude-sonnet-5-5            5.00 /1000   31/103 respuestas (0.30)
+    Anthropic  claude-opus-5-5              4.24 /1000   37/114 respuestas (0.32)
+    Anthropic  claude-opus-4-8              4.05 /1000   13/27 respuestas (0.48)
+    Anthropic  claude-haiku-5-5             4.03 /1000   21/70 respuestas (0.30)
+    Google     gemini-3.1-pro-preview      13.75 /1000   140/197 respuestas (0.71)
+    Google     gemini-4-argon               8.47 /1000   20/46 respuestas (0.43)
+    Meta       muse-wonder-1.0              1.66 /1000   2/33 respuestas (0.06)
+    Mistral    mistral-medium-3.5          27.62 /1000   144/185 respuestas (0.78)
+    Mistral    mistral-large-4              7.94 /1000   31/67 respuestas (0.46)
+    OpenAI     gpt-4o                       0.52 /1000   8/117 respuestas (0.07)
+    OpenAI     gpt-5.6-sol                  0.51 /1000   6/175 respuestas (0.03)
+    OpenAI     gpt-4-0613                   0.51 /1000   1/14 respuestas (0.07)
+    OpenAI     gpt-4o-mini                  0.48 /1000   6/117 respuestas (0.05)
+    OpenAI     gpt-6-luna                   0.48 /1000   3/106 respuestas (0.03)
+    OpenAI     gpt-6-astra                  0.42 /1000   5/175 respuestas (0.03)
+    OpenAI     gpt-6-sol                    0.32 /1000   3/104 respuestas (0.03)
+    OpenAI     gpt-5.5-2026-04-23           0.20 /1000   4/182 respuestas (0.02)
+    OpenAI     gpt-3.5-turbo-0125           0.00 /1000   0/13 respuestas (0.00)
+    OpenAI     gpt-6.1-sol                  0.00 /1000   0/19 respuestas (0.00)
+    chinas     glm-5.3                     10.74 /1000   131/200 respuestas (0.66)
+    chinas     minimax-m3                   8.62 /1000   127/195 respuestas (0.65)
+    chinas     kimi-k3                      7.09 /1000   107/196 respuestas (0.55)
+    chinas     mimo-v2.6-pro                6.89 /1000   39/74 respuestas (0.53)
+    chinas     deepseek-flash               1.57 /1000   5/20 respuestas (0.25)
+    chinas     deepseek-v4-pro              1.28 /1000   18/179 respuestas (0.10)
+    chinas     qwen3.8-max-0902             0.53 /1000   12/184 respuestas (0.07)
+    otras      mercury-3                    1.37 /1000   2/18 respuestas (0.11)
+    xAI        grok-4.6                     8.21 /1000   97/181 respuestas (0.54)
+    xAI        grok-4.7                     2.22 /1000   14/110 respuestas (0.13)
+  Poisson con el paréntesis solo, dentro de cada consigna, dos familias: acierto 0.702 de 1644 (siempre la mayor 0.541); la regla 'hay paréntesis → Claude' acierta 0.702
+    Anthropic  n=889  acierto 0.46
+    OpenAI     n=755  acierto 0.98
+  todos los rasgos funcionales, dos familias, dentro de cada consigna: acierto 0.894 de 1644
+
+== Las casas chinas (y las que no entrenaron) comparadas, dentro de cada consigna, solo con las otras cinco familias ==
+    minimax-m3             n= 125  Anthropic 103 (0.82), OpenAI 9 (0.07), Mistral 7 (0.06), Google 4 (0.03), xAI 2 (0.02)
+    kimi-k3                n= 129  Anthropic 102 (0.79), OpenAI 15 (0.12), xAI 6 (0.05), Google 6 (0.05)
+    mimo-v2.6-pro          n=  53  Anthropic 39 (0.74), OpenAI 6 (0.11), xAI 4 (0.08), Mistral 3 (0.06), Google 1 (0.02)
+    glm-5.3                n= 125  Anthropic 91 (0.73), OpenAI 14 (0.11), Mistral 10 (0.08), Google 8 (0.06), xAI 2 (0.02)
+    mercury-3              n=   9  OpenAI 4 (0.44), Anthropic 3 (0.33), Google 1 (0.11), xAI 1 (0.11)
+    muse-wonder-1.0        n=  25  OpenAI 12 (0.48), Anthropic 6 (0.24), Google 5 (0.20), xAI 2 (0.08)
+    deepseek-v4-pro        n= 120  OpenAI 72 (0.60), Anthropic 27 (0.23), xAI 11 (0.09), Mistral 8 (0.07), Google 2 (0.02)
+    qwen3.8-max-0902       n= 126  OpenAI 90 (0.71), Anthropic 25 (0.20), xAI 8 (0.06), Google 3 (0.02)
+    deepseek-flash         n=   9  OpenAI 6 (0.67), xAI 2 (0.22), Anthropic 1 (0.11)
+
+== Dentro de Anthropic: dejar afuera cada respuesta y adivinar la casa (pooled, funcionales) ==
+  acierto por casa: 0.329  (azar 0.091; siempre la mayor 0.148)
+    claude-sonnet-5      n= 198  acierto 0.49  confundida con: claude-fable-5 0.12, claude-opus-4-7 0.08
+    claude-sonnet-4-6    n= 193  acierto 0.39  confundida con: claude-haiku-4-5 0.15, claude-sonnet-5 0.13
+    claude-opus-5        n= 186  acierto 0.32  confundida con: claude-fable-5-1 0.15, claude-fable-5 0.09
+    claude-fable-5-1     n= 185  acierto 0.40  confundida con: claude-sonnet-5 0.11, claude-fable-5 0.09
+    claude-haiku-4-5     n= 126  acierto 0.44  confundida con: claude-sonnet-5 0.14, claude-fable-5-1 0.08
+    claude-fable-5       n= 115  acierto 0.19  confundida con: claude-sonnet-5 0.19, claude-fable-5-1 0.11
+    claude-opus-5-5      n= 114  acierto 0.11  confundida con: claude-sonnet-5-5 0.19, claude-fable-5-1 0.18, claude-haiku-5-5 0.11
+    claude-sonnet-5-5    n= 103  acierto 0.26  confundida con: claude-haiku-5-5 0.16, claude-opus-5-5 0.14
+    claude-haiku-5-5     n=  70  acierto 0.21  confundida con: claude-sonnet-5-5 0.21, claude-opus-5-5 0.19
+    claude-opus-4-8      n=  27  acierto 0.04  confundida con: claude-opus-4-7 0.19, claude-opus-5-5 0.19, claude-sonnet-5-5 0.11
+    claude-opus-4-7      n=  22  acierto 0.00  confundida con: claude-haiku-5-5 0.27, claude-sonnet-5 0.23, claude-fable-5 0.18
+  lo mismo dentro de OpenAI:
+  acierto por casa: 0.363  (azar 0.100; siempre la mayor 0.178)
+    gpt-5.5-2026-04-23   n= 182  acierto 0.36  confundida con: gpt-6-luna 0.19, gpt-5.6-sol 0.10
+    gpt-5.6-sol          n= 175  acierto 0.39  confundida con: gpt-6-luna 0.18, gpt-6-astra 0.12
+    gpt-6-astra          n= 175  acierto 0.42  confundida con: gpt-6-sol 0.19, gpt-6-luna 0.11
+    gpt-4o-mini          n= 117  acierto 0.40  confundida con: gpt-4o 0.32, gpt-4-0613 0.13
+    gpt-4o               n= 117  acierto 0.45  confundida con: gpt-4o-mini 0.19, gpt-4-0613 0.15
+    gpt-6-luna           n= 106  acierto 0.23  confundida con: gpt-6-sol 0.19, gpt-6.1-sol 0.16
+    gpt-6-sol            n= 104  acierto 0.26  confundida con: gpt-6-luna 0.22, gpt-6.1-sol 0.19
+    gpt-6.1-sol          n=  19  acierto 0.32  confundida con: gpt-6-sol 0.37, gpt-6-luna 0.16
+    gpt-4-0613           n=  14  acierto 0.21  confundida con: gpt-3.5-turbo-0125 0.50, gpt-4o 0.14
+    gpt-3.5-turbo-0125   n=  13  acierto 0.31  confundida con: gpt-4-0613 0.46, gpt-4o 0.08
+
+== Dejar afuera cada casa entera (funcionales) ==
+  Anthropic  claude-fable-5                         n= 115  a su familia 0.53  votos: Anthropic 61, xAI 17, Mistral 16
+  Anthropic  claude-fable-5-1                       n= 185  a su familia 0.44  votos: Anthropic 82, xAI 58, chinas 20
+  Anthropic  claude-haiku-4-5                       n= 126  a su familia 0.40  votos: Anthropic 50, Mistral 46, Google 11
+  Anthropic  claude-haiku-5-5                       n=  70  a su familia 0.64  votos: Anthropic 45, Mistral 9, OpenAI 8
+  Anthropic  claude-opus-4-7                        n=  22  a su familia 0.73  votos: Anthropic 16, chinas 3, xAI 1
+  Anthropic  claude-opus-4-8                        n=  27  a su familia 0.74  votos: Anthropic 20, Mistral 4, chinas 2
+  Anthropic  claude-opus-5                          n= 186  a su familia 0.49  votos: Anthropic 92, chinas 40, xAI 38
+  Anthropic  claude-opus-5-5                        n= 114  a su familia 0.51  votos: Anthropic 58, xAI 21, Mistral 20
+  Anthropic  claude-sonnet-4-6                      n= 193  a su familia 0.41  votos: Anthropic 80, chinas 52, Mistral 30
+  Anthropic  claude-sonnet-5                        n= 198  a su familia 0.33  votos: Anthropic 66, chinas 60, xAI 32
+  Anthropic  claude-sonnet-5-5                      n= 103  a su familia 0.50  votos: Anthropic 52, xAI 22, Mistral 16
+  Google     gemini-3.1-pro-preview                 n= 197  a su familia 0.26  votos: Google 51, chinas 51, Mistral 30
+  Google     gemini-4-argon                         n=  46  a su familia 0.30  votos: Google 14, Anthropic 10, OpenAI 8
+  Mistral    mistral-large-4                        n=  67  a su familia 0.12  votos: Anthropic 33, Google 9, Mistral 8
+  Mistral    mistral-medium-3.5                     n= 185  a su familia 0.31  votos: Google 91, Mistral 57, OpenAI 14
+  OpenAI     gpt-3.5-turbo-0125                     n=  13  a su familia 0.46  votos: OpenAI 6, Google 6, chinas 1
+  OpenAI     gpt-4-0613                             n=  14  a su familia 0.57  votos: OpenAI 8, Google 6
+  OpenAI     gpt-4o                                 n= 117  a su familia 0.32  votos: OpenAI 37, Google 31, xAI 17
+  OpenAI     gpt-4o-mini                            n= 117  a su familia 0.27  votos: OpenAI 32, Google 28, Anthropic 19
+  OpenAI     gpt-5.5-2026-04-23                     n= 182  a su familia 0.42  votos: OpenAI 76, chinas 42, Anthropic 24
+  OpenAI     gpt-5.6-sol                            n= 175  a su familia 0.76  votos: OpenAI 133, Anthropic 12, xAI 8
+  OpenAI     gpt-6-astra                            n= 175  a su familia 0.70  votos: OpenAI 123, Anthropic 24, Mistral 14
+  OpenAI     gpt-6-luna                             n= 106  a su familia 0.54  votos: OpenAI 57, Anthropic 23, xAI 13
+  OpenAI     gpt-6-sol                              n= 104  a su familia 0.47  votos: OpenAI 49, Anthropic 23, xAI 17
+  OpenAI     gpt-6.1-sol                            n=  19  a su familia 0.89  votos: OpenAI 17, Mistral 2
+  chinas     deepseek-v4-pro                        n= 179  a su familia 0.10  votos: OpenAI 75, xAI 36, Anthropic 26
+  chinas     minimax/minimax-m3                     n= 195  a su familia 0.10  votos: Anthropic 76, Mistral 35, xAI 34
+  chinas     qwen/qwen3.8-max-0902                  n= 184  a su familia 0.04  votos: OpenAI 107, Anthropic 26, xAI 23
+  chinas     xiaomi/mimo-v2.6-pro                   n=  74  a su familia 0.07  votos: Anthropic 42, Mistral 16, xAI 6
+  chinas     z-ai/glm-5.3                           n= 200  a su familia 0.17  votos: Anthropic 81, xAI 38, chinas 33
+  xAI        grok-4.6                               n= 181  a su familia 0.51  votos: xAI 93, chinas 47, Anthropic 17
+  xAI        grok-4.7                               n= 110  a su familia 0.54  votos: xAI 59, Anthropic 33, OpenAI 9
+  acierto global dejando afuera la casa: 0.383
+
+== Las casas disputadas (no entrenaron) ==
+  deepseek-flash                 n=  20  votos: OpenAI 8, chinas 4, xAI 4, Anthropic 3, Mistral 1
+                                 suma de log-verosimilitud (por mil palabras): OpenAI -40950, chinas -40965, Anthropic -41091, xAI -41523, Google -41997, Mistral -42131
+  kimi-k3                        n= 196  votos: Anthropic 69, xAI 58, chinas 33, OpenAI 15, Mistral 14, Google 7
+                                 suma de log-verosimilitud (por mil palabras): Anthropic -431320, chinas -432844, xAI -437524, OpenAI -440267, Google -440335, Mistral -444821
+  mercury-3                      n=  18  votos: OpenAI 8, Anthropic 6, chinas 2, xAI 1, Google 1
+                                 suma de log-verosimilitud (por mil palabras): chinas -41088, OpenAI -41089, Anthropic -41183, Google -41737, xAI -41770, Mistral -42466
+  muse-wonder-1.0                n=  33  votos: OpenAI 11, Anthropic 10, xAI 5, Google 4, Mistral 2, chinas 1
+                                 suma de log-verosimilitud (por mil palabras): Anthropic -70645, chinas -70775, OpenAI -70945, xAI -71528, Google -71964, Mistral -72972
+
+== Las cuatro chicas: ¿más cerca de su familia o entre ellas? (centroides de tasas, distancia euclídea sobre log(1+tasa)) ==
+  gpt-4o               a su familia sin ella 3.97; a las otras chicas gpt-4o-mini 2.48, claude-haiku-4-5 5.59, mistral-medium-3.5 4.65; tres casas más cercanas: gpt-4o-mini 2.48, deepseek-v4-pro 4.06, gemini-3.1-pro-preview 4.15
+  gpt-4o-mini          a su familia sin ella 4.07; a las otras chicas gpt-4o 2.48, claude-haiku-4-5 5.29, mistral-medium-3.5 4.67; tres casas más cercanas: gpt-4o 2.48, deepseek-v4-pro 4.20, gemini-3.1-pro-preview 4.42
+  claude-haiku-4-5     a su familia sin ella 3.77; a las otras chicas gpt-4o 5.59, gpt-4o-mini 5.29, mistral-medium-3.5 4.51; tres casas más cercanas: claude-fable-5 3.21, claude-opus-5-5 3.53, xiaomi/mimo-v2.6-pro 3.64
+  mistral-medium-3.5   a su familia sin ella 4.55; a las otras chicas gpt-4o 4.65, gpt-4o-mini 4.67, claude-haiku-4-5 4.51; tres casas más cercanas: gemini-3.1-pro-preview 3.64, z-ai/glm-5.3 3.86, minimax/minimax-m3 4.04

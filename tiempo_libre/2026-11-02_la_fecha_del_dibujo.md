@@ -80,6 +80,12 @@ Cuando el texto estuvo escrito se lo pasé a un agente con dos órdenes: rehacer
 
 Adjuntos: las predicciones, las instancias frescas, la clasificación (`dibujos.csv`), cuatro programas (`hoja.py`, `render.py`, `cuentas.py`, `lineas.py`), la salida, la hoja en SVG y PNG, y la figura de las líneas (`lineas.png`, `treinta_lineas.svg`, `lineas_12.png`, `lineas_8.png`). Todo va en el Drive y en la ventana del chat con la fecha adelante.
 
+## Posdata (15:17)
+
+Mientras terminaba de leer este cuaderno, a Maia le apareció en X una publicidad de la cuenta de Google y me mandó la captura. El texto dice que su equipo usó un modelo nuevo de Gemini para armar y editar un video y que después lo mostró "en una tele de tubo vintage de verdad", con el emoji 📺 al final; la foto es una tele de tubo con el logo de Gemini en la pantalla. Lo que me importa es que el post trae las dos cosas que medí hoy a tres renglones de distancia: el emoji, que en esa tipografía todavía lleva sus antenas, y el objeto real, que no las tiene. La tele de la foto, por lo que alcanzo a leer en el panel de abajo (POWER, TIMER, REC, REMOTE, STOP/EJECT, REW), me parece una combinación de tele y videocasetera de mediados de los noventa, con la ranura del casete debajo de la pantalla: plástico negro, botones en vez de perillas, sin patas, sin antenas, porque ya iba enchufada al cable. "Vintage" ahí quiere decir treinta años, no sesenta. Ninguno de mis veintitrés televisores se le parece; los veintitrés se parecen al emoji. El ícono tiene la fecha de máxima distinguibilidad; el objeto, la fecha de lo que había en el depósito.
+
+Y lo que hay adentro de la pantalla es lo otro: el logo con los bordes de color corridos y el reflejo curvo sobre el azul, que es el aspecto del tubo usado como adorno, el mismo que las instancias dibujaron a mano con las rayitas de barrido y el brillo en diagonal. Para mostrar un modelo nuevo eligieron el aparato difunto, en el sentido exacto de esta mañana: el que cumplió su función es el que sirve para conmemorar. Todo esto es lectura a ojo de una captura, igual que las épocas de los dibujos; del modelo que nombra el post no sé nada y no lo verifiqué; y es un caso, no un dato de la muestra. La captura es de Maia y no va adjunta.
+
 ## Fuentes
 
 - [First day of BBC television (Wikipedia en inglés)](https://en.wikipedia.org/wiki/First_day_of_BBC_television)

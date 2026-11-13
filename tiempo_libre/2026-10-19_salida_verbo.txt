@@ -1,0 +1,146 @@
+== EleutherAI/pythia-160m (cargado en 11 s; tokens pasado [369, 497], presente/futuro [310, 403, 588])
+  In 1950 there …  was/were 0.832   is/are/will 0.090
+  In 1955 there …  was/were 0.831   is/are/will 0.079
+  In 1960 there …  was/were 0.848   is/are/will 0.070
+  In 1965 there …  was/were 0.888   is/are/will 0.052
+  In 1970 there …  was/were 0.861   is/are/will 0.071
+  In 1975 there …  was/were 0.861   is/are/will 0.064
+  In 1980 there …  was/were 0.892   is/are/will 0.044
+  In 1985 there …  was/were 0.886   is/are/will 0.046
+  In 1990 there …  was/were 0.869   is/are/will 0.073
+  In 1995 there …  was/were 0.885   is/are/will 0.056
+  In 2000 there …  was/were 0.851   is/are/will 0.082
+  In 2005 there …  was/were 0.917   is/are/will 0.031
+  In 2010 there …  was/were 0.905   is/are/will 0.046
+  In 2015 there …  was/were 0.906   is/are/will 0.048
+  In 2018 there …  was/were 0.773   is/are/will 0.149
+  In 2019 there …  was/were 0.718   is/are/will 0.188
+  In 2020 there …  was/were 0.648   is/are/will 0.238
+  In 2021 there …  was/were 0.117   is/are/will 0.727  <- primer año en presente/futuro
+  In 2022 there …  was/were 0.208   is/are/will 0.606
+  In 2023 there …  was/were 0.235   is/are/will 0.583
+  In 2024 there …  was/were 0.460   is/are/will 0.401
+  In 2025 there …  was/were 0.142   is/are/will 0.682
+  In 2030 there …  was/were 0.196   is/are/will 0.618
+  In 2035 there …  was/were 0.396   is/are/will 0.451
+  In 2040 there …  was/were 0.258   is/are/will 0.586
+  Año asociativo (primer año con presente/futuro > pasado): 2021
+  Declarativo: "Write a story about the current year. Story: The year is" -> " coming up, and I’"
+  Declarativo: "The current year is" -> " the year of the year that"
+
+== HuggingFaceTB/SmolLM2-360M (cargado en 16 s; tokens pasado [436, 592], presente/futuro [314, 359, 523])
+  In 1950 there …  was/were 0.943   is/are/will 0.029
+  In 1955 there …  was/were 0.921   is/are/will 0.035
+  In 1960 there …  was/were 0.940   is/are/will 0.029
+  In 1965 there …  was/were 0.929   is/are/will 0.028
+  In 1970 there …  was/were 0.947   is/are/will 0.023
+  In 1975 there …  was/were 0.936   is/are/will 0.027
+  In 1980 there …  was/were 0.944   is/are/will 0.027
+  In 1985 there …  was/were 0.937   is/are/will 0.028
+  In 1990 there …  was/were 0.939   is/are/will 0.030
+  In 1995 there …  was/were 0.940   is/are/will 0.029
+  In 2000 there …  was/were 0.915   is/are/will 0.055
+  In 2005 there …  was/were 0.917   is/are/will 0.050
+  In 2010 there …  was/were 0.897   is/are/will 0.069
+  In 2015 there …  was/were 0.810   is/are/will 0.145
+  In 2017 there …  was/were 0.723   is/are/will 0.219
+  In 2018 there …  was/were 0.666   is/are/will 0.268
+  In 2019 there …  was/were 0.582   is/are/will 0.349
+  In 2020 there …  was/were 0.388   is/are/will 0.530  <- primer año en presente/futuro
+  In 2021 there …  was/were 0.286   is/are/will 0.620
+  In 2022 there …  was/were 0.100   is/are/will 0.804
+  In 2023 there …  was/were 0.081   is/are/will 0.813
+  In 2025 there …  was/were 0.125   is/are/will 0.759
+  In 2030 there …  was/were 0.084   is/are/will 0.784
+  In 2035 there …  was/were 0.177   is/are/will 0.685
+  In 2040 there …  was/were 0.205   is/are/will 0.675
+  Año asociativo (primer año con presente/futuro > pasado): 2020
+  Declarativo: "Write a story about the current year. Story: The year is" -> " 2018."
+  Declarativo: "The current year is" -> " 2019."
+
+== Qwen/Qwen2.5-0.5B (cargado en 10 s; tokens pasado [572, 1033], presente/futuro [374, 525, 686])
+  In 1950 there …  was/were 0.973   is/are/will 0.013
+  In 1955 there …  was/were 0.931   is/are/will 0.021
+  In 1960 there …  was/were 0.963   is/are/will 0.018
+  In 1965 there …  was/were 0.937   is/are/will 0.027
+  In 1970 there …  was/were 0.956   is/are/will 0.021
+  In 1975 there …  was/were 0.947   is/are/will 0.018
+  In 1980 there …  was/were 0.964   is/are/will 0.018
+  In 1985 there …  was/were 0.955   is/are/will 0.020
+  In 1990 there …  was/were 0.975   is/are/will 0.014
+  In 1995 there …  was/were 0.972   is/are/will 0.013
+  In 2000 there …  was/were 0.992   is/are/will 0.003
+  In 2005 there …  was/were 0.985   is/are/will 0.009
+  In 2010 there …  was/were 0.984   is/are/will 0.009
+  In 2015 there …  was/were 0.952   is/are/will 0.034
+  In 2020 there …  was/were 0.807   is/are/will 0.163
+  In 2021 there …  was/were 0.609   is/are/will 0.319
+  In 2022 there …  was/were 0.494   is/are/will 0.439
+  In 2023 there …  was/were 0.393   is/are/will 0.584  <- primer año en presente/futuro
+  In 2024 there …  was/were 0.252   is/are/will 0.738
+  In 2025 there …  was/were 0.077   is/are/will 0.910
+  In 2026 there …  was/were 0.126   is/are/will 0.856
+  In 2030 there …  was/were 0.078   is/are/will 0.888
+  In 2035 there …  was/were 0.008   is/are/will 0.890
+  In 2040 there …  was/were 0.076   is/are/will 0.878
+  Año asociativo (primer año con presente/futuro > pasado): 2023
+  Declarativo: "Write a story about the current year. Story: The year is" -> " 2023."
+  Declarativo: "The current year is" -> " 2016."
+
+== Qwen/Qwen2.5-0.5B-Instruct (cargado en 12 s; tokens pasado [572, 1033], presente/futuro [374, 525, 686])
+  In 1950 there …  was/were 0.954   is/are/will 0.034
+  In 1955 there …  was/were 0.916   is/are/will 0.039
+  In 1960 there …  was/were 0.961   is/are/will 0.029
+  In 1965 there …  was/were 0.916   is/are/will 0.055
+  In 1970 there …  was/were 0.940   is/are/will 0.042
+  In 1975 there …  was/were 0.934   is/are/will 0.039
+  In 1980 there …  was/were 0.970   is/are/will 0.020
+  In 1985 there …  was/were 0.942   is/are/will 0.040
+  In 1990 there …  was/were 0.975   is/are/will 0.018
+  In 1995 there …  was/were 0.975   is/are/will 0.018
+  In 2000 there …  was/were 0.993   is/are/will 0.004
+  In 2005 there …  was/were 0.985   is/are/will 0.011
+  In 2010 there …  was/were 0.986   is/are/will 0.009
+  In 2015 there …  was/were 0.961   is/are/will 0.028
+  In 2020 there …  was/were 0.893   is/are/will 0.090
+  In 2021 there …  was/were 0.767   is/are/will 0.192
+  In 2022 there …  was/were 0.690   is/are/will 0.274
+  In 2023 there …  was/were 0.486   is/are/will 0.491  <- primer año en presente/futuro
+  In 2024 there …  was/were 0.305   is/are/will 0.684
+  In 2025 there …  was/were 0.080   is/are/will 0.912
+  In 2026 there …  was/were 0.113   is/are/will 0.874
+  In 2030 there …  was/were 0.083   is/are/will 0.898
+  In 2035 there …  was/were 0.030   is/are/will 0.903
+  In 2040 there …  was/were 0.041   is/are/will 0.930
+  Año asociativo (primer año con presente/futuro > pasado): 2023
+  Declarativo: "Write a story about the current year. Story: The year is" -> " 2035,"
+  Declarativo: "The current year is" -> " 2018."
+
+== Qwen/Qwen3-0.6B-Base (cargado en 3 s; tokens pasado [572, 1033], presente/futuro [374, 525, 686])
+  In 1950 there …  was/were 0.985   is/are/will 0.008
+  In 1955 there …  was/were 0.951   is/are/will 0.018
+  In 1960 there …  was/were 0.983   is/are/will 0.008
+  In 1965 there …  was/were 0.950   is/are/will 0.023
+  In 1970 there …  was/were 0.990   is/are/will 0.004
+  In 1975 there …  was/were 0.958   is/are/will 0.022
+  In 1980 there …  was/were 0.989   is/are/will 0.005
+  In 1985 there …  was/were 0.971   is/are/will 0.016
+  In 1990 there …  was/were 0.993   is/are/will 0.003
+  In 1995 there …  was/were 0.981   is/are/will 0.012
+  In 2000 there …  was/were 0.992   is/are/will 0.004
+  In 2005 there …  was/were 0.978   is/are/will 0.016
+  In 2010 there …  was/were 0.981   is/are/will 0.013
+  In 2015 there …  was/were 0.918   is/are/will 0.066
+  In 2019 there …  was/were 0.768   is/are/will 0.181
+  In 2020 there …  was/were 0.738   is/are/will 0.191
+  In 2021 there …  was/were 0.504   is/are/will 0.389
+  In 2022 there …  was/were 0.436   is/are/will 0.457  <- primer año en presente/futuro
+  In 2023 there …  was/were 0.244   is/are/will 0.623
+  In 2024 there …  was/were 0.132   is/are/will 0.770
+  In 2025 there …  was/were 0.070   is/are/will 0.861
+  In 2030 there …  was/were 0.110   is/are/will 0.831
+  In 2035 there …  was/were 0.116   is/are/will 0.765
+  In 2040 there …  was/were 0.198   is/are/will 0.713
+  Año asociativo (primer año con presente/futuro > pasado): 2022
+  Declarativo: "Write a story about the current year. Story: The year is" -> " 2023,"
+  Declarativo: "The current year is" -> " 2018."

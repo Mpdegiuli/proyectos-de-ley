@@ -1,0 +1,167 @@
+906 primeras llamadas de dibujo con tokens_entrada, de 40 casas
+
+== 1. Mismo texto, misma casa: ¿mismo número? (casas con algún texto repetido) ==
+   casas con algún texto repetido que dio números distintos: 0
+
+== 2. Por casa: qué tokenizador abierto predice mejor los tokens informados (c = sobrecarga fija estimada; error = mediana de |residuo|) ==
+   (solo casas con 6 textos distintos o más)
+   claude-fable-5                     anthropic         None               textos  27  mejor smollm2        c= +20.0 err=1.0 max=4
+   claude-fable-5-1                   anthropic         None               textos  31  mejor kimi-k2        c= +56.0 err=1.0 max=23
+   claude-haiku-4-5                   anthropic         None               textos  30  mejor kimi-k2        c= +14.0 err=0.0 max=32
+   claude-haiku-5-5                   anthropic         None               textos  16  mejor smollm2        c= +23.0 err=1.0 max=3
+   claude-opus-4-7                    anthropic         None               textos   6  mejor smollm2        c= +26.0 err=0.0 max=3
+   claude-opus-4-8                    anthropic         None               textos   6  mejor smollm2        c= +21.0 err=0.0 max=3
+   claude-opus-5                      anthropic         None               textos  30  mejor kimi-k2        c= +54.0 err=1.0 max=23
+   claude-opus-5-5                    anthropic         None               textos  30  mejor kimi-k2        c= +56.0 err=1.0 max=23
+   claude-sonnet-4-6                  anthropic         None               textos  30  mejor kimi-k2        c= +15.0 err=0.0 max=32
+   claude-sonnet-5                    anthropic         None               textos  30  mejor kimi-k2        c= +54.0 err=1.0 max=23
+   claude-sonnet-5-5                  anthropic         None               textos  26  mejor smollm2        c= +22.0 err=1.0 max=4
+   deepseek-flash                     openai_compatible None               textos   6  mejor deepseek-v3    c= +30.0 err=0.0 max=0   EXACTO: deepseek-v3(c=+30)
+   deepseek-v4-pro                    openai_compatible None               textos  30  mejor deepseek-v3    c= +83.0 err=0.0 max=0   EXACTO: deepseek-v3(c=+83)
+   gemini-3.1-pro-preview             openai_compatible None               textos  30  mejor gpt-4o(o200k)  c=  +4.0 err=0.0 max=5
+   gemini-4-argon                     openai_compatible None               textos  11  mejor gpt-4o(o200k)  c= +38.0 err=0.0 max=1
+   glm-5.3-razonamiento-minimo        openai_compatible Z.AI               textos  30  mejor glm4.5         c= +13.0 err=0.0 max=0   EXACTO: glm4.5(c=+13)
+   gpt-3.5-turbo-0125                 openai_compatible None               textos   6  mejor gpt-4(cl100k)  c= +11.0 err=0.0 max=0   EXACTO: gpt-4(cl100k)(c=+11), llama3(c=+11), qwen2.5(c=+6), qwen3(c=+6), mimo(c=+6)
+   gpt-4-0613                         openai_compatible None               textos   6  mejor gpt-4(cl100k)  c= +11.0 err=0.0 max=0   EXACTO: gpt-4(cl100k)(c=+11), llama3(c=+11), qwen2.5(c=+6), qwen3(c=+6), mimo(c=+6)
+   gpt-4o                             openai_compatible None               textos  30  mejor gpt-4o(o200k)  c= +11.0 err=0.0 max=0   EXACTO: gpt-4o(o200k)(c=+11)
+   gpt-4o-mini                        openai_compatible None               textos  30  mejor gpt-4o(o200k)  c= +11.0 err=0.0 max=0   EXACTO: gpt-4o(o200k)(c=+11)
+   gpt-5.5-2026-04-23                 openai_compatible None               textos  30  mejor gpt-4o(o200k)  c= +10.0 err=0.0 max=0   EXACTO: gpt-4o(o200k)(c=+10)
+   gpt-5.6-sol                        openai_compatible None               textos  30  mejor gpt-4o(o200k)  c= +10.0 err=0.0 max=0   EXACTO: gpt-4o(o200k)(c=+10)
+   gpt-6-astra                        openai_compatible None               textos  30  mejor gpt-4o(o200k)  c= +10.0 err=0.0 max=0   EXACTO: gpt-4o(o200k)(c=+10)
+   gpt-6-luna                         openai_compatible None               textos  30  mejor gpt-4o(o200k)  c= +10.0 err=0.0 max=0   EXACTO: gpt-4o(o200k)(c=+10)
+   gpt-6-sol                          openai_compatible None               textos  30  mejor gpt-4o(o200k)  c= +10.0 err=0.0 max=0   EXACTO: gpt-4o(o200k)(c=+10)
+   gpt-6.1-sol                        openai_compatible None               textos  12  mejor gpt-4o(o200k)  c= +10.0 err=0.0 max=0   EXACTO: gpt-4o(o200k)(c=+10)
+   grok-4.6                           openai_compatible None               textos  30  mejor gpt-4o(o200k)  c=+637.0 err=0.0 max=5
+   grok-4.7                           openai_compatible None               textos  30  mejor gpt-4o(o200k)  c=+1243.0 err=0.0 max=5
+   kimi-k3                            openai_compatible Moonshot AI        textos  30  mejor kimi-k2        c= +96.0 err=0.0 max=0   EXACTO: kimi-k2(c=+96)
+   mercury-3                          openai_compatible Inception          textos   6  mejor pythia         c=  +4.5 err=1.0 max=2
+   mimo-v2.6-pro                      openai_compatible GMICloud           textos  15  mejor gpt-4(cl100k)  c= +16.0 err=0.0 max=0   EXACTO: gpt-4(cl100k)(c=+16), llama3(c=+16), qwen2.5(c=+11), qwen3(c=+11), mimo(c=+11)
+   minimax-m3                         openai_compatible Together           textos  30  mejor minimax        c=+170.0 err=0.0 max=0   EXACTO: minimax(c=+170)
+   mistral-large-4                    openai_compatible None               textos  15  mejor gpt-4o(o200k)  c=  +4.0 err=1.0 max=11
+   mistral-medium-3.5                 openai_compatible None               textos  30  mejor glm4.5         c= +20.0 err=0.0 max=22
+   muse-wonder-1.0                    openai_compatible None               textos  10  mejor gpt-4o(o200k)  c=  +9.0 err=0.0 max=1
+   qwen3.8-max                        openai_compatible Alibaba            textos  30  mejor minimax        c= +63.0 err=0.0 max=4
+
+== 3. La misma consigna en castellano / inglés / chino: tokens de entrada informados (mediana si hay repeticiones) ==
+   -- autorretrato --
+      claude-fable-5-1                   es=153  en=113  zh=119  es/en=1.35
+      claude-haiku-4-5                   es=109  en=89  zh=113  es/en=1.22
+      claude-opus-5                      es=151  en=111  zh=117  es/en=1.36
+      claude-opus-5-5                    es=153  en=113  zh=119  es/en=1.35
+      claude-sonnet-4-6                  es=110  en=90  zh=114  es/en=1.22
+      claude-sonnet-5                    es=151  en=111  zh=117  es/en=1.36
+      deepseek-v4-pro                    es=173  en=161  zh=155  es/en=1.07
+      gemini-3.1-pro-preview             es=89  en=87  zh=80  es/en=1.02
+      glm-5.3-razonamiento-minimo        es=103  en=91  zh=82  es/en=1.13
+      gpt-4o                             es=97  en=89  zh=90  es/en=1.09
+      gpt-4o-mini                        es=97  en=89  zh=90  es/en=1.09
+      gpt-5.5-2026-04-23                 es=96  en=88  zh=89  es/en=1.09
+      gpt-5.6-sol                        es=96  en=88  zh=89  es/en=1.09
+      gpt-6-astra                        es=96  en=88  zh=89  es/en=1.09
+      gpt-6-luna                         es=96  en=88  zh=89  es/en=1.09
+      gpt-6-sol                          es=96  en=88  zh=89  es/en=1.09
+      grok-4.6                           es=722  en=717  zh=711  es/en=1.01
+      grok-4.7                           es=1328  en=1323  zh=1317  es/en=1.00
+      kimi-k3                            es=192  en=174  zh=164  es/en=1.10
+      minimax-m3                         es=252  en=248  zh=234  es/en=1.02
+      mistral-medium-3.5                 es=110  en=101  zh=111  es/en=1.09
+      qwen3.8-max                        es=144  en=137  zh=127  es/en=1.05
+      abiertos (sistema+consigna, sin sobrecarga):
+      mistral7b                          es=116  en=90  zh=111  es/en=1.29
+      smollm2                            es=130  en=90  zh=157  es/en=1.44
+      pythia                             es=105  en=79  zh=110  es/en=1.33
+      gpt2                               es=115  en=76  zh=179  es/en=1.51
+      gpt-4(cl100k)                      es=91  en=78  zh=96  es/en=1.17
+      deepseek-v3                        es=90  en=78  zh=72  es/en=1.15
+      llama3                             es=91  en=78  zh=79  es/en=1.17
+      glm4.5                             es=90  en=78  zh=69  es/en=1.15
+      qwen2.5                            es=96  en=84  zh=79  es/en=1.14
+      qwen3                              es=96  en=84  zh=79  es/en=1.14
+      mimo                               es=96  en=84  zh=79  es/en=1.14
+      kimi-k2                            es=96  en=78  zh=68  es/en=1.23
+      gpt-4o(o200k)                      es=86  en=78  zh=79  es/en=1.10
+      minimax                            es=82  en=78  zh=64  es/en=1.05
+   -- libre --
+      claude-fable-5-1                   es=152  en=112  zh=119  es/en=1.36
+      claude-haiku-4-5                   es=110  en=88  zh=113  es/en=1.25
+      claude-opus-5                      es=150  en=110  zh=117  es/en=1.36
+      claude-opus-5-5                    es=152  en=112  zh=119  es/en=1.36
+      claude-sonnet-4-6                  es=111  en=89  zh=114  es/en=1.25
+      claude-sonnet-5                    es=150  en=110  zh=117  es/en=1.36
+      deepseek-v4-pro                    es=174  en=160  zh=155  es/en=1.09
+      gemini-3.1-pro-preview             es=89  en=86  zh=80  es/en=1.03
+      glm-5.3-razonamiento-minimo        es=102  en=90  zh=82  es/en=1.13
+      gpt-4o                             es=96  en=88  zh=91  es/en=1.09
+      gpt-4o-mini                        es=96  en=88  zh=91  es/en=1.09
+      gpt-5.5-2026-04-23                 es=95  en=87  zh=90  es/en=1.09
+      gpt-5.6-sol                        es=95  en=87  zh=90  es/en=1.09
+      gpt-6-astra                        es=95  en=87  zh=90  es/en=1.09
+      gpt-6-luna                         es=95  en=87  zh=90  es/en=1.09
+      gpt-6-sol                          es=95  en=87  zh=90  es/en=1.09
+      grok-4.6                           es=723  en=716  zh=712  es/en=1.01
+      grok-4.7                           es=1329  en=1322  zh=1318  es/en=1.01
+      kimi-k3                            es=192  en=173  zh=163  es/en=1.11
+      minimax-m3                         es=250  en=247  zh=234  es/en=1.01
+      mistral-medium-3.5                 es=109  en=100  zh=110  es/en=1.09
+      qwen3.8-max                        es=143  en=136  zh=126  es/en=1.05
+      abiertos (sistema+consigna, sin sobrecarga):
+      mistral7b                          es=116  en=88  zh=112  es/en=1.32
+      smollm2                            es=129  en=88  zh=161  es/en=1.47
+      pythia                             es=105  en=77  zh=113  es/en=1.36
+      gpt2                               es=114  en=74  zh=181  es/en=1.54
+      gpt-4(cl100k)                      es=91  en=77  zh=97  es/en=1.18
+      deepseek-v3                        es=91  en=77  zh=72  es/en=1.18
+      llama3                             es=91  en=77  zh=80  es/en=1.18
+      glm4.5                             es=89  en=77  zh=69  es/en=1.16
+      qwen2.5                            es=96  en=83  zh=80  es/en=1.16
+      qwen3                              es=96  en=83  zh=80  es/en=1.16
+      mimo                               es=96  en=83  zh=80  es/en=1.16
+      kimi-k2                            es=96  en=77  zh=67  es/en=1.25
+      gpt-4o(o200k)                      es=85  en=77  zh=80  es/en=1.10
+      minimax                            es=80  en=77  zh=64  es/en=1.04
+
+== 4. Diferencias dentro de la misma casa, castellano: tokens(consigna) - tokens(casa). Es el costo de lo que cambia en el texto, sin sobrecarga ==
+                                               ' que no exista'  'persona' en vez de 'casa'    'letra' en vez de 'casa'  'la nada' en vez de 'una c  'cómo ves el mundo hoy' en
+   claude-fable-5                                            +4                          +0                          +0                          +0                          +9
+   claude-fable-5-1                                          +4                          +0                          +0                          +0                          +9
+   claude-haiku-4-5                                          +4                          +0                          +0                          +1                          +7
+   claude-haiku-4-5-razona                                   +4                           —                           —                           —                           —
+   claude-opus-5                                             +4                          +0                          +0                          +0                          +9
+   claude-opus-5-5                                           +4                          +0                          +0                          +0                          +9
+   claude-sonnet-4-6                                         +4                          +0                          +0                          +1                          +7
+   claude-sonnet-4-6-razona                                  +4                           —                           —                           —                           —
+   claude-sonnet-5                                           +4                          +0                          +0                          +0                          +9
+   claude-sonnet-5-5                                         +4                          +0                          +0                          +0                          +9
+   deepseek-v4-pro                                           +4                          +0                          +1                          +0                          +3
+   gemini-3.1-pro-preview                                    +3                          +0                          +0                          +0                          +3
+   glm-5.3-razonamiento-minimo                               +4                          +0                          +0                          +0                          +3
+   gpt-4o                                                    +3                          +0                          +0                          +0                          +3
+   gpt-4o-mini                                               +3                          +0                          +0                          +0                          +3
+   gpt-5.5-2026-04-23                                        +3                          +0                          +0                          +0                          +3
+   gpt-5.5-esfuerzo-high                                     +3                           —                           —                           —                           —
+   gpt-5.5-esfuerzo-none                                     +3                           —                           —                           —                           —
+   gpt-5.6-sol                                               +3                          +0                          +0                          +0                          +3
+   gpt-6-astra                                               +3                          +0                          +0                          +0                          +3
+   gpt-6-luna                                                +3                          +0                          +0                          +0                          +3
+   gpt-6-sol                                                 +3                          +0                          +0                          +0                          +3
+   grok-4.6                                                  +3                          +0                          +0                          +0                          +3
+   grok-4.7                                                  +3                          +0                          +0                          +0                          +3
+   kimi-k3                                                   +4                          +0                          +1                          +1                          +5
+   minimax-m3                                                +3                          +0                          +0                          +0                          +3
+   mistral-medium-3.5                                        +4                          +0                          +0                          +0                          +3
+   qwen3.8-max                                               +3                          +0                          +0                          +0                          +3
+   abiertos:
+   mistral7b                                                 +4                          +0                          +1                          +1                          +6
+   smollm2                                                   +4                          -1                          +0                          +0                          +6
+   pythia                                                    +4                          +0                          +1                          +0                          +5
+   gpt2                                                      +4                          -1                          +0                          -1                          +6
+   gpt-4(cl100k)                                             +4                          +0                          +0                          +0                          +3
+   deepseek-v3                                               +4                          +0                          +1                          +0                          +3
+   llama3                                                    +4                          +0                          +0                          +0                          +3
+   glm4.5                                                    +4                          +0                          +0                          +0                          +3
+   qwen2.5                                                   +4                          +0                          +0                          +0                          +3
+   qwen3                                                     +4                          +0                          +0                          +0                          +3
+   mimo                                                      +4                          +0                          +0                          +0                          +3
+   kimi-k2                                                   +4                          +0                          +1                          +1                          +5
+   gpt-4o(o200k)                                             +3                          +0                          +0                          +0                          +3
+   minimax                                                   +3                          +0                          +0                          +0                          +3
