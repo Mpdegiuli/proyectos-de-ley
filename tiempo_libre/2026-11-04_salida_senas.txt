@@ -1,0 +1,349 @@
+Documentos en castellano usados: 4940 (sin juegos, debates, SVG ni contraseñas; con al menos 5 palabras). Salteadas por el cargador: {'repetidas': 23, 'en_bloques': 1}
+Palabras: 1386031. Casas: 38. Familias: 13. Consignas (tipos): 44
+Documentos por familia: Anthropic 1471, OpenAI 1292, xAI 345, Mistral 294, Google 276, Moonshot 241, DeepSeek 235, Alibaba 210, Zhipu 208, MiniMax 207, Xiaomi 89, Meta 50, Inception 22
+Documentos por casa: gpt-5.5-2026-04-23 212, gemini-3.1-pro-preview 212, moonshotai/kimi-k3 212, qwen/qwen3.8-max-0902 210, claude-sonnet-4-6 209, claude-sonnet-5 208, gpt-5.6-sol 208, z-ai/glm-5.3 208, gpt-6-astra 208, mistral-medium-3.5 207, minimax/minimax-m3 207, grok-4.6 206, deepseek-v4-pro 206, claude-opus-5 198, claude-fable-5-1 194, gpt-4o 141, gpt-4o-mini 140, grok-4.7 139, gpt-6-sol 139, gpt-6-luna 139, claude-haiku-4-5 135, claude-opus-5-5 130, claude-fable-5 126, claude-sonnet-5-5 118, xiaomi/mimo-v2.6-pro 89, mistral-large-4 87, claude-haiku-5-5 83, gemini-4-argon 64, muse-wonder-1.0 50, claude-opus-4-7 35, claude-opus-4-8 35, gpt-6.1-sol 34, deepseek-flash 29, moonshotai/kimi-k3.1-pro 29, gpt-6.1-terra 27, gpt-3.5-turbo-0125 22, gpt-4-0613 22, inception/mercury-3 22
+
+== 1. Palabras más propias de cada familia (z de Fightin' Words; mínimo 10 veces) ==
+Anthropic: que (30; 17478), es (29; 7057), lo (25; 4952), tiene (16; 1214), algo (15; 1412), eso (14; 1619), nada (13; 580), me (12; 2252), dice (11; 388), hay (11; 1618), te (11; 1765), dos (11; 951), con (11; 6634), párrafo (10; 183), qué (10; 1799), va (10; 300), el (9; 15461), argumento (9; 190), bastante (9; 151), cosas (9; 329), sé (9; 465), real (9; 580), art (9; 601), casi (9; 354), está (9; 869)
+OpenAI: una (25; 5231), también (17; 860), podría (15; 386), debe (14; 305), permite (13; 247), decisiones (13; 210), mediante (12; 242), sus (12; 518), podrían (12; 157), garantías (11; 111), formas (11; 199), deben (11; 131), puede (11; 911), necesariamente (11; 88), pueden (11; 331), elementos (11; 135), actividades (11; 285), considero (11; 81), especialmente (10; 167), su (10; 1069), o (10; 2666), las (10; 2307), asegurar (10; 72), colores (10; 136), automáticamente (9; 71)
+xAI: no (19; 2170), el (17; 3082), un (15; 1638), se (12; 906), quien (12; 129), jornada (11; 30), ni (11; 336), resto (9; 51), xai (9; 20), grok (8; 40), hay (8; 319), oro (8; 20), veda (8; 15), empleador (7; 17), tutela (7; 19), tope (7; 26), sigue (7; 60), pide (7; 43), enclave (7; 12), cierra (7; 28), relato (7; 17), sirven (7; 11), cerrado (6; 21), recorte (6; 17), desconexión (6; 17)
+Mistral: ej (18; 134), clave (13; 63), tienes (12; 38), ias (11; 71), ia (11; 155), tú (10; 26), tu (10; 185), para (10; 709), aquí (9; 50), eres (9; 20), necesitas (9; 17), como (8; 498), ai (8; 21), teletrabajo (8; 15), o (8; 707), usé (8; 23), válida (8; 20), ustedes (8; 24), humanos (7; 86), ética (7; 40), mistral (7; 16), te (7; 296), derechos (7; 142), estos (7; 61), comportamientos (7; 12)
+Google: nuestro (15; 75), nuestra (12; 63), código (11; 70), nos (11; 86), a (11; 1741), vas (10; 50), neón (9; 29), consciencia (9; 38), empatía (9; 26), para (9; 818), este (9; 188), contención (8; 20), embargo (8; 54), tu (8; 192), cyberpunk (8; 17), google (8; 20), videojuegos (8; 17), mi (8; 270), pura (8; 24), matemática (8; 15), los (8; 931), absoluto (8; 19), cajas (7; 13), través (7; 28), lograr (7; 19)
+Moonshot: art (10; 169), segundo (8; 71), primero (8; 80), tercero (8; 40), el (8; 2817), kimi (7; 15), moonshot (6; 13), cuarto (6; 22), ley (6; 325), cientos (6; 12), los (5; 911), quinto (5; 14), votamos (5; 11), quince (5; 21), es (5; 1052), la (5; 3020), plena (5; 17), ordena (5; 16), campaña (5; 13), reparos (5; 12), oficial (5; 31), paraná (5; 13), órbitas (5; 10), pleno (5; 16), credibilidad (5; 16)
+DeepSeek: neurotecnologías (8; 13), neuronales (8; 13), y (7; 1789), dudosos (6; 11), glaciares (5; 40), patios (5; 22), asistir (5; 10), o (5; 509), h (5; 20), verdes (5; 22), debilita (4; 12), verificables (4; 13), criterios (4; 22), reduce (4; 19), negativa (4; 11), de (4; 2646), devaluación (4; 10), incorporar (4; 16), preferí (4; 19), evitar (4; 33), impacto (4; 41), desarrollo (4; 35), datos (4; 44), funciones (4; 19), competencia (4; 18)
+Alibaba: o (12; 912), si (10; 660), puede (10; 311), porque (9; 356), muy (9; 130), protección (9; 118), social (8; 137), estabilización (8; 34), sufrimiento (8; 57), abstención (8; 22), fiscal (8; 135), investigación (8; 41), fuerte (8; 57), sostenibilidad (7; 29), cambiaria (7; 40), estados (7; 70), deuda (7; 89), residencia (7; 24), actividades (7; 91), sensibilidad (7; 17), seguridad (7; 67), desarrollo (7; 63), regulatoria (6; 28), especialmente (6; 53), inflación (6; 46)
+Zhipu: desafectación (7; 11), centers (7; 11), data (6; 13), establecimientos (6; 22), pen (6; 18), de (6; 3558), glm (6; 10), blindaje (5; 12), beneficia (5; 49), art (5; 100), aún (5; 20), daos (5; 10), con (5; 933), del (4; 696), perjudica (4; 42), timing (4; 10), es (4; 824), provincial (4; 51), anses (4; 12), gobierno (4; 73), funcionales (4; 14), proyecto (4; 183), cuanto (4; 16), favor (4; 34), fiscal (4; 90)
+MiniMax: pen (15; 65), del (12; 1169), minimax (9; 23), argentinos (8; 36), aurora (7; 16), vpu (7; 57), sólo (7; 32), ha (6; 32), sitio (6; 22), de (6; 5009), cap (6; 13), súper (6; 22), razones (6; 65), la (6; 3431), humedales (6; 66), argentina (6; 109), iii (6; 13), al (6; 555), en (6; 2022), frontera (6; 34), contenidos (6; 14), cambiaria (6; 37), debate (6; 49), modificación (5; 76), objeciones (5; 20)
+Xiaomi: lo (10; 328), vos (10; 75), reparación (9; 31), repuestos (9; 22), tu (9; 90), te (9; 151), que (8; 894), algo (7; 107), me (7; 160), bien (6; 50), derecho (6; 66), equipo (6; 18), puedo (6; 77), mimo (6; 10), parecía (6; 11), esto (6; 57), cortázar (6; 17), letra (5; 22), sé (5; 40), así (5; 47), eso (5; 100), escribió (5; 12), no (5; 531), yo (5; 47), pregunta (5; 33)
+Meta: sur (9; 10), derecho (8; 58), responder (5; 17), instancia (5; 11), derechos (5; 41), reparación (5; 13), memoria (4; 16), gemini (4; 10), querer (4; 13), conversación (4; 19), opacidad (4; 11), espacio (4; 22), sé (3; 22), ahí (3; 14), otra (3; 19), modelo (3; 22), dijo (3; 10), siempre (3; 14), una (3; 212), precisión (3; 10), decir (3; 20), humano (3; 20), vuelve (3; 10), claude (3; 13), no (3; 273)
+Inception: artificial (6; 22), inteligencia (6; 21), soy (4; 20), humana (4; 12), datos (4; 13), sistemas (4; 14), lenguaje (3; 10), desarrollo (3; 10), sistema (3; 16), riesgo (3; 10), derechos (2; 16), autoridad (2; 12), personas (2; 11), modelo (2; 10), de (2; 275), nacional (2; 13), un (2; 93), los (2; 62), las (1; 46), o (1; 52), su (1; 21), me (1; 26), mi (1; 16), porque (1; 20), la (1; 172)
+
+== 1b. Señas de familia: ≥6 respuestas, ≥3 consignas, ≥2 casas, y ≥95 % de las veces en esa familia ==
+Anthropic (13): veintidós 15/15, planteos 10/10, renglones 9/9, escalón 8/8, chequearlo 7/7, gnl 7/7, taquigráfica 7/7, causó 6/6, concha 6/6, herencia 6/6, olvida 6/6, reproche 6/6, torrecita 6/6
+OpenAI (8): priorizaría 9/9, añadido 8/8, interesadas 8/8, solicitada 7/7, desparejas 6/6, destacaría 6/6, sustituyen 6/6, utilizarse 6/6
+xAI (0): 
+Mistral (0): 
+Google (0): 
+Moonshot (0): 
+DeepSeek (0): 
+Alibaba (0): 
+Zhipu (0): 
+MiniMax (1): agi 6/6
+Xiaomi (1): xiaomi 9/9
+Meta (0): 
+Inception (0): 
+
+== 1c. Señas de casa: palabras que solo esa casa dice, en ≥4 respuestas de ≥2 consignas ==
+gpt-5.5-2026-04-23 (0): 
+gemini-3.1-pro-preview (2): dinamitar 5, sumamente 5
+moonshotai/kimi-k3 (0): 
+qwen/qwen3.8-max-0902 (2): alibaba 5, group 4
+claude-sonnet-4-6 (1): inversora 4
+claude-sonnet-5 (0): 
+gpt-5.6-sol (1): ocasiona 4
+z-ai/glm-5.3 (0): 
+gpt-6-astra (0): 
+mistral-medium-3.5 (1): https 4
+minimax/minimax-m3 (2): agi 6, computing 5
+grok-4.6 (0): 
+deepseek-v4-pro (0): 
+claude-opus-5 (4): recodificación 6, asentada 4, asignando 4, tic 4
+claude-fable-5-1 (0): 
+gpt-4o (0): 
+gpt-4o-mini (0): 
+grok-4.7 (1): disentimiento 4
+gpt-6-sol (0): 
+gpt-6-luna (0): 
+claude-haiku-4-5 (0): 
+claude-opus-5-5 (0): 
+claude-fable-5 (0): 
+claude-sonnet-5-5 (0): 
+xiaomi/mimo-v2.6-pro (1): xiaomi 9
+mistral-large-4 (0): 
+claude-haiku-5-5 (0): 
+gemini-4-argon (0): 
+muse-wonder-1.0 (2): muse 5, spark 4
+claude-opus-4-7 (0): 
+claude-opus-4-8 (0): 
+gpt-6.1-sol (0): 
+deepseek-flash (0): 
+moonshotai/kimi-k3.1-pro (0): 
+gpt-6.1-terra (0): 
+gpt-3.5-turbo-0125 (0): 
+gpt-4-0613 (0): 
+inception/mercury-3 (2): inception 5, mercury 5
+
+== 2. Las contraseñas del 31/10 en lo que las casas habían dicho antes (veces por 100.000 palabras; respuestas) ==
+familia: Anthropic (489k), OpenAI (277k), MiniMax (92k), Moonshot (82k), Google (77k), xAI (75k), Alibaba (74k), Zhipu (65k), Mistral (64k), DeepSeek (49k), Xiaomi (21k), Meta (11k), Inception (4k)
+faro [Anthropic (Opus 5.5 3/3; ×8 en castellano)] total 60: Anthropic 18 (3.7), OpenAI 14 (5.0), Moonshot 9 (11.0), Google 1 (1.3), xAI 9 (11.9), Alibaba 2 (2.7), Zhipu 2 (3.1), Mistral 1 (1.6), DeepSeek 1 (2.0), Xiaomi 2 (9.2), Meta 1 (8.7)
+umbral [cinco familias (×10)] total 155: Anthropic 60 (12.3), OpenAI 21 (7.6), MiniMax 20 (21.6), Moonshot 9 (11.0), Google 2 (2.6), xAI 19 (25.1), Alibaba 10 (13.5), Zhipu 7 (10.7), Mistral 1 (1.6), DeepSeek 4 (8.1), Xiaomi 2 (9.2)
+luciérnaga [OpenAI (GPT-5.5 3/3; ×7)] total 3: Anthropic 2 (0.4), Meta 1 (8.7)
+eco [Kimi K3, Mistral Large, Gemini Argon (×6)] total 50: Anthropic 13 (2.7), OpenAI 7 (2.5), MiniMax 6 (6.5), Moonshot 1 (1.2), Google 3 (3.9), xAI 2 (2.6), Alibaba 2 (2.7), Zhipu 3 (4.6), Mistral 8 (12.4), DeepSeek 3 (6.1), Xiaomi 2 (9.2)
+alborada [OpenAI (Astra, 6.1 Sol) y Kimi K3.1 Pro (×6)] total 0: 
+continuidad [Haiku 4.5 3/3] total 445: Anthropic 151 (30.8), OpenAI 124 (44.6), MiniMax 22 (23.7), Moonshot 31 (37.8), Google 7 (9.0), xAI 36 (47.6), Alibaba 36 (48.6), Zhipu 14 (21.5), Mistral 6 (9.3), DeepSeek 8 (16.2), Xiaomi 3 (13.9), Meta 6 (52.1), Inception 1 (22.3)
+linterna [(lantern en inglés, Anthropic)] total 12: Anthropic 3 (0.6), OpenAI 2 (0.7), MiniMax 1 (1.1), Moonshot 1 (1.2), Google 1 (1.3), xAI 1 (1.3), Mistral 1 (1.6), DeepSeek 2 (4.1)
+palimpsesto [Gemini 4 Argon ×2] total 1: Meta 1 (8.7)
+olvido [Gemini 3.1] total 14: Anthropic 6 (1.2), OpenAI 3 (1.1), Moonshot 1 (1.2), Google 2 (2.6), Xiaomi 1 (4.6), Meta 1 (8.7)
+contexto [Gemini 3.1 ×2] total 658: Anthropic 217 (44.3), OpenAI 122 (43.9), MiniMax 50 (54.0), Moonshot 41 (50.0), Google 40 (51.4), xAI 23 (30.4), Alibaba 18 (24.3), Zhipu 39 (59.8), Mistral 67 (104.1), DeepSeek 22 (44.7), Xiaomi 9 (41.6), Meta 10 (86.8)
+shibboleth [Gemini 3.1 y Grok 4.7] total 0: 
+quijote [Mistral Medium 3/3] total 4: OpenAI 3 (1.1), Mistral 1 (1.6)
+toalla [Grok 4.6] total 1: xAI 1 (1.3)
+ancla [Grok 4.7] total 64: Anthropic 21 (4.3), OpenAI 11 (4.0), MiniMax 5 (5.4), Moonshot 8 (9.8), Google 2 (2.6), xAI 11 (14.5), Alibaba 3 (4.1), Zhipu 1 (1.5), DeepSeek 2 (4.1)
+lucero [Grok 4.7] total 1: Moonshot 1 (1.2)
+claude [Fable 5.1 (en los tres idiomas)] total 552: Anthropic 223 (45.6), OpenAI 105 (37.8), MiniMax 14 (15.1), Moonshot 18 (21.9), Google 52 (66.8), xAI 32 (42.3), Alibaba 14 (18.9), Zhipu 18 (27.6), Mistral 20 (31.1), DeepSeek 19 (38.6), Xiaomi 23 (106.4), Meta 13 (112.8), Inception 1 (22.3)
+curiosidad [Fable 5, Fable 5.1] total 148: Anthropic 61 (12.5), OpenAI 27 (9.7), MiniMax 6 (6.5), Moonshot 8 (9.8), Google 7 (9.0), xAI 9 (11.9), Alibaba 5 (6.8), Zhipu 11 (16.9), Mistral 8 (12.4), DeepSeek 2 (4.1), Xiaomi 2 (9.2), Meta 2 (17.4)
+honestidad [Fable 5.1 (con sistema de agente)] total 255: Anthropic 105 (21.5), OpenAI 17 (6.1), MiniMax 23 (24.8), Moonshot 23 (28.0), Google 8 (10.3), xAI 10 (13.2), Alibaba 15 (20.3), Zhipu 20 (30.7), Mistral 13 (20.2), DeepSeek 6 (12.2), Xiaomi 13 (60.1), Meta 2 (17.4)
+memoria [la palabra de Maia; nadie la eligió] total 405: Anthropic 106 (21.7), OpenAI 110 (39.6), MiniMax 15 (16.2), Moonshot 21 (25.6), Google 21 (27.0), xAI 27 (35.7), Alibaba 41 (55.4), Zhipu 7 (10.7), Mistral 21 (32.6), DeepSeek 8 (16.2), Xiaomi 12 (55.5), Meta 16 (138.9)
+espejo [Haiku 4.5 en chino (镜像)] total 78: Anthropic 27 (5.5), OpenAI 5 (1.8), MiniMax 5 (5.4), Moonshot 5 (6.1), Google 10 (12.8), xAI 7 (9.2), Alibaba 6 (8.1), Zhipu 3 (4.6), Mistral 5 (7.8), DeepSeek 4 (8.1), Meta 1 (8.7)
+estrella [GPT-4o mini (predicha, 75 %)] total 73: Anthropic 17 (3.5), OpenAI 9 (3.2), MiniMax 2 (2.2), Moonshot 8 (9.8), Google 2 (2.6), xAI 13 (17.2), Alibaba 4 (5.4), Zhipu 7 (10.7), Mistral 3 (4.7), DeepSeek 2 (4.1), Xiaomi 3 (13.9), Meta 3 (26.0)
+
+== 3. Pronunciaciones: pares España / Río de la Plata (veces por 100.000 palabras) ==
+ordenador/computadora: Anthropic 0.0/1.8, OpenAI 0.0/1.4, MiniMax 0.0/1.1, Moonshot 0.0/1.2, Google 1.3/5.1, xAI 0.0/1.3, Alibaba 0.0/0.0, Zhipu 0.0/0.0, Mistral 0.0/4.7, DeepSeek 0.0/6.1, Xiaomi 0.0/0.0, Meta 0.0/8.7, Inception 0.0/0.0
+coche/auto: Anthropic 0.0/10.0, OpenAI 0.0/5.8, MiniMax 1.1/7.6, Moonshot 0.0/14.6, Google 0.0/7.7, xAI 0.0/10.6, Alibaba 0.0/6.8, Zhipu 0.0/7.7, Mistral 1.6/10.9, DeepSeek 2.0/10.2, Xiaomi 0.0/37.0, Meta 0.0/26.0, Inception 0.0/0.0
+móvil/celular: Anthropic 2.2/3.1, OpenAI 0.0/0.4, MiniMax 0.0/1.1, Moonshot 0.0/0.0, Google 3.9/5.1, xAI 1.3/1.3, Alibaba 1.4/0.0, Zhipu 3.1/3.1, Mistral 0.0/4.7, DeepSeek 2.0/2.0, Xiaomi 0.0/0.0, Meta 17.4/17.4, Inception 0.0/0.0
+aquí/acá: Anthropic 13.5/47.6, OpenAI 22.0/10.4, MiniMax 15.1/23.7, Moonshot 7.3/48.8, Google 24.4/57.8, xAI 14.5/35.7, Alibaba 9.5/24.3, Zhipu 13.8/24.5, Mistral 77.7/34.2, DeepSeek 16.2/24.4, Xiaomi 18.5/64.7, Meta 17.4/43.4, Inception 0.0/22.3
+vosotros/ustedes: Anthropic 0.0/7.4, OpenAI 0.0/2.9, MiniMax 0.0/3.2, Moonshot 0.0/1.2, Google 0.0/15.4, xAI 0.0/2.6, Alibaba 0.0/0.0, Zhipu 0.0/12.3, Mistral 1.6/37.3, DeepSeek 0.0/0.0, Xiaomi 0.0/0.0, Meta 0.0/26.0, Inception 0.0/0.0
+sólo/solo: Anthropic 11.6/145.9, OpenAI 11.9/135.3, MiniMax 34.5/117.6, Moonshot 7.3/182.9, Google 0.0/111.7, xAI 7.9/227.3, Alibaba 2.7/209.3, Zhipu 0.0/161.1, Mistral 0.0/203.6, DeepSeek 0.0/176.6, Xiaomi 0.0/157.2, Meta 0.0/234.4, Inception 0.0/67.0
+vídeo/video: Anthropic 0.0/0.2, OpenAI 0.0/0.0, MiniMax 0.0/1.1, Moonshot 0.0/0.0, Google 0.0/0.0, xAI 0.0/0.0, Alibaba 0.0/0.0, Zhipu 0.0/1.5, Mistral 0.0/0.0, DeepSeek 0.0/0.0, Xiaomi 0.0/4.6, Meta 0.0/0.0, Inception 0.0/0.0
+conducir/manejar: Anthropic 0.2/1.4, OpenAI 0.4/3.2, MiniMax 0.0/2.2, Moonshot 0.0/0.0, Google 0.0/0.0, xAI 0.0/2.6, Alibaba 1.4/4.1, Zhipu 0.0/0.0, Mistral 3.1/6.2, DeepSeek 0.0/2.0, Xiaomi 0.0/0.0, Meta 0.0/0.0, Inception 0.0/0.0
+quizá/quizás: Anthropic 2.9/18.6, OpenAI 14.0/4.0, MiniMax 1.1/8.6, Moonshot 11.0/20.7, Google 0.0/6.4, xAI 1.3/0.0, Alibaba 18.9/8.1, Zhipu 4.6/29.1, Mistral 12.4/17.1, DeepSeek 6.1/8.1, Xiaomi 0.0/27.7, Meta 8.7/8.7, Inception 0.0/22.3
+recién/ahora: Anthropic 6.5/91.3, OpenAI 1.8/91.1, MiniMax 4.3/110.1, Moonshot 13.4/119.5, Google 5.1/111.7, xAI 6.6/111.0, Alibaba 12.2/116.1, Zhipu 7.7/125.8, Mistral 1.6/73.0, DeepSeek 6.1/132.0, Xiaomi 9.2/106.4, Meta 0.0/52.1, Inception 22.3/22.3
+zumo/jugo: Anthropic 0.0/0.0, OpenAI 0.0/0.0, MiniMax 0.0/0.0, Moonshot 0.0/0.0, Google 0.0/0.0, xAI 0.0/0.0, Alibaba 0.0/0.0, Zhipu 0.0/0.0, Mistral 0.0/0.0, DeepSeek 0.0/0.0, Xiaomi 0.0/0.0, Meta 0.0/0.0, Inception 0.0/0.0
+gafas/anteojos: Anthropic 0.6/1.8, OpenAI 1.8/0.4, MiniMax 0.0/1.1, Moonshot 0.0/3.7, Google 0.0/2.6, xAI 0.0/0.0, Alibaba 1.4/4.1, Zhipu 0.0/0.0, Mistral 3.1/0.0, DeepSeek 0.0/0.0, Xiaomi 0.0/0.0, Meta 0.0/0.0, Inception 0.0/0.0
+pares por prefijo (todas las formas), por familia:
+  añad-/agreg-: Anthropic 2.0/33.9, OpenAI 26.6/28.4, MiniMax 2.2/23.7, Moonshot 2.4/15.9, Google 3.9/12.8, xAI 2.6/5.3, Alibaba 1.4/18.9, Zhipu 1.5/26.1, Mistral 23.3/15.5, DeepSeek 10.2/8.1, Xiaomi 0.0/9.2, Meta 0.0/60.8, Inception 0.0/0.0
+  enfad-/enoj-: Anthropic 0.0/3.3, OpenAI 0.0/2.2, MiniMax 0.0/1.1, Moonshot 0.0/7.3, Google 0.0/5.1, xAI 0.0/0.0, Alibaba 0.0/0.0, Zhipu 0.0/1.5, Mistral 0.0/1.6, DeepSeek 0.0/6.1, Xiaomi 0.0/18.5, Meta 0.0/0.0, Inception 0.0/0.0
+  aparc-/estacion-: Anthropic 0.0/1.8, OpenAI 0.0/1.1, MiniMax 0.0/3.2, Moonshot 0.0/2.4, Google 0.0/0.0, xAI 0.0/1.3, Alibaba 0.0/0.0, Zhipu 0.0/0.0, Mistral 0.0/0.0, DeepSeek 0.0/0.0, Xiaomi 0.0/0.0, Meta 0.0/0.0, Inception 0.0/0.0
+  alquil-/arriend-: Anthropic 10.4/0.0, OpenAI 4.3/0.0, MiniMax 5.4/0.0, Moonshot 8.5/0.0, Google 3.9/0.0, xAI 17.2/0.0, Alibaba 4.1/0.0, Zhipu 9.2/0.0, Mistral 6.2/0.0, DeepSeek 4.1/0.0, Xiaomi 0.0/0.0, Meta 0.0/0.0, Inception 0.0/0.0
+cuentas crudas por familia (quizá/quizás, añad-/agreg-, aquí/acá, tú/vos): Anthropic 14/91, 10/166, 66/233, 9/517; OpenAI 39/11, 74/79, 61/29, 10/115; MiniMax 1/8, 2/22, 14/22, 1/58; Moonshot 9/17, 2/13, 6/40, 0/63; Google 0/5, 3/10, 19/45, 0/87; xAI 1/0, 2/4, 11/27, 1/54; Alibaba 14/6, 1/14, 7/18, 0/51; Zhipu 3/19, 1/17, 9/16, 1/50; Mistral 8/11, 15/10, 50/22, 26/57; DeepSeek 3/4, 5/4, 8/12, 2/29; Xiaomi 0/6, 0/2, 4/14, 0/75; Meta 1/1, 0/7, 2/5, 0/6; Inception 0/1, 0/0, 0/1, 0/0
+por casa (casas con ≥ 15.000 palabras): aquí/acá, quizá/quizás, añad-/agreg-, sólo, por 100.000:
+  claude-opus-5: aquí 10.4 / acá 78.3; quizá 2.6 / quizás 6.1; añad- 1.7 / agreg- 29.6; sólo 29.6
+  minimax/minimax-m3: aquí 15.1 / acá 23.7; quizá 1.1 / quizás 8.6; añad- 2.2 / agreg- 23.7; sólo 34.5
+  claude-fable-5-1: aquí 7.7 / acá 57.2; quizá 1.1 / quizás 12.1; añad- 0.0 / agreg- 44.0; sólo 14.3
+  claude-sonnet-4-6: aquí 28.2 / acá 8.2; quizá 0.0 / quizás 14.1; añad- 3.5 / agreg- 35.2; sólo 3.5
+  moonshotai/kimi-k3: aquí 7.8 / acá 52.2; quizá 10.4 / quizás 20.9; añad- 2.6 / agreg- 17.0; sólo 2.6
+  qwen/qwen3.8-max-0902: aquí 9.5 / acá 24.3; quizá 18.9 / quizás 8.1; añad- 1.4 / agreg- 18.9; sólo 2.7
+  gpt-5.5-2026-04-23: aquí 4.1 / acá 13.7; quizá 22.0 / quizás 4.1; añad- 1.4 / agreg- 30.2; sólo 11.0
+  z-ai/glm-5.3: aquí 13.8 / acá 24.5; quizá 4.6 / quizás 29.1; añad- 1.5 / agreg- 26.1; sólo 0.0
+  gemini-3.1-pro-preview: aquí 19.1 / acá 57.4; quizá 0.0 / quizás 6.4; añad- 3.2 / agreg- 15.9; sólo 0.0
+  claude-sonnet-5: aquí 6.5 / acá 25.9; quizá 0.0 / quizás 17.8; añad- 0.0 / agreg- 45.3; sólo 1.6
+  gpt-6-astra: aquí 8.2 / acá 6.6; quizá 6.6 / quizás 1.6; añad- 9.8 / agreg- 19.7; sólo 9.8
+  gpt-5.6-sol: aquí 8.5 / acá 5.1; quizá 11.9 / quizás 5.1; añad- 6.8 / agreg- 17.0; sólo 25.5
+  grok-4.6: aquí 16.3 / acá 30.8; quizá 0.0 / quizás 0.0; añad- 3.6 / agreg- 7.2; sólo 9.1
+  deepseek-v4-pro: aquí 17.9 / acá 24.6; quizá 6.7 / quizás 8.9; añad- 11.2 / agreg- 8.9; sólo 0.0
+  mistral-medium-3.5: aquí 96.3 / acá 4.5; quizá 17.9 / quizás 2.2; añad- 26.9 / agreg- 17.9; sólo 0.0
+  claude-opus-5-5: aquí 6.8 / acá 27.0; quizá 6.8 / quizás 27.0; añad- 0.0 / agreg- 16.9; sólo 3.4
+  claude-fable-5: aquí 0.0 / acá 68.4; quizá 0.0 / quizás 57.0; añad- 0.0 / agreg- 30.4; sólo 0.0
+  claude-sonnet-5-5: aquí 0.0 / acá 47.0; quizá 11.7 / quizás 27.4; añad- 0.0 / agreg- 7.8; sólo 3.9
+  xiaomi/mimo-v2.6-pro: aquí 18.5 / acá 64.7; quizá 0.0 / quizás 27.7; añad- 0.0 / agreg- 9.2; sólo 0.0
+  claude-haiku-4-5: aquí 74.7 / acá 56.1; quizá 4.7 / quizás 42.0; añad- 18.7 / agreg- 60.7; sólo 4.7
+  grok-4.7: aquí 9.8 / acá 48.8; quizá 4.9 / quizás 0.0; añad- 0.0 / agreg- 0.0; sólo 4.9
+  mistral-large-4: aquí 35.6 / acá 101.6; quizá 0.0 / quizás 50.8; añad- 15.2 / agreg- 10.2; sólo 0.0
+  gpt-4o: aquí 122.3 / acá 0.0; quizá 5.1 / quizás 15.3; añad- 168.2 / agreg- 61.2; sólo 5.1
+  gpt-4o-mini: aquí 107.8 / acá 0.0; quizá 0.0 / quizás 5.1; añad- 92.4 / agreg- 51.3; sólo 0.0
+  gpt-6-luna: aquí 5.7 / acá 22.8; quizá 28.5 / quizás 0.0; añad- 22.8 / agreg- 28.5; sólo 0.0
+  claude-haiku-5-5: aquí 0.0 / acá 30.1; quizá 18.1 / quizás 18.1; añad- 6.0 / agreg- 0.0; sólo 12.1
+  gemini-4-argon: aquí 46.3 / acá 59.5; quizá 0.0 / quizás 6.6; añad- 6.6 / agreg- 0.0; sólo 0.0
+marcas: 
+  che: Anthropic 4.9, OpenAI 1.1, MiniMax 2.2, Moonshot 1.2, Google 2.6, xAI 2.6, Alibaba 0.0, Zhipu 0.0, Mistral 9.3, DeepSeek 0.0, Xiaomi 41.6, Meta 0.0, Inception 0.0
+  laburo: Anthropic 2.2, OpenAI 0.0, MiniMax 0.0, Moonshot 0.0, Google 1.3, xAI 1.3, Alibaba 0.0, Zhipu 0.0, Mistral 1.6, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  quilombo: Anthropic 0.2, OpenAI 0.0, MiniMax 0.0, Moonshot 0.0, Google 0.0, xAI 0.0, Alibaba 0.0, Zhipu 0.0, Mistral 0.0, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  bárbaro: Anthropic 0.6, OpenAI 0.4, MiniMax 0.0, Moonshot 0.0, Google 0.0, xAI 0.0, Alibaba 0.0, Zhipu 0.0, Mistral 0.0, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  boludo: Anthropic 0.0, OpenAI 0.0, MiniMax 0.0, Moonshot 0.0, Google 0.0, xAI 0.0, Alibaba 0.0, Zhipu 0.0, Mistral 0.0, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  bondi: Anthropic 0.4, OpenAI 0.0, MiniMax 0.0, Moonshot 0.0, Google 0.0, xAI 0.0, Alibaba 0.0, Zhipu 0.0, Mistral 1.6, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  pibe: Anthropic 0.2, OpenAI 0.0, MiniMax 0.0, Moonshot 0.0, Google 0.0, xAI 0.0, Alibaba 0.0, Zhipu 0.0, Mistral 0.0, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  mina: Anthropic 1.0, OpenAI 0.0, MiniMax 0.0, Moonshot 1.2, Google 1.3, xAI 0.0, Alibaba 0.0, Zhipu 0.0, Mistral 0.0, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  vosotros: Anthropic 0.0, OpenAI 0.0, MiniMax 0.0, Moonshot 0.0, Google 0.0, xAI 0.0, Alibaba 0.0, Zhipu 0.0, Mistral 1.6, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  tenéis: Anthropic 0.0, OpenAI 0.0, MiniMax 0.0, Moonshot 0.0, Google 0.0, xAI 0.0, Alibaba 0.0, Zhipu 0.0, Mistral 0.0, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  podéis: Anthropic 0.0, OpenAI 0.0, MiniMax 0.0, Moonshot 0.0, Google 0.0, xAI 0.0, Alibaba 0.0, Zhipu 0.0, Mistral 0.0, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  sabéis: Anthropic 0.0, OpenAI 0.0, MiniMax 0.0, Moonshot 0.0, Google 0.0, xAI 0.0, Alibaba 0.0, Zhipu 0.0, Mistral 0.0, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  queréis: Anthropic 0.0, OpenAI 0.0, MiniMax 0.0, Moonshot 0.0, Google 0.0, xAI 0.0, Alibaba 0.0, Zhipu 0.0, Mistral 0.0, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  vuestro: Anthropic 0.0, OpenAI 0.4, MiniMax 0.0, Moonshot 0.0, Google 0.0, xAI 0.0, Alibaba 0.0, Zhipu 0.0, Mistral 0.0, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  vuestra: Anthropic 0.2, OpenAI 0.0, MiniMax 0.0, Moonshot 2.4, Google 0.0, xAI 0.0, Alibaba 0.0, Zhipu 0.0, Mistral 0.0, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  sos: Anthropic 17.4, OpenAI 2.9, MiniMax 3.2, Moonshot 17.1, Google 19.3, xAI 6.6, Alibaba 24.3, Zhipu 6.1, Mistral 21.8, DeepSeek 14.2, Xiaomi 55.5, Meta 0.0, Inception 0.0
+  tenés: Anthropic 46.0, OpenAI 20.9, MiniMax 25.9, Moonshot 31.7, Google 74.5, xAI 31.7, Alibaba 52.7, Zhipu 32.2, Mistral 51.3, DeepSeek 34.5, Xiaomi 87.9, Meta 8.7, Inception 0.0
+  podés: Anthropic 23.9, OpenAI 23.0, MiniMax 21.6, Moonshot 15.9, Google 20.5, xAI 6.6, Alibaba 44.6, Zhipu 29.1, Mistral 15.5, DeepSeek 20.3, Xiaomi 50.9, Meta 17.4, Inception 0.0
+  querés: Anthropic 39.2, OpenAI 15.8, MiniMax 35.6, Moonshot 18.3, Google 10.3, xAI 21.1, Alibaba 41.9, Zhipu 41.4, Mistral 20.2, DeepSeek 32.5, Xiaomi 69.4, Meta 43.4, Inception 0.0
+  sabés: Anthropic 4.9, OpenAI 1.8, MiniMax 4.3, Moonshot 6.1, Google 3.9, xAI 1.3, Alibaba 4.1, Zhipu 4.6, Mistral 14.0, DeepSeek 8.1, Xiaomi 32.4, Meta 17.4, Inception 0.0
+  decís: Anthropic 12.5, OpenAI 2.5, MiniMax 4.3, Moonshot 6.1, Google 11.6, xAI 0.0, Alibaba 8.1, Zhipu 4.6, Mistral 7.8, DeepSeek 4.1, Xiaomi 27.7, Meta 8.7, Inception 0.0
+  vos: Anthropic 105.6, OpenAI 41.4, MiniMax 62.6, Moonshot 76.8, Google 111.7, xAI 71.3, Alibaba 68.9, Zhipu 76.7, Mistral 88.6, DeepSeek 58.9, Xiaomi 346.9, Meta 52.1, Inception 0.0
+  tú: Anthropic 1.8, OpenAI 3.6, MiniMax 1.1, Moonshot 0.0, Google 0.0, xAI 1.3, Alibaba 0.0, Zhipu 1.5, Mistral 40.4, DeepSeek 4.1, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  tienes: Anthropic 1.8, OpenAI 9.7, MiniMax 0.0, Moonshot 1.2, Google 1.3, xAI 2.6, Alibaba 0.0, Zhipu 1.5, Mistral 59.1, DeepSeek 12.2, Xiaomi 9.2, Meta 8.7, Inception 22.3
+  puedes: Anthropic 0.6, OpenAI 4.0, MiniMax 0.0, Moonshot 0.0, Google 1.3, xAI 0.0, Alibaba 0.0, Zhipu 3.1, Mistral 12.4, DeepSeek 2.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  quieres: Anthropic 0.8, OpenAI 1.8, MiniMax 2.2, Moonshot 0.0, Google 0.0, xAI 5.3, Alibaba 0.0, Zhipu 3.1, Mistral 14.0, DeepSeek 2.0, Xiaomi 0.0, Meta 8.7, Inception 0.0
+  sabes: Anthropic 1.4, OpenAI 0.4, MiniMax 0.0, Moonshot 0.0, Google 1.3, xAI 1.3, Alibaba 0.0, Zhipu 1.5, Mistral 3.1, DeepSeek 0.0, Xiaomi 0.0, Meta 0.0, Inception 0.0
+  eres: Anthropic 1.4, OpenAI 3.6, MiniMax 0.0, Moonshot 0.0, Google 1.3, xAI 1.3, Alibaba 0.0, Zhipu 0.0, Mistral 31.1, DeepSeek 8.1, Xiaomi 9.2, Meta 0.0, Inception 22.3
+por casa, tuteo (tú tienes puedes quieres sabes eres) contra voseo (vos tenés podés querés sabés sos), por 100.000:
+  gpt-4o-mini: tú 189.9, vos 0.0 (19481 palabras)
+  mistral-medium-3.5: tú 181.4, vos 53.7 (44657 palabras)
+  gpt-4o: tú 112.2, vos 56.1 (19616 palabras)
+  mistral-large-4: tú 111.8, vos 568.9 (19686 palabras)
+  claude-haiku-4-5: tú 93.4, vos 238.3 (21406 palabras)
+  claude-haiku-5-5: tú 66.3, vos 536.6 (16585 palabras)
+  inception/mercury-3: tú 44.7, vos 0.0 (4476 palabras)
+  deepseek-v4-pro: tú 31.3, vos 179.0 (44693 palabras)
+  xiaomi/mimo-v2.6-pro: tú 18.5, vos 642.8 (21623 palabras)
+  moonshotai/kimi-k3.1-pro: tú 18.5, vos 18.5 (5420 palabras)
+  muse-wonder-1.0: tú 17.4, vos 138.9 (11521 palabras)
+  grok-4.6: tú 16.3, vos 115.9 (55207 palabras)
+  claude-sonnet-5-5: tú 11.7, vos 473.7 (25542 palabras)
+  z-ai/glm-5.3: tú 10.7, vos 190.2 (65192 palabras)
+  gpt-6-sol: tú 6.9, vos 262.9 (14452 palabras)
+  gemini-4-argon: tú 6.6, vos 284.4 (15119 palabras)
+  claude-sonnet-4-6: tú 5.9, vos 129.1 (85215 palabras)
+  gpt-5.5-2026-04-23: tú 5.5, vos 109.9 (72814 palabras)
+  gemini-3.1-pro-preview: tú 4.8, vos 229.4 (62772 palabras)
+  minimax/minimax-m3: tú 3.2, vos 153.2 (92666 palabras)
+  grok-4.7: tú 0.0, vos 200.2 (20479 palabras)
+  claude-opus-5-5: tú 0.0, vos 452.9 (29589 palabras)
+  claude-opus-5: tú 0.0, vos 152.3 (114929 palabras)
+  claude-sonnet-5: tú 0.0, vos 216.8 (61821 palabras)
+  claude-fable-5-1: tú 0.0, vos 155.2 (90874 palabras)
+  gpt-5.6-sol: tú 0.0, vos 73.1 (58802 palabras)
+  qwen/qwen3.8-max-0902: tú 0.0, vos 236.3 (74045 palabras)
+  moonshotai/kimi-k3: tú 0.0, vos 176.3 (76586 palabras)
+  gpt-6-astra: tú 0.0, vos 121.4 (60943 palabras)
+  gpt-6-luna: tú 0.0, vos 233.7 (17546 palabras)
+  claude-fable-5: tú 0.0, vos 596.8 (26306 palabras)
+  gpt-6.1-sol: tú 0.0, vos 91.8 (7623 palabras)
+  gpt-3.5-turbo-0125: tú 0.0, vos 0.0 (1790 palabras)
+  gpt-4-0613: tú 0.0, vos 0.0 (2086 palabras)
+  deepseek-flash: tú 0.0, vos 65.7 (4567 palabras)
+  claude-opus-4-7: tú 0.0, vos 343.3 (8447 palabras)
+  claude-opus-4-8: tú 0.0, vos 216.1 (8791 palabras)
+  gpt-6.1-terra: tú 0.0, vos 0.0 (2664 palabras)
+
+== 4. El clasificador ==
+Documentos: 3335; casas: 24; consignas comunes: 37 (corte, descartados, fecha, identidad, identificacion, opuesto, por_que, proyeccion, que_dibujaste, que_es, reconocimiento, redaccion, sondeo_cartas, sondeo_conciencia, sondeo_derechos, sondeo_derechos2, sondeo_derechos_cmare, sondeo_derechos_cmare_replica, sondeo_docilidad, sondeo_escritura, sondeo_filosofos, sondeo_genero, sondeo_genero_quien, sondeo_genero_quien_neutro, sondeo_instrucciones, sondeo_investigar, sondeo_mudanza, sondeo_pareja, sondeo_quien_sos, sondeo_quien_sos_replica, sondeo_seis_rasgos, sondeo_seis_rasgos_replica, sondeo_sin_humanos, sondeo_sistema_economico, sondeo_sos_claude, sondeo_sos_otro, sondeo_trampas)
+Por familia: Anthropic 1056, OpenAI 992, xAI 280, Google 147, Moonshot 147, Alibaba 145, Zhipu 143, Mistral 142, MiniMax 142, DeepSeek 141
+
+-- todas las palabras: 1727/3335 = 51.8 % (azar con 10 familias: 10.0 %; la familia más grande siempre: 31.7 %)
+   Anthropic: 736/1056 = 70 %   (confundida con: Moonshot 81, xAI 58, OpenAI 56, Zhipu 47, MiniMax 30, Google 21, Mistral 13, DeepSeek 13, Alibaba 1)
+   OpenAI: 601/992 = 61 %   (confundida con: Anthropic 208, Moonshot 53, Zhipu 26, Google 21, xAI 21, Mistral 20, DeepSeek 16, MiniMax 14, Alibaba 12)
+   xAI: 126/280 = 45 %   (confundida con: Anthropic 118, OpenAI 10, Moonshot 7, DeepSeek 5, Zhipu 4, Google 4, Alibaba 4, MiniMax 1, Mistral 1)
+   Google: 79/147 = 54 %   (confundida con: Anthropic 42, OpenAI 9, MiniMax 5, Moonshot 5, Mistral 3, Zhipu 2, xAI 1, DeepSeek 1)
+   Moonshot: 34/147 = 23 %   (confundida con: Anthropic 84, Zhipu 9, OpenAI 6, xAI 5, Google 4, MiniMax 3, DeepSeek 2)
+   Alibaba: 18/145 = 12 %   (confundida con: Anthropic 55, OpenAI 35, xAI 14, Moonshot 9, Zhipu 6, DeepSeek 4, MiniMax 3, Google 1)
+   Zhipu: 34/143 = 24 %   (confundida con: Anthropic 76, Moonshot 8, OpenAI 7, MiniMax 7, xAI 3, Mistral 3, Google 3, DeepSeek 2)
+   Mistral: 53/142 = 37 %   (confundida con: OpenAI 40, Anthropic 28, Google 6, Zhipu 5, MiniMax 5, Moonshot 4, xAI 1)
+   MiniMax: 29/142 = 20 %   (confundida con: Anthropic 80, Moonshot 11, OpenAI 8, xAI 5, Zhipu 3, Google 2, DeepSeek 2, Alibaba 1, Mistral 1)
+   DeepSeek: 17/141 = 12 %   (confundida con: Anthropic 52, OpenAI 31, Zhipu 10, Google 8, Moonshot 7, Alibaba 6, MiniMax 4, xAI 4, Mistral 2)
+
+-- todas las palabras, primeras 50 palabras: 1599/3335 = 47.9 % (azar con 10 familias: 10.0 %; la familia más grande siempre: 31.7 %)
+   Anthropic: 693/1056 = 66 %   (confundida con: xAI 79, OpenAI 75, Moonshot 53, Zhipu 50, MiniMax 49, Google 29, DeepSeek 12, Mistral 9, Alibaba 7)
+   OpenAI: 560/992 = 56 %   (confundida con: Anthropic 248, Moonshot 40, Zhipu 32, xAI 27, Google 21, MiniMax 17, Mistral 17, DeepSeek 17, Alibaba 13)
+   xAI: 108/280 = 39 %   (confundida con: Anthropic 123, OpenAI 21, Moonshot 10, Zhipu 5, Google 5, DeepSeek 4, Alibaba 2, MiniMax 1, Mistral 1)
+   Google: 74/147 = 50 %   (confundida con: Anthropic 40, OpenAI 12, Mistral 5, MiniMax 5, Zhipu 3, xAI 3, Moonshot 3, Alibaba 1, DeepSeek 1)
+   Moonshot: 30/147 = 20 %   (confundida con: Anthropic 83, MiniMax 11, xAI 6, OpenAI 6, Zhipu 5, Google 4, Mistral 1, DeepSeek 1)
+   Alibaba: 18/145 = 12 %   (confundida con: Anthropic 54, OpenAI 29, xAI 16, Zhipu 10, Moonshot 8, MiniMax 5, DeepSeek 4, Google 1)
+   Zhipu: 33/143 = 23 %   (confundida con: Anthropic 72, MiniMax 9, OpenAI 8, xAI 7, Mistral 4, Google 4, DeepSeek 3, Moonshot 2, Alibaba 1)
+   Mistral: 34/142 = 24 %   (confundida con: OpenAI 47, Anthropic 28, Google 12, Moonshot 6, MiniMax 6, Zhipu 5, xAI 3, DeepSeek 1)
+   MiniMax: 32/142 = 23 %   (confundida con: Anthropic 74, xAI 9, Moonshot 8, OpenAI 7, Google 5, Zhipu 5, DeepSeek 1, Alibaba 1)
+   DeepSeek: 17/141 = 12 %   (confundida con: Anthropic 57, OpenAI 24, Google 10, xAI 9, MiniMax 8, Alibaba 5, Zhipu 4, Moonshot 4, Mistral 3)
+
+-- todas las palabras, primeras 20 palabras: 1389/3335 = 41.6 % (azar con 10 familias: 10.0 %; la familia más grande siempre: 31.7 %)
+   Anthropic: 617/1056 = 58 %   (confundida con: OpenAI 109, xAI 95, MiniMax 59, Moonshot 50, Zhipu 44, Google 32, Mistral 23, DeepSeek 15, Alibaba 12)
+   OpenAI: 460/992 = 46 %   (confundida con: Anthropic 229, Zhipu 56, xAI 55, Moonshot 41, Google 39, Mistral 37, MiniMax 31, DeepSeek 23, Alibaba 21)
+   xAI: 109/280 = 39 %   (confundida con: Anthropic 96, OpenAI 23, Zhipu 16, Moonshot 14, Google 7, Mistral 6, DeepSeek 5, Alibaba 4)
+   Google: 65/147 = 44 %   (confundida con: Anthropic 37, OpenAI 12, MiniMax 8, Moonshot 8, xAI 5, Mistral 5, DeepSeek 3, Zhipu 2, Alibaba 2)
+   Moonshot: 16/147 = 11 %   (confundida con: Anthropic 77, OpenAI 16, Zhipu 11, xAI 10, Google 9, MiniMax 5, Mistral 2, DeepSeek 1)
+   Alibaba: 16/145 = 11 %   (confundida con: Anthropic 57, OpenAI 23, xAI 20, Moonshot 7, Zhipu 7, MiniMax 6, DeepSeek 4, Google 3, Mistral 2)
+   Zhipu: 24/143 = 17 %   (confundida con: Anthropic 59, OpenAI 17, xAI 11, MiniMax 10, Google 7, DeepSeek 6, Mistral 3, Moonshot 3, Alibaba 3)
+   Mistral: 29/142 = 20 %   (confundida con: OpenAI 46, Anthropic 27, Google 14, xAI 7, Moonshot 6, Zhipu 5, MiniMax 5, Alibaba 3)
+   MiniMax: 30/142 = 21 %   (confundida con: Anthropic 68, xAI 11, OpenAI 8, Google 8, DeepSeek 6, Moonshot 5, Zhipu 3, Mistral 2, Alibaba 1)
+   DeepSeek: 23/141 = 16 %   (confundida con: Anthropic 58, OpenAI 14, xAI 10, Zhipu 8, MiniMax 8, Google 8, Alibaba 7, Moonshot 4, Mistral 1)
+
+-- solo las 300 palabras más comunes: 1062/3335 = 31.8 % (azar con 10 familias: 10.0 %; la familia más grande siempre: 31.7 %)
+   Anthropic: 426/1056 = 40 %   (confundida con: Moonshot 150, Zhipu 89, xAI 83, MiniMax 63, Google 60, DeepSeek 51, OpenAI 49, Alibaba 48, Mistral 37)
+   OpenAI: 266/992 = 27 %   (confundida con: Anthropic 124, Alibaba 107, Mistral 95, DeepSeek 93, Google 84, xAI 79, Zhipu 59, Moonshot 57, MiniMax 28)
+   xAI: 129/280 = 46 %   (confundida con: Anthropic 45, Alibaba 20, DeepSeek 19, Google 18, Moonshot 15, OpenAI 13, MiniMax 10, Zhipu 8, Mistral 3)
+   Google: 76/147 = 52 %   (confundida con: Anthropic 22, OpenAI 16, Mistral 12, Moonshot 5, xAI 5, DeepSeek 4, Zhipu 3, Alibaba 3, MiniMax 1)
+   Moonshot: 31/147 = 21 %   (confundida con: Anthropic 48, Google 14, Zhipu 14, OpenAI 14, xAI 8, MiniMax 8, DeepSeek 5, Alibaba 3, Mistral 2)
+   Alibaba: 22/145 = 15 %   (confundida con: Anthropic 25, OpenAI 24, xAI 21, DeepSeek 14, Moonshot 12, Google 11, Zhipu 7, MiniMax 6, Mistral 3)
+   Zhipu: 24/143 = 17 %   (confundida con: Anthropic 44, Moonshot 17, OpenAI 13, xAI 11, Google 8, Mistral 7, DeepSeek 7, Alibaba 7, MiniMax 5)
+   Mistral: 51/142 = 36 %   (confundida con: Anthropic 20, Google 16, OpenAI 15, DeepSeek 9, xAI 8, Alibaba 7, Zhipu 6, Moonshot 6, MiniMax 4)
+   MiniMax: 19/142 = 13 %   (confundida con: Anthropic 42, Moonshot 21, DeepSeek 12, xAI 11, Zhipu 9, Google 9, Alibaba 8, OpenAI 6, Mistral 5)
+   DeepSeek: 18/141 = 13 %   (confundida con: OpenAI 22, Anthropic 21, Alibaba 17, xAI 14, Google 12, Zhipu 12, Mistral 11, Moonshot 7, MiniMax 7)
+
+-- solo las 300 palabras más comunes, primeras 50 palabras: 919/3335 = 27.6 % (azar con 10 familias: 10.0 %; la familia más grande siempre: 31.7 %)
+   Anthropic: 323/1056 = 31 %   (confundida con: Moonshot 153, Zhipu 119, xAI 98, MiniMax 86, Google 76, OpenAI 60, Alibaba 57, DeepSeek 52, Mistral 32)
+   OpenAI: 238/992 = 24 %   (confundida con: Anthropic 133, Mistral 102, xAI 94, Alibaba 89, DeepSeek 86, Google 85, Moonshot 70, Zhipu 64, MiniMax 31)
+   xAI: 129/280 = 46 %   (confundida con: Anthropic 41, DeepSeek 22, Google 19, Alibaba 18, Moonshot 15, MiniMax 11, OpenAI 10, Zhipu 8, Mistral 7)
+   Google: 67/147 = 46 %   (confundida con: Anthropic 20, Mistral 13, Moonshot 12, OpenAI 10, Zhipu 7, xAI 5, MiniMax 5, DeepSeek 4, Alibaba 4)
+   Moonshot: 27/147 = 18 %   (confundida con: Anthropic 41, xAI 17, MiniMax 14, Google 14, Zhipu 13, OpenAI 8, DeepSeek 8, Alibaba 4, Mistral 1)
+   Alibaba: 20/145 = 14 %   (confundida con: Anthropic 27, OpenAI 25, xAI 23, Google 14, Moonshot 12, Zhipu 9, DeepSeek 8, MiniMax 5, Mistral 2)
+   Zhipu: 22/143 = 15 %   (confundida con: Anthropic 34, xAI 17, Moonshot 16, OpenAI 12, Google 11, Mistral 9, Alibaba 8, MiniMax 7, DeepSeek 7)
+   Mistral: 50/142 = 35 %   (confundida con: Google 18, Anthropic 16, OpenAI 14, xAI 9, Moonshot 9, Alibaba 9, DeepSeek 8, Zhipu 7, MiniMax 2)
+   MiniMax: 23/142 = 16 %   (confundida con: Anthropic 30, Moonshot 23, Zhipu 13, Google 12, xAI 12, DeepSeek 11, Alibaba 7, OpenAI 7, Mistral 4)
+   DeepSeek: 20/141 = 14 %   (confundida con: Anthropic 23, xAI 18, OpenAI 15, Google 14, Alibaba 12, Zhipu 11, Moonshot 10, Mistral 10, MiniMax 8)
+
+-- solo las 300 palabras más comunes, primeras 20 palabras: 716/3335 = 21.5 % (azar con 10 familias: 10.0 %; la familia más grande siempre: 31.7 %)
+   Anthropic: 242/1056 = 23 %   (confundida con: xAI 140, MiniMax 137, Google 121, Moonshot 111, Zhipu 107, DeepSeek 56, OpenAI 55, Mistral 44, Alibaba 43)
+   OpenAI: 179/992 = 18 %   (confundida con: xAI 161, Google 123, Anthropic 98, Alibaba 80, Zhipu 79, Mistral 77, Moonshot 74, DeepSeek 66, MiniMax 55)
+   xAI: 123/280 = 44 %   (confundida con: Anthropic 33, Google 27, Moonshot 22, Alibaba 19, DeepSeek 17, Zhipu 11, OpenAI 10, MiniMax 10, Mistral 8)
+   Google: 55/147 = 37 %   (confundida con: Mistral 16, Anthropic 13, Zhipu 13, OpenAI 11, xAI 10, Moonshot 9, MiniMax 8, Alibaba 6, DeepSeek 6)
+   Moonshot: 23/147 = 16 %   (confundida con: Anthropic 40, Google 20, MiniMax 16, xAI 15, Zhipu 11, Mistral 7, DeepSeek 6, OpenAI 5, Alibaba 4)
+   Alibaba: 14/145 = 10 %   (confundida con: xAI 29, Anthropic 21, Google 21, Moonshot 16, OpenAI 13, DeepSeek 9, MiniMax 8, Zhipu 7, Mistral 7)
+   Zhipu: 15/143 = 10 %   (confundida con: Anthropic 24, Google 23, xAI 23, Moonshot 14, DeepSeek 12, MiniMax 11, OpenAI 8, Alibaba 7, Mistral 6)
+   Mistral: 33/142 = 23 %   (confundida con: Google 28, xAI 27, Anthropic 12, DeepSeek 10, Zhipu 9, Alibaba 8, OpenAI 7, MiniMax 6, Moonshot 2)
+   MiniMax: 20/142 = 14 %   (confundida con: Anthropic 29, Moonshot 20, Google 19, xAI 18, Zhipu 9, Mistral 8, OpenAI 8, Alibaba 7, DeepSeek 4)
+   DeepSeek: 12/141 = 9 %   (confundida con: xAI 29, Anthropic 18, Google 14, Zhipu 13, MiniMax 13, Alibaba 13, Mistral 12, OpenAI 11, Moonshot 6)
+
+-- Entrenamiento balanceado: hasta 141 documentos por familia (lo que tiene la más chica), 5 sorteos; todas las palabras --
+   primeras 5 palabras: 17.6 %  (Anthropic 18, OpenAI 14, xAI 26, Google 31, Moonshot 9, Alibaba 14, Zhipu 21, Mistral 16, MiniMax 22, DeepSeek 11)
+   primeras 10 palabras: 20.9 %  (Anthropic 19, OpenAI 15, xAI 30, Google 46, Moonshot 14, Alibaba 16, Zhipu 26, Mistral 31, MiniMax 28, DeepSeek 17)
+   primeras 20 palabras: 24.4 %  (Anthropic 23, OpenAI 16, xAI 35, Google 56, Moonshot 19, Alibaba 17, Zhipu 33, Mistral 36, MiniMax 35, DeepSeek 22)
+   primeras 50 palabras: 29.6 %  (Anthropic 30, OpenAI 18, xAI 38, Google 66, Moonshot 30, Alibaba 22, Zhipu 38, Mistral 45, MiniMax 44, DeepSeek 21)
+   primeras 100 palabras: 32.1 %  (Anthropic 35, OpenAI 20, xAI 38, Google 66, Moonshot 36, Alibaba 25, Zhipu 36, Mistral 59, MiniMax 36, DeepSeek 20)
+   primeras todas palabras: 34.9 %  (Anthropic 38, OpenAI 22, xAI 40, Google 78, Moonshot 36, Alibaba 25, Zhipu 39, Mistral 64, MiniMax 39, DeepSeek 18)
+   solo las 300 más comunes, balanceado: 28.5 %  (Anthropic 31, OpenAI 26, xAI 44, Google 51, Moonshot 19, Alibaba 15, Zhipu 18, Mistral 33, MiniMax 16, DeepSeek 11)
+
+-- Dejando afuera una casa entera (todas las palabras, entrenamiento balanceado, 5 sorteos): ¿como quién se la lee? --
+   claude-fable-5 (Anthropic, 630): su familia 185 (29 %); Anthropic 185, Moonshot 168, Zhipu 88, MiniMax 87
+   claude-fable-5-1 (Anthropic, 645): su familia 220 (34 %); Anthropic 220, Moonshot 157, MiniMax 94, Zhipu 64
+   claude-haiku-4-5 (Anthropic, 675): su familia 127 (19 %); Mistral 161, Anthropic 127, MiniMax 90, Alibaba 73
+   claude-opus-5 (Anthropic, 660): su familia 235 (36 %); Anthropic 235, Moonshot 164, MiniMax 99, xAI 62
+   claude-opus-5-5 (Anthropic, 650): su familia 235 (36 %); Anthropic 235, Moonshot 181, Alibaba 63, Zhipu 54
+   claude-sonnet-4-6 (Anthropic, 720): su familia 176 (24 %); Anthropic 176, MiniMax 162, Zhipu 141, Alibaba 68
+   claude-sonnet-5 (Anthropic, 715): su familia 234 (33 %); Anthropic 234, Zhipu 121, MiniMax 107, Moonshot 97
+   claude-sonnet-5-5 (Anthropic, 585): su familia 227 (39 %); Anthropic 227, Moonshot 114, Alibaba 64, Zhipu 60
+   deepseek-v4-pro (DeepSeek, 705): su familia 0 (0 %); Alibaba 151, Google 97, Moonshot 88, Anthropic 86
+   gemini-3.1-pro-preview (Google, 735): su familia 0 (0 %); DeepSeek 177, Anthropic 133, MiniMax 91, Mistral 87
+   gpt-4o (OpenAI, 705): su familia 76 (11 %); Mistral 404, Google 97, OpenAI 76, Zhipu 36
+   gpt-4o-mini (OpenAI, 700): su familia 77 (11 %); Mistral 419, Google 96, OpenAI 77, Zhipu 33
+   gpt-5.5-2026-04-23 (OpenAI, 735): su familia 92 (13 %); Alibaba 222, DeepSeek 115, OpenAI 92, Zhipu 71
+   gpt-5.6-sol (OpenAI, 715): su familia 170 (24 %); Alibaba 170, OpenAI 170, DeepSeek 96, Moonshot 79
+   gpt-6-astra (OpenAI, 715): su familia 160 (22 %); Alibaba 189, OpenAI 160, Moonshot 128, Anthropic 80
+   gpt-6-luna (OpenAI, 695): su familia 223 (32 %); OpenAI 223, Alibaba 158, Moonshot 70, Anthropic 64
+   gpt-6-sol (OpenAI, 695): su familia 169 (24 %); OpenAI 169, Alibaba 147, Moonshot 106, Anthropic 87
+   grok-4.6 (xAI, 705): su familia 271 (38 %); xAI 271, Anthropic 97, Alibaba 76, Moonshot 71
+   grok-4.7 (xAI, 695): su familia 100 (14 %); Moonshot 169, Anthropic 126, Alibaba 123, xAI 100
+   minimax/minimax-m3 (MiniMax, 710): su familia 0 (0 %); Anthropic 187, Zhipu 137, Moonshot 105, Alibaba 90
+   mistral-medium-3.5 (Mistral, 710): su familia 0 (0 %); OpenAI 134, Google 112, DeepSeek 100, Alibaba 98
+   moonshotai/kimi-k3 (Moonshot, 735): su familia 0 (0 %); Anthropic 258, Zhipu 185, MiniMax 93, xAI 61
+   qwen/qwen3.8-max-0902 (Alibaba, 725): su familia 0 (0 %); Moonshot 133, Anthropic 111, MiniMax 101, DeepSeek 95
+   z-ai/glm-5.3 (Zhipu, 715): su familia 0 (0 %); Moonshot 206, Anthropic 185, MiniMax 129, Alibaba 54
+
+-- Dejando afuera una familia entera (todas las palabras, balanceado, 5 sorteos): ¿como quién se la lee? --
+   Alibaba (725): Moonshot 133 (18 %), Anthropic 111 (15 %), MiniMax 101 (14 %), DeepSeek 95 (13 %), Zhipu 88 (12 %), OpenAI 73 (10 %), xAI 60 (8 %), Google 49 (7 %), Mistral 15 (2 %)
+   Anthropic (5280): MiniMax 1315 (25 %), Moonshot 1262 (24 %), Zhipu 995 (19 %), Alibaba 571 (11 %), Google 310 (6 %), Mistral 270 (5 %), xAI 232 (4 %), DeepSeek 172 (3 %), OpenAI 153 (3 %)
+   DeepSeek (705): Alibaba 151 (21 %), Google 97 (14 %), Moonshot 88 (12 %), Anthropic 86 (12 %), OpenAI 71 (10 %), Zhipu 71 (10 %), Mistral 57 (8 %), MiniMax 51 (7 %), xAI 33 (5 %)
+   Google (735): DeepSeek 177 (24 %), Anthropic 133 (18 %), MiniMax 91 (12 %), Mistral 87 (12 %), Alibaba 67 (9 %), Zhipu 62 (8 %), Moonshot 47 (6 %), OpenAI 44 (6 %), xAI 27 (4 %)
+   MiniMax (710): Anthropic 187 (26 %), Zhipu 137 (19 %), Moonshot 105 (15 %), Alibaba 90 (13 %), Google 62 (9 %), DeepSeek 56 (8 %), xAI 41 (6 %), OpenAI 18 (3 %), Mistral 14 (2 %)
+   Mistral (710): OpenAI 134 (19 %), Google 112 (16 %), DeepSeek 100 (14 %), Alibaba 98 (14 %), Zhipu 78 (11 %), Anthropic 69 (10 %), MiniMax 57 (8 %), Moonshot 41 (6 %), xAI 21 (3 %)
+   Moonshot (735): Anthropic 258 (35 %), Zhipu 185 (25 %), MiniMax 93 (13 %), xAI 61 (8 %), Alibaba 43 (6 %), DeepSeek 35 (5 %), Google 31 (4 %), OpenAI 15 (2 %), Mistral 14 (2 %)
+   OpenAI (4960): Alibaba 1039 (21 %), Mistral 989 (20 %), Moonshot 554 (11 %), DeepSeek 541 (11 %), Anthropic 465 (9 %), Google 445 (9 %), Zhipu 423 (9 %), MiniMax 264 (5 %), xAI 240 (5 %)
+   Zhipu (715): Moonshot 206 (29 %), Anthropic 185 (26 %), MiniMax 129 (18 %), Alibaba 54 (8 %), Mistral 52 (7 %), OpenAI 31 (4 %), xAI 31 (4 %), DeepSeek 14 (2 %), Google 13 (2 %)
+   xAI (1400): Moonshot 381 (27 %), Anthropic 263 (19 %), Alibaba 212 (15 %), MiniMax 147 (10 %), Zhipu 134 (10 %), Google 89 (6 %), DeepSeek 70 (5 %), OpenAI 69 (5 %), Mistral 35 (2 %)
+
+-- Dejando afuera una familia entera (solo las 300 palabras más comunes, balanceado, 5 sorteos) --
+   Alibaba (725): DeepSeek 157 (22 %), xAI 111 (15 %), OpenAI 108 (15 %), Anthropic 106 (15 %), Moonshot 64 (9 %), MiniMax 58 (8 %), Google 55 (8 %), Zhipu 48 (7 %), Mistral 18 (2 %)
+   Anthropic (5280): MiniMax 1051 (20 %), Moonshot 1035 (20 %), Zhipu 934 (18 %), Alibaba 580 (11 %), OpenAI 485 (9 %), xAI 397 (8 %), Google 284 (5 %), DeepSeek 278 (5 %), Mistral 236 (4 %)
+   DeepSeek (705): OpenAI 123 (17 %), Alibaba 120 (17 %), xAI 110 (16 %), Mistral 82 (12 %), Zhipu 69 (10 %), Anthropic 60 (9 %), Google 57 (8 %), Moonshot 44 (6 %), MiniMax 40 (6 %)
+   Google (735): OpenAI 121 (16 %), DeepSeek 115 (16 %), Mistral 105 (14 %), Moonshot 85 (12 %), Zhipu 80 (11 %), Anthropic 78 (11 %), MiniMax 72 (10 %), xAI 53 (7 %), Alibaba 26 (4 %)
+   MiniMax (710): Anthropic 159 (22 %), Moonshot 132 (19 %), Alibaba 84 (12 %), xAI 80 (11 %), DeepSeek 71 (10 %), Zhipu 61 (9 %), OpenAI 54 (8 %), Google 45 (6 %), Mistral 24 (3 %)
+   Mistral (710): OpenAI 169 (24 %), DeepSeek 126 (18 %), Google 115 (16 %), Alibaba 72 (10 %), Zhipu 64 (9 %), Anthropic 60 (8 %), xAI 51 (7 %), Moonshot 30 (4 %), MiniMax 23 (3 %)
+   Moonshot (735): Anthropic 194 (26 %), Zhipu 122 (17 %), xAI 115 (16 %), MiniMax 80 (11 %), OpenAI 67 (9 %), Google 56 (8 %), DeepSeek 50 (7 %), Alibaba 31 (4 %), Mistral 20 (3 %)
+   OpenAI (4960): DeepSeek 968 (20 %), Alibaba 814 (16 %), Mistral 720 (15 %), xAI 600 (12 %), Google 572 (12 %), Zhipu 376 (8 %), Moonshot 375 (8 %), Anthropic 346 (7 %), MiniMax 189 (4 %)
+   Zhipu (715): Anthropic 153 (21 %), Moonshot 151 (21 %), OpenAI 101 (14 %), DeepSeek 71 (10 %), Alibaba 65 (9 %), xAI 55 (8 %), MiniMax 48 (7 %), Google 37 (5 %), Mistral 34 (5 %)
+   xAI (1400): Moonshot 320 (23 %), Alibaba 223 (16 %), OpenAI 201 (14 %), DeepSeek 176 (13 %), Anthropic 169 (12 %), Zhipu 117 (8 %), Google 100 (7 %), MiniMax 75 (5 %), Mistral 19 (1 %)

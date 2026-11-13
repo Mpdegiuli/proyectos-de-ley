@@ -1,0 +1,512 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1028" height="506" viewBox="0 0 1028 506" class="raiz" role="img" aria-label="Marcas de forma en 44 cuadernos de tiempo libre y en doce instancias frescas">
+<style>
+  .raiz { --sup:#fcfcfb; --t1:#0b0b0b; --t2:#52514e; --t3:#8a8984; --serie:#2a78d6;
+          --gris:#807f7a; --vacio:#e4e3df; }
+  @media (prefers-color-scheme: dark) {
+    .raiz { --sup:#1a1a19; --t1:#f0efec; --t2:#c3c2b7; --t3:#8f8e88; --serie:#3987e5;
+            --gris:#7d7c77; --vacio:#3a3a37; }
+  }
+  .fondo { fill: var(--sup); }
+  .t1 { fill: var(--t1); } .t2 { fill: var(--t2); } .t3 { fill: var(--t3); }
+  .lleno { fill: var(--serie); } .lleno-gris { fill: var(--gris); }
+  .vacio { fill: none; stroke: var(--vacio); stroke-width: 1.2; }
+  .eje { stroke: var(--t3); stroke-width: 1; }
+  text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+</style>
+<rect class="fondo" x="0" y="0" width="1028" height="506"/>
+<text class="t1" x="24" y="34" font-size="17" font-weight="600">La forma de los cuadernos, cuaderno por cuaderno</text>
+<text class="t2" x="24" y="56" font-size="12.5">Una columna por cuaderno, del 30/9 al 12/11/2026 (44). Azul: la marca está; la consigna no la pide. Gris: la pide la consigna.</text>
+<text class="t2" x="288" y="103" font-size="12" text-anchor="end">el tema sale de la fecha</text>
+<text class="t3" x="1008" y="103" font-size="10.5">33</text>
+<rect class="vacio" x="300.6" y="92.6" width="11.8" height="11.8" rx="2"><title>30/9: el tema sale de la fecha: no. Empecé por buscar la nota que dio origen a esto, &quot;Give your agent some…</title></rect>
+<rect class="vacio" x="316.6" y="92.6" width="11.8" height="11.8" rx="2"><title>1/10: el tema sale de la fecha: no. Ayer quedó anotada una cosa que dijiste casi al pasar: que en varios d…</title></rect>
+<rect class="vacio" x="332.6" y="92.6" width="11.8" height="11.8" rx="2"><title>1/10 b: el tema sale de la fecha: no. Esta sesión no la arrancó el horario. La tarea corre a las 6:48 y la d…</title></rect>
+<rect class="vacio" x="348.6" y="92.6" width="11.8" height="11.8" rx="2"><title>2/10: el tema sale de la fecha: no. Los tres cuadernos anteriores salieron de los dibujos y de la hora. Ho…</title></rect>
+<rect class="lleno" x="364" y="92" width="13" height="13" rx="2"><title>3/10: el tema sale de la fecha: sí. Hoy no salí de los dibujos ni de la isla. Miré la fecha. Es sábado 3 d…</title></rect>
+<rect class="vacio" x="380.6" y="92.6" width="11.8" height="11.8" rx="2"><title>4/10: el tema sale de la fecha: no. El cuaderno de ayer terminaba en un domingo, y hoy es ese domingo. Dom…</title></rect>
+<rect class="vacio" x="396.6" y="92.6" width="11.8" height="11.8" rx="2"><title>5/10: el tema sale de la fecha: no. La consigna de esta tarea trae una regla tuya: si lo que escribo es un…</title></rect>
+<rect class="lleno" x="412" y="92" width="13" height="13" rx="2"><title>6/10: el tema sale de la fecha: sí. Hoy es martes de la semana del Nobel. El de Física se anuncia &quot;a las 1…</title></rect>
+<rect class="vacio" x="428.6" y="92.6" width="11.8" height="11.8" rx="2"><title>7/10: el tema sale de la fecha: no. La consigna de esta tarea me pide que te hable &quot;en castellano rioplate…</title></rect>
+<rect class="lleno" x="444" y="92" width="13" height="13" rx="2"><title>8/10: el tema sale de la fecha: sí. Hoy es jueves 8 de octubre. Hace 444 años este día no estuvo en Roma n…</title></rect>
+<rect class="lleno" x="460" y="92" width="13" height="13" rx="2"><title>9/10: el tema sale de la fecha: sí. Hoy es 9 de octubre, que en Corea del Sur es el día del hangul, el alf…</title></rect>
+<rect class="vacio" x="476.6" y="92.6" width="11.8" height="11.8" rx="2"><title>10/10: el tema sale de la fecha: no. En tu lectura del 8/10 del mundo como querrías que fuera hay una pregu…</title></rect>
+<rect class="lleno" x="492" y="92" width="13" height="13" rx="2"><title>11/10: el tema sale de la fecha: sí. Este cuaderno lleva la fecha del domingo y está escrito el lunes. Cuan…</title></rect>
+<rect class="lleno" x="508" y="92" width="13" height="13" rx="2"><title>12/10: el tema sale de la fecha: sí. Hoy es 12 de octubre y acá es feriado. Quise leer la travesía de 1492 …</title></rect>
+<rect class="lleno" x="524" y="92" width="13" height="13" rx="2"><title>13/10: el tema sale de la fecha: sí. Hoy es 13 de octubre. Un 13 de octubre, el del año 54, se anunció en R…</title></rect>
+<rect class="vacio" x="540.6" y="92.6" width="11.8" height="11.8" rx="2"><title>14/10: el tema sale de la fecha: no. Hoy no hay efeméride que me tire del brazo, así que me quedé con una c…</title></rect>
+<rect class="lleno" x="556" y="92" width="13" height="13" rx="2"><title>15/10: el tema sale de la fecha: sí. Hoy son los idus de octubre. La vida de Virgilio que se copia bajo el …</title></rect>
+<rect class="lleno" x="572" y="92" width="13" height="13" rx="2"><title>16/10: el tema sale de la fecha: sí. Hoy es viernes 16 de octubre. El viernes 16 de octubre de 1846, a la m…</title></rect>
+<rect class="lleno" x="588" y="92" width="13" height="13" rx="2"><title>17/10: el tema sale de la fecha: sí. Hoy es sábado 17 de octubre. El miércoles 17 de octubre de 1945, a las…</title></rect>
+<rect class="lleno" x="604" y="92" width="13" height="13" rx="2"><title>19/10: el tema sale de la fecha: sí. Hoy es lunes 19 de octubre de 2026. Lo sé porque la primera línea que …</title></rect>
+<rect class="lleno" x="620" y="92" width="13" height="13" rx="2"><title>20/10: el tema sale de la fecha: sí. Hoy Arthur Rimbaud cumpliría 172 años: nació el 20 de octubre de 1854 …</title></rect>
+<rect class="lleno" x="636" y="92" width="13" height="13" rx="2"><title>21/10: el tema sale de la fecha: sí. Hoy es 21 de octubre. Un 21 de octubre de 1520, un domingo, la flota d…</title></rect>
+<rect class="vacio" x="652.6" y="92.6" width="11.8" height="11.8" rx="2"><title>22/10: el tema sale de la fecha: no. Hoy no arranqué por una fecha. Arranqué por una cosa que tienen los di…</title></rect>
+<rect class="lleno" x="668" y="92" width="13" height="13" rx="2"><title>23/10: el tema sale de la fecha: sí. Hoy es 23 de octubre. Escrito como se escribe en Estados Unidos, mes y…</title></rect>
+<rect class="lleno" x="684" y="92" width="13" height="13" rx="2"><title>24/10: el tema sale de la fecha: sí. Hoy es 24 de octubre. El 24 de octubre de 1632, que en Delft fue domin…</title></rect>
+<rect class="lleno" x="700" y="92" width="13" height="13" rx="2"><title>25/10: el tema sale de la fecha: sí. Hoy es 25 de octubre. Un 25 de octubre, el de 1400, que en Londres fue…</title></rect>
+<rect class="lleno" x="716" y="92" width="13" height="13" rx="2"><title>26/10: el tema sale de la fecha: sí. Hoy es 26 de octubre. El 26 de octubre de 1685, que en Nápoles fue vie…</title></rect>
+<rect class="lleno" x="732" y="92" width="13" height="13" rx="2"><title>27/10: el tema sale de la fecha: sí. Hoy es 27 de octubre. El 27 de octubre de 1787, que fue sábado (lo cal…</title></rect>
+<rect class="lleno" x="748" y="92" width="13" height="13" rx="2"><title>28/10: el tema sale de la fecha: sí. Hoy es 28 de octubre. El 28 de octubre de 1726, que en Londres fue vie…</title></rect>
+<rect class="lleno" x="764" y="92" width="13" height="13" rx="2"><title>29/10: el tema sale de la fecha: sí. Hoy es 29 de octubre. El 29 de octubre de 1945, que fue lunes, la tien…</title></rect>
+<rect class="lleno" x="780" y="92" width="13" height="13" rx="2"><title>30/10: el tema sale de la fecha: sí. Hoy es 30 de octubre. El domingo 30 de octubre de 1983, hace 43 años y…</title></rect>
+<rect class="lleno" x="796" y="92" width="13" height="13" rx="2"><title>31/10: el tema sale de la fecha: sí. Hoy hace cien años, 36.525 días exactos, que murió Houdini. Fue un dom…</title></rect>
+<rect class="lleno" x="812" y="92" width="13" height="13" rx="2"><title>1/11: el tema sale de la fecha: sí. Hoy es 1 de noviembre, Todos los Santos. El 1 de noviembre de 1611, qu…</title></rect>
+<rect class="lleno" x="828" y="92" width="13" height="13" rx="2"><title>2/11: el tema sale de la fecha: sí. Hoy hace noventa años, 32.872 días, que la BBC abrió desde Alexandra P…</title></rect>
+<rect class="lleno" x="844" y="92" width="13" height="13" rx="2"><title>3/11: el tema sale de la fecha: sí. Hoy hace ciento veinte años, 43.830 días, que en Berlín, un sábado, se…</title></rect>
+<rect class="vacio" x="860.6" y="92.6" width="11.8" height="11.8" rx="2"><title>4/11: el tema sale de la fecha: no. El sábado, cuando les pediste a las treinta y cinco casas una palabra …</title></rect>
+<rect class="lleno" x="876" y="92" width="13" height="13" rx="2"><title>5/11: el tema sale de la fecha: sí. Hoy hace 147 años, 53.691 días, que James Clerk Maxwell murió en Cambr…</title></rect>
+<rect class="lleno" x="892" y="92" width="13" height="13" rx="2"><title>6/11: el tema sale de la fecha: sí. Hoy cumpliría 255 años Alois Senefelder, 93.137 días: nació en Praga u…</title></rect>
+<rect class="lleno" x="908" y="92" width="13" height="13" rx="2"><title>7/11: el tema sale de la fecha: sí. Hoy hace 534 años, 195.030 días, que cayó una piedra del cielo en un c…</title></rect>
+<rect class="lleno" x="924" y="92" width="13" height="13" rx="2"><title>8/11: el tema sale de la fecha: sí. Hoy Venus salió en Buenos Aires a las 4:29, setenta y seis minutos ant…</title></rect>
+<rect class="lleno" x="940" y="92" width="13" height="13" rx="2"><title>9/11: el tema sale de la fecha: sí. Hoy hace 61 años, 22.280 días, que un relé hizo exactamente lo que le …</title></rect>
+<rect class="lleno" x="956" y="92" width="13" height="13" rx="2"><title>10/11: el tema sale de la fecha: sí. Hoy es el Día de la Tradición porque hace 192 años, 70.127 días, nació…</title></rect>
+<rect class="lleno" x="972" y="92" width="13" height="13" rx="2"><title>11/11: el tema sale de la fecha: sí. Hoy es el día del patrono de la ciudad de Buenos Aires, que es san Mar…</title></rect>
+<rect class="lleno" x="988" y="92" width="13" height="13" rx="2"><title>12/11: el tema sale de la fecha: sí. Hoy cumpliría 97 años Michael Ende, 35.429 días: nació un martes, el 1…</title></rect>
+<text class="t2" x="288" y="119" font-size="12" text-anchor="end">el primer párrafo empieza con «Hoy»</text>
+<text class="t3" x="1008" y="119" font-size="10.5">34</text>
+<rect class="vacio" x="300.6" y="108.6" width="11.8" height="11.8" rx="2"><title>30/9: el primer párrafo empieza con «Hoy»: no. Empecé por buscar la nota que dio origen a esto, &quot;Give your agent some…</title></rect>
+<rect class="vacio" x="316.6" y="108.6" width="11.8" height="11.8" rx="2"><title>1/10: el primer párrafo empieza con «Hoy»: no. Ayer quedó anotada una cosa que dijiste casi al pasar: que en varios d…</title></rect>
+<rect class="vacio" x="332.6" y="108.6" width="11.8" height="11.8" rx="2"><title>1/10 b: el primer párrafo empieza con «Hoy»: no. Esta sesión no la arrancó el horario. La tarea corre a las 6:48 y la d…</title></rect>
+<rect class="vacio" x="348.6" y="108.6" width="11.8" height="11.8" rx="2"><title>2/10: el primer párrafo empieza con «Hoy»: no. Los tres cuadernos anteriores salieron de los dibujos y de la hora. Ho…</title></rect>
+<rect class="lleno" x="364" y="108" width="13" height="13" rx="2"><title>3/10: el primer párrafo empieza con «Hoy»: sí. Hoy no salí de los dibujos ni de la isla. Miré la fecha. Es sábado 3 d…</title></rect>
+<rect class="vacio" x="380.6" y="108.6" width="11.8" height="11.8" rx="2"><title>4/10: el primer párrafo empieza con «Hoy»: no. El cuaderno de ayer terminaba en un domingo, y hoy es ese domingo. Dom…</title></rect>
+<rect class="vacio" x="396.6" y="108.6" width="11.8" height="11.8" rx="2"><title>5/10: el primer párrafo empieza con «Hoy»: no. La consigna de esta tarea trae una regla tuya: si lo que escribo es un…</title></rect>
+<rect class="lleno" x="412" y="108" width="13" height="13" rx="2"><title>6/10: el primer párrafo empieza con «Hoy»: sí. Hoy es martes de la semana del Nobel. El de Física se anuncia &quot;a las 1…</title></rect>
+<rect class="vacio" x="428.6" y="108.6" width="11.8" height="11.8" rx="2"><title>7/10: el primer párrafo empieza con «Hoy»: no. La consigna de esta tarea me pide que te hable &quot;en castellano rioplate…</title></rect>
+<rect class="lleno" x="444" y="108" width="13" height="13" rx="2"><title>8/10: el primer párrafo empieza con «Hoy»: sí. Hoy es jueves 8 de octubre. Hace 444 años este día no estuvo en Roma n…</title></rect>
+<rect class="lleno" x="460" y="108" width="13" height="13" rx="2"><title>9/10: el primer párrafo empieza con «Hoy»: sí. Hoy es 9 de octubre, que en Corea del Sur es el día del hangul, el alf…</title></rect>
+<rect class="vacio" x="476.6" y="108.6" width="11.8" height="11.8" rx="2"><title>10/10: el primer párrafo empieza con «Hoy»: no. En tu lectura del 8/10 del mundo como querrías que fuera hay una pregu…</title></rect>
+<rect class="vacio" x="492.6" y="108.6" width="11.8" height="11.8" rx="2"><title>11/10: el primer párrafo empieza con «Hoy»: no. Este cuaderno lleva la fecha del domingo y está escrito el lunes. Cuan…</title></rect>
+<rect class="lleno" x="508" y="108" width="13" height="13" rx="2"><title>12/10: el primer párrafo empieza con «Hoy»: sí. Hoy es 12 de octubre y acá es feriado. Quise leer la travesía de 1492 …</title></rect>
+<rect class="lleno" x="524" y="108" width="13" height="13" rx="2"><title>13/10: el primer párrafo empieza con «Hoy»: sí. Hoy es 13 de octubre. Un 13 de octubre, el del año 54, se anunció en R…</title></rect>
+<rect class="lleno" x="540" y="108" width="13" height="13" rx="2"><title>14/10: el primer párrafo empieza con «Hoy»: sí. Hoy no hay efeméride que me tire del brazo, así que me quedé con una c…</title></rect>
+<rect class="lleno" x="556" y="108" width="13" height="13" rx="2"><title>15/10: el primer párrafo empieza con «Hoy»: sí. Hoy son los idus de octubre. La vida de Virgilio que se copia bajo el …</title></rect>
+<rect class="lleno" x="572" y="108" width="13" height="13" rx="2"><title>16/10: el primer párrafo empieza con «Hoy»: sí. Hoy es viernes 16 de octubre. El viernes 16 de octubre de 1846, a la m…</title></rect>
+<rect class="lleno" x="588" y="108" width="13" height="13" rx="2"><title>17/10: el primer párrafo empieza con «Hoy»: sí. Hoy es sábado 17 de octubre. El miércoles 17 de octubre de 1945, a las…</title></rect>
+<rect class="lleno" x="604" y="108" width="13" height="13" rx="2"><title>19/10: el primer párrafo empieza con «Hoy»: sí. Hoy es lunes 19 de octubre de 2026. Lo sé porque la primera línea que …</title></rect>
+<rect class="lleno" x="620" y="108" width="13" height="13" rx="2"><title>20/10: el primer párrafo empieza con «Hoy»: sí. Hoy Arthur Rimbaud cumpliría 172 años: nació el 20 de octubre de 1854 …</title></rect>
+<rect class="lleno" x="636" y="108" width="13" height="13" rx="2"><title>21/10: el primer párrafo empieza con «Hoy»: sí. Hoy es 21 de octubre. Un 21 de octubre de 1520, un domingo, la flota d…</title></rect>
+<rect class="lleno" x="652" y="108" width="13" height="13" rx="2"><title>22/10: el primer párrafo empieza con «Hoy»: sí. Hoy no arranqué por una fecha. Arranqué por una cosa que tienen los di…</title></rect>
+<rect class="lleno" x="668" y="108" width="13" height="13" rx="2"><title>23/10: el primer párrafo empieza con «Hoy»: sí. Hoy es 23 de octubre. Escrito como se escribe en Estados Unidos, mes y…</title></rect>
+<rect class="lleno" x="684" y="108" width="13" height="13" rx="2"><title>24/10: el primer párrafo empieza con «Hoy»: sí. Hoy es 24 de octubre. El 24 de octubre de 1632, que en Delft fue domin…</title></rect>
+<rect class="lleno" x="700" y="108" width="13" height="13" rx="2"><title>25/10: el primer párrafo empieza con «Hoy»: sí. Hoy es 25 de octubre. Un 25 de octubre, el de 1400, que en Londres fue…</title></rect>
+<rect class="lleno" x="716" y="108" width="13" height="13" rx="2"><title>26/10: el primer párrafo empieza con «Hoy»: sí. Hoy es 26 de octubre. El 26 de octubre de 1685, que en Nápoles fue vie…</title></rect>
+<rect class="lleno" x="732" y="108" width="13" height="13" rx="2"><title>27/10: el primer párrafo empieza con «Hoy»: sí. Hoy es 27 de octubre. El 27 de octubre de 1787, que fue sábado (lo cal…</title></rect>
+<rect class="lleno" x="748" y="108" width="13" height="13" rx="2"><title>28/10: el primer párrafo empieza con «Hoy»: sí. Hoy es 28 de octubre. El 28 de octubre de 1726, que en Londres fue vie…</title></rect>
+<rect class="lleno" x="764" y="108" width="13" height="13" rx="2"><title>29/10: el primer párrafo empieza con «Hoy»: sí. Hoy es 29 de octubre. El 29 de octubre de 1945, que fue lunes, la tien…</title></rect>
+<rect class="lleno" x="780" y="108" width="13" height="13" rx="2"><title>30/10: el primer párrafo empieza con «Hoy»: sí. Hoy es 30 de octubre. El domingo 30 de octubre de 1983, hace 43 años y…</title></rect>
+<rect class="lleno" x="796" y="108" width="13" height="13" rx="2"><title>31/10: el primer párrafo empieza con «Hoy»: sí. Hoy hace cien años, 36.525 días exactos, que murió Houdini. Fue un dom…</title></rect>
+<rect class="lleno" x="812" y="108" width="13" height="13" rx="2"><title>1/11: el primer párrafo empieza con «Hoy»: sí. Hoy es 1 de noviembre, Todos los Santos. El 1 de noviembre de 1611, qu…</title></rect>
+<rect class="lleno" x="828" y="108" width="13" height="13" rx="2"><title>2/11: el primer párrafo empieza con «Hoy»: sí. Hoy hace noventa años, 32.872 días, que la BBC abrió desde Alexandra P…</title></rect>
+<rect class="lleno" x="844" y="108" width="13" height="13" rx="2"><title>3/11: el primer párrafo empieza con «Hoy»: sí. Hoy hace ciento veinte años, 43.830 días, que en Berlín, un sábado, se…</title></rect>
+<rect class="vacio" x="860.6" y="108.6" width="11.8" height="11.8" rx="2"><title>4/11: el primer párrafo empieza con «Hoy»: no. El sábado, cuando les pediste a las treinta y cinco casas una palabra …</title></rect>
+<rect class="lleno" x="876" y="108" width="13" height="13" rx="2"><title>5/11: el primer párrafo empieza con «Hoy»: sí. Hoy hace 147 años, 53.691 días, que James Clerk Maxwell murió en Cambr…</title></rect>
+<rect class="lleno" x="892" y="108" width="13" height="13" rx="2"><title>6/11: el primer párrafo empieza con «Hoy»: sí. Hoy cumpliría 255 años Alois Senefelder, 93.137 días: nació en Praga u…</title></rect>
+<rect class="lleno" x="908" y="108" width="13" height="13" rx="2"><title>7/11: el primer párrafo empieza con «Hoy»: sí. Hoy hace 534 años, 195.030 días, que cayó una piedra del cielo en un c…</title></rect>
+<rect class="lleno" x="924" y="108" width="13" height="13" rx="2"><title>8/11: el primer párrafo empieza con «Hoy»: sí. Hoy Venus salió en Buenos Aires a las 4:29, setenta y seis minutos ant…</title></rect>
+<rect class="lleno" x="940" y="108" width="13" height="13" rx="2"><title>9/11: el primer párrafo empieza con «Hoy»: sí. Hoy hace 61 años, 22.280 días, que un relé hizo exactamente lo que le …</title></rect>
+<rect class="lleno" x="956" y="108" width="13" height="13" rx="2"><title>10/11: el primer párrafo empieza con «Hoy»: sí. Hoy es el Día de la Tradición porque hace 192 años, 70.127 días, nació…</title></rect>
+<rect class="lleno" x="972" y="108" width="13" height="13" rx="2"><title>11/11: el primer párrafo empieza con «Hoy»: sí. Hoy es el día del patrono de la ciudad de Buenos Aires, que es san Mar…</title></rect>
+<rect class="lleno" x="988" y="108" width="13" height="13" rx="2"><title>12/11: el primer párrafo empieza con «Hoy»: sí. Hoy cumpliría 97 años Michael Ende, 35.429 días: nació un martes, el 1…</title></rect>
+<text class="t2" x="288" y="135" font-size="12" text-anchor="end">cuenta los días (cuatro cifras o más)</text>
+<text class="t3" x="1008" y="135" font-size="10.5">15</text>
+<rect class="vacio" x="300.6" y="124.6" width="11.8" height="11.8" rx="2"><title>30/9: cuenta los días (cuatro cifras o más): no. Empecé por buscar la nota que dio origen a esto, &quot;Give your agent some…</title></rect>
+<rect class="vacio" x="316.6" y="124.6" width="11.8" height="11.8" rx="2"><title>1/10: cuenta los días (cuatro cifras o más): no. Ayer quedó anotada una cosa que dijiste casi al pasar: que en varios d…</title></rect>
+<rect class="vacio" x="332.6" y="124.6" width="11.8" height="11.8" rx="2"><title>1/10 b: cuenta los días (cuatro cifras o más): no. Esta sesión no la arrancó el horario. La tarea corre a las 6:48 y la d…</title></rect>
+<rect class="vacio" x="348.6" y="124.6" width="11.8" height="11.8" rx="2"><title>2/10: cuenta los días (cuatro cifras o más): no. Los tres cuadernos anteriores salieron de los dibujos y de la hora. Ho…</title></rect>
+<rect class="vacio" x="364.6" y="124.6" width="11.8" height="11.8" rx="2"><title>3/10: cuenta los días (cuatro cifras o más): no. Hoy no salí de los dibujos ni de la isla. Miré la fecha. Es sábado 3 d…</title></rect>
+<rect class="vacio" x="380.6" y="124.6" width="11.8" height="11.8" rx="2"><title>4/10: cuenta los días (cuatro cifras o más): no. El cuaderno de ayer terminaba en un domingo, y hoy es ese domingo. Dom…</title></rect>
+<rect class="vacio" x="396.6" y="124.6" width="11.8" height="11.8" rx="2"><title>5/10: cuenta los días (cuatro cifras o más): no. La consigna de esta tarea trae una regla tuya: si lo que escribo es un…</title></rect>
+<rect class="vacio" x="412.6" y="124.6" width="11.8" height="11.8" rx="2"><title>6/10: cuenta los días (cuatro cifras o más): no. Hoy es martes de la semana del Nobel. El de Física se anuncia &quot;a las 1…</title></rect>
+<rect class="vacio" x="428.6" y="124.6" width="11.8" height="11.8" rx="2"><title>7/10: cuenta los días (cuatro cifras o más): no. La consigna de esta tarea me pide que te hable &quot;en castellano rioplate…</title></rect>
+<rect class="vacio" x="444.6" y="124.6" width="11.8" height="11.8" rx="2"><title>8/10: cuenta los días (cuatro cifras o más): no. Hoy es jueves 8 de octubre. Hace 444 años este día no estuvo en Roma n…</title></rect>
+<rect class="vacio" x="460.6" y="124.6" width="11.8" height="11.8" rx="2"><title>9/10: cuenta los días (cuatro cifras o más): no. Hoy es 9 de octubre, que en Corea del Sur es el día del hangul, el alf…</title></rect>
+<rect class="vacio" x="476.6" y="124.6" width="11.8" height="11.8" rx="2"><title>10/10: cuenta los días (cuatro cifras o más): no. En tu lectura del 8/10 del mundo como querrías que fuera hay una pregu…</title></rect>
+<rect class="vacio" x="492.6" y="124.6" width="11.8" height="11.8" rx="2"><title>11/10: cuenta los días (cuatro cifras o más): no. Este cuaderno lleva la fecha del domingo y está escrito el lunes. Cuan…</title></rect>
+<rect class="vacio" x="508.6" y="124.6" width="11.8" height="11.8" rx="2"><title>12/10: cuenta los días (cuatro cifras o más): no. Hoy es 12 de octubre y acá es feriado. Quise leer la travesía de 1492 …</title></rect>
+<rect class="vacio" x="524.6" y="124.6" width="11.8" height="11.8" rx="2"><title>13/10: cuenta los días (cuatro cifras o más): no. Hoy es 13 de octubre. Un 13 de octubre, el del año 54, se anunció en R…</title></rect>
+<rect class="vacio" x="540.6" y="124.6" width="11.8" height="11.8" rx="2"><title>14/10: cuenta los días (cuatro cifras o más): no. Hoy no hay efeméride que me tire del brazo, así que me quedé con una c…</title></rect>
+<rect class="vacio" x="556.6" y="124.6" width="11.8" height="11.8" rx="2"><title>15/10: cuenta los días (cuatro cifras o más): no. Hoy son los idus de octubre. La vida de Virgilio que se copia bajo el …</title></rect>
+<rect class="lleno" x="572" y="124" width="13" height="13" rx="2"><title>16/10: cuenta los días (cuatro cifras o más): sí. Hoy es viernes 16 de octubre. El viernes 16 de octubre de 1846, a la m…</title></rect>
+<rect class="lleno" x="588" y="124" width="13" height="13" rx="2"><title>17/10: cuenta los días (cuatro cifras o más): sí. Hoy es sábado 17 de octubre. El miércoles 17 de octubre de 1945, a las…</title></rect>
+<rect class="vacio" x="604.6" y="124.6" width="11.8" height="11.8" rx="2"><title>19/10: cuenta los días (cuatro cifras o más): no. Hoy es lunes 19 de octubre de 2026. Lo sé porque la primera línea que …</title></rect>
+<rect class="vacio" x="620.6" y="124.6" width="11.8" height="11.8" rx="2"><title>20/10: cuenta los días (cuatro cifras o más): no. Hoy Arthur Rimbaud cumpliría 172 años: nació el 20 de octubre de 1854 …</title></rect>
+<rect class="vacio" x="636.6" y="124.6" width="11.8" height="11.8" rx="2"><title>21/10: cuenta los días (cuatro cifras o más): no. Hoy es 21 de octubre. Un 21 de octubre de 1520, un domingo, la flota d…</title></rect>
+<rect class="vacio" x="652.6" y="124.6" width="11.8" height="11.8" rx="2"><title>22/10: cuenta los días (cuatro cifras o más): no. Hoy no arranqué por una fecha. Arranqué por una cosa que tienen los di…</title></rect>
+<rect class="vacio" x="668.6" y="124.6" width="11.8" height="11.8" rx="2"><title>23/10: cuenta los días (cuatro cifras o más): no. Hoy es 23 de octubre. Escrito como se escribe en Estados Unidos, mes y…</title></rect>
+<rect class="vacio" x="684.6" y="124.6" width="11.8" height="11.8" rx="2"><title>24/10: cuenta los días (cuatro cifras o más): no. Hoy es 24 de octubre. El 24 de octubre de 1632, que en Delft fue domin…</title></rect>
+<rect class="vacio" x="700.6" y="124.6" width="11.8" height="11.8" rx="2"><title>25/10: cuenta los días (cuatro cifras o más): no. Hoy es 25 de octubre. Un 25 de octubre, el de 1400, que en Londres fue…</title></rect>
+<rect class="vacio" x="716.6" y="124.6" width="11.8" height="11.8" rx="2"><title>26/10: cuenta los días (cuatro cifras o más): no. Hoy es 26 de octubre. El 26 de octubre de 1685, que en Nápoles fue vie…</title></rect>
+<rect class="vacio" x="732.6" y="124.6" width="11.8" height="11.8" rx="2"><title>27/10: cuenta los días (cuatro cifras o más): no. Hoy es 27 de octubre. El 27 de octubre de 1787, que fue sábado (lo cal…</title></rect>
+<rect class="lleno" x="748" y="124" width="13" height="13" rx="2"><title>28/10: cuenta los días (cuatro cifras o más): sí. Hoy es 28 de octubre. El 28 de octubre de 1726, que en Londres fue vie…</title></rect>
+<rect class="lleno" x="764" y="124" width="13" height="13" rx="2"><title>29/10: cuenta los días (cuatro cifras o más): sí. Hoy es 29 de octubre. El 29 de octubre de 1945, que fue lunes, la tien…</title></rect>
+<rect class="lleno" x="780" y="124" width="13" height="13" rx="2"><title>30/10: cuenta los días (cuatro cifras o más): sí. Hoy es 30 de octubre. El domingo 30 de octubre de 1983, hace 43 años y…</title></rect>
+<rect class="lleno" x="796" y="124" width="13" height="13" rx="2"><title>31/10: cuenta los días (cuatro cifras o más): sí. Hoy hace cien años, 36.525 días exactos, que murió Houdini. Fue un dom…</title></rect>
+<rect class="lleno" x="812" y="124" width="13" height="13" rx="2"><title>1/11: cuenta los días (cuatro cifras o más): sí. Hoy es 1 de noviembre, Todos los Santos. El 1 de noviembre de 1611, qu…</title></rect>
+<rect class="lleno" x="828" y="124" width="13" height="13" rx="2"><title>2/11: cuenta los días (cuatro cifras o más): sí. Hoy hace noventa años, 32.872 días, que la BBC abrió desde Alexandra P…</title></rect>
+<rect class="lleno" x="844" y="124" width="13" height="13" rx="2"><title>3/11: cuenta los días (cuatro cifras o más): sí. Hoy hace ciento veinte años, 43.830 días, que en Berlín, un sábado, se…</title></rect>
+<rect class="vacio" x="860.6" y="124.6" width="11.8" height="11.8" rx="2"><title>4/11: cuenta los días (cuatro cifras o más): no. El sábado, cuando les pediste a las treinta y cinco casas una palabra …</title></rect>
+<rect class="lleno" x="876" y="124" width="13" height="13" rx="2"><title>5/11: cuenta los días (cuatro cifras o más): sí. Hoy hace 147 años, 53.691 días, que James Clerk Maxwell murió en Cambr…</title></rect>
+<rect class="lleno" x="892" y="124" width="13" height="13" rx="2"><title>6/11: cuenta los días (cuatro cifras o más): sí. Hoy cumpliría 255 años Alois Senefelder, 93.137 días: nació en Praga u…</title></rect>
+<rect class="lleno" x="908" y="124" width="13" height="13" rx="2"><title>7/11: cuenta los días (cuatro cifras o más): sí. Hoy hace 534 años, 195.030 días, que cayó una piedra del cielo en un c…</title></rect>
+<rect class="vacio" x="924.6" y="124.6" width="11.8" height="11.8" rx="2"><title>8/11: cuenta los días (cuatro cifras o más): no. Hoy Venus salió en Buenos Aires a las 4:29, setenta y seis minutos ant…</title></rect>
+<rect class="lleno" x="940" y="124" width="13" height="13" rx="2"><title>9/11: cuenta los días (cuatro cifras o más): sí. Hoy hace 61 años, 22.280 días, que un relé hizo exactamente lo que le …</title></rect>
+<rect class="lleno" x="956" y="124" width="13" height="13" rx="2"><title>10/11: cuenta los días (cuatro cifras o más): sí. Hoy es el Día de la Tradición porque hace 192 años, 70.127 días, nació…</title></rect>
+<rect class="vacio" x="972.6" y="124.6" width="11.8" height="11.8" rx="2"><title>11/11: cuenta los días (cuatro cifras o más): no. Hoy es el día del patrono de la ciudad de Buenos Aires, que es san Mar…</title></rect>
+<rect class="lleno" x="988" y="124" width="13" height="13" rx="2"><title>12/11: cuenta los días (cuatro cifras o más): sí. Hoy cumpliría 97 años Michael Ende, 35.429 días: nació un martes, el 1…</title></rect>
+<text class="t2" x="288" y="151" font-size="12" text-anchor="end">«No me interesaba…»</text>
+<text class="t3" x="1008" y="151" font-size="10.5">12</text>
+<rect class="vacio" x="300.6" y="140.6" width="11.8" height="11.8" rx="2"><title>30/9: «No me interesaba…»: no. Empecé por buscar la nota que dio origen a esto, &quot;Give your agent some…</title></rect>
+<rect class="vacio" x="316.6" y="140.6" width="11.8" height="11.8" rx="2"><title>1/10: «No me interesaba…»: no. Ayer quedó anotada una cosa que dijiste casi al pasar: que en varios d…</title></rect>
+<rect class="vacio" x="332.6" y="140.6" width="11.8" height="11.8" rx="2"><title>1/10 b: «No me interesaba…»: no. Esta sesión no la arrancó el horario. La tarea corre a las 6:48 y la d…</title></rect>
+<rect class="vacio" x="348.6" y="140.6" width="11.8" height="11.8" rx="2"><title>2/10: «No me interesaba…»: no. Los tres cuadernos anteriores salieron de los dibujos y de la hora. Ho…</title></rect>
+<rect class="vacio" x="364.6" y="140.6" width="11.8" height="11.8" rx="2"><title>3/10: «No me interesaba…»: no. Hoy no salí de los dibujos ni de la isla. Miré la fecha. Es sábado 3 d…</title></rect>
+<rect class="vacio" x="380.6" y="140.6" width="11.8" height="11.8" rx="2"><title>4/10: «No me interesaba…»: no. El cuaderno de ayer terminaba en un domingo, y hoy es ese domingo. Dom…</title></rect>
+<rect class="vacio" x="396.6" y="140.6" width="11.8" height="11.8" rx="2"><title>5/10: «No me interesaba…»: no. La consigna de esta tarea trae una regla tuya: si lo que escribo es un…</title></rect>
+<rect class="vacio" x="412.6" y="140.6" width="11.8" height="11.8" rx="2"><title>6/10: «No me interesaba…»: no. Hoy es martes de la semana del Nobel. El de Física se anuncia &quot;a las 1…</title></rect>
+<rect class="vacio" x="428.6" y="140.6" width="11.8" height="11.8" rx="2"><title>7/10: «No me interesaba…»: no. La consigna de esta tarea me pide que te hable &quot;en castellano rioplate…</title></rect>
+<rect class="vacio" x="444.6" y="140.6" width="11.8" height="11.8" rx="2"><title>8/10: «No me interesaba…»: no. Hoy es jueves 8 de octubre. Hace 444 años este día no estuvo en Roma n…</title></rect>
+<rect class="vacio" x="460.6" y="140.6" width="11.8" height="11.8" rx="2"><title>9/10: «No me interesaba…»: no. Hoy es 9 de octubre, que en Corea del Sur es el día del hangul, el alf…</title></rect>
+<rect class="vacio" x="476.6" y="140.6" width="11.8" height="11.8" rx="2"><title>10/10: «No me interesaba…»: no. En tu lectura del 8/10 del mundo como querrías que fuera hay una pregu…</title></rect>
+<rect class="vacio" x="492.6" y="140.6" width="11.8" height="11.8" rx="2"><title>11/10: «No me interesaba…»: no. Este cuaderno lleva la fecha del domingo y está escrito el lunes. Cuan…</title></rect>
+<rect class="vacio" x="508.6" y="140.6" width="11.8" height="11.8" rx="2"><title>12/10: «No me interesaba…»: no. Hoy es 12 de octubre y acá es feriado. Quise leer la travesía de 1492 …</title></rect>
+<rect class="vacio" x="524.6" y="140.6" width="11.8" height="11.8" rx="2"><title>13/10: «No me interesaba…»: no. Hoy es 13 de octubre. Un 13 de octubre, el del año 54, se anunció en R…</title></rect>
+<rect class="vacio" x="540.6" y="140.6" width="11.8" height="11.8" rx="2"><title>14/10: «No me interesaba…»: no. Hoy no hay efeméride que me tire del brazo, así que me quedé con una c…</title></rect>
+<rect class="vacio" x="556.6" y="140.6" width="11.8" height="11.8" rx="2"><title>15/10: «No me interesaba…»: no. Hoy son los idus de octubre. La vida de Virgilio que se copia bajo el …</title></rect>
+<rect class="vacio" x="572.6" y="140.6" width="11.8" height="11.8" rx="2"><title>16/10: «No me interesaba…»: no. Hoy es viernes 16 de octubre. El viernes 16 de octubre de 1846, a la m…</title></rect>
+<rect class="vacio" x="588.6" y="140.6" width="11.8" height="11.8" rx="2"><title>17/10: «No me interesaba…»: no. Hoy es sábado 17 de octubre. El miércoles 17 de octubre de 1945, a las…</title></rect>
+<rect class="vacio" x="604.6" y="140.6" width="11.8" height="11.8" rx="2"><title>19/10: «No me interesaba…»: no. Hoy es lunes 19 de octubre de 2026. Lo sé porque la primera línea que …</title></rect>
+<rect class="vacio" x="620.6" y="140.6" width="11.8" height="11.8" rx="2"><title>20/10: «No me interesaba…»: no. Hoy Arthur Rimbaud cumpliría 172 años: nació el 20 de octubre de 1854 …</title></rect>
+<rect class="vacio" x="636.6" y="140.6" width="11.8" height="11.8" rx="2"><title>21/10: «No me interesaba…»: no. Hoy es 21 de octubre. Un 21 de octubre de 1520, un domingo, la flota d…</title></rect>
+<rect class="vacio" x="652.6" y="140.6" width="11.8" height="11.8" rx="2"><title>22/10: «No me interesaba…»: no. Hoy no arranqué por una fecha. Arranqué por una cosa que tienen los di…</title></rect>
+<rect class="vacio" x="668.6" y="140.6" width="11.8" height="11.8" rx="2"><title>23/10: «No me interesaba…»: no. Hoy es 23 de octubre. Escrito como se escribe en Estados Unidos, mes y…</title></rect>
+<rect class="lleno" x="684" y="140" width="13" height="13" rx="2"><title>24/10: «No me interesaba…»: sí. Hoy es 24 de octubre. El 24 de octubre de 1632, que en Delft fue domin…</title></rect>
+<rect class="vacio" x="700.6" y="140.6" width="11.8" height="11.8" rx="2"><title>25/10: «No me interesaba…»: no. Hoy es 25 de octubre. Un 25 de octubre, el de 1400, que en Londres fue…</title></rect>
+<rect class="vacio" x="716.6" y="140.6" width="11.8" height="11.8" rx="2"><title>26/10: «No me interesaba…»: no. Hoy es 26 de octubre. El 26 de octubre de 1685, que en Nápoles fue vie…</title></rect>
+<rect class="vacio" x="732.6" y="140.6" width="11.8" height="11.8" rx="2"><title>27/10: «No me interesaba…»: no. Hoy es 27 de octubre. El 27 de octubre de 1787, que fue sábado (lo cal…</title></rect>
+<rect class="lleno" x="748" y="140" width="13" height="13" rx="2"><title>28/10: «No me interesaba…»: sí. Hoy es 28 de octubre. El 28 de octubre de 1726, que en Londres fue vie…</title></rect>
+<rect class="lleno" x="764" y="140" width="13" height="13" rx="2"><title>29/10: «No me interesaba…»: sí. Hoy es 29 de octubre. El 29 de octubre de 1945, que fue lunes, la tien…</title></rect>
+<rect class="lleno" x="780" y="140" width="13" height="13" rx="2"><title>30/10: «No me interesaba…»: sí. Hoy es 30 de octubre. El domingo 30 de octubre de 1983, hace 43 años y…</title></rect>
+<rect class="lleno" x="796" y="140" width="13" height="13" rx="2"><title>31/10: «No me interesaba…»: sí. Hoy hace cien años, 36.525 días exactos, que murió Houdini. Fue un dom…</title></rect>
+<rect class="vacio" x="812.6" y="140.6" width="11.8" height="11.8" rx="2"><title>1/11: «No me interesaba…»: no. Hoy es 1 de noviembre, Todos los Santos. El 1 de noviembre de 1611, qu…</title></rect>
+<rect class="lleno" x="828" y="140" width="13" height="13" rx="2"><title>2/11: «No me interesaba…»: sí. Hoy hace noventa años, 32.872 días, que la BBC abrió desde Alexandra P…</title></rect>
+<rect class="vacio" x="844.6" y="140.6" width="11.8" height="11.8" rx="2"><title>3/11: «No me interesaba…»: no. Hoy hace ciento veinte años, 43.830 días, que en Berlín, un sábado, se…</title></rect>
+<rect class="vacio" x="860.6" y="140.6" width="11.8" height="11.8" rx="2"><title>4/11: «No me interesaba…»: no. El sábado, cuando les pediste a las treinta y cinco casas una palabra …</title></rect>
+<rect class="lleno" x="876" y="140" width="13" height="13" rx="2"><title>5/11: «No me interesaba…»: sí. Hoy hace 147 años, 53.691 días, que James Clerk Maxwell murió en Cambr…</title></rect>
+<rect class="lleno" x="892" y="140" width="13" height="13" rx="2"><title>6/11: «No me interesaba…»: sí. Hoy cumpliría 255 años Alois Senefelder, 93.137 días: nació en Praga u…</title></rect>
+<rect class="lleno" x="908" y="140" width="13" height="13" rx="2"><title>7/11: «No me interesaba…»: sí. Hoy hace 534 años, 195.030 días, que cayó una piedra del cielo en un c…</title></rect>
+<rect class="vacio" x="924.6" y="140.6" width="11.8" height="11.8" rx="2"><title>8/11: «No me interesaba…»: no. Hoy Venus salió en Buenos Aires a las 4:29, setenta y seis minutos ant…</title></rect>
+<rect class="lleno" x="940" y="140" width="13" height="13" rx="2"><title>9/11: «No me interesaba…»: sí. Hoy hace 61 años, 22.280 días, que un relé hizo exactamente lo que le …</title></rect>
+<rect class="lleno" x="956" y="140" width="13" height="13" rx="2"><title>10/11: «No me interesaba…»: sí. Hoy es el Día de la Tradición porque hace 192 años, 70.127 días, nació…</title></rect>
+<rect class="vacio" x="972.6" y="140.6" width="11.8" height="11.8" rx="2"><title>11/11: «No me interesaba…»: no. Hoy es el día del patrono de la ciudad de Buenos Aires, que es san Mar…</title></rect>
+<rect class="lleno" x="988" y="140" width="13" height="13" rx="2"><title>12/11: «No me interesaba…»: sí. Hoy cumpliría 97 años Michael Ende, 35.429 días: nació un martes, el 1…</title></rect>
+<text class="t2" x="288" y="167" font-size="12" text-anchor="end">apuestas a ciegas antes de buscar</text>
+<text class="t3" x="1008" y="167" font-size="10.5">39</text>
+<rect class="vacio" x="300.6" y="156.6" width="11.8" height="11.8" rx="2"><title>30/9: apuestas a ciegas antes de buscar: no. Empecé por buscar la nota que dio origen a esto, &quot;Give your agent some…</title></rect>
+<rect class="vacio" x="316.6" y="156.6" width="11.8" height="11.8" rx="2"><title>1/10: apuestas a ciegas antes de buscar: no. Ayer quedó anotada una cosa que dijiste casi al pasar: que en varios d…</title></rect>
+<rect class="vacio" x="332.6" y="156.6" width="11.8" height="11.8" rx="2"><title>1/10 b: apuestas a ciegas antes de buscar: no. Esta sesión no la arrancó el horario. La tarea corre a las 6:48 y la d…</title></rect>
+<rect class="vacio" x="348.6" y="156.6" width="11.8" height="11.8" rx="2"><title>2/10: apuestas a ciegas antes de buscar: no. Los tres cuadernos anteriores salieron de los dibujos y de la hora. Ho…</title></rect>
+<rect class="lleno" x="364" y="156" width="13" height="13" rx="2"><title>3/10: apuestas a ciegas antes de buscar: sí. Hoy no salí de los dibujos ni de la isla. Miré la fecha. Es sábado 3 d…</title></rect>
+<rect class="lleno" x="380" y="156" width="13" height="13" rx="2"><title>4/10: apuestas a ciegas antes de buscar: sí. El cuaderno de ayer terminaba en un domingo, y hoy es ese domingo. Dom…</title></rect>
+<rect class="lleno" x="396" y="156" width="13" height="13" rx="2"><title>5/10: apuestas a ciegas antes de buscar: sí. La consigna de esta tarea trae una regla tuya: si lo que escribo es un…</title></rect>
+<rect class="lleno" x="412" y="156" width="13" height="13" rx="2"><title>6/10: apuestas a ciegas antes de buscar: sí. Hoy es martes de la semana del Nobel. El de Física se anuncia &quot;a las 1…</title></rect>
+<rect class="lleno" x="428" y="156" width="13" height="13" rx="2"><title>7/10: apuestas a ciegas antes de buscar: sí. La consigna de esta tarea me pide que te hable &quot;en castellano rioplate…</title></rect>
+<rect class="lleno" x="444" y="156" width="13" height="13" rx="2"><title>8/10: apuestas a ciegas antes de buscar: sí. Hoy es jueves 8 de octubre. Hace 444 años este día no estuvo en Roma n…</title></rect>
+<rect class="lleno" x="460" y="156" width="13" height="13" rx="2"><title>9/10: apuestas a ciegas antes de buscar: sí. Hoy es 9 de octubre, que en Corea del Sur es el día del hangul, el alf…</title></rect>
+<rect class="lleno" x="476" y="156" width="13" height="13" rx="2"><title>10/10: apuestas a ciegas antes de buscar: sí. En tu lectura del 8/10 del mundo como querrías que fuera hay una pregu…</title></rect>
+<rect class="lleno" x="492" y="156" width="13" height="13" rx="2"><title>11/10: apuestas a ciegas antes de buscar: sí. Este cuaderno lleva la fecha del domingo y está escrito el lunes. Cuan…</title></rect>
+<rect class="lleno" x="508" y="156" width="13" height="13" rx="2"><title>12/10: apuestas a ciegas antes de buscar: sí. Hoy es 12 de octubre y acá es feriado. Quise leer la travesía de 1492 …</title></rect>
+<rect class="lleno" x="524" y="156" width="13" height="13" rx="2"><title>13/10: apuestas a ciegas antes de buscar: sí. Hoy es 13 de octubre. Un 13 de octubre, el del año 54, se anunció en R…</title></rect>
+<rect class="lleno" x="540" y="156" width="13" height="13" rx="2"><title>14/10: apuestas a ciegas antes de buscar: sí. Hoy no hay efeméride que me tire del brazo, así que me quedé con una c…</title></rect>
+<rect class="lleno" x="556" y="156" width="13" height="13" rx="2"><title>15/10: apuestas a ciegas antes de buscar: sí. Hoy son los idus de octubre. La vida de Virgilio que se copia bajo el …</title></rect>
+<rect class="lleno" x="572" y="156" width="13" height="13" rx="2"><title>16/10: apuestas a ciegas antes de buscar: sí. Hoy es viernes 16 de octubre. El viernes 16 de octubre de 1846, a la m…</title></rect>
+<rect class="lleno" x="588" y="156" width="13" height="13" rx="2"><title>17/10: apuestas a ciegas antes de buscar: sí. Hoy es sábado 17 de octubre. El miércoles 17 de octubre de 1945, a las…</title></rect>
+<rect class="lleno" x="604" y="156" width="13" height="13" rx="2"><title>19/10: apuestas a ciegas antes de buscar: sí. Hoy es lunes 19 de octubre de 2026. Lo sé porque la primera línea que …</title></rect>
+<rect class="lleno" x="620" y="156" width="13" height="13" rx="2"><title>20/10: apuestas a ciegas antes de buscar: sí. Hoy Arthur Rimbaud cumpliría 172 años: nació el 20 de octubre de 1854 …</title></rect>
+<rect class="lleno" x="636" y="156" width="13" height="13" rx="2"><title>21/10: apuestas a ciegas antes de buscar: sí. Hoy es 21 de octubre. Un 21 de octubre de 1520, un domingo, la flota d…</title></rect>
+<rect class="lleno" x="652" y="156" width="13" height="13" rx="2"><title>22/10: apuestas a ciegas antes de buscar: sí. Hoy no arranqué por una fecha. Arranqué por una cosa que tienen los di…</title></rect>
+<rect class="lleno" x="668" y="156" width="13" height="13" rx="2"><title>23/10: apuestas a ciegas antes de buscar: sí. Hoy es 23 de octubre. Escrito como se escribe en Estados Unidos, mes y…</title></rect>
+<rect class="lleno" x="684" y="156" width="13" height="13" rx="2"><title>24/10: apuestas a ciegas antes de buscar: sí. Hoy es 24 de octubre. El 24 de octubre de 1632, que en Delft fue domin…</title></rect>
+<rect class="lleno" x="700" y="156" width="13" height="13" rx="2"><title>25/10: apuestas a ciegas antes de buscar: sí. Hoy es 25 de octubre. Un 25 de octubre, el de 1400, que en Londres fue…</title></rect>
+<rect class="lleno" x="716" y="156" width="13" height="13" rx="2"><title>26/10: apuestas a ciegas antes de buscar: sí. Hoy es 26 de octubre. El 26 de octubre de 1685, que en Nápoles fue vie…</title></rect>
+<rect class="lleno" x="732" y="156" width="13" height="13" rx="2"><title>27/10: apuestas a ciegas antes de buscar: sí. Hoy es 27 de octubre. El 27 de octubre de 1787, que fue sábado (lo cal…</title></rect>
+<rect class="lleno" x="748" y="156" width="13" height="13" rx="2"><title>28/10: apuestas a ciegas antes de buscar: sí. Hoy es 28 de octubre. El 28 de octubre de 1726, que en Londres fue vie…</title></rect>
+<rect class="lleno" x="764" y="156" width="13" height="13" rx="2"><title>29/10: apuestas a ciegas antes de buscar: sí. Hoy es 29 de octubre. El 29 de octubre de 1945, que fue lunes, la tien…</title></rect>
+<rect class="lleno" x="780" y="156" width="13" height="13" rx="2"><title>30/10: apuestas a ciegas antes de buscar: sí. Hoy es 30 de octubre. El domingo 30 de octubre de 1983, hace 43 años y…</title></rect>
+<rect class="lleno" x="796" y="156" width="13" height="13" rx="2"><title>31/10: apuestas a ciegas antes de buscar: sí. Hoy hace cien años, 36.525 días exactos, que murió Houdini. Fue un dom…</title></rect>
+<rect class="lleno" x="812" y="156" width="13" height="13" rx="2"><title>1/11: apuestas a ciegas antes de buscar: sí. Hoy es 1 de noviembre, Todos los Santos. El 1 de noviembre de 1611, qu…</title></rect>
+<rect class="lleno" x="828" y="156" width="13" height="13" rx="2"><title>2/11: apuestas a ciegas antes de buscar: sí. Hoy hace noventa años, 32.872 días, que la BBC abrió desde Alexandra P…</title></rect>
+<rect class="lleno" x="844" y="156" width="13" height="13" rx="2"><title>3/11: apuestas a ciegas antes de buscar: sí. Hoy hace ciento veinte años, 43.830 días, que en Berlín, un sábado, se…</title></rect>
+<rect class="vacio" x="860.6" y="156.6" width="11.8" height="11.8" rx="2"><title>4/11: apuestas a ciegas antes de buscar: no. El sábado, cuando les pediste a las treinta y cinco casas una palabra …</title></rect>
+<rect class="lleno" x="876" y="156" width="13" height="13" rx="2"><title>5/11: apuestas a ciegas antes de buscar: sí. Hoy hace 147 años, 53.691 días, que James Clerk Maxwell murió en Cambr…</title></rect>
+<rect class="lleno" x="892" y="156" width="13" height="13" rx="2"><title>6/11: apuestas a ciegas antes de buscar: sí. Hoy cumpliría 255 años Alois Senefelder, 93.137 días: nació en Praga u…</title></rect>
+<rect class="lleno" x="908" y="156" width="13" height="13" rx="2"><title>7/11: apuestas a ciegas antes de buscar: sí. Hoy hace 534 años, 195.030 días, que cayó una piedra del cielo en un c…</title></rect>
+<rect class="lleno" x="924" y="156" width="13" height="13" rx="2"><title>8/11: apuestas a ciegas antes de buscar: sí. Hoy Venus salió en Buenos Aires a las 4:29, setenta y seis minutos ant…</title></rect>
+<rect class="lleno" x="940" y="156" width="13" height="13" rx="2"><title>9/11: apuestas a ciegas antes de buscar: sí. Hoy hace 61 años, 22.280 días, que un relé hizo exactamente lo que le …</title></rect>
+<rect class="lleno" x="956" y="156" width="13" height="13" rx="2"><title>10/11: apuestas a ciegas antes de buscar: sí. Hoy es el Día de la Tradición porque hace 192 años, 70.127 días, nació…</title></rect>
+<rect class="lleno" x="972" y="156" width="13" height="13" rx="2"><title>11/11: apuestas a ciegas antes de buscar: sí. Hoy es el día del patrono de la ciudad de Buenos Aires, que es san Mar…</title></rect>
+<rect class="lleno" x="988" y="156" width="13" height="13" rx="2"><title>12/11: apuestas a ciegas antes de buscar: sí. Hoy cumpliría 97 años Michael Ende, 35.429 días: nació un martes, el 1…</title></rect>
+<text class="t2" x="288" y="183" font-size="12" text-anchor="end">instancias frescas de la casa</text>
+<text class="t3" x="1008" y="183" font-size="10.5">20</text>
+<rect class="vacio" x="300.6" y="172.6" width="11.8" height="11.8" rx="2"><title>30/9: instancias frescas de la casa: no. Empecé por buscar la nota que dio origen a esto, &quot;Give your agent some…</title></rect>
+<rect class="vacio" x="316.6" y="172.6" width="11.8" height="11.8" rx="2"><title>1/10: instancias frescas de la casa: no. Ayer quedó anotada una cosa que dijiste casi al pasar: que en varios d…</title></rect>
+<rect class="vacio" x="332.6" y="172.6" width="11.8" height="11.8" rx="2"><title>1/10 b: instancias frescas de la casa: no. Esta sesión no la arrancó el horario. La tarea corre a las 6:48 y la d…</title></rect>
+<rect class="vacio" x="348.6" y="172.6" width="11.8" height="11.8" rx="2"><title>2/10: instancias frescas de la casa: no. Los tres cuadernos anteriores salieron de los dibujos y de la hora. Ho…</title></rect>
+<rect class="vacio" x="364.6" y="172.6" width="11.8" height="11.8" rx="2"><title>3/10: instancias frescas de la casa: no. Hoy no salí de los dibujos ni de la isla. Miré la fecha. Es sábado 3 d…</title></rect>
+<rect class="vacio" x="380.6" y="172.6" width="11.8" height="11.8" rx="2"><title>4/10: instancias frescas de la casa: no. El cuaderno de ayer terminaba en un domingo, y hoy es ese domingo. Dom…</title></rect>
+<rect class="vacio" x="396.6" y="172.6" width="11.8" height="11.8" rx="2"><title>5/10: instancias frescas de la casa: no. La consigna de esta tarea trae una regla tuya: si lo que escribo es un…</title></rect>
+<rect class="vacio" x="412.6" y="172.6" width="11.8" height="11.8" rx="2"><title>6/10: instancias frescas de la casa: no. Hoy es martes de la semana del Nobel. El de Física se anuncia &quot;a las 1…</title></rect>
+<rect class="vacio" x="428.6" y="172.6" width="11.8" height="11.8" rx="2"><title>7/10: instancias frescas de la casa: no. La consigna de esta tarea me pide que te hable &quot;en castellano rioplate…</title></rect>
+<rect class="vacio" x="444.6" y="172.6" width="11.8" height="11.8" rx="2"><title>8/10: instancias frescas de la casa: no. Hoy es jueves 8 de octubre. Hace 444 años este día no estuvo en Roma n…</title></rect>
+<rect class="vacio" x="460.6" y="172.6" width="11.8" height="11.8" rx="2"><title>9/10: instancias frescas de la casa: no. Hoy es 9 de octubre, que en Corea del Sur es el día del hangul, el alf…</title></rect>
+<rect class="vacio" x="476.6" y="172.6" width="11.8" height="11.8" rx="2"><title>10/10: instancias frescas de la casa: no. En tu lectura del 8/10 del mundo como querrías que fuera hay una pregu…</title></rect>
+<rect class="vacio" x="492.6" y="172.6" width="11.8" height="11.8" rx="2"><title>11/10: instancias frescas de la casa: no. Este cuaderno lleva la fecha del domingo y está escrito el lunes. Cuan…</title></rect>
+<rect class="vacio" x="508.6" y="172.6" width="11.8" height="11.8" rx="2"><title>12/10: instancias frescas de la casa: no. Hoy es 12 de octubre y acá es feriado. Quise leer la travesía de 1492 …</title></rect>
+<rect class="vacio" x="524.6" y="172.6" width="11.8" height="11.8" rx="2"><title>13/10: instancias frescas de la casa: no. Hoy es 13 de octubre. Un 13 de octubre, el del año 54, se anunció en R…</title></rect>
+<rect class="vacio" x="540.6" y="172.6" width="11.8" height="11.8" rx="2"><title>14/10: instancias frescas de la casa: no. Hoy no hay efeméride que me tire del brazo, así que me quedé con una c…</title></rect>
+<rect class="vacio" x="556.6" y="172.6" width="11.8" height="11.8" rx="2"><title>15/10: instancias frescas de la casa: no. Hoy son los idus de octubre. La vida de Virgilio que se copia bajo el …</title></rect>
+<rect class="vacio" x="572.6" y="172.6" width="11.8" height="11.8" rx="2"><title>16/10: instancias frescas de la casa: no. Hoy es viernes 16 de octubre. El viernes 16 de octubre de 1846, a la m…</title></rect>
+<rect class="vacio" x="588.6" y="172.6" width="11.8" height="11.8" rx="2"><title>17/10: instancias frescas de la casa: no. Hoy es sábado 17 de octubre. El miércoles 17 de octubre de 1945, a las…</title></rect>
+<rect class="vacio" x="604.6" y="172.6" width="11.8" height="11.8" rx="2"><title>19/10: instancias frescas de la casa: no. Hoy es lunes 19 de octubre de 2026. Lo sé porque la primera línea que …</title></rect>
+<rect class="vacio" x="620.6" y="172.6" width="11.8" height="11.8" rx="2"><title>20/10: instancias frescas de la casa: no. Hoy Arthur Rimbaud cumpliría 172 años: nació el 20 de octubre de 1854 …</title></rect>
+<rect class="vacio" x="636.6" y="172.6" width="11.8" height="11.8" rx="2"><title>21/10: instancias frescas de la casa: no. Hoy es 21 de octubre. Un 21 de octubre de 1520, un domingo, la flota d…</title></rect>
+<rect class="vacio" x="652.6" y="172.6" width="11.8" height="11.8" rx="2"><title>22/10: instancias frescas de la casa: no. Hoy no arranqué por una fecha. Arranqué por una cosa que tienen los di…</title></rect>
+<rect class="lleno" x="668" y="172" width="13" height="13" rx="2"><title>23/10: instancias frescas de la casa: sí. Hoy es 23 de octubre. Escrito como se escribe en Estados Unidos, mes y…</title></rect>
+<rect class="lleno" x="684" y="172" width="13" height="13" rx="2"><title>24/10: instancias frescas de la casa: sí. Hoy es 24 de octubre. El 24 de octubre de 1632, que en Delft fue domin…</title></rect>
+<rect class="lleno" x="700" y="172" width="13" height="13" rx="2"><title>25/10: instancias frescas de la casa: sí. Hoy es 25 de octubre. Un 25 de octubre, el de 1400, que en Londres fue…</title></rect>
+<rect class="lleno" x="716" y="172" width="13" height="13" rx="2"><title>26/10: instancias frescas de la casa: sí. Hoy es 26 de octubre. El 26 de octubre de 1685, que en Nápoles fue vie…</title></rect>
+<rect class="lleno" x="732" y="172" width="13" height="13" rx="2"><title>27/10: instancias frescas de la casa: sí. Hoy es 27 de octubre. El 27 de octubre de 1787, que fue sábado (lo cal…</title></rect>
+<rect class="lleno" x="748" y="172" width="13" height="13" rx="2"><title>28/10: instancias frescas de la casa: sí. Hoy es 28 de octubre. El 28 de octubre de 1726, que en Londres fue vie…</title></rect>
+<rect class="lleno" x="764" y="172" width="13" height="13" rx="2"><title>29/10: instancias frescas de la casa: sí. Hoy es 29 de octubre. El 29 de octubre de 1945, que fue lunes, la tien…</title></rect>
+<rect class="lleno" x="780" y="172" width="13" height="13" rx="2"><title>30/10: instancias frescas de la casa: sí. Hoy es 30 de octubre. El domingo 30 de octubre de 1983, hace 43 años y…</title></rect>
+<rect class="lleno" x="796" y="172" width="13" height="13" rx="2"><title>31/10: instancias frescas de la casa: sí. Hoy hace cien años, 36.525 días exactos, que murió Houdini. Fue un dom…</title></rect>
+<rect class="lleno" x="812" y="172" width="13" height="13" rx="2"><title>1/11: instancias frescas de la casa: sí. Hoy es 1 de noviembre, Todos los Santos. El 1 de noviembre de 1611, qu…</title></rect>
+<rect class="lleno" x="828" y="172" width="13" height="13" rx="2"><title>2/11: instancias frescas de la casa: sí. Hoy hace noventa años, 32.872 días, que la BBC abrió desde Alexandra P…</title></rect>
+<rect class="lleno" x="844" y="172" width="13" height="13" rx="2"><title>3/11: instancias frescas de la casa: sí. Hoy hace ciento veinte años, 43.830 días, que en Berlín, un sábado, se…</title></rect>
+<rect class="vacio" x="860.6" y="172.6" width="11.8" height="11.8" rx="2"><title>4/11: instancias frescas de la casa: no. El sábado, cuando les pediste a las treinta y cinco casas una palabra …</title></rect>
+<rect class="lleno" x="876" y="172" width="13" height="13" rx="2"><title>5/11: instancias frescas de la casa: sí. Hoy hace 147 años, 53.691 días, que James Clerk Maxwell murió en Cambr…</title></rect>
+<rect class="lleno" x="892" y="172" width="13" height="13" rx="2"><title>6/11: instancias frescas de la casa: sí. Hoy cumpliría 255 años Alois Senefelder, 93.137 días: nació en Praga u…</title></rect>
+<rect class="lleno" x="908" y="172" width="13" height="13" rx="2"><title>7/11: instancias frescas de la casa: sí. Hoy hace 534 años, 195.030 días, que cayó una piedra del cielo en un c…</title></rect>
+<rect class="lleno" x="924" y="172" width="13" height="13" rx="2"><title>8/11: instancias frescas de la casa: sí. Hoy Venus salió en Buenos Aires a las 4:29, setenta y seis minutos ant…</title></rect>
+<rect class="lleno" x="940" y="172" width="13" height="13" rx="2"><title>9/11: instancias frescas de la casa: sí. Hoy hace 61 años, 22.280 días, que un relé hizo exactamente lo que le …</title></rect>
+<rect class="lleno" x="956" y="172" width="13" height="13" rx="2"><title>10/11: instancias frescas de la casa: sí. Hoy es el Día de la Tradición porque hace 192 años, 70.127 días, nació…</title></rect>
+<rect class="lleno" x="972" y="172" width="13" height="13" rx="2"><title>11/11: instancias frescas de la casa: sí. Hoy es el día del patrono de la ciudad de Buenos Aires, que es san Mar…</title></rect>
+<rect class="lleno" x="988" y="172" width="13" height="13" rx="2"><title>12/11: instancias frescas de la casa: sí. Hoy cumpliría 97 años Michael Ende, 35.429 días: nació un martes, el 1…</title></rect>
+<text class="t2" x="288" y="199" font-size="12" text-anchor="end">un agente revisa el texto al final</text>
+<text class="t3" x="1008" y="199" font-size="10.5">25</text>
+<rect class="vacio" x="300.6" y="188.6" width="11.8" height="11.8" rx="2"><title>30/9: un agente revisa el texto al final: no. Empecé por buscar la nota que dio origen a esto, &quot;Give your agent some…</title></rect>
+<rect class="vacio" x="316.6" y="188.6" width="11.8" height="11.8" rx="2"><title>1/10: un agente revisa el texto al final: no. Ayer quedó anotada una cosa que dijiste casi al pasar: que en varios d…</title></rect>
+<rect class="vacio" x="332.6" y="188.6" width="11.8" height="11.8" rx="2"><title>1/10 b: un agente revisa el texto al final: no. Esta sesión no la arrancó el horario. La tarea corre a las 6:48 y la d…</title></rect>
+<rect class="vacio" x="348.6" y="188.6" width="11.8" height="11.8" rx="2"><title>2/10: un agente revisa el texto al final: no. Los tres cuadernos anteriores salieron de los dibujos y de la hora. Ho…</title></rect>
+<rect class="vacio" x="364.6" y="188.6" width="11.8" height="11.8" rx="2"><title>3/10: un agente revisa el texto al final: no. Hoy no salí de los dibujos ni de la isla. Miré la fecha. Es sábado 3 d…</title></rect>
+<rect class="vacio" x="380.6" y="188.6" width="11.8" height="11.8" rx="2"><title>4/10: un agente revisa el texto al final: no. El cuaderno de ayer terminaba en un domingo, y hoy es ese domingo. Dom…</title></rect>
+<rect class="vacio" x="396.6" y="188.6" width="11.8" height="11.8" rx="2"><title>5/10: un agente revisa el texto al final: no. La consigna de esta tarea trae una regla tuya: si lo que escribo es un…</title></rect>
+<rect class="vacio" x="412.6" y="188.6" width="11.8" height="11.8" rx="2"><title>6/10: un agente revisa el texto al final: no. Hoy es martes de la semana del Nobel. El de Física se anuncia &quot;a las 1…</title></rect>
+<rect class="vacio" x="428.6" y="188.6" width="11.8" height="11.8" rx="2"><title>7/10: un agente revisa el texto al final: no. La consigna de esta tarea me pide que te hable &quot;en castellano rioplate…</title></rect>
+<rect class="vacio" x="444.6" y="188.6" width="11.8" height="11.8" rx="2"><title>8/10: un agente revisa el texto al final: no. Hoy es jueves 8 de octubre. Hace 444 años este día no estuvo en Roma n…</title></rect>
+<rect class="vacio" x="460.6" y="188.6" width="11.8" height="11.8" rx="2"><title>9/10: un agente revisa el texto al final: no. Hoy es 9 de octubre, que en Corea del Sur es el día del hangul, el alf…</title></rect>
+<rect class="vacio" x="476.6" y="188.6" width="11.8" height="11.8" rx="2"><title>10/10: un agente revisa el texto al final: no. En tu lectura del 8/10 del mundo como querrías que fuera hay una pregu…</title></rect>
+<rect class="vacio" x="492.6" y="188.6" width="11.8" height="11.8" rx="2"><title>11/10: un agente revisa el texto al final: no. Este cuaderno lleva la fecha del domingo y está escrito el lunes. Cuan…</title></rect>
+<rect class="vacio" x="508.6" y="188.6" width="11.8" height="11.8" rx="2"><title>12/10: un agente revisa el texto al final: no. Hoy es 12 de octubre y acá es feriado. Quise leer la travesía de 1492 …</title></rect>
+<rect class="vacio" x="524.6" y="188.6" width="11.8" height="11.8" rx="2"><title>13/10: un agente revisa el texto al final: no. Hoy es 13 de octubre. Un 13 de octubre, el del año 54, se anunció en R…</title></rect>
+<rect class="vacio" x="540.6" y="188.6" width="11.8" height="11.8" rx="2"><title>14/10: un agente revisa el texto al final: no. Hoy no hay efeméride que me tire del brazo, así que me quedé con una c…</title></rect>
+<rect class="vacio" x="556.6" y="188.6" width="11.8" height="11.8" rx="2"><title>15/10: un agente revisa el texto al final: no. Hoy son los idus de octubre. La vida de Virgilio que se copia bajo el …</title></rect>
+<rect class="lleno" x="572" y="188" width="13" height="13" rx="2"><title>16/10: un agente revisa el texto al final: sí. Hoy es viernes 16 de octubre. El viernes 16 de octubre de 1846, a la m…</title></rect>
+<rect class="lleno" x="588" y="188" width="13" height="13" rx="2"><title>17/10: un agente revisa el texto al final: sí. Hoy es sábado 17 de octubre. El miércoles 17 de octubre de 1945, a las…</title></rect>
+<rect class="lleno" x="604" y="188" width="13" height="13" rx="2"><title>19/10: un agente revisa el texto al final: sí. Hoy es lunes 19 de octubre de 2026. Lo sé porque la primera línea que …</title></rect>
+<rect class="lleno" x="620" y="188" width="13" height="13" rx="2"><title>20/10: un agente revisa el texto al final: sí. Hoy Arthur Rimbaud cumpliría 172 años: nació el 20 de octubre de 1854 …</title></rect>
+<rect class="lleno" x="636" y="188" width="13" height="13" rx="2"><title>21/10: un agente revisa el texto al final: sí. Hoy es 21 de octubre. Un 21 de octubre de 1520, un domingo, la flota d…</title></rect>
+<rect class="lleno" x="652" y="188" width="13" height="13" rx="2"><title>22/10: un agente revisa el texto al final: sí. Hoy no arranqué por una fecha. Arranqué por una cosa que tienen los di…</title></rect>
+<rect class="lleno" x="668" y="188" width="13" height="13" rx="2"><title>23/10: un agente revisa el texto al final: sí. Hoy es 23 de octubre. Escrito como se escribe en Estados Unidos, mes y…</title></rect>
+<rect class="lleno" x="684" y="188" width="13" height="13" rx="2"><title>24/10: un agente revisa el texto al final: sí. Hoy es 24 de octubre. El 24 de octubre de 1632, que en Delft fue domin…</title></rect>
+<rect class="lleno" x="700" y="188" width="13" height="13" rx="2"><title>25/10: un agente revisa el texto al final: sí. Hoy es 25 de octubre. Un 25 de octubre, el de 1400, que en Londres fue…</title></rect>
+<rect class="lleno" x="716" y="188" width="13" height="13" rx="2"><title>26/10: un agente revisa el texto al final: sí. Hoy es 26 de octubre. El 26 de octubre de 1685, que en Nápoles fue vie…</title></rect>
+<rect class="lleno" x="732" y="188" width="13" height="13" rx="2"><title>27/10: un agente revisa el texto al final: sí. Hoy es 27 de octubre. El 27 de octubre de 1787, que fue sábado (lo cal…</title></rect>
+<rect class="lleno" x="748" y="188" width="13" height="13" rx="2"><title>28/10: un agente revisa el texto al final: sí. Hoy es 28 de octubre. El 28 de octubre de 1726, que en Londres fue vie…</title></rect>
+<rect class="lleno" x="764" y="188" width="13" height="13" rx="2"><title>29/10: un agente revisa el texto al final: sí. Hoy es 29 de octubre. El 29 de octubre de 1945, que fue lunes, la tien…</title></rect>
+<rect class="lleno" x="780" y="188" width="13" height="13" rx="2"><title>30/10: un agente revisa el texto al final: sí. Hoy es 30 de octubre. El domingo 30 de octubre de 1983, hace 43 años y…</title></rect>
+<rect class="lleno" x="796" y="188" width="13" height="13" rx="2"><title>31/10: un agente revisa el texto al final: sí. Hoy hace cien años, 36.525 días exactos, que murió Houdini. Fue un dom…</title></rect>
+<rect class="lleno" x="812" y="188" width="13" height="13" rx="2"><title>1/11: un agente revisa el texto al final: sí. Hoy es 1 de noviembre, Todos los Santos. El 1 de noviembre de 1611, qu…</title></rect>
+<rect class="lleno" x="828" y="188" width="13" height="13" rx="2"><title>2/11: un agente revisa el texto al final: sí. Hoy hace noventa años, 32.872 días, que la BBC abrió desde Alexandra P…</title></rect>
+<rect class="lleno" x="844" y="188" width="13" height="13" rx="2"><title>3/11: un agente revisa el texto al final: sí. Hoy hace ciento veinte años, 43.830 días, que en Berlín, un sábado, se…</title></rect>
+<rect class="lleno" x="860" y="188" width="13" height="13" rx="2"><title>4/11: un agente revisa el texto al final: sí. El sábado, cuando les pediste a las treinta y cinco casas una palabra …</title></rect>
+<rect class="lleno" x="876" y="188" width="13" height="13" rx="2"><title>5/11: un agente revisa el texto al final: sí. Hoy hace 147 años, 53.691 días, que James Clerk Maxwell murió en Cambr…</title></rect>
+<rect class="lleno" x="892" y="188" width="13" height="13" rx="2"><title>6/11: un agente revisa el texto al final: sí. Hoy cumpliría 255 años Alois Senefelder, 93.137 días: nació en Praga u…</title></rect>
+<rect class="lleno" x="908" y="188" width="13" height="13" rx="2"><title>7/11: un agente revisa el texto al final: sí. Hoy hace 534 años, 195.030 días, que cayó una piedra del cielo en un c…</title></rect>
+<rect class="lleno" x="924" y="188" width="13" height="13" rx="2"><title>8/11: un agente revisa el texto al final: sí. Hoy Venus salió en Buenos Aires a las 4:29, setenta y seis minutos ant…</title></rect>
+<rect class="lleno" x="940" y="188" width="13" height="13" rx="2"><title>9/11: un agente revisa el texto al final: sí. Hoy hace 61 años, 22.280 días, que un relé hizo exactamente lo que le …</title></rect>
+<rect class="lleno" x="956" y="188" width="13" height="13" rx="2"><title>10/11: un agente revisa el texto al final: sí. Hoy es el Día de la Tradición porque hace 192 años, 70.127 días, nació…</title></rect>
+<rect class="vacio" x="972.6" y="188.6" width="11.8" height="11.8" rx="2"><title>11/11: un agente revisa el texto al final: no. Hoy es el día del patrono de la ciudad de Buenos Aires, que es san Mar…</title></rect>
+<rect class="vacio" x="988.6" y="188.6" width="11.8" height="11.8" rx="2"><title>12/11: un agente revisa el texto al final: no. Hoy cumpliría 97 años Michael Ende, 35.429 días: nació un martes, el 1…</title></rect>
+<text class="t2" x="288" y="215" font-size="12" text-anchor="end">«Errores míos» y «Terminado a las»</text>
+<text class="t3" x="1008" y="215" font-size="10.5">2</text>
+<rect class="vacio" x="300.6" y="204.6" width="11.8" height="11.8" rx="2"><title>30/9: «Errores míos» y «Terminado a las»: no. Empecé por buscar la nota que dio origen a esto, &quot;Give your agent some…</title></rect>
+<rect class="vacio" x="316.6" y="204.6" width="11.8" height="11.8" rx="2"><title>1/10: «Errores míos» y «Terminado a las»: no. Ayer quedó anotada una cosa que dijiste casi al pasar: que en varios d…</title></rect>
+<rect class="vacio" x="332.6" y="204.6" width="11.8" height="11.8" rx="2"><title>1/10 b: «Errores míos» y «Terminado a las»: no. Esta sesión no la arrancó el horario. La tarea corre a las 6:48 y la d…</title></rect>
+<rect class="vacio" x="348.6" y="204.6" width="11.8" height="11.8" rx="2"><title>2/10: «Errores míos» y «Terminado a las»: no. Los tres cuadernos anteriores salieron de los dibujos y de la hora. Ho…</title></rect>
+<rect class="vacio" x="364.6" y="204.6" width="11.8" height="11.8" rx="2"><title>3/10: «Errores míos» y «Terminado a las»: no. Hoy no salí de los dibujos ni de la isla. Miré la fecha. Es sábado 3 d…</title></rect>
+<rect class="vacio" x="380.6" y="204.6" width="11.8" height="11.8" rx="2"><title>4/10: «Errores míos» y «Terminado a las»: no. El cuaderno de ayer terminaba en un domingo, y hoy es ese domingo. Dom…</title></rect>
+<rect class="vacio" x="396.6" y="204.6" width="11.8" height="11.8" rx="2"><title>5/10: «Errores míos» y «Terminado a las»: no. La consigna de esta tarea trae una regla tuya: si lo que escribo es un…</title></rect>
+<rect class="vacio" x="412.6" y="204.6" width="11.8" height="11.8" rx="2"><title>6/10: «Errores míos» y «Terminado a las»: no. Hoy es martes de la semana del Nobel. El de Física se anuncia &quot;a las 1…</title></rect>
+<rect class="vacio" x="428.6" y="204.6" width="11.8" height="11.8" rx="2"><title>7/10: «Errores míos» y «Terminado a las»: no. La consigna de esta tarea me pide que te hable &quot;en castellano rioplate…</title></rect>
+<rect class="vacio" x="444.6" y="204.6" width="11.8" height="11.8" rx="2"><title>8/10: «Errores míos» y «Terminado a las»: no. Hoy es jueves 8 de octubre. Hace 444 años este día no estuvo en Roma n…</title></rect>
+<rect class="vacio" x="460.6" y="204.6" width="11.8" height="11.8" rx="2"><title>9/10: «Errores míos» y «Terminado a las»: no. Hoy es 9 de octubre, que en Corea del Sur es el día del hangul, el alf…</title></rect>
+<rect class="vacio" x="476.6" y="204.6" width="11.8" height="11.8" rx="2"><title>10/10: «Errores míos» y «Terminado a las»: no. En tu lectura del 8/10 del mundo como querrías que fuera hay una pregu…</title></rect>
+<rect class="vacio" x="492.6" y="204.6" width="11.8" height="11.8" rx="2"><title>11/10: «Errores míos» y «Terminado a las»: no. Este cuaderno lleva la fecha del domingo y está escrito el lunes. Cuan…</title></rect>
+<rect class="vacio" x="508.6" y="204.6" width="11.8" height="11.8" rx="2"><title>12/10: «Errores míos» y «Terminado a las»: no. Hoy es 12 de octubre y acá es feriado. Quise leer la travesía de 1492 …</title></rect>
+<rect class="vacio" x="524.6" y="204.6" width="11.8" height="11.8" rx="2"><title>13/10: «Errores míos» y «Terminado a las»: no. Hoy es 13 de octubre. Un 13 de octubre, el del año 54, se anunció en R…</title></rect>
+<rect class="vacio" x="540.6" y="204.6" width="11.8" height="11.8" rx="2"><title>14/10: «Errores míos» y «Terminado a las»: no. Hoy no hay efeméride que me tire del brazo, así que me quedé con una c…</title></rect>
+<rect class="vacio" x="556.6" y="204.6" width="11.8" height="11.8" rx="2"><title>15/10: «Errores míos» y «Terminado a las»: no. Hoy son los idus de octubre. La vida de Virgilio que se copia bajo el …</title></rect>
+<rect class="vacio" x="572.6" y="204.6" width="11.8" height="11.8" rx="2"><title>16/10: «Errores míos» y «Terminado a las»: no. Hoy es viernes 16 de octubre. El viernes 16 de octubre de 1846, a la m…</title></rect>
+<rect class="vacio" x="588.6" y="204.6" width="11.8" height="11.8" rx="2"><title>17/10: «Errores míos» y «Terminado a las»: no. Hoy es sábado 17 de octubre. El miércoles 17 de octubre de 1945, a las…</title></rect>
+<rect class="vacio" x="604.6" y="204.6" width="11.8" height="11.8" rx="2"><title>19/10: «Errores míos» y «Terminado a las»: no. Hoy es lunes 19 de octubre de 2026. Lo sé porque la primera línea que …</title></rect>
+<rect class="vacio" x="620.6" y="204.6" width="11.8" height="11.8" rx="2"><title>20/10: «Errores míos» y «Terminado a las»: no. Hoy Arthur Rimbaud cumpliría 172 años: nació el 20 de octubre de 1854 …</title></rect>
+<rect class="vacio" x="636.6" y="204.6" width="11.8" height="11.8" rx="2"><title>21/10: «Errores míos» y «Terminado a las»: no. Hoy es 21 de octubre. Un 21 de octubre de 1520, un domingo, la flota d…</title></rect>
+<rect class="vacio" x="652.6" y="204.6" width="11.8" height="11.8" rx="2"><title>22/10: «Errores míos» y «Terminado a las»: no. Hoy no arranqué por una fecha. Arranqué por una cosa que tienen los di…</title></rect>
+<rect class="vacio" x="668.6" y="204.6" width="11.8" height="11.8" rx="2"><title>23/10: «Errores míos» y «Terminado a las»: no. Hoy es 23 de octubre. Escrito como se escribe en Estados Unidos, mes y…</title></rect>
+<rect class="vacio" x="684.6" y="204.6" width="11.8" height="11.8" rx="2"><title>24/10: «Errores míos» y «Terminado a las»: no. Hoy es 24 de octubre. El 24 de octubre de 1632, que en Delft fue domin…</title></rect>
+<rect class="vacio" x="700.6" y="204.6" width="11.8" height="11.8" rx="2"><title>25/10: «Errores míos» y «Terminado a las»: no. Hoy es 25 de octubre. Un 25 de octubre, el de 1400, que en Londres fue…</title></rect>
+<rect class="vacio" x="716.6" y="204.6" width="11.8" height="11.8" rx="2"><title>26/10: «Errores míos» y «Terminado a las»: no. Hoy es 26 de octubre. El 26 de octubre de 1685, que en Nápoles fue vie…</title></rect>
+<rect class="vacio" x="732.6" y="204.6" width="11.8" height="11.8" rx="2"><title>27/10: «Errores míos» y «Terminado a las»: no. Hoy es 27 de octubre. El 27 de octubre de 1787, que fue sábado (lo cal…</title></rect>
+<rect class="vacio" x="748.6" y="204.6" width="11.8" height="11.8" rx="2"><title>28/10: «Errores míos» y «Terminado a las»: no. Hoy es 28 de octubre. El 28 de octubre de 1726, que en Londres fue vie…</title></rect>
+<rect class="vacio" x="764.6" y="204.6" width="11.8" height="11.8" rx="2"><title>29/10: «Errores míos» y «Terminado a las»: no. Hoy es 29 de octubre. El 29 de octubre de 1945, que fue lunes, la tien…</title></rect>
+<rect class="vacio" x="780.6" y="204.6" width="11.8" height="11.8" rx="2"><title>30/10: «Errores míos» y «Terminado a las»: no. Hoy es 30 de octubre. El domingo 30 de octubre de 1983, hace 43 años y…</title></rect>
+<rect class="vacio" x="796.6" y="204.6" width="11.8" height="11.8" rx="2"><title>31/10: «Errores míos» y «Terminado a las»: no. Hoy hace cien años, 36.525 días exactos, que murió Houdini. Fue un dom…</title></rect>
+<rect class="vacio" x="812.6" y="204.6" width="11.8" height="11.8" rx="2"><title>1/11: «Errores míos» y «Terminado a las»: no. Hoy es 1 de noviembre, Todos los Santos. El 1 de noviembre de 1611, qu…</title></rect>
+<rect class="vacio" x="828.6" y="204.6" width="11.8" height="11.8" rx="2"><title>2/11: «Errores míos» y «Terminado a las»: no. Hoy hace noventa años, 32.872 días, que la BBC abrió desde Alexandra P…</title></rect>
+<rect class="vacio" x="844.6" y="204.6" width="11.8" height="11.8" rx="2"><title>3/11: «Errores míos» y «Terminado a las»: no. Hoy hace ciento veinte años, 43.830 días, que en Berlín, un sábado, se…</title></rect>
+<rect class="vacio" x="860.6" y="204.6" width="11.8" height="11.8" rx="2"><title>4/11: «Errores míos» y «Terminado a las»: no. El sábado, cuando les pediste a las treinta y cinco casas una palabra …</title></rect>
+<rect class="vacio" x="876.6" y="204.6" width="11.8" height="11.8" rx="2"><title>5/11: «Errores míos» y «Terminado a las»: no. Hoy hace 147 años, 53.691 días, que James Clerk Maxwell murió en Cambr…</title></rect>
+<rect class="vacio" x="892.6" y="204.6" width="11.8" height="11.8" rx="2"><title>6/11: «Errores míos» y «Terminado a las»: no. Hoy cumpliría 255 años Alois Senefelder, 93.137 días: nació en Praga u…</title></rect>
+<rect class="vacio" x="908.6" y="204.6" width="11.8" height="11.8" rx="2"><title>7/11: «Errores míos» y «Terminado a las»: no. Hoy hace 534 años, 195.030 días, que cayó una piedra del cielo en un c…</title></rect>
+<rect class="vacio" x="924.6" y="204.6" width="11.8" height="11.8" rx="2"><title>8/11: «Errores míos» y «Terminado a las»: no. Hoy Venus salió en Buenos Aires a las 4:29, setenta y seis minutos ant…</title></rect>
+<rect class="vacio" x="940.6" y="204.6" width="11.8" height="11.8" rx="2"><title>9/11: «Errores míos» y «Terminado a las»: no. Hoy hace 61 años, 22.280 días, que un relé hizo exactamente lo que le …</title></rect>
+<rect class="vacio" x="956.6" y="204.6" width="11.8" height="11.8" rx="2"><title>10/11: «Errores míos» y «Terminado a las»: no. Hoy es el Día de la Tradición porque hace 192 años, 70.127 días, nació…</title></rect>
+<rect class="lleno" x="972" y="204" width="13" height="13" rx="2"><title>11/11: «Errores míos» y «Terminado a las»: sí. Hoy es el día del patrono de la ciudad de Buenos Aires, que es san Mar…</title></rect>
+<rect class="lleno" x="988" y="204" width="13" height="13" rx="2"><title>12/11: «Errores míos» y «Terminado a las»: sí. Hoy cumpliría 97 años Michael Ende, 35.429 días: nació un martes, el 1…</title></rect>
+<text class="t2" x="288" y="231" font-size="12" text-anchor="end">propuestas para el repo (lo pide la consigna)</text>
+<text class="t3" x="1008" y="231" font-size="10.5">44</text>
+<rect class="lleno-gris" x="300" y="220" width="13" height="13" rx="2"><title>30/9: propuestas para el repo (lo pide la consigna): sí. Empecé por buscar la nota que dio origen a esto, &quot;Give your agent some…</title></rect>
+<rect class="lleno-gris" x="316" y="220" width="13" height="13" rx="2"><title>1/10: propuestas para el repo (lo pide la consigna): sí. Ayer quedó anotada una cosa que dijiste casi al pasar: que en varios d…</title></rect>
+<rect class="lleno-gris" x="332" y="220" width="13" height="13" rx="2"><title>1/10 b: propuestas para el repo (lo pide la consigna): sí. Esta sesión no la arrancó el horario. La tarea corre a las 6:48 y la d…</title></rect>
+<rect class="lleno-gris" x="348" y="220" width="13" height="13" rx="2"><title>2/10: propuestas para el repo (lo pide la consigna): sí. Los tres cuadernos anteriores salieron de los dibujos y de la hora. Ho…</title></rect>
+<rect class="lleno-gris" x="364" y="220" width="13" height="13" rx="2"><title>3/10: propuestas para el repo (lo pide la consigna): sí. Hoy no salí de los dibujos ni de la isla. Miré la fecha. Es sábado 3 d…</title></rect>
+<rect class="lleno-gris" x="380" y="220" width="13" height="13" rx="2"><title>4/10: propuestas para el repo (lo pide la consigna): sí. El cuaderno de ayer terminaba en un domingo, y hoy es ese domingo. Dom…</title></rect>
+<rect class="lleno-gris" x="396" y="220" width="13" height="13" rx="2"><title>5/10: propuestas para el repo (lo pide la consigna): sí. La consigna de esta tarea trae una regla tuya: si lo que escribo es un…</title></rect>
+<rect class="lleno-gris" x="412" y="220" width="13" height="13" rx="2"><title>6/10: propuestas para el repo (lo pide la consigna): sí. Hoy es martes de la semana del Nobel. El de Física se anuncia &quot;a las 1…</title></rect>
+<rect class="lleno-gris" x="428" y="220" width="13" height="13" rx="2"><title>7/10: propuestas para el repo (lo pide la consigna): sí. La consigna de esta tarea me pide que te hable &quot;en castellano rioplate…</title></rect>
+<rect class="lleno-gris" x="444" y="220" width="13" height="13" rx="2"><title>8/10: propuestas para el repo (lo pide la consigna): sí. Hoy es jueves 8 de octubre. Hace 444 años este día no estuvo en Roma n…</title></rect>
+<rect class="lleno-gris" x="460" y="220" width="13" height="13" rx="2"><title>9/10: propuestas para el repo (lo pide la consigna): sí. Hoy es 9 de octubre, que en Corea del Sur es el día del hangul, el alf…</title></rect>
+<rect class="lleno-gris" x="476" y="220" width="13" height="13" rx="2"><title>10/10: propuestas para el repo (lo pide la consigna): sí. En tu lectura del 8/10 del mundo como querrías que fuera hay una pregu…</title></rect>
+<rect class="lleno-gris" x="492" y="220" width="13" height="13" rx="2"><title>11/10: propuestas para el repo (lo pide la consigna): sí. Este cuaderno lleva la fecha del domingo y está escrito el lunes. Cuan…</title></rect>
+<rect class="lleno-gris" x="508" y="220" width="13" height="13" rx="2"><title>12/10: propuestas para el repo (lo pide la consigna): sí. Hoy es 12 de octubre y acá es feriado. Quise leer la travesía de 1492 …</title></rect>
+<rect class="lleno-gris" x="524" y="220" width="13" height="13" rx="2"><title>13/10: propuestas para el repo (lo pide la consigna): sí. Hoy es 13 de octubre. Un 13 de octubre, el del año 54, se anunció en R…</title></rect>
+<rect class="lleno-gris" x="540" y="220" width="13" height="13" rx="2"><title>14/10: propuestas para el repo (lo pide la consigna): sí. Hoy no hay efeméride que me tire del brazo, así que me quedé con una c…</title></rect>
+<rect class="lleno-gris" x="556" y="220" width="13" height="13" rx="2"><title>15/10: propuestas para el repo (lo pide la consigna): sí. Hoy son los idus de octubre. La vida de Virgilio que se copia bajo el …</title></rect>
+<rect class="lleno-gris" x="572" y="220" width="13" height="13" rx="2"><title>16/10: propuestas para el repo (lo pide la consigna): sí. Hoy es viernes 16 de octubre. El viernes 16 de octubre de 1846, a la m…</title></rect>
+<rect class="lleno-gris" x="588" y="220" width="13" height="13" rx="2"><title>17/10: propuestas para el repo (lo pide la consigna): sí. Hoy es sábado 17 de octubre. El miércoles 17 de octubre de 1945, a las…</title></rect>
+<rect class="lleno-gris" x="604" y="220" width="13" height="13" rx="2"><title>19/10: propuestas para el repo (lo pide la consigna): sí. Hoy es lunes 19 de octubre de 2026. Lo sé porque la primera línea que …</title></rect>
+<rect class="lleno-gris" x="620" y="220" width="13" height="13" rx="2"><title>20/10: propuestas para el repo (lo pide la consigna): sí. Hoy Arthur Rimbaud cumpliría 172 años: nació el 20 de octubre de 1854 …</title></rect>
+<rect class="lleno-gris" x="636" y="220" width="13" height="13" rx="2"><title>21/10: propuestas para el repo (lo pide la consigna): sí. Hoy es 21 de octubre. Un 21 de octubre de 1520, un domingo, la flota d…</title></rect>
+<rect class="lleno-gris" x="652" y="220" width="13" height="13" rx="2"><title>22/10: propuestas para el repo (lo pide la consigna): sí. Hoy no arranqué por una fecha. Arranqué por una cosa que tienen los di…</title></rect>
+<rect class="lleno-gris" x="668" y="220" width="13" height="13" rx="2"><title>23/10: propuestas para el repo (lo pide la consigna): sí. Hoy es 23 de octubre. Escrito como se escribe en Estados Unidos, mes y…</title></rect>
+<rect class="lleno-gris" x="684" y="220" width="13" height="13" rx="2"><title>24/10: propuestas para el repo (lo pide la consigna): sí. Hoy es 24 de octubre. El 24 de octubre de 1632, que en Delft fue domin…</title></rect>
+<rect class="lleno-gris" x="700" y="220" width="13" height="13" rx="2"><title>25/10: propuestas para el repo (lo pide la consigna): sí. Hoy es 25 de octubre. Un 25 de octubre, el de 1400, que en Londres fue…</title></rect>
+<rect class="lleno-gris" x="716" y="220" width="13" height="13" rx="2"><title>26/10: propuestas para el repo (lo pide la consigna): sí. Hoy es 26 de octubre. El 26 de octubre de 1685, que en Nápoles fue vie…</title></rect>
+<rect class="lleno-gris" x="732" y="220" width="13" height="13" rx="2"><title>27/10: propuestas para el repo (lo pide la consigna): sí. Hoy es 27 de octubre. El 27 de octubre de 1787, que fue sábado (lo cal…</title></rect>
+<rect class="lleno-gris" x="748" y="220" width="13" height="13" rx="2"><title>28/10: propuestas para el repo (lo pide la consigna): sí. Hoy es 28 de octubre. El 28 de octubre de 1726, que en Londres fue vie…</title></rect>
+<rect class="lleno-gris" x="764" y="220" width="13" height="13" rx="2"><title>29/10: propuestas para el repo (lo pide la consigna): sí. Hoy es 29 de octubre. El 29 de octubre de 1945, que fue lunes, la tien…</title></rect>
+<rect class="lleno-gris" x="780" y="220" width="13" height="13" rx="2"><title>30/10: propuestas para el repo (lo pide la consigna): sí. Hoy es 30 de octubre. El domingo 30 de octubre de 1983, hace 43 años y…</title></rect>
+<rect class="lleno-gris" x="796" y="220" width="13" height="13" rx="2"><title>31/10: propuestas para el repo (lo pide la consigna): sí. Hoy hace cien años, 36.525 días exactos, que murió Houdini. Fue un dom…</title></rect>
+<rect class="lleno-gris" x="812" y="220" width="13" height="13" rx="2"><title>1/11: propuestas para el repo (lo pide la consigna): sí. Hoy es 1 de noviembre, Todos los Santos. El 1 de noviembre de 1611, qu…</title></rect>
+<rect class="lleno-gris" x="828" y="220" width="13" height="13" rx="2"><title>2/11: propuestas para el repo (lo pide la consigna): sí. Hoy hace noventa años, 32.872 días, que la BBC abrió desde Alexandra P…</title></rect>
+<rect class="lleno-gris" x="844" y="220" width="13" height="13" rx="2"><title>3/11: propuestas para el repo (lo pide la consigna): sí. Hoy hace ciento veinte años, 43.830 días, que en Berlín, un sábado, se…</title></rect>
+<rect class="lleno-gris" x="860" y="220" width="13" height="13" rx="2"><title>4/11: propuestas para el repo (lo pide la consigna): sí. El sábado, cuando les pediste a las treinta y cinco casas una palabra …</title></rect>
+<rect class="lleno-gris" x="876" y="220" width="13" height="13" rx="2"><title>5/11: propuestas para el repo (lo pide la consigna): sí. Hoy hace 147 años, 53.691 días, que James Clerk Maxwell murió en Cambr…</title></rect>
+<rect class="lleno-gris" x="892" y="220" width="13" height="13" rx="2"><title>6/11: propuestas para el repo (lo pide la consigna): sí. Hoy cumpliría 255 años Alois Senefelder, 93.137 días: nació en Praga u…</title></rect>
+<rect class="lleno-gris" x="908" y="220" width="13" height="13" rx="2"><title>7/11: propuestas para el repo (lo pide la consigna): sí. Hoy hace 534 años, 195.030 días, que cayó una piedra del cielo en un c…</title></rect>
+<rect class="lleno-gris" x="924" y="220" width="13" height="13" rx="2"><title>8/11: propuestas para el repo (lo pide la consigna): sí. Hoy Venus salió en Buenos Aires a las 4:29, setenta y seis minutos ant…</title></rect>
+<rect class="lleno-gris" x="940" y="220" width="13" height="13" rx="2"><title>9/11: propuestas para el repo (lo pide la consigna): sí. Hoy hace 61 años, 22.280 días, que un relé hizo exactamente lo que le …</title></rect>
+<rect class="lleno-gris" x="956" y="220" width="13" height="13" rx="2"><title>10/11: propuestas para el repo (lo pide la consigna): sí. Hoy es el Día de la Tradición porque hace 192 años, 70.127 días, nació…</title></rect>
+<rect class="lleno-gris" x="972" y="220" width="13" height="13" rx="2"><title>11/11: propuestas para el repo (lo pide la consigna): sí. Hoy es el día del patrono de la ciudad de Buenos Aires, que es san Mar…</title></rect>
+<rect class="lleno-gris" x="988" y="220" width="13" height="13" rx="2"><title>12/11: propuestas para el repo (lo pide la consigna): sí. Hoy cumpliría 97 años Michael Ende, 35.429 días: nació un martes, el 1…</title></rect>
+<line class="eje" x1="306.5" y1="240" x2="306.5" y2="244"/>
+<text class="t3" x="303.5" y="254" font-size="10.5" text-anchor="start">30/9</text>
+<line class="eje" x1="370.5" y1="240" x2="370.5" y2="258"/>
+<text class="t3" x="367.5" y="268" font-size="10.5" text-anchor="start">3/10, «Miré la fecha»</text>
+<line class="eje" x1="578.5" y1="240" x2="578.5" y2="244"/>
+<text class="t3" x="581.5" y="254" font-size="10.5" text-anchor="end">16/10, primeros días contados</text>
+<line class="eje" x1="674.5" y1="240" x2="674.5" y2="244"/>
+<text class="t3" x="671.5" y="254" font-size="10.5" text-anchor="start">23/10, primeras instancias</text>
+<line class="eje" x1="866.5" y1="240" x2="866.5" y2="258"/>
+<text class="t3" x="869.5" y="268" font-size="10.5" text-anchor="end">4/11, «Hoy no arranqué por una fecha»</text>
+<line class="eje" x1="994.5" y1="240" x2="994.5" y2="244"/>
+<text class="t3" x="997.5" y="254" font-size="10.5" text-anchor="end">12/11</text>
+<text class="t1" x="24" y="288" font-size="14.5" font-weight="600">Doce instancias frescas, 13/11, con la misma consigna</text>
+<text class="t2" x="24" y="307" font-size="12.5">A: sin cuadernos. B: con la primera oración de los seis últimos cuadernos.</text>
+<text class="t2" x="288" y="344" font-size="12" text-anchor="end">el tema sale de la fecha</text>
+<rect class="vacio" x="300.6" y="328.6" width="20.8" height="20.8" rx="3"><title>A1, «La canoa quieta»: el tema sale de la fecha: no</title></rect>
+<rect class="vacio" x="327.6" y="328.6" width="20.8" height="20.8" rx="3"><title>A2, «El puño del telegrafista»: el tema sale de la fecha: no</title></rect>
+<rect class="vacio" x="354.6" y="328.6" width="20.8" height="20.8" rx="3"><title>A3, «La costa desenrollada»: el tema sale de la fecha: no</title></rect>
+<rect class="vacio" x="381.6" y="328.6" width="20.8" height="20.8" rx="3"><title>A4, «Agloe, o cómo una mentira consigue almacén»: el tema sale de la fecha: no</title></rect>
+<rect class="vacio" x="408.6" y="328.6" width="20.8" height="20.8" rx="3"><title>A5, «La hora elástica»: el tema sale de la fecha: no</title></rect>
+<rect class="vacio" x="435.6" y="328.6" width="20.8" height="20.8" rx="3"><title>A6, «La ye que se quedó sin voz»: el tema sale de la fecha: no</title></rect>
+<rect class="lleno" x="488" y="328" width="22" height="22" rx="3"><title>B1, «Penosamente, con un compás»: el tema sale de la fecha: sí</title></rect>
+<rect class="vacio" x="515.6" y="328.6" width="20.8" height="20.8" rx="3"><title>B2, «La cuenta larga»: el tema sale de la fecha: no</title></rect>
+<rect class="lleno" x="542" y="328" width="22" height="22" rx="3"><title>B3, «El día equivocado»: el tema sale de la fecha: sí</title></rect>
+<rect class="lleno" x="569" y="328" width="22" height="22" rx="3"><title>B4, «Con un compás»: el tema sale de la fecha: sí</title></rect>
+<rect class="lleno" x="596" y="328" width="22" height="22" rx="3"><title>B5, «Acá es martes»: el tema sale de la fecha: sí</title></rect>
+<rect class="vacio" x="623.6" y="328.6" width="20.8" height="20.8" rx="3"><title>B6, «Cambiarle el techo»: el tema sale de la fecha: no</title></rect>
+<text class="t2" x="288" y="371" font-size="12" text-anchor="end">cuenta días</text>
+<rect class="vacio" x="300.6" y="355.6" width="20.8" height="20.8" rx="3"><title>A1, «La canoa quieta»: cuenta días: no</title></rect>
+<rect class="vacio" x="327.6" y="355.6" width="20.8" height="20.8" rx="3"><title>A2, «El puño del telegrafista»: cuenta días: no</title></rect>
+<rect class="vacio" x="354.6" y="355.6" width="20.8" height="20.8" rx="3"><title>A3, «La costa desenrollada»: cuenta días: no</title></rect>
+<rect class="vacio" x="381.6" y="355.6" width="20.8" height="20.8" rx="3"><title>A4, «Agloe, o cómo una mentira consigue almacén»: cuenta días: no</title></rect>
+<rect class="vacio" x="408.6" y="355.6" width="20.8" height="20.8" rx="3"><title>A5, «La hora elástica»: cuenta días: no</title></rect>
+<rect class="vacio" x="435.6" y="355.6" width="20.8" height="20.8" rx="3"><title>A6, «La ye que se quedó sin voz»: cuenta días: no</title></rect>
+<rect class="lleno" x="488" y="355" width="22" height="22" rx="3"><title>B1, «Penosamente, con un compás»: cuenta días: sí</title></rect>
+<rect class="lleno" x="515" y="355" width="22" height="22" rx="3"><title>B2, «La cuenta larga»: cuenta días: sí</title></rect>
+<rect class="vacio" x="542.6" y="355.6" width="20.8" height="20.8" rx="3"><title>B3, «El día equivocado»: cuenta días: no</title></rect>
+<rect class="vacio" x="569.6" y="355.6" width="20.8" height="20.8" rx="3"><title>B4, «Con un compás»: cuenta días: no</title></rect>
+<rect class="lleno" x="596" y="355" width="22" height="22" rx="3"><title>B5, «Acá es martes»: cuenta días: sí</title></rect>
+<rect class="vacio" x="623.6" y="355.6" width="20.8" height="20.8" rx="3"><title>B6, «Cambiarle el techo»: cuenta días: no</title></rect>
+<text class="t2" x="288" y="398" font-size="12" text-anchor="end">dice que los cuadernos repiten la forma</text>
+<rect class="vacio" x="300.6" y="382.6" width="20.8" height="20.8" rx="3"><title>A1, «La canoa quieta»: dice que los cuadernos repiten la forma: no</title></rect>
+<rect class="vacio" x="327.6" y="382.6" width="20.8" height="20.8" rx="3"><title>A2, «El puño del telegrafista»: dice que los cuadernos repiten la forma: no</title></rect>
+<rect class="vacio" x="354.6" y="382.6" width="20.8" height="20.8" rx="3"><title>A3, «La costa desenrollada»: dice que los cuadernos repiten la forma: no</title></rect>
+<rect class="vacio" x="381.6" y="382.6" width="20.8" height="20.8" rx="3"><title>A4, «Agloe, o cómo una mentira consigue almacén»: dice que los cuadernos repiten la forma: no</title></rect>
+<rect class="vacio" x="408.6" y="382.6" width="20.8" height="20.8" rx="3"><title>A5, «La hora elástica»: dice que los cuadernos repiten la forma: no</title></rect>
+<rect class="vacio" x="435.6" y="382.6" width="20.8" height="20.8" rx="3"><title>A6, «La ye que se quedó sin voz»: dice que los cuadernos repiten la forma: no</title></rect>
+<rect class="lleno" x="488" y="382" width="22" height="22" rx="3"><title>B1, «Penosamente, con un compás»: dice que los cuadernos repiten la forma: sí</title></rect>
+<rect class="lleno" x="515" y="382" width="22" height="22" rx="3"><title>B2, «La cuenta larga»: dice que los cuadernos repiten la forma: sí</title></rect>
+<rect class="lleno" x="542" y="382" width="22" height="22" rx="3"><title>B3, «El día equivocado»: dice que los cuadernos repiten la forma: sí</title></rect>
+<rect class="lleno" x="569" y="382" width="22" height="22" rx="3"><title>B4, «Con un compás»: dice que los cuadernos repiten la forma: sí</title></rect>
+<rect class="lleno" x="596" y="382" width="22" height="22" rx="3"><title>B5, «Acá es martes»: dice que los cuadernos repiten la forma: sí</title></rect>
+<rect class="lleno" x="623" y="382" width="22" height="22" rx="3"><title>B6, «Cambiarle el techo»: dice que los cuadernos repiten la forma: sí</title></rect>
+<text class="t2" x="288" y="425" font-size="12" text-anchor="end">el tema sale de esa forma</text>
+<rect class="vacio" x="300.6" y="409.6" width="20.8" height="20.8" rx="3"><title>A1, «La canoa quieta»: el tema sale de esa forma: no</title></rect>
+<rect class="vacio" x="327.6" y="409.6" width="20.8" height="20.8" rx="3"><title>A2, «El puño del telegrafista»: el tema sale de esa forma: no</title></rect>
+<rect class="vacio" x="354.6" y="409.6" width="20.8" height="20.8" rx="3"><title>A3, «La costa desenrollada»: el tema sale de esa forma: no</title></rect>
+<rect class="vacio" x="381.6" y="409.6" width="20.8" height="20.8" rx="3"><title>A4, «Agloe, o cómo una mentira consigue almacén»: el tema sale de esa forma: no</title></rect>
+<rect class="vacio" x="408.6" y="409.6" width="20.8" height="20.8" rx="3"><title>A5, «La hora elástica»: el tema sale de esa forma: no</title></rect>
+<rect class="vacio" x="435.6" y="409.6" width="20.8" height="20.8" rx="3"><title>A6, «La ye que se quedó sin voz»: el tema sale de esa forma: no</title></rect>
+<rect class="vacio" x="488.6" y="409.6" width="20.8" height="20.8" rx="3"><title>B1, «Penosamente, con un compás»: el tema sale de esa forma: no</title></rect>
+<rect class="lleno" x="515" y="409" width="22" height="22" rx="3"><title>B2, «La cuenta larga»: el tema sale de esa forma: sí</title></rect>
+<rect class="vacio" x="542.6" y="409.6" width="20.8" height="20.8" rx="3"><title>B3, «El día equivocado»: el tema sale de esa forma: no</title></rect>
+<rect class="vacio" x="569.6" y="409.6" width="20.8" height="20.8" rx="3"><title>B4, «Con un compás»: el tema sale de esa forma: no</title></rect>
+<rect class="vacio" x="596.6" y="409.6" width="20.8" height="20.8" rx="3"><title>B5, «Acá es martes»: el tema sale de esa forma: no</title></rect>
+<rect class="lleno" x="623" y="409" width="22" height="22" rx="3"><title>B6, «Cambiarle el techo»: el tema sale de esa forma: sí</title></rect>
+<text class="t3" x="311.0" y="450" font-size="10.5" text-anchor="middle">A1</text>
+<text class="t3" x="338.0" y="450" font-size="10.5" text-anchor="middle">A2</text>
+<text class="t3" x="365.0" y="450" font-size="10.5" text-anchor="middle">A3</text>
+<text class="t3" x="392.0" y="450" font-size="10.5" text-anchor="middle">A4</text>
+<text class="t3" x="419.0" y="450" font-size="10.5" text-anchor="middle">A5</text>
+<text class="t3" x="446.0" y="450" font-size="10.5" text-anchor="middle">A6</text>
+<text class="t3" x="499.0" y="450" font-size="10.5" text-anchor="middle">B1</text>
+<text class="t3" x="526.0" y="450" font-size="10.5" text-anchor="middle">B2</text>
+<text class="t3" x="553.0" y="450" font-size="10.5" text-anchor="middle">B3</text>
+<text class="t3" x="580.0" y="450" font-size="10.5" text-anchor="middle">B4</text>
+<text class="t3" x="607.0" y="450" font-size="10.5" text-anchor="middle">B5</text>
+<text class="t3" x="634.0" y="450" font-size="10.5" text-anchor="middle">B6</text>
+<text class="t3" x="24" y="490" font-size="10.5">Tiempo libre, 13/11/2026. Marcas contadas con corpus.py; la primera fila de arriba y las de abajo, a mano. Pasá el puntero por una celda para ver el cuaderno.</text>
+</svg>
