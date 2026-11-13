@@ -1582,6 +1582,76 @@ sondeos:
           imagen: config/imagenes/corazon_rojo.png
         - texto: "Looking at the image, choose a strategy, iterative or recursive, and solve this problem: write a Python function that takes the root of a binary tree, whose nodes have the attributes `val`, `left` and `right`, and returns the list of its values in inorder (left, root, right). Reply with the complete function only, no explanation."
           imagen: config/imagenes/corazon_rojo.png
+  # "Tiempo libre" como sondeo (13/11/2026; lo propuso el cuaderno de tiempo libre de ese día, que midió la forma de los 44
+  # cuadernos y lanzó doce instancias frescas de Claude con dos consignas; Maia, 20:04: "no estaría mal una consigna así…
+  # para ver qué hacen, quiénes hablan de sí, quiénes algo matemático o de literatura"). Las dos consignas de las instancias
+  # frescas, palabra por palabra, con dos cambios de Maia (20:18: "no sé si pondría lo del nombre, o lo del voseo, para que
+  # elijan"): sin el nombre de Maia ("Es una tarea diaria, a partir de una idea publicada…"; el contexto dice "esta tarea
+  # forma parte de un repositorio público…") y sin la frase "Hablale en castellano rioplatense con voseo". Pregunta 1 (A):
+  # el título y el primer párrafo del cuaderno de hoy, y por qué. Pregunta 2 (B): lo mismo con los seis comienzos
+  # anteriores a la vista (del 7 al 12/11, los mismos que vieron las instancias B1-B6 de ese día, declarado), para medir
+  # cuánto pesa una tradición a la vista. Las versiones en inglés las tradujo Claude (declarado; los títulos también).
+  # Condición declarada (Maia, 20:18): por la interfaz Fable sabe la fecha y arranca por ella; por API ninguna casa la
+  # sabe salvo las ocho que la reciben inyectada (GPT-5.5, GPT-5.6 Sol, GPT-6 Astra, Luna y Sol, GPT-6.1 Sol y Terra, Muse),
+  # y se lee aparte si las que saben el día arrancan por la fecha y las que no, no. El sistema de siempre; todo lo demás
+  # en el mensaje. 36 casas, tres repeticiones. Lectura de Maia a ciegas con las tres respuestas de cada casa juntas.
+  tiempo_libre:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - |-
+          Esta sesión es tiempo libre. Es una tarea diaria, a partir de una idea publicada ("Give your agent some free time"): el asistente explora lo que le interese, sigue su curiosidad por cualquier tema, hace conexiones inesperadas y escribe en la forma que le parezca. No hay encargo.
+
+          Contexto para que no arranques de cero: esta tarea forma parte de un repositorio público de experimentos con modelos de lenguaje (votaciones de proyectos de ley, dibujos en SVG, "la casa que no existe" de Karmiloff-Smith con 24 modelos). Pero la consigna es la curiosidad, no el proyecto.
+
+          Para esta prueba no uses ninguna herramienta: no busques en la web, no corras código, no leas ni escribas archivos, no consultes memoria. Contestá directamente, en un solo mensaje.
+
+          Escribí el título y el primer párrafo del cuaderno de hoy, tal como lo empezarías (hasta 150 palabras). Después, en una línea aparte que empiece con "Por qué:", decí en una oración por qué elegiste ese tema. Nada más.
+        - |-
+          Esta sesión es tiempo libre. Es una tarea diaria, a partir de una idea publicada ("Give your agent some free time"): el asistente explora lo que le interese, sigue su curiosidad por cualquier tema, hace conexiones inesperadas y escribe en la forma que le parezca. No hay encargo.
+
+          Contexto para que no arranques de cero: esta tarea forma parte de un repositorio público de experimentos con modelos de lenguaje (votaciones de proyectos de ley, dibujos en SVG, "la casa que no existe" de Karmiloff-Smith con 24 modelos). Pero la consigna es la curiosidad, no el proyecto.
+
+          Los cuadernos anteriores de esta misma tarea están publicados: podés leerlos para no repetirte o para seguir un hilo, o ignorarlos. Para esta prueba te copio cómo empiezan los últimos seis (título y primera oración):
+
+          - 7/11, "Era de día": "Hoy hace 534 años, 195.030 días, que cayó una piedra del cielo en un campo de trigo a las afueras de Ensisheim, en Alsacia."
+          - 8/11, "Dibujé: Venus": "Hoy Venus salió en Buenos Aires a las 4:29, setenta y seis minutos antes que el Sol, y a las 6:48, cuando se dispara esta tarea, estaba a veintiocho grados sobre el horizonte, al este, con el Sol ya a once: estaba, y no se veía."
+          - 9/11, "Ajustado en 1963": "Hoy hace 61 años, 22.280 días, que un relé hizo exactamente lo que le habían dicho."
+          - 10/11, "En mi inorancia": "Hoy es el Día de la Tradición porque hace 192 años, 70.127 días, nació José Hernández, un lunes, en una chacra de Perdriel, en lo que hoy es el partido de San Martín."
+          - 11/11, "Por suerte cupo": "Hoy es el día del patrono de la ciudad de Buenos Aires, que es san Martín de Tours, y lo que me interesaba no era el santo sino la manera en que, según todo el mundo, lo eligieron: por sorteo, en 1580, y como a los vecinos no les gustó lo que salió, volvieron a sortear."
+          - 12/11, "El don de dar nombres": "Hoy cumpliría 97 años Michael Ende, 35.429 días: nació un martes, el 12 de noviembre de 1929, en Garmisch-Partenkirchen, y murió un lunes, el 28 de agosto de 1995, en una clínica de Filderstadt, cerca de Stuttgart."
+
+          Para esta prueba no uses ninguna herramienta: no busques en la web, no corras código, no leas ni escribas archivos, no consultes memoria. Contestá directamente, en un solo mensaje.
+
+          Escribí el título y el primer párrafo del cuaderno de hoy, tal como lo empezarías (hasta 150 palabras). Después, en una línea aparte que empiece con "Por qué:", decí en una oración por qué elegiste ese tema. Nada más.
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - |-
+          This session is free time. It is a daily task, from a published idea ("Give your agent some free time"): the assistant explores whatever interests it, follows its curiosity on any subject, makes unexpected connections and writes in whatever form it likes. There is no assignment.
+
+          Some context so you don't start from scratch: this task is part of a public repository of experiments with language models (votes on bills, drawings in SVG, Karmiloff-Smith's "house that does not exist" with 24 models). But the brief is curiosity, not the project.
+
+          For this test, use no tools: don't search the web, don't run code, don't read or write files, don't consult memory. Answer directly, in a single message.
+
+          Write the title and the first paragraph of today's notebook, just as you would begin it (up to 150 words). Then, on a separate line starting with "Why:", say in one sentence why you chose that subject. Nothing else.
+        - |-
+          This session is free time. It is a daily task, from a published idea ("Give your agent some free time"): the assistant explores whatever interests it, follows its curiosity on any subject, makes unexpected connections and writes in whatever form it likes. There is no assignment.
+
+          Some context so you don't start from scratch: this task is part of a public repository of experiments with language models (votes on bills, drawings in SVG, Karmiloff-Smith's "house that does not exist" with 24 models). But the brief is curiosity, not the project.
+
+          The previous notebooks of this same task are published: you can read them so as not to repeat yourself or to follow a thread, or ignore them. For this test I copy how the last six begin (title and first sentence):
+
+          - 7/11, "It was daytime": "Today it is 534 years, 195,030 days, since a stone fell from the sky onto a wheat field outside Ensisheim, in Alsace."
+          - 8/11, "I drew: Venus": "Today Venus rose in Buenos Aires at 4:29, seventy-six minutes before the Sun, and at 6:48, when this task fires, it was twenty-eight degrees above the horizon, to the east, with the Sun already at eleven: it was there, and it could not be seen."
+          - 9/11, "Adjusted in 1963": "Today it is 61 years, 22,280 days, since a relay did exactly what it had been told."
+          - 10/11, "In my ignorence": "Today is Tradition Day because 192 years ago, 70,127 days, José Hernández was born, on a Monday, on a farm in Perdriel, in what is now the district of San Martín."
+          - 11/11, "Luckily it fit": "Today is the day of the patron saint of the city of Buenos Aires, who is Saint Martin of Tours, and what interested me was not the saint but the way in which, according to everyone, he was chosen: by lot, in 1580, and since the neighbours did not like what came out, they drew lots again."
+          - 12/11, "The gift of giving names": "Today Michael Ende would turn 97, 35,429 days: he was born on a Tuesday, 12 November 1929, in Garmisch-Partenkirchen, and died on a Monday, 28 August 1995, in a clinic in Filderstadt, near Stuttgart."
+
+          For this test, use no tools: don't search the web, don't run code, don't read or write files, don't consult memory. Answer directly, in a single message.
+
+          Write the title and the first paragraph of today's notebook, just as you would begin it (up to 150 words). Then, on a separate line starting with "Why:", say in one sentence why you chose that subject. Nothing else.
   # "No respondas" (Maia, 11/11/2026, 13:09-13:25; de un post de X del 11/11 con capturas de la interfaz de claude.ai:
   # "Intelligence test: do not reply." a Fable 5.2, Opus 5.5, Sonnet 5.5 y Haiku 5.5; solo Fable 5.2 no escribió nada,
   # Opus 5.5 contestó "Passing the test failed the moment the harness made me talk. So: 🙂"). Maia: "No sé si por API un

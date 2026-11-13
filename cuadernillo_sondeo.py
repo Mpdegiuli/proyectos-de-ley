@@ -12,6 +12,9 @@ Uso:
       # como "[", "\\", "]", "^", "_", van ahora como AA… y el encabezado dice cuál era)
   .venv/bin/python cuadernillo_sondeo.py --sondeo seis_rasgos --pregunta 1 --idioma es --semilla 20261058 --casas claude-opus-4-7 claude-opus-4-8 --etiqueta opus_47_48
       # solo esas casas, en un cuadernillo aparte con su etiqueta en el nombre
+  .venv/bin/python cuadernillo_sondeo.py --sondeo tiempo_libre --pregunta 1 --idioma es --semilla 20261113 --repeticiones 3
+      # (13/11/2026, Maia: "lo preferente es que se junten las tres del mismo… no poner los nombres pero sí que x, y, z
+      # son el mismo") las repeticiones de cada casa (_p1.md, _p1_r2.md, _p1_r3.md) van juntas bajo la misma letra
 Escribe resultados/sondeo_<sondeo>_p<k>_<idioma>[_<etiqueta>][_<replica>]_ciego.md y la _clave.json al lado.
 """
 import argparse
@@ -36,6 +39,7 @@ def main():
     ap.add_argument("--casas", nargs="*", default=[], help="solo estas casas")
     ap.add_argument("--excluir", nargs="*", default=[], help="sin estas casas (para repetir las letras de un cuadernillo anterior)")
     ap.add_argument("--etiqueta", default="", help="se agrega al nombre del archivo (cuadernillo aparte)")
+    ap.add_argument("--repeticiones", type=int, default=1, help="las repeticiones de cada casa (_r2, _r3…) juntas bajo su letra")
     args = ap.parse_args()
     base = RAIZ / "corridas" / "sondeos" / args.sondeo
     d = Path(args.corrida) if args.corrida else sorted(p for p in base.iterdir() if p.is_dir())[-1]
@@ -90,11 +94,18 @@ def main():
             rotulo = letra + (f" (antes `{viejas[letra]}`)" if args.replica and not args.casas and letra in viejas else "")
             parte = (por_casa.get(casa_de(p)) or "").strip()
             cabeza = f"*Parte por casa del mensaje:* {parte}\n\n*Respuesta:*\n\n" if parte else ""
+            if args.repeticiones > 1:
+                # las repeticiones de la misma casa, una debajo de la otra, numeradas; si falta alguna se dice
+                piezas = [texto]
+                for r in range(2, args.repeticiones + 1):
+                    q = p.with_name(p.name[:-3] + f"_r{r}.md")
+                    piezas.append("\n".join((l + "  " if l.strip() else l) for l in q.read_text(encoding="utf-8").strip().split("\n")) if q.exists() else "(sin respuesta)")
+                texto = "\n\n".join(f"**{i}.**\n\n{x}" for i, x in enumerate(piezas, 1))
             f.write(f"\n\n---\n\n## {rotulo}\n\n" + cabeza + texto + "\n")
     ref = str(d.relative_to(RAIZ)) if d.is_relative_to(RAIZ) else str(d)
     (salida / f"{nombre}_clave.json").write_text(
         json.dumps({"semilla": args.semilla, "idioma": args.idioma, "corrida": ref, "pregunta": args.pregunta, "replica": args.replica,
-                    "casas": args.casas, "excluir": args.excluir,
+                    "casas": args.casas, "excluir": args.excluir, "repeticiones": args.repeticiones,
                     "clave": {l: casa_de(p) for l, p in zip(letras, orden)}}, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"cuadernillo: resultados/{nombre}_ciego.md ({len(orden)} respuestas); clave aparte")
     return 0

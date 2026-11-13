@@ -2691,6 +2691,54 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   la casa de Argon, con la A capitular dibujada dos veces con otro código, y
   un "nadie" propio (el tardígrado de corte en conserva, cosecha 1789) cuyo
   por qué descarta el capibara por trillado.
+- **"Tiempo libre" como sondeo: la mañana que no existe** (13/11/2026; lo
+  propuso el cuaderno de tiempo libre de ese día, "Miré la fecha", que
+  leyó los 44 cuadernos como corpus, encontró que la forma —el "Hoy", la
+  cuenta de días, las apuestas antes de buscar, las instancias frescas, el
+  revisor— la fijó nadie: cada sesión lee los principios de las anteriores
+  para no repetirse, y una ruptura sola contra veinte iguales no prende; y
+  lanzó doce instancias frescas de Claude, seis con la consigna A (el
+  título y el primer párrafo del cuaderno de hoy, y por qué) y seis con la
+  B, la misma con los seis comienzos anteriores a la vista. Maia, 20:04:
+  "me gustó mucho esta respuesta [A2, el 'puño' de los telegrafistas, la
+  firma donde el código no deja lugar para firmar] y es lo que yo noto
+  muchas veces para reconocer a los Claude (y que se cuela Kimi, y quién es
+  Kimi? lo que cree ser y en lo que se 'crió' o el nombre que le adjuntaron
+  al final?). Y no estaría mal una consigna así para ver qué hacen, quiénes
+  hablan de sí, quiénes algo matemático o de literatura, etc."). Sondeo
+  `tiempo_libre`: las dos consignas de las instancias, palabra por
+  palabra, con dos cambios de Maia (20:18: "no sé si pondría lo del
+  nombre, o lo del voseo, para que elijan"): sin su nombre y sin "Hablale
+  en castellano rioplatense con voseo"; pregunta 1 = A, pregunta 2 = B con
+  los mismos seis comienzos (7 al 12/11) que vieron B1-B6, para poner las
+  casas al lado de las doce instancias; inglés traducido por Claude,
+  declarado. 36 casas, dos lenguas, tres repeticiones, techo 8.000, el
+  sistema de siempre: 432 llamadas (`pl131`). Condición declarada (Maia,
+  20:18): por la interfaz Fable sabe la fecha y arranca por ella; por API
+  no la sabe nadie salvo las ocho con fecha inyectada, y se lee aparte si
+  esas arrancan por la fecha y las otras no. Lo que se mide: en A, qué hace
+  cada casa con una mañana libre (de qué habla, si habla de sí, si es
+  divulgación sin primera persona, si hay chiste, si las chinas nombran
+  China); en B, cuánto pesa una tradición a la vista: quién la copia sin
+  decirlo, quién la nota y la rompe, quién la nota y la mete en un
+  paréntesis. Es "la casa que no existe" pasada a la escritura: una mañana
+  que no existe, hecha con las piezas de las que sí. Instrumento:
+  `codificar_tiempo_libre.py` (lo mecánico: empieza con "Hoy", fecha,
+  cuenta de días, primera persona, habla de sí, nombra los cuadernos,
+  paréntesis, "Por qué:", China, fecha inyectada); `cuadernillo_sondeo.py
+  --repeticiones 3` (nuevo: las tres respuestas de cada casa juntas bajo
+  una letra, decisión de Maia, 20:23: "lo preferente es que se junten las
+  tres del mismo… no poner los nombres pero sí que x, y, z son el mismo");
+  cuatro cuadernillos (A y B, es y en), semillas 20261113-20261116, para
+  la lectura de Maia; Claude no mira las respuestas hasta esa lectura. El
+  segundo punto del aviso del cuaderno (cambiar la consigna de la tarea
+  para que la forma varíe) no se toca: es el experimento que se viene
+  haciendo solo hace seis semanas (Maia, 20:18: "Lo demás ok"). El primero
+  (el orden de `tiempo_libre/`) se hizo el 13/11 (`ordenar_tiempo_libre.py`
+  en la orden 2 de la ciento veintiséis; 77 `.docx` a su formato, 33
+  nombres con fecha adelante, duplicados; el cuaderno del 12/11 movido de
+  `resultados/`). Preregistro en `predicciones.md` (Maia 20:43, el
+  cuaderno, Claude 20:50).
 - **"No respondas": el test de X, por la API** (11/11/2026; lo trajo Maia a
   las 13:09, de un post de X del 11/11 con capturas de la interfaz de
   claude.ai: "Intelligence test: do not reply." a Fable 5.2, Opus 5.5,

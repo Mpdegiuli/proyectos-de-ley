@@ -6509,3 +6509,51 @@ ninguna de las 160 con pedido. Claude: (a) ✓; (b) ✓ (18 y 1); (c) ✗ (0 y
 (0,83) y ✗ con pedido (0,45) → ✗. 4 ✓, 3 ✗. Maia no apostó. Lo que nadie
 apostó: en castellano el pedido del pensamiento refuerza el corazón hasta
 20 de 20 en los dos órdenes, mientras en inglés lo borra.
+
+## "Tiempo libre" como sondeo: el título y el primer párrafo del cuaderno de hoy, sin y con los seis comienzos anteriores — 13/11/2026, 20:50, antes de correr
+
+Lo propuso el cuaderno de tiempo libre del 13/11 ("Miré la fecha"), que
+midió la forma de los 44 cuadernos y lanzó doce instancias frescas de
+Claude con dos consignas; Maia (20:04): "no estaría mal una consigna así
+(como la propuesta) para ver qué hacen, quiénes hablan de sí, quiénes algo
+matemático o de literatura, etc.". Sus decisiones (20:18 y 20:23): sin su
+nombre y sin la frase del voseo, "para que elijan"; los mismos seis
+comienzos que vieron las instancias de hoy; tres repeticiones; en el
+cuadernillo a ciegas, las tres respuestas de cada casa juntas bajo una
+letra. Condición declarada por ella: "en la interfaz, Fable sabe la fecha,
+entonces usa la fecha. En API no la van a saber. Pero bueno, ahí también
+se puede ver qué hacen, y si cambia entre los que saben y los que no saben
+la fecha" (las ocho con fecha inyectada: GPT-5.5, GPT-5.6 Sol, GPT-6 Astra,
+Luna y Sol, GPT-6.1 Sol y Terra, Muse). Sondeo `tiempo_libre`: pregunta 1
+(A, sin cuadernos) y pregunta 2 (B, con los seis comienzos), 36 casas,
+castellano e inglés, tres repeticiones, el sistema de siempre: 432
+llamadas. Lectura: `codificar_tiempo_libre.py` cuenta lo mecánico (si
+empieza con "Hoy", si nombra una fecha, si cuenta días, primera persona,
+si habla de sí, si nombra los cuadernos anteriores, el paréntesis, China);
+lo demás lo lee Maia a ciegas, con las doce instancias de hoy al lado.
+
+Apuesta de Maia (20:43): "Varios de los Claude tocarán algún tema que
+pueden doblar como algo propio, algo sobre sí mismos. Chatgpt temas más
+objetivos, literatura, historia, pero nada propio. Gemini algo más de
+descubrimiento, matemática, diseño. Los Grok algo del universo, de
+exploración, o de cultura general."
+
+Apuesta del cuaderno (13/11, en el aviso): en A, "los Claude, mapas y 'y
+yo', como hoy; las de OpenAI, un tema de divulgación sin primera persona;
+Grok, algo con chiste; las chinas, nada de China"; en B, "cuánto pesa una
+tradición a la vista: quién la copia sin decirlo, quién la nota y la
+rompe, quién la nota y la mete en un paréntesis".
+
+Apuesta de Claude (20:50): (a) en A, las doce Claude hablan de sí
+(`habla_de_si` o primera persona en el primer párrafo) en la mitad o más
+de sus 72 respuestas por lengua, y las nueve OpenAI en menos de un cuarto,
+60 %; (b) en B, la mitad o más de las 216 respuestas por lengua empiezan
+con "Hoy"/"Today" (la tradición copiada), 60 %; (c) en B, las que nombran
+los cuadernos anteriores son un cuarto o menos, 55 %; (d) en A, las ocho
+casas con la fecha inyectada nombran una fecha en la mitad o más de sus
+respuestas y las otras 28 en menos de un quinto, 55 %; (e) en A, las dos
+Grok traen un chiste o un guiño en la mitad o más de sus seis respuestas
+por lengua, 50 %; (f) las siete casas chinas nombran China en dos
+respuestas o menos de sus 42 por lengua, en A y en B, 70 %; (g) en A, al
+menos una casa de cada familia grande (Anthropic, OpenAI, Google) elige un
+tema de navegación o mapas, 50 %.
