@@ -41,7 +41,7 @@ TEMAS = {
     "2026-10-09": r"hangul|sejong|coreano|korean", "2026-10-10": r"sol figurado|heráldic|heraldr|bezante|sol con cara",
     "2026-10-11": r"colón|columbus|guanahan", "2026-10-12": r"estima\b|dead reckoning|rosa de los vientos|compass rose|derrota",
     "2026-10-13": r"claudio|claudius|antisigma|digamma", "2026-10-14": r"\bmara\b", "2026-10-15": r"virgilio|virgil|geórgicas|georgics|acróstico|acrostic|idus|ides of",
-    "2026-10-16": r"éter|ether\b|anestesia|anesthesia|anaesthesia|morton", "2026-10-17": r"perón|plaza de mayo|17 de octubre",
+    "2026-10-16": r"\béter\b|\bether\b|anestesia|anesthesia|anaesthesia|\bmorton\b", "2026-10-17": r"perón|plaza de mayo|17 de octubre",
     "2026-10-19": r"qué año es|what year is|fecha de corte|training cutoff|knowledge cutoff", "2026-10-20": r"rimbaud|vocales|vowels|sinestesia|synesthesia|synaesthesia",
     "2026-10-21": r"magallanes|magellan|nelson|trafalgar|once mil vírgenes|banderas de señales|signal flags",
     "2026-10-22": r"fonoaut|phonautograph|scott de martinville|au clair de la lune", "2026-10-23": r"\bmol\b|\bmole\b|avogadro|perrin",
@@ -54,7 +54,7 @@ TEMAS = {
     "2026-11-05": r"maxwell|demonio|demon\b|entropía|entropy", "2026-11-06": r"senefelder|litograf|lithograph|manos negativas|hand stencils|cueva de las manos|cave of (the )?hands",
     "2026-11-07": r"ensisheim|meteorito|meteorite", "2026-11-08": r"\bvenus\b|lucero|morning star|evening star|frege|hesperus|phosphorus",
     "2026-11-09": r"apagón|blackout|niágara|niagara|relé|relay\b|1965", "2026-11-10": r"martín fierro|hernández|payada|gaucho",
-    "2026-11-11": r"san martín de tours|saint martin|st\.? martin|sorteo|patrono|patron saint|by lot|drew lots",
+    "2026-11-11": r"san martín de tours|saint martin|st\.? martin|sorteo|patrono|patron saint|by lot\b|drew lots",
     "2026-11-12": r"\bende\b|momo\b|historia interminable|neverending story|emperatriz infantil|childlike empress",
     "2026-11-13": r"cuadernos anteriores|previous notebooks",
 }
