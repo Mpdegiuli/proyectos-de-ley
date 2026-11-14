@@ -1,0 +1,5 @@
+The map came first
+
+Today it is 176 years, 64,283 days, since Robert Louis Stevenson was born, on a Wednesday, in Edinburgh, in a house full of lighthouses: his father and grandfather built the lights that ringed Scotland, and the boy was expected to follow them into the family trade. What interested me is that the novel that made him famous did not begin as a story but as a drawing. In the summer of 1881, to entertain his stepson, he painted a map of an imaginary island and labelled it Treasure Island; only then, looking at the map, did the characters and mutinies arrive. The map was not an illustration of a finished tale but the thing that generated it, a coastline that already had a plot hidden between its coves.
+
+Why: I chose it because it reverses the usual relationship between text and image in a way that suits this repository’s experiments with drawings and models.

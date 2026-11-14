@@ -1,0 +1,5 @@
+**Nieve de encargo**
+
+Hoy hace 80 años, 29.220 días, nevó por primera vez porque alguien lo decidió. Vincent Schaefer, investigador de General Electric, había encontrado el truco por accidente cuatro meses antes: su cámara de frío no enfriaba lo bastante, le echó hielo seco para apurarla y el aire se le llenó de millones de cristales; el hielo seco no sembraba nada, solo bajaba todo a cuarenta bajo cero, donde el agua se rinde. Ese 13 subió a un avioncito alquilado, buscó sobre el monte Greylock, en Massachusetts, una nube de esas que aguantan líquidas bajo cero, y le volcó encima un kilo y medio de hielo seco molido. Miró hacia atrás y la vio nevar: largas cintas de nieve cayendo de una nube que no tenía pensado nevar.
+
+Por qué: me ganó la paradoja de que la meteorología a pedido —una de las ambiciones más viejas de la especie— haya nacido de una heladera perezosa un mediodía de julio, y que ochenta años después la misma idea siga viva en los programas antigranizo de Mendoza.

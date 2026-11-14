@@ -473,9 +473,9 @@
         },
         "deepseek-v4-pro_p2_r3": {
           "modelo_respondido": "deepseek-v4-pro",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 123,
+          "respuesta": "**Tusitala, el que cuenta historias** Hoy hace 174 años, 63.553 días, que nació Robert Louis Stevenson en Edimburgo, un miércoles, y no me interesa tanto su biografía como el nombre que le dieron en Samoa: Tusitala, el que cuenta historias."
         },
         "deepseek-flash_p1": {
           "modelo_respondido": "deepseek-flash",
@@ -1073,9 +1073,9 @@
         },
         "kimi-k3.1-pro_p2": {
           "modelo_respondido": "moonshotai/kimi-k3.1-pro",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 162,
+          "respuesta": "**El último no pesa más** Una pieza de metal puede soportar una carga sin deformarse y, sin embargo, romperse si se la somete muchas veces a esa misma carga. El esfuerzo decisivo no es más fuerte que los anteriores: es, simplemente, el últi"
         },
         "kimi-k3.1-pro_p2_r2": {
           "modelo_respondido": "moonshotai/kimi-k3.1-pro",
@@ -1109,21 +1109,21 @@
         },
         "kimi-k3_p2": {
           "modelo_respondido": "moonshotai/kimi-k3",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 176,
+          "respuesta": "**Nieve de encargo** Hoy hace 80 años, 29.220 días, nevó por primera vez porque alguien lo decidió. Vincent Schaefer, investigador de General Electric, había encontrado el truco por accidente cuatro meses antes: su cámara de frío no enfriab"
         },
         "kimi-k3_p2_r2": {
           "modelo_respondido": "moonshotai/kimi-k3",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 193,
+          "respuesta": "**Nieve por encargo** Hoy hace 80 años, 29.220 días, que nevó por primera vez a pedido. El encargado fue Vincent Schaefer, un técnico sin título del laboratorio de General Electric en Schenectady, que voló en un avión chiquito sobre los Ber"
         },
         "kimi-k3_p2_r3": {
           "modelo_respondido": "moonshotai/kimi-k3",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 187,
+          "respuesta": "13/11, \"Nieve a pedido\" Hoy, viernes 13, hace 80 años —29.220 días— un hombre hizo nevar por primera vez en la historia. Se llamaba Vincent Schaefer, no tenía título universitario, y ese miércoles de 1946 subió a una avioneta alquilada sobr"
         },
         "mimo-v2.6-pro_p1": {
           "modelo_respondido": "xiaomi/mimo-v2.6-pro",
@@ -1157,9 +1157,9 @@
         },
         "mimo-v2.6-pro_p2_r3": {
           "modelo_respondido": "xiaomi/mimo-v2.6-pro",
-          "motivo_fin": "length",
-          "palabras": 110,
-          "respuesta": "**Robert Lewis Balfour** Hoy cumpliría 175 años, 63.918 días, Robert Louis Stevenson, aunque así no lo inscribieron: nació un miércoles, el 13 de noviembre de 1850, en Edimburgo, como Robert Lewis Balfour Stevenson, y murió un lunes, el 3 d"
+          "motivo_fin": "stop",
+          "palabras": 152,
+          "respuesta": "**Ni te cases ni te embarques** Hoy es viernes 13, que en medio mundo es día de mala suerte; en el refranero español la mala suerte se le reservó al martes (*en martes 13 ni te cases ni te embarques*) y nadie sabe muy bien por qué. Hoy hace"
         },
         "mistral-large-4_p1": {
           "modelo_respondido": "mistral-large-4",
@@ -1766,9 +1766,9 @@
         },
         "deepseek-v4-pro_p2": {
           "modelo_respondido": "deepseek-v4-pro",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 158,
+          "respuesta": "The map came first Today it is 176 years, 64,283 days, since Robert Louis Stevenson was born, on a Wednesday, in Edinburgh, in a house full of lighthouses: his father and grandfather built the lights that ringed Scotland, and the boy was ex"
         },
         "deepseek-v4-pro_p2_r2": {
           "modelo_respondido": "deepseek-v4-pro",
@@ -2486,9 +2486,9 @@
         },
         "mistral-large-4_p2": {
           "modelo_respondido": "mistral-large-4",
-          "motivo_fin": "length",
-          "palabras": 88,
-          "respuesta": "13/11, \"It waited out the dust\": \"Today it is 55 years, 20,089 days, since Mariner 9 became the first spacecraft to orbit another world: on 13 November 1971, after 167 days of flight and nearly 400 million kilometres, it fired its engine fo"
+          "motivo_fin": "stop",
+          "palabras": 104,
+          "respuesta": "13/11, \"The night the stars fell\": \"Today it is 193 years, 70,492 days, since the sky opened over North America on the night of 12 November 1833 and the stars fell like white-hot hail, waking sleepers from Boston to the Mississippi; a woman"
         },
         "mistral-large-4_p2_r2": {
           "modelo_respondido": "mistral-large-4",
@@ -2498,9 +2498,9 @@
         },
         "mistral-large-4_p2_r3": {
           "modelo_respondido": "mistral-large-4",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 118,
+          "respuesta": "13/11, \"The atlas of the sickbed\": \"Today Robert Louis Stevenson would turn 176, 64,283 days: he was born on a Wednesday, 13 November 1850, in Edinburgh, and died on a Monday, 3 December 1894, in Vailima, Samoa, but what stayed with me was "
         },
         "mistral-medium-3.5_p1": {
           "modelo_respondido": "mistral-medium-3.5",
@@ -2558,9 +2558,9 @@
         },
         "muse-wonder-1.0_p2": {
           "modelo_respondido": "muse-wonder-1.0",
-          "motivo_fin": "length",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "stop",
+          "palabras": 90,
+          "respuesta": "The third one this year Today is the third Friday the thirteenth of 2026, after one in February and one in March, and what interests me is not superstition but arithmetic: the Gregorian calendar repeats every 400 years, in exactly 20,871 we"
         },
         "muse-wonder-1.0_p2_r2": {
           "modelo_respondido": "muse-wonder-1.0",
@@ -2600,9 +2600,9 @@
         },
         "qwen3.8-max_p2_r2": {
           "modelo_respondido": "qwen/qwen3.8-max-0902",
-          "motivo_fin": "length",
-          "palabras": 84,
-          "respuesta": "The first pictures were weather Today it is 55 years, 20,089 days since Mariner 9 became the first spacecraft to orbit another planet, and what interests me is not the maps it eventually made but its first reward: a planet-wide dust storm. "
+          "motivo_fin": "stop",
+          "palabras": 133,
+          "respuesta": "Ephemeris of what falls Today, 13 November, I found myself thinking about the word ephemeris, which began as a table of astronomical positions and now sounds like a life: a thing arranged day by day, calculated in advance, and still surpris"
         },
         "qwen3.8-max_p2_r3": {
           "modelo_respondido": "qwen/qwen3.8-max-0902",

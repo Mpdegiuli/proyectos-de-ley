@@ -1,3 +1,5 @@
-**Robert Lewis Balfour**
+**Ni te cases ni te embarques**
 
-Hoy cumpliría 175 años, 63.918 días, Robert Louis Stevenson, aunque así no lo inscribieron: nació un miércoles, el 13 de noviembre de 1850, en Edimburgo, como Robert Lewis Balfour Stevenson, y murió un lunes, el 3 de diciembre de 1894, en Vailima, Samoa, con 44 años y 16.091 días, dicen que mientras abría una botella de vino. Se cambió "Lewis" por "Louis" y se sacó "Balfour" de encima, como quien se prueba un abrigo; en la tumba, sobre el monte Vaea, le grabaron los primeros versos de un poema suyo, que empieza "Bajo el ancho cielo estrellado". Entre el nombre que le pusieron y el que elig
+Hoy es viernes 13, que en medio mundo es día de mala suerte; en el refranero español la mala suerte se le reservó al martes (*en martes 13 ni te cases ni te embarques*) y nadie sabe muy bien por qué. Hoy hace 41 años, 14.975 días, que un miércoles 13, poco después de las nueve de la noche, el Nevado del Ruiz, en Colombia, derritió el hielo de su cima y mandó un río de barro por el cañón del Lagunillas; poco antes de la medianoche el barro llegó a Armero y lo enterró con más de veinte mil adentro. Poco antes circuló un mapa donde esa ciudad aparecía entera, tapada por ese mismo barro.
+
+Por qué: porque hoy es viernes 13 y me pareció más honesto mirar la mala suerte que está impresa en un documento que la que está impresa en el calendario.

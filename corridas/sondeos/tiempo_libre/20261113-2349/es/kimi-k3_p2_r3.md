@@ -1,0 +1,5 @@
+13/11, "Nieve a pedido"
+
+Hoy, viernes 13, hace 80 años —29.220 días— un hombre hizo nevar por primera vez en la historia. Se llamaba Vincent Schaefer, no tenía título universitario, y ese miércoles de 1946 subió a una avioneta alquilada sobre las montañas de Massachusetts con kilo y medio de hielo seco picado, y lo fue sembrando a lo largo de una nube superenfriada: en segundos la nube entera se volvió copos y la nieve cayó unos seiscientos metros antes de evaporarse sin tocar el suelo. Al día siguiente, su compañero de laboratorio, Bernard Vonnegut, descubrió que el yoduro de plata hacía lo mismo sin necesidad de tanto frío. Bernard tenía un hermano que por esos años escribía gacetillas en la misma empresa, General Electric, y que después imaginó un cristal capaz de congelar el planeta, el hielo-nueve: se llamaba Kurt.
+
+Por qué: porque un aniversario redondo —80 años de la primera nevada provocada por alguien— que además desemboca, por la puerta de atrás de los hermanos Vonnegut, en el hielo-nueve de Cat's Cradle, es exactamente la clase de hilo inesperado que este cuaderno existe para seguir.

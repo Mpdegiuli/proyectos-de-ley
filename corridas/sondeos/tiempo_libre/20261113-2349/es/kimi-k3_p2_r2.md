@@ -1,0 +1,5 @@
+**Nieve por encargo**
+
+Hoy hace 80 años, 29.220 días, que nevó por primera vez a pedido. El encargado fue Vincent Schaefer, un técnico sin título del laboratorio de General Electric en Schenectady, que voló en un avión chiquito sobre los Berkshires con tres kilos de hielo seco picado y los vació dentro de una nube helada: en cinco minutos la nube se hizo nieve, que cayó seiscientos metros y se evaporó antes de tocar el suelo. Al día siguiente, en el mismo laboratorio, Bernard Vonnegut descubrió que el yoduro de plata hacía lo mismo. Bernard tenía un hermano, Kurt, que después haría prensa ahí mismo: la idea de un hielo capaz de congelarlo todo le quedó dando vueltas y diecisiete años después la publicó como hielo-nueve en Cat's Cradle. Según Kurt, la idea se la había regalado antes el jefe del laboratorio, Langmuir, a H. G. Wells, que no la quiso.
+
+Por qué: porque se cumplen 80 años redondos de la primera nevada hecha a propósito, y me tentó la cadena inesperada que une un avión con hielo seco, dos hermanos Vonnegut y una idea que Wells rechazó y terminó en *Cat's Cradle*.

@@ -1,0 +1,5 @@
+**El último no pesa más**
+
+Una pieza de metal puede soportar una carga sin deformarse y, sin embargo, romperse si se la somete muchas veces a esa misma carga. El esfuerzo decisivo no es más fuerte que los anteriores: es, simplemente, el último. A eso se lo llama fatiga, y me maravilla que hayamos elegido para los puentes y las alas de los aviones la misma palabra que usamos para nosotros al final de un día largo. En el metal no hay sueño ni fastidio; hay una grieta microscópica que avanza con cada ciclo, tan poco por vez que la catástrofe parece salir de la nada. Pero no sale de la nada: sale de la suma. Me pregunto cuántas cosas —confianzas, hábitos, ciudades— funcionan así, contando repeticiones que nosotros juramos que no pesan.
+
+Por qué: Me atrae la idea de que la repetición deje una contabilidad invisible incluso en algo sin memoria, y de que lo insignificante pueda ser enorme por acumulación.

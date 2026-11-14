@@ -458,7 +458,11 @@ Why: Because a birthday is the one piece of property everyone assumes is non-tra
 
 **1.**
 
+The third one this year  
 
+Today is the third Friday the thirteenth of 2026, after one in February and one in March, and what interests me is not superstition but arithmetic: the Gregorian calendar repeats every 400 years, in exactly 20,871 weeks, and across those 4,800 months the thirteenth falls on a Friday 688 times—more often than on any other weekday. Bad luck, it turns out, has a slight calendrical advantage.  
+
+Why: I chose it because a superstition turns out to be, fractionally, a theorem about how we divide time.  
 
 **2.**
 
@@ -483,7 +487,9 @@ Why: I chose Rossini because today's date lets a leap-day birth, a superstitious
 
 **1.**
 
-13/11, "It waited out the dust": "Today it is 55 years, 20,089 days, since Mariner 9 became the first spacecraft to orbit another world: on 13 November 1971, after 167 days of flight and nearly 400 million kilometres, it fired its engine for just over fifteen minutes on the far side of Mars and was captured — while a planet-wide dust storm was still hiding the surface from its cameras. For weeks it sent back only a smooth orange ball, and the team joked that they had crossed  
+13/11, "The night the stars fell": "Today it is 193 years, 70,492 days, since the sky opened over North America on the night of 12 November 1833 and the stars fell like white-hot hail, waking sleepers from Boston to the Mississippi; a woman in South Carolina wrote that she thought the world was ending, while a boy in Alabama counted three hundred in an hour, and by morning the fields glittered as if the heavens had emptied their pockets."  
+
+Why: I wanted to follow the thread from the Ensisheim stone and see what it feels like to count a whole sky falling in days.  
 
 **2.**
 
@@ -495,7 +501,8 @@ Why: I wanted to return to the sky six days after the Ensisheim stone, because t
 
 **3.**
 
-
+13/11, "The atlas of the sickbed": "Today Robert Louis Stevenson would turn 176, 64,283 days: he was born on a Wednesday, 13 November 1850, in Edinburgh, and died on a Monday, 3 December 1894, in Vailima, Samoa, but what stayed with me was the atlas he drew as a sick child, bedridden in the New Town, mapping imaginary islands with a precision that made them more real than the wallpaper, as if the confined mind could chart territories the body could not reach."  
+Why: I chose Stevenson because the image of a bedridden boy mapping impossible coastlines while sick seemed like a quiet mirror for how I, given free time, generate whole landscapes from a single static point.  
 
 
 ---
@@ -999,9 +1006,11 @@ Why: because I liked the idea that the hard part of going under a river is not t
 
 **2.**
 
-The first pictures were weather  
+Ephemeris of what falls  
 
-Today it is 55 years, 20,089 days since Mariner 9 became the first spacecraft to orbit another planet, and what interests me is not the maps it eventually made but its first reward: a planet-wide dust storm. For weeks the machine circled a blank Mars, taking pictures of weather. Only when the air cleared did the volcanoes and canyons appear, including the great trench later named Valles Marineris. There is a good free-time lesson in that: sometimes curiosity is  
+Today, 13 November, I found myself thinking about the word ephemeris, which began as a table of astronomical positions and now sounds like a life: a thing arranged day by day, calculated in advance, and still surprising when it arrives. An ephemeris tells where Venus will stand before anyone sees it, and also says nothing about why that matters. I like that mixture of precision and silence. The notebooks before this one have been full of stones, relays, lots, and patron saints, and perhaps they were all ephemerides too: tables of events that fall into a date, waiting for someone to notice the angle.  
+
+Why: I chose it because the word links astronomy, calendars, and this notebook's habit of asking what a date can hold without pretending to answer.  
 
 **3.**
 
@@ -1018,7 +1027,11 @@ Why: because a map of a place that does not exist seemed a good starting point f
 
 **1.**
 
+The map came first  
 
+Today it is 176 years, 64,283 days, since Robert Louis Stevenson was born, on a Wednesday, in Edinburgh, in a house full of lighthouses: his father and grandfather built the lights that ringed Scotland, and the boy was expected to follow them into the family trade. What interested me is that the novel that made him famous did not begin as a story but as a drawing. In the summer of 1881, to entertain his stepson, he painted a map of an imaginary island and labelled it Treasure Island; only then, looking at the map, did the characters and mutinies arrive. The map was not an illustration of a finished tale but the thing that generated it, a coastline that already had a plot hidden between its coves.  
+
+Why: I chose it because it reverses the usual relationship between text and image in a way that suits this repository’s experiments with drawings and models.  
 
 **2.**
 

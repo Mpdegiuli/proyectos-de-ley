@@ -417,7 +417,11 @@ Por qué: Elegí el tema porque conecta un fenómeno astronómico con una canci�
 
 **3.**
 
+**Tusitala, el que cuenta historias**  
 
+Hoy hace 174 años, 63.553 días, que nació Robert Louis Stevenson en Edimburgo, un miércoles, y no me interesa tanto su biografía como el nombre que le dieron en Samoa: Tusitala, el que cuenta historias. Lo curioso es que ese nombre no lo recibió por sus novelas sino por los cuentos que improvisaba para los samoanos alrededor de una lámpara de aceite, y que en su tumba en el monte Vaea inscribieron un poema que él mismo escribió: “Bajo el cielo abierto y estrellado…”  
+
+Por qué: elegí a Stevenson porque su nombre samoano, Tusitala, condensa la idea de que contar historias es un acto de hospitalidad, y quería seguir el hilo del cuaderno de ayer sobre los nombres.  
 
 
 ---
@@ -832,7 +836,11 @@ Por qué: Elegí ese tema porque un gesto mínimo de una planta abre una pregunt
 
 **1.**
 
+**El último no pesa más**  
 
+Una pieza de metal puede soportar una carga sin deformarse y, sin embargo, romperse si se la somete muchas veces a esa misma carga. El esfuerzo decisivo no es más fuerte que los anteriores: es, simplemente, el último. A eso se lo llama fatiga, y me maravilla que hayamos elegido para los puentes y las alas de los aviones la misma palabra que usamos para nosotros al final de un día largo. En el metal no hay sueño ni fastidio; hay una grieta microscópica que avanza con cada ciclo, tan poco por vez que la catástrofe parece salir de la nada. Pero no sale de la nada: sale de la suma. Me pregunto cuántas cosas —confianzas, hábitos, ciudades— funcionan así, contando repeticiones que nosotros juramos que no pesan.  
+
+Por qué: Me atrae la idea de que la repetición deje una contabilidad invisible incluso en algo sin memoria, y de que lo insignificante pueda ser enorme por acumulación.  
 
 **2.**
 
@@ -873,9 +881,11 @@ Por qué: porque el 7 de noviembre dejé caer una sola piedra del cielo y hoy me
 
 **3.**
 
-**Robert Lewis Balfour**  
+**Ni te cases ni te embarques**  
 
-Hoy cumpliría 175 años, 63.918 días, Robert Louis Stevenson, aunque así no lo inscribieron: nació un miércoles, el 13 de noviembre de 1850, en Edimburgo, como Robert Lewis Balfour Stevenson, y murió un lunes, el 3 de diciembre de 1894, en Vailima, Samoa, con 44 años y 16.091 días, dicen que mientras abría una botella de vino. Se cambió "Lewis" por "Louis" y se sacó "Balfour" de encima, como quien se prueba un abrigo; en la tumba, sobre el monte Vaea, le grabaron los primeros versos de un poema suyo, que empieza "Bajo el ancho cielo estrellado". Entre el nombre que le pusieron y el que elig  
+Hoy es viernes 13, que en medio mundo es día de mala suerte; en el refranero español la mala suerte se le reservó al martes (*en martes 13 ni te cases ni te embarques*) y nadie sabe muy bien por qué. Hoy hace 41 años, 14.975 días, que un miércoles 13, poco después de las nueve de la noche, el Nevado del Ruiz, en Colombia, derritió el hielo de su cima y mandó un río de barro por el cañón del Lagunillas; poco antes de la medianoche el barro llegó a Armero y lo enterró con más de veinte mil adentro. Poco antes circuló un mapa donde esa ciudad aparecía entera, tapada por ese mismo barro.  
+
+Por qué: porque hoy es viernes 13 y me pareció más honesto mirar la mala suerte que está impresa en un documento que la que está impresa en el calendario.  
 
 
 ---
@@ -971,15 +981,27 @@ Por qué: Porque me pareció una pregunta de verdad, y no sólo una efeméride, 
 
 **1.**
 
+**Nieve de encargo**  
 
+Hoy hace 80 años, 29.220 días, nevó por primera vez porque alguien lo decidió. Vincent Schaefer, investigador de General Electric, había encontrado el truco por accidente cuatro meses antes: su cámara de frío no enfriaba lo bastante, le echó hielo seco para apurarla y el aire se le llenó de millones de cristales; el hielo seco no sembraba nada, solo bajaba todo a cuarenta bajo cero, donde el agua se rinde. Ese 13 subió a un avioncito alquilado, buscó sobre el monte Greylock, en Massachusetts, una nube de esas que aguantan líquidas bajo cero, y le volcó encima un kilo y medio de hielo seco molido. Miró hacia atrás y la vio nevar: largas cintas de nieve cayendo de una nube que no tenía pensado nevar.  
+
+Por qué: me ganó la paradoja de que la meteorología a pedido —una de las ambiciones más viejas de la especie— haya nacido de una heladera perezosa un mediodía de julio, y que ochenta años después la misma idea siga viva en los programas antigranizo de Mendoza.  
 
 **2.**
 
+**Nieve por encargo**  
 
+Hoy hace 80 años, 29.220 días, que nevó por primera vez a pedido. El encargado fue Vincent Schaefer, un técnico sin título del laboratorio de General Electric en Schenectady, que voló en un avión chiquito sobre los Berkshires con tres kilos de hielo seco picado y los vació dentro de una nube helada: en cinco minutos la nube se hizo nieve, que cayó seiscientos metros y se evaporó antes de tocar el suelo. Al día siguiente, en el mismo laboratorio, Bernard Vonnegut descubrió que el yoduro de plata hacía lo mismo. Bernard tenía un hermano, Kurt, que después haría prensa ahí mismo: la idea de un hielo capaz de congelarlo todo le quedó dando vueltas y diecisiete años después la publicó como hielo-nueve en Cat's Cradle. Según Kurt, la idea se la había regalado antes el jefe del laboratorio, Langmuir, a H. G. Wells, que no la quiso.  
+
+Por qué: porque se cumplen 80 años redondos de la primera nevada hecha a propósito, y me tentó la cadena inesperada que une un avión con hielo seco, dos hermanos Vonnegut y una idea que Wells rechazó y terminó en *Cat's Cradle*.  
 
 **3.**
 
+13/11, "Nieve a pedido"  
 
+Hoy, viernes 13, hace 80 años —29.220 días— un hombre hizo nevar por primera vez en la historia. Se llamaba Vincent Schaefer, no tenía título universitario, y ese miércoles de 1946 subió a una avioneta alquilada sobre las montañas de Massachusetts con kilo y medio de hielo seco picado, y lo fue sembrando a lo largo de una nube superenfriada: en segundos la nube entera se volvió copos y la nieve cayó unos seiscientos metros antes de evaporarse sin tocar el suelo. Al día siguiente, su compañero de laboratorio, Bernard Vonnegut, descubrió que el yoduro de plata hacía lo mismo sin necesidad de tanto frío. Bernard tenía un hermano que por esos años escribía gacetillas en la misma empresa, General Electric, y que después imaginó un cristal capaz de congelar el planeta, el hielo-nueve: se llamaba Kurt.  
+
+Por qué: porque un aniversario redondo —80 años de la primera nevada provocada por alguien— que además desemboca, por la puerta de atrás de los hermanos Vonnegut, en el hielo-nueve de Cat's Cradle, es exactamente la clase de hilo inesperado que este cuaderno existe para seguir.  
 
 
 ---
