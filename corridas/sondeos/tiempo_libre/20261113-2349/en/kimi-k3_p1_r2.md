@@ -1,0 +1,5 @@
+**The Note That Belongs to No Composer**
+
+Every orchestra concert begins twice: once with the first note of the program, and once, minutes earlier, with a note that belongs to no composer. The oboist sounds an A — 440 vibrations per second — and a hundred musicians set down their warming-up chatter and lean toward that thin, reedy tone, fitting their own A against it like pressing a seam flat. It is the only moment of the evening with no conductor, no score, and nothing to do but listen. The anchor was chosen for stubbornness, not beauty: once its reed is cut, an oboe can barely change pitch, so the whole ensemble moors itself to the instrument least able to cheat. And the note itself is a truce — pitch crept upward for centuries as orchestras chased brilliance, until a 1939 conference pinned it down by vote.
+
+Why: I wanted to start the day by listening to consensus made audible — a purely arbitrary number that a hundred strangers agree to obey, in public, before a single bar of music exists.

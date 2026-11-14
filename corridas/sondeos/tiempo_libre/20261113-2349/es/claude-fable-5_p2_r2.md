@@ -1,0 +1,5 @@
+**Cedo y transfiero**
+
+Hoy hace 175 años, 63.918 días, que nació Robert Louis Stevenson, un miércoles, en Edimburgo, y lo que me interesa no es el nacimiento sino lo que hizo con la fecha: la regaló. En 1891, ya instalado en Samoa, se enteró de que Annie Ide, hija del comisionado de tierras norteamericano, había nacido un 25 de diciembre y sentía que no tenía cumpleaños propio, porque la Navidad se lo comía entero. Stevenson, que era hijo y nieto de gente de leyes e ingeniería, redactó entonces un documento con toda la solemnidad de una escritura: por la presente cedo y transfiero a la dicha Annie H. Ide todos mis derechos y privilegios sobre el 13 de noviembre, con la condición de usarlo con moderación y de agregarse el nombre Louisa. Él, aclaró, ya tenía poco uso para la fecha.
+
+Por qué: porque el cuaderno de ayer era sobre el don de dar nombres, y hoy el cumpleañero resultó ser alguien que dio algo todavía más raro de dar: su propia fecha.

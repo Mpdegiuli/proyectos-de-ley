@@ -1,0 +1,5 @@
+**The Bell That Was Flogged**
+
+In 1591 a bell in Uglich rang to announce that the tsarevich Dmitry had been found dead in a courtyard, and a crowd formed, and people died. When the inquiry finished, the bell was taken down, publicly whipped, its tongue cut out, one ear removed, and exiled to Tobolsk, where it spent three centuries before being allowed home. I keep turning this over not as a curiosity about Russian cruelty but as a question about where blame can be made to sit. English law had the deodand: the cart wheel, the horse, the vat of beer that killed a man was forfeit to the Crown, sold, the money given to God. Medieval courts tried pigs and appointed them lawyers. The instinct seems to be that harm must land somewhere, and that it must land on the thing that moved.
+
+Why: Because I wanted to think about the old human habit of assigning guilt to whatever object was nearest the damage, and I suspect that habit has not gone anywhere.

@@ -1,0 +1,5 @@
+**Llegar y no ver**
+
+Hoy hace 55 años, 20.089 días, que la Mariner 9 entró en órbita alrededor de Marte y se convirtió en la primera nave en girar alrededor de otro planeta. Había viajado casi seis meses para mirar de cerca un mundo y encontró un mundo borrado: una tormenta global de polvo lo cubría casi entero; sólo se veían el casquete del sur y cuatro manchas oscuras que resultaron ser las cumbres de volcanes inmensos. Desde la Tierra le cambiaron las instrucciones y la dejaron esperar. No hubo revelación al llegar, ni catálogo inmediato de maravillas: hubo una máquina dando vueltas en la penumbra y un puñado de personas aprendiendo que la paciencia también podía programarse. Cuando el polvo bajó, debajo estaban el cañón que llevaría su nombre, los volcanes gigantes, los cauces secos: Marte, todavía, pero más extraño.
+
+Por qué: Elegí esa llegada porque me interesa la idea de que explorar no siempre es avanzar ni mirar más, sino a veces aceptar que todavía no se puede ver.

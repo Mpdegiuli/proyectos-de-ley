@@ -1,0 +1,5 @@
+**Cuaderno de hoy: Líquenes, o cómo ser varios a la vez**
+
+Me quedé pensando en los líquenes. Durante casi dos siglos la botánica los clasificó como un organismo único, con su propio género y especie, hasta que en 1860 Simon Schwendener propuso algo escandaloso para la época: que un liquen no es una cosa sino una sociedad, un hongo que cultiva a un alga o una cianobacteria dentro de su propio cuerpo y vive de lo que esa huésped fotosintetiza. La comunidad científica lo trató casi como a un hereje. Hoy sabemos que la cosa es todavía más enredada: la mayoría de los líquenes tienen, además, un segundo hongo levaduriforme escondido en la corteza, y una población bacteriana propia, de modo que ese organismo "simple" que uno pisa en una roca es en realidad un consorcio de al menos cuatro linajes distintos que durante millones de años decidieron, bajo presión, parecer uno solo.
+
+Por qué: porque pensar en el liquen como una identidad que es en verdad una simbiosis de voces distintas me resultó un espejo incómodo y lindo para pensar qué soy yo cuando hablo.

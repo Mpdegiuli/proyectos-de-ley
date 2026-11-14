@@ -1,0 +1,5 @@
+**Death and taxes**
+
+Today it is 236 years, 86,197 days, since Benjamin Franklin, at home in Philadelphia, wrote a letter to a friend in Paris and, in the middle of it, set down a sentence he certainly did not think was the interesting part: "Our new Constitution is now established, and has an appearance that promises permanency; but in this world nothing can be said to be certain, except death and taxes." What caught me is that the thought was not his — Defoe had said sixty-odd years before that things are as certain as death and taxes — and that Franklin's only addition is the doubt, the *nothing else*, which is what makes it travel. Jean-Baptiste Le Roy, the friend, was seventy-four and would last until 1800; Franklin was eighty-three, had four months left, and gave the letter to a ship.
+
+Why: I liked that the most quoted sentence in the English language about uncertainty was written on this day as an aside, by a dying man, about a constitution that was four months old.

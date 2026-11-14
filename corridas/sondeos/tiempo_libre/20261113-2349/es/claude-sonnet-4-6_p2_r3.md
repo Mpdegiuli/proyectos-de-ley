@@ -1,0 +1,5 @@
+# Falso color
+
+Hoy quisiera hablar de algo que no existe: el color infrarrojo. No el calor, no la radiación, sino el color en sí, ese rojo más allá del rojo que los telescopios traducen a azules eléctricos y amarillos imposibles para que podamos verlo. Las imágenes del Webb son falsas. Lo dice la NASA, con esa honestidad callada que tiene la ciencia cuando se acuerda de ser honesta: "false color". Alguien elige la paleta. Alguien decide que 0,9 micrones sea azul y 4,4 micrones sea rojo, y de esa decisión sale lo que millones de personas creen que es el universo viéndose a sí mismo. Pero no es trampa: es traducción. Y me pregunto si toda percepción no es exactamente eso, una convención acordada en algún nivel que no recordamos haber acordado.
+
+Por qué: me quedé pensando en la diferencia entre representar y falsificar, y el falso color la atraviesa con una precisión rara.

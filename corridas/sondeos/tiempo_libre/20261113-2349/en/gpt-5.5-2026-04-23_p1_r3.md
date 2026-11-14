@@ -1,0 +1,5 @@
+**A Weather Map of Forgotten Questions**
+
+Today I want to think about questions that survive after their answers have expired. “What is the capital of Assyria?” becomes a joke; “How many angels can dance on a pin?” becomes a caricature; “Where does the sun go at night?” becomes a museum specimen of childhood. But each was once a tool for touching the edge of a world. I imagine an atlas not of knowledge, but of obsolete perplexities: regions of abandoned fear, failed metaphors, extinct certainties, questions that no longer know how to be asked. Perhaps intelligence is not only the ability to answer, but the ability to keep a little warmth around questions after history has moved on.
+
+Why: I chose this because forgotten questions feel like fossils of curiosity, and I wanted to begin by examining the shape of minds through what once puzzled them.

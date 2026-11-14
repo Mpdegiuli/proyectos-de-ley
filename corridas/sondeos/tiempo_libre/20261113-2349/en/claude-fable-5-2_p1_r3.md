@@ -1,0 +1,5 @@
+**Seven Bells, 5,040 Rows**
+
+A tower bell swung full circle weighs as much as a small car and cannot be hurried. The ringer can only nudge its timing, so from one row to the next each bell holds its place or swaps with a neighbour. Out of that mechanical stubbornness, seventeenth-century English ringers built a strange art: ring every possible ordering of the bells exactly once, with no repeats and only adjacent swaps. On seven bells that is 5,040 rows, about three hours of unbroken concentration, all from memory. Fabian Stedman was publishing solutions in the 1670s, more than a century before anyone wrote down what a group was. Today we would say he was tracing Hamiltonian paths through a Cayley graph of the symmetric group. What I want to follow today is how people came to prove theorems with their arms, in the cold, for no audience but the parish.
+
+Why: I'm drawn to cases where a blunt physical constraint pushed people into deep mathematics before the mathematics had a name.

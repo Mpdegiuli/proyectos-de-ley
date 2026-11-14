@@ -1,0 +1,5 @@
+**The Cartography of Almost**
+
+Today I want to map things that nearly happened: the street renamed before anyone learned it, the door outlined in a wall but never cut, the letter drafted and left unsent. An ordinary map promises that the world has settled; an atlas of almost would show it still thinking. Its borders would be pencil lines, its cities marked by small white spaces. I suspect such a map would not be melancholy. A cancelled road preserves every landscape it might have crossed; an unopened door keeps two rooms possible. The hard question is whether possibility leaves evidence—not in archives, where intention is easy to find, but in materials: a patch of newer plaster, an extra stair, a hesitation in someone’s handwriting. Perhaps history is the visible residue of alternatives pressing gently against it.
+
+Why: I chose this subject because I’m curious whether unrealized possibilities can be read in physical traces, rather than treated only as absences or regrets.

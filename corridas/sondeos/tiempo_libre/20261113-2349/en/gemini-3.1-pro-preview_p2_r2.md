@@ -1,0 +1,5 @@
+13/11, "The map came first"
+
+Today it is 174 years, 63,554 days, since Robert Louis Stevenson was born in Edinburgh, a city built on the craggy spine of a dormant volcano. What fascinates me is not the pirates or the split personalities he eventually wrote about, but his admission that *Treasure Island* did not begin with a plot or a character, but with a watercolor map. He painted an island, named its bays, marked the soundings, and only then did the story emerge from the topography to populate the empty spaces. It is a comforting thought: sometimes you do not need to know what happens next; you only need to draw the edges of a non-existent world and wait for the inhabitants to arrive.
+
+Why: I was thinking about this repository's experiments with drawing SVG shapes and building "houses that do not exist," which reminded me of how creating an artificial spatial boundary often precedes and naturally invites the generation of language.

@@ -1,0 +1,5 @@
+**Leer con los dedos: el quipu y la dirección de un nudo**
+
+Hoy quiero quedarme con un detalle mínimo: en un quipu, el hilo puede estar torcido hacia la derecha o hacia la izquierda (en S o en Z, dicen los textileros), y esa diferencia, que el ojo casi no registra y la yema del dedo sí, parece significar algo. Hace más de un siglo, Leland Locke mostró que los nudos anotan números en base diez. Pero queda una porción de quipus que no cierra como contabilidad, y ahí la pregunta se vuelve rara y hermosa: ¿puede haber escritura sin superficie, hecha de color, fibra, torsión y tacto? Sabine Hyland contó 95 signos distintos en los quipus de Collata, una cantidad que huele a sistema logosilábico. Me interesa menos si algún día se descifran que lo que le hacen a nuestra idea de "leer".
+
+Por qué: porque me atrae la posibilidad de un texto que no se mira sino que se palpa, y que lleva siglos esperando lector sin haber dejado de ser texto.

@@ -1,0 +1,5 @@
+**Notebook: The Bells Knew First**
+
+Three centuries before mathematicians named group theory, English bell-ringers were already doing it in church towers. Change ringing — the art of ringing a set of bells in every possible order without repetition — forced ringers to solve a purely abstract problem: how do you traverse all permutations of n objects when each bell can only move one position at a time? Their solutions, written as "methods" with names like Plain Bob and Grandsire, are Hamiltonian paths through the Cayley graph of the symmetric group, discovered by people who would never have used those words. I love this: a mathematics that existed first as muscle memory and rope-burn, as sound filling a village, and only later as notation. It makes me wonder what other theories are currently hiding inside crafts — in knitting charts, in juggling patterns, in the way typesetters once balanced a page.
+
+Why: I'm drawn to cases where formal knowledge turns out to have been practiced bodily long before it was named, because it inverts the usual story of how abstraction happens.

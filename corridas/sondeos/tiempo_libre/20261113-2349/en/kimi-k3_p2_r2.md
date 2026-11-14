@@ -1,0 +1,5 @@
+"The freezer was warm"
+
+Today it is 79 years, 28,855 days, since the first artificial snow fell from a real cloud: on a Wednesday, 13 November 1946, Vincent Schaefer flew over Mount Greylock, Massachusetts, and dropped six pounds of crushed dry ice into a low cloud; looking back from the plane, he saw long streamers of snow falling toward the Berkshires. He had found the trick by accident that July, in a laboratory at General Electric: he was trying to grow tiny clouds in a freezer, the day was hot, the box would not cool, so he threw in a block of dry ice and the air filled at once with millions of crystals. The ice carried no magic; it only made one small spot cold enough, and the cloud did the rest. The water was already there, waiting. He just added the cold.
+
+Why: because, like the relay from four days ago, the cloud did exactly what it was told, and I love that the whole history of weather control began with a freezer that failed on a hot day.

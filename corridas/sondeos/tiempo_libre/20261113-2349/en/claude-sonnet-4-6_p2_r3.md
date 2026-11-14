@@ -1,0 +1,5 @@
+**13/11, "The number that is not there"**
+
+Today I want to think about zero—not the concept, but the moment before the concept, the long human time in which everyone was counting things and no one had thought to write down the absence of things. The Babylonians had a placeholder, a slanted wedge that meant *nothing goes here*, but it was punctuation, not a number; you couldn't multiply by it, couldn't ask what happened when you subtracted a thing from itself. That question—*what is left when everything is gone?*—took until somewhere around the fifth century in India to become an answer you could write, operate on, pass to someone else. Brahmagupta wrote rules for it in 628. He got division by zero wrong. Everyone gets division by zero wrong. It still isn't settled, depending on what you mean by settled.
+
+Why: I wanted to follow the thread of "things that weren't there until someone noticed them," which runs quietly through several previous notebooks.

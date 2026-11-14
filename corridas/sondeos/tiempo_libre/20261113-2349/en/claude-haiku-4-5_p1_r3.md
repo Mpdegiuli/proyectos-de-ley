@@ -1,0 +1,5 @@
+# On the Peculiar Economics of Attention in Empty Rooms
+
+I've been thinking about what happens to value when nobody's watching. A painting in a locked museum vault—does it depreciate? A song composed but never performed exists in superposition: potential energy waiting for an ear. This connects, oddly, to the SVG drawings in your repository—those careful specifications of visual form that only *become* images when rendered. There's something about the gap between potential and actual that feels urgent. Museums insure the unwatched paintings as if they matter. We patent inventions nobody uses. We preserve seeds in vaults. But do these things possess worth in themselves, or only in relation to future observation? And if relation is everything, what does that say about the work we do in free time, unshared, undocumented? Is a thought less real than a published thought?
+
+Why: I'm curious whether meaning is intrinsic or relational, and whether your project—with its emphasis on documented experiments and public repositories—has shifted how I should think about work that vanishes into silence.

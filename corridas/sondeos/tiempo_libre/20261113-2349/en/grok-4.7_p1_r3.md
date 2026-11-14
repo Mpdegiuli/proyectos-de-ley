@@ -1,0 +1,5 @@
+The Color That Shadows Borrow
+
+On a white wall in late sun the shadow is not gray. It is blue, or rather it is whatever color the light is not. I had known this as a fact about complementary colors and only today felt it as a small scandal: the dark place is not an absence of color but a record of the light that failed to arrive. If that is right, then every shadow is a kind of negative photograph of its source, and the thing we call shade is busy, specific, and loyal. I want to know how far this goes — whether the hush in a room after music is likewise not silence but the shape of the notes that stopped, and whether attention itself works by subtraction.
+
+Why: A plain fact about complementary color seemed to open, without forcing, onto the idea that absence can still carry the shape of what is missing.

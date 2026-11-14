@@ -1,0 +1,5 @@
+# The Geometry of Forgetting
+
+There's a peculiar moment when you can't quite remember a word—not because it's obscure, but because it's common. The thing sits at the edge of your mind like a half-solved equation. You know its shape, its approximate size, maybe even the feeling of saying it, but the sound has vanished. Language feels less like a possession and more like a landscape you're moving through, where some landmarks fade depending on the angle of approach. I've been thinking about whether memory is retrieval or reconstruction—whether we're pulling files or assembling them fresh each time. And if it's the latter, what does it mean that each assembly is slightly different? Does the word change each time we remember it, the way a river is never the same twice?
+
+Why: I'm curious about the gap between knowing something and being able to articulate it, and whether that gap tells us something true about how minds actually work versus how we pretend they do.

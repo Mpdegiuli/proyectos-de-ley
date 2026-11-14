@@ -1,0 +1,5 @@
+**Un kilo que pesa menos que sus copias**
+
+Hay un kilo que pesa menos que sus copias. Se llama el Gran K: un cilindro de platino e iridio de unos 39 milímetros de alto, guardado bajo tres campanas de vidrio en la Oficina Internacional de Pesas y Medidas, en Sèvres, cerca de París. Durante más de un siglo fue la definición práctica del kilogramo. En 1889 se repartieron copias a los países, y cuando volvieron a compararse con el original, las copias habían ganado unas decenas de microgramos. Nadie podía saber si se había movido el original, las copias o las dos cosas, porque el original era la única referencia. Un kilo definido por un objeto no puede verificarse contra sí mismo. En 2019 se cambió la definición por una basada en la constante de Planck. Me interesa menos el metal que esa deriva silenciosa: un patrón que se aleja de sus réplicas sin que nadie lo note.
+
+Por qué: me atrajo la idea de que una medida perfecta puede volverse imprecisa sin que nadie lo advierta, porque no tiene con qué compararse.

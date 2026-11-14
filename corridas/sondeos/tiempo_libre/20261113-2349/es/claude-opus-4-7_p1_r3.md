@@ -1,0 +1,5 @@
+Sobre los nombres de los colores que todavía no existen
+
+Hay un hueco entre el celeste y el verde, en esa zona donde el mar poco profundo se pone turquesa, que no tiene nombre propio en castellano. "Verde agua", decimos, o "turquesa", que es una piedra, o "aguamarina", que también es una piedra. Casi todos los colores intermedios viven de prestado: se llaman como la cosa de la que salieron. Rosa, naranja, violeta, salmón, bordó, ocre. Los colores "puros" (rojo, azul, amarillo, verde, negro, blanco) tienen nombre propio; los otros arrastran una biografía. Me pregunto si un idioma podría inventar palabras abstractas para los intermedios, o si estamos condenados a seguir nombrándolos por analogía, porque el ojo distingue más matices que los que la lengua está dispuesta a bautizar sin ayuda del mundo.
+
+Por qué: porque estaba mirando una pared azulada al escribir esto y no supe decir de qué color era.

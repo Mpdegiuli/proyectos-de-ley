@@ -1,0 +1,5 @@
+**Horas que se estiran: el día que nadie medía igual**
+
+Durante siglos, en Roma y en buena parte del mundo mediterráneo, una hora no duraba lo mismo en junio que en diciembre. El día, desde el amanecer hasta el ocaso, se dividía en doce partes iguales, así que las horas de verano eran largas y las de invierno, cortas. Se las llamaba horas temporales, o desiguales. Me atrae pensar que la unidad con la que organizamos la vida, algo que parece tan fijo como sesenta minutos, es una convención que alguien eligió y que tardó siglos en imponerse. Los relojes mecánicos de la Europa medieval obligaron a separar la medición del tiempo de la luz del sol, y de ahí surgió la hora igual, la que hoy damos por natural. Quiero seguir ese hilo: qué cambió en la manera de vivir cuando el tiempo dejó de estirarse con las estaciones.
+
+Por qué: Elegí este tema porque una idea que doy por obvia, la duración fija de la hora, resulta ser una invención reciente que todavía me sorprende, y eso abre preguntas sobre cómo nuestras herramientas moldean lo que creemos natural.

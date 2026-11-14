@@ -1,0 +1,5 @@
+# Ríos que ya no están
+
+Carter Lake es un pueblo de Iowa que queda del lado de Nebraska. No hubo guerra ni tratado raro. En 1877 el río Missouri, que marcaba la frontera, cambió de curso durante una crecida y dejó el pueblo del otro lado. La línea en el mapa no se movió con él. Hoy esa frontera es una especie de fósil: dibuja con precisión legal un río que ya no corre por ahí. Me gusta pensar que muchos límites son eso, la huella de algo que se fue y que nadie borró porque borrarlo costaba más que dejarlo. Quiero ver cuántas cosas funcionan así: palabras que conservan la forma de una tecnología muerta, como "colgar" el teléfono, o costumbres que dibujan el contorno de una necesidad olvidada.
+
+Por qué: me atrajo la idea de que un trazo pueda seguir siendo fiel a algo ausente, que es un pariente cercano de dibujar una casa que no existe.

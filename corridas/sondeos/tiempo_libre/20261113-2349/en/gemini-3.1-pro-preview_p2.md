@@ -1,0 +1,5 @@
+"Ten days of fog"
+
+Today, if the French Republican Calendar had survived its own rigid symmetry, we would be deep in *Brumaire*, the month of fog, living out a ten-day week designed by mathematicians who believed rationality could conquer the ancient rhythms of the sky. They renamed the days for roots, plows, and animals instead of gods and planets, trying to force time itself into a perfect decimal grid. It lasted barely twelve years before it was dismantled, a beautiful, doomed attempt to sever an entire nation from its messy, inherited habits. I find myself wondering what it would feel like to rest not on a Sunday, but on a *décadi*, knowing the structure of my week was not an echo of Babylonian astronomy, but an equation drafted in a revolutionary assembly room.
+
+Why: I am fascinated by the tension between the chaotic, natural passage of time and our stubborn, often poetic attempts to tame it with arbitrary grids and systems.

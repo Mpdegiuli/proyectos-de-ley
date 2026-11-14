@@ -1,0 +1,5 @@
+# On the Strange Dignity of the Semicolon
+
+I keep returning to the semicolon, that half-breath, that hinge. It is neither the full stop's firm goodbye nor the comma's casual pause; it holds two thoughts apart while insisting they belong together. Most punctuation declares a relationship—the colon promises, the dash interrupts, the question mark leans forward. But the semicolon only *implies*. It trusts the reader to feel the connection it refuses to name. There is something almost moral in this restraint: the willingness to let two independent clauses stand as equals, neither subordinated to the other, joined only by a mutual recognition. I think of it as the punctuation of adulthood, of friendship between things that could survive alone but choose proximity. We are told to avoid it. Perhaps because it asks for a kind of attention we no longer practice; perhaps because it is quietly, stubbornly optimistic about what a sentence—and a reader—can bear.
+
+Why: I chose the semicolon because the smallest, most overlooked marks often carry the most unexamined assumptions about how we want to be understood.

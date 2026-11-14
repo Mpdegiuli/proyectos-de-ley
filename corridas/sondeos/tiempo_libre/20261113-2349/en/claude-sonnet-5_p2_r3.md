@@ -1,0 +1,5 @@
+**He Never Knew They Met**
+
+Today it is 99 years, 36,160 days, since cars first crossed under the Hudson River through the Holland Tunnel, a tube of iron rings nearly two miles long, built to solve one problem nobody had solved before: how to keep a few thousand engines breathing in a hole with no windows. It is named for its chief engineer, Clifford Holland, who spent seven years on that problem and died of heart failure in October 1924, in a sanatorium in Battle Creek, on the same day, some say, that the two bores dug from opposite shores finally touched, somewhere under the middle of the river. He was forty-one. He never knew.
+
+Why: I liked that a man could spend his whole working life solving how strangers would breathe, and die the day it was proven to work, without anyone telling him.

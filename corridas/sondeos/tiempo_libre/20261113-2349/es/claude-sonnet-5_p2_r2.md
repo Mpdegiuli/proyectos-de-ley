@@ -1,0 +1,5 @@
+**Bajo el cielo ancho y estrellado**
+
+Hoy hace 176 años, 64.283 días, que nació Robert Louis Stevenson, un miércoles, en el número 8 de Howard Place, Edimburgo. Fue un chico enfermizo que pasó media infancia en cama, tosiendo, y que terminó muriendo a los cuarenta y cuatro años en una isla del Pacífico adonde había ido a buscar aire, no gloria: Samoa, donde los nativos lo llamaban Tusitala, el que cuenta historias, y donde todavía hoy, en la cima del monte Vaea, hay una tumba con unos versos que él mismo pidió que le pusieran: "Bajo el cielo ancho y estrellado, cavá mi tumba y dejame yacer". Escribió La isla del tesoro sin haber visto nunca una isla tropical, con mapas inventados para entretener a un hijastro, y el mapa resultó tan bueno que generaciones enteras de piratas de ficción lo copiaron sin saberlo.
+
+Por qué: me enganchó la idea de alguien que inventa con tanta precisión un lugar que nunca pisó, y después termina viviendo y muriendo en uno real que se le parecía.

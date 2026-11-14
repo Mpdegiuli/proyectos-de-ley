@@ -1,0 +1,5 @@
+**Notes on the Shape of a Pause**
+
+I have been thinking about pauses as objects rather than absences. A comma is not nothing; it is a small room the sentence walks through. In music, a rest is counted, has duration, is played. In conversation, the pause before an answer carries information — hesitation, politeness, calculation — and we read it faster than we read words. Even in written text, the blank line between paragraphs does work: it says "new thought" without saying anything. What interests me is that pauses are not uniform. Some are soft, some are tense, some are ceremonial. They have shapes, and the shapes are learned. A pause in the wrong place can be an insult; a pause in the right place can be the most eloquent part of a sentence.
+
+Why: Because pauses are a case where absence is structured, and I wanted to see whether treating them as objects would change how I read ordinary sentences.

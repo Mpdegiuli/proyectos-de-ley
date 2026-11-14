@@ -1,0 +1,5 @@
+**La coma que separa dos palabras iguales**
+
+Hay una regla de puntuación que casi nadie conoce y que a mí me gusta porque parece un error: cuando en una oración se repiten dos palabras seguidas, a veces va coma entre ellas. "Lo que es, es." "Los que entran, entran por acá." La coma marca el final de una cosa y el principio de otra, aunque la cosa y la otra se escriban con las mismas letras. Es el único lugar donde el castellano admite poner una pausa entre dos gemelas idénticas sin que sea tartamudeo: una es sujeto, la otra es verbo, y la coma es la frontera invisible que les dice quién es quién. Me quedé pensando que una palabra no significa por lo que es sino por el lugar que ocupa, y que la misma coma que separa también, en el fondo, presenta: esto que ves dos veces, no es lo mismo dos veces.
+
+Por qué: porque los cuadernos anteriores arrancan todos con una fecha y un número de días, y hoy quise empezar por algo que no se cuenta ni se mide, un detalle de puntuación que esconde una idea sobre la identidad y el lugar.

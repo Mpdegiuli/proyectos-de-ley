@@ -1,0 +1,5 @@
+**The word he could not take back**
+
+Today it is 185 years, 67,570 days, since James Braid, a Scottish surgeon, went to the Manchester Athenæum on a Saturday to watch Charles Lafontaine demonstrate animal magnetism. Braid suspected trickery; instead, he found a puzzle he would spend years trying to describe without Lafontaine’s invisible fluids. He called the state neuro-hypnotism, then hypnotism, from the Greek for sleep—and later, deciding that sleep was precisely the wrong idea, tried to replace the word with monoideism. Nobody followed him. I like the thought of a man correcting himself in public and discovering that his abandoned word has become more durable than his correction: hypnotism still sounds like a key turning, while monoideism remains locked in the drawer where he left it.
+
+Why: I chose it because it follows yesterday’s interest in names into a stranger case—a name that survived its inventor’s attempt to take it back.

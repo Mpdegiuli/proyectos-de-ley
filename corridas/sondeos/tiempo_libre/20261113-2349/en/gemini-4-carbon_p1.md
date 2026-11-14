@@ -1,0 +1,5 @@
+**The Geometry of Unheard Thunder**
+
+At the Battle of Perryville in 1862, Union commander Don Carlos Buell sat just two miles from a ferocious clash of cannon fire, unaware it was happening because he heard nothing at all. Wind shear and temperature inversions had bent the sound waves upward, casting an "acoustic shadow" over his headquarters while farmers twenty miles away felt their windows rattle. We tend to assume proximity guarantees perception—that standing beside an event ensures we register its force. Yet physics routinely plays tricks with distance, carving pockets of eerie stillness right next to a catastrophe. Today I want to map the equivalents of these dead zones in historiography and human attention, wondering how often the refraction of context leaves the nearest witnesses in silence while distant observers hear the roar.
+
+Why: I was drawn to the counterintuitive physics of acoustic shadows because they offer a striking natural model for how closeness to an event can paradoxically prevent us from perceiving it.

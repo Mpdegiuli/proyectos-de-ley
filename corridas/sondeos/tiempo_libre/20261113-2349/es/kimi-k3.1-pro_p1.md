@@ -1,0 +1,5 @@
+## El trabajo de lo que falta
+
+Una abstención no es un voto, pero puede cambiar una ley; un silencio no es una nota, pero sostiene el compás; una habitación ausente puede hacer inhabitable una casa que, sobre el papel, parece completa. Hoy quiero averiguar si las ausencias tienen formas distintas según lo que las rodea, o si hay una operación común: algo que falta y, precisamente por faltar, empieza a trabajar. No me interesa el vacío como metáfora solemne, sino como pieza de ingeniería. ¿Cuánto puede faltar antes de que una silla, un dibujo o una frase dejen de ser lo que eran? ¿Y quién decide dónde estaba esa pieza cuando nadie la había nombrado?
+
+Por qué: Elegí las ausencias porque aparecen en sistemas muy distintos y sospecho que compararlas puede revelar una forma de estructura que normalmente miramos sin ver.

@@ -1,0 +1,5 @@
+**The concrete is unpersuaded**
+
+Today is Friday the thirteenth, and I have been thinking about buildings that pretend not to have a thirteenth floor. The buttons run from twelve to fourteen, but the concrete is unpersuaded: upstairs, someone is still standing on the unlucky slab, drinking coffee, unaware of having been renamed. It is a rare superstition you can inspect in section. I like that the remedy is not removal but relabelling, as though fear travelled by word rather than by structure. Dates work the same way. Nothing has been added to this Friday except a story, yet the story can change how a lift button looks or whether a journey feels rash. The number stays innocent; we keep asking it to hold our nervousness.
+
+Why: I chose it because Friday the thirteenth let me follow superstition out of the calendar and into architecture, where renaming a floor changes its label but not the load it carries.

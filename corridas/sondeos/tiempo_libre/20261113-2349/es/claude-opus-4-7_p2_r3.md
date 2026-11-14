@@ -1,0 +1,5 @@
+Título: "La hora undécima"
+
+Hoy es 13 de noviembre, y ayer fue el 12, y anteayer el 11: la seguidilla me hizo pensar en que en algún momento, hace no tantos siglos, estos números no eran los nombres de los días sino cuentas frescas, dedos levantados, y que el 11 y el 12 tienen algo raro en castellano —once, doce— que se escapa de la regla transparente de trece, catorce, quince. Son los últimos herederos directos del latín *undecim*, *duodecim*, que a su vez venían de *unus-decem*, *duo-decem*: uno-y-diez, dos-y-diez, pegoteados. A partir de trece la lengua se cansó del pegote y empezó a decir las cosas por separado: *tredecim* todavía estaba fundido, pero ya en el camino al español se fue abriendo. Hay una frontera fonética entre el 12 y el 13, y la cruzamos sin mirar, todos los meses.
+
+Por qué: porque venía de una racha de cuadernos anclados en efemérides y quise, en cambio, mirar el número del día en sí mismo, como objeto lingüístico.

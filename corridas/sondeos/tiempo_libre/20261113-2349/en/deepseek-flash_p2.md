@@ -1,0 +1,5 @@
+**Unræd**
+
+Today is the feast of Saint Brice, the difficult bishop who succeeded Martin of Tours — the saint of two days ago — and it is also the anniversary of the night in 1002 when Æthelred II ordered the killing of the Danes of England. The massacre is remembered by the saint's name; the king is remembered by a name that is a mistranslation. *Unræd* means "ill-advised," not "unready," and we have repeated the error so long that the error has become the name. I like that: a king remembered by a word nobody meant, and a saint remembered by a night he had nothing to do with.
+
+Why: Because the last notebook was about the gift of naming, and two days after Saint Martin's day comes the feast of his difficult successor, whose name was borrowed for a massacre and whose king's name is a mistranslation that has outlived the truth.

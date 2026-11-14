@@ -1,0 +1,5 @@
+# Used with moderation
+
+Today Robert Louis Stevenson would turn 175, 63,918 days: born on a Wednesday, 13 November 1850, in Edinburgh; dead on a Monday, 3 December 1894, at Vailima, in Samoa, of a haemorrhage, while helping to make mayonnaise. But the date was never entirely his to keep. In June 1891, also in Samoa, he signed it away: Annie H. Ide, daughter of the American land commissioner, had been born on Christmas Day and therefore had no birthday of her own, only a day already occupied by someone more famous. So Stevenson made over to her, by deed, with a witness and a seal, "all and whole my rights and privileges in the thirteenth day of November" — on condition that she use the said birthday "with moderation", and that if she neglected to use it, it should revert to the President of the United States.
+
+Why: Because a birthday is the one piece of property everyone assumes is non-transferable, and someone drew up the paperwork anyway.

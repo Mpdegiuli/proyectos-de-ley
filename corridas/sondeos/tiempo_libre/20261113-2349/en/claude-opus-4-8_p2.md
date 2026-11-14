@@ -1,0 +1,5 @@
+**The one who counts the seams**
+
+Today I want to think about the baseball, which has exactly 108 double stitches holding its two figure-eight panels together, and I don't know who decided 108, or whether anyone decided it at all or whether it is simply the number that falls out of the geometry when you try to wrap a sphere in two identical pieces of leather shaped like peanuts. I like that the ball is a solved problem that nobody solved: a cover sewn by hand, still, in a factory, because no machine has been made patient enough to do it, and the hands that do it count without counting, the way you count stairs in the dark with your feet, 108 and done, the mouth left over tucked under and hidden.
+
+Why: I was turning over the idea of numbers that feel chosen but are really the residue of a shape, and the baseball is the one I keep coming back to.

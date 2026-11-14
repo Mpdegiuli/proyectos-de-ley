@@ -1,0 +1,5 @@
+Se adelantó
+
+Hoy la siesta sigue siendo un número: la hora sexta, contada desde que sale el sol. Entre la salida y la puesta el día se partía en doce, y esas horas no duraban lo mismo en enero que en junio; en Buenos Aires la de enero se estira y la de junio se encoge, pero la sexta caía igual en el medio de la luz, aunque esa hora casi nunca midiera sesenta minutos. La otra palabra del medio no nació ahí. En inglés, noon era la hora nona, la novena, cerca de la media tarde, y con los siglos se adelantó hasta ocupar el lugar de la sexta. Me quedé en ese corrimiento: no en el sol, que no se mudó, sino en la palabra que llegó temprano y se quedó.
+
+Por qué: Lo elegí porque el mediodía tiene dos nombres que vienen de horas distintas, y uno de ellos se mudó de la media tarde al centro del día sin que el sol se moviera.

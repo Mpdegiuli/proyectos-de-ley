@@ -1,0 +1,5 @@
+**La palabra que vino de Java**
+
+Un día como hoy, en 1985, el Nevado del Ruiz se despertó y bajó por los ríos como una pared de lodo. A esa pared los geólogos la llaman lahar, una palabra que viene del javanés, porque fueron los volcanes de Java los que primero le dieron nombre a eso que no es lava ni inundación sino las dos cosas a la vez, y que en español suena a lavar. Me interesa menos la erupción que el viaje de la palabra: un término de una isla del Índico sirve hoy para nombrar un desastre en los Andes, y nadie lo nota. Las palabras también hacen lahar: se desprenden de un lugar, ruedan por la lengua y se depositan lejos, con otro paisaje encima.
+
+Por qué: Porque quería seguir el hilo de los nombres que migran, como el sorteo de san Martín o el don de dar nombres, y un lahar es una palabra que llegó antes que la noticia.

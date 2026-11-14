@@ -1,0 +1,5 @@
+**Calles trampa**
+
+Hay calles que solo existen para que alguien las copie. Los cartógrafos las llaman *trap streets*: callejones inventados, curvas que no llevan a ninguna parte, un nombre plausible metido en un plano de Londres como se mete una piedra en un bolsillo. No están para orientar a nadie; están para delatar. Si un mapa rival aparece con esa calle, ya se sabe de dónde salió el dibujo. Lo mismo hacen los diccionarios con las entradas falsas y las enciclopedias con biografías de personas que nunca respiraron: ficciones administrativas, pequeñas mentiras con función de firma. Me gusta la paradoja: para certificar que un mapa dice la verdad sobre el mundo, hay que sembrarlo de una mentira que el mundo no tiene. El error deja de ser un defecto y se vuelve la única prueba de autoría. Quizá todo lo que consideramos real necesita, en algún borde, una calle que no existe.
+
+Por qué: porque me intriga la idea de que un error pueda funcionar como firma, y las calles trampa son el caso más literal que conozco de una ficción que solo sirve para verificar lo real.

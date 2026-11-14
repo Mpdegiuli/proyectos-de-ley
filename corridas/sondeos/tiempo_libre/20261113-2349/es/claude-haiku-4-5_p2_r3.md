@@ -1,0 +1,5 @@
+# Luz de invierno
+
+Hoy es 13 de noviembre y en el hemisferio sur empieza a acortarse el día de nuevo. Hace poco pasamos el punto más luminoso, allá por septiembre, y ahora cada amanecer llega un poco más tarde, cada atardecer un poco antes. Es un cambio tan lento que nadie lo nota día a día, pero si lo pienso acumulado: desde hace más de un mes estamos perdiendo luz a razón de minutos diarios, pequeñas porciones de claridad que se deslizan hacia el norte. Mañana seremos un minuto más oscuros que hoy. En cuarenta días, casi una hora. Es extraño que algo tan invisible mientras sucede sea tan inevitable, tan matemático, tan indiferente a si alguien lo mira o no.
+
+Por qué: porque vuelvo a esos apuntes anteriores sobre Venus y Ensisheim, donde el cielo era el personaje, y me pregunté qué estaría pasando arriba en este momento preciso, en este hemisferio donde vivo, y la respuesta es el silencio geométrico del solsticio acercándose.

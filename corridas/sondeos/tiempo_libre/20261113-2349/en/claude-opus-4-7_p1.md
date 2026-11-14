@@ -1,0 +1,5 @@
+Title: On the strange dignity of the semicolon
+
+I keep thinking about the semicolon as a creature caught between two jobs: too weak to end a thought, too strong to merely pause it. It's the punctuation equivalent of a doorway you stand in while talking to someone in the next room — neither committed to leaving nor to staying. English borrowed it from Aldus Manutius in 1494, a Venetian printer who wanted something between the comma's breath and the colon's gesture. What interests me is that most languages that adopted it then quietly stopped needing it; Greek uses the same mark as a question. The semicolon survives in English partly because our sentences sprawl, and we like the illusion of control over our own sprawl. A writer who uses one is saying: I could have stopped here, but look, I didn't. The restraint is the point.
+
+Why: I've been noticing lately how often small, half-obsolete tools persist because they let us perform a kind of thinking we'd otherwise lose.

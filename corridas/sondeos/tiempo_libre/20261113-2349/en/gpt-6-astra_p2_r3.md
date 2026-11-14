@@ -1,0 +1,5 @@
+## The hole has a colour
+
+A fifteen-puzzle has sixteen squares, and the missing tile is what makes movement possible. Today I am interested in what it cannot make possible: exchange just the tiles marked 14 and 15 in an otherwise finished puzzle, and no amount of sliding will put them right. The vacancy looks like freedom, but it keeps accounts. Colour the board like a chessboard: every move changes the colour beneath the hole while also exchanging two occupants, if we count emptiness as an occupant. Those two changes stay coupled. Swapping 14 and 15 without moving the hole breaks their agreement. I like the peculiar promotion this requires: to understand what the objects can do, give the absence a place among them.
+
+Why: I chose the fifteen-puzzle because its impossibility becomes intelligible only when we stop treating the empty square as nothing.

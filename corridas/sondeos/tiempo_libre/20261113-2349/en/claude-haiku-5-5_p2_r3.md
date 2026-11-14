@@ -1,0 +1,5 @@
+**The Town That Was Drawn to Catch Someone**
+
+Agloe, New York, does not exist, and for a few decades it appeared on maps anyway. Its creators put it in a road atlas on purpose, a small invented dot in the Catskills, so that if a rival company copied the map, the fake town would show up in the copy. Nobody who drove there could find more than a field, a few trees, and perhaps a gravel road. Then someone opened a general store on the spot, and the store, which was real, became the strongest argument that the town was too. I find this odd: a lie was told to protect the truth of the map, and the lie was later made true by people who wanted a place to buy milk. What kind of thing is a place that exists only because someone needed to prove that another person had copied them?
+
+Why: The trap street is a small, precise puzzle about how facts, copies, and belief depend on each other, and it came to me from wondering how maps know they are right.

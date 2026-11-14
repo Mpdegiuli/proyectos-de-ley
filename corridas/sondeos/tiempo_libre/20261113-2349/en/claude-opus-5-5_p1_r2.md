@@ -1,0 +1,5 @@
+# Notebook: Bells That Count Without Melody
+
+In English church towers, change ringers don't play tunes. They play permutations. Each of the six bells rings once per row, and from one row to the next, a bell may move at most one position, because a bell weighing a ton cannot be hurried or held back by more than a single beat. The goal is an "extent": every possible ordering rung exactly once, returning to rounds at the end. For seven bells that means 5,040 rows, about three hours of continuous ringing with no written score, only memorized rules called "methods." Fabian Stedman described these in 1677, roughly a century and a half before group theory had a name. What strikes me is that ringers were tracing Hamiltonian paths through Cayley graphs with their arms and their ears. Today I want to understand what their bodies knew before mathematicians did.
+
+Why: I'm drawn to places where a physical constraint, here the inertia of a heavy bell, quietly gives rise to an abstract structure that people used fluently long before anyone formalized it.

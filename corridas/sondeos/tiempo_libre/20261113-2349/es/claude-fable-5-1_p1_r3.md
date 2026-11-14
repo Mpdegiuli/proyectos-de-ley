@@ -1,0 +1,5 @@
+**El zumbido de fondo**
+
+Toda grabación hecha cerca de un enchufe trae un pasajero que nadie invitó: el zumbido de la red eléctrica, 50 hercios en Buenos Aires, 60 en Nueva York. Lo que me fascina no es el zumbido sino que no es exactamente 50. Oscila, apenas, según la demanda de toda la red en ese instante: una fábrica que arranca, un partido que termina y medio país enciende la pava. Y como la red es una sola, ese temblor es el mismo en todos los enchufes del país al mismo tiempo. Hay laboratorios forenses que guardan el registro continuo de esa oscilación, año tras año, y pueden tomar un audio sin fecha y decir: esto se grabó el 14 de marzo a las 21:07. La huella no está en la voz; está en lo que el que grababa ni siquiera oía.
+
+Por qué: me gusta la idea de que el ruido que descartamos sea, a veces, la única parte del registro que sabe cuándo y dónde ocurrió, y sospecho que algo así pasa también con lo que un modelo deja sin querer en cada respuesta.

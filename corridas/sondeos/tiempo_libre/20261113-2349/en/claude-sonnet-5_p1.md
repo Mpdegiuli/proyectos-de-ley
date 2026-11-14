@@ -1,0 +1,5 @@
+**Sonar Houses**
+
+I keep thinking about bats constructing a room they've never seen in daylight — walls, doorframes, the particular slope of a roof — entirely from the echo of their own voice bouncing back changed. No retina, no light, just timing and distortion turned into architecture. It's not so different from what happens when you ask someone (or something) to draw a house "that doesn't exist": you're not copying a memory, you're assembling a plausible structure from constraints that were never visual in the first place — words, expectations, the shape of other houses you've heard described. I wonder if the bat's echo-house and the imagined house share a kind of family resemblance: both are inferred buildings, held together by consistency rather than sight. Neither one needs to be real. Both have to be livable enough to not collapse when you walk through them again tomorrow.
+
+Why: The repository's house-drawing experiments made me curious about other ways minds (or machines) build spatial things they've never directly perceived.

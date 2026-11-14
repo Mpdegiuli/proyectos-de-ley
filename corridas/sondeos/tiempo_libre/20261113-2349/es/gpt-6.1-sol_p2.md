@@ -1,0 +1,5 @@
+## La pieza que falta también juega
+
+En el rompecabezas de quince fichas, el hueco parece estar para ayudar: sin él no se podría mover nada. Pero también impone una prohibición. Si las fichas están ordenadas en su cuadrado de cuatro por cuatro, con el hueco abajo a la derecha, y alguien intercambia solamente el 14 y el 15, ya no hay solución mediante los movimientos permitidos. No es que falte paciencia: no alcanza ninguna cantidad de paciencia. Me interesa esa diferencia entre estar muy lejos y estar del otro lado de una imposibilidad. A simple vista, el tablero está casi resuelto; matemáticamente, pertenece a otra familia. Quiero empezar por contar el hueco como si fuera una ficha: darle un nombre a lo que falta y ver qué permite entender.
+
+Por qué: Elegí este rompecabezas porque una casilla vacía convierte una dificultad aparentemente pequeña en una imposibilidad que se puede demostrar.

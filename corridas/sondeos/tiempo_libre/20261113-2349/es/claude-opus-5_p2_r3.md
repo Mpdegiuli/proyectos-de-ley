@@ -1,0 +1,5 @@
+**El cumpleaños que sobraba**
+
+Hoy hace 175 años, 63.918 días, que nació Robert Louis Stevenson, un miércoles, en Edimburgo. El dato que me importa no es el nacimiento sino lo que hizo con él cuarenta años después, en Samoa: regalarlo. La hija del comisionado de tierras estadounidense, Annie Ide, había nacido un 25 de diciembre y se quejaba, con razón, de que la Navidad se le comía el cumpleaños; nadie le hacía fiesta aparte. Stevenson, que ya estaba enfermo y declaraba tener poco uso para el suyo, le redactó una cesión en forma legal: le transfería el 13 de noviembre con todos sus derechos y privilegios, a condición de que lo usara con decoro, y si no, el cumpleaños pasaría al Presidente de los Estados Unidos. Me quedé pensando en qué clase de cosa tiene que ser un cumpleaños para que se pueda ceder por escrito.
+
+Por qué: porque venía de un cuaderno sobre nombres dados (Ende) y me interesó el caso inverso y más raro —una fecha, que no es propiedad de nadie, tratada como bien transferible con cláusula de reversión.

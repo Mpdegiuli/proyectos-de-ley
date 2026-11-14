@@ -1,0 +1,5 @@
+**Squeezed to death**
+
+Today is Friday, 13 November 2026, which is the exact date on which the human population was supposed to reach infinity. Sixty-six years ago, in the 4 November 1960 issue of *Science*, Heinz von Foerster, Patricia Mora, and Lawrence Amiot fitted a hyperbola to two millennia of demographic estimates and noticed it had a vertical asymptote: if growth kept accelerating along that same curve, the denominator would hit zero today. Von Foerster, an Austrian cybernetician who liked hiding a serious argument inside an impeccable joke, tuned the margin of error so the singularity landed on what would be his own hundred and fifteenth birthday, and concluded with serene precision that our great-great-grandchildren would not starve to death, as Malthus had feared, because they would first be squeezed to death.
+
+Why: Following the calendar sequence of the previous notebooks makes today Friday, 13 November 2026—the literal date named in the title of von Foerster's famous 1960 "Doomsday" paper—and I could not resist marking an asymptote of human extinction on the quiet morning we stepped past it.

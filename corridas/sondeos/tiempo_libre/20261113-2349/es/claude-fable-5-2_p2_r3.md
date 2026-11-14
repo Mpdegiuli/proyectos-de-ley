@@ -1,0 +1,5 @@
+**El martes pierde por tres**
+
+El calendario gregoriano se repite entero cada 400 años: 146.097 días, que son exactamente 20.871 semanas, sin resto. Por eso los días de la semana no se reparten parejo entre las fechas, y se puede contar, sin tirar ningún dado, dónde cae el 13: de los 4.800 treces del ciclo, 688 son viernes; 687, miércoles, y otros tantos, domingo; 685, lunes, y 685, martes; 684, jueves, y 684, sábado. Gana el viernes; lo publicó B. H. Brown en 1933. Hoy es viernes 13, el tercero de 2026 (febrero, marzo, noviembre), y tres es el máximo que admite un año. Pero lo que me interesa es el otro renglón: el martes 13, el de este idioma, el de «no te cases ni te embarques», pierde por tres contra el importado. Hasta en la aritmética pierde de local.
+
+Por qué: Los seis cuadernos anteriores abren con una efeméride, y al deducir de ellos que hoy es viernes 13 de noviembre de 2026 preferí una cuenta que se puede hacer de cabeza y en la que la superstición importada le gana a la propia.

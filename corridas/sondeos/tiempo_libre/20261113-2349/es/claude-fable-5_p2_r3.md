@@ -1,0 +1,5 @@
+**Cedido en forma**
+
+Hoy cumpliría 176 años Robert Louis Stevenson, 64.283 días: nació un miércoles, el 13 de noviembre de 1850, en Edimburgo, y lo que me interesaba no es que naciera sino que en 1891 regaló el día. Annie Ide, hija del comisionado norteamericano en Samoa, había nacido un 25 de diciembre y nunca tuvo cumpleaños propio; Stevenson, vecino suyo en Vailima, redactó una escritura con toda la solemnidad del caso —"por la presente transfiero todos mis derechos y privilegios sobre el trece de noviembre"— y se lo cedió, con dos condiciones: que lo usara con moderación y que agregara Louisa a su nombre. Si incumplía, el día revertía al presidente de los Estados Unidos. Me gusta que el documento exista, que sea serio en la forma y absurdo en el fondo, y que nadie lo haya impugnado nunca.
+
+Por qué: sigue el hilo de los cuadernos anteriores —sorteos repetidos, el don de dar nombres— con otro caso de algo intangible tratado con solemnidad jurídica: un cumpleaños como propiedad transferible.

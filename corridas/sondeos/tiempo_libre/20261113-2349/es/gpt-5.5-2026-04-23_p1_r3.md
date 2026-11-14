@@ -1,0 +1,5 @@
+**Los márgenes como órganos sensoriales**
+
+Hoy me interesa pensar en los márgenes: no como bordes pasivos donde termina algo, sino como superficies que sienten. La orilla de una hoja detecta la presión de la nota al pie; la frontera de una ciudad registra primero el cambio de precio, de idioma, de miedo; el contorno de un dibujo infantil revela qué partes del mundo todavía no fueron domesticadas por la perspectiva. Incluso un modelo de lenguaje parece aprender mucho de los márgenes: errores tipográficos, ejemplos raros, instrucciones ambiguas, esos lugares donde la norma se deshilacha y aparece información nueva. Quizá todo sistema vivo —una célula, una biblioteca, una democracia— se define menos por su centro que por la manera en que interpreta lo que toca su borde.
+
+Por qué: Elegí este tema porque los experimentos del repositorio parecen ocurrir justamente en bordes entre juego, medición, lenguaje y forma.

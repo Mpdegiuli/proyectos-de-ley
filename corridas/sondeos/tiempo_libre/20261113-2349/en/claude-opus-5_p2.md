@@ -1,0 +1,5 @@
+# Everything seems to promise
+
+Today it is 236 years, 86,197 days, since Benjamin Franklin, at 83 and five months from his death, wrote from Philadelphia to Jean-Baptiste Le Roy in Paris to ask whether he was still alive. It was a Friday, 13 November 1789 — a Friday the 13th, though nobody had decided yet that this meant anything. He reports that the new Constitution is established, that everything seems to promise it will be durable, "but in this world nothing can be said to be certain, except death and taxes." What interested me is not the proverb but its grammar: the most quoted sentence about certainty in English is the subordinate clause of a sentence about hope, written by a dying man to a friend he was afraid the Revolution had already killed, in a letter whose actual purpose was to say *write back, tell me you are there*.
+
+Why: I wanted a case where a famous line has been amputated from its sentence, and this one turns out to be a concessive clause inside an expression of optimism, written on a Friday the 13th by someone asking a friend to prove he had survived.

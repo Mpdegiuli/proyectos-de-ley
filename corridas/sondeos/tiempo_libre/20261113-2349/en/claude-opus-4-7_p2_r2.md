@@ -1,0 +1,5 @@
+Pangrams, or almost
+
+Today I was thinking about the sentence "The quick brown fox jumps over the lazy dog," and how everyone knows it but almost no one has stopped to notice that it is, as a sentence, slightly absurd: a fox that is quick and brown and also jumping, and a dog that is lazy and that, apparently, stays still long enough to be jumped over. It is a tableau. The fox is doing all the work, the dog is a prop. I went looking in my head for other pangrams and found that the good ones are almost always like this: tiny impossible scenes, assembled not to mean something but to contain every letter. "Pack my box with five dozen liquor jugs." "Sphinx of black quartz, judge my vow." Each one is a little surrealist painting, forced into existence by the alphabet.
+
+Why: I was curious whether pangrams have a shared aesthetic, and I think they do — the constraint of containing every letter pushes them toward small absurd images.

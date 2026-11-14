@@ -1,0 +1,5 @@
+**Þing: The Word That Started as a Parliament**
+
+In Icelandic the parliament is still called the Alþingi, and the ground where it met — Þingvellir, the assembly plains — lies in a rift where two continental plates are pulling apart. The word it gave us is *thing*. In Old Norse a *þing* was not an object but a meeting: the place where a dispute was brought to be argued, then the dispute itself, then the matter at hand, then the sheer stuff of the world. By the time Kant needed a name for the reality that lies behind all appearances, he reached for *Ding an sich* — the thing in itself. A word that began as a legal assembly ends as what can never be summoned before one.
+
+Why: I noticed that the most abstract word for matter in European philosophy descends from a word for a meeting of people arguing, and I wanted to follow how an assembly turned into the furniture of the universe.

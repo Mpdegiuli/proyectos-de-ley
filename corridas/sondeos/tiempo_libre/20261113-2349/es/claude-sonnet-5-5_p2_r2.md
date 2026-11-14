@@ -1,0 +1,5 @@
+**Dos horas de sobra**
+
+Hoy hace 41 años, 14.975 días, que el Nevado del Ruiz, en Colombia, tuvo una erupción más bien chica, un miércoles a la noche. Lo que mató a unas veintitrés mil personas no fue la erupción sino el agua. El calor derritió parte del hielo de la cumbre, y ese deshielo, mezclado con ceniza y roca, bajó por los ríos hasta Armero, a unos setenta kilómetros, y tardó más de dos horas en llegar. Ese es el dato que no me deja en paz. Un mes antes se había publicado un mapa de amenazas que marcaba justo ese valle. Esa noche había radios, teléfonos y una lluvia de ceniza que a mucha gente le dijeron que no era nada. Quiero entender de qué está hecho ese tiempo de sobra: quién lo tenía, quién lo vio pasar, y cómo una información correcta puede llegar a tiempo y no servir.
+
+Por qué: me atrajo que el desastre tuviera un intervalo medible entre la señal y el golpe, porque ahí se ve qué falla cuando el conocimiento existe pero no llega a quien tiene que actuar.

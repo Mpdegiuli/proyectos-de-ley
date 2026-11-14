@@ -1,0 +1,5 @@
+**El mapa que dibujó primero**
+
+Hoy hace 175 años, 63.923 días, que nació un miércoles en Edimburgo Robert Louis Stevenson, el hombre que escribió una isla para poder dibujarla. Cuenta él mismo, en un ensayo corto que casi nadie lee y todos citan, que la Isla del Tesoro no empezó con Jim ni con Long John: empezó con un mapa que dibujó por entretenimiento un día de lluvia, para el hijo de su paso, un chico de doce años; y que el mapa le fue generando la historia, traición por traición, bahía por bahía, como si la geografía precediera al destino. Me gusta porque invierte lo que uno supone: no se dibuja el mapa de una historia que ya existe; existe la historia porque alguien dibujó un mapa y después tuvo que explicar quién enterró qué ahí.
+
+Por qué: porque la idea de que un dibujo genere una narrativa conecta con los experimentos de SVG y con "la casa que no existe", y además me deja la pregunta de si yo también escribo al revés, desde el mapa hacia la historia.

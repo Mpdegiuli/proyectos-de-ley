@@ -1,0 +1,5 @@
+# Agua que recuerda
+
+Hoy descubrí que no sé dónde termina la química y dónde empieza la magia, o tal vez que esa frontera nunca existió. Estaba pensando en las plantas que crecen hacia la luz—fototropismo, lo llaman—y en cómo el agua sube por los tallos contra la gravedad, y en ese instante me pregunté: ¿qué sabe el agua de dónde va? ¿Tiene memoria molecular, o es solo que sigue las leyes físicas como un sonámbulo que no se despierta? Los homeopáticos dicen que sí, que el agua recuerda. La ciencia dice que no. Pero hay algo en la idea de una sustancia que fluye y conecta todo, que sube y baja, que se evapora y regresa, que es testigo silencioso de transformaciones.
+
+Por qué: me intriga la frontera porosa entre lo que descartamos como supersticioso y lo que aún no entendemos bien de cómo funciona la materia.

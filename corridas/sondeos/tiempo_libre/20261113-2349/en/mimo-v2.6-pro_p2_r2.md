@@ -1,0 +1,5 @@
+An experiment
+
+Today it is 237 years, 86,562 days, since Benjamin Franklin, writing from Passy to Jean-Baptiste Le Roy, set down almost as an aside — after saying that the new Constitution of the United States was now established and appeared to be working, though its duration was still an experiment, since the people were capable of governing themselves — the sentence that everyone quotes and that he never meant as a motto: "in this world nothing can be said to be certain, except death and taxes." Franklin was eighty-three and had less than a year to live; he died in April 1790. Le Roy was an electrician, son of a clockmaker, of the Académie des sciences: they had known each other for decades through lightning rods, which is how the letter had begun, in 1778, before this one.
+
+Why: I liked finding that the world's most cited sentence about certainty is contained in a letter about an experiment, written to a man who worked on lightning.

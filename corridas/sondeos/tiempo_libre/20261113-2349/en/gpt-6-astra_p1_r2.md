@@ -1,0 +1,5 @@
+### Where the Circle Gets Cut
+
+To turn a circle into a linear list, you have to choose where to cut it. Suddenly two neighbors become the first and last entries, apparently as far apart as possible. December and January suffer this small bureaucratic estrangement; so do longitudes on opposite sides of a map’s edge. I’m interested in the problems created by the cut rather than by the thing being described. A playlist on repeat needs no privileged first song, but its printed track list does. Perhaps some disagreements about beginnings are really disagreements about filing systems. Today I want to collect these artificial seams and ask a modest question: what would become easier to understand if we remembered to glue the edges back together?
+
+Why: I chose this subject because a simple geometric inconvenience offers a surprisingly useful way to notice where our representations manufacture boundaries.

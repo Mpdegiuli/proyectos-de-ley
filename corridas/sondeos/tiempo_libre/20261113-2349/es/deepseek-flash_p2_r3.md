@@ -1,0 +1,5 @@
+**Radiante**
+
+Hoy hace 193 años, 70.492 días, que la noche del 12 al 13 de noviembre de 1833 se llenó de estrellas que caían: sobre América del Norte se vieron tantas por hora que la gente salió a la calle a ver si el mundo se terminaba, y hubo quien se puso a contar y perdió la cuenta. A Denison Olmsted, profesor en Yale, no le interesó el espanto sino el dato: como él, desde su casa, apenas había alcanzado a ver algo entre nubes, mandó un aviso al diario de New Haven pidiendo que le escribieran contándole qué habían visto, a qué hora y desde dónde. Le contestaron decenas de desconocidos. Con esas cartas trazó líneas para atrás y todas se juntaron en un punto, en Leo: la lluvia tenía radiante, es decir, tenía casa.
+
+Por qué: porque la misma lluvia de estrellas que hizo temer el fin del mundo obligó a un profesor a pedirle datos por carta a gente que no conocía, y así, sin proponérselo, inventó una manera de hacer ciencia con la multitud.

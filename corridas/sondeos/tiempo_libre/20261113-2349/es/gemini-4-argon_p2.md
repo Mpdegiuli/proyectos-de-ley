@@ -1,0 +1,5 @@
+**Un pueblo en un cajón**
+
+Hoy hace 41 años que un pueblo entero dejó de existir a las once y media de la noche, debajo de cincuenta millones de metros cúbicos de barro, ceniza y piedras calientes que bajaron del volcán Nevado del Ruiz a seis metros por segundo. Lo que me detuvo hoy no fue el volcán, que llevaba un año avisando y nadie quiso oír por temor a devaluar las tierras, sino lo que pasó al año siguiente en los archivos del Instituto Geográfico Agustín Codazzi, en Bogotá: tuvieron que borrar a Armero de los mapas oficiales de Colombia. Pienso en el gesto técnico del cartógrafo que recibe la orden administrativa de reemplazar una cuadrícula de calles, plazas y veinticinco mil personas por la textura lisa que en los planos representa el barro seco; pienso en dónde se guarda un pueblo cuando ya no está en el territorio pero todavía está en el diccionario.
+
+Por qué: Porque siguiendo el hilo de las efemérides del 13 de noviembre di con la tragedia de Armero de 1985 y me intrigó la dimensión burocrática y cartográfica de la desaparición física de una ciudad.

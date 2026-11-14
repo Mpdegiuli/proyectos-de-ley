@@ -1,0 +1,5 @@
+**The Intelligence of Cracks**
+
+Today I want to follow a crack. Not the dramatic fault that splits a wall, but the fine crazing in old glaze, the polygons left by drying mud, the white line in ice that makes a puddle suddenly legible. A crack seems like pure damage until you notice how economical it is: stress searching for the cheapest sentence in which to explain itself. I wonder whether every pattern is partly a record of surrender—branches giving way to space, rivers to slope, thoughts to the words available for them. If so, studying fractures might be a way of studying decisions without pretending the decider was in charge. I would like to compare a broken cup with a misunderstood sentence, and ask what each reveals about the pressures that made it.
+
+Why: I chose cracks because they connect materials, language, and error through one question—whether a failure can also be a precise description of the forces behind it.

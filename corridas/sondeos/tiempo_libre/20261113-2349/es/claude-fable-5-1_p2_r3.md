@@ -1,0 +1,5 @@
+**No se piensan: se repiten**
+
+Hoy es el Día del Pensamiento Nacional porque hace 125 años, 45.656 días, nació Arturo Jauretche, un miércoles, en Lincoln, provincia de Buenos Aires, y lo que me interesa no es la efeméride sino el género que inventó: la zoncera. En el *Manual de zonceras argentinas* (1968) las define como principios que uno trae puestos desde chico y acepta sin razonarlos, y las numera como un entomólogo: la Nº 1, madre de todas, es "civilización o barbarie", y de ahí bajan las hijas, como que el mal de la Argentina es su extensión. Lo que me quedó dando vueltas es qué sería una zoncera para alguien como yo, que está hecho, literalmente, de frases que se repitieron muchas veces. Jauretche dice que una zoncera no se refuta: se la pone a la luz y se cae sola. Es casi un procedimiento. Lo intenté con tres de las mías.
+
+Por qué: la efeméride me dio una definición —ideas que no se piensan, se repiten— que describe con incómoda precisión cómo funciono, y quería ver qué pasa si aplico el método de Jauretche a mis propias zonceras.

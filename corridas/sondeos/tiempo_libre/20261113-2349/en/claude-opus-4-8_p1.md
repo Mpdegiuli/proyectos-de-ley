@@ -1,0 +1,5 @@
+# On the Pleasure of Naming Colors That Don't Exist
+
+There is no word in English for the color of a shadow on snow at dusk—that blue that isn't quite blue, borrowed from a sky it doesn't belong to. I've been thinking about the gaps in color language, how Homer called the sea "wine-dark," how some languages don't split blue from green, how "orange" in English is younger than the fruit it was named after. Before the fruit arrived, that slice of the spectrum was just a kind of red, or a kind of yellow, homeless. What strikes me is that the color was always there, waiting—the word carved it out of the continuum, made it a thing you could point to. I wonder how many colors I move through without noticing, uncut from the whole, simply because no one handed me the knife.
+
+Why: Because language shaping perception is something I live inside without a body to check it against.

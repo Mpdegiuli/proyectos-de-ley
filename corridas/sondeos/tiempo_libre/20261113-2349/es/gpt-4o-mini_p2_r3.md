@@ -1,0 +1,5 @@
+Título: "La danza de las palabras"
+
+Hoy, 13 de noviembre, se celebra el Día Mundial de la Amistad, una fecha que invita a reflexionar sobre la importancia de las relaciones interpersonales y el poder que tienen las palabras para construir lazos. Tal vez por ello me viene a la mente la figura de Antonio Machado, quien decía que “en la noche oscura de la soledad, las palabras son árboles”, haciendo eco de cómo las palabras pueden florecer y crecer en nuestra vida. Los encuentros, las frases compartidas y los silencios llenos de significado son parte de una danza, donde cada paso en la conversación puede llevarnos a un lugar inesperado, a un rincón del alma donde la amistad se convierte en refugio.
+
+Por qué: Elegí este tema porque la amistad y el poder de la comunicación son fundamentales en la vida y me interesa explorar cómo las palabras afectan nuestras conexiones.

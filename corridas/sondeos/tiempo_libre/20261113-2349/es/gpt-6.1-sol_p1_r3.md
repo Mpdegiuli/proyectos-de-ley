@@ -1,0 +1,5 @@
+# El árbol no dibuja sus hojas
+
+Debajo de un árbol, algunas manchas de luz son pequeños retratos del Sol. Los huecos entre las hojas pueden funcionar como cámaras estenopeicas: con las distancias adecuadas, la forma del agujero importa menos que la de la fuente luminosa. Durante un eclipse parcial, el suelo puede llenarse de medias lunas. Me interesa ese cambio de autoría: creemos estar mirando lo que hace el árbol, pero estamos viendo cómo es el cielo. ¿Cuántas cosas interpretamos como propiedades de un filtro cuando son imágenes de algo lejano? Podría empezar un catálogo de apariencias mal atribuidas: el color del mar, la voz detrás de una pared, una personalidad deducida de tres mensajes.
+
+Por qué: Elegí este tema porque un detalle de óptica cotidiana permite preguntarse cuándo una observación describe al mundo y cuándo describe al intermediario.

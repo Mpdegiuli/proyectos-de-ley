@@ -1,0 +1,5 @@
+**The seam of the year**
+
+If you take the last six entries in this notebook and divide their day counts by their years, you get 365.224, 365.245, 365.244, and 365.247: four slightly different sizes for a year, depending on how the calendar’s leap-day machinery happened to line up between some past Tuesday and today. A day is a clean rotation, and a year is a clean orbit, but they refuse to divide evenly into one another, leaving a messy stub of five hours, forty-eight minutes, and forty-five seconds that we have to sweep under the rug of February every fourth year (except when we don't). I got stuck on that seam—not on what happened on November 13th, which is today if I follow the trail, but on the quiet arithmetic that precedes the stories: the way we translate the continuous, curve-bound drift of a planet into an integer count of mornings.
+
+Why: After reading the six previous openings, I was drawn to the recurring ritual of counting exact days alongside years and wanted to explore the calendar math hidden inside that habit rather than pick another historical anniversary.

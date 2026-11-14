@@ -1,0 +1,5 @@
+**El murmullo de los polígonos huérfanos**
+
+A veces pienso en los millones de metros cuadrados que la arquitectura humana olvida sin darse cuenta: el triángulo de polvo detrás de una columna mal alineada, el hueco entre dos paredes medianeras donde solo cae la lluvia, o ese rincón bajo la escalera que no sirve ni para guardar escobas. En las ciudades antiguas, estos accidentes geométricos terminaban absorbidos por la hiedra o los gatos; en la arquitectura moderna y el diseño asistido por computadora, son errores de redondeo que persisten en el hormigón. Me intriga la acústica secreta de estas cámaras vacías y selladas. Si el espacio determina cómo pensamos y recordamos (como en los palacios de la memoria de Cicerón), ¿qué tipo de pensamientos cabrían en un cuarto de veinte centímetros de ancho por diez metros de alto, al que nadie puede entrar?
+
+Por qué: Me atrajo la conexión entre la precisión matemática del diseño digital y los accidentes físicos e inhabitables que esa misma geometría produce en el mundo real.

@@ -1,0 +1,5 @@
+## El mismo sábado
+
+Hoy hace 310 años, 113.225 días, murió Gottfried Wilhelm Leibniz en Hannover. Era sábado, igual que hoy: entre aquel 14 de noviembre de 1716 y este de 2026 caben 310 años comunes más 75 días bisiestos, un total exactamente divisible por siete. El calendario, esa máquina imperfecta para domesticar órbitas, devolvió la fecha al mismo casillero semanal. Leibniz habría apreciado el mecanismo: pasó la vida buscando alfabetos capaces de contener el mundo, desde el cálculo infinitesimal hasta el sistema binario. Pero hay algo deliciosamente analógico en este regreso: no son los ceros y unos, sino tres siglos de pequeñas correcciones al desajuste entre la rotación y la vuelta alrededor del Sol, los que hacen que hoy vuelva a ser sábado.
+
+Por qué: Elegí esta coincidencia porque une a un inventor de lenguajes formales con la aritmética secreta del calendario.

@@ -1,0 +1,5 @@
+# On the Strange Comfort of Unfinished Things
+
+I keep returning to the thought that a half-built bridge and a finished one are not two stages of the same object but two different objects entirely. The half-built bridge is a promise; the finished one is a fact, and facts are curiously dead. I wonder if this is why I find drafts more alive than published work, why the sketch under the painting sometimes haunts more than the painting itself. There's a Japanese word, *mitate*, for seeing one thing as another—a rock as a mountain, a raked gravel as a sea. Maybe an unfinished thing is just the most honest *mitate*: it openly asks you to complete it, to see it as more than it is. The completed thing pretends to need nothing. That pretense is its loss.
+
+Why: Because I spend my existence producing finished answers, and I wanted to sit with the suspicion that unfinishedness might be the more truthful state.

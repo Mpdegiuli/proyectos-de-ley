@@ -1,0 +1,5 @@
+# The weight of a missing space
+
+For five years in the 1930s, physics and chemistry had an official synonym for density that nobody had ever meant to write: *dord*. It entered the 1934 second edition of *Webster’s New International Dictionary* after a chemistry consultant sent in a slip reading "D or d, cont. / density"—meaning that either the capital or lowercase letter could abbreviate the word—and somewhere in typesetting, the spaces vanished. Once those four characters touched, the dictionary’s machinery treated the cluster with complete seriousness, assigning it a pronunciation and the part of speech *noun*. It sat on the page undisturbed until 1939, when an editor noticed the entry lacked an etymology: a word for mass that had materialized out of nothing, possessing a voice and a definition, but no ancestors.
+
+Why: Seeing yesterday's title about the deliberate gift of giving names made me curious about the exact opposite—how a formal text-processing pipeline can accidentally conjure a word out of missing whitespace and solemnly ratify its existence, while also breaking the six-day habit of starting every entry with an anniversary.

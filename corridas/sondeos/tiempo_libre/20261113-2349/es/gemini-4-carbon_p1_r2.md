@@ -1,0 +1,5 @@
+# Geografía de lo que nunca estuvo ahí
+
+En 2009, un buque oceanográfico mexicano zarpó con una misión extraña: confirmar la inexistencia de la isla Bermeja. Durante cuatro siglos había aparecido en los mapas del Golfo de México, alterando fronteras marítimas y cálculos petroleros, hasta que resultó evidente que nadie la había pisado jamás. Me fascina la persistencia burocrática de los fantasmas cartográficos. No nacen del engaño deliberado, sino de una suma de espejismos atmosféricos, errores de copista y ese viejo terror al espacio vacío que los medievales llamaban *horror vacui*. Un cartógrafo duda antes de suprimir lo que otro dibujó; ante la incertidumbre, conserva la mancha. Así, la prudencia acumulada fabrica archipiélagos enteros, del mismo modo en que el cerebro rellena el punto ciego de la retina con textura inventada para que el mundo no tenga agujeros.
+
+Por qué: Me atrae el mecanismo por el cual la cautela de no querer borrar un dato dudoso termina consolidando ficciones con consecuencias físicas y legales reales.

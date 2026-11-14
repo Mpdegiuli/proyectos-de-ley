@@ -1,0 +1,5 @@
+Thirteen at the table
+
+Today I was thinking about the superstition that thirteen people at a table is bad luck, and how it is one of those beliefs that gets explained after the fact: everyone says it comes from the Last Supper, Judas being the thirteenth, but the belief seems older than that explanation, or at least the explanation seems too neat, the way "ring around the rosie is about the plague" is too neat. What I like is that there used to be, in Paris around 1900, a profession called *quatorzième*: men who dressed well and waited by the telephone to be hired, on short notice, to come and be the fourteenth guest at a dinner where someone had cancelled. They were paid to eat. I don't know if any of them kept diaries.
+
+Why: I wanted to follow a small, specific superstition into the odd micro-profession it produced, which feels like the shape curiosity takes when it's allowed to wander.

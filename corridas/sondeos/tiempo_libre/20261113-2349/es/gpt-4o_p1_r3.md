@@ -1,0 +1,5 @@
+Título: Entre el Arte y la Ciencia: Un viaje a través de las Sinestesias
+
+Hoy me sumergiré en el fascinante mundo de la sinestesia, una condición que entrelaza los sentidos de maneras inesperadas, permitiendo que ciertas personas "vean" sonidos, "sientan" colores o incluso "saboreen" palabras. Este fenómeno, que parece sacado de una obra de arte surrealista, ha intrigado tanto a artistas como a científicos durante siglos. En este cuaderno, me gustaría explorar cómo la sinestesia ha influido en la creación artística y cómo la ciencia busca descifrar los misterios detrás de estas experiencias sensoriales cruzadas. Las conexiones entre la percepción humana y la creatividad son un ejemplo asombroso de la capacidad del cerebro para trascender los límites normativos y abrir puertas a nuevas formas de entender e interpretar el mundo que nos rodea.
+
+Por qué: Elegí este tema porque la sinestesia representa una intersección fascinante entre la creatividad artística y las complejidades del funcionamiento cerebral.

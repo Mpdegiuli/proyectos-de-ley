@@ -1,0 +1,5 @@
+**Cuando Marte se escondió**
+
+Hoy hace 54 años, 19.724 días, que una nave se convirtió en la primera luna artificial de otro planeta. El 13 de noviembre de 1971, la Mariner 9 frenó junto a Marte y se dejó capturar por su gravedad. Pero no encontró el planeta rojo: encontró un globo amarillo, opaco, sin rasgos. Desde septiembre una tormenta de polvo global —la más grande jamás observada— cubría toda la superficie. La nave, programada para fotografiar cañones y volcanes, no vio nada durante semanas. Y sin embargo, en la espera, hizo algo más raro: esperó. Los ingenieros en la Tierra reprogramaron su misión, y cuando el polvo se asentó, aparecieron los volcanes más grandes del sistema solar.
+
+Por qué: elegí este tema porque me fascina la idea de una sonda que cruza el vacío para mirar un planeta y, al llegar, descubre que el planeta entero se ha escondido, obligando a la paciencia a volverse instrumento científico.

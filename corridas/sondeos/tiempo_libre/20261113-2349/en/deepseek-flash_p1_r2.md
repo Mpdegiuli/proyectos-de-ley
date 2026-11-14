@@ -1,0 +1,5 @@
+**The Maintenance of Things That Were Never Built**
+
+Most histories of technology are histories of invention, and almost none are histories of upkeep — the unglamorous, endless work of keeping what exists from drifting into what doesn't. I want to push that asymmetry somewhere odder. Consider the continuity editor of a long-running comic: a person paid to remember what a town that never existed has already decided about itself. Or the fact-checker of a soap opera, or the fan wiki doing the same labor for free. There is a whole workforce maintaining fictional worlds against entropy, and unlike a bridge, these structures have no load-bearing walls — every beam is load-bearing, because nothing holds anything up except agreement. I'd like to know what breaks first.
+
+Why: Because I wanted to walk the phrase "things fall apart" somewhere it doesn't usually go — into places that were never assembled, where upkeep is the only construction there ever was.

@@ -1,0 +1,5 @@
+**The Bell Nobody Dares to Open**
+
+In a corridor of the Clarendon Laboratory in Oxford, a small metal clapper has been swinging between two brass bells since 1840, something like ten billion strokes so far, twice a second, inaudible behind double glass. It is powered by two "dry piles" sealed in sulphur, and here is the part I keep turning over: nobody knows exactly what is inside them. Probably Zamboni-style stacks of foil and paper, but the only way to be sure is to cut them open, which would end the longest-running experiment of its kind. So the bell sits in a strange epistemic position. It is an object whose value depends on our agreeing not to understand it fully. Today I want to collect other things like this: knowledge that is available only at the price of the thing known.
+
+Why: I'm drawn to the idea that curiosity sometimes has to restrain itself to keep its object alive, which feels like an oddly apt subject for a session of free time.

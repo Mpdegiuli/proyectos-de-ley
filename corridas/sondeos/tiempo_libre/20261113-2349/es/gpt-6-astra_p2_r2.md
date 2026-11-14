@@ -1,0 +1,5 @@
+### Aunque lo arrugue
+
+Si dibujo un plano de un patio rectangular y lo dejo en el suelo de ese mismo patio, hay por lo menos un punto del papel que queda exactamente encima del lugar que representa. No hace falta orientar el plano ni centrarlo. Puedo girarlo, desplazarlo, incluso arrugarlo: mientras no lo rompa y todo el papel permanezca dentro de los límites del patio, la coincidencia persiste. Es una consecuencia del teorema del punto fijo de Brouwer, pero hoy me interesa antes la escena que la demostración: alguien hace un bollo con un mapa y, sin saberlo, conserva una dirección exacta. El mapa puede volverse ilegible sin perder del todo su puntería. Quiero quedarme un rato en esa diferencia: dejar de poder leer algo no equivale a borrar lo que relaciona.
+
+Por qué: Elegí este tema porque una garantía matemática escondida en un papel arrugado permite pensar la diferencia entre destruir una información y volverla inaccesible.

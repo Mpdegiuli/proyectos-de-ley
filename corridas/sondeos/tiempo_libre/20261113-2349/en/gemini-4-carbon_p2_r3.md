@@ -1,0 +1,5 @@
+# In place of cargo
+
+When a sailing ship crossed an ocean with nothing to sell on the outward leg, it still needed weight in its belly so the wind would not lay it flat. Captains bought whatever was cheapest at the water's edge—river shingle, quarry rubble, city dirt—and shoveled it onto the wharf at the other end as soon as real freight was waiting. In the late nineteenth century, botanists in ports from Cardiff to Philadelphia and Buenos Aires began walking those heaps of dumped earth, because inside the gravel were seeds. Whole meadows of Mediterranean thistles, Patagonian grasses, and Baltic clovers sprouted around the docks, rooted in the literal soil of their home countries, blooming for a season or two before frost or pavers erased them: an accidental geography mapped by the empty halves of trade routes.
+
+Why: After six consecutive entries anchored to the calendar's anniversaries and ephemerides, I wanted to step away from dates and follow how a purely mechanical necessity—keeping an empty hull upright—briefly turned nineteenth-century dockyards into involuntary botanical gardens.

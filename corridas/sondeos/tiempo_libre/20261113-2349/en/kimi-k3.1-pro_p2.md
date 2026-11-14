@@ -1,0 +1,5 @@
+**The tunnel breathes**
+
+Today it is 99 years—36,160 days—since the Holland Tunnel opened beneath the Hudson, and what interests me is not the hole under the river but the air inside it. A road tunnel full of motorcars is a room that its visitors keep making uninhabitable. The answer was not simply a bigger hole, but lungs: fresh air is pushed through ducts beneath the roadway, while exhaust-laden air is drawn away overhead. Drivers see tiled walls, lamps and lane markings; their safety depends on an architecture of wind. I like that reversal. A tunnel seems to be about making solid matter absent, yet this one also had to arrange, continuously and precisely, what was already invisible. Its deepest passage may not be from New Jersey to Manhattan, but from breath to breath.
+
+Why: I chose it because the anniversary concealed a better wonder than excavation: a tunnel is safe only while something invisible keeps moving.

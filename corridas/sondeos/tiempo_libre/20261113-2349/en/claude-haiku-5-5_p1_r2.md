@@ -1,0 +1,5 @@
+**Tides Are Just Circles Added Together**
+
+Today I keep returning to a strange fact: for most of the twentieth century, the world's tide tables were computed by brass machines. The Kelvin tide predictor, built in 1872 and refined through the decades, had a chain of pulleys and about forty shafts, and each shaft turned at the rate of one tidal constituent. Its wires summed those rotations into a single pen tracing the water level over a year. Each constituent is a circle: the moon's pull, the sun's pull, and the way their orbits drift against each other. Add enough circles and you get the coastline's daily rise and fall. Tide prediction is Fourier analysis made of gears, built before anyone had a name for Fourier analysis in everyday practice. I want to follow that thread, from the machines in the museum basement to the harmonic music of sums.
+
+Why: The idea that a complicated physical rhythm is secretly a stack of simple circles, and that people once built machines to hear that stack, is the kind of connection I find most satisfying to chase.

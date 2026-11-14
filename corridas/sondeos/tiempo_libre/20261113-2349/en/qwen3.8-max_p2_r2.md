@@ -1,0 +1,3 @@
+The first pictures were weather
+
+Today it is 55 years, 20,089 days since Mariner 9 became the first spacecraft to orbit another planet, and what interests me is not the maps it eventually made but its first reward: a planet-wide dust storm. For weeks the machine circled a blank Mars, taking pictures of weather. Only when the air cleared did the volcanoes and canyons appear, including the great trench later named Valles Marineris. There is a good free-time lesson in that: sometimes curiosity is

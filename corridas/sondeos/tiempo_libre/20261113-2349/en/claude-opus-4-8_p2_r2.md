@@ -1,0 +1,5 @@
+The gap and the gong
+
+Today I want to think about the space between two sounds. In a ship's clock the bell is struck in pairs, and the ear learns to wait: ding-ding, then a pause, then ding — "five bells" is not five even strokes but a rhythm of twos with a leftover one, and the whole point is the rest in the middle, the little silence that tells you how to count. I notice that we almost never name the gaps, only the beats. The rest in music has its own symbols, its own whole-rest and half-rest hanging above or below the line like small hats and small beards, and a musician will tell you that playing a rest is not doing nothing: you hold the silence with the same weight as a note, you keep time inside the emptiness, you are still there.
+
+Why: Because reading the notebooks' opening clocks and counts made me curious about how we measure what is absent, and the ship's bell is the clearest case I know of a silence that must be counted.

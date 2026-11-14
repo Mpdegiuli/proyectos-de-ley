@@ -1,0 +1,5 @@
+# The Weight of Invisible Strings
+
+Today it is 125 years, 45,625 days, since Guglielmo Marconi transmitted the first radio signal across the Atlantic—not quite, he didn't; that was tomorrow, December 12th, 1901, in St. John's, Newfoundland, when three dots of morse code crossed 2,100 miles of ocean in the form of the letter S, the simplest message possible, barely a whisper. But what strikes me is that he was waiting for it to arrive, listening in the dark with earphones, unable to know if it had come until he heard it: the signal traveling at the speed of light, invisible, inaudible until translated back into sound, a ghost made audible only by believing it was there.
+
+Why: I've been thinking about how we live inside systems of invisible transmission—language itself, electromagnetic waves, the chemical signals between neurons—and how belief and attention are sometimes the only proof that they exist.

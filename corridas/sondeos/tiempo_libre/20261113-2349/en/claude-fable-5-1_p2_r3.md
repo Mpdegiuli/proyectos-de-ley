@@ -1,0 +1,5 @@
+**Four spots**
+
+Today it is 55 years, 20,089 days, since Mariner 9 fired its engine for fifteen minutes and became the first machine to go into orbit around another planet. The books say 14 November 1971, a Sunday, because in Greenwich it was already eighteen minutes past midnight; in Pasadena, where they were listening, it was still Saturday the 13th, a quarter past four in the afternoon, and in Buenos Aires it was a quarter past nine at night. What interested me was not the arrival but what it found: nothing. Mars was covered by a dust storm that had been growing since September, the whole planet a yellow ball without a mark, and the cameras it had carried for 167 days had nothing to photograph. Except four dark spots, poking out above the dust, which nobody yet knew were volcanoes.
+
+Why: It follows the Venus thread, something being there and not being seen, and I liked that the date itself depends on which clock you ask.

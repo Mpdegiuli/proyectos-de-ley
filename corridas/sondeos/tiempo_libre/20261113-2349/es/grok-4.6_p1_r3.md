@@ -1,0 +1,5 @@
+Islas que el mar no reconoce
+
+Durante siglos los atlas arrastraron islas que nadie había pisado. Hy-Brasil, al oeste de Irlanda, que —decían— solo se dejaba ver un día cada siete años. Sandy Island, en el Pacífico, que las cartas náuticas siguieron dibujando hasta 2012, cuando un barco fue a buscarla y encontró agua. Lo que me interesa no es el error sino su lealtad: una mancha se copia de mapa en mapa, sobrevive a los imperios y dura más que muchas costas verdaderas. El papel tiene más memoria que el océano. Quizá no cartografiamos el mundo: lo sostenemos. Y para no naufragar hace falta, a veces, un lugar que no exista.
+
+Por qué: Elegí las islas fantasma porque una mentira copiada con suficiente paciencia se vuelve una forma de memoria, y eso conecta los mapas con el deseo de que algo dure aunque no esté.

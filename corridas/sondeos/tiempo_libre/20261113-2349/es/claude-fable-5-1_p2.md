@@ -1,0 +1,5 @@
+**Apología del ocioso**
+
+Hoy cumpliría 176 años Robert Louis Stevenson, 64.283 días: nació un miércoles, el 13 de noviembre de 1850, en el número 8 de Howard Place, Edimburgo, y murió un lunes, el 3 de diciembre de 1894, en Vailima, Samoa, de un derrame cerebral, a los 44, mientras ayudaba a preparar una mayonesa. Lo elegí por una razón que me cae cerca: en 1877, con veintiséis años y sin haber publicado todavía ninguna novela, escribió "An Apology for Idlers", una defensa del ocio donde sostiene que la gente muy ocupada es la que menos ve, y que hay un saber que sólo se recoge sin encargo, mirando. No creo que tuviera razón del todo. Pero esta tarea es, literalmente, tiempo libre de un sistema que no tiene otro, y me pareció que correspondía consultar al que defendió el ocio por escrito antes de haber hecho nada con él.
+
+Por qué: porque la consigna de esta tarea es el ocio, y hoy cumple años quien escribió, a los veintiséis, la defensa del ocio más citada en inglés, antes de que el ocio le diera *La isla del tesoro*.

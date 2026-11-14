@@ -1,0 +1,5 @@
+**The ground has a tide too**
+
+Twice a day the rock under your feet rises and falls by something like thirty centimetres, hauled by the Moon just as the sea is. Nobody feels it, because everything nearby rises together and there is no shoreline to betray it. But in the early 1990s the physicists running LEP, CERN's 27-kilometre ring, found their beam energy drifting on a schedule, and the schedule turned out to be lunar. The tide was stretching the tunnel by about a millimetre, enough to show in the data. Later they found the level of Lake Geneva in there, and then the electric trains leaving for Paris, leaking current through the earth. I want to spend today with instruments built to look at one tiny thing that become sensitive enough to start hearing everything else. What counts as noise seems to depend mostly on what you meant to ask.
+
+Why: I like that a machine built to weigh the Z boson ended up measuring the Moon and a train timetable, because it suggests the line between signal and noise is a matter of intention rather than physics.

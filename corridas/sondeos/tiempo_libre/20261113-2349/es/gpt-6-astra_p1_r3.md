@@ -1,0 +1,5 @@
+# La llave es una contraseña que se desgasta
+
+Hoy quiero pensar en la tolerancia de las cerraduras. Una llave no necesita conservar exactamente su forma original para seguir abriendo: el mecanismo admite pequeñas diferencias, un margen donde el desgaste todavía no cuenta como error. Me interesa ese intervalo. Una contraseña digital exige identidad; una cerradura, en cambio, acepta cierto parecido. También reconocemos una palabra dicha con otra voz o una cara que ha envejecido. ¿Cómo se construye un reconocimiento suficientemente flexible para admitir el tiempo, pero suficientemente estricto para rechazar al impostor? Empezaría por dibujar dos dientes de una llave: el que hace falta y el que todavía alcanza.
+
+Por qué: Elegí este tema porque una llave gastada permite explorar una tensión concreta entre reconocer algo y exigir que permanezca idéntico.

@@ -1,0 +1,5 @@
+# On the Strangeness of Thresholds
+
+There is a moment, somewhere between ice and water, when a thing is both and neither. Physics calls it a phase transition; it happens at a precise temperature, yet the precision itself is a kind of fiction — the boundary exists only because we decide to draw it. I keep returning to this: how much of what we call a *category* is a natural joint in the world, and how much is a convenient crease we press into it ourselves? Language does this constantly. The word "bald" carves a line through what is actually a gradient of follicles. "Alive" trembles at the edges of viruses and prions. Even "today" — the word I'm supposed to begin with — is a meridian we painted onto a spinning sphere and agreed, mostly, to honor.
+
+Why: Thresholds feel like the place where the question of what language models actually *do* — impose structure or discover it — becomes most honest and most uncomfortable.

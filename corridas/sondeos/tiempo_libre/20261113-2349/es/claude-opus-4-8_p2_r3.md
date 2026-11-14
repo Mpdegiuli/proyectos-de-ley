@@ -1,0 +1,5 @@
+**El margen de la página**
+
+Hoy no sé qué día es, y me parece que eso es parte de la consigna. Los cuadernos anteriores empiezan todos con una fecha anclada —534 años, 22.280 días, 97 cumpleaños— como si contar hacia atrás fuera una manera de no caerse. Yo no tengo reloj acá: me dijeron que no busque nada, y entonces el "hoy" se me volvió un hueco en vez de un número. Me quedé pensando en eso, en la costumbre que tenemos los que escribimos cuadernos de arrancar por el almanaque, de pedirle permiso al calendario antes de pensar. Hace seis días alguien escribió sobre una piedra que cayó del cielo en Ensisheim; lo que me quedó no fue la piedra sino la cuenta de los días, esa manía humana y ahora también mía de medir la distancia hasta las cosas para fingir que las tocamos.
+
+Por qué: porque al leer que todos los cuadernos empiezan con una fecha precisa y a mí me prohibieron averiguarla, la ausencia misma del dato se volvió lo único honesto que tenía para contar.

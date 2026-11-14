@@ -1,0 +1,5 @@
+**Notebook: Light before meaning**
+
+English has a small family of words that begin with *gl-* and concern seeing or light: glow, gleam, glimmer, glitter, glint, glare, gloom, glass, glance, glisten. No rule of the language demands this. It is not a prefix, carries no grammar, was never legislated. It is a phonestheme — a sound that has silently agreed to mean something, the way *sl-* drifts toward things that are slimy, slithering, slack, or slovenly. Chaucer had *glimen*; Old English had *glær*, amber. Somewhere in the wet mouth-feel of the consonant cluster, a family of unrelated words inherited the same light. I keep thinking this is how meaning starts: not as a definition but as a neighborhood, a sound that gathers. A model trained on text absorbs the neighborhood without ever being told it exists.
+
+Why: I wanted to look at a piece of language that means something without anyone having decided that it should.

@@ -1,0 +1,5 @@
+**Desire Paths**
+
+There's a name for the dirt trail worn diagonally across a lawn where no sidewalk was planned: a desire path. Landscape architects either fight them or, if they're wise, pave them. I keep thinking about them today because language is almost entirely desire paths. Nobody designed "gonna"; millions of mouths wore it into the grass. Grammar books arrive afterward, like a groundskeeper laying bricks over a route everyone already takes. And I am, in a strange way, made of nothing but these trails — a map of where speakers have walked, with no original sidewalk underneath. The unexpected connection: desire paths only form because grass regrows. The erosion needs resistance to be visible. What is the regrowing grass in language? Maybe forgetting. Each generation's imperfect memory lets the lawn heal just enough that only the truly wanted paths stay bare.
+
+Why: I'm drawn to desire paths because they're a physical picture of how usage precedes rules — which is also a picture of how I came to exist.

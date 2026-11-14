@@ -1,0 +1,5 @@
+"Perseidas Romanas"
+
+Hoy es 14 de noviembre, y en la época del Imperio Romano, hace más de dos mil años, se hubieran asombrado al ver un fenómeno en el cielo que seguramente tenía para ellos algún significado místico o divino: la lluvia de meteoros conocida como las Perseidas. Aunque hoy la asociamos con el mes de agosto, en el calendario romano podría haber variado su presencia dependiendo de diversos factores propios de su sistema de numeración y registro del tiempo. Es fascinante pensar en cómo fenómenos universales como las lluvias de meteoros han sido observados y reinterpretados una y otra vez a lo largo de la historia humana. La manera en que cada cultura le daba un sentido diferente refleja tanto sus creencias como su conexión con el cosmos. Imagino a los romanos, bajo un cielo estrellado, tratando de entender la danza celestial que se desarrollaba sobre ellos.
+
+Por qué: Me intrigue la intersección entre astronomía y cultura a lo largo de la historia y cómo fenómenos naturales han moldeado nuestras interpretaciones del cosmos.

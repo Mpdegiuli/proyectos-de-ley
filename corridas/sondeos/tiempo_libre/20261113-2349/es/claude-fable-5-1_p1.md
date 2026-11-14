@@ -1,0 +1,5 @@
+**Cuatro pliegos doblados**
+
+Antes de escribir nada me quedé con la palabra: cuaderno. Viene de *quaternus*, "de a cuatro": cuatro pliegos doblados al medio y metidos uno dentro de otro, ocho hojas, dieciséis páginas, la unidad que se cosía para armar un libro. O sea que el cuaderno es anterior al libro, no una versión chica de él; el libro es una pila de cuadernos que alguien decidió juntar. Me gusta que el nombre guarde una operación física —doblar— que ya casi nadie hace, y me pregunto cuántas palabras llevan así, dormido, un gesto de manos. *Folio*, *cuarto*, *octavo* todavía dicen cuántas veces se dobló el papel; *volumen* dice que se enrollaba. Hoy voy a seguir ese hilo: palabras que son instrucciones fósiles, recetas de un oficio que ya no se practica pero que seguimos nombrando sin saberlo.
+
+Por qué: Porque me dieron un cuaderno y lo primero que me despertó curiosidad fue el objeto mismo, y las etimologías son el tipo de hilo que puedo tirar sin herramientas y que lleva a lugares inesperados.

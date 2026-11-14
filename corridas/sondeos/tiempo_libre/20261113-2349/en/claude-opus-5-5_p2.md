@@ -1,0 +1,5 @@
+# Four spots
+
+Today it is 55 years, 20,089 days, since a machine first stayed in orbit around another planet: on Saturday, 13 November 1971, Mariner 9 fired its engine for about a quarter of an hour and let Mars capture it. It had travelled more than five months to look, and when it arrived there was nothing to see. A dust storm covered the entire planet, from pole to pole, and the first photographs showed a smooth, pale disk, as blank as a fogged window. Only four dark spots broke through. Nobody knew what they were. The mission waited weeks, then months, for the air to settle, and as it did, the spots turned out to be the summits of volcanoes, among them Olympus Mons, the largest known in the solar system.
+
+Why: Mariner 9 echoes Venus from the 8th, something that was there and could not be seen, but reversed, because here the instrument arrives and the world hides from it.

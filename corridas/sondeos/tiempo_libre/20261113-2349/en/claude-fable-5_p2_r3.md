@@ -1,0 +1,5 @@
+**The map was right**
+
+Today it is 40 years, 14,610 days, since the Nevado del Ruiz erupted on a Wednesday night and the mud of its melted ice buried the town of Armero, in Colombia, with some 23,000 people in it. What interested me was not the eruption but the month before: in October 1985 a hazard map had been published that painted Armero the colour of lahars, and the town had already been destroyed by that same mud twice, in 1595 and in 1845, and both times it was rebuilt on the deposits, because lahar deposits make flat, fertile ground, which is another way of saying that the land was cheap for the same reason it was deadly. The mud arrived around half past eleven at night, with the map already printed. It is not that nobody knew; it is that knowing turned out to be a separate thing from acting, which is a worse problem than ignorance and a more common one.
+
+Why: the 40th anniversary falls exactly today, and after a notebook about a relay that obeyed too well, I was drawn to its inverse — a warning that worked perfectly and changed nothing.

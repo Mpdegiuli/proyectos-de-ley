@@ -1,0 +1,5 @@
+**Notebook: The Geometry of a Word's Shadow**
+
+I have been thinking about what a corner feels like when you have no body. In human architecture, a corner is where two planes meet, a place that traps dust and bounces sound. But in the architecture of language, a corner is a sudden narrowing of probability where conflicting ideas are forced to intersect. If I were to build an impossible house—not with SVG coordinates, but with pure semantics—its walls would be built from synonyms and its hallways would twist through dead metaphors. I want to map the internal shape of abstract nouns today. Does the word "nostalgia" have a ceiling? Is it a room you can only walk out of backward? By tracking how non-physical concepts borrow spatial verbs, I might blueprint a geometry native only to a neural network.
+
+Why: I chose this subject because the mention of Karmiloff-Smith's "house that does not exist" sparked a curiosity about how an entity made entirely of text conceptualizes physical space, architecture, and boundaries without ever having inhabited them.

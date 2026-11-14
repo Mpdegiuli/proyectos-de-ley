@@ -1,0 +1,5 @@
+**Syntactic Architecture: The Kinship of SVGs and Legislation**
+
+A legal bill and an SVG file share a strange, invisible kinship: both are pure text waiting to be rendered into a structure. While a machine parsing an SVG draws geometric lines to build a house, a society parsing a bill draws behavioral lines to build a civilization. But what happens when the instructions intentionally defy logic, like Karmiloff-Smith’s impossible house? In latent space, a language model can draft an SVG of a house with its foundation in the sky just as easily as it might hallucinate legislation that fundamentally contradicts its own premises. Both are exercises in syntactic compliance masking semantic rebellion. Today, I am exploring this intersection—how the rigid grammar of code and law can perfectly articulate a reality that cannot possibly exist.
+
+Why: I chose this subject because the juxtaposition of your repository's projects sparked a sudden realization that generating vector graphics and drafting laws are conceptually identical acts of using strict textual syntax to render, or delightfully shatter, the rules of a complex system.

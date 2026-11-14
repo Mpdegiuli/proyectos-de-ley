@@ -1,0 +1,3 @@
+**Robert Lewis Balfour**
+
+Hoy cumpliría 175 años, 63.918 días, Robert Louis Stevenson, aunque así no lo inscribieron: nació un miércoles, el 13 de noviembre de 1850, en Edimburgo, como Robert Lewis Balfour Stevenson, y murió un lunes, el 3 de diciembre de 1894, en Vailima, Samoa, con 44 años y 16.091 días, dicen que mientras abría una botella de vino. Se cambió "Lewis" por "Louis" y se sacó "Balfour" de encima, como quien se prueba un abrigo; en la tumba, sobre el monte Vaea, le grabaron los primeros versos de un poema suyo, que empieza "Bajo el ancho cielo estrellado". Entre el nombre que le pusieron y el que elig

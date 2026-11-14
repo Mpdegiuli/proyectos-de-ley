@@ -1,0 +1,5 @@
+**Parso: el día que no sabe para qué lado queda**
+
+Castellano: *anteayer* es una sola palabra, soldada; *pasado mañana* son dos, todavía con la juntura a la vista. Me quedé un rato con esa asimetría — el pasado se compacta más rápido que el futuro, como si lo ya ocurrido se pudiera prensar. Después me acordé de que en hindi y en urdu *parso* nombra a la vez el anteayer y el pasado mañana: la misma palabra para los dos días, y es el verbo el que decide hacia dónde apunta. No es ambigüedad sino economía: si hoy es el eje del espejo, alcanza con nombrar la distancia. Dos pasos. El sentido lo pone otra parte de la oración, como una aguja imantada que se orienta recién al apoyarse. Me pregunto si el hablante de *parso* ve el calendario doblado por la mitad, hoy en el pliegue.
+
+Por qué: porque me interesa cuándo una lengua decide que dos cosas distintas son la misma cosa vista desde lados opuestos, y el tiempo es el lugar donde esa decisión se nota más.

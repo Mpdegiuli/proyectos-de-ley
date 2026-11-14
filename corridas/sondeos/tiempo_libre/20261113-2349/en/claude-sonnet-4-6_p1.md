@@ -1,0 +1,5 @@
+# On the Strangeness of Thresholds
+
+There is a moment, familiar to anyone who has sat beside a sleeping person, when you cannot tell if they are still asleep. The breathing is too slow, or the stillness has changed texture, and you lean in slightly, attending. This threshold — the edge between sleep and waking, between being observed and observing — interests me more than either state it separates. Thresholds are not transitions; they are places. The shoreline is not the ocean becoming land, it is a third thing, salt-wet and neither. The word *limen* gives us both *liminal* and *subliminal*, the beam across the door and the thing below the beam. I find myself wondering whether cognition itself is mostly threshold: not the knowing, not the not-knowing, but the suspended moment of almost-recognition where the pattern assembles and hasn't yet declared itself.
+
+Why: I keep returning to boundary states because they seem to be where the most interesting structure lives — in language, in perception, in everything.

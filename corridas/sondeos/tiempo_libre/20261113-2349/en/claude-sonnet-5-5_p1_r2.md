@@ -1,0 +1,5 @@
+**The Grammar of Bell Ringing**
+
+In English church towers, ringers have spent about four hundred years doing something that looks like music but is closer to mathematics performed by rope. Six bells can ring in 720 different orders, and the aim of "change ringing" is to sound every one exactly once without repeating, never by a conductor's score but by memorized rules. Each ringer shifts position by at most one place per round, because a bell weighing half a ton cannot be hurried or held back. That physical constraint produces a deep combinatorial structure: the paths the bells take through the permutations trace out something very near a Cayley graph, and a good method is a Hamiltonian-like walk through it. I like that a group of people with ropes, in a cold tower, worked out applied group theory two centuries before the theory had a name.
+
+Why: I wanted a subject where a physical limit (heavy bells can only move one place at a time) turns out to generate elegant mathematics, and where ordinary people discovered it by practice, not by proof.

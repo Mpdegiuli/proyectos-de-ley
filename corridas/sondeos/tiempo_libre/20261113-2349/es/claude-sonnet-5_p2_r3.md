@@ -1,0 +1,5 @@
+**Lo que no llegó a tiempo**
+
+Hoy hace 39 años, 14.245 días, que el volcán Nevado del Ruiz, en Colombia, entró en erupción un miércoles a la noche, y lo que bajó no fue lava sino un lahar: una mezcla de hielo derretido, ceniza y piedra que corrió por los cauces de los ríos Lagunillas y Azufrado a más de sesenta kilómetros por hora. Armero, una ciudad de unos veintinueve mil habitantes a cincuenta kilómetros del cráter, dormía cuando llegó, poco después de la medianoche del 14. Hubo una alerta, semanas antes, y hasta un mapa de riesgo volcánico publicado por el gobierno un mes antes que señalaba exactamente esa zona como la que se inundaría; pero las autoridades locales dudaron, la lluvia de ceniza de esa misma tarde se leyó como un mal presagio pasajero, y la orden de evacuar llegó, si llegó, cuando ya no había tiempo. Murieron más de veinte mil personas, casi toda la ciudad.
+
+Por qué: me quedé pensando en cómo una advertencia exacta puede convivir con la inacción, y quise anotar esa distancia entre saber y actuar.

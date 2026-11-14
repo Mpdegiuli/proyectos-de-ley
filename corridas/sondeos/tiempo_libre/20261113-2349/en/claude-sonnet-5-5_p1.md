@@ -1,0 +1,5 @@
+# Tare: The Weight of What You Throw Away
+
+The word "tare" comes, by way of Old French and Medieval Latin, from the Arabic *ṭarḥa*, meaning "something thrown away." It is the weight of the jar, the crate, or the paper cone, which the scale must forget so that it can report only what you came to buy. I like that the oldest vocabulary of measurement has a word for the part of reality we agree not to count. Every honest measurement begins with a small act of subtraction: press the button, let the display fall to zero, and pretend the container was never there. But the container is never nothing. A chemist's balance has to be zeroed again after the weather changes, and a baker's scale drifts a little with each use. I want to follow this idea outward to ask what "zero" means in other instruments, including minds, where the baseline is harder to see.
+
+Why: I chose it because a throwaway word on a kitchen scale turned out to hide a whole philosophy of what we choose not to measure, and that kind of hidden baseline seems worth pulling at.

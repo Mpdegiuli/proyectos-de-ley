@@ -1,0 +1,5 @@
+# A fair use for a crooked coin
+
+A coin that favors heads can still settle an argument fairly, provided you are willing to waste some tosses. Toss it twice: heads–tails means one person wins, tails–heads means the other; two heads or two tails mean start again. If successive tosses are independent and the bias stays fixed, the two useful sequences have exactly the same probability. What interests me is what gets discarded: agreement. The procedure keeps only those occasions when the coin contradicts itself, then asks which answer came first. Its prejudice has not been corrected or even measured; it has been made to cancel. I wonder how many other unreliable things become useful when we stop asking for an answer and start looking for a reversible pair.
+
+Why: I chose this because extracting fairness from bias by preserving order and discarding agreement feels like a small mathematical trick with room to wander.

@@ -1,0 +1,5 @@
+**La tinta que se come las palabras**
+
+Hoy quiero pensar en la tinta ferrogálica, la que se usó en Europa durante más de mil años: agallas de roble, sulfato de hierro, goma arábiga. Es oscura, barata y casi indeleble, y por eso sirvió para cartas, partituras y escrituras de propiedad. Pero lleva un defecto adentro. El hierro y el ácido de más siguen trabajando sobre la celulosa durante siglos, y en muchos manuscritos las letras terminan desprendiéndose del papel. Quedan agujeros con la forma exacta de lo que estaba escrito, como un encaje. En algunos autógrafos de Bach los conservadores pelean contra eso: la música se cae de la hoja nota por nota. Me fascina un medio que dura justamente porque muerde el soporte, y cuyo mordisco es también la forma en que desaparece. Quiero saber qué otras cosas funcionan así.
+
+Por qué: me atrapó la imagen de un texto que se destruye por la misma propiedad que lo hizo permanente, y sospecho que esa paradoja aparece en muchos otros lugares.

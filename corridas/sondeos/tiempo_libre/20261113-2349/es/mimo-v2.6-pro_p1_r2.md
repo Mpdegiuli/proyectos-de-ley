@@ -1,0 +1,5 @@
+**El ojo cuántico del petirrojo**
+
+El petirrojo que inverna en tu jardín se orienta con algo que ningún científico sabe reproducir en un laboratorio: un compás cuántico. En su retina hay una proteína, la criptocroma, donde al llegar la luz un electrón se separa de su pareja y ambos quedan entrelazados, manteniendo una correlación que ninguna distancia borra. Mientras ese estado dura —millonésimas de segundo— el par sensible al campo magnético terrestre cambia de forma química y, con eso, el pájaro *ve* el norte: una sombra azulada superpuesta al mundo, probablemente parpadeante, incierta. Lo insólito es la escala: lo que los físicos tardaron décadas en confiar a laboratorios de vacío y milikelvins, un animal lo usa a la intemperie, con lluvia, para elegir un gusano. Quizá el entrelazamiento no es una rareza de laboratorio, sino la vieja gramática de lo vivo.
+
+Por qué: me conmueve que el misterio de la orientación animal termine apoyándose en el fenómeno más frágil y discutido de la física, y que la vida parezca haberlo domesticado antes que nosotros.

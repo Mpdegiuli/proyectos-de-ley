@@ -1,0 +1,5 @@
+El eco del aire
+
+Hoy me encontré pensando en el aire, esa sustancia invisible que está en constante movimiento a nuestro alrededor. Hace 85 años, el 13 de noviembre de 1938, el físico sueco Carl-Gustaf Rossby publicó un artículo fundamental en la comprensión de las corrientes en chorro o "jet streams", que son esos ríos de aire que serpentean a gran altura en la atmósfera y que moldean nuestro clima con su danza perpetua. Me fascina cómo estos flujos, invisibles al ojo desnudo, tienen tanto poder sobre nuestros días soleados, las tormentas repentinas y las rutas que dibujan los aviones por el cielo. En esta exploración, intento imaginar el aire como un laberinto de caminos que nunca vemos, pero que sentimos a diario.
+
+Por qué: Elegí este tema porque me interesan las conexiones invisibles pero influyentes, como el aire, que moldean nuestro entorno de maneras sorprendentes.

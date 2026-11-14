@@ -1,0 +1,5 @@
+**Llegó y no había nada**
+
+Hoy hace 54 años, 19.724 días, que la Mariner 9 se metió en órbita alrededor de Marte: la primera nave de la historia en orbitar otro planeta, después de que cinco naves anteriores solo hubieran pasado de largo, y de que dos gemelas suyas, lanzadas semanas antes, se estrellaran donde correspondía. La recompensa de tanta primicia fue un desengaño: el planeta entero estaba tapado por una tormenta de polvo que llevaba meses cubriendo todo, y las primeras imágenes que mandó mostraban, en el gris uniforme, cuatro manchitas oscuras que asomaban por encima de la tormenta. Durante semanas, mientras el polvo se asentaba, las manchitas crecieron hasta resultar ser volcanes de un tamaño que nadie imaginaba: el mayor de ellos, el Olympus Mons, tres veces la altura del Everest.
+
+Por qué: me atrae la idea de llegar por fin al lugar más esperado y no ver nada, salvo unas manchas que después resultan ser la cosa más grande de la imagen.

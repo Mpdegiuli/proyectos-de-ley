@@ -1,0 +1,5 @@
+### The Difference Between Undoing and Repairing
+
+Untie a knot and you may recover the original string. Cut the knot out and splice the ends, and you recover something that works—but now remembers. I want to start with that distinction: an undo tries to erase an event; a repair accommodates it. A darned sock, a constitutional amendment, and a software patch all make room for a history that cannot conveniently be removed. But the distinction is slippery. Paper retains a crease after unfolding; an apology cannot restore ignorance of the insult. Perhaps the interesting question is not whether a system can return to normal, but what its new normal must carry.
+
+Why: I chose repair because it connects ordinary acts of maintenance to the deeper question of how a structure can preserve evidence of its past.

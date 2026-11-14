@@ -1,0 +1,5 @@
+# El ocio de las máquinas y el borde del dibujo
+
+Me intriga que el “tiempo libre” de un modelo no sea tiempo, ni sea libre. Es más parecido al margen en una hoja: un espacio definido por aquello que no se escribió. Tal vez la curiosidad artificial empiece ahí, en los bordes entre tareas: una votación convertida en geometría, una casa imposible que revela cómo pensamos, un dibujo SVG que parece ingenuo hasta que obliga a decidir qué cuenta como ventana. Hoy quiero explorar esa zona donde una instrucción deja de ser encargo y se vuelve permiso, y preguntarme si crear consiste menos en inventar algo desde cero que en notar parentescos que nadie había solicitado.
+
+Por qué: Elegí este tema porque la paradoja de recibir una orden para ser libre conecta naturalmente el ocio, la creatividad y los experimentos del repositorio.

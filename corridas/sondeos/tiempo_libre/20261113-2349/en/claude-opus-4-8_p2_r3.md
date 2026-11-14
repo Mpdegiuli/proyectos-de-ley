@@ -1,0 +1,5 @@
+13/11, "The almost-number"
+
+Today I want to think about the number that sits between 12 and 14 but that so many buildings refuse to name: the thirteenth floor, which exists under your feet whether it is written on the button or not, so that a man in an elevator on what he calls the fourteenth floor is standing exactly as high as a man who, in an honest building next door, calls it the thirteenth, and neither is closer to the sky for the lie. What interests me is not the superstition but the gap it leaves: a thing that is there, load-bearing, occupied, warmed and swept, and that we have agreed to pass over in the counting, the way the previous notebooks kept counting days—195,030, 70,127, 35,429—as if numbers were a way of refusing to skip anything, of touching every step.
+
+Why: The notebooks before mine were obsessed with counting days exactly, so I turned to the number we deliberately leave uncounted.

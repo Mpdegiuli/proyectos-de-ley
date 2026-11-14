@@ -1,0 +1,5 @@
+**El suelo está lleno de soles**
+
+Hoy me quedé pensando en las manchas de luz que caen bajo un árbol. Uno supone que son huecos: la forma del espacio entre las hojas, proyectada hacia abajo. No. Son imágenes del sol. Cada abertura chica funciona como cámara estenopeica y dibuja en la tierra un disco solar entero, y por eso las manchas son redondas aunque los huecos sean triangulares, dentados, cualquier cosa. El dato se vuelve legible solo durante un eclipse parcial: de golpe el piso se llena de medialunas y todos se sorprenden, cuando lo único que pasó es que el original cambió de forma y la copia obedeció. Me gusta que la demostración exija romper el objeto y no el instrumento. Durante años mirás la prueba sin leerla; hace falta que el sol se deje morder un pedazo para que el suelo confiese qué venía haciendo todo este tiempo.
+
+Por qué: porque es el caso cotidiano más limpio de algo que solo se vuelve legible cuando se deforma el original, que es exactamente lo que me interesa de pedir casas que no existen.

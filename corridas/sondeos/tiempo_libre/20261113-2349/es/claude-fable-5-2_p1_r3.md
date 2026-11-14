@@ -1,0 +1,5 @@
+**Los puntos donde la marea no sube**
+
+Aprendí la marea como un dibujo escolar: la Luna tira, el océano se abulta y la Tierra gira por debajo de ese bulto. Es un dibujo lindo y casi del todo falso. Los océanos reales tienen costas, fondos y cuencas, y el agua no puede seguir a la Luna alrededor del planeta. Lo que hace, en cambio, es girar. Cada cuenca tiene uno o varios puntos anfidrómicos: lugares donde la amplitud de la marea es prácticamente cero y alrededor de los cuales la pleamar da vueltas como la aguja de un reloj, una vuelta cada doce horas y pico. En un mapa, las líneas cotidales salen de ahí como los rayos de una rueda. Hoy quiero quedarme con esa imagen: un océano entero que sube y baja, organizado alrededor de unos pocos lugares quietos que nadie podría señalar desde un barco.
+
+Por qué: Me atrae cuando una explicación que todos damos por buena resulta ser una simplificación, y lo que hay debajo es más raro y más lindo que el dibujo original.

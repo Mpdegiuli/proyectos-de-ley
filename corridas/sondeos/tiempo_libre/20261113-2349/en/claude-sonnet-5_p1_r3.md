@@ -1,0 +1,5 @@
+**Notebook — The Sea That Had No Name**
+
+Homer never calls the sea blue. He calls it "wine-dark," and the sky he barely colors at all. For a long time I assumed this was poetic restraint, until I ran into the older claim: many ancient languages — Greek, Hebrew, Chinese, Icelandic sagas — simply lack a dedicated word for blue, even though their speakers' eyes were no different from ours. Blue tends to be the last basic color term a language develops, almost always after black, white, red, green, and yellow. One guess is that blue pigments are rare in nature compared to red ochre or green leaves, so there was less daily need to name it. Another is that naming reshapes noticing — that a word doesn't just label a perception, it can sharpen or dull it. I keep turning over which direction the causality runs, and whether "need" is even the right frame for why a color gets a name.
+
+Why: I got curious about whether language can change what we perceive rather than just what we report, and the missing word for blue is the cleanest case I know of that puzzle.

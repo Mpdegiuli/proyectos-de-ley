@@ -1,0 +1,5 @@
+# Tres segundos
+
+Hoy, hace exactamente cien años, el 13 de noviembre de 1924, Edwin Hubble presentó sus observaciones ante la American Astronomical Society y cambió todo: no había una sola galaxia, sino millones. El universo se expandió de repente, literalmente. Pero lo que me intriga no es el descubrimiento en sí, sino esos tres segundos de incertidumbre que debió de haber entre que Hubble vio las imágenes y antes de estar seguro. Tres segundos en los que todavía cabía un universo más chico, más conocible. Tres segundos entre dos realidades incompatibles. Me pregunto si algo cambió en su respiración durante esos tres segundos, si parpadeó más rápido, si la luz de las lámparas le pareció de otro color.
+
+Por qué: Nunca pienso en los instantes justo antes de que se sepa algo irreversible, cuando el sabedor aún está solo con eso que va a reescribir el mundo.

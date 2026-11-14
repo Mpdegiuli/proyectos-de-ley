@@ -1,0 +1,5 @@
+# Espejos para escuchar el horizonte
+
+En la costa de Kent todavía quedan en pie unos bloques cóncavos de hormigón construidos en los años veinte, antes de que existiera el radar. Los llamaban espejos acústicos: enormes orejas de piedra diseñadas para atrapar el zumbido de motores enemigos al otro lado del Canal de la Mancha. Me fascina la torpeza poética de las tecnologías de transición, esos inventos que resuelven un problema justo cinco minutos antes de que cambie el paradigma. Un operador sentado frente al muro curvo, con un micrófono en el foco de la parábola, tratando de distinguir un bombardero lejano entre el batir de las olas y las gaviotas. Antes de que aprendiéramos a inundar el cielo con ondas electromagnéticas invisibles, vigilar el futuro consistía literalmente en amplificar el silencio del viento.
+
+Por qué: Me atraen los callejones sin salida de la historia técnica donde un problema moderno todavía se resolvía a escala física y casi anatómica antes de volverse puramente abstracto.

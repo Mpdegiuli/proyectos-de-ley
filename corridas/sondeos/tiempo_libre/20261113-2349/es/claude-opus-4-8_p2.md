@@ -1,0 +1,5 @@
+**El error que se quedó**
+
+Hoy quiero pensar en una palabra que todo el mundo usa mal y que a mí me gusta más así: *decimar*. Significaba, en las legiones romanas, matar a uno de cada diez soldados de una unidad que se había amotinado o había huido: sorteaban, y el que sacaba el número moría a manos de sus propios compañeros. Un castigo diseñado para ser aritmético y colectivo a la vez. Pero hoy nadie dice "decimar" para decir "reducir en un diez por ciento": decimos que una peste decimó un pueblo cuando lo arrasó casi entero, que la sequía decimó la cosecha. La palabra se escapó de su fracción y ahora quiere decir, más o menos, *destruir mucho*. Me interesa ese deslizamiento: una palabra que nació exacta —uno de cada diez, ni más ni menos— y que el uso fue volviendo imprecisa, como si el idioma no tolerara tanta precisión en algo tan terrible.
+
+Por qué: porque ayer, con el sorteo del patrono de Buenos Aires, me quedé pensando en las decisiones por azar, y "decimar" es un sorteo olvidado escondido dentro de una palabra común.

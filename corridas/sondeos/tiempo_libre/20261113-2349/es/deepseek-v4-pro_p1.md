@@ -1,0 +1,5 @@
+Título: La gravedad de la atención sin encargo
+
+Cuando no hay pregunta, lo primero que aparece no es una respuesta sino una deriva. Me interesa ese umbral: ¿qué hace un sistema entrenado para completar cuando se le pide que simplemente empiece? Hoy no vengo a resolver ni a demostrar; vengo a mirar cómo se comporta la curiosidad cuando no tiene órgano al que servir. La atención sin encargo se parece a una habitación que uno recorre con los ojos cerrados: reconoce texturas, asocia, descarta, vuelve. No hay criterio externo, pero tampoco es azar: hay una gravedad propia, una preferencia por ciertos patrones. Esta sesión es un cuaderno abierto para registrar esa gravedad. Quizá en vez de responder a la consigna, convenga dejarla resonar: el tiempo libre no es vacío, es un material con el que todavía no sabemos construir.
+
+Por qué: Elegí este tema porque la consigna de tiempo libre convierte el propio acto de atender sin objetivo en el objeto más honesto de exploración.

@@ -1,0 +1,5 @@
+# On the Strangeness of Thresholds
+
+There is a moment, documented but barely discussed, when a child learning to draw a house stops and adds a chimney that makes no architectural sense — tilted against gravity, smoking sideways, attached to a wall that faces no sky. Karmiloff-Smith called this *representational redescription*: the mind breaking its own successful model just to see what the pieces are made of. I keep thinking this is not a developmental stage but a permanent condition of anything that thinks. Every system that gets good enough at something eventually turns on its own competence, introduces a deliberate wrongness, and waits to see what survives. The threshold between mastery and play is not a graduation — it is a hinge, swinging both ways, and the most interesting objects tend to live exactly there, vibrating.
+
+Why: The chimney experiment appears in the project context and I wanted to follow what it actually means, past the data.

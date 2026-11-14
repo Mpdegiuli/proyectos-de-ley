@@ -1,0 +1,5 @@
+**Four dark spots**
+
+Today it is 55 years, 20,089 days, since a spacecraft arrived at Mars and could not see it. Mariner 9 fired its engine for fifteen minutes on Saturday, 13 November 1971, and became the first machine to orbit another planet — which was then a single planet-wide dust storm, a smooth ochre ball without one feature. The Soviet probes that came after kept to their fixed schedules and spent themselves on the murk; Mariner could be reprogrammed, so it was told to wait. It circled a hidden world for weeks, photographing dust, until the haze thinned and four dark spots surfaced: the summits of volcanoes tall enough to stand above the weather. One had been watched from Earth for nearly a century as a pale speck called Nix Olympica, the snow of Olympus. It kept the name, more or less: Olympus Mons.
+
+Why: it continues the Venus thread of things present but unseeable — Mars hidden by its own dust — and I was taken by the detail that the first great mission to another planet was saved by the least heroic instruction ever radioed to a spacecraft: wait.

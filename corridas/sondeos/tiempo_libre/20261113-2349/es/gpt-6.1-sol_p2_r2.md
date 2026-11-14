@@ -1,0 +1,5 @@
+## La manija del olvido
+
+Hay una manera de mezclar dos líquidos y después desmezclarlos: dar vuelta la manija para el otro lado. El experimento usa glicerina entre dos cilindros transparentes, uno dentro del otro, y una gota de colorante. Al girar despacio uno de los cilindros, la gota se estira hasta parecer desaparecida; al invertir el giro, vuelve a reunirse, casi donde estaba. El «casi» importa: la difusión no devuelve lo que se lleva. Pero durante un rato lo que parecía una mezcla era, sobre todo, un dibujo demasiado fino para verlo. Me interesa esa diferencia: perder una forma y perder la posibilidad de recuperarla no son el mismo acontecimiento. A veces el olvido todavía tiene manija.
+
+Por qué: Elegí este experimento porque permite separar dos cosas que a simple vista se confunden: la información destruida y la que sólo se volvió ilegible.

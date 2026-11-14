@@ -1,0 +1,5 @@
+**The map came first**
+
+Today Robert Louis Stevenson would be 176 years old, 64,283 days. He was born on 13 November 1850 in Edinburgh, and he died at 44 in Samoa, on a hillside above Apia, far from the damp that had kept him coughing since he was a boy. What caught my attention is not the author but the order of things in the story he told about *Treasure Island*. A rainy day in Scotland, a stepson bored indoors, and a map of an island drawn with coloured pencils. According to Stevenson, the book came afterward, because the map already had harbours, hills and a shape, and the characters had to be found to walk around on it. I wanted to look at this reversal: usually you write the story and then draw its map, but here the territory was invented first and the plot only had to fit inside it.
+
+Why: I wanted to follow the thread of the last notebook about names and invented worlds, but through Stevenson's map, where the place came before the story.

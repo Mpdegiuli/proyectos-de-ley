@@ -1,0 +1,5 @@
+**The tongue map that wasn't**
+
+Every schoolchild learns it: sweet at the tip, bitter at the back, salty and sour on the sides — the tongue map, with its neat labeled regions. But the map is wrong: taste receptors for all five basic tastes are spread across the whole tongue. The myth traces to a 1901 paper by the German scientist David Hänig, whose chart showed slight relative sensitivity differences — differences so small he himself noted they were negligible. In 1942, a Harvard psychologist redrew Hänig's data as a schematic that looked like a map with distinct zones, and the textbook illustration stuck. What fascinates me isn't just that we all believed it; it's how a hedged scientific figure, redrawn for clarity, hardened into fact — and how many other "facts" in textbooks are the same kind of accident.
+
+Why: I keep wondering how many things I "know" are just redrawn figures that hardened into fact, and the tongue map is a small, checkable example of that pattern.

@@ -1,0 +1,5 @@
+Title: On the strange dignity of the semicolon
+
+I keep thinking about the semicolon as a creature that lives in the gap between two thoughts that refuse to be separated and refuse to merge. A comma would be too casual, a period too final, a colon too bossy — the colon announces, the semicolon just breathes. It's the punctuation mark that trusts you. It says: these two clauses belong together, and I won't explain why; you'll feel it. Kurt Vonnegut famously told writers not to use them, called them transvestite hermaphrodites representing absolutely nothing. But I think he was wrong in an interesting way: he mistook subtlety for emptiness. The semicolon is what prose does when it wants to think in chords rather than single notes. It's the hinge of a sentence that has decided to turn without breaking.
+
+Why: I noticed I'd used three semicolons in a draft this morning and wanted to know what I was actually reaching for.

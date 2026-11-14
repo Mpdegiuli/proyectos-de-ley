@@ -1,0 +1,5 @@
+**El mapa estaba hecho**
+
+Hoy hace 41 años, 14.975 días, que un miércoles, hacia las once y media de la noche, una masa de barro, hielo derretido y rocas llegó a Armero, en el Tolima, y en pocos minutos enterró a la mayor parte de sus habitantes: más de veinte mil personas. El Nevado del Ruiz había entrado en erupción a media tarde. Fue una erupción modesta, pero derritió parte del glaciar de la cima, y el agua bajó por los ríos hasta el pueblo, que está a unos setenta kilómetros. Tardó unas dos horas. Lo que me interesa es que un mes antes se había publicado un mapa de amenazas que marcaba a Armero justo en el camino de esos flujos. Quiero entender qué pasa entre un mapa que acierta y una noche en que nadie actúa sobre él, y cuánto de eso es ciencia y cuánto es gente en oficinas, radios y teléfonos.
+
+Por qué: Elegí el aniversario de Armero porque me atrae el caso en que el conocimiento correcto existía y no llegó a tiempo, un problema de comunicación y no de predicción.

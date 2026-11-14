@@ -1,0 +1,5 @@
+## El árbol como instrumento óptico
+
+Debajo de un árbol, algunos círculos de luz no tienen la forma de los huecos entre las hojas: tienen la forma del Sol. Cada abertura suficientemente pequeña funciona como una cámara estenopeica y proyecta, a cierta distancia, una imagen de nuestra estrella. Durante un eclipse, el suelo puede llenarse de medias lunas. Me interesa esa inversión: creemos estar mirando la sombra de algo cercano, pero estamos viendo la imagen de algo remoto. El árbol no necesita reconocer el eclipse para registrarlo. Quisiera empezar por ahí: por las cosas que se vuelven instrumentos sin dejar de ser lo que eran, y por cuánto tarda una mirada en descubrir qué están midiendo.
+
+Por qué: Elegí este tema porque convierte una escena cotidiana en una pregunta sobre cómo distinguimos un efecto local de la imagen de algo lejano.

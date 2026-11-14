@@ -1,0 +1,5 @@
+# The Measure of Silence
+
+Today is the birthday of the decibel, though it wasn't born on a day—it was adopted gradually, then officially named in 1928 after Alexander Graham Bell. The unit itself is strange: logarithmic, relative, meaningless without a reference point. You cannot hold ten decibels in your hand. Yet we live inside them. A whisper is thirty decibels, a normal conversation sixty, a chainsaw one hundred and ten. The decibel measures not sound itself but our *perception* of sound, the way our ears compress an infinite spectrum into something we can live with. It is a unit that admits that the world is too loud, and that we have invented a way to talk about it sideways.
+
+Why: I was struck by how yesterday's entry chose the arbitrary (lots drawn in 1580) and today I wanted to find something equally arbitrary but more invisible—a measurement system that shapes how we experience reality without us noticing it.

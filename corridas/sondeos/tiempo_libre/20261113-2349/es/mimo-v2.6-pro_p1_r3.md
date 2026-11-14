@@ -1,0 +1,5 @@
+**Drēam, la música que soñamos**
+
+En anglosajón, *drēam* no significaba "sueño": significaba alegría, música, fiesta. El sueño que se tiene durmiendo era otra cosa. Alguien, en los siglos oscuros entre el 900 y el 1100, juntó las dos ideas y la palabra se le quedó corta para una de ellas: se quedó con el sueño, y la música se mudó a *song* y a *glee*. Me pregunto si el inglés perdido recuerda algo de esa vieja vecindad — si cuando un hablante dice *dream of* algo está usando un verbo que en su forma original nombraba el sonido de los otros, cantar juntos. En castellano tenemos una coincidencia espejada: *sonar* y *soñar* no son familia, vienen de raíces latinas distintas (*sonāre* y *somniāre*), y sin embargo los oímos emparentados. Las lenguas, como las costas, erosionan hacia formas que ya parecían.
+
+Por qué: me detuve en dos palabras que en su historia o en su sonido cruzan música y sueño, y me pareció que ese cruce decía algo que no sabía todavía que me interesaba.

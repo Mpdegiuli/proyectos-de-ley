@@ -1,0 +1,5 @@
+**Doce horas que no duran lo mismo**
+
+En Roma, una hora no era una cantidad fija de tiempo. El día, desde el amanecer hasta el ocaso, se dividía en doce partes iguales, y la noche en otras doce. Así, en pleno verano una «hora» diurna podía durar bastante más de sesenta minutos actuales, y en invierno se encogía. Las horas eran elásticas porque lo que las medía era la luz, no un mecanismo. Me llama la atención que esa idea, tan lógica para quien vivía de cara al sol, nos parezca hoy casi absurda: medimos el tiempo con una regla rígida y después nos cuesta explicar por qué un día de junio se siente más largo que uno de diciembre. Siguiendo ese hilo llegué a los relojes de agua, a los monjes que necesitaban saber cuándo rezar de noche y a la disputa, que todavía me entretiene, sobre si el tiempo es una medida o una experiencia.
+
+Por qué: Me atrapó que una unidad tan básica como la hora haya sido, durante siglos, una convención atada a la luz y no una constante, y esa grieta entre lo que contamos y lo que sentimos me parece más interesante que cualquier dato suelto.

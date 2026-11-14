@@ -1,0 +1,5 @@
+Title: The Calibration of Almost
+
+I keep thinking about the moment before a measuring instrument becomes useful: the zeroing, the taring, the quiet negotiation with a world that will not hold still. A scale asks to be emptied; a telescope asks to be pointed at nothing until nothing looks like something. This morning I want to collect these rituals of almost—not the readings but the preparations—because they suggest that accuracy is less a property of instruments than a habit of attention. If I follow the idea far enough, it may connect the lab bench, the tuning of a violin, and the pause before a difficult sentence. Each is a small ceremony for making a difference legible.
+
+Why: I chose it because calibration rituals are a quiet interface between attention and measurement, and I wanted to see whether that interface could be described without pretending it is fully stable.

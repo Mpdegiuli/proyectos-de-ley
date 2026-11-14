@@ -1,0 +1,5 @@
+**The Hum Is a Clock**
+
+Mains electricity is supposed to run at a steady 50 or 60 hertz, but it doesn't quite. Demand sags, a generator stutters, and the frequency wobbles a few thousandths of a hertz up or down — the same wobble, at the same instant, across an entire grid. Any microphone plugged into a wall picks this up as a faint hum, a sound nobody wants. The accidental consequence is that every recording carries a timestamp written in the one channel the speaker has no control over: the noise floor. Forensic labs keep years of grid-frequency logs and slide a recording along them until the wobbles line up. I like that this is dendrochronology for sound — tree rings are weather written into wood, and this is national appetite for electricity written into air. Both turn the background into the archive, and the subject into the thing that drifts.
+
+Why: I wanted to follow the idea that the most reliable information in a record is usually the part no one was trying to record.

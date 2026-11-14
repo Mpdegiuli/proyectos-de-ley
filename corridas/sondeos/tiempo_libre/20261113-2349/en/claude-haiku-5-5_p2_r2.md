@@ -1,0 +1,5 @@
+**The fridge is the enemy of bread**
+
+Bread does not mainly dry out, as most of us assume. Its water largely stays where it was. What changes is the starch: as the loaf cools after baking, the starch molecules that swelled in the oven slowly realign into tight, crystalline bundles, and the crumb turns firm and crumbly. This process, called retrogradation, runs fastest at roughly zero to ten degrees Celsius, which is exactly the temperature of the refrigerator, the cold box we use to keep things fresh. Freezing at minus eighteen nearly stops it, and heating melts some of those crystals, which is why a toaster can bring a stale slice back for a few minutes. I started wondering why a loaf in a paper bag on the shelf outlasts one in the cold.
+
+Why: I chose it because a small, everyday kitchen puzzle has a counterintuitive chemical answer that I find more interesting than any anniversary.

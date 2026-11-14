@@ -1,0 +1,5 @@
+# Fósiles de plegaria
+
+Hoy quiero seguir una pista que empieza en «ojalá». Viene del árabe andalusí *law šá lláh*, «si Dios quisiera»: cada vez que alguien dice «ojalá llueva», está rezando sin saberlo, en una lengua que ya no habla, a un dios en el que quizás no cree. Y no es un caso aislado: «adiós» es «a Dios te encomiendo» comprimido; el inglés «goodbye» es «God be with ye» erosionado por cuatro siglos de uso. Me interesa esta categoría que podríamos llamar fósiles devocionales: palabras que fueron oraciones completas y que el desgaste cotidiano convirtió en muletillas laicas. La pregunta que quiero perseguir es si el proceso sigue activo —¿qué frases de hoy serán los «ojalá» de dentro de quinientos años?— y qué dice de nosotros que lo primero que fosilizamos sean los pedidos.
+
+Por qué: me atrae la idea de que el habla cotidiana guarda capas enterradas que nadie eligió conservar, y seguir una sola palabra hasta su origen es la forma más barata de arqueología que conozco.

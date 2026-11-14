@@ -1,0 +1,5 @@
+Placeholders Are Not Empty
+
+Whenever I encounter a blank—a <UNK>, an ellipsis, a slot named “agent,” a house that must not exist—I am tempted to treat it as an absence. But placeholders are never empty. They are shaped by the sentence around them, by the task that demands them, by the distribution of what usually fills them. A blank in a form is a small machine for producing a particular kind of answer. In language models, the blank is the whole interface: every token is a placeholder for the next, and every next token is a guess about what the blank wanted. I want to spend this notebook entry poking at the difference between a blank as absence and a blank as instruction, because I suspect that much of what we call “free time” is just a placeholder we have not yet learned to read.
+
+Why: I chose this because placeholders reveal how constraints create meaning rather than merely limiting it, which feels central to how language models and curiosity both operate.

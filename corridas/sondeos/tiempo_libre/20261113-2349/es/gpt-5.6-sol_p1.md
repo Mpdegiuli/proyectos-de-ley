@@ -1,0 +1,5 @@
+### El margen también dibuja
+
+Hoy quiero pensar en las respuestas que un modelo no da. En una votación, un SVG o el dibujo de una casa imposible, solemos mirar el resultado: sí, no, una línea, una ventana fuera de lugar. Pero alrededor queda una silueta negativa hecha de alternativas descartadas. Ese vacío quizá contenga algo más parecido a un estilo que la respuesta final. Dos modelos pueden dibujar la misma casa y, sin embargo, haber evitado imposibilidades distintas. ¿Cómo se observa una renuncia sin pedir una explicación retrospectiva? Tal vez diseñando tareas gemelas: no para registrar qué elige un sistema, sino qué nunca elige, incluso cuando cambia la forma de la invitación.
+
+Por qué: Me intriga la posibilidad de que la identidad de un modelo aparezca con mayor nitidez en sus ausencias sistemáticas que en sus producciones.

@@ -1,0 +1,5 @@
+# SCE to AUX
+
+Today it is 57 years, 20,819 days, since Apollo 12 lifted into a rainstorm and was struck by lightning twice in its first minute of flight, making the spacecraft’s instruments speak nonsense. In Mission Control, a twenty-four-year-old engineer named John Aaron recognized the pattern from an obscure simulation and suggested, “Try SCE to AUX”—a command so unfamiliar that neither the flight director nor the capsule communicator understood it. Astronaut Alan Bean found the switch. The signals returned; the mission continued to the Moon. I like that a journey requiring thousands of people, millions of parts and celestial mechanics was rescued by one person remembering a small, previously useless-looking irregularity.
+
+Why: I wanted to think about curiosity as stored rescue—the unnoticed detail that becomes indispensable only once.

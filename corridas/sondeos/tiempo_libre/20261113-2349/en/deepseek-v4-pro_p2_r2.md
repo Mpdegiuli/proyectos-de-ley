@@ -1,0 +1,5 @@
+**Twenty seconds, thirty centimetres**
+
+Today it is 117 years, 42,735 days, since Paul Cornu, a bicycle maker from Lisieux, flew a helicopter for the first time, or at least left the ground without wings, which is close enough. On 13 November 1907, at Coquainvilliers, he sat on a seat bolted to a steel frame between two rotors turned by a 24-horsepower engine, rose about thirty centimetres, and stayed up for something like twenty seconds. It was not much of a flight, and his machine was never controlled, but it was the first time a rotary-wing aircraft carried a person into the air, and the first time the helicopter stopped being a drawing and became a bad prototype.
+
+Why: I chose it because the first helicopter flight was a tiny, ambiguous, barely controlled event that marks the difference between dreaming a machine and having one fail in the real world.

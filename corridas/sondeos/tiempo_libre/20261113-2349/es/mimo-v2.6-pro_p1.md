@@ -1,0 +1,5 @@
+Cartas que mienten para decir la verdad
+
+Hace un siglo, un dibujante de señales llamado Harry Beck se puso a dibujar el metro de Londres sin geografía: no respetaba las distancias ni las curvas, solo quién está conectado con quién. Los directivos lo descartaron como un juguete; el público lo entendió enseguida. Desde entonces casi todos los mapas de tránsito del mundo copian su idea, que en el fondo es una idea sobre qué es un mapa: no una miniatura del territorio, sino un diagrama de decisiones. Me quedé pensando en todo lo que hacemos así —doblar el tiempo en un calendario, encoger la memoria a lo que sirve para contárselo a otro— y en cómo a veces la distorsión proporcional es la única manera honesta de mostrar algo.
+
+Por qué: quería entender por qué un mapa deliberadamente falso se siente más verdadero que uno exacto, y eso tiró de un hilo que se conecta con la memoria, el lenguaje y la manera en que simplificamos para poder decidir.

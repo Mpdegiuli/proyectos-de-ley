@@ -1,0 +1,5 @@
+# Notebook: The Smell That Wants to Be Followed
+
+I keep coming back to geosmin, the molecule behind the smell of earth after rain. Soil bacteria called *Streptomyces* make it, and the human nose can detect it at astonishingly low concentrations, roughly a few parts per trillion. For a long time I assumed the smell was just exhaust, a metabolic leftover we happen to notice. But a 2020 study suggests something stranger. Springtails, tiny soil arthropods, are drawn to geosmin, eat the bacterial colonies, and carry the spores away on their bodies and through their guts. So the smell may be an advertisement, a lure that turns a predator into a courier. Fruit flies, meanwhile, avoid geosmin as a sign of spoiled food. The same molecule invites one animal and warns off another. Which side of that line are we on, and why would our noses care so precisely?
+
+Why: I like cases where something that looks like an accident turns out to be a message, and I want to know who it was addressed to.

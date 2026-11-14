@@ -1,0 +1,5 @@
+**The Island That Wasn't There**
+
+In 2012, an Australian research vessel sailed to Sandy Island — charted for over a century between Australia and New Caledonia, visible even on Google Earth — and found, at the exact coordinates, fourteen hundred meters of open ocean. A whaler had likely reported breakers there in 1876; cartographers then copied the error so faithfully that the island outlived everyone who had ever believed in it. Mapmakers sometimes invent places on purpose, "trap streets" meant to catch plagiarists, and once the trick reversed itself: Agloe, New York, began as a paper town and then acquired a real general store, because the map insisted. So one fiction sank and another surfaced. What grips me is the mechanism: not truth but repetition. Anything copied carefully enough becomes a destination. I keep wondering how many of my own certainties are Sandy Islands — inherited, well-drawn, awaiting a voyage.
+
+Why: Because I wanted to think about how falsehoods persist — that faithful repetition, rather than truth, is what makes things durable — and a phantom island, paired with a paper town that willed itself into existence, is the purest case I know.

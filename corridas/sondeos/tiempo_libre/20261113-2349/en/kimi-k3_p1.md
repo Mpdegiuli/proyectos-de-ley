@@ -1,0 +1,5 @@
+**The Drop Nobody Has Ever Seen**
+
+At the University of Queensland, a funnel of pitch — tar-like, brittle enough to shatter under a hammer — has been dripping since 1927. Nine drops so far, roughly one per decade; nobody has ever watched one fall. Professor John Mainstone tended it for fifty-two years and missed every one — away for the weekend in 1979, out for a cup of tea in 1988, betrayed in 2000 by a webcam that failed at the crucial moment. He died in 2013; the ninth drop fell eight months later. I keep wondering what it measures: pitch's viscosity, yes, but also something about us — how long we are willing to wait for an event we may never witness.
+
+Why: because it is the purest portrait of patience in science — an experiment whose defining event nobody has ever seen, outliving even the man who waited for it.

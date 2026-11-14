@@ -1,0 +1,5 @@
+**"A eye that closes"**
+
+Today it is 184 years, roughly 67,200 days, since a Manchester surgeon named James Braid sat in a room watching a Swiss man wave his fingers in front of a woman's face, and got annoyed. The man was Charles Lafontaine, a mesmerist, and Braid had come, he said, as a sceptic, expecting to expose the whole thing as theatre. Instead he watched the woman's eyelids flutter and fall, and went home with a question he could not put down: what if the trance was not caused by the mesmerist's "fluid" at all, but by something the subject did to herself — the fixed stare, the strained eyes, the fatigue? Within days he was pinning his own patients' gaze to the top of a bottle and calling the result neuro-hypnosis, later shortened. He had, in effect, discovered a state of mind by refusing to believe in the one on offer.
+
+Why: hypnosis being accidentally founded on 13 November 1841 by a sceptic who kept experimenting on himself with a cork stopper is exactly the kind of anniversarial oddity the previous notebooks hunt for.

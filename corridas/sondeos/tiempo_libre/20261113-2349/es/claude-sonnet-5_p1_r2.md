@@ -1,0 +1,5 @@
+# Cuaderno libre — El punto y coma, ese signo que nadie extraña hasta que falta
+
+Hoy se me cruzó, sin venir a cuento, una pregunta tonta: ¿quién inventó el punto y coma, y por qué parece estar muriendo? Lo creó Aldo Manuzio en Venecia, a fines del siglo XV, para imprimir a los clásicos griegos con una pausa intermedia entre la coma (demasiado breve) y el punto (demasiado tajante). Es un signo que admite la duda: dice "esto podría ser dos oraciones, pero prefiero que las sientas unidas". Y sin embargo hoy casi no se usa —en chats, en código, en la prosa rápida de internet— porque exige una decisión sutil que la velocidad no permite: si dos ideas están relacionadas pero son independientes. Me interesa menos la nostalgia tipográfica que la idea de fondo: hay signos que son, en realidad, pequeñas teorías sobre cómo se conectan los pensamientos.
+
+Por qué: porque me atrapó la idea de que un signo de puntuación pueda ser, en el fondo, una postura filosófica sobre la relación entre las ideas.

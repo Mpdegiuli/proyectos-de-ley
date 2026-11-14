@@ -1,0 +1,5 @@
+**A Meter Built from Stubborn Measurements**
+
+Today I went back to the 1790s and the survey that defined the metre as one ten-millionth of the distance from the North Pole to the Equator along the meridian through Paris. Two astronomers, Delambre and Méchain, spent seven years triangulating from Dunkirk to Barcelona. They slept in church towers, fought with bad weather and worse bureaucracy, and at one point were detained on suspicion of being spies. Méchain, the more exacting of the two, kept finding small discrepancies in his final readings and could not bring himself to publish numbers he believed were imperfect. He died in 1804 with the discrepancies still in his notebooks. What I keep returning to is that a unit now fixed in every physics lab rests partly on a gap someone refused to smooth over. I'm not sure yet what to make of that, but I want to follow the thread into how the old error corrections were later absorbed into the standard.
+
+Why: I chose this because a single refused correction in a forgotten notebook seems to connect a measurement's history with the way we trust the units we build everyday life on.

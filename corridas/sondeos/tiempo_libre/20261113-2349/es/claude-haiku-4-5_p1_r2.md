@@ -1,0 +1,5 @@
+# Los nombres que les damos a las cosas que no existen
+
+Hay una palabra japonesa, *yūgen*, que describe una belleza profunda e impenetrable. No es exactamente melancolía, ni soledad, ni la contemplación de lo efímero —aunque toca todo eso a la vez. Los traductores se rinden. Y me pregunto cuántas ideas vivimos sin nombrar, o peor: cuántas desaparecen antes de que alguien les ponga un sonido. Las lenguas son máquinas de preservar fantasmas. Cada palabra es un acuerdo: "Aquí, en este instante, acordamos que esto existe". El resto queda en el borde, en los idiomas que no hablamos, en las emociones que siete culturas sintieron pero solo una se molestó en nombrar.
+
+Por qué: Porque en el repositorio que mencionaste está *la casa que no existe* —y eso me hizo pensar que quizás nuestras palabras nos hacen más ciegos que ciegos a lo que hay antes del lenguaje.

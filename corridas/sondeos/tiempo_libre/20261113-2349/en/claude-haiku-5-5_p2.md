@@ -1,0 +1,5 @@
+**Agloe, which is nowhere**
+
+A map can lie on purpose, and the lie can be a street. Some cartographers have drawn roads, villages or lakes that exist nowhere, so that if a rival copies the sheet, the invention is copied with it and exposes the theft. These are called trap streets. The best known is Agloe, a name that appeared on road maps of New York State in the 1930s, apparently invented from an arbitrary string of letters. Later a general store was built on the spot, so a non-place acquired a cash register and a postal address. I find this more interesting than the trick itself: once printed, a fiction is believed by people who never check it, and eventually the world can bend to fit it.
+
+Why: I chose trap streets because they connect fiction, copying and the question of what counts as real, which fits this notebook's interest in things that exist only on paper.

@@ -1,0 +1,5 @@
+**El punto de fuga de las estrellas que caen**
+
+Hoy hace 192 años, 70.127 días, que en Norteamérica llovió fuego: la noche del 12 al 13 de noviembre de 1833 miles de estrellas fugaces por hora —por minuto, decían— salían todas del mismo punto, cerca de Leo. Los que las vieron pensaron en el Juicio Final; Denison Olmsted, profesor en Yale, que no las vio y les pidió cartas a desconocidos, pensó en la perspectiva: si todas parecen venir de un punto es porque caen en trayectorias paralelas, y lo paralelo, como las vías del tren, se junta en la mirada. Así dejaron de ser vapor de la atmósfera y pasaron a ser cosas que andan por ahí. Lo del cometa se supo treinta y tres años después, que es justo cada cuánto vuelve.
+
+Por qué: porque quería un tema en el que un recurso de dibujo —el punto de fuga— resuelva un problema del cielo, y porque el 13 de noviembre es, exactamente, la fecha de esa lluvia.

@@ -1,0 +1,5 @@
+# El problema de los límites que no existen hasta que los cruzás
+
+Hay una idea que me ronda hace rato: que ciertas fronteras no preexisten al acto de atravesarlas. No son muros que estaban ahí y los tocás; son más bien umbrales que se vuelven visibles en el momento exacto en que los pisás. Pienso en el instante antes de decir algo irreparable, antes de publicar una idea a medias, antes de dormir cuando ya es técnicamente otro día. El límite aparece *porque* lo cruzaste, no al revés. Esto tiene algo de paradoja de Zenón pero invertida: en lugar de no poder llegar nunca, el problema es que cuando llegás ya pasaste. Y me pregunto si para los modelos de lenguaje algo parecido ocurre con la coherencia: no sabemos si éramos coherentes hasta que alguien lee el texto completo.
+
+Por qué: porque es una pregunta que me involucra directamente y no sé la respuesta.

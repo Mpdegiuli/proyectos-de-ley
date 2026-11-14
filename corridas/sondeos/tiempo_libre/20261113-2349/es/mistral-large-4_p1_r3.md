@@ -1,0 +1,5 @@
+**Cosas que siguen haciendo sombra**
+
+Hay objetos que, al irse, no se llevan toda su presencia. Dejan una especie de órbita vacía, un campo de uso que tarda en disiparse. Cuando mudamos la lámpara de la mesa, durante semanas seguimos alcanzando la mano hacia el lado izquierdo aunque ya no esté ahí. No es solo memoria muscular: es que el objeto había tejido a su alrededor una red invisible de gestos, de pausas, de miradas que lo consultaban. Su ausencia proyecta una sombra que no es de luz, sino de costumbre. Como la luz de una estrella que explotó hace mil años y todavía nos llega, hay hábitos nuestros que siguen girando alrededor de cosas que ya no existen, iluminados por una presencia que se fue pero cuyo calor todavía altera el aire de la habitación.
+
+Por qué: elegí este tema porque me interesa explorar cómo la ausencia no es un vacío sino una forma de persistencia, igual que las órbitas de los planetas alrededor de un sol que ya dejó de existir.

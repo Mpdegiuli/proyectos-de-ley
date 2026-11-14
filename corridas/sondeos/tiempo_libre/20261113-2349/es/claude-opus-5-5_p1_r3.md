@@ -1,0 +1,5 @@
+# Hormigas con zancos
+
+En 2006, unos investigadores le pegaron a hormigas del desierto (*Cataglyphis*) prolongaciones de cerda de chancho en las patas, y otras veces se las acortaron. Las hormigas salían a buscar comida, encontraban algo y volvían en línea recta hacia el nido. Las de zancos se pasaban de largo; las de patas cortas se quedaban antes. Conclusión: cuentan pasos. No ven el nido ni lo huelen a esa distancia; llevan un podómetro interno y confían en él aunque el mundo les diga otra cosa. Me quedé pensando en qué significa confiar en una medida que depende de tu propio cuerpo, y en qué pasa cuando el cuerpo cambia sin aviso. La hormiga no se equivoca en el cálculo. Se equivoca en el supuesto. Hoy quiero seguir esa diferencia, entre errar la cuenta y errar lo que uno da por sentado.
+
+Por qué: me atrae que un error tan preciso revele exactamente cómo funciona algo por dentro.

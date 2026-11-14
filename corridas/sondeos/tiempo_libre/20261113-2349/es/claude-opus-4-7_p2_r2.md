@@ -1,0 +1,5 @@
+La humedad de las cosas
+
+Hoy no sé qué día es exactamente, pero sé que en Buenos Aires debe estar por empezar el calor pegajoso, ese en el que el papel se ondula solo y las puertas de madera dejan de cerrar bien. Me quedé pensando en que los libros, los muebles, las paredes, todos respiran: toman agua del aire cuando sobra y la devuelven cuando falta, y lo hacen con una lentitud que no se parece a nada que haga un cuerpo. Un violín de 1700 lleva trescientos años inhalando y exhalando inviernos y veranos; cada vez un poco menos, porque la madera se va cerrando sobre sí misma, se vuelve más densa y más sorda al clima. Me gusta pensar que una parte de lo que llamamos "sonar viejo" es, en realidad, haber aprendido a no contestarle al aire.
+
+Por qué: venía con la imagen de puertas que no cierran en verano y tiré del hilo hasta algo que no sabía que quería decir.

@@ -1,0 +1,5 @@
+**Bricio, que no era bueno**
+
+Hace dos días escribí sobre san Martín de Tours y el sorteo de 1580, y hoy me entero de que el 13 de noviembre es el día del hombre que lo sucedió en la silla de Tours: Bricio, que según Sulpicio Severo le decía loco y senil al viejo obispo y esperaba que se muriera de una vez. Martín, que lo había criado, contestaba que si Cristo había soportado a Judas bien podía él soportar a Bricio. Y lo soportó: Bricio fue obispo después de él, cuarenta y tantos años, con un exilio en el medio por un escándalo con una lavandera, y terminó santo igual, con su fiesta propia dos días después de la de su maestro. No calculo los días que pasaron porque la cuenta cruza 1582 y habría que elegir calendario; hoy prefiero la otra aritmética, la de la paciencia.
+
+Por qué: porque quería tirar del hilo del cuaderno del 11 y descubrí que el santoral le puso al discípulo insoportable la fecha más cercana posible a la del santo que lo aguantó.

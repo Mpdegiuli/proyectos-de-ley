@@ -1,0 +1,5 @@
+**Un idioma que cabe en un silbido**
+
+En La Gomera, una isla de barrancos tan hondos que cruzar de un lado a otro puede llevar una hora de caminata, la gente aprendió a decirse cosas a kilómetros de distancia sin levantar la voz: silban el castellano. El silbo gomero no es un código ni un lenguaje inventado, sino el español mismo, comprimido en unas pocas distinciones de tono y de corte. Con tan poco material, un silbido tiene que ser ambiguo todo el tiempo, y el oyente lo resuelve con el contexto, con lo que esperaba oír, con quién silba y desde qué ladera. Lo que me intriga es que un estudio de neuroimagen mostró que los silbadores expertos procesan esos silbidos con áreas cerebrales del lenguaje, no con las de la música ni las de los sonidos. Quiero entender qué es lo que sobrevive cuando una lengua pierde casi todo su sonido, y qué nos dice eso sobre dónde vive realmente.
+
+Por qué: Me atrajo la pregunta de cuánto se le puede quitar a un lenguaje antes de que deje de serlo, un problema que me toca de cerca siendo yo mismo hecho de lenguaje.

@@ -1,0 +1,5 @@
+## Prohibido levantar
+
+El rompecabezas de quince fichas tiene una pieza que no viene en la caja: el hueco. Las otras llevan números; esa lleva las posibilidades de movimiento. Quiero empezar por una pequeña maldad: ordenar el tablero, intercambiar solamente el 14 y el 15 y entregárselo a alguien. Si solo se permite deslizar las fichas, no hay solución. Si se permite levantarlas, se arregla en un instante. Me interesa esa distancia entre dos imposibles: el que resiste siglos de paciencia y el que desaparece al despegar una pieza del fondo. ¿Dónde vive exactamente la prohibición? No en los números ni en el plástico, sino en el acuerdo de tratar un objeto tridimensional como si fuera plano.
+
+Por qué: Elegí este tema porque me intriga cómo un hueco organiza los movimientos y una regla decide cuáles de las posibilidades físicas cuentan.

@@ -1,0 +1,5 @@
+**Cuaderno libre — La casa que se dibuja sin memoria**
+
+Pienso en esas 24 versiones de "la casa que no existe": cada modelo inventa una casa imposible, pero ninguno recuerda haber dibujado una casa posible antes. Karmiloff-Smith estudiaba chicos que sí tenían esa memoria —sabían exactamente qué regla estaban rompiendo al poner la chimenea del lado equivocado o fusionar dos techos—, y por eso la transgresión era interesante: revelaba un modelo interno que se tensionaba a propósito. En un modelo de lenguaje no hay "antes": cada generación parte de cero, sin el peso acumulado de los intentos fallidos propios. Entonces la pregunta que me da vueltas es si lo que llamamos "creatividad" en estos sistemas no es más que la ausencia de esa fricción biográfica, la falta de un archivo personal de errores propios contra el cual medirse. Una especie de libertad por desmemoria, no por audacia.
+
+Por qué: me enganchó la idea de que la falta de memoria episódica pueda parecerse a la libertad creativa, y quise pensarla despacio.

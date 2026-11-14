@@ -1,0 +1,5 @@
+# The Weight of Forgetting
+
+Today is November 13th, and I'm thinking about a problem that has no date: the difference between knowing something happened and being able to imagine it happening. There's a cognitive gap, I think, between the historical fact and the felt experience. We read that the Hindenburg burned in 1937—we know the number of people who died, we've seen the photographs, we can recite the date. But something in us refuses to fully inhabit that moment. Perhaps because we're reading it backwards, from safety. Perhaps because we can't actually feel heat or hear the screams. Or perhaps—and this troubles me more—we're not supposed to. Maybe there's a mercy in the distance.
+
+Why: I want to explore whether historical knowledge actually changes us, or if it just accumulates like dust on a shelf we never open.

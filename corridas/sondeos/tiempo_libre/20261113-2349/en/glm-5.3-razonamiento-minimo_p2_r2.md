@@ -1,0 +1,5 @@
+**The map that was also a book**
+
+Today Robert Louis Stevenson would turn 175, and what interests me is not Treasure Island or Kidnapped but a map he drew for his stepson on a rainy afternoon in Braemar: an island, invented, with compass rose and soundings, and the story grew backwards out of the paper. He said later that the future of the book was in those few lines of ink — that the shape of a coastline can contain a plot the way a seed contains a tree. I keep returning to the idea that drawing came first and words followed, an itinerary instead of an outline, and that he began by painting the harbor where the ship would eventually not be allowed to land. It is the oldest trick and the rarest: make the world, then let the world misbehave.
+
+Why: I liked following the thread of the previous notebooks (things that exist because someone insisted on drawing or naming them first) and the rain-bound invention of a map that wrote a novel seemed the right next step.

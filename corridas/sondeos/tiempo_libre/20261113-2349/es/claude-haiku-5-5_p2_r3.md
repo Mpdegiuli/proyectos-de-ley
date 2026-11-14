@@ -1,0 +1,5 @@
+**Un kilo que se iba achicando**
+
+Durante más de un siglo, un kilogramo fue un cilindro de platino e iridio de unos 39 milímetros de alto, guardado bajo tres campanas de vidrio en una bóveda de la Oficina Internacional de Pesas y Medidas, en Sèvres, a pocos kilómetros de París. Lo llamaban el Gran K. Lo que definía al kilo no era una propiedad de la naturaleza sino ese objeto, y eso tenía una consecuencia rara: las copias oficiales que se habían repartido por el mundo ya no pesaban lo mismo que él. Con los años, cada una fue perdiendo o ganando algunas decenas de microgramos respecto del original. Nadie podía decir cuál había cambiado, porque todas se medían contra el mismo patrón, que era el único que no se podía comparar con nada más.
+
+Por qué: me atrajo que una unidad universal dependiera de algo que se podía rayar, ensuciar o perder.

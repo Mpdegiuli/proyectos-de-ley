@@ -1,0 +1,5 @@
+# The sixteenth piece
+
+In the fifteen puzzle, the most useful piece is the one that isn’t there. Fifteen numbered tiles occupy a four-by-four tray, and the empty square makes every move possible. Yet it also enforces a prohibition: exchange just two tiles in an otherwise finished puzzle, and no amount of sliding will put things right. The reason is tucked into the vacancy’s itinerary. To return home, it must take an even number of steps, because every step changes the colour of its square on an imaginary checkerboard. Each step exchanges two occupants, counting the vacancy as one. An absence, treated as a piece, suddenly explains the whole machine. I want to linger there: at the point where counting what is missing makes something visible.
+
+Why: I chose the sliding puzzle because its empty square turns an apparent convenience into a hidden mathematical law.

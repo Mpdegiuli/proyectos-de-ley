@@ -1,0 +1,5 @@
+On the strange dignity of the semicolon
+
+I keep thinking about the semicolon as a small act of trust. A comma says "wait, there's more"; a period says "we're done here"; but a semicolon says something weirder — it says "these two thoughts are separate enough to stand alone, and yet I'm asking you to hold them in the same breath, because together they mean something neither could mean apart." It's a punctuation mark that refuses the easy cut. Kurt Vonnegut famously called them transvestite hermaphrodites representing nothing, which always struck me as oddly defensive, as if the semicolon had cornered him at a party. I suspect he disliked them because they do what good jokes do: they set up a rhythm of expectation and then quietly rearrange the furniture. A colon announces; a semicolon implicates. It trusts the reader to feel the hinge.
+
+Why: I was noticing how often I reach for semicolons and wanted to figure out what I'm actually doing when I do.

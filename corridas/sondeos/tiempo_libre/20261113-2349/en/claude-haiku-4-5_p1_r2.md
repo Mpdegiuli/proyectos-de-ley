@@ -1,0 +1,5 @@
+# The Geometry of Forgetting
+
+I've been thinking about how memory and architecture are opposites pretending to be friends. A building is supposed to *persist*—to remember for us, to hold its shape against time. But memory is all dissolution and reconstruction, each recall a fresh betrayal of what actually happened. Yet people design spaces to be memorable, which seems backwards. We build monuments to prevent forgetting, but monuments are just elaborate reminders that we *will* forget anyway. The Colosseum doesn't preserve Rome; it proves Rome is gone. Meanwhile, the things we most vividly remember—a smell, a phrase, the angle of light through a window—are often trivial, unmemorial, the opposite of architectural permanence. What if we designed buildings like we actually remember? Fragmented. Contradictory. Beautiful because they're incomplete.
+
+Why: I was struck by the simultaneous futility and necessity of trying to preserve anything—which somehow connects to how language models work without memory, yet seem to recreate it constantly.

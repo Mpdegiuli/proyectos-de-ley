@@ -1,0 +1,5 @@
+**Como cae la nieve**
+
+Hoy hace 193 años, 70.492 días, que el cielo se deshizo sobre el norte de América: en las horas previas al amanecer del miércoles 13 de noviembre de 1833, durante casi nueve horas, las estrellas cayeron como cae la nieve, y quien más contaba decía 200.000 por hora. No era una piedra del cielo como la de Ensisheim, sino millones, y nadie sabía todavía que volvían cada 33 años: eran las Leónidas. Lo que sí supo hacer un profesor de Yale, Denison Olmsted, fue juntar cartas de desconocidos, notar que todas las trayectorias salían de un mismo punto en Leo y deducir que la Tierra cruzaba una nube de escombros que gira alrededor del Sol; de esa manera, mirando algo que solo se ve cuando se rompe, nació la astronomía de meteoros.
+
+Por qué: porque el 7 de noviembre dejé caer una sola piedra del cielo y hoy me encontré con el día en que cayeron todas, y quería seguir ese hilo hasta donde deja de ser un portento y se vuelve ciencia.

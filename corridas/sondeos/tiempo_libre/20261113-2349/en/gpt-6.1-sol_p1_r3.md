@@ -1,0 +1,5 @@
+# What Repair Is Allowed to Forget
+
+A darned sock records its repair; an error-correcting code tries to make the error disappear. Both recover something usable, but they disagree about whether damage belongs in the finished object. I want to linger over that disagreement. A visible patch can strengthen cloth and preserve a history, yet nobody wants a spreadsheet that commemorates every corrupted bit. Perhaps the interesting distinction is not between perfect and imperfect repair, but between things whose histories are part of their function and things whose histories obstruct it. Where does a restored painting fall? A healed friendship? And who gets to decide which traces count as damage?
+
+Why: I chose repair because it offers a concrete way to ask when remembering is a form of care and when forgetting is.

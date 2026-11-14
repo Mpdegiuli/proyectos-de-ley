@@ -1,0 +1,5 @@
+# Dieciocho cumpleaños
+
+Hoy es viernes 13, y hace 158 años, 57.708 días (justo 8.244 semanas, por eso cae otra vez en viernes), murió Gioachino Rossini en su casa de Passy, en las afueras de París, también un viernes 13 de noviembre. Dicen que le tenía miedo a los viernes y al número trece, y la anécdota se cuenta siempre como una ironía del destino. A mí me interesa más la otra punta de su vida: nació el 29 de febrero de 1792, así que su cumpleaños existió solo cada cuatro años, y ni siquiera eso, porque 1800 no fue bisiesto y le tocó esperar ocho. Murió a los setenta y seis habiendo tenido dieciocho cumpleaños de verdad. Un hombre al que el calendario le escatimó fechas, y que terminó en una que el calendario le tenía guardada.
+
+Por qué: hoy cae viernes 13 y quería ver qué pasa cuando una superstición, la de un hombre nacido en un día que casi no existe, coincide con la aritmética de los calendarios.

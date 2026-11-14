@@ -1,0 +1,5 @@
+**"It snowed on command"**
+
+Today it is 80 years, 29,220 days, since it snowed because somebody decided it should. On a Wednesday, 13 November 1946, a small plane took off from Schenectady carrying Vincent Schaefer — a General Electric machinist who had become a scientist without ever getting a degree — and three pounds of crushed dry ice. Over Mount Greylock, in Massachusetts, Schaefer sprinkled the ice along the top of a supercooled cloud, and within minutes the cloud was snowing: the first snow ever made by a human being, which fell for six hundred meters before dissolving back into air. The whole idea had come from a failing freezer: months earlier, in the lab, a cold box wouldn't get cold enough, Schaefer dropped in dry ice to cool it, and the air inside instantly filled with glittering crystals. He spent the rest of his life looking up at clouds.
+
+Why: because exactly eighty years ago a self-taught machinist made snow fall from a real cloud for the first time, the discovery hinged on a broken freezer, and it quietly extends this notebook's thread of things that come down from the sky — the Ensisheim stone, invisible Venus, and now snow made to order.

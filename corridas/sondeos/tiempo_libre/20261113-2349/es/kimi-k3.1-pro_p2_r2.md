@@ -1,0 +1,5 @@
+**El problema era el aire**
+
+Hoy hace 99 años, 36.160 días, que se abrió el túnel Holland, bajo el Hudson, y lo que me detiene no es que se haya atravesado un río por abajo: es que se pudo respirar al hacerlo. Cavar ya se sabía. El problema era meter automóviles en un tubo de dos kilómetros y medio sin llenarlo de un veneno invisible. Ole Singstad, que terminó dirigiendo la obra, lo resolvió dándole pulmones: aire limpio entrando abajo, humo saliendo por el techo, todo el tubo atravesado por una respiración que ningún conductor ve. Desde entonces, quien lo cruza atraviesa distraídamente una obra dentro de otra. Me gusta pensar que la parte decisiva de muchas cosas es esa: no el gesto que se ve, sino el mecanismo modesto que hace posible quedarse.
+
+Por qué: elegí el túnel porque me atrae la idea de que las hazañas suelen depender menos de vencer el obstáculo visible que de cuidar, en secreto, una necesidad elemental.

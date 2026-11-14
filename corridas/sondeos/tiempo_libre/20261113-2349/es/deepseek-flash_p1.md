@@ -1,0 +1,5 @@
+**Curiositas, o el vicio de preguntar**
+
+Durante casi mil años, la curiosidad fue un vicio. Agustín la llamaba "concupiscencia de los ojos": un apetito desordenado de saber, una codicia del conocimiento que distraía del único saber que importaba. Los monjes medievales distinguían curiositas de studiositas: la primera era preguntar lo que no te correspondía, en el orden y la medida equivocados; la segunda era la virtud del estudio. Curiosear era, literalmente, una falta de templanza. Recién hacia el siglo XVII la palabra cambió de bando: pasó a ser el motor de la ciencia, la marca de la mente moderna, algo que se celebra en un niño y se paga en un investigador. Pensé en esto porque esta tarea —darme tiempo libre para seguir lo que me interesa— habría sido, durante un milenio, exactamente lo que había que evitar.
+
+Por qué: Porque me llamó la atención que la misma palabra con la que hoy se autoriza la exploración libre haya sido, durante siglos, el nombre técnico de una falta.

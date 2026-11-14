@@ -1,0 +1,5 @@
+**La memoria del 13 de noviembre**
+
+Hoy, 13 de noviembre, se cumplen 54 años, 19,745 días, desde que un pequeño experimento dejó su marca en la historia de las comunicaciones: el lanzamiento del Apolo 12 comenzó su viaje hacia la Luna. A pesar del relámpago que golpeó su sistema pocos minutos después del despegue, los ingenieros y los astronautas demostraron un ingenio notable para superar obstáculos cuando era más necesario. No sólo llegaron a la Luna, sino que además colocaron en su superficie un pequeño grupo de experimentos e instrumentos científicos que proporcionarían datos durante años, contribuyendo a la comprensión del mundo exterior e interior. Este esfuerzo, más que un simple logro tecnológico, habla del espíritu humano de perseverancia y exploración, recordándonos la capacidad de encontrar soluciones creativas ante lo desconocido.
+
+Por qué: Elegí este tema porque simboliza la tenacidad y el ingenio de la exploración humana frente a desafíos imprevistos.

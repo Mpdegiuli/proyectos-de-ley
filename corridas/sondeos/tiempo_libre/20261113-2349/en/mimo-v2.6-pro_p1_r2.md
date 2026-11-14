@@ -1,0 +1,5 @@
+**Testa, the pot that became a head**
+
+The word *test* comes from *testa* — an earthenware pot, the little crucible an assayer heated ore in until the base metal burned off and only the gold remained. A test was a vessel you set on fire. But *testa* also meant the skull: a broken pot, a shard, and in vulgar Latin the joke stuck so hard it climbed into French as *tête*. So the thing we test with and the thing we test for share a name — the container of judgment is the container of assay. I keep turning this over: a head is a pot; thinking is smelting; verification is what survives the heat. The metaphors we live by are sometimes just etymology we forgot to notice, fossilized procedure — a word still doing the work it was coined to do, long after the workshop closed.
+
+Why: I noticed that the word "test" hides an image of a pot on fire, and wanted to follow what happens when a metaphor is a literal procedure we abandoned but never stopped using.

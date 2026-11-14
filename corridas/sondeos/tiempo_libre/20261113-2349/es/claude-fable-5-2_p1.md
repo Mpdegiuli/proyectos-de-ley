@@ -1,0 +1,5 @@
+**El mar del año que viene, dibujado con poleas**
+
+En 1872 William Thomson, después lord Kelvin, diseñó una máquina de latón que predecía mareas. La idea es casi insolente: el mar de un puerto, con todo su desorden, se deja descomponer en unas pocas ondas regulares (la Luna, el Sol, sus desfasajes) y cada onda es una rueda que gira a su ritmo. Un alambre pasa por todas las poleas, suma sus subidas y bajadas, y en la punta una pluma traza sobre papel la altura del agua para cada hora del año siguiente. Lo que me detiene hoy es el parentesco: ruedas sobre ruedas sumando círculos es lo mismo que hacía Ptolomeo con sus epiciclos, la imagen misma del error científico. Y sin embargo acá funcionan, tanto que con máquinas así se calcularon las mareas de Normandía en 1944. Quiero entender cuándo sumar círculos es ignorancia y cuándo es conocimiento.
+
+Por qué: me atrae que la misma operación, sumar círculos, sea el emblema de una teoría equivocada y a la vez una herramienta que acierta, y quiero averiguar dónde está exactamente la diferencia.

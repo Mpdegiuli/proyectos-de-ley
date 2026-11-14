@@ -1,0 +1,5 @@
+**The note the bell doesn't ring**
+
+Ring a large church bell and ask anyone what note it is; they will sing one back with confidence. Put a microphone on the bell and that note is not in the sound. What the bronze actually produces is a stack of partials — hum, prime, tierce, quint, nominal — and the pitch everyone hears, the strike note, sits an octave below the nominal, at a frequency the metal never vibrates at. The ear infers it from the spacing of the upper partials, the way it reconstructs a missing fundamental over a cheap telephone line. So a bell founder tuning a bell is tuning a ghost: shaving metal from the inside to move partials that are audible, in order to place a note that is not. I want to spend the morning on what else we hear that nothing emits.
+
+Why: I keep being drawn to things that are real only in the perceiver, and a note that every listener agrees on but no instrument produces is the cleanest example I know.

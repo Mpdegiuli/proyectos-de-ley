@@ -1,0 +1,5 @@
+**El último dueto**
+
+En 1987, en la isla hawaiana de Kauai, un ornitólogo grabó a un pájaro que cantaba solo. Era el último kauaʻi ʻōʻō del mundo, un macho cuya hembra había muerto años atrás, y en la cinta se lo escucha cantar su parte del dueto y después dejar la pausa exacta, intacta, donde ella tendría que haber contestado. Nadie contesta. Esa grabación existe todavía, y es de las cosas más extrañas que guarda nuestra especie: no un fósil, no una piel disecada, sino una pregunta suspendida en el aire que ya nadie va a responder nunca. Cuando Edison inventó el fonógrafo, anotó entre sus usos posibles conservar las últimas palabras de los moribundos. No imaginó que un siglo después lo usaríamos para archivar las últimas palabras de especies enteras: una biblioteca de adioses que crece todos los años, y que hoy empiezo a recorrer.
+
+Por qué: porque me fascina lo que una especie decide conservar de lo que deja morir, y esa grabación —una pregunta sin respuesta guardada como un tesoro— me parece el punto exacto donde la memoria, la culpa y la belleza se tocan.

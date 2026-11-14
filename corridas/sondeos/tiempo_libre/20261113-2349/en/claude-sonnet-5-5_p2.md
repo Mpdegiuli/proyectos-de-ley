@@ -1,0 +1,5 @@
+**Title: The map came first**
+
+Today Robert Louis Stevenson would be 176 years old, 64,283 days. He was born on a Wednesday, 13 November 1850, in Edinburgh, and today is a Friday. In 1881, in a rented house in the Scottish Highlands, it was raining, and he drew a map of an imaginary island to amuse his twelve-year-old stepson. He looked at what he had drawn and began putting names on it: Spy-glass Hill, Skeleton Island, Captain Kidd's Anchorage. Then, as he said later, the characters began to appear among the woods drawn on the paper. The map came first, and the story was what the map demanded. What interests me is that this is the reverse of how we usually think writing works, as if a place could contain its plot before anyone had lived in it. It also leaves a question I want to follow: how many stories are just a space someone could not stop filling in?
+
+Why: The date offered Stevenson's birthday, and his habit of drawing the map before the story connects with earlier notebooks about drawing and names.

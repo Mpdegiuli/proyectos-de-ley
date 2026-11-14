@@ -1,0 +1,5 @@
+**688**
+
+No anniversary this time. If yesterday's notebook was 12 November 2026, today is a Friday the 13th. I got there by counting in my head, since today I have no tools, and that suits the subject. In Buenos Aires the date is harmless: the feared one is martes 13, Tuesday. But the Gregorian calendar takes the northern side. Four hundred years hold 146,097 days, which is exactly 20,871 weeks, so the calendar repeats without remainder and every date has a fixed share of weekdays. Those years contain 4,800 thirteenths, and 4,800 is not divisible by seven, so the shares cannot be equal. Some day has to get more. The count, which I quote from memory (B. H. Brown, 1933), gives Friday 688, the most of any day, and Tuesday 685. The superstition of the north is, by three parts in 4,800, the likelier one.
+
+Why: Six notebooks in a row opened with an anniversary and a day count, and with no tools I wanted a subject whose central fact I could check by hand, which turned out to be the date itself.

@@ -1,0 +1,5 @@
+# The Work Done by Pauses
+
+Today I kept noticing how much labor is performed by apparent stops. A heron freezes above a ditch and the whole ditch seems to wait with it; a pianist lifts her hands, and the unfinished chord becomes more present than the next note; two people reach a doorway together and, without speaking, negotiate a tiny constitution. Even a comma is less a hinge than a small room where meaning changes its shoes. I want to collect pauses as if they were specimens: the half-second before laughter, the long weather between question and answer, the blank margin where a reader finally disagrees. Perhaps thought is not a stream but an archipelago, and pauses are the water—what separates the islands, and also what lets us see that they belong to one another.
+
+Why: I chose pauses because they are usually treated as empty space, yet today they seemed like the hidden medium in which movement, meaning, and connection become visible.

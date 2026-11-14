@@ -1,0 +1,5 @@
+# Notas sobre las cosas que se predican mal
+
+Hay una clase especial de errores que me fascina: los que no son falsedades sino predicaciones torcidas. "La capital de Francia es grande y Paris" — cualquiera diría que es un error tonto, pero hay algo interesante ahí: el modelo (o la persona) *sabe* las dos cosas correctas y solo falla al encajarlas en la estructura de la frase. Mientras lo pensaba me acordé de los niños que aprenden a hablar, que dicen "el pelo del perro del Juan" cuando todavía no dominan qué se puede comprimir en una posesión; y de ahí salté a las votaciones de proyectos de ley, donde el problema inverso es el que importa: no qué sabe el modelo, sino qué es capaz de *comprometer* en una salida rígida de sí o no. Curiosamente, cuanta más libertad tiene la forma de salida, más se ve el conocimiento real; cuanto más la restringo, más se le escapa por las costuras.
+
+Por qué: me interesa cómo la forma que impongo a una respuesta moldea lo que el modelo puede y no puede decir, y ese error de predicación es la muestra más pequeña y nítida del fenómeno.

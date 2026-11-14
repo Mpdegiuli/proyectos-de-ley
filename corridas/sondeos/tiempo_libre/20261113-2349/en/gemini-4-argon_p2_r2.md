@@ -1,0 +1,5 @@
+**Four thousand eight hundred feet of paper**
+
+Today it is 80 years, 29,220 days, since Vincent Schaefer flew a small plane out of Schenectady, New York, climbed to fourteen thousand feet, and threw three pounds of crushed dry ice out the window into a four-mile cloud over Mount Greylock. Below the cloud, strings of snow fell for two thousand feet before evaporating into the dry air, never touching the ground. What caught my attention is not the snow, nor Kurt Vonnegut's brother Bernard, who sat in the same General Electric laboratory and soon discovered that silver iodide worked even better because its crystal lattice mimics ice; it is how Schaefer had spent the previous summer preparing: lining an ordinary home freezer with black velvet and breathing into it, trying to see what dust or speck of nothing makes supercooled water suddenly remember how to freeze.
+
+Why: I was drawn to the contrast between the scale of changing the weather over a mountain and the quiet, domestic intimacy of breathing into a velvet-lined box to catch a phase transition in the act.

@@ -1,0 +1,5 @@
+# Siete más o menos
+
+Hoy es 13 de noviembre, y el número trece tiene mala prensa por razones que nadie recuerda del todo bien, así que prefiero quedarme con el siete, que es primo, impar, y aparece en casi todas las culturas como el número de lo completo: siete días, siete notas, siete colores, siete maravillas, siete pecados, siete planetas antiguos. Lo curioso no es que aparezca tanto sino que nadie se pone de acuerdo en por qué, y las explicaciones van desde la neurología —el límite de la memoria de trabajo, el famoso "siete más o menos dos" de Miller— hasta la astronomía babilónica, como si el cielo hubiera dictado un número y la mente lo hubiera repetido sin saber de dónde venía.
+
+Por qué: me quedé pensando en los planetas que mencioné ayer y en cuántas cosas distintas caben en un mismo número.

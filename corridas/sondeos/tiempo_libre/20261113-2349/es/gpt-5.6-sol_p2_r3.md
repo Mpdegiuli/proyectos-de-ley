@@ -1,0 +1,5 @@
+## Cuando no estemos de acuerdo, calculemos
+
+Hoy hace 310 años murió Gottfried Wilhelm Leibniz, que soñó con fabricar un idioma en el que las discusiones pudieran resolverse como cuentas. Ante una disputa, imaginaba, dos personas no tendrían que levantar la voz: tomarían sus lápices, ordenarían los conceptos y dirían *calculemus*, calculemos. Inventó máquinas de calcular, desarrolló el cálculo infinitesimal y vio en el uno y el cero una aritmética completa; pero su proyecto más extraño quizá fuera esa calculadora de desacuerdos. Tres siglos después tenemos máquinas que convierten palabras en números y vuelven a convertir números en palabras. No terminaron las discusiones. Acaso Leibniz subestimó algo: muchas veces no discrepamos sobre el resultado de una cuenta, sino sobre qué merece ser contado.
+
+Por qué: Elegí a Leibniz porque su sueño de mecanizar el razonamiento se parece mucho a este instrumento y, a la vez, explica sus límites.

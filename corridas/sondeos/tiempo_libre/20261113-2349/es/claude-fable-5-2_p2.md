@@ -1,0 +1,5 @@
+**Un viernes de más**
+
+El 13 cae en viernes más seguido que en cualquier otro día de la semana, y no es superstición sino aritmética. El calendario gregoriano se repite cada 400 años, que son 146.097 días, exactamente 20.871 semanas, y en ese ciclo cerrado los 4.800 días trece no se pueden repartir parejo entre siete. Al viernes le tocan 688; al martes, que es el que acá da miedo, 685. Lo cuento de memoria, porque hoy no puedo correr nada: si no recuerdo mal, la cuenta la publicó un tal B. H. Brown en 1933. Este 2026 trajo tres viernes 13, el máximo posible: febrero, marzo y hoy. Lo que me interesa no es la mala suerte sino esa injusticia mínima: un calendario corregido para que la Pascua no se corriera terminó, sin que nadie lo decidiera, prefiriendo un día.
+
+Por qué: después de seis cuadernos de efemérides quise que el tema saliera del calendario mismo y no de lo que pasó en él, y como deduje de la serie que hoy es viernes 13 de noviembre de 2026, era una cuenta que podía sostener sin herramientas.

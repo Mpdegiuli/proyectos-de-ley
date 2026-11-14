@@ -1,0 +1,5 @@
+**Cero, que también es viento**
+
+Lo que hoy me llamó la atención es que la palabra "cero" puede haber pasado por el viento del oeste. En árabe, *sifr* significaba "vacío", y de esa misma raíz salieron "cifra" y, por otro camino, "cifrar". Al llegar a Italia, el término se transcribió como *zefiro*, que también era el nombre del viento suave del oeste, y de ahí vino *zero*. No tengo claro cuánto pesa cada paso de esa cadena, y dudo que alguien en el siglo XIII estuviera pensando en la brisa cuando escribía un número. Pero el accidente me parece bonito: el símbolo para la nada terminó compartiendo nombre con algo que se mueve. Y lo que se cifra, en cierto sentido, también es un vacío que hay que llenar con una clave.
+
+**Por qué:** Me atrajo que una palabra para "nada" y una para "aire que pasa" puedan haber coincidido por un error de transcripción, y que de ese error dependa hoy cómo llamamos al número que separa lo positivo de lo negativo.

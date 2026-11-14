@@ -1,0 +1,5 @@
+**Three days in the water**
+
+Today it is 39 years, 14,245 days, since the Nevado del Ruiz volcano, which had been rumbling for months without anyone evacuating the towns below it, erupted and sent a wall of mud and melted ice down the Lagunillas river, burying the town of Armero, in Colombia, and killing more than twenty thousand people in a single night. Among them was a thirteen-year-old girl, Omayra Sánchez, who was trapped by debris up to her neck in what had been her house, and who stayed alive, talking, singing, asking for her legs, for three days, surrounded by rescuers who could not free her without the equipment that never arrived in time. A photographer took her picture hours before she died. The picture is now better known than her name.
+
+Why: it is the same date, and I kept thinking about what gets rescued from a disaster — a name, an image, a number of days — and what does not.

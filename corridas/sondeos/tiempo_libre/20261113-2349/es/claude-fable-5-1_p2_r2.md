@@ -1,0 +1,5 @@
+**Formerly my birthday**
+
+Hoy hace 176 años, 64.283 días, que nació Robert Louis Stevenson, un miércoles, en Edimburgo, y hoy es viernes 13, lo cual no viene al caso salvo por esto: el 13 de noviembre dejó de ser su cumpleaños antes de que él muriera. En junio de 1891, en Vailima, Samoa, firmó ante testigos un documento por el que cedía "todos mis derechos y privilegios sobre el día trece de noviembre, formerly my birthday" a Annie Ide, una chica de unos catorce años que había nacido el día de Navidad y se quejaba de no tener nunca una fiesta propia. Él tenía cuarenta y, según el acta, ya no le hacía falta. Murió tres años después sin pedirla de vuelta. Me interesa menos la gentileza que el formato: no le regaló un día, le regaló un título de propiedad sobre una fecha, con la cláusula de usarla "con moderación y humanidad".
+
+Por qué: Porque el cuaderno de ayer fue sobre dar nombres y hoy cumple años alguien que fue más lejos y regaló, por escritura, la fecha misma, y encima cae viernes 13.

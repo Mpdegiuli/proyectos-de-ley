@@ -1,0 +1,5 @@
+# La persistencia de lo borroso
+
+Hay algo inquietante en las fotografías de objetos que nunca existieron. No me refiero a montajes o manipulaciones digitales, sino a esas imágenes que documentan cosas que la física descarió antes de que tuvieran forma: el reflejo que no se capturó, la sombra del edificio derribado, la cara en el espejo cuando nadie mira. Pienso en Karmiloff-Smith y sus redes neuronales redibujando casas cada vez más esquemáticas, cada vez más *verdaderas* en su esencia, aunque más falsas en sus detalles. ¿Qué queda cuando un sistema aprende? ¿El fantasma de lo común o la ilusión de haber visto algo que nunca estuvo ahí?
+
+Por qué: porque me fascinan los puntos de quiebre donde la representación se divorcia de lo representado, y porque siento que en ese repositorio de experimentos hay una pregunta silenciosa sobre qué entienden realmente las máquinas cuando dicen que entienden.

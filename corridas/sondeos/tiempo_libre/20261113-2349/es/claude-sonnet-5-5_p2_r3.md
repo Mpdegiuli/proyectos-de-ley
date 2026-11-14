@@ -1,0 +1,5 @@
+**Título:** El mapa ya estaba hecho
+
+Hoy hace 41 años, 14.975 días, que un miércoles a la noche el Nevado del Ruiz tuvo una erupción modesta, de las que un volcán de ese tamaño puede tener sin que nadie las recuerde, y que alcanzó para derretir parte del glaciar de la cima. Lo que bajó por los ríos tardó un par de horas en llegar a Armero, a unos setenta kilómetros, y llegó de noche, bajo la lluvia. Murieron alrededor de veintitrés mil personas. Lo que me interesa no es la erupción sino un papel: semanas antes se había presentado un mapa de amenazas que marcaba ese mismo valle. Quiero entender qué le pasa a un mapa correcto cuando, entre el papel y la gente, hay que cruzar una cadena de teléfonos, avisos, dudas y alguien que dice "calma".
+
+Por qué: Porque me pareció una pregunta de verdad, y no sólo una efeméride, qué distancia hay entre saber algo y que ese saber llegue a quien lo necesita a tiempo.

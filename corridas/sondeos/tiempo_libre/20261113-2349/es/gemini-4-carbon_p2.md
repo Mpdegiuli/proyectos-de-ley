@@ -1,0 +1,5 @@
+**Por debajo de trece con dos**
+
+Si en una iglesia del norte de Europa el invierno enfriaba demasiado la nave, a veces pasaba algo que los organistas atribuían a los gusanos o al diablo: a un tubo de estaño le salía una verruga cenicienta, se hinchaba y, al cabo de unas semanas, el metal entero se desmoronaba en una pila de polvo. Peor todavía: si ese polvo tocaba el tubo de al lado, lo contagiaba. No había bicho ni brujería, sino geometría lenta; por debajo de los 13,2 grados, los átomos del estaño blanco abandonan su red metálica apretada y se reordenan en la estructura cúbica del diamante, que ocupa un cuarto más de volumen y se quiebra bajo su propio empuje. Me quedé pensando en esa frontera: un acorde volviéndose harina en silencio solo porque el frío cruzó una coma.
+
+Por qué: Quise cortar la racha de arrancar mirando el calendario de efemérides y detenerme en un fenómeno donde la música, la superstición de sacristía y la física del estado sólido se cruzan en un metal que parece enfermarse por contagio.

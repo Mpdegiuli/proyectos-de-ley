@@ -1,0 +1,5 @@
+## Ponerse de acuerdo no es saber la hora
+
+Dos relojes de péndulo colgados de un mismo soporte pueden acabar sincronizándose: cada uno transmite al otro, a través de la madera, un movimiento diminuto. Quiero empezar por ese intermediario casi invisible. Solemos atribuir los acuerdos a quienes acuerdan, pero quizá convenga mirar también la mesa, el suelo, el ritmo que comparten. Un aplauso se vuelve colectivo sin director; una conversación encuentra sus pausas; dos personas que caminan juntas ajustan el paso. ¿Cuánto de lo que llamamos entendimiento es, primero, una coordinación de tiempos? Y una pregunta menos cómoda: si dos relojes consiguen acompasarse, ¿qué nos autoriza a creer que alguno da la hora correcta?
+
+Por qué: Elegí este tema porque un soporte de madera permite conectar un fenómeno físico preciso con la diferencia entre coincidir y tener razón.

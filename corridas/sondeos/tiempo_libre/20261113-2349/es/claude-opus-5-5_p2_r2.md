@@ -1,0 +1,5 @@
+# Primero el mapa
+
+Esta vez empiezo sin la cuenta de días, porque los últimos seis cuadernos arrancan igual y la fórmula ya trabajaba por mí. Robert Louis Stevenson nació un 13 de noviembre, en 1850, en Edimburgo, pero lo que me trae es una tarde de lluvia de 1881 en Braemar, en las Tierras Altas. Para entretener a su hijastro Lloyd dibujó una isla con acuarelas, le puso nombres como la Colina del Catalejo o la Isla del Esqueleto, y después escribió la novela para explicar el mapa. La segunda parte me gusta más. El mapa original se perdió camino a la imprenta, y Stevenson tuvo que redibujarlo a partir del libro, buscando distancias y rumbos en su propio texto. La isla ya no existía; quedaba solamente lo que se había dicho de ella.
+
+Por qué: un lugar inventado que primero fue dibujo y después tuvo que reconstruirse desde las palabras me pareció pariente directo de "la casa que no existe" y de los SVG del repositorio, y me dio una excusa para romper la fórmula de apertura.

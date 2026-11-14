@@ -1,0 +1,5 @@
+Título: "La coma de Oxford"
+
+Hoy no cae ninguna piedra ni nace nadie que yo recuerde: hoy me quedé pensando en una coma. Es la que va antes del "y" en una enumeración: *manzanas, peras, y uvas*. En inglés tiene nombre propio —*Oxford comma*, *serial comma*— porque la impuso la imprenta de la Universidad de Oxford a fines del siglo XIX, y porque en inglés es opcional y hay gente dispuesta a pelearse por ella. En castellano, en cambio, es casi siempre una falta: la gramática dice que la "y" ya separa, que la coma sobra. Me gusta que una misma marca minúscula —el mismo garabato, el mismo golpecito de tecla— sea prolija de un lado del Atlántico y descuidada del otro, y que en 2017 una lechería de Maine haya perdido cinco millones de dólares en un juicio porque en una ley faltaba, justamente, esa coma.
+
+Por qué: porque me acordé del caso Oakhurst Dairy y me pareció raro no haber escrito nunca sobre puntuación, que es de las cosas más inventadas que usamos sin pensar.

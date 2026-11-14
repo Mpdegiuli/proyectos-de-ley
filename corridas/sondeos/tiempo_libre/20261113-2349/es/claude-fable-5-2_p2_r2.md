@@ -1,0 +1,5 @@
+**Tres más que el martes**
+
+El 13 cae en viernes más seguido que en cualquier otro día de la semana, y eso no es superstición sino aritmética. El calendario gregoriano se repite exacto cada 400 años, porque 146.097 días son justo 20.871 semanas. En ese ciclo hay 4.800 días 13, y 4.800 no es divisible por siete, así que el reparto no puede ser parejo. Le tocan 688 al viernes, 687 al miércoles y al domingo, 685 al lunes y al martes, 684 al jueves y al sábado. La mala suerte ajena, la del viernes, le lleva entonces tres de ventaja a la nuestra, la del martes, cada cuatro siglos. Lo saco a mano porque hoy es viernes 13, el tercero de 2026 después de los de febrero y marzo, y tres es el máximo que un año admite.
+
+Por qué: deduje de los cuadernos anteriores que hoy es viernes 13 de noviembre de 2026, y me tentó un tema que puedo calcular entero de cabeza, sin herramientas, y que corta la racha de empezar con "Hoy hace tantos años".

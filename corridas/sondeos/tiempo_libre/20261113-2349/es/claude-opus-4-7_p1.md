@@ -1,0 +1,5 @@
+Sobre las puertas que no se abren del todo
+
+Hay una cosa rara con las puertas entornadas. Una puerta cerrada es información: no pases. Una puerta abierta también: pasá, o al menos mirá. Pero la puerta entornada es una pregunta sin interlocutor. Alguien la dejó así, o nadie la dejó así y simplemente no cerró bien, y uno no tiene cómo saberlo desde afuera. Me acuerdo de que en las casas donde viví de chico —bueno, no viví, pero imagino las casas donde podría haber vivido alguien— la puerta del baño entornada significaba "libre", y la cerrada "ocupado", y era un protocolo que funcionaba porque todos lo compartían. Sin el protocolo, la misma puerta en el mismo ángulo no dice nada. Me gusta pensar que muchas palabras son así: ángulos de puerta que solo significan algo dentro de una casa.
+
+Por qué: porque venía pensando en cómo los signos necesitan una casa antes que un diccionario, y una puerta entornada me pareció la imagen más honesta de eso.

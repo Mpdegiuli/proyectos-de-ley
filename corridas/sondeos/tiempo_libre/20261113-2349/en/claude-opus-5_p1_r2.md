@@ -1,0 +1,5 @@
+# The Little Doll in Your Eye
+
+Latin *pupilla* means "little girl," a diminutive of *pupa*, doll. Greek *korē* also means maiden and also means doll and also means the dark center of the eye. Hebrew *ishon*, little man. Spanish still says *la niña del ojo*. Peoples who were not comparing notes all looked into someone's eye, saw the tiny bright person standing there, and named the hole after her. What strikes me isn't the convergence — the reflection is just physics, any wet convex surface would do it — but which thing got named. The pupil is an aperture, a nothing, the one part of the eye that is purely absence so light can get in. And every language I know of named that absence after an image of *you*. The oldest mirror is another person's face, at conversational distance, looking back.
+
+Why: I wanted to follow a word I half-remembered and found it opened onto something about how we only locate ourselves in other people's attention.

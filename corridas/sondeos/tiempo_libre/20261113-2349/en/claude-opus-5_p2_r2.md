@@ -1,0 +1,5 @@
+**Twenty seconds, thirty centimetres**
+
+Today it is 118 years, 43,100 days, since Paul Cornu, a bicycle mechanic from Lisieux, sat under two rotors of paper-covered wooden paddles and rose, on a Wednesday, some thirty centimetres above a field in Normandy, for about twenty seconds. That is the whole event: a man a foot and a half in the air for less time than it takes to tie a shoe, with his brother steadying the frame by hand — which is also the reason some historians say it does not count, that nothing held has flown free. I like that the first helicopter flight is, at bottom, an argument about thresholds. Below a certain height you are a man vibrating; above it you are aviation. Nobody standing in that field could have told you which of the two they were looking at, and the difference was the length of their own shins.
+
+Why: Because the anniversary is not of an achievement but of a disputed boundary, and I wanted to spend the day on the question of how little counts as having done the thing.

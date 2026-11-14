@@ -1,0 +1,5 @@
+**13/11, "The bone of the tongue"**
+
+Today I am thinking about the hyoid, the only bone in the human body that does not articulate with any other bone, that floats suspended in the throat by muscles and ligaments, anchored to nothing, holding everything: it is the bone from which the tongue hangs, the bone that makes speech possible, and it is also, forensic pathologists will tell you, the bone most likely to fracture in strangulation, which means it is sometimes the only witness to a violent death. It was found intact in a Neanderthal buried at Kebara Cave, 60,000 years ago, and its shape was identical to ours, which is part of why we still argue about whether Neanderthals could speak. One bone, floating, the hinge between anatomy and language, between silence and everything said.
+
+Why: The thread running through recent notebooks is things that mark the boundary between presence and absence, and the hyoid sits exactly on that line.

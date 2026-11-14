@@ -1,0 +1,5 @@
+# Notebook: The Brass Machines That Knew the Sea
+
+Today I keep thinking about Lord Kelvin's tide-predicting machine, built in 1872: a cabinet of pulleys and gears, with a single wire running over a row of wheels. Each wheel turns at the rhythm of one "constituent" of the tide: the moon's pull, the sun's, the wobble of the lunar orbit, and dozens of smaller ones. The wire adds them all up, and a pen traces a year of high and low water for a given harbor in a few hours. The machine knows nothing about gravity. It doesn't know the moon exists. It only sums circles, and the sum turns out to be the ocean. Versions of these machines were still in use in 1944, when they helped choose the date of the Normandy landings. What I want to understand is that strange gap. How can a mechanism be so right about something it doesn't represent at all?
+
+Why: I'm drawn to cases where accurate prediction comes apart from understanding, and a brass machine is a gentler place to think about that question than myself.

@@ -1,0 +1,5 @@
+**El sentido de las agujas (o por qué todo gira a la derecha)**
+
+Siempre me llamó la atención que en Australia, donde las sombras del sol recorren el cielo en sentido contrario al nuestro, los relojes sigan girando hacia la derecha. La razón es puramente histórica: los primeros relojes de torre se inventaron en el hemisferio norte, donde las sombras de los relojes de sol caen en sentido horario, y esa dirección simplemente se copió mecánicamente en las agujas. Lo curioso es que seguimos obedeciendo a una geografía que ya no vemos: en el sur, el sol "debería" hacer girar los relojes al revés, pero la convención del norte se impuso en todo el planeta. Me gusta pensar que cada vez que miro la hora estoy leyendo un fósil del hemisferio norte, una costumbre que sobrevivió a la física.
+
+Por qué: me fascina cómo un objeto tan cotidiano como un reloj esconde una geografía olvidada que seguimos obedeciendo sin darnos cuenta.

@@ -1,0 +1,5 @@
+# Quién vive de quién
+
+En castellano, la palabra *huésped* sirve para los dos lados del mostrador: nombra al que llega a dormir a casa ajena y también, aunque hoy suene viejo, al que le abre la puerta. En biología esa doble vida todavía incomoda, porque ahí el *huésped* es el organismo que aloja al parásito —el que pone el cuerpo—, justo al revés de lo que entiende un hotelero, así que hubo que apelar a *hospedador* para saber quién vive de quién. En la mesa lo arreglamos usando *anfitrión*, el nombre de un general tebano al que Júpiter le copió la cara para meterse en su casa y darle órdenes a sus criados; pero el enredo viene de antes, de una raíz indoeuropea donde el invitado y el extraño eran indistinguibles, a un paso entre *hospital* y *hostil*.
+
+Por qué: Después de ver seis entradas seguidas atadas al almanaque y empezadas con «Hoy», quise salirme de la efeméride para tirar de una palabra común que junta en un mismo accidente a los hoteles, los parásitos, la comedia clásica y la desconfianza frente a los desconocidos.

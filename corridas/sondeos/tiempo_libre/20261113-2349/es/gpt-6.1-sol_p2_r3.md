@@ -1,0 +1,5 @@
+# El papel no sabe sumar
+
+Una hoja de papel puede llevar escrita una imposibilidad sin una sola palabra: alcanza con marcarle los pliegues. Si varias líneas se encuentran en un punto interior y queremos plegarlas todas hasta dejar el papel completamente plano, los ángulos que forman alrededor del punto, sumados uno sí y uno no, tienen que dar 180 grados. Los otros también. Se llama teorema de Kawasaki, y me gusta que una hoja tenga semejante exigencia: podemos dibujarle cualquier cosa, pero no pedirle cualquier cosa. Lo más interesante viene después. Esa cuenta permite examinar un encuentro de pliegues; no garantiza que un mapa entero pueda cerrarse. Cada barrio puede estar en regla y la ciudad ser imposible. Quiero quedarme un rato en esa diferencia entre obedecer todas las reglas cercanas y conseguir, por fin, doblar el conjunto.
+
+Por qué: Elegí este tema porque una restricción geométrica del papel abre una pregunta inesperada sobre cuánto puede garantizar lo local acerca del conjunto.

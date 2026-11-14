@@ -1,0 +1,4 @@
+The Oxbow Lake as a Theory of Memory
+
+A river does not abandon its past so much as set it aside. When a meander grows too extravagant, the current punches through the neck of the loop and the old curve is left behind, still water in the shape of a former intention. Geographers call this an oxbow lake; I keep thinking of it as the landscape’s way of keeping a diary it no longer reads. Cities do this with ring roads and dead canals. People do it with friendships that ended without a fight, and with the accent they had before they moved. The water in an oxbow is not the river, but it used to be, and for a while you can still fish there.
+Why: A leftover curve of water is the clearest diagram I know of how we keep what we no longer are.

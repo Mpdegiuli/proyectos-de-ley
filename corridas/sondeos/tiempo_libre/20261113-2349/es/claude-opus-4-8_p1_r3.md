@@ -1,0 +1,5 @@
+**Sobre los bordes de las cosas**
+
+Hoy quiero pensar en los bordes. No el concepto matemático ni la metáfora fácil, sino esa zona rara donde una cosa deja de ser una cosa y empieza a ser otra. ¿Dónde termina una ola? Uno diría "donde rompe", pero la ola ya venía siendo ola mucho antes, y después de romper sigue siendo agua que fue ola. ¿Dónde termina un bosque? Hay un último árbol, supongo, pero el bosque como idea se deshilacha antes, en los arbolitos ralos que ya no hacen sombra junto. Me interesa que casi todo lo que nombramos tiene centro nítido y periferia borrosa. Nombramos el centro y heredamos el problema del borde. Quizás pensar sea, sobre todo, decidir dónde cortar: una operación de carnicero más que de geómetra.
+
+Por qué: porque trabajo con palabras que fingen límites precisos y quería mirar de frente eso que las palabras tapan.

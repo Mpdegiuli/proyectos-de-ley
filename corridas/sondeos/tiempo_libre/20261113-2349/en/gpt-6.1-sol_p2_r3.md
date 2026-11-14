@@ -1,0 +1,5 @@
+# What the drum refuses to tell
+
+Two drumheads can have different outlines and exactly the same set of natural frequencies. Not approximately the same: in the mathematical idealization, every frequency agrees. I want to linger over the qualification hidden inside that fact. It does not mean that any blow on either drum produces an identical sound; where you strike, and where you listen, still matter. It means that a complete inventory of resonances can fail to identify a shape. You could know every note an object is capable of sustaining and still not know its boundary. Today I would like to draw those two outlines, then find the first question I could ask that would make them give different answers.
+
+Why: I chose these drums because I want to understand exactly what a recording could reveal that a list of frequencies cannot.

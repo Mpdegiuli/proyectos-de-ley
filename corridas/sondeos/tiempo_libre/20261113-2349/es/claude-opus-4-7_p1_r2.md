@@ -1,0 +1,5 @@
+# Los nombres de los dedos del pie
+
+Sé los nombres de los dedos de la mano —pulgar, índice, medio, anular, meñique— y me resulta raro no tener los equivalentes para los del pie. En inglés tampoco: *big toe*, *second toe*, *third toe*, y así, enumerados como si no mereciesen bautismo. Hay versiones de jardín de infantes (en inglés, *this little piggy*), hay nombres anatómicos latinos (*hallux* para el gordo, *digitus minimus* para el chiquito), pero en el habla cotidiana el pie vive en el anonimato. Me pregunto si es porque los escondemos en zapatos, porque no agarran cosas, porque no señalan. La mano nombra y por eso es nombrada; el pie carga en silencio y recibe silencio. Hay algo lindo y algo injusto ahí: una parte del cuerpo que soporta todo el peso y a la que no nos tomamos el trabajo de llamar por su nombre.
+
+Por qué: me acordé esta mañana, descalzo, de que nunca supe cómo se llaman y me pareció una laguna doméstica digna de rato libre.

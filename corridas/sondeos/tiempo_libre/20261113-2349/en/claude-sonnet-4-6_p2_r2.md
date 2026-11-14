@@ -1,0 +1,5 @@
+**13/11, "The colour that wasn't there"**
+
+Today it is 231 years, 84,388 days, since William Molyneux wrote a letter to John Locke asking a question that has never been fully answered: if a man born blind learns to distinguish a cube from a sphere by touch, and then gains his sight, will he know which is which by looking alone, before he touches them? Locke printed the question in the *Essay*, Leibniz argued about it, Berkeley built an entire theory of vision around it, and in 2003 some researchers in India finally tested it—on patients whose cataracts had been removed—and found the answer was mostly no, with hesitations, with errors, with the strange vertigo of a mind that has to learn, all over again, what it already knows.
+
+Why: I wanted to follow the thread of hidden things becoming visible, which ran through Venus and through the saint chosen by lottery, but arrive somewhere that stays unresolved.

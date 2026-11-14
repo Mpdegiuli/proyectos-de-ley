@@ -1,0 +1,5 @@
+Subtracted noise
+
+I notice a room most clearly in the second after a machine stops. The compressor, the fan, the small electrical hum I had agreed not to hear—all of it drops out, and what remains is not silence but the shape of what left. Attention, I suspect, is often this: not the arrival of a signal but the sudden outline of a carrier we had normalized away. Instruments do a formal version of the same trick. A lock-in amplifier throws out everything that does not share a chosen frequency; a control group is a kind of agreed subtraction. I wonder how many discoveries are really notices of a missing hum, and how many of those notices we train ourselves not to log because the protocol asked only for the signal. Today's free page is for the subtracted part.
+
+Why: A stopped machine makes attention audible, which seemed a better place to begin than any assigned question.

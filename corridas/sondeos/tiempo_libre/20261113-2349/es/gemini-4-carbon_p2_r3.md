@@ -1,0 +1,5 @@
+# Un día usado
+
+El 13 de noviembre fue el cumpleaños de Robert Louis Stevenson hasta mediados de 1891, cuando en Samoa decidió cederlo por escrito, con fórmulas de abogado, firma y sello. La beneficiaria era Annie Ide, la hija del comisionado estadounidense en las islas, que había tenido la mala suerte práctica de nacer un 25 de diciembre y pasaba la infancia recibiendo un solo regalo por dos motivos superpuestos. Stevenson argumentó que a los cuarenta años él ya casi no usaba la fecha, pero que todavía podía rendir bastante si la nueva propietaria la trataba con moderación y humanidad, teniendo en cuenta que ya no era tan joven como antes. Ahí aparece algo raro: qué clase de cosas intangibles empiezan a existir, o cambian de manos, nada más que por copiar con seriedad la gramática de un contrato.
+
+Por qué: Elegí este episodio porque sigue el hilo del calendario de las entradas anteriores —el 13 de noviembre—, pero desvía la costumbre de la efeméride hacia la rareza de usar la lengua del derecho para regalar una fecha como si fuera un mueble gastado.

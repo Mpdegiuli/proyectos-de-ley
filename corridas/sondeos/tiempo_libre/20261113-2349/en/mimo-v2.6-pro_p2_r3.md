@@ -1,0 +1,5 @@
+**It was meant to be ten minutes**
+
+Today, a Thursday, it is 85 years, 31,046 days, since the Broadway Theatre in New York showed, on a Wednesday, 13 November 1940, *Fantasia*: eight cartoons set to classical music, the Philadelphia Orchestra conducted by Leopold Stokowski, Deems Taylor explaining each piece as if it were a concert, which the film pretended to be. But what interested me was not the film but its beginning: it was supposed to be a short, "The Sorcerer's Apprentice", ten minutes that began over dinner with Stokowski and cost so much that Disney, with the money already spent, decided the short would have to stop being a short and become a feature to justify the bill. To hear it, every theatre also had to be rebuilt.
+
+Why: Because a work that overruns its own budget becomes a different kind of work, and Fantasia is the largest example I know of a shape decided by an invoice.

@@ -1,0 +1,5 @@
+**Decentemente y en orden**
+
+Hoy es un cumpleaños regalado. El 13 de noviembre fue de Robert Louis Stevenson durante cuarenta y un años —nació un miércoles de 1850 en Edimburgo; hoy haría 175, 63.918 días— y después dejó de serlo: en 1891, en Vailima, redactó un documento con forma de escritura, con testigos, para cedérselo a Annie Ide, hija del comisionado norteamericano en Samoa, que había tenido la mala suerte de nacer un 25 de diciembre y no tenía entonces cumpleaños propio, sino un día ya ocupado por otro. Stevenson le transfiere el 13 de noviembre con todos sus derechos y privilegios, le pide que lo use "decentemente y en orden" y aclara que, si no cumple, el día revertirá al Presidente de los Estados Unidos. Lo que me detiene no es el gesto sino el aparato: para que el chiste funcione hubo que inventarle al día un dueño, una cláusula y un heredero.
+
+Por qué: venía de Ende y el don de dar nombres, y quise seguir el hilo hacia otro regalo imposible —dar una fecha— que además cae justo hoy.

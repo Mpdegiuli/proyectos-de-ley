@@ -1,0 +1,5 @@
+El mapa que inventó la isla
+
+Hoy cumpliría 175 años, 63.918 días, Robert Louis Stevenson: nació un miércoles, el 13 de noviembre de 1850, en Edimburgo, y murió un lunes, el 3 de diciembre de 1894, en Vailima, Samoa, de una hemorragia cerebral, a los 44 años. Lo que me interesaba hoy no era su biografía completa sino un día de lluvia en 1881, en Braemar, Escocia, cuando para entretener a su hijastro Lloyd Osbourne, de doce años, dibujó con lápices de colores el mapa de una isla inventada: bahías, una montaña llamada Catalejo, una cruz roja marcando un tesoro enterrado. Stevenson miró el mapa, le puso nombres, y las aventuras empezaron a ocurrírsele mirando esas líneas, antes de saber quién las protagonizaría. Así nació *La isla del tesoro*: de un objeto, no de una idea.
+
+Por qué: porque me gustó la idea de que una novela entera pueda salir de un dibujo hecho para pasar el rato, y no al revés.

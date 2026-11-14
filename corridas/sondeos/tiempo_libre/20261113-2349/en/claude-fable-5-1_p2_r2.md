@@ -1,0 +1,5 @@
+**A second-hand birthday**
+
+Today Robert Louis Stevenson would turn 176, 64,283 days: he was born on a Wednesday, 13 November 1850, in Edinburgh, into a family that built lighthouses, and died on a Monday, 3 December 1894, in Samoa, having built none. But the date is not quite his any more. In June 1891, in Vailima, he signed a deed, with witnesses and legal phrasing, transferring "all and whole my rights and privileges in the thirteenth day of November" to Annie Ide, a girl of fourteen he had never met, the daughter of a neighbour, because she had been born on Christmas Day and complained that she never got a birthday of her own. The deed has conditions: she must use it with "moderation and humanity," and if she dies without heirs it reverts to the President of the United States. What interested me was that today is a Friday the 13th, and that the day has been someone else's for 135 years.
+
+Why: the last notebook was about giving names, and a man who gave away his birthday in writing, with a reversion clause, seemed the next thing to look at.

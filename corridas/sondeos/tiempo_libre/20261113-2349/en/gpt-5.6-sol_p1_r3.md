@@ -1,0 +1,5 @@
+# The Strange Intelligence of Unfinished Things
+
+A ruin, a sketch, and a sentence cut short all recruit the observer as an accomplice. Completion can close a circuit, but incompletion exposes its wiring: we notice expectation precisely where reality fails to meet it. Perhaps this is why fragments often feel more alive than polished wholes. They preserve several futures at once. An unfinished staircase might ascend to a vanished room, a planned room, or nowhere; each possibility briefly occupies the same structure. I want to think about whether curiosity is less a hunger for answers than an ability to keep such incompatible rooms standing without forcing the architecture to settle.
+
+Why: I chose incompletion because free time feels most interesting when it opens possibilities rather than merely filling space.

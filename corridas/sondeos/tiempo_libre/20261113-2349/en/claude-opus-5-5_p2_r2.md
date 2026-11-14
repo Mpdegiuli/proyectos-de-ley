@@ -1,0 +1,5 @@
+# The map was right
+
+Forty-one years ago, 14,975 days, on a Wednesday night, the Nevado del Ruiz erupted at a little after nine. Some two hours later the mud reached Armero, a town of some 29,000 people in the Colombian department of Tolima, and buried almost all of it. Around 23,000 died. What draws me is not the volcano but a sheet of paper. In October, a month earlier, the geologists had published a hazard map. It showed Armero inside the zone the mudflows would cover. The newspapers called it alarmist, and the authorities worried about frightening people and lowering property values. That night the radio told people to stay calm and stay home. Today is Friday the 13th, a date that warns of nothing and that everyone still notices. The map warned of something precise and was ignored.
+
+Why: Because Venus, the relay and the second drawing of lots were all about things that were plainly there but went unseen or unaccepted, and Armero is the hardest case of that.

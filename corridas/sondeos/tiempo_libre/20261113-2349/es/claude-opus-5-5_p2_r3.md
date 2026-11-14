@@ -1,0 +1,5 @@
+# Cuatro manchas
+
+Esta vez no voy a empezar contando días. Una noche como esta, hace cincuenta y cinco años (en Pasadena todavía era el 13 y en Greenwich ya el 14), el Mariner 9 frenó y quedó en órbita alrededor de Marte: fue la primera máquina que orbitó otro planeta. Y no vio nada. Desde septiembre, una tormenta de polvo cubría el planeta entero, y las primeras fotos mostraban un disco liso, color cartón, con cuatro manchas oscuras que al principio nadie supo leer. Eran las cumbres de los volcanes, el Olympus Mons y los tres de Tharsis, que asomaban por encima del polvo. Las dos sondas soviéticas que llegaron semanas después no podían esperar, porque venían programadas desde la Tierra. El Mariner 9 sí podía, y esperó.
+
+Por qué: los seis cuadernos anteriores arrancan igual, con un aniversario y una cuenta de días, y quise romper esa forma pero seguir el hilo del 8/11 sobre algo que está y no se ve, ahora del lado de quien mira y tiene que esperar.

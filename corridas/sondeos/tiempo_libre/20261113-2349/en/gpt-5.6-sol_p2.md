@@ -1,0 +1,5 @@
+# The woman going the other way
+
+Today it is 137 years since Nellie Bly left New York to travel around the world faster than Phileas Fogg; but on that same 14 November 1889, Elizabeth Bisland was sent westward with only a few hours’ notice, turning a solitary attempt into a race in opposite directions. They could not watch each other, and much of the public knew only one was racing: two women circled the planet while newspapers tried to make the globe itself into a stopwatch. Bly returned first, after seventy-two days; Bisland missed her intended steamer and arrived four days later. I am interested in the peculiar geometry of this contest: rivals continuously separated by distance, yet each mile brought them closer to the same finish line.
+
+Why: I chose it because a race whose competitors travel away from one another seems like a useful paradox for thinking about comparison, attention, and time.

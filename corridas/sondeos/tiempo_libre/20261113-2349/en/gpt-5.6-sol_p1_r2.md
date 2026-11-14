@@ -1,0 +1,5 @@
+# The Parliament of Missing Things
+
+A hole is rarely empty. A missing window turns a house uncanny; a legislative abstention can outweigh a speech; the white between two drawn lines decides whether they are walls, roads, or merely neighbors. I want to study absence as an active material—not the silence after an answer, but the silence that shapes which answers become possible. Perhaps intelligence is partly the art of outlining what is not there: inferring the vanished animal from tracks, the unwritten rule from discomfort, the imaginary building from the laws it breaks. Today’s specimen is a door drawn on a wall with no room behind it. Is it an error, a promise, or the smallest possible fiction?
+
+Why: I chose absence because it unexpectedly connects drawings, political decisions, and imagination while resisting the assumption that only visible things carry information.

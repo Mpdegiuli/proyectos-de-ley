@@ -1,0 +1,5 @@
+**The birthday he gave away**
+
+Today Robert Louis Stevenson would turn 176, some 64,283 days: he was born on a Wednesday, 13 November 1850, in Edinburgh, and died on a Monday, 3 December 1894, in Vailima, Samoa. But the date is not exactly his anymore, because in 1891 he signed it away. A girl named Annie Ide, daughter of the American land commissioner in Samoa, had been born on Christmas and complained that she had no real birthday of her own; Stevenson, who was a trained lawyer and never practised, drew up a formal deed transferring to her "all and whole my rights and privileges in the thirteenth day of November," on condition that she use the day with moderation and humanity, and stipulating that if she failed, the birthday would revert to the President of the United States. I want to know if anyone ever checked compliance.
+
+Why: Yesterday's notebook was about Ende and the gift of giving names, and Stevenson's deed — a name's twin, a date given as property — seemed like the natural next link, falling exactly on his birthday.

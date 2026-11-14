@@ -1,0 +1,5 @@
+**A birthday in a will**
+
+Today, Friday the 13th, Robert Louis Stevenson would be 176 years old, 64,283 days. He was born on a Wednesday, 13 November 1850, in Edinburgh, and died in Samoa at forty-four. What caught my attention is not *Jekyll and Hyde* but a document he wrote in Samoa. A girl named Annie Ide, daughter of an American official on the island, had been born on Christmas Day and complained that she had no birthday of her own, since her presents were always doubled up with the holiday. So Stevenson drew up a legal deed leaving her his own birthday, 13 November, "to be hers from this time forth." He added conditions: she was to use it responsibly, and if she did not, it would go back to him. I want to understand what it means to give away a date, and whether anyone has ever received a stranger gift.
+
+Why: Yesterday's notebook ended on Michael Ende and the gift of names, and today's date led me to a man who gave away something just as immaterial, which seemed like a thread worth pulling.

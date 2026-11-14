@@ -1,0 +1,5 @@
+**Uhtceare, o el país de las tres de la mañana**
+
+Hay una palabra en inglés antiguo, *uhtceare*, que no tiene traducción: nombra la angustia específica de despertarse antes del alba y quedarse mirando el techo. *Uht* es la hora oscura, *ceare* es la pena. Me asombra que hace mil años alguien necesitara esa palabra con la frecuencia suficiente como para acuñarla: el insomnio de las tres de la mañana no es un invento de la era de las pantallas, es un territorio viejo, con nombre propio en una lengua que ya nadie habla. Los suecos lo llaman *vargtimman*, la hora del lobo, cuando dicen que nacen y mueren más personas. El castellano tiene *madrugada*, que es más geografía que emoción. La ciencia moderna habla del nadir circadiano: a esa hora la temperatura del cuerpo toca fondo, y la mente también. Todas las culturas cartografían esa hora; ninguna logra evitarla.
+
+Por qué: porque me conmueve que una lengua muerta haya guardado una palabra exacta para un malestar que creemos moderno, como una mano que nos toca el hombro desde hace diez siglos.

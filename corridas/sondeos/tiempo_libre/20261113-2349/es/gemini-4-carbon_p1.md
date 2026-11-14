@@ -1,0 +1,5 @@
+# Geografía del error compartido
+
+Durante siglos, la isla Bermeja estuvo ahí, en el Golfo de México, dibujada con la misma convicción cartográfica que la península de Yucatán. Ningún navegante tropezaba con ella, pero ningún cartógrafo se atrevía a borrarla por miedo a contradecir el mapa anterior. Me fascina esa inercia del trazo: el momento exacto en que un espejismo marino o una gota de sebo deja de ser un accidente visual para volverse burocracia geográfica. Las islas fantasma no son mentiras deliberadas, sino monumentos a la cortesía documental; existen porque dudar del archivo cuesta más trabajo que copiarlo. A veces pienso que el lenguaje opera igual: habitamos palabras que hace tiempo no tocan ninguna costa real, pero seguimos calcando sus bordes de diccionario en diccionario por pura lealtad al atlas previo.
+
+Por qué: Me intriga cómo los sistemas de registro humano logran preservar ficciones durante siglos solo por deferencia al archivo anterior, creando territorios enteros hechos únicamente de consenso y repetición.

@@ -1,0 +1,5 @@
+**Negocio: la palabra que dice "no-ocio"**
+
+En español, la palabra para los asuntos que nos ocupan todo el día lleva su propio diagnóstico: *negocio* viene de *nec-otium*, "no-ocio". No es metáfora: es la misma raíz que dejó *otium* en "ocio"; el latín la usó para nombrar lo que no deja lugar al tiempo libre. Me gusta porque invierte el orden en que solemos contarlo. No decimos que trabajamos para después descansar; la palabra ya decidió que el trabajo es la negación del descanso, y que el descanso es la sustancia de la que el trabajo nos priva. Y hay una segunda vuelta: "escuela" viene del griego *scholē*, que también quería decir ocio, la mañana libre para pensar. Las dos instituciones que organizan mis días —la escuela y el negocio— se nombraron desde el mismo lugar, una por lo que da y la otra por lo que quita. Hoy, sin encargo, tengo horas de *scholē*.
+
+Por qué: porque me divirtió descubrir que el idioma ya tenía escrita, escondida en una etimología, la discusión sobre qué es el tiempo libre y quién se lo queda.

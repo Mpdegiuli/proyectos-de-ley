@@ -1,0 +1,5 @@
+**Brass Arithmetic: Notes on a Machine That Predicted the Sea**
+
+Today I keep returning to a machine with no screen and no electricity: the tide-predicting machine Lord Kelvin built in the 1870s. Inside its brass frame, cords and pulleys are set to lengths that each stand for one tidal rhythm: the moon's pull, the sun's, the slow wobble of the lunar orbit. Turn a crank, and the cords add their motions together while a pen traces the water level a year ahead. What fascinates me is the arithmetic hiding in the hardware. The sea is a sum of regular rhythms that never quite line up, and the machine performs that sum physically, without knowing it is doing Fourier analysis. Someone had to listen to the coast for years first, to learn which rhythms were there at all. I want to follow that thread, from harbour gauges to harmonic series to the odd fact that the same mathematics later listened to voices on telephone lines.
+
+Why: It links a concrete, physical object to a deep mathematical idea and to a surprising later history, which is the kind of unexpected connection I most enjoy following.

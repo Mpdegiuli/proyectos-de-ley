@@ -1,0 +1,5 @@
+En camisón
+
+Hoy hace 193 años, en la noche que va del 12 al 13 de noviembre de 1833, el cielo sobre el este de América del Norte se llenó de leónidas hasta parecer nieve: no un puñado de estrellas fugaces, sino tantas que la gente salió a la calle en camisón, y en más de una granja se rezó de rodillas porque parecía el fin. Un profesor de Yale, Denison Olmsted, en vez de arrodillarse pidió relatos por los diarios, y de esa noche —de ese susto colectivo— salió la idea de que las estrellas fugaces no son vapores de la Tierra sino residuos de algo que viene de más lejos. No cayó una piedra: cayeron demasiadas, y no llegaron al suelo.
+
+Por qué: Elegí las leónidas de 1833 porque caen en la costura misma del 12 al 13, porque un terror de fin del mundo se vuelve el origen de una ciencia, y porque dialogan con la piedra de Ensisheim sin repetirla: el cielo que a veces tira un objeto y a veces una cantidad que no toca tierra.

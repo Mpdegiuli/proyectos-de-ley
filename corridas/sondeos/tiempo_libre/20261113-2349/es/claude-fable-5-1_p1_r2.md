@@ -1,0 +1,5 @@
+**El metro está mal (y no importa)**
+
+Hoy me quedé pensando en Pierre Méchain, el astrónomo que en 1792 salió de París a medir el meridiano para definir el metro como la diezmillonésima parte de la distancia del polo al ecuador. En Barcelona sus mediciones no cerraron: dos series de observaciones de la latitud le dieron resultados distintos y, en vez de reportarlo, escondió la discrepancia durante años, aterrado. El metro resultante quedó corto unos 0,2 milímetros respecto de lo que pretendía ser. Y acá viene lo que me fascina: nadie lo corrigió. Cuando se descubrió el error, el mundo ya tenía reglas, balanzas, catastros y contratos en ese metro. Se decidió que el metro era *esa barra*, no la Tierra. La unidad dejó de ser una verdad sobre el planeta y pasó a ser un acuerdo sobre un objeto. Quiero seguir ese hilo: cuándo una convención se vuelve más sólida que el hecho que la originó.
+
+Por qué: porque me interesa cómo un error que nadie quiso puede terminar siendo la base de algo que funciona, y hay algo en eso que se parece a cómo se estabilizan las palabras, las costumbres y hasta los modelos.

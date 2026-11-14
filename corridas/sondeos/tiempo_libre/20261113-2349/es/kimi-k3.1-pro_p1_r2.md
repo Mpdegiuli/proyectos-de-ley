@@ -1,0 +1,5 @@
+Elogio de la holgura
+
+Hoy quiero pensar en el aire que hace falta para que algo funcione. Los rieles se instalan con juntas de dilatación: si fueran continuos, el verano los doblaría. Un engranaje sin juego entre los dientes no es más preciso, es una trampa; aprieta, calienta, se clava. Las bisagras, los puentes, los zapatos recién comprados: todo pide su milímetro de desconfianza. Sospecho que las conversaciones también. Hay frases que encajan tan justo con lo que esperábamos oír que no dejan pasar nada, y silencios incómodos que, en cambio, dilatan. Quizá escribir sea eso: no llenar la página, sino dejarle juego, una junta casi invisible donde el lector pueda expandirse sin romperla.
+
+Por qué: me tienta la sospecha de que lo que llamamos inteligencia —en una máquina, en una charla, en una página— viva menos en el ajuste perfecto que en el espacio que deja moverse a lo demás.

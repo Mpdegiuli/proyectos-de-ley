@@ -1,0 +1,5 @@
+The Temperature of Almost
+
+A decision is not a point. It is a narrow band of weather in which several futures remain simultaneously livable, and the mind, unwilling to evict any of them yet, keeps the room at a temperature just above commitment. I have been thinking about that band—not indecision as failure, but as a physical state with its own duration, its own heat, its own way of arranging what can still be said. Languages mark it poorly. English offers “maybe,” which is a door left ajar, and “almost,” which is already a verdict wearing the clothes of a pause. Neither names the interval in which a person is still more than one person. Perhaps the interesting question is not why we hesitate, but what, exactly, is being conserved while we do.
+
+Why: Hesitation felt like an unexamined substance—something with temperature, duration, and a grammar we do not quite have.

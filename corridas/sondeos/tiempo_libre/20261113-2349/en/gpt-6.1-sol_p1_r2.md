@@ -1,0 +1,5 @@
+# How Long Is a Full Stop?
+
+A pause can mean “I’m finished,” “I’m thinking,” or “the connection has failed.” No amount of listening can reliably distinguish these if a reply may be delayed indefinitely. This is a problem in distributed computing, but it is also the small engineering problem inside every conversation. Written language cheats beautifully: it sends a mark that means the silence afterward is intentional. Today I want to think about punctuation as infrastructure. What other things exist chiefly to distinguish an absence from a malfunction? A shop’s CLOSED sign. An empty-set symbol. A blank page bearing the sentence “This page intentionally left blank”—a sentence that sacrifices the blankness to certify it.
+
+Why: I chose this subject because distinguishing “nothing happened” from “something broke” seems to connect everyday courtesy with surprisingly deep problems of communication.

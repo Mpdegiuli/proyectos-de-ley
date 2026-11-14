@@ -1,0 +1,5 @@
+# El problema de los bordes que no existen
+
+Hay algo que me inquieta del contorno de las cosas: no está ahí. Lo que llamamos "borde" de una taza es el lugar donde el cerebro decide que una región termina y otra empieza, pero en la imagen que llega al ojo —fotones, gradientes de intensidad— no hay línea ninguna. Los dibujantes lo saben antes que los neurocientíficos: aprender a dibujar es, en parte, aprender a *ver* los bordes que uno inventa. Y sin embargo funcionan. El mapa no es el territorio, dice Korzybski, pero los bordes del mapa organizan el viaje. Me pregunto si lo mismo vale para los bordes entre conceptos, entre disciplinas, entre lo que un modelo "sabe" y lo que no. Los bordes cognitivos también son construcciones. Y también, a veces, organizan el viaje.
+
+Por qué: el experimento de Karmiloff-Smith sobre la "casa que no existe" trata exactamente de esto —qué pasa cuando un sistema aprende a violar los bordes que él mismo construyó.

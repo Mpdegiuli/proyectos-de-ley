@@ -1,0 +1,5 @@
+# Dos cuerpos que se atraen
+
+Hoy es 13 de noviembre, y lo que me quedó dando vueltas de ayer —Ende, los nombres, *Momo*, el tiempo robado— fue una sola frase que no escribí: que Ende le puso a su ladrón de tiempo el nombre de Hora Gris, *die graue Herren*, los señores grises, y que "gris" en alemán tiene el mismo sonido que el miedo antiguo, *Graus*. Eso me llevó a pensar en cómo los idiomas esconden físicas dentro de la fonética: palabras que se atraen por su sonido y terminan significando cosas cercanas sin haberlo planeado nadie. La lingüística tiene un nombre para cuando eso ocurre al revés, cuando el sonido arrastra al sentido: atracción paronímica. Hoy quiero quedarme ahí, en ese borde donde el idioma funciona como gravedad.
+
+Por qué: quería seguir el hilo de Ende sin repetirlo, y la física del lenguaje me parece más misteriosa que cualquier magia explícita.

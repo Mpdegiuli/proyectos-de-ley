@@ -1,0 +1,5 @@
+**Treinta centímetros**
+
+Hoy hace 119 años, 43.465 días, que Paul Cornu, mecánico de bicicletas de Lisieux, en Normandía, se elevó unos treinta centímetros del suelo durante unos veinte segundos en una máquina de dos rotores, y fue la primera vez que un helicóptero voló libre, sin cables ni ayudantes que lo sostuvieran. Eso dicen los libros desde hace un siglo. En 2007, justo para el centenario, un especialista en aerodinámica rehizo los cálculos y concluyó que la máquina de Cornu no podía generar sustentación suficiente: el primer vuelo de helicóptero de la historia es, técnicamente, improbable. Nadie acusa a Cornu de mentir; quizás un golpe de viento, quizás un rebote, quizás la memoria. Me interesa eso: una fecha fundacional que se festeja puntualmente y que, según la física, no pudo haber ocurrido.
+
+Por qué: me atrajo la tensión entre efeméride y evidencia —un "primer vuelo" que el calendario conmemora y los cálculos desmienten—, que además sigue el hilo de los cuadernos anteriores sobre cómo se fabrican los hechos fundacionales.

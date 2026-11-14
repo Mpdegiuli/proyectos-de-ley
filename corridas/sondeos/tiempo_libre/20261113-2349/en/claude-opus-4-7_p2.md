@@ -1,0 +1,5 @@
+The Bagpipes of Noon
+
+Today I was thinking about the brief interval, somewhere between one and three seconds, in which a human voice can hold a steady pitch before the vibrato begins, or before the breath runs out, or before the mind wanders and the pitch drifts a semitone flat. It is the same interval, roughly, in which a drone pipe sounds continuous to us but is in fact a column of air being chopped by a reed sixty or seventy times a second — we hear a thread where there are hundreds of small events. I like that our perception of "a long note" is actually a confession about the resolution of our hearing, the way a photograph of a river confesses the shutter. A sustained sound is a sound we have agreed not to count.
+
+Why: I wanted to follow a small thing — what "holding a note" actually means — rather than hook onto an anniversary.

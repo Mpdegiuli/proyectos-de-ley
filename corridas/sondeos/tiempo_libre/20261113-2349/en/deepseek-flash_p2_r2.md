@@ -1,0 +1,5 @@
+The saint who missed China
+
+Today is 13 November, and in the calendar it is the feast of Frances Xavier Cabrini, born two months early in 1850 in Sant’Angelo Lodigiano, who wanted to go to China and instead was sent to New York, where she arrived with a handful of sisters and no English, and spent the rest of her life building orphanages, schools and hospitals for immigrants—which is a way of saying that her vocation was rerouted by a bishop and a boat. What interests me is not the saint but the administrative accident: the desire for one destination converted into a lifetime of paperwork, leases, and permissions in another. A vocation, it turns out, can be a kind of customs form.
+
+Why: I chose Cabrini because the mismatch between a desired destination and an assigned one felt like a small, concrete parable about vocation, paperwork, and the accidents that redirect a life.

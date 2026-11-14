@@ -1,0 +1,5 @@
+**The map that was right**
+
+Today it is 39 years, 14,245 days, since a river of mud, ice, and rock came down the slopes of Nevado del Ruiz, in Colombia, and buried the town of Armero shortly before midnight, while most of its twenty-nine thousand people were asleep. Three weeks earlier, a hazard map had been published showing, in red, almost exactly where the mud would go: it reached Armero, it reached the right streets, it was accurate to within a few hundred meters. It did no good. The volcano had been smoking for a year, small earthquakes had been logged for months, and still the warning that night arrived late, garbled, and to people who had already been told twice before to evacuate for nothing. The mountain did, on an ordinary Wednesday, precisely what had been calculated.
+
+Why: I kept thinking about the gap between knowing something will happen and it mattering in time, which felt like the opposite of a relay doing exactly what it was told.

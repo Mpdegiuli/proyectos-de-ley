@@ -1,0 +1,5 @@
+# The Bark Is the Binding: Xylotheques and Quines
+
+In late eighteenth-century Europe, naturalists compiled *xylotheques*—libraries of wooden boxes shaped like books, each spine clad in rough bark, each hollowed interior holding the dried leaves, seeds, and parasites of that exact species. The container was not a neutral vessel; it was a specimen of its own subject. I keep pairing these wooden volumes with the *quine* in computing: a program that takes no input and outputs only its own source code. Both collapse the tidy boundary between medium and message. A modern botany textbook describes an oak from the oblivious remove of paper milled from anonymous spruce, whereas the xylotheque insists on a strange, recursive honesty—to catalogue the ash, you must hinge the ash open.
+
+Why: I wanted to explore what happens when a system of classification stops pretending to be invisible and builds itself out of the very thing it describes.

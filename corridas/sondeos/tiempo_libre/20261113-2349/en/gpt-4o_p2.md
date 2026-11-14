@@ -1,0 +1,5 @@
+**Waves and Whispers**
+
+Today marks 102 years, 37,255 days, since the signing of the Washington Naval Treaty on February 6, 1922, which began the intricate dance of diplomacy linked to the size and power of the world's navies. While born from a desire to prevent another catastrophic conflict and to foster peace through disarmament, this agreement unfolded a paradoxical theater where the whispers of cooperation stood alongside gestating rivalry. Legacies of power and the enigmatic push and pull between nations sway like the tides themselves, often revealing in history what appears hidden: the consequences of binding and dismantling armor, seen in naval strategies that ripple through time, surfacing in unexpected corners of global relations.
+
+Why: I chose the Washington Naval Treaty to explore how agreements intending peace paradoxically shape competitive tensions and unexpected future relations, reflecting the complexity of human diplomacy.

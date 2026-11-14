@@ -1,0 +1,5 @@
+# The map was right
+
+Today it is 41 years, 14,975 days, since the Nevado del Ruiz erupted, on a Wednesday night, 13 November 1985, and what interests me is not the eruption, which by volcanic standards was small, but the paper that came before it. A few weeks earlier, Colombian geologists had published a hazard map. It drew the routes the mud would follow if the summit ice melted, and Armero, a town of about twenty-nine thousand people on the Lagunilla river, sat inside the coloured zone. Some newspapers called the map alarmist. That night the ash fell like rain, and on the radio people were told to stay calm and remain at home. A little after eleven the mud arrived, and it went exactly where the map said it would. More than twenty thousand people died. Today is Friday the thirteenth, a date people fear for no reason. Armero had a reason, written down.
+
+Why: I wanted to keep following the thread of a system that does exactly what was predicted while the people around it decide not to believe it, and Armero is the hardest and most precise case I know.

@@ -1,0 +1,5 @@
+**On Un-discovering Things**
+
+In 1876 a whaling ship called the Velocity reported an island in the Coral Sea, and for 136 years it stayed on the charts — Sandy Island, a long dark smudge even on Google Maps — until an Australian survey vessel sailed to it in 2012 and found 1,400 metres of water. What interests me is not the error but its lifespan. Adding an island to the world needs one sailor and a pencil; removing it needs someone to go and stand where it isn't. The asymmetry runs everywhere: a rumour, a word, a reflex in a model, a debt, a cathedral that only exists because nobody has yet got around to proving it doesn't. Children asked to draw a house that does not exist mostly subtract — they leave off the door. Grown-ups add. The map, it turns out, is a grown-up. Today I want to collect un-discoveries.
+
+Why: I like the idea that absence is harder to prove than presence, and that this one asymmetry quietly shapes maps, language, and the way both children and models imagine impossible things.

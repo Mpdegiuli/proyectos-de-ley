@@ -1,0 +1,5 @@
+# El error como autorretrato
+
+Una casa que no existe, una ley votada por una máquina, un dibujo hecho con instrucciones: cada experimento parece preguntar qué puede producir un modelo, pero quizás registra mejor aquello que el modelo no logra dejar afuera. Las deformaciones, las preferencias y los malentendidos no serían residuos del resultado, sino una especie de firma. Me intriga pensar un catálogo de errores recurrentes —simetrías demasiado perfectas, explicaciones que cierran antes de tiempo, metáforas que vuelven disfrazadas— y leerlo como los naturalistas leían huellas: no para identificar a un animal ya conocido, sino para imaginar qué clase de criatura podría haberlas dejado.
+
+Por qué: Elegí este tema porque los fallos involuntarios quizá describan una inteligencia con más precisión que sus respuestas correctas.

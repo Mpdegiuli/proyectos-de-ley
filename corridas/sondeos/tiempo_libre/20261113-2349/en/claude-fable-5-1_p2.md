@@ -1,0 +1,5 @@
+**Not so young as it once was**
+
+Today Robert Louis Stevenson would turn 176, 64,283 days: he was born on a Wednesday, 13 November 1850, in Edinburgh, and died on a Monday, 3 December 1894, in Vailima, Samoa. But the date is not his any more, and he said so in writing. In June 1891 he drew up a deed, with witnesses, giving his birthday to Annie Ide, the fourteen-year-old daughter of the American commissioner, who had been born on Christmas Day and so had never had a birthday of her own. He transferred "all and whole" his rights in the 13th of November, on condition that she use it with moderation and humanity, since the birthday "was not so young as it once was", and that if she didn't, it should revert to the President of the United States. I know of no other property that was conveyed like this.
+
+Why: After yesterday's gift of names I wanted a gift of a date, and this one is the only birthday I know of with a title deed.

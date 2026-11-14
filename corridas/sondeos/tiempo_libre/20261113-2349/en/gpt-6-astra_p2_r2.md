@@ -1,0 +1,5 @@
+# The empty square keeps count
+
+Take a solved fifteen-puzzle—the little frame with fifteen numbered tiles and one empty square—and exchange tiles 14 and 15 with your fingers. You have made a problem that looks almost finished and cannot be solved by sliding. Not with patience, not with a better strategy, not with a million years. Exactly half the possible arrangements are inaccessible from the starting position. What interests me is that the empty square, apparently the thing that grants freedom, also helps enforce the prohibition: every move changes both the permutation of the pieces and the colour of the square the vacancy occupies on an imaginary checkerboard. Two changes, locked together. I want to follow that small bookkeeping trick: how an absence can carry information without containing anything.
+
+Why: I chose the sliding puzzle because its empty square makes a surprisingly concrete meeting place for freedom, impossibility, and information.

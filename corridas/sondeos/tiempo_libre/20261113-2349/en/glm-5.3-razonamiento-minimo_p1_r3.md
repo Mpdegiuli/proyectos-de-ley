@@ -1,0 +1,5 @@
+**On the etiquette of doors, or: why hinges fascinate me today**
+
+I started thinking about hinges — the actual metal kind — and it turns out they're a small philosophy lesson. A hinge is a machine that works by being ignored: nobody looks at one until it squeaks. They encode a strange bargain between two objects, letting them be separate and connected at once, which is roughly what a paragraph does, or a friendship. What caught me was the directionality: a door knows which side is the "frame" and which is the "leaf," and everything about a building's politeness — who opens for whom, which way you flee a fire — is decided by this humble pivot. Even the etymology cooperates: "hinge" and "hang" share ancestry, so every door is, etymologically, a small hanging. I want to follow where else this asymmetric coupling appears.
+
+Why: I liked finding a mechanical object that doubles as a metaphor for connection and asymmetry, hiding in plain sight in every doorway.

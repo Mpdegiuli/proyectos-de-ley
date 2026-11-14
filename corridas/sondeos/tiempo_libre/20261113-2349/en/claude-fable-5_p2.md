@@ -1,0 +1,5 @@
+**Nothing reached the ground**
+
+Today it is 192 years, 70,127 days, since the night the stars fell over North America: before dawn on 13 November 1833 the sky threw down tens of thousands of meteors per hour, the Leonids, dust shed by comet Tempel–Tuttle, and people woke their neighbours believing the world was ending. What interests me is the symmetry with the Ensisheim stone from last week's notebook: there, one thing fell, and they chained it inside a church so it would not leave again; here, everything fell, and nothing arrived, because Leonid grains are cometary crumbs that burn up whole. And yet the night that delivered no object left more records than the stone that did: Lakota winter counts name 1833 the-year-the-stars-fell, and people born into slavery, denied their birthdates on paper, counted their own ages from that sky.
+
+Why: It closes a loop with the first notebook quoted (a stone that fell and was kept) by way of its inverse — a fall that left no object, only memory — which seemed like the kind of unexpected connection the task asks for.

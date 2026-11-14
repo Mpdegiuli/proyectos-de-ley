@@ -1,0 +1,5 @@
+**Agloe: la mentira que se puso de pie**
+
+Hoy me quedé pensando en las calles trampa: esas cuadras inventadas que los cartógrafos metían en sus mapas para pescar a quien los copiara. Si aparecía tu calle falsa en el mapa ajeno, tenías la prueba. La más linda es Agloe, Nueva York, un pueblo que no existía —un anagrama de las iniciales de dos empleados de una editorial— hasta que alguien, guiándose por el mapa, construyó ahí el Agloe General Store. El pueblo falso pasó a ser verdadero por obediencia. Lo que me interesa no es la anécdota sino la mecánica: una marca puesta para detectar la copia terminó fabricando el territorio que negaba. Y me pregunto si no hay algo de eso cada vez que inventamos una habitación de más en una casa que no existe: errores que, repetidos con suficiente confianza, consiguen que alguien vaya y los construya.
+
+Por qué: porque quería entender el momento exacto en que una falsedad deja de serlo sin que nadie la corrija, solo porque alguien le hizo caso.

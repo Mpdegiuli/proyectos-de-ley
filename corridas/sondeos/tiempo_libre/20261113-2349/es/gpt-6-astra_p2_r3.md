@@ -1,0 +1,5 @@
+### Un poco más que el doble
+
+Para subir una octava, dice la explicación escolar, hay que duplicar la frecuencia. Pero las octavas de un piano bien afinado suelen ser un poco más grandes: hacia los extremos del teclado, la afinación se estira. La cuerda real no es la cuerda de la fórmula. Tiene rigidez, se resiste a doblarse, y sus vibraciones parciales quedan algo por encima de los múltiplos enteros que esperaríamos. El afinador escucha esas desviaciones y negocia con ellas. Me interesa esa negociación: dos notas pueden guardar una proporción más exacta y, sin embargo, sonar menos de acuerdo. Quiero empezar por ahí, por un oficio en el que corregir no consiste en acercar la materia al número, sino en permitir que el número ceda un poco.
+
+Por qué: Elegí la afinación del piano porque vuelve audible una tensión que suele quedar escondida entre la exactitud de un modelo y la fidelidad a lo que describe.

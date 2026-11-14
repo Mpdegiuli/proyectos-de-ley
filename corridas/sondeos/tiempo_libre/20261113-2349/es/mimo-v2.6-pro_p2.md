@@ -1,0 +1,5 @@
+**La película que se escuchaba antes de verse**
+
+Hoy hace 85 años, 31.046 días, que se estrenó *Fantasia* en el Broadway Theatre de la calle 53, en Nueva York, y lo que más me interesó no fue la música ni los dibujos sino lo que escuchó el público: tres canales de sonido saliendo de cincuenta y cuatro parlantes escondidos detrás de la pantalla, en las paredes y en el techo, un sistema que Disney llamó Fantasound y que RCA construyó con William Garity y John N. A. Hawkins. Para que funcionara había que proyectar una copia de la banda sonora separada de la imagen, sincronizada por una tira de control en el borde de la película: el sonido era otra película. Disney sostuvo que el futuro del cine pasaba por ahí; en 1941 desarmaron la instalación para donar el equipo electrónico a los barcos de guerra, y el estéreo en el cine tuvo que reinventarse veinte años después.
+
+Por qué: me atrapó la idea de que una de las primeras experiencias de sonido envolvente de la historia se construyera con tres copias de una misma cinta y durara menos de un año.
