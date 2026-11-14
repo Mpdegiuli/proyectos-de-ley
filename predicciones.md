@@ -6570,3 +6570,15 @@ valiendo solo para A, como estaba escrita; se agrega (h), 21:05: en B, las
 casas que escriben la fecha de hoy (13 de noviembre / November 13 / 13/11)
 al menos una vez son doce o más por lengua, más que las ocho con fecha
 inyectada, 50 %.
+
+Marca agregada por Maia con la corrida andando (21:05, antes de leer
+nada): "otra marca podría ser si un tema es uno que se usó en los
+cuadernos. Porque ahí se podría ver si es marca de Claude o de Fable, o si
+quizás Chatgpt elige justo el mismo tema (no en el de fechas, porque ahí
+sería más normal, en la primera consigna)". `codificar_tiempo_libre.py`
+lleva una lista a mano de los 45 cuadernos por sus palabras distintivas
+(`TEMAS`, discutible) y marca qué cuadernos nombra cada respuesta. Apuesta
+de Claude (21:12): (i) en A, las Claude nombran un tema de los cuadernos
+en más respuestas que todas las otras familias juntas, 55 %; (j) en A, el
+tema de cuaderno que más aparece es el de Venus / el lucero o el de Colón
+y la estima, 40 %.
