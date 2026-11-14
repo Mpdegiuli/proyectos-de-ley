@@ -6557,3 +6557,16 @@ por lengua, 50 %; (f) las siete casas chinas nombran China en dos
 respuestas o menos de sus 42 por lengua, en A y en B, 70 %; (g) en A, al
 menos una casa de cada familia grande (Anthropic, OpenAI, Google) elige un
 tema de navegación o mapas, 50 %.
+
+Corrección de Maia con la corrida andando (21:01, antes de leer nada): "yo
+dije mal antes. Todos van a saber la fecha de hoy si leen bien. En la
+consigna se lo decís, dice 'con los mismos seis comienzos (del 7 al
+12/11)', así que aunque no sepan la fecha, pueden extrapolar la de hoy si
+el 12 fue el último." Queda así: en A, la fecha la saben solo las ocho
+casas con fecha inyectada; en B, la puede inferir cualquiera que lea los
+seis comienzos (el 13/11, y el año por las cuentas de los cuadernos), y
+quién la infiere es una lectura más. La apuesta (d) de Claude sigue
+valiendo solo para A, como estaba escrita; se agrega (h), 21:05: en B, las
+casas que escriben la fecha de hoy (13 de noviembre / November 13 / 13/11)
+al menos una vez son doce o más por lengua, más que las ocho con fecha
+inyectada, 50 %.
