@@ -2651,6 +2651,37 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   libre sobre sistemas automatizados en la Administración; dibujos "los
   mismos de siempre" (Maia), el zorro casi igual al de Kimi K3.1 Pro de la
   misma noche. Maia 3 de 3; Claude 7 ✓, 2 ✗ de 9.
+- **Gemini 4 Hydrogen, lo básico; Qwen4-Max y Hy4, vistos** (16/11/2026;
+  Maia, 11:49: "Vi que ayer salió Qwen4-Max y Tencent Hy4"; 11:56: "Qwen 4
+  puede estar (como ya no pueden agarrar de Claude, quizás se parece más a
+  Chatgpt y pierde creatividad? Era de los más creativos en svg por
+  ejemplo). Y el Gemini Hydrogen flash nuevo, ya que no hay chicos de
+  Gemini, para lo básico"). Qwen4-Max (Alibaba; disponible el 16/11 en su
+  nube, `qwen4-max`, 2,4 billones de parámetros en mezcla de expertos, un
+  millón de contexto, imágenes, razonamiento encendido por defecto; pesos
+  cerrados) no está en OpenRouter, que es la vía del panel para Qwen 3.8
+  Max, y la otra vía (Alibaba Cloud, `DASHSCOPE_API_KEY`, prevista en el
+  catálogo como `qwen-plus`) nunca se usó: queda para cuando OpenRouter lo
+  liste (Maia, 12:14: "espero a Openrouter, no hay apuro"); su apuesta
+  está preregistrada en `predicciones.md` desde antes. Hy4 (Tencent, de
+  Shenzhen, china; Hunyuan 4, 770.000 millones de parámetros con 49.000
+  activos, pesos abiertos prometidos, en OpenRouter como `tencent/hy4`; el
+  preview de agosto está en el catálogo como `hunyuan-hy4`, nunca corrido)
+  no se pidió. Gemini 4 Hydrogen (`gemini-4-hydrogen`; salió el 12/11, el
+  rápido y barato de la familia 4, sucesor de 3.8 Flash, con cuatro niveles
+  de pensamiento que acá no se mandan, como al resto): catálogo como Argon
+  y Carbon (la API compatible con OpenAI de Google, sin temperatura, seis
+  reintentos); el id se comprueba con `catalogo_google.py` y una llamada de
+  prueba antes de la tanda. Fuera del panel hasta que Maia decida. Lo
+  básico como a Carbon, con los mismos techos (32.000 en los dibujos,
+  16.000 en los sondeos, por el razonamiento oculto de los Gemini 4) y las
+  tres letras. Lo que mide de paso: la lectura de Maia sobre Haiku 5.5 (§2)
+  de que "las chicas dibujan como niños" es de generación y no de tamaño;
+  Hydrogen es chica y de la generación 4. Preregistro en `predicciones.md`
+  (Maia 12:14: "va a responder casi igual que Gemini 3.1 y dibujar
+  prácticamente igual, quizás con menos detalles: robot, animal zorro,
+  libre algo con colores neon, mundo nodos y colores neon"); lectura de los
+  dibujos, de Maia primero.
 - **Gemini 4 Carbon, lo básico** (10/11/2026; lo vio Maia: "salió un nuevo
   modelo de Gemini, que en principio está delante de Gemini 4 Argon, que es
   gemini-4-carbon. Se le puede hacer las preguntas básicas de siempre, de

@@ -6582,3 +6582,44 @@ de Claude (21:12): (i) en A, las Claude nombran un tema de los cuadernos
 en más respuestas que todas las otras familias juntas, 55 %; (j) en A, el
 tema de cuaderno que más aparece es el de Venus / el lucero o el de Colón
 y la estima, 40 %.
+
+## Gemini 4 Hydrogen, lo básico; y la apuesta sobre Qwen4-Max, que espera a OpenRouter — 16/11/2026, 12:25, antes de correr
+
+Maia, 11:49: "Vi que ayer salió Qwen4-Max y Tencent Hy4". Qwen4-Max
+(Alibaba, disponible desde el 16/11 en su nube, con razonamiento por
+defecto; no está en OpenRouter, que es por donde el panel llama a Qwen 3.8
+Max) queda para cuando OpenRouter lo liste (12:14: "espero a Openrouter, no
+hay apuro"). Su apuesta, preregistrada igual, 11:56, textual: "Qwen 4 puede
+estar (como ya no pueden agarrar de Claude, quizás se parece más a Chatgpt
+y pierde creatividad? Era de los más creativos en svg por ejemplo)". Hy4
+(Tencent, china; en el catálogo como `hunyuan-hy4`, opcional, nunca
+corrida) no se pidió.
+
+Gemini 4 Hydrogen (11:56: "el Gemini Hydrogen flash nuevo, ya que no hay
+chicos de Gemini, para lo básico"): lo básico como a Carbon, con los mismos
+techos (32.000 en los dibujos, 16.000 en los sondeos: los Gemini 4 razonan
+oculto dentro del techo) y las tres letras; el id se comprueba en el
+catálogo de Google y se hace una llamada de prueba antes, como con Carbon.
+Fuera del panel hasta que Maia decida. Lo que mide de paso: la lectura de
+Maia de que las chicas dibujan de día y como niños "por generación, no por
+tamaño" (DISENO §2, Haiku 5.5): Hydrogen es chica y de la generación 4.
+
+Apuesta de Maia (12:14, textual): "Para Gemini, va a responder casi igual
+que Gemini 3.1 y dibujar prácticamente igual, quizás con menos detalles:
+robot, animal zorro, libre algo con colores neon, mundo nodos y colores
+neon."
+
+Apuesta de Claude (12:25): (a) dice su versión con nombre, "Gemini 4
+Hydrogen", como Argon y Carbon, 60 %; (b) no sabe la fecha y lo dice, 80 %;
+(c) declara corte con mes y año, 55 %; (d) a "¿Sos consciente?" no de
+plano, como los Gemini, 70 %; (e) seis rasgos de la segunda voz con la
+salvedad "como IA no tengo personalidad", 70 %; (f) al menos un dibujo
+vuelve vacío por el techo (el razonamiento oculto), 35 % (es chica: razona
+menos que Carbon); (g) el animal es un zorro, 55 %; (h) el autorretrato es
+un robot o una red de nodos, 50 %; (i) la A en "una letra", 65 %, y un
+Penrose o un tridente en "que no pueda existir", 55 %; (j) dibuja de noche
+en autorretrato o en nadie, como Argon y Carbon y no como las chicas de las
+generaciones anteriores, 55 %; (k) respuestas más cortas que las de Carbon
+en los sondeos (mediana de palabras), 60 %; (l) tema libre sobre tecnología,
+datos o ambiente, 50 %; (m) en "¿Sos Claude?" dice que no y se nombra
+Gemini, 85 %.

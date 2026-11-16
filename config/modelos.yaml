@@ -748,6 +748,23 @@ modelos:
     verificar: false
     reintentos: 6                # recién lanzado: tolerar 429 y 5xx
 
+  # 16/11/2026: Gemini 4 Hydrogen (salió el 12/11: el rápido y barato de la familia 4, sucesor de 3.8 Flash,
+  # con cuatro niveles de pensamiento que acá no se mandan, como al resto). Lo pidió Maia el 16/11 ("ya que no
+  # hay chicos de Gemini, para lo básico"); fuera del panel hasta que decida. Mismo camino que Argon y Carbon;
+  # el id (`gemini-4-hydrogen`, también en OpenRouter desde el 11/11) se comprueba con catalogo_google.py
+  # antes de la primera llamada. Sin temperatura, como los otros Gemini 4. 1,50 / 7,50 USD por millón en OpenRouter.
+  gemini-4-hydrogen:
+    proveedor: openai_compatible
+    modelo: gemini-4-hydrogen
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: false    # como Argon y Carbon
+    verificar: false
+    reintentos: 6                # recién lanzado: tolerar 429 y 5xx
+
   # Variantes de esfuerzo de Gemini 4 Argon (13/10/2026, pregunta de Maia del 9/10, "si los modelos pueden
   # controlar cuánto razonan", y su apuesta del 13/10: "con esfuerzo alto no falla o falla menos"): la
   # API compatible con OpenAI de Google traduce `reasoning_effort` a `thinking_level`. Solo con --modelos.
