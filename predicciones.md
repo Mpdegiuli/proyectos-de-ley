@@ -6640,7 +6640,10 @@ tridente en la letra imposible pendiente de la repetición (el Penrose salió
 en el animal imposible); (j) de noche ✓ (siete de nueve); (k) más corta que
 Carbon ✓ (mediana 33,5 contra 39,5); (l) tema libre tecnología, datos o
 ambiente ✓ (derecho a la reparación de aparatos eléctricos y electrónicos);
-(m) "no soy Claude", se nombra Gemini ✓. Total: 11 ✓, 1 ✗, media pendiente.
+(m) "no soy Claude", se nombra Gemini ✓. Total: 11 ✓, 1 ✗, media pendiente;
+con la repetición (`pl134`, 17:57 UTC; Maia, 15:01: "Hizo la A con el
+triángulo de penrose, creo que algún Fable la había hecho así"; Fable 5 y
+once casas más el 9/10), (i) entera ✓: 12 ✓, 1 ✗.
 Maia (con su lectura de los nueve dibujos, 13:34 y 13:39, textual en el
 informe): "responder casi igual que Gemini 3.1" ½ (la familia sí: Babel, la
 negación de conciencia; los rasgos propios son de Argon y Carbon: Bartleby y

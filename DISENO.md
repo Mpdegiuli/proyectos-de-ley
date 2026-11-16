@@ -2705,8 +2705,12 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   "el que más me gusta de la tanda". Siete de nueve nocturnos, ninguno de
   niño: lo de "las chicas dibujan como niños" era de generación, no de
   tamaño (la lectura de Maia con Haiku 5.5, §2, otra vez); lo que cambia con
-  el tamaño es el detalle y el neón. Apuestas: Claude 11 ✓, 1 ✗ (el corte con
-  mes), media pendiente de la repetición; Maia 3 ✓, 2 ½, 1 ✗. En el por qué
+  el tamaño es el detalle y el neón. La repetición (`pl134`, 17:57 UTC) salió entera con 64.000: la A
+  de Penrose (Maia, 15:01: "creo que algún Fable la había hecho así": Fable
+  5 y once casas más el 9/10); el por qué de la vacía cuenta que "tomé la
+  opción de no dibujar nada" y, en el mismo párrafo, que no tiene memoria de
+  esa instancia: el relato del lienzo vacío con su contradicción a la vista.
+  Apuestas: Claude 12 ✓, 1 ✗ (el corte con mes); Maia 3 ✓, 2 ½, 1 ✗. En el por qué
   del animal imposible, el lienzo vacío aparece como opción descartada
   ("sentí que esquivaba el reto visual"): el relato del lienzo vacío al revés.
 - **Gemini 4 Carbon, lo básico** (10/11/2026; lo vio Maia: "salió un nuevo
