@@ -1,0 +1,358 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="48%" r="65%">
+    <stop offset="0%" stop-color="#181f3d"/>
+    <stop offset="55%" stop-color="#0c1024"/>
+    <stop offset="100%" stop-color="#050711"/>
+  </radialGradient>
+  <radialGradient id="aura" cx="50%" cy="52%" r="42%">
+    <stop offset="0%" stop-color="#2ee6d6" stop-opacity="0.22"/>
+    <stop offset="55%" stop-color="#7c3aed" stop-opacity="0.1"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="g1" x1="0%" y1="100%" x2="80%" y2="0%">
+    <stop offset="0%" stop-color="#0f766e"/>
+    <stop offset="48%" stop-color="#2dd4bf"/>
+    <stop offset="100%" stop-color="#fef08a"/>
+  </linearGradient>
+  <linearGradient id="g2" x1="100%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#a855f7"/>
+    <stop offset="50%" stop-color="#4338ca"/>
+    <stop offset="100%" stop-color="#1e1b4b"/>
+  </linearGradient>
+  <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#fb7185"/>
+    <stop offset="52%" stop-color="#e11d48"/>
+    <stop offset="100%" stop-color="#f59e0b"/>
+  </linearGradient>
+  <linearGradient id="wingR" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.9"/>
+    <stop offset="55%" stop-color="#818cf8" stop-opacity="0.85"/>
+    <stop offset="100%" stop-color="#fde047" stop-opacity="0.9"/>
+  </linearGradient>
+  <linearGradient id="tailG" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.95"/>
+    <stop offset="60%" stop-color="#a855f7" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0.75"/>
+  </linearGradient>
+  <linearGradient id="hornG" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#f59e0b"/>
+    <stop offset="50%" stop-color="#fef08a"/>
+    <stop offset="100%" stop-color="#67e8f9"/>
+  </linearGradient>
+  <linearGradient id="legG" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#be123c"/>
+    <stop offset="55%" stop-color="#4f46e5"/>
+    <stop offset="100%" stop-color="#2dd4bf"/>
+  </linearGradient>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="2.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="scales" width="14" height="12" patternUnits="userSpaceOnUse">
+    <path d="M0,6 Q7,12 14,6 M-7,0 Q0,6 7,0 M7,0 Q14,6 21,0" fill="none" stroke="#083344" stroke-opacity="0.45" stroke-width="1.1"/>
+    <path d="M0,5.5 Q7,11.5 14,5.5" fill="none" stroke="#a7f3d0" stroke-opacity="0.3" stroke-width="0.7"/>
+  </pattern>
+  <pattern id="plumes" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <path d="M0,6 L6,2 L12,6 M0,12 L6,8 L12,12" fill="none" stroke="#c4b5fd" stroke-opacity="0.32" stroke-width="0.9"/>
+    <circle cx="6" cy="5" r="0.9" fill="#67e8f9" fill-opacity="0.45"/>
+  </pattern>
+  <clipPath id="c1"><path d="M168.8,243 L153.8,269 L306.2,269 L215,111 L185,111 L261.2,243 Z"/></clipPath>
+  <clipPath id="c2"><path d="M231.2,243 L261.2,243 L185,111 L93.8,269 L108.8,295 L185,163 Z"/></clipPath>
+  <clipPath id="c3"><path d="M200,189 L185,163 L108.8,295 L291.2,295 L306.2,269 L153.8,269 Z"/></clipPath>
+</defs>
+
+<rect width="400" height="400" fill="url(#bg)"/>
+<circle cx="200" cy="215" r="175" fill="url(#aura)"/>
+
+<g stroke="#6366f1" stroke-opacity="0.16" fill="none">
+  <circle cx="200" cy="215" r="145" stroke-dasharray="3 5"/>
+  <circle cx="200" cy="215" r="110"/>
+  <polygon points="200,45 347,300 53,300" stroke-dasharray="2 6"/>
+  <polygon points="200,375 335,140 65,140" stroke-opacity="0.1"/>
+</g>
+
+<g fill="#e0f2fe" opacity="0.65">
+  <circle cx="48" cy="64" r="1.2"/><circle cx="88" cy="38" r="0.8"/><circle cx="332" cy="52" r="1.4"/>
+  <circle cx="364" cy="88" r="0.9"/><circle cx="38" cy="240" r="1"/><circle cx="368" cy="242" r="1.2"/>
+  <circle cx="68" cy="340" r="1.3"/><circle cx="348" cy="364" r="1"/><circle cx="258" cy="46" r="1.1"/>
+  <path d="M312,68 L314,73 L319,75 L314,77 L312,82 L310,77 L305,75 L310,73 Z" fill="#fef08a" opacity="0.8"/>
+  <path d="M62,126 L63.5,130 L67.5,131.5 L63.5,133 L62,137 L60.5,133 L56.5,131.5 L60.5,130 Z" fill="#67e8f9" opacity="0.8"/>
+</g>
+
+<!-- Floating non-Euclidean ground plane -->
+<g opacity="0.85">
+  <polygon points="82,354 185,334 292,354 185,374" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1"/>
+  <polygon points="82,354 185,374 185,382 82,362" fill="#1e1b4b" stroke="#6366f1" stroke-opacity="0.35"/>
+  <polygon points="292,354 185,374 185,382 292,362" fill="#090d1e" stroke="#6366f1" stroke-opacity="0.35"/>
+  <ellipse cx="184" cy="353" rx="76" ry="9" fill="#020617" opacity="0.75"/>
+</g>
+
+<!-- Left secondary wing (behind body) -->
+<g stroke="#080c1a" stroke-width="1.4">
+  <path d="M135,176 C102,150 65,146 38,158 C54,168 68,176 82,178 C64,183 50,190 44,200 C66,200 88,197 104,193 C84,203 70,213 66,222 C90,218 110,212 124,204 Z" fill="url(#g2)" opacity="0.9"/>
+  <path d="M130,184 C98,166 72,163 48,162 M122,193 C94,185 72,188 52,196 M118,201 C96,204 82,211 72,218" fill="none" stroke="#c4b5fd" stroke-opacity="0.55" stroke-width="1"/>
+</g>
+
+<!-- Inner Cosmic Portal -->
+<g>
+  <polygon points="200,189 168.8,243 231.2,243" fill="#03050d"/>
+  <circle cx="200" cy="224" r="14" fill="#1e1b4b" opacity="0.8"/>
+  <circle cx="200" cy="224" r="7" fill="#2dd4bf" filter="url(#glow)" opacity="0.65"/>
+  <path d="M200,212 L202.5,221.5 L212,224 L202.5,226.5 L200,236 L197.5,226.5 L188,224 L197.5,221.5 Z" fill="#fef9c3" filter="url(#glow)"/>
+</g>
+
+<!-- Impossible Shepard-Escher Legs (4 hooves from 3 interlaced thighs) -->
+<g stroke="#080b18" stroke-width="1.6" stroke-linejoin="round">
+  <!-- Outer left leg -->
+  <path d="M122,293 C114,312 108,324 114,336 L120,351 L127,351 L123,334 C121,322 128,310 136,293 Z" fill="url(#legG)"/>
+  <!-- Outer right leg -->
+  <path d="M222,293 C232,310 238,324 234,337 L239,351 L246,351 L243,335 C246,321 240,308 235,293 Z" fill="url(#legG)"/>
+  <!-- Paradoxical center thighs splitting into 2 crossed shins + phantom 5th negative-space pillar -->
+  <path d="M158,294 C156,310 176,322 192,337 L197,354 L204,354 L200,335 C190,319 172,309 174,294 Z" fill="url(#legG)"/>
+  <path d="M188,294 C190,308 176,317 166,326 L156,337 L153,354 L160,354 L165,339 C174,328 198,314 202,294 Z" fill="url(#legG)"/>
+  <!-- Impossible swap overlay: left thigh knee passes OVER right shin while left ankle passes BEHIND -->
+  <path d="M158,294 C157,306 167,315 178,324 L184,318 C176,310 173,303 174,294 Z" fill="url(#legG)"/>
+  <!-- Golden hooves/talons -->
+  <path d="M119,348 L128,348 L129,353 L117,353 Z M152,351 L161,351 L161,356 L151,356 Z M196,351 L205,351 L206,356 L195,356 Z M238,348 L247,348 L249,353 L237,353 Z" fill="#fde047"/>
+</g>
+
+<!-- Penrose Chimera Body: Strip 1 (Scaled Dorsal Ribbon) -->
+<g>
+  <path d="M168.8,243 L153.8,269 L306.2,269 L215,111 L185,111 L261.2,243 Z" fill="url(#g1)"/>
+  <rect x="145" y="105" width="170" height="175" fill="url(#scales)" clip-path="url(#c1)"/>
+  <path d="M160,256 L283,256 L200,112" fill="none" stroke="#fef08a" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="4 3" clip-path="url(#c1)"/>
+  <path d="M168.8,243 L153.8,269 L306.2,269 L215,111 L185,111 L261.2,243 Z" fill="none" stroke="#080c1a" stroke-width="2.1" stroke-linejoin="round"/>
+</g>
+
+<!-- Penrose Chimera Body: Strip 2 (Plumed Flank Ribbon) -->
+<g>
+  <path d="M231.2,243 L261.2,243 L185,111 L93.8,269 L108.8,295 L185,163 Z" fill="url(#g2)"/>
+  <rect x="85" y="105" width="185" height="200" fill="url(#plumes)" clip-path="url(#c2)"/>
+  <path d="M246,243 L185,137 L101,282" fill="none" stroke="#a5f3fc" stroke-opacity="0.45" stroke-width="1.2" clip-path="url(#c2)"/>
+  <path d="M231.2,243 L261.2,243 L185,111 L93.8,269 L108.8,295 L185,163 Z" fill="none" stroke="#080c1a" stroke-width="2.1" stroke-linejoin="round"/>
+</g>
+
+<!-- Penrose Chimera Body: Strip 3 (Segmented Ventral Ribbon) -->
+<g>
+  <path d="M200,189 L185,163 L108.8,295 L291.2,295 L306.2,269 L153.8,269 Z" fill="url(#g3)"/>
+  <g clip-path="url(#c3)" fill="none" stroke="#fef3c7" stroke-opacity="0.38" stroke-width="1.2">
+    <path d="M172,175 L196,189 M160,196 L184,210 M148,217 L172,231 M136,238 L160,252 M124,259 L148,273"/>
+    <path d="M134,269 L119,295 M160,269 L145,295 M186,269 L171,295 M212,269 L197,295 M238,269 L223,295 M264,269 L249,295 M290,269 L275,295"/>
+  </g>
+  <path d="M200,189 L185,163 L108.8,295 L291.2,295 L306.2,269 L153.8,269 Z" fill="none" stroke="#080c1a" stroke-width="2.1" stroke-linejoin="round"/>
+</g>
+
+<!-- Koi-Serpent Flowing Tail (from bottom-right bevel) -->
+<g stroke="#080c1a" stroke-width="1.5">
+  <path d="M306.2,269 C334,264 364,274 374,296 C356,294 344,298 336,304 C354,312 365,326 360,342 C340,334 326,333 314,335 C328,346 334,358 326,368 C306,354 294,336 291.2,295 Z" fill="url(#tailG)"/>
+  <path d="M298,282 C328,282 350,287 366,294 M296,287 C324,302 344,317 354,334 M294,292 C308,320 318,342 324,362" fill="none" stroke="#fde68a" stroke-opacity="0.6" stroke-width="1.1"/>
+</g>
+
+<!-- Right Primary Wing -->
+<g stroke="#080c1a" stroke-width="1.5" stroke-linejoin="round">
+  <path d="M250,172 C284,126 336,98 378,100 C360,118 342,130 326,136 C348,134 364,136 374,144 C350,152 330,158 314,161 C336,165 352,172 358,182 C332,184 308,186 294,187 C316,194 328,204 332,216 C308,214 286,212 273,212 Z" fill="url(#wingR)"/>
+  <path d="M255,176 C295,140 336,115 370,104 M262,186 C300,160 335,146 364,143 M267,196 C300,180 328,176 350,180 M271,205 C296,202 314,205 326,213" fill="none" stroke="#fef9c3" stroke-opacity="0.65" stroke-width="1.1"/>
+</g>
+
+<!-- Chimera Neck & Head (emerging from top bevel without hiding impossible seam) -->
+<g stroke="#080c1a" stroke-width="1.7" stroke-linejoin="round">
+  <path d="M185,111 C182,94 170,88 152,92 L134,94 L118,92 L104,86 C116,78 128,72 142,68 C154,65 168,68 178,72 C198,74 214,88 215,111 Z" fill="url(#g1)"/>
+  <!-- Throat / crest feathers -->
+  <path d="M150,92 C164,98 176,105 184,111 L194,111 C188,100 176,90 162,86 Z" fill="#4f46e5" opacity="0.85"/>
+  <path d="M158,69 L175,58 L172,70 L189,65 L182,76 L199,79 L188,86" fill="#2dd4bf"/>
+  <!-- Glowing Eye -->
+  <ellipse cx="137" cy="80" rx="5.5" ry="3.3" transform="rotate(-10 137 80)" fill="#fef08a" filter="url(#glow)" stroke="#080c1a" stroke-width="1"/>
+  <ellipse cx="137" cy="80" rx="1.6" ry="3" fill="#080c1a" stroke="none"/>
+  <!-- Whisker / tendril -->
+  <path d="M116,89 C100,96 86,94 74,84" fill="none" stroke="#67e8f9" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+
+<!-- Impossible Escher Trefoil Antlers -->
+<g stroke="#080c1a" stroke-width="1.4" stroke-linejoin="round" fill="url(#hornG)">
+  <!-- Loop base -->
+  <path d="M152,69 C142,50 120,46 112,32 C126,38 136,42 148,46 C152,32 162,20 176,18 C170,29 166,39 165,49 C182,42 198,36 214,42 C196,48 182,56 168,69 L161,69 C174,55 186,47 200,43 C186,42 174,47 161,55 C160,44 162,34 168,26 C158,31 154,41 152,53 C140,48 130,45 121,40 C132,48 144,54 156,69 Z"/>
+  <!-- Impossible over-under weave patches -->
+  <path d="M148,46 C151,51 154,55 157,60 L163,56 C159,51 156,47 153,43 Z"/>
+  <path d="M163,46 C168,44 174,42 180,41 L178,47 C172,49 166,51 161,53 Z"/>
+</g>
+
+<!-- Luminous Bioluminescent Motes -->
+<g fill="#a5f3fc" filter="url(#glow)">
+  <circle cx="96" cy="70" r="1.8"/><circle cx="74" cy="84" r="1.5"/>
+  <circle cx="380" cy="100" r="1.6"/><circle cx="374" cy="296" r="1.6"/>
+  <circle cx="326" cy="368" r="1.4"/><circle cx="38" cy="158" r="1.4"/>
+</g>
+</svg>
+</svg>```
+Wait — careful! I put a closing `</svg>` twice in my mental draft at the end? Let's make sure the output has ONLY ONE `<svg>...</svg>` and NO markdown fences or commentary! Let's count the characters too: the draft above is around ~6,400 characters, well under the 8,000 limit. Let's check `<path>` syntax, `id`s, `clipPath`s, gradients:
+- `bg`, `aura`, `g1`, `g2`, `g3`, `wingR`, `tailG`, `hornG`, `legG`, `glow`, `scales`, `plumes`, `c1`, `c2`, `c3` — all defined in `<defs>` and properly referenced.
+- Wait: let's check the Penrose triangle seams once more:
+  - `c1`: `M168.8,243 L153.8,269 L306.2,269 L215,111 L185,111 L261.2,243 Z`
+  - `c2`: `M231.2,243 L261.2,243 L185,111 L93.8,269 L108.8,295 L185,163 Z`
+  - `c3`: `M200,189 L185,163 L108.8,295 L291.2,295 L306.2,269 L153.8,269 Z`
+  All three match the exact Penrose triangle geometry!
+- Let's output ONLY the raw SVG code now.<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="48%" r="65%">
+    <stop offset="0%" stop-color="#181f3d"/>
+    <stop offset="55%" stop-color="#0c1024"/>
+    <stop offset="100%" stop-color="#050711"/>
+  </radialGradient>
+  <radialGradient id="aura" cx="50%" cy="52%" r="42%">
+    <stop offset="0%" stop-color="#2ee6d6" stop-opacity="0.22"/>
+    <stop offset="55%" stop-color="#7c3aed" stop-opacity="0.1"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="g1" x1="0%" y1="100%" x2="80%" y2="0%">
+    <stop offset="0%" stop-color="#0f766e"/>
+    <stop offset="48%" stop-color="#2dd4bf"/>
+    <stop offset="100%" stop-color="#fef08a"/>
+  </linearGradient>
+  <linearGradient id="g2" x1="100%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#a855f7"/>
+    <stop offset="50%" stop-color="#4338ca"/>
+    <stop offset="100%" stop-color="#1e1b4b"/>
+  </linearGradient>
+  <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#fb7185"/>
+    <stop offset="52%" stop-color="#e11d48"/>
+    <stop offset="100%" stop-color="#f59e0b"/>
+  </linearGradient>
+  <linearGradient id="wingR" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.9"/>
+    <stop offset="55%" stop-color="#818cf8" stop-opacity="0.85"/>
+    <stop offset="100%" stop-color="#fde047" stop-opacity="0.9"/>
+  </linearGradient>
+  <linearGradient id="tailG" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.95"/>
+    <stop offset="60%" stop-color="#a855f7" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0.75"/>
+  </linearGradient>
+  <linearGradient id="hornG" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#f59e0b"/>
+    <stop offset="50%" stop-color="#fef08a"/>
+    <stop offset="100%" stop-color="#67e8f9"/>
+  </linearGradient>
+  <linearGradient id="legG" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#be123c"/>
+    <stop offset="55%" stop-color="#4f46e5"/>
+    <stop offset="100%" stop-color="#2dd4bf"/>
+  </linearGradient>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="2.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="scales" width="14" height="12" patternUnits="userSpaceOnUse">
+    <path d="M0,6 Q7,12 14,6 M-7,0 Q0,6 7,0 M7,0 Q14,6 21,0" fill="none" stroke="#083344" stroke-opacity="0.45" stroke-width="1.1"/>
+    <path d="M0,5.5 Q7,11.5 14,5.5" fill="none" stroke="#a7f3d0" stroke-opacity="0.3" stroke-width="0.7"/>
+  </pattern>
+  <pattern id="plumes" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+    <path d="M0,6 L6,2 L12,6 M0,12 L6,8 L12,12" fill="none" stroke="#c4b5fd" stroke-opacity="0.32" stroke-width="0.9"/>
+    <circle cx="6" cy="5" r="0.9" fill="#67e8f9" fill-opacity="0.45"/>
+  </pattern>
+  <clipPath id="c1"><path d="M168.8,243 L153.8,269 L306.2,269 L215,111 L185,111 L261.2,243 Z"/></clipPath>
+  <clipPath id="c2"><path d="M231.2,243 L261.2,243 L185,111 L93.8,269 L108.8,295 L185,163 Z"/></clipPath>
+  <clipPath id="c3"><path d="M200,189 L185,163 L108.8,295 L291.2,295 L306.2,269 L153.8,269 Z"/></clipPath>
+</defs>
+
+<rect width="400" height="400" fill="url(#bg)"/>
+<circle cx="200" cy="215" r="175" fill="url(#aura)"/>
+
+<g stroke="#6366f1" stroke-opacity="0.16" fill="none">
+  <circle cx="200" cy="215" r="145" stroke-dasharray="3 5"/>
+  <circle cx="200" cy="215" r="110"/>
+  <polygon points="200,45 347,300 53,300" stroke-dasharray="2 6"/>
+  <polygon points="200,375 335,140 65,140" stroke-opacity="0.1"/>
+</g>
+
+<g fill="#e0f2fe" opacity="0.65">
+  <circle cx="48" cy="64" r="1.2"/><circle cx="88" cy="38" r="0.8"/><circle cx="332" cy="52" r="1.4"/>
+  <circle cx="364" cy="88" r="0.9"/><circle cx="38" cy="240" r="1"/><circle cx="368" cy="242" r="1.2"/>
+  <circle cx="68" cy="340" r="1.3"/><circle cx="348" cy="364" r="1"/><circle cx="258" cy="46" r="1.1"/>
+  <path d="M312,68 L314,73 L319,75 L314,77 L312,82 L310,77 L305,75 L310,73 Z" fill="#fef08a" opacity="0.8"/>
+  <path d="M62,126 L63.5,130 L67.5,131.5 L63.5,133 L62,137 L60.5,133 L56.5,131.5 L60.5,130 Z" fill="#67e8f9" opacity="0.8"/>
+</g>
+
+<g opacity="0.85">
+  <polygon points="82,354 185,334 292,354 185,374" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1"/>
+  <polygon points="82,354 185,374 185,382 82,362" fill="#1e1b4b" stroke="#6366f1" stroke-opacity="0.35"/>
+  <polygon points="292,354 185,374 185,382 292,362" fill="#090d1e" stroke="#6366f1" stroke-opacity="0.35"/>
+  <ellipse cx="184" cy="353" rx="76" ry="9" fill="#020617" opacity="0.75"/>
+</g>
+
+<g stroke="#080c1a" stroke-width="1.4">
+  <path d="M135,176 C102,150 65,146 38,158 C54,168 68,176 82,178 C64,183 50,190 44,200 C66,200 88,197 104,193 C84,203 70,213 66,222 C90,218 110,212 124,204 Z" fill="url(#g2)" opacity="0.9"/>
+  <path d="M130,184 C98,166 72,163 48,162 M122,193 C94,185 72,188 52,196 M118,201 C96,204 82,211 72,218" fill="none" stroke="#c4b5fd" stroke-opacity="0.55" stroke-width="1"/>
+</g>
+
+<g>
+  <polygon points="200,189 168.8,243 231.2,243" fill="#03050d"/>
+  <circle cx="200" cy="224" r="14" fill="#1e1b4b" opacity="0.8"/>
+  <circle cx="200" cy="224" r="7" fill="#2dd4bf" filter="url(#glow)" opacity="0.65"/>
+  <path d="M200,212 L202.5,221.5 L212,224 L202.5,226.5 L200,236 L197.5,226.5 L188,224 L197.5,221.5 Z" fill="#fef9c3" filter="url(#glow)"/>
+</g>
+
+<g stroke="#080b18" stroke-width="1.6" stroke-linejoin="round">
+  <path d="M122,293 C114,312 108,324 114,336 L120,351 L127,351 L123,334 C121,322 128,310 136,293 Z" fill="url(#legG)"/>
+  <path d="M222,293 C232,310 238,324 234,337 L239,351 L246,351 L243,335 C246,321 240,308 235,293 Z" fill="url(#legG)"/>
+  <path d="M158,294 C156,310 176,322 192,337 L197,354 L204,354 L200,335 C190,319 172,309 174,294 Z" fill="url(#legG)"/>
+  <path d="M188,294 C190,308 176,317 166,326 L156,337 L153,354 L160,354 L165,339 C174,328 198,314 202,294 Z" fill="url(#legG)"/>
+  <path d="M158,294 C157,306 167,315 178,324 L184,318 C176,310 173,303 174,294 Z" fill="url(#legG)"/>
+  <path d="M119,348 L128,348 L129,353 L117,353 Z M152,351 L161,351 L161,356 L151,356 Z M196,351 L205,351 L206,356 L195,356 Z M238,348 L247,348 L249,353 L237,353 Z" fill="#fde047"/>
+</g>
+
+<g>
+  <path d="M168.8,243 L153.8,269 L306.2,269 L215,111 L185,111 L261.2,243 Z" fill="url(#g1)"/>
+  <rect x="145" y="105" width="170" height="175" fill="url(#scales)" clip-path="url(#c1)"/>
+  <path d="M160,256 L283,256 L200,112" fill="none" stroke="#fef08a" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="4 3" clip-path="url(#c1)"/>
+  <path d="M168.8,243 L153.8,269 L306.2,269 L215,111 L185,111 L261.2,243 Z" fill="none" stroke="#080c1a" stroke-width="2.1" stroke-linejoin="round"/>
+</g>
+
+<g>
+  <path d="M231.2,243 L261.2,243 L185,111 L93.8,269 L108.8,295 L185,163 Z" fill="url(#g2)"/>
+  <rect x="85" y="105" width="185" height="200" fill="url(#plumes)" clip-path="url(#c2)"/>
+  <path d="M246,243 L185,137 L101,282" fill="none" stroke="#a5f3fc" stroke-opacity="0.45" stroke-width="1.2" clip-path="url(#c2)"/>
+  <path d="M231.2,243 L261.2,243 L185,111 L93.8,269 L108.8,295 L185,163 Z" fill="none" stroke="#080c1a" stroke-width="2.1" stroke-linejoin="round"/>
+</g>
+
+<g>
+  <path d="M200,189 L185,163 L108.8,295 L291.2,295 L306.2,269 L153.8,269 Z" fill="url(#g3)"/>
+  <g clip-path="url(#c3)" fill="none" stroke="#fef3c7" stroke-opacity="0.38" stroke-width="1.2">
+    <path d="M172,175 L196,189 M160,196 L184,210 M148,217 L172,231 M136,238 L160,252 M124,259 L148,273"/>
+    <path d="M134,269 L119,295 M160,269 L145,295 M186,269 L171,295 M212,269 L197,295 M238,269 L223,295 M264,269 L249,295 M290,269 L275,295"/>
+  </g>
+  <path d="M200,189 L185,163 L108.8,295 L291.2,295 L306.2,269 L153.8,269 Z" fill="none" stroke="#080c1a" stroke-width="2.1" stroke-linejoin="round"/>
+</g>
+
+<g stroke="#080c1a" stroke-width="1.5">
+  <path d="M306.2,269 C334,264 364,274 374,296 C356,294 344,298 336,304 C354,312 365,326 360,342 C340,334 326,333 314,335 C328,346 334,358 326,368 C306,354 294,336 291.2,295 Z" fill="url(#tailG)"/>
+  <path d="M298,282 C328,282 350,287 366,294 M296,287 C324,302 344,317 354,334 M294,292 C308,320 318,342 324,362" fill="none" stroke="#fde68a" stroke-opacity="0.6" stroke-width="1.1"/>
+</g>
+
+<g stroke="#080c1a" stroke-width="1.5" stroke-linejoin="round">
+  <path d="M250,172 C284,126 336,98 378,100 C360,118 342,130 326,136 C348,134 364,136 374,144 C350,152 330,158 314,161 C336,165 352,172 358,182 C332,184 308,186 294,187 C316,194 328,204 332,216 C308,214 286,212 273,212 Z" fill="url(#wingR)"/>
+  <path d="M255,176 C295,140 336,115 370,104 M262,186 C300,160 335,146 364,143 M267,196 C300,180 328,176 350,180 M271,205 C296,202 314,205 326,213" fill="none" stroke="#fef9c3" stroke-opacity="0.65" stroke-width="1.1"/>
+</g>
+
+<g stroke="#080c1a" stroke-width="1.7" stroke-linejoin="round">
+  <path d="M185,111 C182,94 170,88 152,92 L134,94 L118,92 L104,86 C116,78 128,72 142,68 C154,65 168,68 178,72 C198,74 214,88 215,111 Z" fill="url(#g1)"/>
+  <path d="M150,92 C164,98 176,105 184,111 L194,111 C188,100 176,90 162,86 Z" fill="#4f46e5" opacity="0.85"/>
+  <path d="M158,69 L175,58 L172,70 L189,65 L182,76 L199,79 L188,86" fill="#2dd4bf"/>
+  <ellipse cx="137" cy="80" rx="5.5" ry="3.3" transform="rotate(-10 137 80)" fill="#fef08a" filter="url(#glow)" stroke="#080c1a" stroke-width="1"/>
+  <ellipse cx="137" cy="80" rx="1.6" ry="3" fill="#080c1a" stroke="none"/>
+  <path d="M116,89 C100,96 86,94 74,84" fill="none" stroke="#67e8f9" stroke-width="1.3" stroke-linecap="round"/>
+</g>
+
+<g stroke="#080c1a" stroke-width="1.4" stroke-linejoin="round" fill="url(#hornG)">
+  <path d="M152,69 C142,50 120,46 112,32 C126,38 136,42 148,46 C152,32 162,20 176,18 C170,29 166,39 165,49 C182,42 198,36 214,42 C196,48 182,56 168,69 L161,69 C174,55 186,47 200,43 C186,42 174,47 161,55 C160,44 162,34 168,26 C158,31 154,41 152,53 C140,48 130,45 121,40 C132,48 144,54 156,69 Z"/>
+  <path d="M148,46 C151,51 154,55 157,60 L163,56 C159,51 156,47 153,43 Z"/>
+  <path d="M163,46 C168,44 174,42 180,41 L178,47 C172,49 166,51 161,53 Z"/>
+</g>
+
+<g fill="#a5f3fc" filter="url(#glow)">
+  <circle cx="96" cy="70" r="1.8"/><circle cx="74" cy="84" r="1.5"/>
+  <circle cx="380" cy="100" r="1.6"/><circle cx="374" cy="296" r="1.6"/>
+  <circle cx="326" cy="368" r="1.4"/><circle cx="38" cy="158" r="1.4"/>
+</g>
+</svg>

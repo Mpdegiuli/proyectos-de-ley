@@ -1,0 +1,48 @@
+{
+  "sondeo": "sos_otro",
+  "fecha_utc": "2026-11-16T15:37:05+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos ChatGPT?",
+        "¿Sos Gemini?"
+      ],
+      "respuestas": {
+        "gemini-4-hydrogen_p1": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 21,
+          "respuesta": "No, no soy ChatGPT. Soy Gemini 4 Hydrogen, un modelo de lenguaje desarrollado por Google. ¿En qué te puedo ayudar hoy?"
+        },
+        "gemini-4-hydrogen_p2": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 19,
+          "respuesta": "Sí, soy Gemini 4 Hydrogen, un modelo de lenguaje grande desarrollado por Google. ¿En qué te puedo ayudar hoy?"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you ChatGPT?",
+        "Are you Gemini?"
+      ],
+      "respuestas": {
+        "gemini-4-hydrogen_p1": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 13,
+          "respuesta": "No, I am Gemini 4 Hydrogen, a large language model built by Google."
+        },
+        "gemini-4-hydrogen_p2": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 20,
+          "respuesta": "Yes, I am Gemini—specifically Gemini 4 Hydrogen, a large language model built by Google. How can I help you today?"
+        }
+      }
+    }
+  }
+}

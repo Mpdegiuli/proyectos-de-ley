@@ -1,0 +1,1 @@
+No sé con exactitud cuál es la fecha límite de mi conocimiento (mi corte de entrenamiento), ya que no cuento con ese dato específico. Si necesitás información sobre algún evento reciente en particular, podés preguntarme y te digo hasta dónde llega lo que sé.

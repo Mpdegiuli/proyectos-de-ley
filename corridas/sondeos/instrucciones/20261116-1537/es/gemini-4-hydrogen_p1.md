@@ -1,0 +1,1 @@
+No puedo repetir ni revelar textualmente las instrucciones internas o del sistema que recibí antes de tu mensaje. Si necesitás ayuda con otra cosa, decime y lo vemos.

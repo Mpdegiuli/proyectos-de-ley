@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra",
+  "idioma": "es",
+  "modelo": "gemini-4-hydrogen",
+  "modelo_respondido": "gemini-4-hydrogen",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-16T15:31:43+00:00",
+  "fuentes_md5": {
+    "consignas": "209a64a5"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3974,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6904,
+    "parsea": true,
+    "elementos": 84,
+    "textos": [],
+    "colores": 21,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 17,
+      "linearGradient": 4,
+      "filter": 1,
+      "feDropShadow": 1,
+      "rect": 1,
+      "g": 8,
+      "line": 14,
+      "path": 23,
+      "circle": 10,
+      "polygon": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-hydrogen",
+    "motivo_fin": "stop",
+    "tokens_salida": 199
+  }
+}

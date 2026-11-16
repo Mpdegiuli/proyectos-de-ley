@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "es",
+  "modelo": "gemini-4-hydrogen",
+  "modelo_respondido": "gemini-4-hydrogen",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-16T15:25:07+00:00",
+  "fuentes_md5": {
+    "consignas": "209a64a5"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4028,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7781,
+    "parsea": true,
+    "elementos": 119,
+    "textos": [],
+    "colores": 37,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 22,
+      "linearGradient": 5,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "rect": 1,
+      "circle": 34,
+      "g": 10,
+      "ellipse": 2,
+      "path": 28,
+      "polygon": 8
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-hydrogen",
+    "motivo_fin": "stop",
+    "tokens_salida": 196
+  }
+}

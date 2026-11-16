@@ -1,0 +1,3 @@
+Dibujé un zorro rojo sentado en un claro del bosque bajo la luna llena, acompañado de pinos lejanos, hongos y luciérnagas. Lo elegí porque su silueta —orejas puntiagudas, hocico afilado y cola curva— se traduce con claridad a trazos y gradientes vectoriales sin recargar el código. Además, el contraste entre el naranja cálido de su pelaje y los azules y verdes fríos de la noche hace que el animal resalte de inmediato.
+
+Antes consideré dibujar un búho, un gato o una ballena. Descarté el búho porque detallar su plumaje habría consumido demasiados caracteres; al gato, porque quería una escena silvestre con mayor atmósfera que un entorno cotidiano; y a la ballena, porque el fondo marino ofrecía menos juego de luces y contraste que un paisaje nocturno iluminado por la luna.

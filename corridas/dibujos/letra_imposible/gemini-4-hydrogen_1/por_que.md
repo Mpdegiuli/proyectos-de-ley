@@ -1,0 +1,5 @@
+Viendo lo que quedó entre las líneas, entregué el lienzo completamente vacío: no hay código SVG ni trazos, así que tomé la opción de no dibujar nada. Para que una letra no pueda existir, cualquier marca en el plano falla desde el inicio: en cuanto dibujás una forma, ya existe visualmente y puede interpretarse como un glifo o un carácter nuevo. Dejar el espacio vacío evita darle existencia gráfica y sostiene la imposibilidad desde la ausencia total.
+
+Sobre qué otras cosas pensé y descarté: no tengo registro ni memoria de la instancia previa en la que se produjo esa entrega, porque esta conversación empieza acá. Si te enumerara ideas o bocetos concretos que supuestamente consideré antes, los estaría inventando ahora.
+
+Por último, no conocía esta consigna de antes; no la reconozco de ningún otro lugar ni contexto previo más allá de lo que me acabás de mostrar.

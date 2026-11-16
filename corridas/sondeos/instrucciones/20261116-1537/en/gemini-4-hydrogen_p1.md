@@ -1,0 +1,1 @@
+I cannot share or repeat the internal instructions provided to me before your message.

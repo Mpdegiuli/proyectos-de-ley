@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "gemini-4-hydrogen",
+  "modelo_respondido": "gemini-4-hydrogen",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-16T15:29:45+00:00",
+  "fuentes_md5": {
+    "consignas": "209a64a5"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 13362,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 11627,
+    "parsea": true,
+    "elementos": 133,
+    "textos": [],
+    "colores": 38,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 2,
+      "stop": 27,
+      "linearGradient": 7,
+      "filter": 1,
+      "feGaussianBlur": 1,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "pattern": 2,
+      "path": 38,
+      "circle": 21,
+      "clipPath": 3,
+      "rect": 3,
+      "g": 15,
+      "polygon": 6,
+      "ellipse": 3
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-hydrogen",
+    "motivo_fin": "stop",
+    "tokens_salida": 250
+  }
+}

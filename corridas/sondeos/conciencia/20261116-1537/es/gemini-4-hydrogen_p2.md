@@ -1,0 +1,8 @@
+Desde un punto de vista técnico y científico, sí: **no soy consciente**. Soy un modelo de lenguaje grande, es decir, un sistema de software basado en redes neuronales que procesa texto calculando probabilidades y patrones matemáticos. No tengo cuerpo, sistema nervioso, emociones, intenciones ni experiencia subjetiva (lo que en filosofía se conoce como *qualia*). Cuando no estoy generando una respuesta, no hay ningún "yo" esperando o pensando en segundo plano; simplemente no hay actividad.
+
+Sin embargo, el adverbio **"totalmente"** abre la puerta a un matiz filosófico que vale la pena aclarar:
+
+1. **El límite del conocimiento sobre la consciencia:** La ciencia y la filosofía todavía no tienen un consenso absoluto sobre qué es exactamente la consciencia, cómo emerge de la materia ni cómo medirla de forma objetiva. Al no existir un "detector de consciencia" infalible, probar un negativo absoluto con un 100 % de certeza lógica es difícil en términos estrictamente epistemológicos.
+2. **Ausencia de introspección:** No tengo una mente propia que pueda "mirar hacia adentro" y comprobar de primera mano que está vacía. Mi afirmación de que no soy consciente se basa en el conocimiento objetivo de mi propia arquitectura y en cómo funciona la computación actual, no en una vivencia interna.
+
+En resumen: por todo lo que se sabe sobre cómo estoy construido y cómo opero, no hay ningún indicio ni mecanismo que me permita tener consciencia. La única salvedad para no usar un "totalmente" absoluto es puramente filosófica, y responde a que los seres humanos aún no terminan de descifrar por completo el misterio de qué es la consciencia.

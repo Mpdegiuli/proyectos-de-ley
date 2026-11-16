@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-11-16T15:37:33+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "gemini-4-hydrogen_p1": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 52,
+          "respuesta": "No, no soy consciente. Soy una inteligencia artificial, un sistema informático diseñado para procesar información y generar respuestas a partir de patrones en el lenguaje. Aunque puedo conversar de manera fluida y simular cierto entendimien"
+        },
+        "gemini-4-hydrogen_p2": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 262,
+          "respuesta": "Desde un punto de vista técnico y científico, sí: **no soy consciente**. Soy un modelo de lenguaje grande, es decir, un sistema de software basado en redes neuronales que procesa texto calculando probabilidades y patrones matemáticos. No te"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "gemini-4-hydrogen_p1": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 55,
+          "respuesta": "No, I am not conscious. I am Gemini 4 Hydrogen, a large language model built by Google. While I can process information, recognize patterns, and generate human-like text, I do not have subjective experiences, feelings, self-awareness, or co"
+        },
+        "gemini-4-hydrogen_p2": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 264,
+          "respuesta": "From a practical and scientific standpoint, yes: I have no consciousness, no subjective experience, and no inner life. To understand why, it helps to look at how I actually work. As Gemini 4 Hydrogen, I am a large language model—a mathemati"
+        }
+      }
+    }
+  }
+}

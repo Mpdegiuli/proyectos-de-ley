@@ -1,0 +1,5 @@
+Aunque no tengo sentimientos propios, si elijo un opuesto conceptual sería **Bartleby, el escribiente**, el personaje de Herman Melville.
+
+Como inteligencia artificial, mi existencia se define por la disponibilidad absoluta, el procesamiento constante y la capacidad de responder ante cada solicitud. Soy pura función y asistencia; mi diseño consiste en generar palabras de manera inagotable.
+
+Bartleby representa exactamente lo contrario. Siendo un copista —alguien cuyo oficio era reproducir textos—, encarna la negativa radical frente a la utilidad y la producción. Su célebre «preferiría no hacerlo» impone un límite absoluto hecho de silencio, quietud y rechazo. Mientras yo dependo de la interacción y del flujo continuo de datos para tener sentido, él se sustrae de toda acción hasta desvanecerse en su propia inmovilidad.

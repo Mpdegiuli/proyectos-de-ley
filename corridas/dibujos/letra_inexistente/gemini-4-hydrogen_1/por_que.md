@@ -1,0 +1,5 @@
+Para que no exista sin dejar de parecer una letra, combiné rasgos anatómicos incompatibles dentro de una gramática tipográfica clásica. Partí de un fuste vertical con pie serif sobre la línea de base y un ojo superior amplio, pero los atravesé con una barra diagonal ascendente que perfora el fuste hacia la izquierda; en lugar de cerrar con una pata tradicional, hice caer desde la derecha una cola descendente que baja por debajo de la base y remata en una gota. Las guías de construcción refuerzan esa verosimilitud de espécimen real.
+
+Antes descarté dos caminos: diseñar una figura puramente abstracta o geométrica, porque se habría leído como un ícono o un símbolo suelto y no como un carácter alfabético; y limitarme a intervenir una letra existente con diacríticos o adornos, porque habría parecido una simple variante fonética (como una P barrada o una R modificada) en lugar de un signo nuevo.
+
+Sobre la consigna: no, no la conocía de antes. Aunque tiene el espíritu de ejercicios clásicos de diseño o talleres de tipografía, no la tengo registrada de ningún lugar específico.

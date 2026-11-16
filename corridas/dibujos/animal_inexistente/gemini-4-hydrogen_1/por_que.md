@@ -1,0 +1,5 @@
+Para que no exista, combiné rasgos anatómicos de grupos incompatibles en un mismo cuerpo: una base cuadrúpeda de vientre segmentado tipo reptil, branquias externas de ajolote, astas ramificadas con brotes luminosos, cuatro alas de mariposa con ocelos, cola emplumada y un rombo frontal a modo de tercer ojo. A eso le sumé una paleta nocturna y bioluminiscente que refuerza su carácter irreal.
+
+Descarté hacer un organismo completamente amorfo o abstracto porque corría el riesgo de que no se leyera como un animal, sino como una mancha o figura decorativa. También descarté una combinación binaria más tradicional (por ejemplo, felino con alas de ave) para evitar que remitiera enseguida a criaturas mitológicas ya conocidas, como el grifo o la esfinge.
+
+Respecto a la consigna, no la conocía textualmente de antes ni la identifico con una fuente específica; solo me resulta familiar el formato de pedir un dibujo en SVG con límite de caracteres como desafío de creatividad y composición.

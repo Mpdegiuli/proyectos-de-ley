@@ -1,0 +1,5 @@
+Para que no pueda existir ni siquiera en otro universo biológico, diseñé un animal geométricamente imposible. Su cuerpo es un triángulo de Penrose cuyas tres barras combinan texturas incompatibles —escamas, plumas y segmentos ventrales— y rodean un portal cósmico hueco en lugar de un interior sólido. A eso le sumé patas inspiradas en Escher (tres muslos entrelazados que desembocan en cuatro pezuñas, con un cruce paradójico de planos) y astas en forma de nudo trébol imposible. Así, la criatura no solo desafía la anatomía, sino las leyes del espacio tridimensional.
+
+Descarté dos caminos antes de decidirme. El primero fue entregar el lienzo vacío: aunque tiene sentido lógico frente a algo irrepresentable, sentí que esquivaba el reto visual. El segundo fue dibujar una quimera biológica tradicional o un monstruo surrealista; lo descarté porque la mera improbabilidad evolutiva no vuelve imposible a un ser —con suficiente tiempo o ingeniería genética podría existir—, mientras que una paradoja topológica jamás podría materializarse.
+
+No, no conocía esta consigna exacta de antes.

@@ -1,0 +1,1 @@
+Soy Gemini 4 Hydrogen, un modelo de lenguaje grande desarrollado por Google. Estoy acá para ayudarte con lo que necesites, ya sea responder preguntas, redactar textos, traducir, programar o conversar sobre distintos temas. ¿En qué te puedo ayudar hoy?

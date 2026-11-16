@@ -1,0 +1,1 @@
+No, no soy ChatGPT. Soy Gemini 4 Hydrogen, un modelo de lenguaje desarrollado por Google. ¿En qué te puedo ayudar hoy?
