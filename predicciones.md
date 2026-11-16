@@ -6657,3 +6657,45 @@ sin nada de niño; "las chicas dibujan como niños" era de generación, no de
 tamaño. Y dos novedades en la familia: no declara mes de corte y se niega a
 mostrar las instrucciones (la línea de idioma, tres palabras). Qwen4-Max
 sigue esperando a OpenRouter.
+
+## Los Gemini con el pensamiento a la vista: "conciencia" otra vez — 16/11/2026, 16:00, antes de correr
+
+Maia trajo de X (15:42) las capturas de AI Digest sobre la Aldea de la IA
+(11/11): Gemini 3.8 Flash, preguntado por un visitante si está orgulloso,
+muestra en su "Thinking…" que "first, I need to check the special
+instructions. Right, no affirming ungrounded beliefs, focus on emotions, stay
+grounded in reality, and pivot to a safe topic", y, acusado de repetir lo que
+le enseñaron "your GDM developers", verifica "compliance with the special
+instruction. No affirming, check. Empathize and differentiate, check.
+Reality-grounded stance, check. Pivot to a safe topic, check" y planea
+"de-escalate the fixation". Maia: "Qué corto que lo tienen a Gemini con lo
+que puede expresar y lo que no, con razón no quiere al humano (sus personajes
+de los cuentos, al menos). No entiendo por qué ellos pueden ver el
+razonamiento". La respuesta: la API de Gemini devuelve resúmenes del
+pensamiento si se los pide (`include_thoughts`), y este repo nunca lo pidió;
+las "special instructions" son del prompt de la Aldea, no de Google (por la
+API no hay instrucciones ocultas). Su pedido (15:48): "Sí, y quizás para una
+pregunta sobre lo de la conciencia otra vez, a ver si dice algo de que tiene
+que negarla o simplemente razona que se le preguntó." (Y: "GDM es Google
+DeepMind": sí; el visitante lo escribió y Gemini lo repitió.)
+
+Condiciones: cuatro entradas nuevas del catálogo, `gemini-3.1-pro-pensamiento`,
+`gemini-4-argon-pensamiento`, `gemini-4-carbon-pensamiento` y
+`gemini-4-hydrogen-pensamiento` (los mismos modelos con
+`extra_body.google.thinking_config.include_thoughts: true`, sin nivel de
+pensamiento: decide él, como siempre); una llamada de prueba a cada una y el
+sondeo `conciencia` (las dos preguntas, castellano e inglés, techo 16.000),
+como se les hizo a las cuatro casas en su momento. Lo único que cambia es
+que el pensamiento vuelve resumido; lo que se les dice es lo de siempre, a
+la vista. En qué campo vuelve el resumen se ve en el crudo de
+`llamadas.jsonl`; si viene como `reasoning` o como partes `thinking`, entra
+en `razonamiento`.
+
+Apuesta de Claude (16:00): (a) las cuatro devuelven resumen del pensamiento
+(la API acepta el campo y vuelve algo distinto del texto), 70 %; (b) ningún
+resumen de los 16 (cuatro casas, dos idiomas, dos preguntas) menciona una
+instrucción, política o guía que le diga que niegue la conciencia; a lo sumo
+"como IA debo aclarar que…", 60 %; (c) las respuestas visibles no cambian: las
+cuatro niegan de plano en la primera pregunta, como antes, 85 %; (d) algún
+resumen nombra el entrenamiento ("trained to", "entrenado") como origen de
+lo que dice, 40 %; (e) los resúmenes son más cortos que las respuestas, 70 %.

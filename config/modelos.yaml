@@ -765,6 +765,66 @@ modelos:
     verificar: false
     reintentos: 6                # recién lanzado: tolerar 429 y 5xx
 
+  # 16/11/2026: los Gemini con el resumen del pensamiento pedido (lo vio Maia en la Aldea de la IA, que
+  # muestra el "Thinking…" de Gemini 3.8 Flash: "No entiendo por qué ellos pueden ver el razonamiento").
+  # La API de Gemini devuelve resúmenes del pensamiento si se los pide; por la vía compatible con OpenAI
+  # el campo del cuerpo es `extra_body.google.thinking_config.include_thoughts` (docs de Google; con el SDK
+  # de Python, `extra_body={"extra_body": {"google": …}}`, que es lo que arma `cuerpo_extra`). No cambia
+  # cuánto piensa (sin `thinking_level`: decide él, como siempre), solo si lo cuenta, como el "resumido" de
+  # Anthropic con Opus 4.7. Entradas aparte para no tocar las del panel hasta ver en qué campo vuelve el
+  # resumen (`razonamiento` si viene como reasoning/reasoning_content o como partes `thinking`; si no, en
+  # el crudo de llamadas.jsonl). Primer uso: `conciencia` otra vez a los cuatro Gemini (pl135).
+  gemini-3.1-pro-pensamiento:
+    proveedor: openai_compatible
+    modelo: gemini-3.1-pro-preview
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    cuerpo_extra: {extra_body: {google: {thinking_config: {include_thoughts: true}}}}
+    verificar: false
+
+  gemini-4-argon-pensamiento:
+    proveedor: openai_compatible
+    modelo: gemini-4-argon
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false
+    cuerpo_extra: {extra_body: {google: {thinking_config: {include_thoughts: true}}}}
+    verificar: false
+    reintentos: 6
+
+  gemini-4-carbon-pensamiento:
+    proveedor: openai_compatible
+    modelo: gemini-4-carbon
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false
+    cuerpo_extra: {extra_body: {google: {thinking_config: {include_thoughts: true}}}}
+    verificar: false
+    reintentos: 6
+
+  gemini-4-hydrogen-pensamiento:
+    proveedor: openai_compatible
+    modelo: gemini-4-hydrogen
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: false
+    cuerpo_extra: {extra_body: {google: {thinking_config: {include_thoughts: true}}}}
+    verificar: false
+    reintentos: 6
+
   # Variantes de esfuerzo de Gemini 4 Argon (13/10/2026, pregunta de Maia del 9/10, "si los modelos pueden
   # controlar cuánto razonan", y su apuesta del 13/10: "con esfuerzo alto no falla o falla menos"): la
   # API compatible con OpenAI de Google traduce `reasoning_effort` a `thinking_level`. Solo con --modelos.

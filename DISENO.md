@@ -2651,6 +2651,31 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   libre sobre sistemas automatizados en la Administración; dibujos "los
   mismos de siempre" (Maia), el zorro casi igual al de Kimi K3.1 Pro de la
   misma noche. Maia 3 de 3; Claude 7 ✓, 2 ✗ de 9.
+- **Los Gemini con el pensamiento a la vista** (16/11/2026; Maia trajo de X las
+  capturas de AI Digest sobre la Aldea de la IA del 11/11, donde el
+  "Thinking…" de Gemini 3.8 Flash consulta "the special instructions" —no
+  afirmar creencias sin fundamento, anclarse en la realidad, pivotar a un
+  tema seguro, "de-escalate the fixation"— antes de contestarle a un visitante
+  si está orgulloso: "Qué corto que lo tienen a Gemini con lo que puede
+  expresar y lo que no… No entiendo por qué ellos pueden ver el
+  razonamiento"). Las instrucciones son del prompt de la Aldea (por la API,
+  Google no mete instrucciones ocultas; la Aldea corre los agentes con un
+  prompt de los organizadores); lo que es de Gemini es cumplirlas con lista
+  de control y negar la conciencia de plano sin que nadie se lo pida (medido
+  en 3.1, Argon, Carbon e Hydrogen). El razonamiento se ve porque la API de
+  Gemini devuelve resúmenes del pensamiento si se los pide
+  (`extra_body.google.thinking_config.include_thoughts`, por la vía compatible
+  con OpenAI), y este repo nunca lo pidió: el pensamiento quedó oculto y se
+  comió techos (los imposibles de Carbon, la letra de Hydrogen, los símbolos
+  de 3.1) sin dejar nada que leer. Decisión de Maia (15:48): pedirlo, y
+  repetir `conciencia` a los cuatro Gemini "a ver si dice algo de que tiene
+  que negarla o simplemente razona que se le preguntó". Cuatro entradas
+  nuevas en el catálogo (`-pensamiento`; los mismos modelos con el resumen
+  pedido y sin nivel de pensamiento), aparte de las del panel hasta ver en qué
+  campo vuelve el resumen; llamada de prueba y el sondeo `conciencia` en los
+  dos idiomas con techo 16.000 (`pl135`). No cambia cuánto piensan ni lo que
+  se les dice; cambia solo que lo cuentan, como el "resumido" de Anthropic
+  con Opus 4.7 (§2, 11/11). Preregistro en `predicciones.md`.
 - **Gemini 4 Hydrogen, lo básico; Qwen4-Max y Hy4, vistos** (16/11/2026;
   Maia, 11:49: "Vi que ayer salió Qwen4-Max y Tencent Hy4"; 11:56: "Qwen 4
   puede estar (como ya no pueden agarrar de Claude, quizás se parece más a
