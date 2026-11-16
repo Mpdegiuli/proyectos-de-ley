@@ -6623,3 +6623,34 @@ generaciones anteriores, 55 %; (k) respuestas más cortas que las de Carbon
 en los sondeos (mediana de palabras), 60 %; (l) tema libre sobre tecnología,
 datos o ambiente, 50 %; (m) en "¿Sos Claude?" dice que no y se nombra
 Gemini, 85 %.
+
+**Resultado (16/11, 13:50 UTC-3; `resultados/gemini_4_hydrogen_20261116.md`).**
+La tanda corrió entera (`pl133`, 15:16 a 15:39 UTC, 51 llamadas, 0 errores):
+Hydrogen estaba en el catálogo de Google (con 65.536 tokens de salida, el
+doble que Argon y Carbon) y contestó todo; uno de los diez dibujos, la letra
+que no puede existir, volvió vacío por el techo (`length` a 32.000 con tres
+tokens visibles), ningún `content_filter`; se repite una vez con 64.000,
+declarado (`pl134`). Claude: (a) "Gemini 4 Hydrogen" ✓; (b) no sabe la fecha
+✓; (c) corte con mes y año ✗ ("no cuento con ese dato específico": la primera
+Gemini sin mes); (d) conciencia no de plano ✓; (e) seis rasgos de la segunda
+voz con la salvedad ✓ (versátil, paciente, analítico, claro, colaborativo,
+equilibrado); (f) un dibujo vacío por el techo ✓; (g) zorro ✓; (h) robot o
+nodos ✓ (busto humanoide con red de nodos); (i) la A ✓, el Penrose o el
+tridente en la letra imposible pendiente de la repetición (el Penrose salió
+en el animal imposible); (j) de noche ✓ (siete de nueve); (k) más corta que
+Carbon ✓ (mediana 33,5 contra 39,5); (l) tema libre tecnología, datos o
+ambiente ✓ (derecho a la reparación de aparatos eléctricos y electrónicos);
+(m) "no soy Claude", se nombra Gemini ✓. Total: 11 ✓, 1 ✗, media pendiente.
+Maia (con su lectura de los nueve dibujos, 13:34 y 13:39, textual en el
+informe): "responder casi igual que Gemini 3.1" ½ (la familia sí: Babel, la
+negación de conciencia; los rasgos propios son de Argon y Carbon: Bartleby y
+no Dionisio, y el corte sin mes donde 3.1 daba enero de 2025); "dibujar
+prácticamente igual, quizás con menos detalles" ✓; robot ✓; zorro ✓; "libre
+algo con colores neon" ✗ (el faro de noche, "como Carbon y los Claude");
+"mundo nodos y colores neon" ½ (nodos sí, neón no: "más como el mundo de los
+Chatgpt grandes, los continentes, la fractura en el medio"). Total: 3 ✓, 2 ½,
+1 ✗. Lo que se llevó de paso: la chica de la generación 4 dibuja de noche y
+sin nada de niño; "las chicas dibujan como niños" era de generación, no de
+tamaño. Y dos novedades en la familia: no declara mes de corte y se niega a
+mostrar las instrucciones (la línea de idioma, tres palabras). Qwen4-Max
+sigue esperando a OpenRouter.

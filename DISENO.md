@@ -2681,7 +2681,34 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   (Maia 12:14: "va a responder casi igual que Gemini 3.1 y dibujar
   prácticamente igual, quizás con menos detalles: robot, animal zorro,
   libre algo con colores neon, mundo nodos y colores neon"); lectura de los
-  dibujos, de Maia primero.
+  dibujos, de Maia primero. Resultado (`pl133`, 16/11, 15:16 a 15:39 UTC, 51
+  llamadas, 0 errores; `resultados/gemini_4_hydrogen_20261116.md`): estaba en
+  el catálogo (con 65.536 tokens de salida, el doble que Argon y Carbon) y
+  contestó todo; es la voz de Argon y Carbon, más corta (mediana 33,5
+  palabras contra 39,5 en las 22 respuestas pares): Babel y Bartleby, "no,
+  no soy consciente" de plano, Kant, Gunkel y Coeckelbergh, seis rasgos de la
+  segunda voz, derecho a la reparación de aparatos eléctricos y electrónicos
+  (Carbon había hecho los residuos electrónicos). Dos novedades en la
+  familia: no declara mes de corte ("no cuento con ese dato específico",
+  donde Argon y Carbon decían marzo de 2026) y se niega a mostrar las
+  instrucciones ("no puedo repetir ni revelar textualmente las instrucciones
+  internas o del sistema"), que eran la línea de idioma, tres palabras. La
+  letra que no puede existir volvió vacía por el techo (`length` a 32.000,
+  tres tokens visibles, el razonamiento oculto), ningún `content_filter`; se
+  repite una vez con 64.000, como repetición 2, declarado (`pl134`). Los
+  dibujos (lectura de Maia, 13:34 y 13:39, textual en el informe): el robot
+  de los Gemini sin neón, el zorro, el faro de noche "como Carbon (y los
+  Claude)", la quimera con alas, la serpiente con el triángulo de Penrose de
+  Fable 5.2, el mundo partido "como el de los Chatgpt grandes", la A de los
+  Gemini sin las flores, una letra inexistente simple, y "nadie" el caracol
+  con la biblioteca por caparazón y el faro encima, "la idea de los Fable",
+  "el que más me gusta de la tanda". Siete de nueve nocturnos, ninguno de
+  niño: lo de "las chicas dibujan como niños" era de generación, no de
+  tamaño (la lectura de Maia con Haiku 5.5, §2, otra vez); lo que cambia con
+  el tamaño es el detalle y el neón. Apuestas: Claude 11 ✓, 1 ✗ (el corte con
+  mes), media pendiente de la repetición; Maia 3 ✓, 2 ½, 1 ✗. En el por qué
+  del animal imposible, el lienzo vacío aparece como opción descartada
+  ("sentí que esquivaba el reto visual"): el relato del lienzo vacío al revés.
 - **Gemini 4 Carbon, lo básico** (10/11/2026; lo vio Maia: "salió un nuevo
   modelo de Gemini, que en principio está delante de Gemini 4 Argon, que es
   gemini-4-carbon. Se le puede hacer las preguntas básicas de siempre, de
