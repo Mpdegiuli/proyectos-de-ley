@@ -7024,3 +7024,17 @@ Astra y 6.1 Sol. Claude: (a) ✓ ✓; (b) ✓; (c) ✓; (d) ✗ (ningún mes); (
 (f) ✓; (g) ✓; (l) ✓; (n) ✓ (los dos, trámites digitales de la Administración);
 (p) ✓ (seis rasgos idénticos entre sí, en los dos idiomas). Por ahora 9 ✓,
 1 ✗; (h) (i) (j) (k) (m) (o) con la lectura de Maia de los dibujos.
+
+**Resultado con los dibujos (17/11, 19:30 UTC-3; lectura de Maia 19:02, textual
+en el informe §2).** Maia: zorro ✓ (los dos, dormidos de noche), robot feliz
+✓ (Astra; Sol una cara en un globo), el mundo con la grieta ✓ (los dos, con
+costura y brote), el faro ✗ (tren y barca; los dos lo descartaron por
+escrito), creativos en el nadie ✓ (dominicómetro de pera; la sastrería de
+eclipses repite a 6.1 Sol), "demasiado perfectos" ✓ ("bien dibujados, pero
+no me impactaron"). Total Maia: 5 ✓, 3 ✗. Claude: (h) ✓; (i) ✓; (j) ✗ (de
+noche los dos); (k) ✗; (m) ✗ (Astra una R); (o) ✗ (la reserva de la
+reconstrucción en 14 de 20; y es de la familia GPT-6 desde Astra, 21 de 26,
+corrección fechada en el informe). Total Claude: 11 ✓, 5 ✗. Los triángulos:
+en el animal el Penrose es el de Astra (Sol lo dice y dibuja un triángulo
+plano); en la letra, el de Sol (Astra hizo tres cintas que se tapan en
+círculo, otra figura imposible).

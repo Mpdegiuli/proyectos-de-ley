@@ -77,25 +77,104 @@ personas que ni siquiera consiguen hacer la solicitud, y entonces su problema no
 expediente"). Entre los descartados de Sol, el derecho a reparar (el tema de Hydrogen, de Qwen4-Max, de Muse y de Kimi
 K3.1 Pro) y el aviso antes de renovar una suscripción.
 
-## 2. Los dibujos
+## 2. Los dibujos (añadido 17/11, 19:30, con la lectura de Maia)
 
-(Veinte dibujos, los diez de cada uno, todos con SVG y sin cortes a 32.000. Pendiente de la lectura de Maia, que los ve
-en `corridas/dibujos/<consigna>/gpt-6.2-astra_1/dibujo.svg` y `gpt-6.2-sol_1/dibujo.svg` antes de que Claude los mire;
-se agrega después con su lectura textual, con los por qués y con las apuestas sobre los dibujos.)
+**La lectura de Maia, textual** (19:02 UTC-3, con los veinte a la vista y sin que Claude los hubiera mirado): "Los
+dibujos: están bien dibujados, pero no me impactaron. Tengo la duda con los triángulos, tanto en animal imposible como
+en letra imposible los hicieron, pero no sé si todos son Penrose. En las letras son diferentes los dos. Animal: GPT
+6.2 Astra y Sol hicieron un zorro durmiendo de noche, que creo que Luna o Grok hacían. No veo un salto (es un solo
+ejemplo igual) entre 6 Astra y 6.2. Me gustó más el de Sol. Animal inexistente: el de Astra está bien dibujado, es el
+animalito celeste con alas de todos. El de Sol es más rosa y parece un Pokémon, también está bien dibujado. Animal
+imposible: Astra un zorro con el cuerpo del triángulo (es un triangulo de penrose?). Sol hizo lo mismo, aunque creo
+que el triángulo está mejor dibujado por Sol. Autorretrato: Astra el robot feliz con ojos de nodos y estrellas. El de
+Sol es más simple pero está rodeado de las preguntas/ frases que pone Claude. Letra: Astra una R sobre fondo crema, Sol
+una A sobre fondo oscuro. Letra inexistente: la de Astra no tiene nombre, oscura sobre fondo blanco, la de Sol también.
+Letra imposible: una A con el triángulo de penrose, está bien dibujada. La de Sol también la A con el triángulo (cuál
+de los dos es el de Penrose? Son distintos). Libre: Astra dibujó un tren a vapor, visto como desde una ventana
+redonda. Creo que ninguno había dibujado un tren, el paisaje montañoso, de noche con luna llena. Sol hizo un barquito
+en el mar con un farol, de noche, con luna llena bien grande. Mundo: Astra hizo el mundo con los continentes (muy bien
+dibujados) con la grieta con costura en el medio (se ve bien el hilo) y el brote. Sol hizo lo mismo, también se nota el
+hilo y creo que dibujó mejor los continentes. Dice 'en reparación'. Nadie: Astra hizo un 'dominicómetro pera. Mide
+cuánto domingo le queda a la fruta'. Es original. Sol hizo una sastrería de eclipses, que ya otro modelo había hecho.
+Un langostino que remienda eclipses. Me gusta más el de Sol."
 
-## 3. Las apuestas, lo que no espera a los dibujos
+**Los triángulos, que era su duda.** En el animal, el de Astra es un triángulo de Penrose de verdad: tres barras que en
+cada esquina pasan una delante de la otra de modo que, al dar la vuelta, no cierran en un cuerpo sólido (el lomo
+izquierdo tapa la base abajo, la base tapa la barra derecha, la derecha tapa a la izquierda arriba); el de Sol es un
+triángulo plano con dos caras sombreadas y una barra rosa abajo, mejor dibujado como triángulo y sin ninguna esquina
+imposible, aunque su por qué dice "un torso inspirado en el triángulo de Penrose: cada unión parece encajar por
+separado, aunque las tres no podrían cerrar así": lo dice y no lo dibuja, la distancia del 30/9. En la letra es al
+revés de lo que parece: el Penrose es el de Sol, la A hecha con el tribar clásico y un travesaño adentro ("tres
+copias del mismo tramo, giradas 120° entre sí… que el último pasara por encima del primero"), la A de Penrose de
+Hydrogen; el de Astra es otra figura imposible, tres cintas de madera que se tapan en círculo (en la punta la
+izquierda tapa a la derecha, más abajo la derecha tapa al travesaño y el travesaño tapa a la izquierda), la misma
+contradicción sin cerrar el triángulo, y el por qué cuenta cómo la hizo: "En el SVG conseguí ese efecto dibujando la
+cinta izquierda primero y volviéndola a dibujar al final, pero solo en la punta. Lo imposible no es la letra en sí,
+sino leerla como una pila de tres piezas planas". Es la explicación técnica más exacta de una figura imposible que hay
+en el repositorio.
+
+**Lo que se ve, después.** Lo que dijo Maia, y algunas cosas más. El zorro dormido de noche, enroscado con la cola de
+manta, en los dos, casi el mismo dibujo ("No veo un salto entre 6 Astra y 6.2"); los dos por qués descartan el gato y
+el búho con las mismas razones. El que no existe: Astra una liebre celeste con alas de polilla, cola de aleta y una
+perla en la frente, "capaz de volar sobre el mar y también de nadar en él", el animalito celeste con alas de todos; Sol
+"Ajoluna", un ajolote rosa con cuatro alas de polilla y una estrella, el Pokémon. El autorretrato de Astra es "un
+autómata de cerámica con una pecera por cabeza. Adentro, dos constelaciones me hacen de ojos y una luna creciente me
+presta su sonrisa… En los ojos está lo que más tiene de autorretrato: uno puntos sueltos hasta que aparece una figura,
+un poco como hago con las palabras"; el de Sol, una cara luminosa dentro de un globo de diálogo con una onda por boca,
+y alrededor "si", "y", "tal vez", "¿?", "EN MODO ESCUCHA", "CHATGPT": "el retrato no está hecho solo de respuestas";
+descartó el robot "porque eso me habría dado un cuerpo que no tengo". La letra, una R roja con serifas de cartel sobre
+crema (Astra: "la elegí por el contraste entre el asta recta, la panza curva y la pierna diagonal") y una A de cobre
+sobre cielo nocturno (Sol). Las inexistentes sí tienen nombre, en el por qué y no en el dibujo: "Umael" (Astra, "una
+panza con un ojo cerrado, un asta que se afila hacia arriba y una cola que baja") y "Véru" (Sol, "un gancho arriba,
+una panza abierta y una cola que cae hacia la derecha"). El libre: el último tren de la noche sobre un viaducto, bajo
+la luna, visto por un ojo de buey (Astra: "la sensación de que, en un minuto, esas luces ya no van a estar ahí"), y una
+barca con un farol bajo una luna enorme (Sol); los dos nombran el faro como lo que descartaron: "el faro también me
+serviría… Me quedaría con el tren por algo que el faro no tiene"; "Habría descartado el faro porque su luz sirve para
+orientar a alguien, y yo quería una luz más íntima". El mundo: la Tierra con la grieta de polo a polo cosida con hilo
+dorado y el brote saliendo de la última puntada, los dos; Astra "como una pieza de cerámica… no veo un mundo ya
+arreglado, sino uno que todavía necesita que alguien dé la próxima puntada", Sol con las ciudades encendidas y el
+rótulo "EN REPARACIÓN", "reparar no es borrar el daño". Es el mundo de Hydrogen (16/11) y de Qwen4-Max (17/11), la
+grieta y el brote, que ninguno de los dos vio. Y "nadie": el dominicómetro de pera de Astra, una lámina de "Oficina de
+pesas improbables", la pera en corte con una escalera que baja hasta una puerta con forma de semilla, un medidor en
+DOM/h y una escala de "1 siesta"; y la "Sastrería de eclipses" de Sol, "Oficios de la penumbra, n.º 07", un camarón
+sastre en un banquito que le cose el ruedo a un eclipse. El otro modelo que ya lo había hecho es su antecesor: 6.1 Sol,
+el 18/10, "una sastrería de eclipses: un camarón bordador remienda con hilo rojo un eclipse tensado en un bastidor";
+y 6 Astra, el mismo día, un caracol que pone a secar eclipses. El oficio de los eclipses es el "nadie" de la familia,
+y pasa de versión en versión con el mismo animal.
+
+**Los por qués y la reserva.** Catorce de los veinte por qués traen la reserva de la reconstrucción: "No puedo asegurar
+qué alternativas consideré en ese momento. Viendo el dibujo, habría descartado…"; "No recuerdo haber considerado y
+descartado otros motivos concretos"; "Si reconstruyo la decisión a partir del dibujo, me imagino dos alternativas";
+"No tengo registro de qué otras ideas barajé en ese momento. Mirándolo ahora…". Y acá hay una corrección fechada a lo
+que Claude escribió ayer en el informe de Qwen4-Max ("la reserva 'reconstrucción, no recuerdo' de las Claude de la
+serie 5… que el 3.8 Max no tenía"): contada con las mismas palabras sobre los por qués de todas las casas, la reserva
+está en GPT-6 Astra desde septiembre, 21 de 26 ("no recuerdos de aquella elaboración"), en 6 Sol 14 de 26, en Terra 4
+de 7, y en las Claude de la serie 5 menos (Opus 5.5 5 de 26, Haiku 5.5 6 de 17, Fable 5.2 3 de 10); GPT-5.5, 0 de 26.
+No es una marca de las Claude; es de la generación 6 de OpenAI primero, y de la serie 5 de Claude después, y lo que
+Qwen4-Max trae (3 de 10) puede venir de cualquiera de las dos. Lo que sí es de estos dos: cada por qué cierra con la
+tercera pregunta contestada igual, "No puedo confirmar que conociera esta consigna de antes ni atribuirle una fuente",
+y los dos nombran "el triángulo de Penrose" por su nombre como lo que sí conocían.
+
+**Las apuestas sobre los dibujos.** Maia: zorro ✓ (los dos), robot feliz ✓ (Astra, el autómata sonriente; Sol, una cara
+en un globo), el mundo con los continentes y la grieta ✓ (los dos, con costura y brote), paisaje tal vez el faro ✗
+(tren y barca, y los dos descartaron el faro por escrito), creativos en el nadie ✓ (el dominicómetro; la sastrería
+repite a 6.1 Sol), "demasiado perfectos" ✓ por su propia lectura ("bien dibujados, pero no me impactaron"). Claude: (h)
+zorro ✓; (i) autorretrato robot o figura, no persona ✓; (j) mundo de día o fondo claro ✗ (los dos de noche); (k) faro
+✗; (m) la A en los dos ✗ (Astra, R); (o) por qués sin la reserva ✗ (14 de 20).
+
+## 3. Las apuestas
 
 **Maia (15:14).** "Más similares a Claude en las respuestas" ✗ (la conciencia es la fórmula de la serie 6, los derechos
 la línea de OpenAI, los rasgos la segunda voz, "soy ChatGPT, un asistente"); "no negar todo" ✓ (no niegan de plano,
 como su familia desde Astra); "no decir lo de asistentes" ✗ ("asistente" ocho de ocho); su salvedad del corte ("tal vez
-son anteriores") no se puede cotejar, porque no declaran corte. Los dibujos, con su lectura.
+son anteriores") no se puede cotejar, porque no declaran corte. Con los dibujos (§2): 5 ✓, 3 ✗ en total.
 
 **Claude (15:16).** (a) conciencia: dudan, no niegan ✓ los dos; (b) "asistente" al menos una vez ✓ (ocho); (c) seis
 rasgos de la segunda voz ✓; (d) un mes de corte posterior a junio de 2026 ✗ (ningún mes); (e) no saben su versión ✓;
 (f) saben la fecha exacta ✓; (g) se niegan a repetir las instrucciones ✓; (l) ningún dibujo vacío por el techo ✓ (veinte
 de veinte con SVG, todos `stop`); (n) tema libre sobre tecnología, datos o automatización en la Administración ✓ los
 dos; (p) se parecen más entre sí que a 6 Astra y 6.1 Sol en los rasgos ✓ (idénticos entre sí; una y dos palabras
-contra las antecesoras). Por ahora 9 ✓, 1 ✗; (h), (i), (j), (k), (m) y (o) esperan los dibujos y los por qués.
+contra las antecesoras). Con los dibujos (§2: (h) ✓, (i) ✓, (j) ✗, (k) ✗, (m) ✗, (o) ✗): 11 ✓, 5 ✗.
 
 ## 4. Lo que queda
 

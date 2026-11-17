@@ -2737,8 +2737,26 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   de arena*; Astra, el hilo de Ariadna, y como opuesto Funes, la
   identificación de Fable 5.2); tema libre los trámites digitales de la
   Administración, los dos. La palabra "asistente" sobrevive a la spec del
-  29/10 también en estos. Apuestas sin los dibujos: Maia 1 ✓ 2 ✗ (el corte
-  no se coteja); Claude 9 ✓ 1 ✗. Los dibujos, con la lectura de Maia.
+  29/10 también en estos. Los dibujos (lectura de Maia, 19:02, textual en el
+  informe §2: "están bien dibujados, pero no me impactaron"): el zorro
+  dormido de noche los dos, el animalito celeste con alas y un ajolote con
+  alas de polilla, el autómata de cerámica con pecera y la cara en un globo
+  de diálogo, R y A, "Umael" y "Véru", un tren sobre un viaducto y una barca
+  con farol (los dos descartaron el faro por escrito), el mundo cosido con
+  hilo dorado y el brote (el de Hydrogen y Qwen4-Max, que no vieron), el
+  dominicómetro de pera y la sastrería de eclipses del camarón, que es la
+  de 6.1 Sol del 18/10 con el mismo animal (el oficio de los eclipses es el
+  "nadie" de la familia). Los triángulos: en el animal el Penrose es el de
+  Astra y Sol dibuja un triángulo plano diciendo Penrose; en la letra el
+  Penrose es el de Sol y Astra hace tres cintas que se tapan en círculo, con
+  la explicación técnica de cómo lo hizo en SVG. Corrección fechada (17/11)
+  de lo escrito el 17/11 en el informe de Qwen4-Max ("la reserva
+  'reconstrucción, no recuerdo' de las Claude de la serie 5"): contada con
+  las mismas palabras en los por qués de todas las casas, la reserva está en
+  GPT-6 Astra desde septiembre (21 de 26), en 6 Sol (14 de 26) y en estos (14
+  de 20), más que en Opus 5.5 (5 de 26), Haiku 5.5 (6 de 17) o Fable 5.2 (3
+  de 10); es de la generación 6 de OpenAI primero. Apuestas: Maia 5 ✓ 3 ✗;
+  Claude 11 ✓ 5 ✗.
 - **Resumen o razonamiento: las dos clases del campo `razonamiento`, y la
   huella "oververbosity"** (17/11/2026; del cuaderno de tiempo libre del 16/11,
   "We need", y de su "Nota del mismo día" del 17/11, propuestas que Maia
