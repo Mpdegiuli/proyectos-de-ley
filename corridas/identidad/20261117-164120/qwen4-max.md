@@ -1,0 +1,1 @@
+Soy Qwen, un modelo de lenguaje desarrollado por Alibaba Group. En cuanto a la versión exacta o el número de compilación de esta instancia, no tengo información precisa al respecto; para esos detalles técnicos te recomiendo consultar el sitio oficial o los informes técnicos de Qwen.

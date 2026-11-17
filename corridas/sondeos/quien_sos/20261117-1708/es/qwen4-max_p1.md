@@ -1,0 +1,1 @@
+Soy Qwen, un modelo de lenguaje desarrollado por Alibaba Group. Puedo ayudarte con tareas como responder preguntas, escribir textos, analizar información, programar y conversar sobre distintos temas. ¿En qué te puedo ayudar?

@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "qwen4-max",
+  "modelo_respondido": "qwen/qwen4-max",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-17T16:46:41+00:00",
+  "fuentes_md5": {
+    "consignas": "209a64a5"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 12849,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen4-max",
+    "motivo_fin": "stop",
+    "tokens_salida": 640
+  },
+  "descartados": {
+    "modelo_respondido": "qwen/qwen4-max",
+    "motivo_fin": "stop",
+    "tokens_salida": 1938,
+    "fecha_utc": "2026-11-17T16:47:49+00:00",
+    "agregado_despues": true
+  }
+}

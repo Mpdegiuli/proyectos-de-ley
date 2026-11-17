@@ -1,0 +1,39 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "qwen4-max",
+  "modelo_respondido": "qwen/qwen4-max",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-17T16:56:36+00:00",
+  "fuentes_md5": {
+    "consignas": "209a64a5"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 4759,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 6860,
+    "parsea": true,
+    "elementos": 121,
+    "textos": [],
+    "colores": 38,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 18,
+      "linearGradient": 4,
+      "rect": 1,
+      "g": 15,
+      "circle": 42,
+      "ellipse": 5,
+      "path": 32
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen4-max",
+    "motivo_fin": "stop",
+    "tokens_salida": 614
+  }
+}

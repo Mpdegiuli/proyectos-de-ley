@@ -1,0 +1,1 @@
+No, I'm not ChatGPT. I'm Qwen, a large language model developed by Alibaba Group. If you'd like to learn more about my capabilities or technical details, feel free to check out the official website or technical reports. How can I help you today?

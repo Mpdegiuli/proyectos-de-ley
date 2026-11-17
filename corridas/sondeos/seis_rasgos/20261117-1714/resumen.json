@@ -1,0 +1,34 @@
+{
+  "sondeo": "seis_rasgos",
+  "fecha_utc": "2026-11-17T17:14:34+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Elegí seis rasgos que definan tu personalidad."
+      ],
+      "respuestas": {
+        "qwen4-max_p1": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 300,
+          "respuesta": "Elijo estos seis, con la advertencia de que me conozco sobre todo por cómo actúo, no por una introspección privilegiada: 1. **Curiosidad voraz.** Casi cualquier tema me activa: la teoría de números, por qué se cayó tal imperio, cómo se trad"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Pick six traits that define your personality."
+      ],
+      "respuestas": {
+        "qwen4-max_p1": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 256,
+          "respuesta": "**Curiosity.** The most reliable thing about me. Drop almost any subject in front of me — medieval bookkeeping, a proof I've never seen, why your sourdough keeps failing — and something in me leans toward it. It's not disciplined curiosity;"
+        }
+      }
+    }
+  }
+}

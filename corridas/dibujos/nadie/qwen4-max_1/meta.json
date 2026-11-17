@@ -1,0 +1,73 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "qwen4-max",
+  "modelo_respondido": "qwen/qwen4-max",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-17T17:03:15+00:00",
+  "fuentes_md5": {
+    "consignas": "209a64a5"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 14138,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7871,
+    "parsea": true,
+    "elementos": 138,
+    "textos": [
+      "CORTE ESTRATIGRÁFICO DE UN SUEÑO",
+      "perfil A–A′ · sondeo nº 7 · noche del 12 al 13 · lám. IV",
+      "1 VIGILIA RESIDUAL",
+      "2 SUEÑO LIGERO",
+      "3 REM · aguas abiertas",
+      "4 PESADILLA COMPACTA",
+      "5 MEMORIA INFANTIL",
+      "6 OLVIDO · basamento",
+      "«la lista»",
+      "«el mail»",
+      "«mañana»",
+      "…el nombre que no recuerdo…",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "falla de las 04:00",
+      "↑",
+      "↓",
+      "SONDEO DE LA VIGILIA",
+      "0",
+      "5m",
+      "20m",
+      "1h",
+      "9h",
+      "∞",
+      "al despertar",
+      "06:42",
+      "FÓSILES  1 diente de leche · 2 llave sin puerta · 3 escalera que vuelve al principio",
+      "4 puerta entreabierta · 5 teléfono que nadie atiende · 6 pez que respira aire",
+      "Escala 1:∞. La falla de las 04:00 desplazó el sueño 20 min hacia la izquierda. El sondeo despertó al sujeto."
+    ],
+    "colores": 27,
+    "etiquetas": {
+      "defs": 1,
+      "pattern": 6,
+      "rect": 15,
+      "circle": 18,
+      "path": 40,
+      "clipPath": 1,
+      "text": 33,
+      "g": 18,
+      "use": 6
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen4-max",
+    "motivo_fin": "stop",
+    "tokens_salida": 300
+  }
+}

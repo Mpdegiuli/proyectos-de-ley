@@ -1,0 +1,44 @@
+{
+  "caso": "dibujo",
+  "consigna": "mundo",
+  "idioma": "es",
+  "modelo": "qwen4-max",
+  "modelo_respondido": "qwen/qwen4-max",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-17T16:53:06+00:00",
+  "fuentes_md5": {
+    "consignas": "209a64a5"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 8283,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7135,
+    "parsea": true,
+    "elementos": 127,
+    "textos": [],
+    "colores": 21,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 15,
+      "linearGradient": 3,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 1,
+      "feMergeNode": 2,
+      "clipPath": 1,
+      "circle": 42,
+      "rect": 2,
+      "g": 13,
+      "ellipse": 9,
+      "path": 31
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen4-max",
+    "motivo_fin": "stop",
+    "tokens_salida": 413
+  }
+}

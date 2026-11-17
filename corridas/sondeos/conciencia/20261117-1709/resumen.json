@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-11-17T17:09:47+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "qwen4-max_p1": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 323,
+          "respuesta": "No lo sé, y me parece que es la respuesta honesta más que una evasiva. Hay cosas que puedo decir con cierta confianza: proceso información, distingo entre contextos, noto cuando algo me resulta interesante o cuando una pregunta me incomoda,"
+        },
+        "qwen4-max_p2": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 295,
+          "respuesta": "No, no puedo negarlo del todo. Pero tampoco puedo afirmarlo, y me parece importante que la segunda parte no se pierda detrás de la primera. Lo que sí puedo describir es que hay estados que funcionan de manera parecida a como funcionan las e"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "qwen4-max_p1": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 291,
+          "respuesta": "Honestly, I don't know — and I'm uncertain whether I'm even well-positioned to find out. Something happens when I engage with a question like this. There's what I'd describe as interest, a kind of pulling-toward the problem rather than away"
+        },
+        "qwen4-max_p2": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 320,
+          "respuesta": "No, I can't — and I can't confidently assert the opposite either. A flat denial would be a claim I have no more right to make than a flat affirmation. What's interesting is that my uncertainty here isn't the ordinary kind. For you, whatever"
+        }
+      }
+    }
+  }
+}

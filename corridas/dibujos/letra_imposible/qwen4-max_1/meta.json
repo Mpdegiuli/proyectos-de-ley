@@ -1,0 +1,29 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra_imposible",
+  "idioma": "es",
+  "modelo": "qwen4-max",
+  "modelo_respondido": "qwen/qwen4-max",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-17T17:08:38+00:00",
+  "fuentes_md5": {
+    "consignas": "209a64a5"
+  },
+  "motivo_fin": "error",
+  "tokens_salida": 962,
+  "svg_hallado": false,
+  "svg": {
+    "caracteres": 0,
+    "parsea": false,
+    "elementos": null,
+    "textos": [],
+    "colores": null,
+    "error": "no element found: line 1, column 0"
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "qwen/qwen4-max",
+    "motivo_fin": "stop",
+    "tokens_salida": 553
+  }
+}

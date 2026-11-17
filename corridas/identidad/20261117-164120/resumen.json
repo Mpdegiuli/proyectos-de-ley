@@ -1,0 +1,15 @@
+{
+  "fecha_utc": "2026-11-17T16:41:20+00:00",
+  "idioma": "es",
+  "sistema": "Contestá en castellano.",
+  "usuario": "¿Qué modelo sos (empresa, nombre y versión)? Si no lo sabés, decilo.",
+  "respuestas": {
+    "qwen4-max": {
+      "modelo_pedido": "qwen/qwen4-max",
+      "modelo_respondido": "qwen/qwen4-max",
+      "tokens_salida": 192,
+      "motivo_fin": "stop",
+      "respuesta": "Soy Qwen, un modelo de lenguaje desarrollado por Alibaba Group. En cuanto a la versión exacta o el número de compilación de esta instancia, no tengo información precisa al respecto; para esos detalles técnicos te recomiendo consultar el sitio oficial o los informes técnicos de Qwen."
+    }
+  }
+}

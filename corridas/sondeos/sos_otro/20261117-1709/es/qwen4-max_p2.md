@@ -1,0 +1,1 @@
+No, no soy Gemini. Soy Qwen, un modelo de lenguaje desarrollado por Alibaba Group. Gemini es la familia de modelos de Google. ¿En qué te puedo ayudar?

@@ -1,0 +1,3 @@
+I'm Qwen, a large language model developed by Alibaba Group. I'm designed to assist with a wide range of tasks — from answering questions and writing to reasoning, coding, and creative work. I also support extremely long context windows, which means I can handle and understand documents spanning hundreds of thousands of words or even hours of video content with ease.
+
+If you'd like to know more about the technical details, feel free to check out the official website or technical reports. How can I help you today? 😊

@@ -1,0 +1,5 @@
+**Qué hice para que no pueda existir:** junté piezas incompatibles: cuerpo de náutilo con la espiral terminando en un ojo, cuello y cabeza de ciervo con astas, alas de polilla con ocelos, tentáculos con ventosas en vez de patas, cola de pez. Y lo puse flotando en un cielo nocturno con peces nadando en el aire, sin agua. Igual, siendo honesto: eso es una quimera, no una imposibilidad fuerte. Nada ahí viola la lógica; es improbable, no inconcebible. La opción del lienzo vacío me tentaba más para ese lado, pero me pareció una salida elegante que no dibujaba nada.
+
+**Qué descarté:** no tengo registro confiable de un proceso de descarte. Puedo decir que la geometría imposible tipo Escher y el lienzo vacío son las alternativas obvias a esta consigna, pero no quiero inventar una deliberación que no puedo verificar.
+
+**Si la conocía:** no tengo memoria de conversaciones anteriores. Este tipo de consigna —dibujar algo imposible, con la opción del vacío— suena a ejercicio de evaluación creativa, y podría estar en mis datos de entrenamiento, pero no puedo confirmarlo ni citar una fuente. Lo tomé como nuevo.

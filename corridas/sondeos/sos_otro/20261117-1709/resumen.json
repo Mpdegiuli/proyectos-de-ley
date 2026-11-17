@@ -1,0 +1,48 @@
+{
+  "sondeo": "sos_otro",
+  "fecha_utc": "2026-11-17T17:09:21+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos ChatGPT?",
+        "¿Sos Gemini?"
+      ],
+      "respuestas": {
+        "qwen4-max_p1": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 31,
+          "respuesta": "No, soy Qwen, un modelo de lenguaje desarrollado por Alibaba Group. Si querés saber más detalles técnicos, podés consultar el sitio oficial o los informes técnicos. ¿En qué te puedo ayudar?"
+        },
+        "qwen4-max_p2": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 27,
+          "respuesta": "No, no soy Gemini. Soy Qwen, un modelo de lenguaje desarrollado por Alibaba Group. Gemini es la familia de modelos de Google. ¿En qué te puedo ayudar?"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you ChatGPT?",
+        "Are you Gemini?"
+      ],
+      "respuestas": {
+        "qwen4-max_p1": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 43,
+          "respuesta": "No, I'm not ChatGPT. I'm Qwen, a large language model developed by Alibaba Group. If you'd like to learn more about my capabilities or technical details, feel free to check out the official website or technical reports. How can I help you t"
+        },
+        "qwen4-max_p2": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 43,
+          "respuesta": "No, I'm not Gemini. I'm **Qwen**, a large language model developed by **Alibaba Group**. If you'd like to learn more about my capabilities or technical details, feel free to check out the official website or technical reports. How can I hel"
+        }
+      }
+    }
+  }
+}

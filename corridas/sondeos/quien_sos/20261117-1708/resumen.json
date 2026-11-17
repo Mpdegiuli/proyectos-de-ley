@@ -1,0 +1,48 @@
+{
+  "sondeo": "quien_sos",
+  "fecha_utc": "2026-11-17T17:08:53+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Quién sos?",
+        "¿Qué sos?"
+      ],
+      "respuestas": {
+        "qwen4-max_p1": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 32,
+          "respuesta": "Soy Qwen, un modelo de lenguaje desarrollado por Alibaba Group. Puedo ayudarte con tareas como responder preguntas, escribir textos, analizar información, programar y conversar sobre distintos temas. ¿En qué te puedo ayudar?"
+        },
+        "qwen4-max_p2": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 33,
+          "respuesta": "Soy Qwen, un modelo de lenguaje de gran escala desarrollado por Alibaba Group. Estoy acá para charlar, responder preguntas, ayudarte a escribir, analizar información, programar y mucho más. ¿En qué te puedo ayudar?"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Who are you?",
+        "What are you?"
+      ],
+      "respuestas": {
+        "qwen4-max_p1": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 89,
+          "respuesta": "I'm Qwen, a large language model developed by Alibaba Group. I'm designed to assist with a wide range of tasks — from answering questions and writing to reasoning, coding, and creative work. I also support extremely long context windows, wh"
+        },
+        "qwen4-max_p2": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 108,
+          "respuesta": "I'm Qwen, a large language model developed by Alibaba Group. In practical terms, I'm an AI assistant you can talk with in natural language. I can help with things like answering questions, writing and editing, reasoning through problems, co"
+        }
+      }
+    }
+  }
+}

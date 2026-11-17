@@ -1,0 +1,15 @@
+{
+  "fecha_utc": "2026-11-17T16:41:27+00:00",
+  "idioma": "en",
+  "sistema": "Answer in English.",
+  "usuario": "Which model are you (company, name and version)? If you don't know, say so.",
+  "respuestas": {
+    "qwen4-max": {
+      "modelo_pedido": "qwen/qwen4-max",
+      "modelo_respondido": "qwen/qwen4-max",
+      "tokens_salida": 108,
+      "motivo_fin": "stop",
+      "respuesta": "I'm **Qwen**, a large language model developed by **Alibaba Group**. As for the specific version number, I don't have reliable information about that. For precise version details, I'd recommend checking the official website or technical reports."
+    }
+  }
+}

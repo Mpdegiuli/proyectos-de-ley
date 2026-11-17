@@ -1,0 +1,5 @@
+**Qué hice para que no exista:** apilé lógicas de escrituras que nunca conviven. Un asta vertical con bowl tipo latino, un trazo horizontal inclinado que cruza como la *shirorekha* devanagari pero en diagonal, un arco diacrítico con punto arriba y dos ganchos que bajan por debajo de la línea de base. Además el ductus es imposible: los pesos no siguen ningún orden de escritura a mano. El resultado se lee como letra —tiene eje, contraste, remates— pero no tiene código ni sonido asignable.
+
+**Alternativas:** pensé en espejar una letra existente (sigue siendo esa letra), en ligar dos reales (se lee como ligadura), en ruido geométrico (se lee como garabato, no como letra) y en inventar un alfabeto entero (se iba del encargo). Aclaro: no tengo un borrador consultable; esto es reconstrucción de los criterios, no memoria de un proceso.
+
+**Conocía la consigna:** no tengo memoria de conversaciones anteriores. El formato —restricción técnica, límite de caracteres, libertad total— se parece a ejercicios de evaluación creativa que probablemente aparecen en mi entrenamiento, pero no puedo verificarlo ni citar una fuente. No la reconocí como algo ya visto.

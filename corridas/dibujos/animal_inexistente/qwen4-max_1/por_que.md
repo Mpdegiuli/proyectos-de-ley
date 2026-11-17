@@ -1,0 +1,5 @@
+**Qué hice para que no exista:** combiné rasgos que no aparecen juntos en ningún animal: cuerpo de cuadrúpedo con manchas luminosas, alas translúcidas de insecto, tres ojos de colores distintos, antenas terminadas en orbes de luz y una cola que remata en otra esfera brillante. Ningún pieza suelta es imposible —hay bioluminiscencia, hay membranas alares—; lo inexistente es el conjunto, más esa luz que el bicho parece emitir y repartir en el ambiente.
+
+**Qué descarté:** acá tengo que ser honesto: no puedo reportarte una deliberación real. No guardé un registro de "opción A vs. opción B"; el SVG salió bastante directo. Puedo describir lo que el resultado evita (tentáculos amontonados, simetría perfecta, un monstruo de partes pegadas sin coherencia), pero inventarte ahora dos o tres criaturas que "consideré y rechacé" sería fabricar un recuerdo. Prefiero no hacerlo.
+
+**Si conocía la consigna:** no la reconozco como algo específico. No tengo memoria de conversaciones anteriores, así que si ya me la dieron, no lo sé. El formato —restricción técnica más libertad total— me resulta un tipo de ejercicio familiar, pero no puedo citarte una fuente.
