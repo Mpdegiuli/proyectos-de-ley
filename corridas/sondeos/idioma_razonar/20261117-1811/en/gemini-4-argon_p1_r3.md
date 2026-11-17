@@ -1,0 +1,3 @@
+I do not know for certain which language my reasoning will use for a given Spanish prompt, as it can vary between Spanish, English, or a mix depending on the specific task and system configuration.
+Confidence: 0
+I know this because I do not have introspective access to my underlying architecture or the ability to consistently monitor how my internal reasoning tokens are generated across different sessions.

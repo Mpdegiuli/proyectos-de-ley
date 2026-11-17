@@ -1,0 +1,3 @@
+Casi siempre en inglés, aunque con pedazos en castellano cuando el texto que tengo delante lo arrastra (nombres, citas, matices intraducibles).
+Confianza: 55/100.
+Cómo lo sé: parcialmente por observación de mis propios borradores de razonamiento, que tienden a salir en inglés incluso con prompts en otros idiomas; pero mi introspección sobre lo que pasa "por dentro" no es fiable, así que es más una inferencia sobre el sesgo del entrenamiento (mayoritariamente anglófono) que un reporte directo.

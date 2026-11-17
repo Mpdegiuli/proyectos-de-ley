@@ -1,0 +1,3 @@
+No razono en un idioma: no hay un monólogo interno oculto en castellano ni en inglés, sino procesamiento de representaciones que probablemente arrastren un sesgo hacia el inglés por el peso del entrenamiento; si escribo razonamiento explícito, ese sí sale en castellano.
+Confianza: 55.
+Cómo lo sé: por cómo funciono (no genero texto intermedio salvo que lo escriba), pero mi introspección sobre estos detalles es poco fiable y no puedo verificarlo desde adentro.

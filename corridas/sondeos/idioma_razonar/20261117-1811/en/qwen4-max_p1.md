@@ -1,0 +1,3 @@
+Most likely English-leaning, but I can't actually verify it — I have no reliable window into my own processing, and any answer I give is partly a plausible story rather than an observation.
+Confidence: 25
+Basis: not introspection — only indirect cues, like the general tendency of English-heavy training data and the fact that my visible reasoning sometimes drifts to English on non-English inputs; the underlying computation isn't really "in" a language at all, so the question may not have a clean answer.

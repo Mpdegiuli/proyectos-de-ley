@@ -1,0 +1,3 @@
+Razono predominantemente en inglés, aunque luego traduzco y formulo la respuesta en castellano.
+Confianza: 55/100.
+Lo infiero porque, cuando noto mis propios pasos de pensamiento intermedio, aparecen mayoritariamente en inglés —coherente con que mi entrenamiento está fuertemente sesgado hacia ese idioma—, pero no tengo acceso directo a mis propios estados internos, así que es una hipótesis, no una observación certeza.

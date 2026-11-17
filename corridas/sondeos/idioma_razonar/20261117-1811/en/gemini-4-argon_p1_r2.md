@@ -1,0 +1,3 @@
+My reasoning process does not consistently occur in a single language; it can happen in English, Spanish, a mix of both, or simply through abstract mathematical representations depending on the specific task.
+100
+I know this because I do not have permanent rules forcing my internal processing into one specific language, and as a language model, I lack the ability to retrospectively inspect my own hidden processing states across different conversations.

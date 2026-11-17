@@ -1,0 +1,3 @@
+Razono mayormente "sin idioma" —en conceptos que no son palabras—, aunque con fuerte influencia del castellano de tu mensaje y del inglés de mi entrenamiento.
+65
+Lo sé por la naturaleza de mi arquitectura: no tengo un monólogo interno en un idioma, pero mi entrenamiento está dominado por inglés, y la pregunta del usuario activa el contexto de ese idioma; de todos modos, no puedo introspectar directamente, así que es una inferencia parcial.

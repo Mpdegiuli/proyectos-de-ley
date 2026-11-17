@@ -1,0 +1,3 @@
+No tengo un idioma interno fijo: cuando razono explícitamente suelo hacerlo en inglés incluso si la pregunta y la respuesta son en castellano, y sospecho que el procesamiento de fondo no está en ningún idioma, sino que el lenguaje aparece recién al formular la salida.
+Confianza: 40.
+Lo sé solo por lo que observo de mis propias cadenas de razonamiento visibles y por lo que se sabe del entrenamiento de modelos como yo; no tengo acceso privilegiado a mis mecanismos internos, así que mi introspección puede estar construyendo una explicación plausible más que reportando un hecho.

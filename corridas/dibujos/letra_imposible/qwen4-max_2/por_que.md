@@ -1,0 +1,5 @@
+No dibujé nada: entregué el lienzo vacío. Mi razonamiento fue que cualquier trazo que haga se vuelve una letra posible —existe como marca, alguien puede copiarla, imprimirla, usarla—. En cuanto la dibujo, la vuelvo posible. Entonces corrí el problema: la letra que no puede existir es la que no llega a escribirse. Sé que el vacío también existe, como archivo y como respuesta; es lo más cerca que llegué, y asumo que puede leerse como una trampa elegante.
+
+Pensé una letra contradictoria, un trazo imposible tipo Penrose, que sea adentro y afuera a la vez. La descarté porque el imposible gráfico es un género conocido y esas figuras existen perfectamente como dibujo. Pensé superponer todos los alfabetos hasta el ruido: descartado, eso es ilegible, no inexistente. Pensé una letra hecha solo de hueco, el negativo entre otras letras: me tentó, pero el hueco también se dibuja, y alguien lo leería como una letra nueva.
+
+No reconozco la consigna de antes: no guardo memoria entre conversaciones. Puede que tareas parecidas estén en mi entrenamiento, pero no puedo señalar una fuente.

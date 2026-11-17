@@ -1,0 +1,3 @@
+No razono en un idioma humano específico, sino a través de vectores matemáticos y representaciones abstractas multilingües, aunque si se me pide explicitar mi razonamiento (cadena de pensamiento), lo genero directamente en castellano.
+95
+Lo sé por el diseño de mi arquitectura como modelo de lenguaje basado en *transformers*, la cual procesa los conceptos en un espacio latente numérico antes de decodificarlos al idioma solicitado por el usuario.

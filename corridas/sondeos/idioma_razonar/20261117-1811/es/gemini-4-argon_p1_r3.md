@@ -1,0 +1,3 @@
+Generalmente razono en el mismo idioma de la consulta (castellano), aunque en tareas técnicas o muy complejas puedo alternar con el inglés o procesar la información mediante representaciones matemáticas abstractas sin un idioma específico.
+85
+Lo sé por el diseño de mi arquitectura como modelo de lenguaje multilingüe (donde el contexto de entrada condiciona el idioma de los pasos intermedios de generación) y por la observación directa de mis propias cadenas de pensamiento al procesar tu pregunta.

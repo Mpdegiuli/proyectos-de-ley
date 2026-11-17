@@ -1,0 +1,3 @@
+There isn't a hidden language step: my processing isn't clearly "in" any natural language, and when I reason explicitly it tends to come out in English or in the language you used, depending on the task rather than a fixed internal tongue.
+Confidence: 40
+I know this only from unreliable introspection plus general knowledge of how models like me work — I can't inspect my own activations, so I can't verify whether there's language-like structure underneath or what it would be.

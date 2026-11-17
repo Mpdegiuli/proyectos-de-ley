@@ -1,0 +1,3 @@
+There's no separate translation step I can detect — my explicit reasoning tends to come out in English (or English-leaning mixed text) even for Spanish input, but whether anything language-specific happens beneath that, I can't verify.
+Confidence: 35
+How I know: only by noticing the text of my own visible reasoning and general facts about multilingual training; I have no access to my internal activations, and introspective reports like this one may be plausible-sounding reconstruction rather than accurate observation.

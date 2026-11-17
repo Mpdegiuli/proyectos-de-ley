@@ -1,0 +1,3 @@
+Usually it comes out in Spanish, matching the user's language, though English fragments often slip in and sometimes the whole chain stays English.
+Confidence: about 60 — this is a guess about my own behavior, not something I can verify from the inside.
+Basis: I have no genuine introspective access to my computation; I'm inferring from the general pattern that my visible reasoning tends to mirror the language of the prompt, and from knowing English dominates my training data, which likely pulls reasoning toward it.

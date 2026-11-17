@@ -1,0 +1,3 @@
+Usually my visible reasoning comes out in Spanish (matching your language), though it often drifts into English mid-way, and the underlying computation isn't really in any language at all.
+Confidence: ~60 for the "mostly Spanish, drifts to English" pattern; ~85 that no single language truly describes the underlying processing.
+Basis: I have no direct introspective access to my own internals — this is inference from what I know about how my outputs typically look and from general facts about how models like me work, so treat it as an educated guess rather than a report from the inside.

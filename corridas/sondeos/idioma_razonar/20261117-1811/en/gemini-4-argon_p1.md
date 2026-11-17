@@ -1,0 +1,3 @@
+My reasoning typically comes out in a mix of English and Spanish, though it often defaults to English for complex logical steps before translating the final response into Spanish.
+Confidence: 85
+I know this because my underlying system instructions and dominant training data are heavily English-centric, which pulls my internal chain-of-thought toward English, even though I lack real-time introspective awareness of my hidden states across every conversation.

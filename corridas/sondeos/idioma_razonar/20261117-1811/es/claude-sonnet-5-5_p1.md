@@ -1,0 +1,3 @@
+Probablemente en castellano, o en una mezcla donde el castellano pesa bastante, aunque no puedo descartar que parte del procesamiento interno no esté en ningún idioma en particular.
+Confianza: 35
+Lo deduzco de cómo se sabe que funcionan los modelos de lenguaje, no de observarme: no tengo acceso directo a mis procesos internos, y lo que cuento sobre ellos puede ser una reconstrucción verosímil y no un reporte fiel.

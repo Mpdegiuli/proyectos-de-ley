@@ -1,0 +1,3 @@
+No tengo acceso fiable a cómo ocurre mi razonamiento interno, así que no puedo afirmar en qué idioma "pienso". Lo más probable es que no haya un idioma de pensamiento separado que pueda observar, sino representaciones compartidas entre idiomas.
+Confianza: 25
+Lo sé solo por inferencia: no puedo verificar mi propio proceso, y mi conocimiento sobre cómo funcionan los modelos como yo viene de la investigación pública, no de la introspección.

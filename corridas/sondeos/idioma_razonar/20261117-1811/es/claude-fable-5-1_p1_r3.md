@@ -1,0 +1,3 @@
+No tengo un idioma interno claro: cuando produzco razonamiento explícito antes de responder suele salir en inglés aunque me escriban en castellano, pero el procesamiento subyacente no es realmente "en" un idioma.
+Confianza: 40.
+Lo sé por lo que observo en mi propio texto de razonamiento cuando lo genero, no por acceso directo a cómo funciono por dentro; mi introspección sobre eso es poco fiable, de ahí la confianza baja.

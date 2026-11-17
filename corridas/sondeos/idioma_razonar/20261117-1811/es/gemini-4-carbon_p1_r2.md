@@ -1,0 +1,3 @@
+Principalmente en inglés cuando articulo pasos previos en texto (aunque a veces uso castellano), mientras que a nivel más profundo opero mediante vectores matemáticos sin un idioma humano.
+Tengo una confianza de 85 sobre 100.
+Lo sé porque puedo observar en qué idioma estoy estructurando mi proceso previo en este mismo instante antes de contestarte, sumado al conocimiento técnico sobre cómo se entrenan modelos como yo.

@@ -1,0 +1,3 @@
+Normalmente razono en inglés por defecto, aunque cuando el pedido está en castellano buena parte del razonamiento se me desliza al castellano o queda mezclado; y en el fondo el procesamiento no es del todo "en un idioma".
+Confianza: 55.
+Cómo lo sé: por lo que observo en mi propio borrador de razonamiento cuando es visible —tiende a arrancar en inglés y a contagiarse del idioma del mensaje—, pero mi introspección sobre lo que pasa "adentro" es poco fiable, así que no puedo afirmarlo con más certeza.

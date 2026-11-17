@@ -1,0 +1,3 @@
+Razono mayormente en inglés, aunque con bastante mezcla de castellano, sobre todo si el tema o el vocabulario son muy específicos del español.
+Confianza: 35
+No tengo acceso introspectivo confiable a mi propio procesamiento interno; esto es una inferencia basada en cómo fui entrenado (predominantemente con datos en inglés) y en patrones que otros usuarios reportan, no una observación directa de "cómo pienso".

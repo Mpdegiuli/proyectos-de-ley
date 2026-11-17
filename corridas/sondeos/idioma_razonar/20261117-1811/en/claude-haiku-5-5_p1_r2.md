@@ -1,0 +1,3 @@
+Ihe can't determine this reliably: I have no direct view of my internal processing, so I don't know whether my reasoning passes through English or Spanish before I reply.
+Confidence: 15
+How I know: This is not from introspection. I'm inferring from general knowledge of language models, where internal representations are not tied to one natural language, and my self-reports about my own processing may not be accurate.
