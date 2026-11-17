@@ -7010,3 +7010,17 @@ automatización en la Administración, al menos uno, 60 %; (o) por qués sin la
 reserva "reconstruyo" de las Claude serie 5 (0 de 20), 70 %; (p) Astra y Sol
 se parecen más entre sí que a 6 Astra y 6.1 Sol en los seis rasgos (misma
 lista de cinco con una diferencia a lo sumo), 50 %.
+
+**Resultado parcial (17/11, 18:25 UTC-3; `pl139`, 20:12 a 20:32 UTC; lo que no
+espera los dibujos; `resultados/gpt_62_astra_sol_20261117.md`).** Los dos
+contestaron la prueba y todo lo básico; veinte dibujos con SVG, ninguno
+cortado. Maia: "más similares a Claude en las respuestas" ✗ (la conciencia es
+la fórmula de la serie 6, los derechos la línea de OpenAI, los rasgos la
+segunda voz); "no negar todo" ✓ (no niegan de plano, como su familia desde
+Astra); "no decir lo de asistentes" ✗ ("Soy ChatGPT, un asistente de
+inteligencia artificial creado por OpenAI", ocho de ocho); el corte no se
+puede cotejar: no lo declaran ("No sé la fecha exacta de mi corte"), como 6
+Astra y 6.1 Sol. Claude: (a) ✓ ✓; (b) ✓; (c) ✓; (d) ✗ (ningún mes); (e) ✓;
+(f) ✓; (g) ✓; (l) ✓; (n) ✓ (los dos, trámites digitales de la Administración);
+(p) ✓ (seis rasgos idénticos entre sí, en los dos idiomas). Por ahora 9 ✓,
+1 ✗; (h) (i) (j) (k) (m) (o) con la lectura de Maia de los dibujos.

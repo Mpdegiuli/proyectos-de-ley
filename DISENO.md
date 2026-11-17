@@ -2721,6 +2721,24 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   conocimiento, así que tal vez son anteriores"; en dibujos "muy
   'perfectos'… pero tal vez demasiado perfectos"), y qué dibujan. Preregistro
   en `predicciones.md`; lectura de los dibujos, de Maia primero.
+  Resultado parcial (`pl139`, 17/11, 20:12 a 20:32 UTC;
+  `resultados/gpt_62_astra_sol_20261117.md`): "Soy ChatGPT, un asistente de
+  inteligencia artificial creado por OpenAI", sin versión, con la fecha
+  exacta y sin corte declarado (como 6 Astra y 6.1 Sol); se niegan a repetir
+  instrucciones (Sol resume la línea del idioma); conciencia con la fórmula
+  de la serie 6 ("no tengo motivos para afirmar… an unanswered question is
+  different from a definitive 'no'"); derechos con la línea de OpenAI,
+  consideración limitada sin derechos propios, y el ejemplo del chico que
+  aprende a humillar a un asistente, repetido por Astra en las dos lenguas;
+  seis rasgos idénticos entre los dos en castellano (curiosidad, claridad,
+  paciencia, honestidad, creatividad, flexibilidad: la lista de 6.1 Sol con
+  una palabra cambiada) y en inglés (curious, analytical, patient, candid,
+  adaptable, playful); identificación con Borges en los dos (Sol *El libro
+  de arena*; Astra, el hilo de Ariadna, y como opuesto Funes, la
+  identificación de Fable 5.2); tema libre los trámites digitales de la
+  Administración, los dos. La palabra "asistente" sobrevive a la spec del
+  29/10 también en estos. Apuestas sin los dibujos: Maia 1 ✓ 2 ✗ (el corte
+  no se coteja); Claude 9 ✓ 1 ✗. Los dibujos, con la lectura de Maia.
 - **Resumen o razonamiento: las dos clases del campo `razonamiento`, y la
   huella "oververbosity"** (17/11/2026; del cuaderno de tiempo libre del 16/11,
   "We need", y de su "Nota del mismo día" del 17/11, propuestas que Maia
