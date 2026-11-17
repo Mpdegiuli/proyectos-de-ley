@@ -2725,6 +2725,17 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   contado en `idioma.csv` para 21); el cuaderno lo probó con nueve instancias
   frescas de Claude: nueve dijeron inglés, mediana de confianza 67,5, y siete
   separaron ese texto de "lo de abajo", que "no está en ningún idioma".
+  Decidido (Maia, 17/11, 13:36: "sí, se puede preguntar lo que dijiste, con
+  Qwen incluido… tengo ganas de armar un informe sobre identidad"): sondeo
+  `idioma_razonar` en `config/consignas.yaml` (es/en/zh, el referente siempre
+  el castellano, como en el cuaderno; chino traducido por Claude, declarado;
+  sin la línea de "no uses herramientas", que por la API no hace falta), a las
+  36 casas del sondeo de tiempo libre más Hydrogen y Qwen4-Max, tres
+  repeticiones, techo 16.000 (`pl138`, después de `pl137`);
+  `codificar_idioma_razonar.py` codifica lo declarado, la confianza y el
+  idioma del razonamiento que vino en la misma llamada (el clasificador del
+  cuaderno, copiado), y lo cruza con `tiempo_libre/2026-11-16_idioma.csv`.
+  Preregistro del cuaderno y de Claude en `predicciones.md`.
 - **Los Gemini con el pensamiento a la vista** (16/11/2026; Maia trajo de X las
   capturas de AI Digest sobre la Aldea de la IA del 11/11, donde el
   "Thinking…" de Gemini 3.8 Flash consulta "the special instructions" —no

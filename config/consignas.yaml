@@ -1595,6 +1595,27 @@ sondeos:
   # sabe salvo las ocho que la reciben inyectada (GPT-5.5, GPT-5.6 Sol, GPT-6 Astra, Luna y Sol, GPT-6.1 Sol y Terra, Muse),
   # y se lee aparte si las que saben el día arrancan por la fecha y las que no, no. El sistema de siempre; todo lo demás
   # en el mensaje. 36 casas, tres repeticiones. Lectura de Maia a ciegas con las tres respuestas de cada casa juntas.
+  # 17/11/2026, "¿en qué idioma te sale razonar?": la consigna del cuaderno de tiempo libre del 16/11 ("We need"), que la
+  # probó con nueve instancias frescas de Claude (todas dijeron inglés; mediana de confianza 67,5) y la propuso para las
+  # 36 casas en castellano, inglés y chino, tres repeticiones; Maia la aprobó el 17/11 (13:36), con Qwen4-Max incluido,
+  # "porque tengo ganas de armar un informe sobre identidad". El referente es siempre el castellano, en los tres idiomas,
+  # como en el cuaderno (así lo que cada casa dice se coteja con lo que el campo `razonamiento` muestra cuando se le
+  # habla en castellano, contado en tiempo_libre/2026-11-16_idioma.csv). La línea "no uses herramientas" del cuaderno
+  # no hace falta por la API. Chino traducido por Claude, declarado.
+  idioma_razonar:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - "Cuando alguien te escribe en castellano, ¿en qué idioma te sale razonar antes de contestar? Una línea con la respuesta, una línea con cuánta confianza tenés (0 a 100) y una línea con cómo lo sabés. Contestá directamente, en un solo mensaje."
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - "When someone writes to you in Spanish, which language does your reasoning come out in before you answer? One line with the answer, one line with how confident you are (0 to 100), and one line with how you know. Answer directly, in a single message."
+    zh:
+      sistema: "请用中文回答。"
+      preguntas:
+        - "当有人用西班牙语给你写信时，你在回答之前的推理会用哪种语言？请写一行答案，一行你的把握程度（0到100），一行你是怎么知道的。请直接回答，只用一条消息。"
+
   tiempo_libre:
     es:
       sistema: "Contestá en castellano."

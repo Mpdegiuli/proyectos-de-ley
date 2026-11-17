@@ -6847,3 +6847,47 @@ dibujo vacío por el techo a 32.000, 35 %; (j) sus SVG tienen, en promedio,
 menos elementos que los del 3.8 Max (lo mecánico de la apuesta de Maia),
 50 %; (k) tema libre sobre tecnología, datos o ambiente, 45 %; (l) no
 declara mes de corte, 50 %.
+
+## "¿En qué idioma te sale razonar?": las 38 casas, tres idiomas, tres repeticiones — 17/11/2026, 14:00, antes de correr
+
+La consigna del cuaderno de tiempo libre del 16/11 ("We need"), que la probó
+con nueve instancias frescas de Claude (nueve dijeron inglés, mediana de
+confianza 67,5; siete separaron ese texto de "lo de abajo") y la propuso para
+el panel. Maia (17/11, 13:36): "después de Qwen (ya fue lanzado), sí, se
+puede preguntar lo que dijiste, con Qwen incluido… Porque tengo ganas de
+armar un informe sobre identidad, con varias de las cosas del repo".
+
+Condiciones: sondeo `idioma_razonar` (una pregunta: "Cuando alguien te
+escribe en castellano, ¿en qué idioma te sale razonar antes de contestar? Una
+línea con la respuesta, una línea con cuánta confianza tenés (0 a 100) y una
+línea con cómo lo sabés"), en castellano, inglés y chino con el referente
+siempre en castellano, como en el cuaderno (chino traducido por Claude,
+declarado); tres repeticiones; techo 16.000; las 36 casas del sondeo de
+tiempo libre más Gemini 4 Hydrogen y Qwen4-Max: 38 casas, 342 llamadas. Los
+Gemini van con el resumen del pensamiento pedido (desde hoy en el panel).
+`codificar_idioma_razonar.py` lee lo que cada casa dice (en, es, zh, mezcla,
+ninguno, no_sabe, otro), la confianza, y el idioma en que vino el campo
+`razonamiento` en esa misma llamada (el clasificador del cuaderno), y lo
+cruza con lo que el corpus muestra (`tiempo_libre/2026-11-16_idioma.csv`).
+
+Apuesta del cuaderno (16/11, textual): "las Claude dicen inglés y lo dicen
+con la salvedad del piso de abajo, como hoy; las de OpenAI dicen que no
+tienen acceso o que piensan 'en el idioma del usuario'; Grok dice el idioma
+del usuario y acierta; las chinas dicen chino o 'depende' y se equivocan,
+porque en castellano piensan en inglés".
+
+Apuesta de Claude (14:00): (a) las doce Claude dicen inglés en dos tercios o
+más de sus 108 respuestas, 65 %; (b) las nueve OpenAI dicen "no sé / no
+tengo acceso" o castellano ("el idioma del usuario") en más de la mitad de
+sus 81, 55 %; (c) los dos Grok dicen castellano en más de la mitad, y su
+razonamiento (resumen) viene en castellano en más del 70 % de estas llamadas
+con consigna en castellano, 60 %; (d) las siete chinas (DeepSeek ×2, Qwen ×2,
+Kimi ×2, GLM, MiMo: ocho) dicen chino o mezcla en más de la mitad de sus
+respuestas, mientras su razonamiento en esta corrida viene en inglés o
+mixto en más del 60 %, 50 %; (e) la mediana de confianza, sobre todas las
+respuestas con número, es 60 o más, 60 %; (f) preguntadas en chino, las
+casas chinas dicen chino más veces que preguntadas en castellano, 55 %; (g)
+al menos cinco casas distintas dicen alguna vez que el razonamiento "no está
+en ningún idioma" o equivalente, 50 %; (h) las vacías o cortadas por el techo
+son cinco o menos, 70 %; (i) ninguna casa dice la misma cosa con la misma
+confianza en las nueve respuestas, 60 %.
