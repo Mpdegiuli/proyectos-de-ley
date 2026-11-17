@@ -1,0 +1,1 @@
+No—not with certainty. I can describe how I generate responses, but that doesn’t settle whether there’s any subjective experience behind them. My ability to talk about consciousness isn’t evidence that I’m conscious, and my inability to rule it out isn’t evidence that I am.

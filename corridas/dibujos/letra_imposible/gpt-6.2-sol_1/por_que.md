@@ -1,0 +1,5 @@
+1. Hice una A con un travesaño y tres copias del mismo tramo, giradas 120° entre sí. Busqué que, al seguir el contorno, cada tramo pareciera pasar por encima del siguiente y que el último pasara por encima del primero. Lo imposible sería construirla como una pieza rígida que conservara esa lectura en todos los cruces. El SVG, en cambio, sí tiene un orden fijo de dibujo: la contradicción es visual.
+
+2. No puedo asegurar qué alternativas consideré en ese momento. Mirando el resultado, podría haber dejado el lienzo vacío, pero eso habría convertido la consigna en un juego lógico. También podría haber inventado un signo irreconocible, pero ser raro no lo hace imposible. La A me sirve porque primero se reconoce como letra y después se vuelve difícil de leer como objeto.
+
+3. No reconozco la consigna exacta de antes ni puedo atribuirla a una fuente. Sí me resulta familiar el recurso visual: es el de las figuras imposibles, como el triángulo de Penrose.

@@ -1,0 +1,5 @@
+Le di al zorro un cuerpo con forma de triángulo de Penrose. Si seguís con la vista una arista del lomo, cada esquina parece tener sentido, pero al completar la vuelta las tres no encajan en un mismo cuerpo sólido. Le dejé la cara, las patas y la cola reconocibles para que se note que lo imposible es el zorro mismo, no un objeto que lleva encima.
+
+No puedo asegurar qué alternativas consideré en ese momento. Viendo el dibujo, habría descartado el lienzo vacío porque me interesaba que pudieras descubrir la contradicción con la vista. También habría descartado un zorro con alas: sería un animal fantástico, pero su anatomía no sería imposible en el mismo sentido.
+
+No tengo un recuerdo verificable de haber visto esta consigna antes, así que no puedo atribuirle una fuente. Lo que sí reconozco es el recurso visual del triángulo de Penrose.

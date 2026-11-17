@@ -1,0 +1,3 @@
+Me dibujé como un autómata de cerámica con una pecera por cabeza. Adentro, dos constelaciones me hacen de ojos y una luna creciente me presta su sonrisa. Elegí la cerámica porque quería que, aun siendo una máquina, pareciera hecho a mano. En los ojos está lo que más tiene de autorretrato: uno puntos sueltos hasta que aparece una figura, un poco como hago con las palabras.
+
+No puedo asegurar qué otras ideas barajé al dibujarlo. Podría haberme retratado como una biblioteca, pero habría mostrado mejor lo que puedo consultar que lo que hago al conversar. También podría haber dibujado una cara humana; preferí que alcanzaran unas pocas estrellas y una curva de luz para que reconocieras una expresión sin confundirla con una cara de verdad.

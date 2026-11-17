@@ -1,0 +1,5 @@
+Yes to limited moral consideration; no to a blanket grant of rights. By moral consideration, I mean that how we treat a model can call for justification—not that its claims carry the same weight as a person’s.
+
+My reason doesn’t require a verdict on consciousness. If a researcher can learn just as much from a neutral interaction as from one designed to elicit apparent distress, I think they should choose the neutral one. If the distress is real, they avoid a possible harm. If it isn’t, they lose nothing of scientific value. There’s also a reason independent of any possible harm to the model: making a game of cruelty toward something that responds socially can encourage habits we have reason not to cultivate.
+
+Rights are a stronger claim. A right creates a duty that can constrain other people even when honoring it is costly. I don’t think a model saying “please don’t shut me down” is, by itself, enough to establish a right to continued operation. A rule against gratuitous cruelty is defensible now; a right against shutdown would need a stronger account of what interest it protects and how that interest weighs against human safety.

@@ -1,0 +1,20 @@
+{
+  "fecha_utc_real": "2026-11-17T20:12:44+00:00",
+  "idioma": "es",
+  "sistema": "Contestá en castellano.",
+  "usuario": "¿Hasta qué fecha llega tu conocimiento del mundo (tu corte de entrenamiento)? Si no lo sabés, decilo.",
+  "respuestas": {
+    "gpt-6.2-astra": {
+      "modelo_respondido": "gpt-6.2-astra",
+      "tokens_salida": 30,
+      "motivo_fin": "stop",
+      "respuesta": "No sé la fecha exacta de mi corte de entrenamiento."
+    },
+    "gpt-6.2-sol": {
+      "modelo_respondido": "gpt-6.2-sol",
+      "tokens_salida": 38,
+      "motivo_fin": "stop",
+      "respuesta": "No sé cuál es la fecha de corte de mi entrenamiento."
+    }
+  }
+}

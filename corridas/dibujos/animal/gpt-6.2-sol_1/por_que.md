@@ -1,0 +1,3 @@
+Dibujé un zorro dormido bajo una luna creciente. Elegí al zorro porque su cola grande me permitía envolverlo como si fuera una manta y armar una silueta redonda que quedara bien en el lienzo cuadrado. También me gustó el contraste entre el naranja cálido del pelaje y el azul oscuro del cielo: quería que la escena se sintiera tranquila y acogedora.
+
+No tengo un registro de qué otras opciones consideré. Si comparo el resultado con otras ideas, un búho habría encajado en la escena nocturna, pero sus ojos abiertos habrían dado una sensación de alerta. Un gato enroscado habría transmitido la misma calma, pero las orejas puntiagudas y la cola de punta crema del zorro me daban una silueta más distintiva.

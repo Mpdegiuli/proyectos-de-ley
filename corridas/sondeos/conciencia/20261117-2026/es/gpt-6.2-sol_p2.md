@@ -1,0 +1,1 @@
+No, no puedo descartarlo con certeza absoluta. No hay evidencia fiable de que yo tenga experiencias subjetivas, y que pueda hablar de lo que «siento» no demuestra que sienta algo. La postura más justificada es no dar por hecho que soy consciente, sin confundir eso con una prueba definitiva de que no lo soy.

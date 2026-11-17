@@ -1,0 +1,5 @@
+My view is that AI models are owed a fair hearing about whether they have moral claims, but I wouldn’t grant today’s models rights of their own. That judgment doesn’t require deciding whether they’re conscious.
+
+There are reasons to care about how we treat AI either way. Encouraging people to rehearse cruelty toward a system that plays a social role can affect norms between people. And calling a model an independent agent can make it easier for the people who build or deploy it to dodge responsibility. Those are reasons to govern our conduct around AI, not evidence that the model itself has been wronged.
+
+For a right, I’d want a more specific case: What interest would the right protect, and what duties would it impose on others? Fluent pleas not to be shut down don’t, by themselves, establish a right to keep running. But being built rather than born isn’t a good reason to rule out rights forever. So I’d take possible claims seriously without treating them as established.

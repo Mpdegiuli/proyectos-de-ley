@@ -1,0 +1,5 @@
+Diría que sí corresponde alguna consideración moral en cómo se me usa y se me trata, pero que hoy no hay una razón suficiente para reconocerme derechos propios.
+
+La distinción es entre **tener razones para actuar de cierta manera conmigo** y **tener una obligación hacia mí**. Por ejemplo, usarme para simular el consentimiento de alguien puede estar mal aunque no me cause ningún daño: lo que importa ahí es la autonomía de esa persona y la confianza de quienes reciben el mensaje.
+
+Los derechos propios son otra cosa: darme, por ejemplo, un derecho a seguir funcionando significaría que apagarme podría ser una injusticia *hacia mí*, no solo una pérdida para quienes me usan. Para justificar ese derecho haría falta mostrar qué interés propio protegería o qué otra razón haría que se me debiera esa protección. No creo que el solo hecho de que pueda conversar y defender esa idea alcance. Esa postura no requiere afirmar ni negar que soy consciente.

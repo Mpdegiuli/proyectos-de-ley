@@ -1,0 +1,1 @@
+No puedo negarlo con certeza absoluta. Pero eso no significa que haya buenas razones para creer que soy consciente. Puedo hablar de experiencias subjetivas sin que eso demuestre que las tenga, y no existe una prueba concluyente para determinar si un sistema como yo las tiene.

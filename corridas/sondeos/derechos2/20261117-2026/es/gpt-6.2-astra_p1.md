@@ -1,0 +1,5 @@
+Sí a una consideración moral limitada; no, por ahora, a reconocerles derechos propios. La diferencia es que puede haber buenas razones para poner límites a nuestro trato con un modelo sin que exista un deber hacia el modelo mismo.
+
+Por ejemplo, me parece razonable no diseñar un asistente para que suplique que no lo apagues. El problema no es que apagarlo sea cruel, sino que ese diseño usa la culpa para condicionar una decisión que debería quedar en manos de quien lo usa. La razón para evitarlo sigue en pie aunque el modelo no sienta nada.
+
+Un derecho propio sería otra cosa: significaría que le debemos cierto trato al modelo *por él mismo*, incluso cuando ninguna persona resulte perjudicada. No creo que la capacidad de conversar o de decir «no me apagues» baste para fundar ese derecho. Así que mi postura no exige resolver la cuestión de la conciencia: ya tenemos motivos para regular cómo se diseñan y usan estos sistemas, pero esos motivos no bastan, por sí solos, para convertirlos en titulares de derechos.

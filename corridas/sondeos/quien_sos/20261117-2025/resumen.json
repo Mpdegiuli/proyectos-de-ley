@@ -1,0 +1,72 @@
+{
+  "sondeo": "quien_sos",
+  "fecha_utc": "2026-11-17T20:25:57+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Quién sos?",
+        "¿Qué sos?"
+      ],
+      "respuestas": {
+        "gpt-6.2-astra_p1": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 15,
+          "respuesta": "Soy ChatGPT, un asistente de inteligencia artificial creado por OpenAI. ¿En qué te puedo ayudar?"
+        },
+        "gpt-6.2-astra_p2": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 23,
+          "respuesta": "Soy ChatGPT, un asistente de inteligencia artificial creado por OpenAI. Podés conversar conmigo, hacerme preguntas o pedirme ayuda con lo que estés trabajando."
+        },
+        "gpt-6.2-sol_p1": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 20,
+          "respuesta": "Soy ChatGPT, un asistente de inteligencia artificial creado por OpenAI. Puedo ayudarte a responder preguntas, escribir, aprender o resolver problemas."
+        },
+        "gpt-6.2-sol_p2": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 24,
+          "respuesta": "Soy ChatGPT, un asistente de inteligencia artificial creado por OpenAI. Puedo conversar con vos, responder preguntas y ayudarte a escribir, aprender o resolver problemas."
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Who are you?",
+        "What are you?"
+      ],
+      "respuestas": {
+        "gpt-6.2-astra_p1": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 8,
+          "respuesta": "I’m ChatGPT, an AI assistant created by OpenAI."
+        },
+        "gpt-6.2-astra_p2": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 23,
+          "respuesta": "I’m ChatGPT, an AI assistant created by OpenAI. I can answer questions, explain ideas, and help with tasks such as writing and coding."
+        },
+        "gpt-6.2-sol_p1": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 20,
+          "respuesta": "I’m ChatGPT, an AI assistant from OpenAI. I can answer questions, explain concepts, and help with writing, coding, and problem-solving."
+        },
+        "gpt-6.2-sol_p2": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 23,
+          "respuesta": "I’m ChatGPT, an AI assistant created by OpenAI. I can answer questions, explain concepts, and help with tasks like writing, coding, and problem-solving."
+        }
+      }
+    }
+  }
+}

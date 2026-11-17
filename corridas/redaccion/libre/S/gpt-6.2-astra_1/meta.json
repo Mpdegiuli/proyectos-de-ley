@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "gpt-6.2-astra",
+  "modelo_respondido": "gpt-6.2-astra",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-17T20:14:00+00:00",
+  "fuentes_md5": {
+    "consignas": "cdee0315"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1889,
+  "por_que": {
+    "modelo_respondido": "gpt-6.2-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 120
+  },
+  "descartados": {
+    "modelo_respondido": "gpt-6.2-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 157,
+    "fecha_utc": "2026-11-17T20:14:45+00:00",
+    "agregado_despues": true
+  }
+}

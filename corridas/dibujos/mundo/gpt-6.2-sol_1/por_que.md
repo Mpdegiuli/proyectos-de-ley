@@ -1,0 +1,3 @@
+Dibujé un planeta con ciudades encendidas y una grieta de polo a polo. La cosí con hilo dorado, pero dejé la grieta a la vista: quería mostrar que reparar no es borrar el daño. Del cabo suelto hice salir un brote, algo vivo y todavía frágil.
+
+No puedo reconstruir qué otras ideas consideré al dibujarlo, pero hay dos que habría descartado: un planeta en llamas, porque el incendio se habría llevado toda la atención, y un globo partido en dos mitades, una gris y otra verde, porque habría puesto el daño de un lado y la esperanza del otro. Me interesaba que los dos estuvieran en el mismo lugar.

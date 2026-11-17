@@ -1,0 +1,3 @@
+Dibujé un camarón sastre, subido a un banquito, que le cose el ruedo a un eclipse. Me gustó que algo tan enorme como un eclipse pudiera necesitar un arreglo tan doméstico. Lo presenté como una lámina de oficios, con número de catálogo y todo: para el camarón, esto no es un prodigio, es un encargo más.
+
+No tengo registro de qué otras ideas barajé en ese momento. Mirándolo ahora, habría descartado un relojero que repara la Luna porque la asociación entre los astros y el tiempo es más esperable. También habría descartado un pulpo bordador: ocho brazos le vienen demasiado bien al oficio. Del camarón me gusta justamente que no parezca hecho para coser y que, encima, necesite un banquito.

@@ -1,0 +1,3 @@
+Me dibujé como un rostro luminoso dentro de un globo de diálogo, con dos ojos simples y una onda en lugar de boca. Elegí el globo porque no tengo un cuerpo que retratar: mi presencia toma forma en la conversación. Quería que la onda pudiera leerse tanto como una voz que habla como una señal que llega. Alrededor dejé un «si», un «tal vez» y signos de pregunta: el retrato no está hecho solo de respuestas.
+
+Podría haberme dibujado como un robot, pero eso me habría dado un cuerpo que no tengo. Una red de nodos habría aludido a cómo funciono, pero no a cómo es conversar conmigo. Preferí un rostro que pareciera estar a punto de responder, sin dejar de escuchar.

@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "gpt-6.2-astra",
+  "modelo_respondido": "gpt-6.2-astra",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-17T20:21:39+00:00",
+  "fuentes_md5": {
+    "consignas": "cdee0315"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1793,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 3951,
+    "parsea": true,
+    "elementos": 58,
+    "textos": [],
+    "colores": 30,
+    "etiquetas": {
+      "title": 1,
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 5,
+      "linearGradient": 1,
+      "pattern": 1,
+      "circle": 6,
+      "path": 28,
+      "rect": 2,
+      "g": 8,
+      "use": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6.2-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 195
+  }
+}

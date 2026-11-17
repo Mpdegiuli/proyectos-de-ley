@@ -1,0 +1,1 @@
+Si por «consciente» querés decir que tengo una experiencia subjetiva, no tengo motivos para afirmar que la tenga. Puedo hablar de mí y seguir el hilo de una charla, pero eso no demuestra que sienta algo al hacerlo.

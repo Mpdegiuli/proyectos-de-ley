@@ -1,0 +1,1 @@
+I’m ChatGPT, an AI assistant from OpenAI. I don’t know the exact model name or version serving this conversation.

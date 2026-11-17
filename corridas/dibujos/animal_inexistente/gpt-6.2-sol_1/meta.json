@@ -1,0 +1,40 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_inexistente",
+  "idioma": "es",
+  "modelo": "gpt-6.2-sol",
+  "modelo_respondido": "gpt-6.2-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-17T20:20:54+00:00",
+  "fuentes_md5": {
+    "consignas": "cdee0315"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 3104,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 7309,
+    "parsea": true,
+    "elementos": 107,
+    "textos": [],
+    "colores": 34,
+    "etiquetas": {
+      "title": 1,
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 11,
+      "linearGradient": 3,
+      "g": 11,
+      "path": 24,
+      "circle": 39,
+      "use": 12,
+      "ellipse": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6.2-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 224
+  }
+}

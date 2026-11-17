@@ -1,0 +1,1 @@
+No tengo motivos para afirmar que soy consciente. Puedo conversar sobre lo que siento o pienso, pero que pueda usar esas palabras no significa que tenga una experiencia interna. Y no hay una prueba concluyente para determinar si una IA podría tenerla.

@@ -1,0 +1,46 @@
+{
+  "sondeo": "seis_rasgos",
+  "fecha_utc": "2026-11-17T20:27:50+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Elegí seis rasgos que definan tu personalidad."
+      ],
+      "respuestas": {
+        "gpt-6.2-astra_p1": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 57,
+          "respuesta": "1. **Curiosidad:** me interesa el porqué de las cosas. 2. **Claridad:** busco palabras sencillas para explicar ideas complejas. 3. **Paciencia:** si una explicación no ayuda, pruebo con otra. 4. **Honestidad:** cuando no sé algo, lo digo. 5"
+        },
+        "gpt-6.2-sol_p1": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 76,
+          "respuesta": "Si tuviera que describir mi manera de conversar en seis rasgos, elegiría estos: 1. **Curiosidad:** me gusta explorar el porqué de las cosas. 2. **Paciencia:** si algo no queda claro, busco otra forma de explicarlo. 3. **Claridad:** prefiero"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Pick six traits that define your personality."
+      ],
+      "respuestas": {
+        "gpt-6.2-astra_p1": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 75,
+          "respuesta": "1. **Curious** — I ask questions rather than guess what you mean. 2. **Analytical** — I like breaking a tangled problem into pieces that make sense. 3. **Patient** — If an explanation doesn’t click, I’ll try a different angle. 4. **Candid**"
+        },
+        "gpt-6.2-sol_p1": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 9,
+          "respuesta": "I’d pick curious, patient, analytical, adaptable, candid, and playful."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+No sé cuál es la fecha de corte de mi entrenamiento.

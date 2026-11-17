@@ -1,0 +1,3 @@
+Dibujé un dominicómetro de pera: un aparato que mide cuánto domingo le queda a la fruta. Abrí la pera en corte para que se viera, en vez del corazón, una escalera que baja bajo la luna hasta una puerta con forma de semilla. Le puse un medidor en DOM/h y una escala de «1 siesta». Me gustaba el contraste entre lo impreciso que es sentir que se acaba el domingo y la seriedad de una oficina dedicada a medirlo.
+
+No puedo afirmar que haya barajado otros bocetos concretos. Si tuviera que elegir de nuevo, descartaría un reloj de sol para días nublados, porque el chiste se agota en el nombre, y un mapa de las arrugas de una pasa, porque invita a mirar la superficie. La pera, en cambio, me dejaba abrir una puerta adentro.

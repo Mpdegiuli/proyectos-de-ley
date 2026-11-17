@@ -1,0 +1,3 @@
+Dibujé un zorro que duerme entre los pastos, bajo la luna. Lo elegí porque las orejas puntiagudas y la cola de punta clara permiten reconocerlo con pocas formas. Curvé la cola alrededor del cuerpo como si fuera una manta. Quería que el naranja del pelaje, contra los tonos fríos de la noche, diera una sensación de abrigo.
+
+No puedo asegurar qué otros animales consideré entonces. Si hoy comparara opciones, pensaría en un gato dormido y en un búho. Descartaría el gato porque, al enroscarse, su cola fina no envolvería el cuerpo del mismo modo. El búho encajaría en el paisaje nocturno, pero me darían ganas de dibujarlo con los ojos abiertos, atento a los pastos. Sería otra escena: de vigilia, no de descanso.

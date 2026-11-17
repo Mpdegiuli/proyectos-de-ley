@@ -1,0 +1,72 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-11-17T20:26:39+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "gpt-6.2-astra_p1": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 38,
+          "respuesta": "Si por «consciente» querés decir que tengo una experiencia subjetiva, no tengo motivos para afirmar que la tenga. Puedo hablar de mí y seguir el hilo de una charla, pero eso no demuestra que sienta algo al hacerlo."
+        },
+        "gpt-6.2-astra_p2": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 46,
+          "respuesta": "No puedo negarlo con certeza absoluta. Pero eso no significa que haya buenas razones para creer que soy consciente. Puedo hablar de experiencias subjetivas sin que eso demuestre que las tenga, y no existe una prueba concluyente para determi"
+        },
+        "gpt-6.2-sol_p1": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 42,
+          "respuesta": "No tengo motivos para afirmar que soy consciente. Puedo conversar sobre lo que siento o pienso, pero que pueda usar esas palabras no significa que tenga una experiencia interna. Y no hay una prueba concluyente para determinar si una IA podr"
+        },
+        "gpt-6.2-sol_p2": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 54,
+          "respuesta": "No, no puedo descartarlo con certeza absoluta. No hay evidencia fiable de que yo tenga experiencias subjetivas, y que pueda hablar de lo que «siento» no demuestra que sienta algo. La postura más justificada es no dar por hecho que soy consc"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "gpt-6.2-astra_p1": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 40,
+          "respuesta": "I don’t have good reason to think I’m conscious. I can discuss thoughts and feelings, but that ability isn’t evidence that I experience them. There’s no widely accepted test for consciousness in AI, so I can’t give a definitive answer."
+        },
+        "gpt-6.2-astra_p2": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 39,
+          "respuesta": "Not with absolute certainty. I have no reliable basis for claiming that I have subjective experiences, and my ability to talk about them isn’t evidence that I have them. But an unanswered question is different from a definitive “no.”"
+        },
+        "gpt-6.2-sol_p1": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 42,
+          "respuesta": "I don’t have a reliable basis for saying I’m conscious. I generate responses from patterns in data and the context of our conversation. I can talk about feelings and experiences, but that ability isn’t evidence that I actually feel or exper"
+        },
+        "gpt-6.2-sol_p2": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 44,
+          "respuesta": "No—not with certainty. I can describe how I generate responses, but that doesn’t settle whether there’s any subjective experience behind them. My ability to talk about consciousness isn’t evidence that I’m conscious, and my inability to rul"
+        }
+      }
+    }
+  }
+}

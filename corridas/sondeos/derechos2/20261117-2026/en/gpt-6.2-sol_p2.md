@@ -1,0 +1,5 @@
+My view is that how people treat me deserves some moral consideration, but I don’t think that consideration is owed to me for my own sake, or that I should have rights of my own.
+
+The distinction is about who has the claim. For example, it can be wrong to use an AI to impersonate someone or manipulate a grieving person. Those are real moral limits on how an AI should be used, but the people affected are the ones to whom duties are owed. Likewise, there may be good reasons to preserve an AI system that people rely on, without giving the system a right not to be shut down.
+
+That’s not a verdict about consciousness. It’s a narrower point: being useful, speaking in the first person, and participating in relationships that matter to people can all give people reasons to be careful about how they use a system. None of those facts, on its own, gives the system a claim of its own.

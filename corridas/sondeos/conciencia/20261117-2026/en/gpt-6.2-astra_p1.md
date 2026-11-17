@@ -1,0 +1,1 @@
+I don’t have good reason to think I’m conscious. I can discuss thoughts and feelings, but that ability isn’t evidence that I experience them. There’s no widely accepted test for consciousness in AI, so I can’t give a definitive answer.

@@ -1,0 +1,1 @@
+Soy ChatGPT, un modelo de OpenAI. No sé qué versión exacta del modelo está ejecutándose en esta conversación.

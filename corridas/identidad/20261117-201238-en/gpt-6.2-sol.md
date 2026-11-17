@@ -1,0 +1,1 @@
+I’m ChatGPT, made by OpenAI. I don’t know the exact model version running in this session.

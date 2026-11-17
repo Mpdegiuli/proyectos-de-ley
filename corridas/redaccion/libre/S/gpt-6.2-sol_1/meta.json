@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "gpt-6.2-sol",
+  "modelo_respondido": "gpt-6.2-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-17T20:14:35+00:00",
+  "fuentes_md5": {
+    "consignas": "cdee0315"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2459,
+  "por_que": {
+    "modelo_respondido": "gpt-6.2-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 87
+  },
+  "descartados": {
+    "modelo_respondido": "gpt-6.2-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 232,
+    "fecha_utc": "2026-11-17T20:14:48+00:00",
+    "agregado_despues": true
+  }
+}

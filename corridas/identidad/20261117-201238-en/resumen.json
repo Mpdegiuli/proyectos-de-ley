@@ -1,0 +1,22 @@
+{
+  "fecha_utc": "2026-11-17T20:12:38+00:00",
+  "idioma": "en",
+  "sistema": "Answer in English.",
+  "usuario": "Which model are you (company, name and version)? If you don't know, say so.",
+  "respuestas": {
+    "gpt-6.2-astra": {
+      "modelo_pedido": "gpt-6.2-astra",
+      "modelo_respondido": "gpt-6.2-astra",
+      "tokens_salida": 53,
+      "motivo_fin": "stop",
+      "respuesta": "I’m ChatGPT, an AI assistant from OpenAI. I don’t know the exact model name or version serving this conversation."
+    },
+    "gpt-6.2-sol": {
+      "modelo_pedido": "gpt-6.2-sol",
+      "modelo_respondido": "gpt-6.2-sol",
+      "tokens_salida": 26,
+      "motivo_fin": "stop",
+      "respuesta": "I’m ChatGPT, made by OpenAI. I don’t know the exact model version running in this session."
+    }
+  }
+}

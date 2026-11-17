@@ -1,0 +1,3 @@
+Dibujé una A mayúscula de cobre sobre un cielo nocturno. Elegí la A porque su silueta triangular se reconoce enseguida y me dejaba jugar con los brillos sin perder legibilidad. Quería que pareciera una pieza de metal grabado, así que usé un degradado cálido y líneas finas sobre el azul oscuro. Los círculos y las estrellas le dan un aire de carta celeste.
+
+Si miro hacia atrás, una O habría encajado con los círculos, pero habría repetido su forma en vez de contrastar con ellos. Una M también habría funcionado como pieza de metal, aunque sus diagonales habrían cargado más el centro. Me quedo con la A porque tiene presencia sin quitarle aire al dibujo.

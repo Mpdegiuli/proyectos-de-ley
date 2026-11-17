@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "letra",
+  "idioma": "es",
+  "modelo": "gpt-6.2-sol",
+  "modelo_respondido": "gpt-6.2-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-17T20:24:15+00:00",
+  "fuentes_md5": {
+    "consignas": "cdee0315"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 1068,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 2737,
+    "parsea": true,
+    "elementos": 40,
+    "textos": [],
+    "colores": 13,
+    "etiquetas": {
+      "title": 1,
+      "defs": 1,
+      "radialGradient": 1,
+      "stop": 6,
+      "linearGradient": 1,
+      "path": 9,
+      "clipPath": 1,
+      "use": 8,
+      "rect": 1,
+      "g": 3,
+      "circle": 8
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6.2-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 209
+  }
+}

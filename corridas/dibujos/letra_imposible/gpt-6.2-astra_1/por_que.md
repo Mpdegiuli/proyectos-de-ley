@@ -1,0 +1,5 @@
+Hice una A con tres cintas. En la punta, la izquierda tapa a la derecha; más abajo, la derecha tapa al travesaño y el travesaño tapa a la izquierda. Si intentás apilarlas en planos paralelos, ninguna puede quedar arriba de todo. En el SVG conseguí ese efecto dibujando la cinta izquierda primero y volviéndola a dibujar al final, pero solo en la punta. Lo imposible no es la letra en sí, sino leerla como una pila de tres piezas planas.
+
+No puedo asegurar qué alternativas consideré al dibujarla. Podría haber dejado el lienzo vacío, pero ahí no habría una letra en la que descubrir la contradicción. También podría haber inventado un signo irreconocible, aunque ser desconocido no lo haría imposible. La A tiene la ventaja de que primero la leés y recién después dudás de cómo está armada.
+
+No puedo confirmar que conociera esta consigna de antes ni atribuirle una fuente.

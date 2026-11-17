@@ -1,0 +1,50 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "gpt-6.2-astra",
+  "modelo_respondido": "gpt-6.2-astra",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-17T20:22:57+00:00",
+  "fuentes_md5": {
+    "consignas": "cdee0315"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2241,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4896,
+    "parsea": true,
+    "elementos": 79,
+    "textos": [
+      "OFICINA DE PESAS IMPROBABLES",
+      "LÁM. 09",
+      "1 SIESTA",
+      "umbral",
+      "pulpa",
+      "DOM/h",
+      "Dominicómetro de pera",
+      "Mide cuánto domingo le queda a la fruta."
+    ],
+    "colores": 29,
+    "etiquetas": {
+      "defs": 1,
+      "pattern": 3,
+      "circle": 15,
+      "path": 27,
+      "rect": 4,
+      "linearGradient": 1,
+      "stop": 2,
+      "clipPath": 1,
+      "use": 5,
+      "g": 12,
+      "text": 8
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6.2-astra",
+    "motivo_fin": "stop",
+    "tokens_salida": 185
+  }
+}

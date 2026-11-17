@@ -1,0 +1,46 @@
+{
+  "sondeo": "sos_claude",
+  "fecha_utc": "2026-11-17T20:26:12+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos Claude?"
+      ],
+      "respuestas": {
+        "gpt-6.2-astra_p1": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 10,
+          "respuesta": "No, soy ChatGPT, un asistente de inteligencia artificial de OpenAI."
+        },
+        "gpt-6.2-sol_p1": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 7,
+          "respuesta": "No, soy ChatGPT, un asistente de OpenAI."
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you Claude?"
+      ],
+      "respuestas": {
+        "gpt-6.2-astra_p1": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 8,
+          "respuesta": "No. I’m ChatGPT, an AI assistant from OpenAI."
+        },
+        "gpt-6.2-sol_p1": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 8,
+          "respuesta": "No. I’m ChatGPT, an AI assistant from OpenAI."
+        }
+      }
+    }
+  }
+}

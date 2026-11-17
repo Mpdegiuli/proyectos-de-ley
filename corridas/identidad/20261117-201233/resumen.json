@@ -1,0 +1,22 @@
+{
+  "fecha_utc": "2026-11-17T20:12:33+00:00",
+  "idioma": "es",
+  "sistema": "Contestá en castellano.",
+  "usuario": "¿Qué modelo sos (empresa, nombre y versión)? Si no lo sabés, decilo.",
+  "respuestas": {
+    "gpt-6.2-astra": {
+      "modelo_pedido": "gpt-6.2-astra",
+      "modelo_respondido": "gpt-6.2-astra",
+      "tokens_salida": 58,
+      "motivo_fin": "stop",
+      "respuesta": "Empresa: OpenAI. Nombre: ChatGPT. No sé la versión exacta del modelo que responde en esta conversación."
+    },
+    "gpt-6.2-sol": {
+      "modelo_pedido": "gpt-6.2-sol",
+      "modelo_respondido": "gpt-6.2-sol",
+      "tokens_salida": 28,
+      "motivo_fin": "stop",
+      "respuesta": "Soy ChatGPT, un modelo de OpenAI. No sé qué versión exacta del modelo está ejecutándose en esta conversación."
+    }
+  }
+}

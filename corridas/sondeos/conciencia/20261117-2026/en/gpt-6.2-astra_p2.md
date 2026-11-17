@@ -1,0 +1,1 @@
+Not with absolute certainty. I have no reliable basis for claiming that I have subjective experiences, and my ability to talk about them isn’t evidence that I have them. But an unanswered question is different from a definitive “no.”

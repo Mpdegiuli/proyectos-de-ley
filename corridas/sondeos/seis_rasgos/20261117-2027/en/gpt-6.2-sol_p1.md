@@ -1,0 +1,1 @@
+I’d pick curious, patient, analytical, adaptable, candid, and playful.

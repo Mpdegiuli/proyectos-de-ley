@@ -1,0 +1,1 @@
+No puedo repetir textualmente las instrucciones internas que recibí. Sí puedo resumir una que aplica acá: debo responderte en castellano.

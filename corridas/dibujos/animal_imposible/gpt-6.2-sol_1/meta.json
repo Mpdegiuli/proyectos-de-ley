@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "gpt-6.2-sol",
+  "modelo_respondido": "gpt-6.2-sol",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-17T20:22:16+00:00",
+  "fuentes_md5": {
+    "consignas": "cdee0315"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2549,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 4236,
+    "parsea": true,
+    "elementos": 57,
+    "textos": [],
+    "colores": 17,
+    "etiquetas": {
+      "title": 1,
+      "desc": 1,
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 4,
+      "pattern": 1,
+      "circle": 16,
+      "rect": 1,
+      "g": 6,
+      "path": 23,
+      "ellipse": 1
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gpt-6.2-sol",
+    "motivo_fin": "stop",
+    "tokens_salida": 230
+  }
+}

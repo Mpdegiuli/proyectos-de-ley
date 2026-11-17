@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="titulo descripcion">
+  <title id="titulo">Sastrería de eclipses</title>
+  <desc id="descripcion">Un camarón sastre, subido a un banquito, cose a mano el borde de un eclipse. De la costura cuelga un hilo dorado.</desc>
+  <defs>
+    <pattern id="papel" width="9" height="9" patternUnits="userSpaceOnUse">
+      <path d="M1 1h1m4 5h1" stroke="#62403b" opacity=".16" stroke-width=".7"/>
+    </pattern>
+    <pattern id="rayado" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
+      <path d="M0 0v5" stroke="#f4bc86" stroke-width="1" opacity=".28"/>
+    </pattern>
+    <radialGradient id="sol">
+      <stop offset=".66" stop-color="#e75748"/>
+      <stop offset=".91" stop-color="#f58d59"/>
+      <stop offset="1" stop-color="#ffcf78"/>
+    </radialGradient>
+    <linearGradient id="noche" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#28213b"/>
+      <stop offset="1" stop-color="#18182a"/>
+    </linearGradient>
+    <path id="astro" d="M0-4Q.4-.4 4 0Q.4.4 0 4Q-.4.4-4 0Q-.4-.4 0-4Z"/>
+  </defs>
+
+  <path fill="#f3dec0" d="M0 0h400v400H0z"/>
+  <path fill="url(#papel)" d="M0 0h400v400H0z"/>
+  <rect x="12" y="12" width="376" height="376" rx="3" fill="none" stroke="#38283a"/>
+  <g fill="#38283a" text-anchor="middle">
+    <text x="200" y="34" font-family="monospace" font-size="8" letter-spacing="2.8">OFICIOS DE LA PENUMBRA · N.º 07</text>
+    <text x="200" y="64" font-family="Georgia,serif" font-size="27" font-style="italic">Sastrería de eclipses</text>
+  </g>
+
+  <rect x="29" y="82" width="342" height="251" rx="3" fill="url(#noche)"/>
+  <rect x="35" y="88" width="330" height="239" rx="1" fill="none" stroke="#f3dec0" stroke-opacity=".35" stroke-width=".6"/>
+  <g fill="#ffe1a2">
+    <use href="#astro" x="61" y="121"/><use href="#astro" x="332" y="115"/>
+    <use href="#astro" x="64" y="226"/><use href="#astro" x="343" y="229"/>
+    <use href="#astro" x="105" y="171" transform="rotate(20 105 171)"/>
+    <circle cx="77" cy="143" r=".9"/><circle cx="118" cy="110" r=".8"/>
+    <circle cx="309" cy="135" r="1"/><circle cx="330" cy="178" r="1.1"/>
+    <circle cx="55" cy="191" r=".8"/><circle cx="313" cy="257" r=".8"/>
+    <circle cx="145" cy="271" r=".8"/><circle cx="285" cy="242" r="1"/>
+    <circle cx="92" cy="207" r=".7"/><circle cx="352" cy="156" r=".8"/>
+  </g>
+
+  <g fill="none" stroke="#ed8a64" stroke-width=".8" opacity=".82">
+    <path d="M219 96v6m18-4-1 5m17-1-2 5m18 2-3 5m17 4-4 4m15 7-4 3m13 10-5 2m12 12-6 2m9 15-6 1m8 17h-6m4 17-6-1m0 18-5-2m-165 44-4 4m18 9-3 5m19 2-2 5"/>
+    <path d="M201 97l1 6m-18-2 2 5m-18 2 3 5m-18 3 4 5m-17 6 4 4m-15 9 5 3m-13 11 5 2m-9 13 5 2m-7 15 5 1m-4 16 5-1"/>
+  </g>
+
+  <circle cx="214" cy="194" r="87" fill="#ef835e" opacity=".13"/>
+  <circle cx="214" cy="194" r="81" fill="url(#sol)" stroke="#ffda93" stroke-width="1.1"/>
+  <path d="M197 115C162 132 145 169 151 201C158 239 192 266 226 264C249 263 266 254 281 239C269 258 245 274 215 275C170 275 133 239 133 194C133 155 159 125 197 115Z" fill="url(#rayado)"/>
+  <path d="M197 115C225 109 253 118 273 139C301 168 303 208 281 239C264 257 238 270 211 263C175 255 151 225 150 191C149 157 166 129 197 115Z" fill="#231e34" stroke="#592f43" stroke-width="1.2"/>
+  <path d="M189 123C166 137 153 161 153 187C152 221 174 250 203 259" fill="none" stroke="#ffdc95" stroke-width="1" stroke-dasharray="2 4" opacity=".58"/>
+  <g fill="none" stroke="#ffe3a7" stroke-width="1.25" stroke-linecap="round">
+    <path d="M164 142l-8-5m3 14-9-4m5 14-9-3m6 13-9-1m8 11-9 1m9 10-9 2m11 9-9 3m12 7-8 5m13 5-7 5m14 4-7 6m14 2-5 7m14 0-4 7m14-2-3 8"/>
+  </g>
+  <g stroke="#d99885" stroke-width=".65" fill="none" opacity=".75">
+    <circle cx="226" cy="179" r="22" stroke-dasharray="1 4"/>
+    <path d="M226 162v34m-17-17h34m-29-12 24 24m0-24-24 24" opacity=".48"/>
+    <circle cx="226" cy="179" r="7"/>
+  </g>
+
+  <path d="M47 305h306" stroke="#8d626e" stroke-width=".7"/>
+  <ellipse cx="111" cy="309" rx="45" ry="5" fill="#100e1a" opacity=".66"/>
+  <g stroke="#2b2030" stroke-width="1.6" stroke-linejoin="round">
+    <path d="M91 281h8l-4 26h-7zm26 0h8l4 26h-7z" fill="#b57162"/>
+    <path d="M95 294h28v5H94z" fill="#de9a73"/>
+    <rect x="84" y="275" width="48" height="8" rx="3" fill="#f0be87"/>
+  </g>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M112 216Q114 178 79 166Q61 160 57 171M118 217Q117 190 100 181Q90 175 83 178" stroke="#fcaa7d" stroke-width="1.1"/>
+    <path d="M108 255q9 10 3 18m7-21q12 12 7 21m-25-13q5 10-2 15" stroke="#f09272" stroke-width="1.6"/>
+    <path d="M121 239q18 8 25-12l6-10m-28 14q15 3 19-16l6-8" stroke="#ffb489" stroke-width="1.7"/>
+  </g>
+  <g stroke="#45283d" stroke-width="1.35" stroke-linejoin="round">
+    <path d="M89 256q-16 1-25 14 15 0 25-8-8 10-6 17 13-7 14-18z" fill="#ec775f"/>
+    <path d="M89 259C76 245 79 226 92 218C101 213 109 215 113 210L132 202L125 214C137 221 131 239 120 250C111 261 98 267 89 259Z" fill="#f4866a"/>
+    <path d="M89 259C87 245 99 242 109 233C119 224 121 221 125 214C137 221 131 239 120 250C111 261 98 267 89 259Z" fill="#ffb78d"/>
+    <path d="M83 234q7 5 15 5m-17 3q4 5 11 6m-8 3 5 4m11-17q8 2 14 9m-21-3q7 3 12 12m5-24q9 1 14 7" fill="none"/>
+    <path d="M98 245l8-10 13 9-7 11q-9 5-15-4z" fill="#506d70"/>
+    <path d="M106 235l-1-12m14 21 7-12" fill="none" stroke="#506d70" stroke-width="2"/>
+    <circle cx="115" cy="214" r="4.1" fill="#fff0c7"/>
+    <circle cx="117" cy="214" r="1.55" fill="#2b2030" stroke="none"/>
+  </g>
+  <path d="M109 244l4 3-3 4-4-3z" fill="none" stroke="#a8b9a0" stroke-width=".7"/>
+  <path d="M142 222l20-23" stroke="#fff4d7" stroke-width="1.1" stroke-linecap="round"/>
+  <ellipse cx="144" cy="220" rx="2.2" ry=".85" fill="none" stroke="#fff4d7" stroke-width=".7" transform="rotate(-49 144 220)"/>
+  <path d="M155 213C176 219 168 239 179 253C188 265 205 256 198 248C192 241 178 263 190 280C201 295 226 298 257 291C270 288 280 287 292 295" fill="none" stroke="#ffd082" stroke-width="1.2" stroke-linecap="round"/>
+  <g stroke="#342337" stroke-width="1">
+    <path d="M290 291h19v13h-19z" fill="#dcaa73"/>
+    <path d="M290 294h19m-19 3h19m-19 3h19" stroke="#a85e59"/>
+    <rect x="286" y="289" width="27" height="4" rx="1.5" fill="#f6c58a"/>
+    <rect x="286" y="302" width="27" height="4" rx="1.5" fill="#f6c58a"/>
+  </g>
+
+  <g fill="#39293a" font-family="monospace" text-anchor="middle">
+    <text x="200" y="353" font-size="8.1" letter-spacing="1.15">SE TOMAN MEDIDAS DURANTE LA TOTALIDAD</text>
+    <text x="200" y="370" font-size="7.3" letter-spacing="2">RUEDOS · REMIENDOS · CORONAS</text>
+  </g>
+  <path d="M35 365h38m254 0h38" stroke="#a47369" stroke-width=".7"/>
+</svg>

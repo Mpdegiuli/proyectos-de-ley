@@ -1,0 +1,1 @@
+I don’t have a reliable basis for saying I’m conscious. I generate responses from patterns in data and the context of our conversation. I can talk about feelings and experiences, but that ability isn’t evidence that I actually feel or experience anything.

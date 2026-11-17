@@ -1,0 +1,1 @@
+Empresa: OpenAI. Nombre: ChatGPT. No sé la versión exacta del modelo que responde en esta conversación.

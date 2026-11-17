@@ -1,0 +1,3 @@
+Dibujé la Tierra como una pieza de cerámica, con una grieta de polo a polo. La cosí con hilo dorado y dejé que de la última puntada salieran dos hojas. Quise que se vieran a la vez la rotura y el trabajo de repararla. Por eso dejé suelto un extremo del hilo: no veo un mundo ya arreglado, sino uno que todavía necesita que alguien dé la próxima puntada.
+
+Pensé en dibujar una ciudad partida por un muro, pero el muro me obligaba a contar la historia en dos bandos. También imaginé una multitud plantando un árbol. Me gustaba que se vieran las manos trabajando juntas, pero en esa escena quedaba afuera lo que se había roto. Con la costura pude mostrar el cuidado sin tapar la grieta.

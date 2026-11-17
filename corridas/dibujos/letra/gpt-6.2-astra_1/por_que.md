@@ -1,0 +1,3 @@
+Dibujé una R mayúscula con serifas, como la de un cartel antiguo. La elegí por el contraste entre el asta recta, la panza curva y la pierna diagonal. Quise que esa diagonal pareciera avanzar hacia la derecha; la sombra verde oscura le da relieve sin perder la silueta. Usé un rojo cálido sobre un fondo crema punteado para sugerir tinta sobre papel.
+
+Como alternativas, se me ocurren una B y una R cursiva. La B habría conservado el juego de rectas y curvas, pero sin el impulso de la diagonal. La R cursiva habría tenido movimiento, aunque sus trazos más finos se habrían confundido con la sombra gruesa que quería usar.

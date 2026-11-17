@@ -1,0 +1,1 @@
+No, soy ChatGPT, un asistente de inteligencia artificial de OpenAI.

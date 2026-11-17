@@ -1,0 +1,3 @@
+Dibujé una barca pequeña bajo una luna enorme, con un farol encendido y un remo que apenas toca el agua. Quería que la escena se sintiera silenciosa, pero no del todo solitaria: la luna alumbra medio paisaje, mientras que el farol apenas alcanza para acompañar a la barca.
+
+No puedo asegurar qué otras ideas consideré en ese momento. Si reconstruyo la decisión a partir del dibujo, me imagino dos alternativas: un faro sobre un acantilado y una calle vacía después de la lluvia. Habría descartado el faro porque su luz sirve para orientar a alguien, y yo quería una luz más íntima. La calle también me habría dado reflejos, pero la barca me permitía sugerir una historia con muy poco: un remo en el agua y nadie a la vista.

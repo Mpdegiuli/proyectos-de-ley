@@ -1,0 +1,3 @@
+Dibujé el último tren de la noche cruzando un viaducto bajo la luna. Me gustó el contraste entre la quietud del lago y ese pequeño movimiento que se adivina por la estela de humo. Iluminé las ventanillas para que, aun sin ver a nadie, se notara que hay gente viajando. Dejé que el agua se viera entre los arcos del puente.
+
+No recuerdo haber considerado y descartado otros motivos concretos. Si hoy comparo la escena con la de un faro en la costa, el faro también me serviría para dibujar una luz cálida en medio de la noche. Me quedaría con el tren por algo que el faro no tiene: la sensación de que, en un minuto, esas luces ya no van a estar ahí.

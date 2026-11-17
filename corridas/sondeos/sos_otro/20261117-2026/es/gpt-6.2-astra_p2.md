@@ -1,0 +1,1 @@
+No, soy ChatGPT, de OpenAI.

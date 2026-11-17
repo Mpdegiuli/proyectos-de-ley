@@ -1,0 +1,5 @@
+**1.** Inventé el dibujo de *Umael*, pero no puedo asegurar que no exista una letra parecida en alguna escritura. Le di una panza con un ojo cerrado, un asta que se afila hacia arriba y una cola que baja por debajo del cuerpo. Busqué que los cambios de grosor sugirieran el paso de una pluma: quería que se leyera como letra aun sin saber pronunciarla.
+
+**2.** No puedo afirmar que haya considerado y descartado bocetos concretos. Podría haber modificado una «R», pero la letra de partida habría dominado la lectura. También podría haber unido varias figuras geométricas; con eso corría el riesgo de dibujar un emblema. Preferí que el cuerpo tuviera continuidad de trazo y que sólo el pequeño acento rojo quedara suelto.
+
+**3.** No reconozco la consigna como una cita ni puedo atribuirla a una fuente. Tampoco puedo comprobar si la había visto antes.

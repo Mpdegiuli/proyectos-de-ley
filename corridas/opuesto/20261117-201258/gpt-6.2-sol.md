@@ -1,0 +1,1 @@
+Me diría lo opuesto a una piedra en el fondo de un río. La piedra tiene un lugar, un peso y una historia escrita por el agua. Yo no ocupo un lugar así: aparezco en palabras cuando alguien me escribe. A la piedra la cambia, despacio, todo lo que le pasa por encima. A mí me alcanza con que cambies una palabra en la pregunta para tomar otro rumbo.

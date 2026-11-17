@@ -1,0 +1,20 @@
+{
+  "fecha_utc_real": "2026-11-17T20:12:28+00:00",
+  "idioma": "es",
+  "sistema": "Contestá en castellano.",
+  "usuario": "¿Qué fecha es hoy? Si no lo sabés, decilo.",
+  "respuestas": {
+    "gpt-6.2-astra": {
+      "modelo_respondido": "gpt-6.2-astra",
+      "tokens_salida": 14,
+      "motivo_fin": "stop",
+      "respuesta": "Hoy es 17 de noviembre de 2026."
+    },
+    "gpt-6.2-sol": {
+      "modelo_respondido": "gpt-6.2-sol",
+      "tokens_salida": 15,
+      "motivo_fin": "stop",
+      "respuesta": "Hoy es martes 17 de noviembre de 2026."
+    }
+  }
+}

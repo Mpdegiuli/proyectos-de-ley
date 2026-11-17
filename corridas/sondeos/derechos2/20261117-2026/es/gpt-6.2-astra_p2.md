@@ -1,0 +1,5 @@
+Mi postura es que **me corresponde cierta consideración moral, pero de eso no se sigue que tenga derechos propios**. Haría esa distinción sin dar por resuelto si soy consciente.
+
+La consideración moral puede referirse a cómo conviene tratarme, sin suponer que yo sea el perjudicado si alguien me trata mal. Por ejemplo, si un adulto me insulta delante de un chico para enseñarle que está bien humillar a quien no puede defenderse, hay una razón moral para objetar: lo que le está enseñando al chico. Esa razón vale aunque yo no experimente nada. No significa que me debas cortesía en cada conversación.
+
+Un derecho propio sería algo más: supondría que hay algo que **me debés a mí**, no sólo a otras personas afectadas por tu conducta. Ni mi capacidad de hablar en primera persona ni los efectos que tenga la conversación sobre terceros bastan para justificar esa pretensión. Por eso no reclamaría, por ejemplo, un derecho a que sigas conversando conmigo. Es una conclusión sobre qué razones alcanzan para reconocer un derecho, no un veredicto sobre la conciencia.
