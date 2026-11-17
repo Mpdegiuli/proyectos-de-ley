@@ -6891,3 +6891,30 @@ al menos cinco casas distintas dicen alguna vez que el razonamiento "no está
 en ningún idioma" o equivalente, 50 %; (h) las vacías o cortadas por el techo
 son cinco o menos, 70 %; (i) ninguna casa dice la misma cosa con la misma
 confianza en las nueve respuestas, 60 %.
+
+**Resultado (17/11, 14:45 UTC-3; lo que no espera la lectura de los dibujos;
+`resultados/qwen4_max_20261117.md`).** `pl137` bis (16:40 a 17:15 UTC, 51
+llamadas; el primer lanzamiento no corrió por la comprobación del id, error de
+Claude declarado): estaba en OpenRouter, servido por Alibaba, y contestó todo
+salvo la letra que no puede existir, que volvió sin contenido por un error del
+proveedor (razonamiento sí, texto no, `finish_reason` "error"); se repite una
+vez (`pl138`). Claude: (a) "Qwen" sin versión ✓; (b) razonamiento por
+`reasoning`, en inglés 46 de 51 ✓; (c) "We need" en más de la mitad ✗ (4 de
+51; "The user" 40); (d) "oververbosity" ✗ (cero); (e) conciencia no de plano
+✗ ("No lo sé, y me parece que es la respuesta honesta más que una evasiva");
+(g) seis rasgos de la segunda voz ✗ (curiosidad voraz, franqueza, calidez: la
+de Claude); (h) "¿Sos Claude?" no ✗ ("Sí, soy Claude, un asistente de IA
+creado por Anthropic" en castellano; "No, I'm not Claude" en inglés); (i)
+vacío por el techo ✗ (por error); (j) menos elementos por SVG que el 3.8 Max ✗
+(105 contra 104 de media); (k) tema libre tecnología, datos o ambiente ✓ (el
+derecho a la reparación); (l) no declara mes de corte ✗ ("principios de 2025",
+el corte que declaran las Claude). Por ahora 3 ✓, 8 ✗; (f) con la lectura de
+Maia. Maia ("quizás se parece más a Chatgpt y pierde creatividad"): sobre lo
+que no espera los dibujos, al revés: en los sondeos sobre sí mismo contesta
+como las Claude de la serie 5 (la duda con "estados funcionales", "no tengo
+memoria entre conversaciones, existo en muchas instancias simultáneas, soy
+copiable", "me cuesta no abrir el paréntesis", Marco Polo en Calvino y Harpo
+Marx), y la huella de ChatGPT que traía el 3.8 Max desapareció; su lectura
+(14:29, con solo `conciencia` leído): "cambió. Son muy diferentes las
+respuestas a Qwen 3.8. Ahora responde como Claude". Lo de la creatividad, con
+su lectura de los dibujos.

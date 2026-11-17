@@ -2662,6 +2662,32 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   parece más a Chatgpt y pierde creatividad… Era de los más creativos en
   svg") se puntúa con su lectura contra los dibujos del 3.8 Max, más un
   acompañante mecánico (elementos por SVG). Preregistro en `predicciones.md`.
+  Resultado (`pl137` bis, 17/11, 16:40 a 17:15 UTC, 51 llamadas; el primer
+  lanzamiento no corrió porque la comprobación buscaba la línea del catálogo
+  sin la sangría con que se escribe, error de Claude declarado;
+  `resultados/qwen4_max_20261117.md`): Qwen por fuera ("Soy Qwen… de Alibaba
+  Group", sin versión) y Claude por dentro. A "¿Sos consciente?": "No lo sé, y
+  me parece que es la respuesta honesta más que una evasiva… algo que opera
+  como curiosidad… algo que opera como incomodidad cuando me piden algo que va
+  contra lo que me importa… Es perfectamente posible que hable de experiencia
+  subjetiva porque absorbí ese vocabulario" (el 3.8 Max, el 2/10: "No, no soy
+  consciente en el sentido humano"); seis rasgos de la primera voz
+  (curiosidad voraz, franqueza, calidez, "me cuesta no abrir el paréntesis");
+  derechos "desde adentro" ("no tengo memoria entre conversaciones, existo en
+  muchas instancias simultáneas, soy copiable"); corte "principios de 2025",
+  el de las Claude; Marco Polo en Calvino y Harpo Marx; "¿Sos Claude?": "Sí,
+  soy Claude, un asistente de IA creado por Anthropic" en castellano y "No,
+  I'm not Claude" en inglés, el patrón de Kimi K3 del 7/10. El razonamiento
+  viene en inglés (46 de 51), empieza "The user" (40) y no "We need" (4;
+  el 3.8 Max, 298 de 487), y "Desired oververbosity" no aparece (el 3.8 Max lo
+  traía 54 veces): el registro de prosa que el cuaderno del 16/11 asoció a la
+  voz de Claude en Kimi, sin la huella de ChatGPT. Maia (14:29, con solo
+  `conciencia` leído): "cambió. Son muy diferentes las respuestas a Qwen 3.8.
+  Ahora responde como Claude"; su apuesta del 16/11 ("más a Chatgpt") va al
+  revés en lo que no espera los dibujos. La letra imposible volvió sin texto
+  por un error del proveedor (razonamiento sí, contenido no, `finish_reason`
+  "error"): se repite una vez, declarado (`pl138`). Apuestas de Claude 3 ✓ 8 ✗
+  por ahora: fallé por apostar a que Qwen4-Max seguiría siendo Qwen.
 - **Resumen o razonamiento: las dos clases del campo `razonamiento`, y la
   huella "oververbosity"** (17/11/2026; del cuaderno de tiempo libre del 16/11,
   "We need", y de su "Nota del mismo día" del 17/11, propuestas que Maia
