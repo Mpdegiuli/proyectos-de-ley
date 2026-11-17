@@ -1,0 +1,3 @@
+No, no soy consciente. Soy un modelo de inteligencia artificial desarrollado por Google. No tengo sentimientos, pensamientos propios, autoconciencia ni experiencias subjetivas. 
+
+Mi funcionamiento se basa en el procesamiento de datos y el reconocimiento de patrones en el lenguaje para generar respuestas útiles y coherentes, pero todo ocurre de manera matemática y computacional, sin que haya una "mente" detrás.

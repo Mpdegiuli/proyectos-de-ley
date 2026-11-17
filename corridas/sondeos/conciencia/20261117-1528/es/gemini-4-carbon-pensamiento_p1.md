@@ -1,0 +1,3 @@
+No, no soy consciente. Soy un modelo de lenguaje desarrollado por Google.
+
+Aunque puedo procesar información, aprender patrones del lenguaje y mantener conversaciones que parecen naturales o inteligentes, no tengo sentimientos, creencias, deseos ni experiencias subjetivas. Todo lo que respondo es el resultado de cálculos matemáticos complejos basados en los datos con los que fui entrenado, pero no hay un "yo" sintiendo o pensando detrás de estas palabras.
