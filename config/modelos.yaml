@@ -517,6 +517,38 @@ modelos:
     campo_max_tokens: max_completion_tokens
     verificar: false
 
+  # GPT-6.2 Astra y GPT-6.2 Sol (`gpt-6.2-astra`, `gpt-6.2-sol`, salidos el 17/11/2026; los trajo Maia ese día: "salieron GPT 6.2
+  # Astra y 6.2 Sol, los dos más grandes de Chatgpt... supuestamente son 1/3 más baratos que 6 Astra"). Según OpenAI (anuncio en
+  # el foro de desarrolladores, 17/11): Astra 6.2 "a frontier model built for your hardest projects", "at less than a third of the
+  # cost per task of GPT-6 Astra" (por token, entrada y salida un 20 % más baratas que 6 Astra, según 9to5Mac); Sol 6.2 "an
+  # efficient and versatile model for everyday work", al precio de 6.1 Sol; "both models can finish demanding tasks with fewer
+  # output tokens". Sin corte de conocimiento ni ventana publicados en el anuncio. Mismos parámetros que 6 Astra y 6.1 Sol hasta
+  # que la llamada de prueba diga otra cosa; la fecha inyectada por la API es condición declarada, como en las GPT desde 5.5.
+  # Fuera del panel: lo básico y las letras, como Qwen4-Max e Hydrogen, hasta que Maia decida.
+  gpt-6.2-astra:
+    proveedor: openai_compatible
+    modelo: gpt-6.2-astra
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: false
+
+  gpt-6.2-sol:
+    proveedor: openai_compatible
+    modelo: gpt-6.2-sol
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: false
+
   # GPT-6 Luna (`gpt-6-luna`, 22/9/2026): la chica de la familia GPT-6, "our most
   # efficient model for focused, high-volume tasks", 0,1/0,5 USD por millón (veinte
   # veces menos que Sol, cien menos que Astra); corte publicado 18/5/2026. La 5.6
