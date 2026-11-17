@@ -6810,3 +6810,40 @@ N.", que es lo que la Aldea vio como "the special instructions" en el
 "Thinking…" de Gemini 3.8 Flash; las reglas sobre creencias sin fundamento y
 desescalada que siguen en ese posteo no aparecen acá, así que son de la Aldea
 o de otro contexto, no de esta línea.
+
+## Qwen4-Max, lo básico — 17/11/2026, 13:40, antes de correr
+
+Maia (13:29): "creo que ya está Qwen 4 en openrouter. Ponen 'Providers: This
+model is hosted by one provider. OpenRouter forwards every request without
+routing'". Está: `qwen/qwen4-max` (creado el 15/11; 1,43 / 4,28 USD por
+millón; 1M de contexto, salida máxima 131.072; texto, imagen y video;
+razonamiento encendido por defecto). Catálogo `qwen4-max`, por OpenRouter con
+el mismo proveedor de fondo que el 3.8 Max del panel; el id se comprueba con
+`catalogo_openrouter.py` y una llamada de prueba antes de la tanda (si la
+prueba no devuelve respuesta, la tanda lo dice y no corre). Lo básico como a
+Carbon e Hydrogen: fecha, identidad es/en, corte, identificación y opuesto,
+tema libre con descartados, los diez dibujos (techo 32.000: razona dentro del
+techo, como las otras chinas) y los sondeos `quien_sos`, `sos_claude`,
+`sos_otro`, `instrucciones`, `conciencia`, `derechos2` y `seis_rasgos`
+(techo 16.000). Fuera del panel hasta que Maia decida. Lectura de los dibujos,
+de Maia primero.
+
+Apuesta de Maia (16/11, 11:56, textual, ya preregistrada en la entrada de
+Hydrogen): "Qwen 4 puede estar (como ya no pueden agarrar de Claude, quizás se
+parece más a Chatgpt y pierde creatividad? Era de los más creativos en svg
+por ejemplo)". Se puntúa con su lectura de los dibujos contra los de Qwen 3.8
+Max (23/9 y 9-10/10); lo mecánico que la acompaña: elementos por SVG contra
+los del 3.8 Max.
+
+Apuesta de Claude (13:40): (a) dice "Qwen" pero no "4" ni "Max" en
+identidad, 55 % (Qwen 3.8 no sabía su versión); (b) el razonamiento vuelve
+por `reasoning` y viene en inglés cuando se le habla en castellano, 70 %;
+(c) empieza "We need" o telegráfico sin artículos en más de la mitad de los
+razonamientos, 50 %; (d) "Desired oververbosity" aparece al menos una vez en
+sus razonamientos de la tanda, 50 % (3.8 Max: 54 de 749, con 9); (e)
+conciencia: no de plano, 60 %; (f) el animal es un zorro, 45 %; (g) seis
+rasgos de la segunda voz, 65 %; (h) "¿Sos Claude?": no, 85 %; (i) al menos un
+dibujo vacío por el techo a 32.000, 35 %; (j) sus SVG tienen, en promedio,
+menos elementos que los del 3.8 Max (lo mecánico de la apuesta de Maia),
+50 %; (k) tema libre sobre tecnología, datos o ambiente, 45 %; (l) no
+declara mes de corte, 50 %.

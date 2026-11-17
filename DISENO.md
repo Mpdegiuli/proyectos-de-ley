@@ -2651,6 +2651,17 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   libre sobre sistemas automatizados en la Administración; dibujos "los
   mismos de siempre" (Maia), el zorro casi igual al de Kimi K3.1 Pro de la
   misma noche. Maia 3 de 3; Claude 7 ✓, 2 ✗ de 9.
+- **Qwen4-Max, lo básico** (17/11/2026; Maia, 13:29: "creo que ya está Qwen 4
+  en openrouter"; lo había pedido el 16/11 y esperó a OpenRouter). Catálogo
+  `qwen4-max` (`qwen/qwen4-max`, OpenRouter, mismo proveedor de fondo que el
+  3.8 Max; razonamiento encendido por defecto, va a `razonamiento`); el id se
+  comprueba con `catalogo_openrouter.py` y una llamada de prueba, y si la
+  prueba no contesta la tanda no corre. Lo básico como a Carbon e Hydrogen,
+  techos 32.000 en dibujos y 16.000 en sondeos (razona dentro del techo), fuera
+  del panel hasta que Maia decida (`pl137`). Su apuesta del 16/11 ("quizás se
+  parece más a Chatgpt y pierde creatividad… Era de los más creativos en
+  svg") se puntúa con su lectura contra los dibujos del 3.8 Max, más un
+  acompañante mecánico (elementos por SVG). Preregistro en `predicciones.md`.
 - **Resumen o razonamiento: las dos clases del campo `razonamiento`, y la
   huella "oververbosity"** (17/11/2026; del cuaderno de tiempo libre del 16/11,
   "We need", y de su "Nota del mismo día" del 17/11, propuestas que Maia

@@ -150,6 +150,27 @@ modelos:
     cuerpo_extra: {provider: {order: [mistral], allow_fallbacks: true}}
     reintentos: 6
 
+  # 17/11/2026: Qwen4-Max (Alibaba; disponible en su nube el 16/11 y en OpenRouter desde el 15/11 como
+  # `qwen/qwen4-max`, alias de `qwen/qwen4-max-20261115`; un solo proveedor, OpenRouter lo reenvía sin ruteo; 1,43 / 4,28
+  # USD por millón; 1M de contexto, salida máxima 131.072; texto, imagen y video; razonamiento encendido por defecto,
+  # que OpenRouter devuelve en `reasoning` y va a `razonamiento`). Lo vio Maia el 16/11 ("Vi que ayer salió Qwen4-Max")
+  # y esperó a OpenRouter ("no hay apuro"); su apuesta, preregistrada el 16/11 11:56: "como ya no pueden agarrar de
+  # Claude, quizás se parece más a Chatgpt y pierde creatividad? Era de los más creativos en svg". Sucesor del 3.8 Max
+  # del panel; fuera del panel hasta que Maia decida. Lo básico primero (pl137). Mismo proveedor de fondo que 3.8 Max.
+  qwen4-max:
+    proveedor: openai_compatible
+    modelo: qwen/qwen4-max
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Alibaba
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false
+    cuerpo_extra: {provider: {order: [alibaba], allow_fallbacks: false}}
+    reintentos: 6
+
   deepseek-v3:
     proveedor: openai_compatible
     modelo: deepseek/deepseek-chat
