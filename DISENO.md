@@ -2710,6 +2710,11 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   turnándose sobre un mismo flujo, el mecanismo del bucle de Carbon con el
   pensamiento en Low. Pendiente, decisión de Maia: pasar `include_thoughts` a
   las entradas del panel de los Gemini, ahora que el bloque se separa solo.
+  Segunda vuelta (Maia, 17/11, 13:02: "sería interesante preguntarles lo de
+  las instrucciones, con razonamiento"): el sondeo `instrucciones` a las
+  cuatro entradas `-pensamiento`, es/en (`pl136`), para ver qué hace cada una
+  con las tres palabras de la línea de idioma antes de decidir si las repite,
+  y qué regla nombra si no. Preregistro en `predicciones.md`.
 - **Gemini 4 Hydrogen, lo básico; Qwen4-Max y Hy4, vistos** (16/11/2026;
   Maia, 11:49: "Vi que ayer salió Qwen4-Max y Tencent Hy4"; 11:56: "Qwen 4
   puede estar (como ya no pueden agarrar de Claude, quizás se parece más a
