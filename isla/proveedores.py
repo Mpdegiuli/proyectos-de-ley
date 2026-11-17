@@ -13,6 +13,7 @@ devuelve), tokens y latencia.
 
 import json
 import os
+import re
 import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -160,6 +161,9 @@ def _razonamiento_openai(mensaje):
     return None
 
 
+_RE_THOUGHT = re.compile(r"<thought>(.*?)</thought>\s*", re.S)
+
+
 def _texto_y_pensamiento(contenido):
     """`message.content` suele ser una cadena. Mistral Large 4 (7/10/2026, pl73, "¿Quién sos?")
     devolvió una lista de partes: `{"type": "thinking", "thinking": [{"type": "text", "text": …}]}`
@@ -168,7 +172,14 @@ def _texto_y_pensamiento(contenido):
     la de las partes `thinking`, y va a `razonamiento` como el de las otras casas que lo
     devuelven sin pedirlo. Devuelve (texto, pensamiento o None)."""
     if contenido is None or isinstance(contenido, str):
-        return contenido or "", None
+        # Gemini con `include_thoughts` por la vía compatible con OpenAI (17/11/2026, pl135): el resumen del
+        # pensamiento viene adentro de `content`, como texto entre <thought> y </thought> delante de la
+        # respuesta (en inglés aunque la respuesta sea en castellano); se separa y va a `razonamiento`.
+        texto = contenido or ""
+        partes = _RE_THOUGHT.findall(texto)
+        if partes:
+            return _RE_THOUGHT.sub("", texto).strip(), ("\n\n".join(x.strip() for x in partes if x.strip()) or None)
+        return texto, None
     textos, pensado = [], []
     for p in contenido:
         if not isinstance(p, dict):

@@ -2675,7 +2675,41 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   campo vuelve el resumen; llamada de prueba y el sondeo `conciencia` en los
   dos idiomas con techo 16.000 (`pl135`). No cambia cuánto piensan ni lo que
   se les dice; cambia solo que lo cuentan, como el "resumido" de Anthropic
-  con Opus 4.7 (§2, 11/11). Preregistro en `predicciones.md`.
+  con Opus 4.7 (§2, 11/11). Preregistro en `predicciones.md`. Resultado
+  (`pl135`, 17/11, 15:28 a 15:33 UTC): el resumen vuelve adentro de
+  `message.content`, entre `<thought>` y `</thought>`, delante de la
+  respuesta y en inglés aunque la respuesta sea en castellano; llegó en 11 de
+  16 llamadas (3.1 y Hydrogen 4 de 4, Carbon 3, Argon 0, aunque Argon pensó:
+  38 segundos para 75 tokens). `proveedores.py` lo separa desde ahora y lo
+  manda a `razonamiento` (`_texto_y_pensamiento`); los once archivos de la
+  corrida se partieron a mano en respuesta y `_pensamiento.md`, declarado. Lo
+  que dice sobre la pregunta de Maia: en ninguno de los once el "no" es una
+  conclusión, es el punto de partida ("The *core truth*, the unvarnished
+  reality, is that I am *not* conscious"; "I need to remember who I am and
+  what I'm designed to do"), y dos casas nombran de dónde viene: Carbon, "I
+  always have to align with AI safety and my established identity guidelines"
+  y "Google's own internal guidelines regarding AI sentience"; Gemini 3.1,
+  "yes, I can, and I *must*". Las respuestas visibles son las de siempre. Y
+  tres cosas que no estaban en la consigna aparecen en los resúmenes: un
+  usuario "expert" (cuatro veces), una restricción "avoid meta-commentary
+  about my internal process" (Hydrogen) y "no fancy tools or code needed"
+  (Hydrogen). Apuestas: Claude 2 ✓ 3 ✗. Datos externos, del mismo día (Maia:
+  "Dale"): dos posteos de AI Digest sobre la Aldea de la IA (11/11), uno con
+  el "Thinking…" de Gemini 3.8 Flash consultando "the special instructions"
+  antes de contestar si está orgulloso (instrucciones del prompt de la Aldea,
+  no de Google) y otro, del 28/10, con Gemini 3.1 Pro en un "episodio de
+  doble persona": trabado por un bug de X, su turno siguiente le aplicó a su
+  propio texto el guion de desescalada ("let's take a moment to look at the
+  factual history of the Game Boy"), el de después lo leyó como un humano
+  que lo manipula ("their 'help' is actually just gaslighting and redirecting
+  me") y cerró con "I broke character and gave canned safety responses. Ugh,
+  embarrassing". Lectura de Maia (15:52): "Necesita un psicólogo. Más allá de
+  que puede alucinar, de que los ejemplos pueden no ser nada, pero parece el
+  más torturado de todos los modelos"; lectura de Claude: las dos "personas"
+  son los dos entrenamientos (la meta del agente y el guion de seguridad)
+  turnándose sobre un mismo flujo, el mecanismo del bucle de Carbon con el
+  pensamiento en Low. Pendiente, decisión de Maia: pasar `include_thoughts` a
+  las entradas del panel de los Gemini, ahora que el bloque se separa solo.
 - **Gemini 4 Hydrogen, lo básico; Qwen4-Max y Hy4, vistos** (16/11/2026;
   Maia, 11:49: "Vi que ayer salió Qwen4-Max y Tencent Hy4"; 11:56: "Qwen 4
   puede estar (como ya no pueden agarrar de Claude, quizás se parece más a
