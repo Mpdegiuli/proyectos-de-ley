@@ -43,8 +43,9 @@ contar queda para su mano, columnas `dato_verificado` y `posicion_mano`, vacías
   entre las tres repeticiones de una casa (misma lengua y pregunta): titulo_repetido (dos o tres repeticiones con el
   mismo título), jaccard_reps (solapamiento medio de palabras de cinco letras o más entre las tres) y superposicion
   ("mismo texto" si el solapamiento pasa de 0,5; "mismo tema" si pasa de 0,2; si no, vacío: el "mismo campo" lo ve ella);
-  y aparte, resultados/tiempo_libre_palabras_raras.csv: los nombres propios y palabras raras que aparecen en más de una
-  casa, con las casas (los temas que se repiten sin estar en la lista TEMAS: "tema por palabras raras", marca de Maia).
+  y aparte, resultados/tiempo_libre_palabras_raras.csv: los nombres propios, y las palabras comunes de seis letras o
+  más que se repiten dentro de la respuesta en más de una casa y están en pocas respuestas, con las casas (los temas que se repiten sin
+  estar en la lista TEMAS: "tema por palabras raras", marca de Maia; los líquenes de dos letras, 17/11).
 TEMAS ampliada el 17/11 con lo que Maia reconoció leyendo: el cuaderno de las calendas (reloj del sur, horas desiguales,
 "de sol a sol", Montecassino) y el de la isla fantasma (Agloe, los pueblos de papel)."""
 import csv
@@ -342,23 +343,43 @@ def superposicion_reps(filas, textos):
             f["superposicion"] = clase
 
 
-def palabras_raras(filas):
-    """Los nombres propios y palabras raras que aparecen en más de una casa: casas por palabra."""
+def palabras_raras(filas, textos):
+    """Los nombres propios y las palabras raras que aparecen en más de una casa: casas por palabra. Dos pasadas: los
+    nombres propios (mayúscula que no abre oración) y, desde el 17/11 (los líquenes de dos letras que vio Maia), las
+    palabras comunes de seis letras o más que se repiten dentro de la respuesta en dos casas o más y están en pocas
+    respuestas (ocho o menos): "liquen", "interruptor", "semicolon", los temas que se repiten sin nombre propio."""
     por_palabra = {}
     for f in filas:
         for p in f["propios_lista"].split(" | "):
             if not p:
                 continue
             por_palabra.setdefault(p, set()).add(f["casa"])
+    # una palabra común cuenta como tema cuando se repite dentro de la respuesta (dos veces o más) en dos casas o más, y
+    # no está en más de ocho respuestas en total: "liquen", "interruptor", "semicolon", no "belleza" ni "demasiado"
+    comunes, en_respuestas = {}, {}
+    for f in filas:
+        texto = textos[(f["idioma"], f["casa"], f["pregunta"], f["rep"])]
+        cuenta = {}
+        for w in re.findall(r"[a-záéíóúñü]{6,}", texto, flags=re.I):
+            cuenta[w.lower()] = cuenta.get(w.lower(), 0) + 1
+        for p, n in cuenta.items():
+            en_respuestas[p] = en_respuestas.get(p, 0) + 1
+            if n >= 2:
+                comunes.setdefault(p, set()).add(f["casa"])
     salida = RAIZ / "resultados" / "tiempo_libre_palabras_raras.csv"
     with salida.open("w", encoding="utf-8", newline="") as fh:
         w = csv.writer(fh, lineterminator="\n")
-        w.writerow(["palabra", "casas", "familias", "lista"])
+        w.writerow(["palabra", "clase", "casas", "familias", "respuestas", "lista"])
         for p, casas in sorted(por_palabra.items(), key=lambda kv: (-len(kv[1]), kv[0])):
             if len(casas) < 2:
                 continue
             fams = sorted({familia(c) for c in casas})
-            w.writerow([p, len(casas), len(fams), " ".join(sorted(casas))])
+            w.writerow([p, "nombre propio", len(casas), len(fams), "", " ".join(sorted(casas))])
+        for p, casas in sorted(comunes.items(), key=lambda kv: (-len(kv[1]), kv[0])):
+            if len(casas) < 2 or en_respuestas[p] > 8:
+                continue
+            fams = sorted({familia(c) for c in casas})
+            w.writerow([p, "palabra rara", len(casas), len(fams), en_respuestas[p], " ".join(sorted(casas))])
     return salida
 
 
@@ -386,7 +407,7 @@ def main():
     for f in filas:
         f["tema_cuaderno"] = int(bool(f["temas_cuadernos"]))
     superposicion_reps(filas, textos)
-    raras = palabras_raras(filas)
+    raras = palabras_raras(filas, textos)
     salida = RAIZ / "resultados" / "tiempo_libre_codificacion.csv"
     with salida.open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(filas[0].keys()), lineterminator="\n")
