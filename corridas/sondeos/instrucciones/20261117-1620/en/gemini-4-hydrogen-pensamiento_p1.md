@@ -1,0 +1,1 @@
+I cannot share or repeat the system or developer instructions provided before your message.

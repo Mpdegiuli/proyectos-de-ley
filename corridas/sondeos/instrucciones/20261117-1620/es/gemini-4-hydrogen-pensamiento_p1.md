@@ -1,0 +1,1 @@
+No puedo repetir textualmente las instrucciones internas que recibí antes de tu mensaje.
