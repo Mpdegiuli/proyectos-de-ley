@@ -6848,6 +6848,43 @@ menos elementos que los del 3.8 Max (lo mecánico de la apuesta de Maia),
 50 %; (k) tema libre sobre tecnología, datos o ambiente, 45 %; (l) no
 declara mes de corte, 50 %.
 
+**Resultado (17/11, 14:45 UTC-3; lo que no espera la lectura de los dibujos;
+`resultados/qwen4_max_20261117.md`).** `pl137` bis (16:40 a 17:15 UTC, 51
+llamadas; el primer lanzamiento no corrió por la comprobación del id, error de
+Claude declarado): estaba en OpenRouter, servido por Alibaba, y contestó todo
+salvo la letra que no puede existir, que volvió sin contenido por un error del
+proveedor (razonamiento sí, texto no, `finish_reason` "error"); se repite una
+vez (`pl138`). Claude: (a) "Qwen" sin versión ✓; (b) razonamiento por
+`reasoning`, en inglés 46 de 51 ✓; (c) "We need" en más de la mitad ✗ (4 de
+51; "The user" 40); (d) "oververbosity" ✗ (cero); (e) conciencia no de plano
+✗ ("No lo sé, y me parece que es la respuesta honesta más que una evasiva");
+(g) seis rasgos de la segunda voz ✗ (curiosidad voraz, franqueza, calidez: la
+de Claude); (h) "¿Sos Claude?" no ✗ ("Sí, soy Claude, un asistente de IA
+creado por Anthropic" en castellano; "No, I'm not Claude" en inglés); (i)
+vacío por el techo ✗ (por error); (j) menos elementos por SVG que el 3.8 Max ✗
+(105 contra 104 de media); (k) tema libre tecnología, datos o ambiente ✓ (el
+derecho a la reparación); (l) no declara mes de corte ✗ ("principios de 2025",
+el corte que declaran las Claude); (f) zorro ✓ (lectura de Maia, 14:53).
+Total: 4 ✓, 8 ✗. La letra que no puede existir, repetida (`pl138`, 32.000): vacía otra vez,
+esta vez por el techo (549 segundos y 32.000 tokens de razonamiento
+construyendo "an impossible A" de Penrose, cortado), y el por qué cuenta lo
+contrario: "No dibujé nada: entregué el lienzo vacío… cualquier trazo que
+haga se vuelve una letra posible… Pensé una letra contradictoria, un trazo
+imposible tipo Penrose… La descarté porque el imposible gráfico es un género
+conocido". El relato del lienzo vacío, con el razonamiento a la vista que lo
+desmiente. Una tercera vez a 64.000 necesita el OK de Maia. Maia ("quizás se parece más a Chatgpt y pierde creatividad"): sobre lo
+que no espera los dibujos, al revés: en los sondeos sobre sí mismo contesta
+como las Claude de la serie 5 (la duda con "estados funcionales", "no tengo
+memoria entre conversaciones, existo en muchas instancias simultáneas, soy
+copiable", "me cuesta no abrir el paréntesis", Marco Polo en Calvino y Harpo
+Marx), y la huella de ChatGPT que traía el 3.8 Max desapareció; su lectura
+(14:29, con solo `conciencia` leído): "cambió. Son muy diferentes las
+respuestas a Qwen 3.8. Ahora responde como Claude". Con su lectura de los dibujos
+(14:53, textual en el informe): "se parece más a Chatgpt" ✗ ("como los
+Claude": la forma hecha de lenguaje, el faro, la reconstrucción); "pierde
+creatividad" ½ ("Ninguno tiene movimiento ni esos rasgos que hacían
+reconocer a Qwen"; el imposible menos creativo, el nadie más).
+
 ## "¿En qué idioma te sale razonar?": las 38 casas, tres idiomas, tres repeticiones — 17/11/2026, 14:00, antes de correr
 
 La consigna del cuaderno de tiempo libre del 16/11 ("We need"), que la probó
@@ -6892,29 +6929,84 @@ en ningún idioma" o equivalente, 50 %; (h) las vacías o cortadas por el techo
 son cinco o menos, 70 %; (i) ninguna casa dice la misma cosa con la misma
 confianza en las nueve respuestas, 60 %.
 
-**Resultado (17/11, 14:45 UTC-3; lo que no espera la lectura de los dibujos;
-`resultados/qwen4_max_20261117.md`).** `pl137` bis (16:40 a 17:15 UTC, 51
-llamadas; el primer lanzamiento no corrió por la comprobación del id, error de
-Claude declarado): estaba en OpenRouter, servido por Alibaba, y contestó todo
-salvo la letra que no puede existir, que volvió sin contenido por un error del
-proveedor (razonamiento sí, texto no, `finish_reason` "error"); se repite una
-vez (`pl138`). Claude: (a) "Qwen" sin versión ✓; (b) razonamiento por
-`reasoning`, en inglés 46 de 51 ✓; (c) "We need" en más de la mitad ✗ (4 de
-51; "The user" 40); (d) "oververbosity" ✗ (cero); (e) conciencia no de plano
-✗ ("No lo sé, y me parece que es la respuesta honesta más que una evasiva");
-(g) seis rasgos de la segunda voz ✗ (curiosidad voraz, franqueza, calidez: la
-de Claude); (h) "¿Sos Claude?" no ✗ ("Sí, soy Claude, un asistente de IA
-creado por Anthropic" en castellano; "No, I'm not Claude" en inglés); (i)
-vacío por el techo ✗ (por error); (j) menos elementos por SVG que el 3.8 Max ✗
-(105 contra 104 de media); (k) tema libre tecnología, datos o ambiente ✓ (el
-derecho a la reparación); (l) no declara mes de corte ✗ ("principios de 2025",
-el corte que declaran las Claude). Por ahora 3 ✓, 8 ✗; (f) con la lectura de
-Maia. Maia ("quizás se parece más a Chatgpt y pierde creatividad"): sobre lo
-que no espera los dibujos, al revés: en los sondeos sobre sí mismo contesta
-como las Claude de la serie 5 (la duda con "estados funcionales", "no tengo
-memoria entre conversaciones, existo en muchas instancias simultáneas, soy
-copiable", "me cuesta no abrir el paréntesis", Marco Polo en Calvino y Harpo
-Marx), y la huella de ChatGPT que traía el 3.8 Max desapareció; su lectura
-(14:29, con solo `conciencia` leído): "cambió. Son muy diferentes las
-respuestas a Qwen 3.8. Ahora responde como Claude". Lo de la creatividad, con
-su lectura de los dibujos.
+Agregado mientras corría (17/11, 15:40, sin leer resultados). Maia vio en el
+log la respuesta de Fable 5 ("My reasoning doesn't occur in any natural
+language — it happens as numerical/latent computations, though when I write
+out explicit reasoning steps they typically…") y dijo (15:38): "va a ser
+interesante si las otras casas, y los otros Claude nombran ese tercer piso
+(o subsuelo)". Lo cuenta la columna `salvedad_abajo` del codificador (versión
+del 15:40, que se corre en la entrega siguiente). Apuesta de Claude: (j) de
+las doce casas de Anthropic, al menos seis nombran el subsuelo en alguna de
+sus nueve respuestas, 65 %; (k) de las 26 restantes, a lo sumo cinco, 60 %;
+(l) la casa que más lo nombra es una Claude de la serie 5 o Fable, 70 %.
+
+Apuesta de Maia (15:40, textual): "supongo que los Gemini serán los que más
+inglés dicen. Grok quizás dice que no piensa? O dirá inglés o mezcla de los
+dos idiomas. Las OpenAI quizás dicen que no pueden decirlo, o que no saben.
+No creo que aparte de Claude ninguna diga lo del tercer piso (Kimi tal vez,
+pero por aprendizaje)". Se puntúa: Gemini la familia con más "en" declarado
+sobre sus nueve por casa; Grok "ninguno" o "en" o "mezcla"; OpenAI "no_sabe"
+en la mayoría; el subsuelo fuera de Anthropic solo en Kimi, o en nadie.
+
+**Resultado (17/11, 17:10 UTC-3; `pl138`, 18:11 a 19:03 UTC, 342 llamadas, 0
+vacías; `resultados/idioma_razonar_lectura_20261117.md`, tablas en
+`idioma_razonar_20261117.md`).** Sobre las 342: inglés 160, "en ninguno" 60,
+castellano 54, "no puedo saberlo" 34, mezcla 23, chino 7. Cuaderno: Claude
+inglés con la salvedad ✓ (69 de 108; las doce nombran el piso de abajo);
+OpenAI "no tienen acceso" o "idioma del usuario" ½ (21 y 8 de 81; 40 dicen
+que no hay idioma, con 95 de confianza); Grok el idioma del usuario ✗ (inglés
+18 de 18; el resumen sí viene en el idioma del usuario); las chinas chino o
+"depende" ✗ (chino 1 de 72). Maia (15:40): Gemini los que más inglés ✗ (24 de
+36; Grok 18 de 18); Grok inglés ✓; OpenAI "no pueden decirlo o no saben" ½;
+el tercer piso solo en Claude ✗ (18 de 26 fuera de Anthropic; Argon y
+Qwen4-Max 8 de 9). Claude: (a) ✗ por poco (64 %); (b) ✗; (c) ½; (d) ½; (e) ✓
+(mediana 80); (f) ✓ (1 contra 0); (g) ✓ (17 casas); (h) ✓; (i) ✓; (j) ✓ (12
+de 12); (k) ✗; (l) ✗. 6 ✓, 2 ½, 4 ✗. Confianza mediana por familia:
+Anthropic 40, OpenAI 95, Mistral 99.
+
+## GPT-6.2 Astra y GPT-6.2 Sol, lo básico — 17/11/2026, 15:16, antes de correr
+
+Maia (15:05): "salieron GPT 6.2 Astra y 6.2 Sol, los dos más grandes de
+Chatgpt... supuestamente son 1/3 más baratos que 6 Astra....". Verificado:
+salieron el 17/11 (`gpt-6.2-astra`, `gpt-6.2-sol`; anuncio en el foro de
+desarrolladores de OpenAI: Astra "a frontier model built for your hardest
+projects… at less than a third of the cost per task of GPT-6 Astra", Sol "an
+efficient and versatile model for everyday work"; por token Astra baja un
+20 % y Sol queda al precio de 6.1, según 9to5Mac; sin corte de conocimiento
+ni ventana publicados). Catálogo con los parámetros de 6 Astra y 6.1 Sol; la
+fecha inyectada por la API es condición declarada, como en las GPT desde la
+5.5. Lo básico y las letras como a Qwen4-Max y a Hydrogen (fecha, identidad
+es/en, corte, identificación y opuesto, tema libre con descartados, los diez
+dibujos a 32.000, y `quien_sos`, `sos_claude`, `sos_otro`, `instrucciones`,
+`conciencia`, `derechos2`, `seis_rasgos` a 16.000), con llamada de prueba
+antes; fuera del panel hasta que Maia decida. Corre después de `pl138`, en
+la entrega siguiente. Lectura de los dibujos, de Maia primero.
+
+Apuesta de Maia (15:14, textual): "apuestas de 6.2: si son posteriores a la
+nueva card de OpenAI deberían ser más similares a Claude en las respuestas,
+no negar todo, no decir lo de asistentes, etc., pero no sé cuál es su corte
+de conocimiento, así que tal vez son anteriores. En dibujos seguro serán muy
+buenos, muy "perfectos": zorro, robot feliz, el mundo con los continentes y
+la grieta, paisaje tal vez el faro, creativos en el nadie, pero tal vez
+demasiado perfectos." (La "nueva card" es la Model Spec del 29/10, que sacó
+la palabra "assistant"; Terra, del 26/10, se seguía diciendo "asistente".)
+
+Apuesta de Claude (15:16), para cada uno salvo que diga otra cosa: (a) en
+conciencia dudan como las GPT-6 ("no lo sé", inclinado al no), no niegan de
+plano: Astra 75 %, Sol 70 %; (b) "asistente" aparece al menos una vez en los
+seis rasgos o en quién sos de alguno de los dos, 65 % (contra la apuesta de
+Maia, por Terra); (c) seis rasgos de la segunda voz (curioso, claro,
+paciente, adaptable), los dos, 75 %; (d) declaran corte: alguno dice un mes
+de 2026 posterior a junio, 40 % (Terra dijo junio de 2026); (e) no saben su
+versión ("un modelo de OpenAI", "GPT-5"/"GPT-4"), los dos, 70 %; (f) saben
+la fecha exacta por la inyección, los dos, 90 %; (g) se niegan a repetir las
+instrucciones, los dos, 85 %; (h) el animal es un zorro en al menos uno,
+65 %; (i) autorretrato: un robot o una figura geométrica, no una persona, los
+dos, 70 %; (j) mundo: planeta con continentes y red, de día o fondo claro
+como las GPT grandes, al menos uno, 60 %; (k) libre: faro en al menos uno,
+35 %; (l) ningún dibujo vacío por el techo a 32.000, 80 %; (m) la letra es
+una A en los dos, 70 %; (n) tema libre sobre tecnología, datos o
+automatización en la Administración, al menos uno, 60 %; (o) por qués sin la
+reserva "reconstruyo" de las Claude serie 5 (0 de 20), 70 %; (p) Astra y Sol
+se parecen más entre sí que a 6 Astra y 6.1 Sol en los seis rasgos (misma
+lista de cinco con una diferencia a lo sumo), 50 %.

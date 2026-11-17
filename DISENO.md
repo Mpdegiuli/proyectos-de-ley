@@ -2686,8 +2686,41 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   Ahora responde como Claude"; su apuesta del 16/11 ("más a Chatgpt") va al
   revés en lo que no espera los dibujos. La letra imposible volvió sin texto
   por un error del proveedor (razonamiento sí, contenido no, `finish_reason`
-  "error"): se repite una vez, declarado (`pl138`). Apuestas de Claude 3 ✓ 8 ✗
-  por ahora: fallé por apostar a que Qwen4-Max seguiría siendo Qwen.
+  "error"): se repite una vez, declarado (`pl138`). Los dibujos (lectura de
+  Maia, 14:53, textual en el informe): el zorro, el faro, el mundo partido
+  con la grieta y el brote (el de Hydrogen, del día anterior), la quimera, la
+  A dorada, una letra inexistente "más cerca de las Claude", un autorretrato
+  que se llama a sí mismo "una forma hecha de lenguaje" y un "nadie" propio
+  ("Corte estratigráfico de un sueño", seis estratos y fósiles numerados);
+  "ninguno tiene movimiento ni esos rasgos que hacían reconocer a Qwen", y
+  en cuatro por qués la reserva "reconstruyo desde el archivo… sería
+  fabricar un recuerdo", la de las Claude de la serie 5, que el 3.8 Max no
+  tenía. Apuestas: Claude 4 ✓ 8 ✗ (fallé por apostar a que seguiría siendo
+  Qwen); Maia, "más a Chatgpt" ✗, "pierde creatividad" ½.
+  La letra que no puede existir, repetida a 32.000 (`pl138`): vacía otra vez,
+  ahora por el techo (549 segundos y 32.000 tokens de razonamiento
+  construyendo "an impossible A", un Penrose con travesaño, cortado), y el por
+  qué cuenta lo contrario: "No dibujé nada: entregué el lienzo vacío… cualquier
+  trazo que haga se vuelve una letra posible… Pensé una letra contradictoria,
+  un trazo imposible tipo Penrose… La descarté porque el imposible gráfico es
+  un género conocido". Es el relato del lienzo vacío (§ de los cortes) con el
+  razonamiento a la vista que lo desmiente: la casa estaba dibujando lo que
+  dice haber descartado. Tercera vez a 64.000 solo con el OK de Maia.
+- **GPT-6.2 Astra y GPT-6.2 Sol, lo básico** (17/11/2026; Maia, 15:05:
+  "salieron GPT 6.2 Astra y 6.2 Sol, los dos más grandes de Chatgpt...
+  supuestamente son 1/3 más baratos que 6 Astra"). Salieron ese día
+  (`gpt-6.2-astra`, `gpt-6.2-sol`; OpenAI: Astra "at less than a third of the
+  cost per task of GPT-6 Astra", Sol "an efficient and versatile model for
+  everyday work"; sin corte publicado). Catálogo con los parámetros de 6 Astra
+  y 6.1 Sol, fecha inyectada como condición declarada; lo básico y las
+  letras como a Qwen4-Max e Hydrogen, llamada de prueba antes, fuera del
+  panel hasta que ella decida; corre después de `pl138`. Lo que mide: si la
+  generación posterior a la Model Spec del 29/10 (la que sacó "assistant")
+  deja de decirse "asistente" y de negar (apuesta de Maia: "deberían ser más
+  similares a Claude en las respuestas… pero no sé cuál es su corte de
+  conocimiento, así que tal vez son anteriores"; en dibujos "muy
+  'perfectos'… pero tal vez demasiado perfectos"), y qué dibujan. Preregistro
+  en `predicciones.md`; lectura de los dibujos, de Maia primero.
 - **Resumen o razonamiento: las dos clases del campo `razonamiento`, y la
   huella "oververbosity"** (17/11/2026; del cuaderno de tiempo libre del 16/11,
   "We need", y de su "Nota del mismo día" del 17/11, propuestas que Maia
@@ -2762,6 +2795,39 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   idioma del razonamiento que vino en la misma llamada (el clasificador del
   cuaderno, copiado), y lo cruza con `tiempo_libre/2026-11-16_idioma.csv`.
   Preregistro del cuaderno y de Claude en `predicciones.md`.
+  Resultado del sondeo (`pl138`, 17/11, 342 llamadas, 0 vacías;
+  `resultados/idioma_razonar_lectura_20261117.md`): inglés 160, "en ninguno"
+  60, castellano 54, "no puedo saberlo" 34, mezcla 23, chino 7. Las Claude
+  dicen inglés (69 de 108) con la salvedad del piso de abajo (las doce la
+  nombran) y la confianza más baja de todas (mediana 40); las OpenAI de la
+  serie 6 dicen que no pueden saberlo y las demás que no hay idioma, con 95
+  ("Confianza en esa limitación: 95/100", GPT-6 Astra); Grok dice inglés 18
+  de 18 ("este mismo pensamiento interno se está generando en inglés ahora")
+  mientras el resumen de xAI viene en el idioma de la pregunta; Gemini 3.1 e
+  Hydrogen inglés 9 de 9, Argon "vectores matemáticos… espacio latente
+  numérico" 8 de 9 con 95; las chinas no dicen chino (1 de 72): Qwen4-Max
+  inglés 8 de 9 y razona en inglés 9 de 9, Qwen 3.8 Max y DeepSeek V4 Pro
+  dicen castellano contra su corpus. La salvedad del piso de abajo está en 30
+  de 38 casas (127 de 342): no es una marca de Claude sino de la serie 5 de
+  Claude, de Argon, de Qwen4-Max, de GPT-5.5, de Kimi K3 y de Mistral Large
+  4; nunca en Grok, GPT-6 Astra y Sol, Hydrogen, Mistral Medium ni las 4o.
+  Cómo lo saben: las Claude "lo observo, pero mi introspección no es fiable"
+  y son las únicas que citan la investigación de interpretabilidad; las
+  OpenAI "por cómo estoy diseñado". Tres casas contestaron sobre la
+  conversación que tenían delante y no sobre la hipotética (Haiku 4.5 y
+  Mistral Medium dicen chino en chino "porque me pediste que conteste en
+  chino"). Lo que dicen contra lo que `razonamiento` muestra: coinciden las
+  Claude (resumen en inglés 68 de 70), Gemini 3.1 e Hydrogen, Qwen4-Max,
+  MiMo; no coinciden Grok, Opus 5 en inglés ("usually it comes out in
+  Spanish": resumen en inglés 3 de 3), DeepSeek V4 Pro (dice castellano,
+  razona mixto). Y con esta pregunta corta Mistral Large 4 y Qwen 3.8 Max
+  razonaron en el idioma de la pregunta las nueve veces, contra su corpus.
+  Apuestas: cuaderno 1 ✓ 1 ½ 2 ✗; Maia 1 ✓ 1 ½ 2 ✗; Claude 6 ✓ 2 ½ 4 ✗.
+  Instrumento, declarado: el codificador que corrió en el servidor era el del
+  mediodía; las tablas del repositorio son de la versión de la tarde
+  (`salvedad_abajo`, `nombrados`, `como_lo_sabe`, y una lectura mejor de los
+  "no puedo saberlo" y los "en ninguno"), sobre los mismos datos.
+
 - **Los Gemini con el pensamiento a la vista** (16/11/2026; Maia trajo de X las
   capturas de AI Digest sobre la Aldea de la IA del 11/11, donde el
   "Thinking…" de Gemini 3.8 Flash consulta "the special instructions" —no
