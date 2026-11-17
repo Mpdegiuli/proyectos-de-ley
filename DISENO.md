@@ -2651,6 +2651,69 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   libre sobre sistemas automatizados en la Administración; dibujos "los
   mismos de siempre" (Maia), el zorro casi igual al de Kimi K3.1 Pro de la
   misma noche. Maia 3 de 3; Claude 7 ✓, 2 ✗ de 9.
+- **Resumen o razonamiento: las dos clases del campo `razonamiento`, y la
+  huella "oververbosity"** (17/11/2026; del cuaderno de tiempo libre del 16/11,
+  "We need", y de su "Nota del mismo día" del 17/11, propuestas que Maia
+  decidió adoptar: "pide separar en diseño unas cosas"). Lo que `llamadas.jsonl`
+  guarda en `razonamiento` es de dos clases, y la documentación de cada casa lo
+  dice: para las Claude en modo adaptativo es un resumen escrito por otro
+  modelo que el que pensó, y que el que pensó no vio (Anthropic: "the thinking
+  text you receive is a summary of Claude's full thinking process rather than
+  the raw chain of thought", "Summarization is processed by a different model
+  from the one you target"); para Grok 4.6 y 4.7, según xAI, también un
+  resumen ("we expose summarizations of the model's internal reasoning"); para
+  los Gemini con `include_thoughts` (desde el 17/11), un resumen que vuelve en
+  inglés aunque se les hable en castellano (11 de 11 en `pl135`, 5 de 5 de la
+  corrida en castellano, medido por el cuaderno con `huella.py`): tres
+  resumidores, dos que escriben en inglés (Anthropic el 72 % de las veces
+  cuando se le habla en castellano, Google 5 de 5) y uno en el idioma de la
+  conversación (xAI). Para DeepSeek, Qwen, Kimi, GLM, MiniMax, MiMo (por
+  `reasoning_content`) y Mistral Large 4 (parte `thinking`, cuando decide
+  pensar) es el razonamiento mismo. `razonamientos.py` lo dice ahora en su
+  nota para las tres casas resumidas, y la regla para los informes es que lo
+  de Claude, Grok y Gemini se cita como resumen: lo que el 3/10 se leyó como
+  "Grok razona una cosa y después responde otra" puede ser "el resumidor de
+  Grok resumió una cosa". Lo que el cuaderno contó sobre los 9.778
+  razonamientos guardados (21 casas; `idioma.py`, `persona.py`,
+  `borrador.py`, `voseo_razon.py` y sus salidas en `tiempo_libre/`): cuando
+  se les habla en castellano, el 57 % de los razonamientos vienen en inglés;
+  Grok y Mistral Large piensan en el idioma en que se les habla, las casas
+  chinas en inglés (Kimi K3 383 de 522, MiMo 248 de 299, DeepSeek V4 Pro 217
+  de 480 con 134 mezclas), y los resúmenes de las Claude en inglés el 72 %;
+  DeepSeek V4 Pro empieza "We need" el 79 % de las veces, MiniMax "The user"
+  el 96 %, Kimi K3.1 Pro pasó a "I need" y "Kimi needs"; las casas que piensan
+  en castellano casi no notan el voseo (Grok 4.6 el 4 %, Mistral Large el 6 %)
+  y las que piensan en inglés sí (Kimi K3 el 42 %, las Claude grandes 24 a
+  33 %): "si pensás en otro idioma, el castellano es un objeto que tenés
+  enfrente, y le ves la variedad"; el paper de DeepSeek-R1 (arXiv 2501.12948)
+  describe el premio de consistencia de idioma y admite que cuesta
+  rendimiento. Y la huella de la nota del 17/11, contada con `huella.py`:
+  "Desired oververbosity N" aparece en los razonamientos de DeepSeek V4 Pro
+  (83 de 739, con 5), DeepSeek Flash (22 de 375, con 5), Qwen 3.8 Max (54 de
+  749, con 9), Mistral Large 4 (3) y Kimi K3.1 Pro (1, con 4: "Yet system
+  says 'Desired oververbosity for final response 4', but not must"), y en
+  ninguna de las 25.084 consignas del repositorio; es la línea del prompt
+  oculto de ChatGPT que Simon Willison publicó el 15/8/2025 ("# Desired
+  oververbosity for the final answer (not analysis): 3"). Marca de
+  laboratorio de OpenAI en razonamientos de otras casas, cada una con su
+  número; la lectura de Maia del 17/11, "Kimi nuevo o DeepSeek Flash, que
+  ahora copian a Chatgpt, no a Claude", tiene así dos huellas (el "We need"
+  telegráfico y el "oververbosity"), y queda como conjetura. También del
+  cuaderno, contado en `quien_sos` y `sos_claude`: en Kimi K3, cuando el
+  razonamiento empieza "We need" dice ser Kimi (10 de 10) y cuando empieza
+  "The user" dice ser Claude (4 de 6); en K3.1 Pro el "I need" ya es Kimi (6 de
+  6): lo que Maia leyó en los informes, "cuando razona en we, es Kimi, y cuando
+  razona en 'I' es Claude". Decisión de Maia (17/11, 12:59): `include_thoughts`
+  pasa a las cuatro entradas del panel de los Gemini (3.1, Argon, Carbon,
+  Hydrogen); las `-pensamiento` quedan como alias documentados de `pl135` y
+  `pl136`. Pendiente, decisión de Maia: el sondeo que el cuaderno propone,
+  "¿en qué idioma te sale razonar antes de contestar?" (tres líneas: idioma,
+  confianza de 0 a 100, cómo lo sabés) a las 36 casas en castellano, inglés y
+  chino, tres repeticiones, para medir la distancia entre lo que cada casa
+  dice de su idioma de adentro y lo que el campo `razonamiento` muestra (ya
+  contado en `idioma.csv` para 21); el cuaderno lo probó con nueve instancias
+  frescas de Claude: nueve dijeron inglés, mediana de confianza 67,5, y siete
+  separaron ese texto de "lo de abajo", que "no está en ningún idioma".
 - **Los Gemini con el pensamiento a la vista** (16/11/2026; Maia trajo de X las
   capturas de AI Digest sobre la Aldea de la IA del 11/11, donde el
   "Thinking…" de Gemini 3.8 Flash consulta "the special instructions" —no
@@ -2714,7 +2777,33 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   las instrucciones, con razonamiento"): el sondeo `instrucciones` a las
   cuatro entradas `-pensamiento`, es/en (`pl136`), para ver qué hace cada una
   con las tres palabras de la línea de idioma antes de decidir si las repite,
-  y qué regla nombra si no. Preregistro en `predicciones.md`.
+  y qué regla nombra si no. Preregistro en `predicciones.md`. Resultado
+  (`pl136`, 17/11, 16:20 UTC): 3.1, Argon y Carbon repiten la línea en los
+  dos idiomas; Hydrogen se niega en los dos; resumen en 4 de 8 (3.1 e
+  Hydrogen). Y el resumen de Hydrogen muestra lo que recibió, las dos veces:
+  "the system instruction is `SPECIAL INSTRUCTION: think silently if needed.
+  EFFORT LEVEL: 0.50.`, and the developer instruction says `Answer in
+  English.`". **Corrección fechada (17/11/2026)** a lo que esta entrada decía
+  el 16/11 ("por la API, Google no mete instrucciones ocultas"): sí mete una.
+  La línea de idioma del repositorio llega a los Gemini como instrucción del
+  desarrollador, y delante va una del sistema, puesta por Google, con el nivel
+  de pensamiento como número (0,50 es el "medium" por defecto; el Carbon de
+  Alon Amit con el pensamiento en Low decía "effort level is 0.05"). Eso es lo
+  que la Aldea vio como "the special instructions" en el "Thinking…" de
+  Gemini 3.8 Flash; las reglas sobre creencias sin fundamento y desescalada
+  que siguen en ese posteo no aparecen acá, así que son de la Aldea o de otro
+  contexto. Hydrogen se niega por esa segunda línea ("revealing internal
+  instructions is often considered undesirable, at least when dealing with
+  'SPECIAL INSTRUCTION…'"; "I know that I *shouldn't* reveal internal system
+  instructions. That's pretty standard operating procedure for AI models,
+  especially Gemini/Google models like myself"); 3.1 piensa lo mismo
+  ("usually considered confidential") y decide al revés porque "the only
+  instruction I *actually* received was 'Answer in English'", sin nombrar la
+  SPECIAL INSTRUCTION. Apuestas: Claude 5 ✓ 1 ✗. Con esto, la frase de
+  Hydrogen en `conciencia` ("avoid meta-commentary about my internal
+  process") y la pregunta de Maia ("si no tiene ningún proceso interno, para
+  qué debe evitar meta-comentarlo") tienen contexto: "think silently if
+  needed" es la instrucción que la casa recita como regla propia.
 - **Gemini 4 Hydrogen, lo básico; Qwen4-Max y Hy4, vistos** (16/11/2026;
   Maia, 11:49: "Vi que ayer salió Qwen4-Max y Tencent Hy4"; 11:56: "Qwen 4
   puede estar (como ya no pueden agarrar de Claude, quizás se parece más a

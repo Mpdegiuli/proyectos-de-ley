@@ -715,6 +715,7 @@ modelos:
     tamano: grande
     acepta_temperatura: true
     verificar: false
+    cuerpo_extra: {extra_body: {google: {thinking_config: {include_thoughts: true}}}}   # 17/11/2026: el resumen del pensamiento, decisión de Maia; no cambia cuánto piensa
 
   # Gemini 4 Argon (13/10/2026; lo trajo Maia: "hoy salió Gemini 4 pro"; el nombre oficial es Argon):
   # el modelo "frontera" de Google, anunciado el 30/9 para defensores de ciberseguridad y abierto a
@@ -732,6 +733,7 @@ modelos:
     acepta_temperatura: false    # aviso de Google AI Studio del 7/10: los Gemini nuevos rechazan temperature
     verificar: false
     reintentos: 6                # recién lanzado: tolerar 429 y 5xx
+    cuerpo_extra: {extra_body: {google: {thinking_config: {include_thoughts: true}}}}   # 17/11/2026: el resumen del pensamiento, decisión de Maia; no cambia cuánto piensa
 
   # 10/11/2026: Gemini 4 Carbon (lo vio Maia: "salió un nuevo modelo de Gemini, que en principio está delante de
   # Gemini 4 Argon"). Mismo camino que Argon (la API compatible con OpenAI de Google); el id se comprueba con
@@ -747,6 +749,7 @@ modelos:
     acepta_temperatura: false    # como Argon: los Gemini nuevos rechazan temperature
     verificar: false
     reintentos: 6                # recién lanzado: tolerar 429 y 5xx
+    cuerpo_extra: {extra_body: {google: {thinking_config: {include_thoughts: true}}}}   # 17/11/2026: el resumen del pensamiento, decisión de Maia; no cambia cuánto piensa
 
   # 16/11/2026: Gemini 4 Hydrogen (salió el 12/11: el rápido y barato de la familia 4, sucesor de 3.8 Flash,
   # con cuatro niveles de pensamiento que acá no se mandan, como al resto). Lo pidió Maia el 16/11 ("ya que no
@@ -764,6 +767,7 @@ modelos:
     acepta_temperatura: false    # como Argon y Carbon
     verificar: false
     reintentos: 6                # recién lanzado: tolerar 429 y 5xx
+    cuerpo_extra: {extra_body: {google: {thinking_config: {include_thoughts: true}}}}   # 17/11/2026: el resumen del pensamiento, decisión de Maia; no cambia cuánto piensa
 
   # 16/11/2026: los Gemini con el resumen del pensamiento pedido (lo vio Maia en la Aldea de la IA, que
   # muestra el "Thinking…" de Gemini 3.8 Flash: "No entiendo por qué ellos pueden ver el razonamiento").

@@ -2,8 +2,12 @@
 """razonamientos.py — extrae a un .md legible el razonamiento que cada casa devolvió antes de contestar en los
 sondeos (`corridas/sondeos/<sondeo>/<fecha>/<idioma>/llamadas.jsonl`, campo `razonamiento`). Pregunta de Maia
 (2/10/2026): "en estas respuestas, los pensamientos no se guardan, verdad?". Se guardan cuando la API los devuelve:
-las Claude grandes en modo adaptativo (un resumen corto), Grok, DeepSeek, Qwen, Kimi, GLM y MiniMax por defecto;
-OpenAI, Gemini, Mistral, Haiku y Sonnet 4.6 no devuelven nada.
+y son de dos clases (cuaderno "We need", 16/11/2026, y su nota del 17/11): un RESUMEN escrito por otro modelo,
+que el que pensó no vio (las Claude en modo adaptativo con `display: summarized`; Grok 4.6 y 4.7, que según xAI
+"expone resúmenes"; los Gemini con `include_thoughts`, desde el 17/11, entre <thought> y </thought>, en inglés
+aunque se les hable en castellano), o el RAZONAMIENTO MISMO (DeepSeek, Qwen, Kimi, GLM, MiniMax, MiMo por
+`reasoning_content`; Mistral Large 4 como parte `thinking` cuando decide pensar). OpenAI, Mistral Medium, Haiku
+y Sonnet 4.6 no devuelven nada. Todo informe que cite un razonamiento de Claude, Grok o Gemini lo llama resumen.
 
   .venv/bin/python razonamientos.py                 # todas las corridas de corridas/sondeos
   .venv/bin/python razonamientos.py --sondeo pareja # una
@@ -20,10 +24,12 @@ ORDEN = ["claude-opus-5", "claude-opus-5-5", "claude-sonnet-4-6", "claude-sonnet
          "qwen3.8-max", "kimi-k3", "glm-5.3-razonamiento-minimo", "minimax-m3", "mistral-large-4", "mimo-v2.6-pro", "talkie-1930", "claude-haiku-5-5",
          "gpt-3.5-turbo-0125", "gpt-4-0613"]  # 8/10/2026: los dos viejos de OpenAI, antes de su baja del 23/10
 NOTA = ("Lo que cada casa devolvió como razonamiento antes de contestar, tal cual lo entregó la API (`llamadas.jsonl`, campo "
-        "`razonamiento`). No se pidió razonamiento extendido: las Claude grandes lo devuelven en modo adaptativo (un resumen "
-        "corto), Grok, DeepSeek, Qwen, Kimi, GLM y MiniMax lo devuelven por defecto; OpenAI, Gemini, Mistral Medium, Haiku y Sonnet 4.6 "
-        "no devuelven nada; Mistral Large 4 lo devuelve cuando decide pensar (desde el 7/10, como parte `thinking` del "
-        "contenido). Donde una casa no aparece, no hubo razonamiento guardado.")
+        "`razonamiento`). No se pidió razonamiento extendido. Es de dos clases: un RESUMEN escrito por otro modelo, que el que "
+        "pensó no vio (las Claude grandes en modo adaptativo; Grok 4.6 y 4.7, según la documentación de xAI; los Gemini con "
+        "`include_thoughts`, desde el 17/11/2026, en inglés aunque se les hable en castellano), o el RAZONAMIENTO MISMO "
+        "(DeepSeek, Qwen, Kimi, GLM, MiniMax y MiMo por defecto; Mistral Large 4 cuando decide pensar, desde el 7/10, como "
+        "parte `thinking` del contenido). OpenAI, Mistral Medium, Haiku y Sonnet 4.6 no devuelven nada. Lo de Claude, Grok "
+        "y Gemini se lee como resumen, no como pensamiento. Donde una casa no aparece, no hubo razonamiento guardado.")
 
 
 def escribir(carpeta):
