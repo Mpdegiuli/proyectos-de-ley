@@ -1,0 +1,29 @@
+razonamientos con consigna en castellano: 5945 (excluidos 34 cuyo mensaje ya decía rioplatense o voseo)
+
+casa                               n  nota      %   riopl.  voseo arg/uru
+claude-fable-5-2                  60    29   48.3       26     11       1
+kimi-k3                          519   218   42.0      164    130     119
+claude-sonnet-5-5                292    97   33.2       85     53       1
+qwen3.8-max                      485   152   31.3       67    108      69
+claude-fable-5-1                 314    89   28.3       76     27       9
+kimi-k3.1-pro                    188    51   27.1       31     23      15
+claude-fable-5                   282    75   26.6       67     44       2
+claude-opus-5                    359    89   24.8       65     42      19
+claude-opus-5-5                  397    97   24.4       87     51       2
+minimax-m3                       241    45   18.7        7     17      39
+claude-haiku-5-5                 284    53   18.7       38     23       1
+grok-4.7                         337    46   13.6       31     22      11
+deepseek-v4-pro                  478    54   11.3        7     48      17
+mimo-v2.6-pro                    296    31   10.5       10     10      22
+deepseek-flash                   190    16    8.4       10      8       4
+glm-5.3-razonamiento-minimo      196    12    6.1        6      8       2
+mistral-large-4                  311    18    5.8       13     14       5
+claude-sonnet-5                  232    11    4.7        9      4       1
+grok-4.6                         476    20    4.2        9     13       7
+claude-haiku-4-5-razona            4     0    0.0        0      0       0
+claude-sonnet-4-6-razona           4     0    0.0        0      0       0
+
+Anthropic    540 de  2228   24.2 %
+chinas       579 de  2593   22.3 %
+xAI           66 de   813    8.1 %
+Mistral       18 de   311    5.8 %

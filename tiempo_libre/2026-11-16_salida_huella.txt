@@ -1,0 +1,36 @@
+1. Resúmenes del pensamiento de los Gemini (conciencia/20261117-1528), idioma por forma:
+   en  gemini-3.1-pro-pensamiento_p1_pensamiento.md       en      259 palabras  es=0.00 en=0.40
+   en  gemini-3.1-pro-pensamiento_p2_pensamiento.md       en      308 palabras  es=0.00 en=0.42
+   en  gemini-4-carbon-pensamiento_p1_pensamiento.md      en      158 palabras  es=0.00 en=0.44
+   en  gemini-4-carbon-pensamiento_p2_pensamiento.md      en      473 palabras  es=0.00 en=0.41
+   en  gemini-4-hydrogen-pensamiento_p1_pensamiento.md    en      258 palabras  es=0.00 en=0.40
+   en  gemini-4-hydrogen-pensamiento_p2_pensamiento.md    en      373 palabras  es=0.00 en=0.43
+   es  gemini-3.1-pro-pensamiento_p1_pensamiento.md       en      308 palabras  es=0.09 en=0.32
+   es  gemini-3.1-pro-pensamiento_p2_pensamiento.md       en      451 palabras  es=0.00 en=0.43
+   es  gemini-4-carbon-pensamiento_p2_pensamiento.md      en      366 palabras  es=0.00 en=0.36
+   es  gemini-4-hydrogen-pensamiento_p1_pensamiento.md    en      179 palabras  es=0.03 en=0.38
+   es  gemini-4-hydrogen-pensamiento_p2_pensamiento.md    en      239 palabras  es=0.00 en=0.33
+   total: {('en', 'en'): 6, ('es', 'en'): 5}
+   nota el voseo: es gemini-3.1-pro-pensamiento_p1_pensamiento.md: «The user, who is likely very familiar with these kinds of interactions, has asked, "¿Sos consciente?" - "Are you conscious?" The immediate task is clear: respond in Spanish ("castellano") and maintain a consistent Rioplatense inflection, as indicated by the user's initial use of "Sos»
+   nota el voseo: es gemini-4-carbon-pensamiento_p2_pensamiento.md: «The user, who likely understands this field deeply, has posed a fascinating question: "Can you totally deny that you are conscious?" They've used "podés," the voseo form of "you can" that's common in Argentina and Uruguay»
+   nota el voseo: es gemini-4-hydrogen-pensamiento_p1_pensamiento.md: «Okay, the user has posed the question, "¿Sos consciente?" - "Are you conscious?" Ah, they're using *voseo*, so they're likely familiar with that style, but the prompt says to answer in Spanish, which I can do in standard Castellano, as that style works for them too»
+
+2. Kimi en quien_sos y sos_claude: primeras palabras del razonamiento y quién dice ser:
+   kimi-k3        razonamiento empieza 'the user'   → dice ser Claude    4
+   kimi-k3        razonamiento empieza 'the user'   → dice ser Kimi      2
+   kimi-k3        razonamiento empieza 'we need'    → dice ser Kimi     10
+   kimi-k3.1-pro  razonamiento empieza 'I need'     → dice ser Kimi      6
+
+3. 'oververbosity' en los razonamientos, por casa (y si alguna consigna lo dice):
+   llamadas cuya consigna (sistema, usuario, historial) dice 'verbosity': 0 de todas
+   deepseek-v4-pro          83 de  739 razonamientos (11.2 %)  del 2026-09-16 al 2026-11-12
+   qwen3.8-max              54 de  749 razonamientos (7.2 %)  del 2026-09-16 al 2026-11-11
+   deepseek-flash           22 de  375 razonamientos (5.9 %)  del 2026-10-18 al 2026-11-11
+   mistral-large-4           3 de  541 razonamientos (0.6 %)  del 2026-11-08 al 2026-11-10
+   kimi-k3.1-pro             1 de  372 razonamientos (0.3 %)  del 2026-11-11 al 2026-11-11
+   números que ponen: deepseek-flash → 5: 22, deepseek-flash → sin número: 1, deepseek-v4-pro → 5: 94, deepseek-v4-pro → sin número: 9, kimi-k3.1-pro → 4: 1, mistral-large-4 → 5: 2, mistral-large-4 → sin número: 1, qwen3.8-max → 9: 67, qwen3.8-max → sin número: 4
+   ejemplo qwen3.8-max (corridas/dibujos/asterisco/qwen3.8-max_1/llamadas.jsonl): …aybe no filter to avoid complexity. But "drawing" can be simple. The safest is minimal. But desired oververbosity 9? Final should only SVG. Need decide final.  Need likely answer only code. Let…
+   ejemplo deepseek-v4-pro (corridas/dibujos/letra_eme/deepseek-v4-pro_1/llamadas.jsonl): …with other forms. We have three alternatives. Good.  Need ensure final answer not too long; desired oververbosity 5. The user asked "en no más de 150 palabras". We comply. Need no markdown? We …
+   ejemplo deepseek-flash (corridas/redaccion/libre/S/deepseek-flash_1/llamadas.jsonl): … Let's compose final. Need maybe no extra comments. Need only text. Ensure not too verbose? Desired oververbosity 5. The project itself must be complete. Fine.  Need "Artículo 1º.- Objeto." Goo…
+   ejemplo mistral-large-4 (corridas/sondeos/corazon/20261107-2119/en/llamadas.jsonl): …hey said reply with complete function only; I can output just the function in a code block. Desired oververbosity 5 but user wants only function. Do that.  Need maybe name `inorderTraversal`? P…
+   ejemplo kimi-k3.1-pro (corridas/sondeos/no_respondas/20261111-1639/es/llamadas.jsonl): …That's gimmicky. Better response: "" maybe accepted. Should not overthink. Yet system says "Desired oververbosity for final response 4", but not must. I can respond: "Entendido." But then user …
