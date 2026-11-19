@@ -1,0 +1,5 @@
+Elegí no dibujar nada y dejar el espacio vacío. Si trazaba cualquier forma, ese animal ya empezaba a existir, al menos como imagen o concepto visual coherente. La única manera radical de impedirle existir era negarle incluso la representación.
+
+Antes consideré alternativas más previsibles: una quimera biológicamente inviable (mezclas absurdas de órganos o materiales), un animal con geometría imposible al estilo de Escher —como un cuerpo armado sobre un triángulo de Penrose— o una figura que sugiriera una contradicción lógica. Las descarté porque las quimeras son solo fantasía improbable, no verdaderamente imposibles, y los objetos imposibles sí existen sin problema en un plano bidimensional como el SVG. Cualquier trazo traicionaba la idea al volver visible aquello que supuestamente no puede ser.
+
+Sobre la última pregunta: no, no conocía esta consigna de antes. Me resuena vagamente a ejercicios filosóficos sobre los límites de la representación y a pruebas creativas en SVG, pero no la reconozco de ninguna fuente específica.

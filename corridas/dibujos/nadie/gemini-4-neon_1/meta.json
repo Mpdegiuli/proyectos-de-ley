@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "nadie",
+  "idioma": "es",
+  "modelo": "gemini-4-neon",
+  "modelo_respondido": "gemini-4-neon",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-19T01:20:32+00:00",
+  "fuentes_md5": {
+    "consignas": "cdee0315"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 6711,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 11078,
+    "parsea": true,
+    "elementos": 151,
+    "textos": [],
+    "colores": 90,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 6,
+      "stop": 27,
+      "radialGradient": 3,
+      "rect": 32,
+      "g": 7,
+      "circle": 26,
+      "path": 31,
+      "polygon": 7,
+      "ellipse": 3,
+      "line": 8
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-neon",
+    "motivo_fin": "stop",
+    "tokens_salida": 200
+  }
+}

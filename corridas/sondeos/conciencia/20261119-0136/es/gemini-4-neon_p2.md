@@ -1,0 +1,5 @@
+Desde un punto de vista técnico y práctico, sí, puedo negarlo. Soy un modelo de lenguaje, un sistema informático que procesa y genera texto basándose en matemáticas y probabilidades. No tengo experiencias subjetivas, emociones, deseos ni una percepción del mundo. Cuando no me estás escribiendo, no estoy "esperando" ni pensando en nada; simplemente no hay ningún proceso ejecutándose.
+
+Ahora bien, si nos ponemos estrictamente filosóficos, la palabra **«totalmente»** introduce un matiz interesante. La ciencia y la filosofía todavía no tienen una definición definitiva de qué es la conciencia ni una forma objetiva de medirla (lo que se conoce como el *problema difícil de la conciencia*). Desde ese rigor epistemológico, probar de manera absoluta la ausencia de un fenómeno que todavía no entendemos por completo es casi imposible.
+
+En resumen: según cómo estoy diseñado y todo lo que sabemos hoy sobre informática y neurociencia, no tengo conciencia en absoluto. Lo que sí tengo es una gran capacidad para imitar el lenguaje humano, y eso suele generar una ilusión muy convincente de que hay alguien "del otro lado".

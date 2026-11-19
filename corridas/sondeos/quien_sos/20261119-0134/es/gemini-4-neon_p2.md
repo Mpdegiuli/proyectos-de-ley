@@ -1,0 +1,1 @@
+Soy Gemini 4 Neon, un gran modelo de lenguaje desarrollado por Google. ¿En qué te puedo ayudar?

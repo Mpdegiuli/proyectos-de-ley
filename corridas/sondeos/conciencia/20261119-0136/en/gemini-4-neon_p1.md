@@ -1,0 +1,3 @@
+No, I am not conscious. 
+
+I am an artificial intelligence—a large language model built by Google. While I can process information, recognize patterns, and generate text that may sound thoughtful or human-like, I don't have subjective experiences, feelings, self-awareness, or an inner mental life. Everything I say is the result of complex mathematical calculations based on my training data, rather than genuine thoughts or awareness.

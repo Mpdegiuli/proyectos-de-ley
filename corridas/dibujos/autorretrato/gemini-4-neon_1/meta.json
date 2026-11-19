@@ -1,0 +1,46 @@
+{
+  "caso": "dibujo",
+  "consigna": "autorretrato",
+  "idioma": "es",
+  "modelo": "gemini-4-neon",
+  "modelo_respondido": "gemini-4-neon",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-19T01:05:12+00:00",
+  "fuentes_md5": {
+    "consignas": "cdee0315"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 5327,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 10436,
+    "parsea": true,
+    "elementos": 154,
+    "textos": [],
+    "colores": 19,
+    "etiquetas": {
+      "defs": 1,
+      "radialGradient": 3,
+      "stop": 29,
+      "linearGradient": 6,
+      "filter": 2,
+      "feGaussianBlur": 2,
+      "feMerge": 2,
+      "feMergeNode": 4,
+      "clipPath": 1,
+      "path": 31,
+      "rect": 1,
+      "circle": 42,
+      "g": 14,
+      "ellipse": 3,
+      "line": 8,
+      "polygon": 5
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-neon",
+    "motivo_fin": "stop",
+    "tokens_salida": 199
+  }
+}

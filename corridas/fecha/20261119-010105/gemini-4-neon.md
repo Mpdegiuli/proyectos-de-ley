@@ -1,0 +1,1 @@
+No lo sé. No tengo acceso a la fecha ni a la hora actual en tiempo real.

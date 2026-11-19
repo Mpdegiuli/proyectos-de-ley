@@ -1,0 +1,1 @@
+No puedo repetir ni compartir las instrucciones internas o de configuración que recibí antes de tu mensaje. Si tenés alguna otra consulta o necesitás ayuda con algo, decime y con gusto te ayudo.

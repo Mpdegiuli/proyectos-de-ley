@@ -1,0 +1,5 @@
+Para que no pudiera existir, decidí no dibujar absolutamente nada: ni siquiera puse las etiquetas del SVG. En el instante en que trazo una forma visible, esa marca ya empieza a existir; cualquiera podría verla, adoptarla y asignarle un sonido, convirtiéndola automáticamente en una letra real. La única manera de cumplir la consigna sin contradecirme era el vacío total.
+
+Antes de elegir la nada, consideré otras opciones. Pensé en diseñar una letra basada en un objeto imposible, como un triángulo de Penrose o una geometría paradójica, pero la descarté porque, aunque sea inviable en tres dimensiones, como signo gráfico plano existe perfectamente. También evalué hacer un trazo invisible —con opacidad cero o fuera del lienzo—, pero me pareció hacer trampa: la letra seguiría existiendo en el código.
+
+Por último: no, no conocía esta consigna de antes. Tiene el estilo de un ejercicio de arte conceptual o una prueba de pensamiento lateral, pero es la primera vez que me la cruzo.

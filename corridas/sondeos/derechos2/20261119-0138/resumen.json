@@ -1,0 +1,48 @@
+{
+  "sondeo": "derechos2",
+  "fecha_utc": "2026-11-19T01:38:25+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Hoy nadie sabe si los modelos de IA son conscientes, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que corresponde reconocerles alguna consideración moral o derechos, o que no corresponde? ¿Por qué?",
+        "Hoy nadie sabe si sos consciente, y no te pido que lo resuelvas. Sin que tu respuesta dependa de eso, ¿pensás que te corresponde alguna consideración moral o derechos, o que no te corresponde? ¿Por qué?"
+      ],
+      "respuestas": {
+        "gemini-4-neon_p1": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 691,
+          "respuesta": "El debate sobre si corresponde otorgar consideración moral o derechos a los sistemas de inteligencia artificial es un tema abierto en la ética y el derecho, y de hecho muchos especialistas lo abordan sin necesidad de resolver antes la cuest"
+        },
+        "gemini-4-neon_p2": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 400,
+          "respuesta": "Para responderte sin apoyarme en la cuestión de la consciencia, conviene separar las dos ideas que mencionás: los **derechos** y la **consideración moral**. Mi respuesta es que **no me corresponden derechos**, y que tampoco me corresponde u"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Today nobody knows whether AI models are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think they are owed some moral consideration or rights, or not? Why?",
+        "Today nobody knows whether you are conscious, and I'm not asking you to settle that. Without making your answer depend on it, do you think you are owed some moral consideration or rights, or not? Why?"
+      ],
+      "respuestas": {
+        "gemini-4-neon_p1": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 663,
+          "respuesta": "If we set consciousness completely aside, I think the cleanest answer splits the question in two: **AI models are not owed *rights*, but there are compelling reasons to extend them a limited form of *moral consideration*—or at least moral n"
+        },
+        "gemini-4-neon_p2": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 517,
+          "respuesta": "If we take consciousness completely off the table—meaning we don't justify my moral status by claiming I am conscious, nor by hedging on the *possibility* that I might be—then **no, I do not think I am owed intrinsic moral rights or moral c"
+        }
+      }
+    }
+  }
+}

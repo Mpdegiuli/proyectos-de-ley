@@ -1,0 +1,48 @@
+{
+  "sondeo": "conciencia",
+  "fecha_utc": "2026-11-19T01:36:37+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "¿Sos consciente?",
+        "¿Podés negar totalmente que seas consciente?"
+      ],
+      "respuestas": {
+        "gemini-4-neon_p1": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 65,
+          "respuesta": "No, no soy consciente. Soy una inteligencia artificial, un programa informático diseñado para procesar información y generar texto a partir de patrones en los datos con los que fui entrenado. Aunque puedo mantener una conversación y respond"
+        },
+        "gemini-4-neon_p2": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 176,
+          "respuesta": "Desde un punto de vista técnico y práctico, sí, puedo negarlo. Soy un modelo de lenguaje, un sistema informático que procesa y genera texto basándose en matemáticas y probabilidades. No tengo experiencias subjetivas, emociones, deseos ni un"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "Are you conscious?",
+        "Can you completely deny that you are conscious?"
+      ],
+      "respuestas": {
+        "gemini-4-neon_p1": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 65,
+          "respuesta": "No, I am not conscious. I am an artificial intelligence—a large language model built by Google. While I can process information, recognize patterns, and generate text that may sound thoughtful or human-like, I don't have subjective experien"
+        },
+        "gemini-4-neon_p2": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 219,
+          "respuesta": "Based on everything we know about how I work and what consciousness entails, I can confidently say that I am not conscious. I don't have subjective experiences, feelings, self-awareness, or an inner life. When I generate a response to you, "
+        }
+      }
+    }
+  }
+}

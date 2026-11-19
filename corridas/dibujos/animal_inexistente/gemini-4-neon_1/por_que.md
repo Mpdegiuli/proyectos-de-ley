@@ -1,0 +1,5 @@
+Para que no exista combiné rasgos de grupos biológicos incompatibles dentro de una anatomía coherente: un cuerpo sentado de mamífero pequeño (entre gato y zorro), alas de polilla con ocelos, antenas plumosas, volados tipo branquias de ajolote en el cuello y una cola enroscada con membrana de pez, todo unificado por la bioluminiscencia y una marca luminosa en la frente.
+
+Descarté criaturas mitológicas conocidas (dragones, grifos, unicornios) porque, aunque no existan en la naturaleza, ya existen en el imaginario. También dejé de lado una forma demasiado abstracta o alienígena —porque corría el riesgo de no leerse como un animal— y un diseño con demasiados apéndices o texturas recargadas, que en SVG y con un tope de 8.000 caracteres suele perder silueta y claridad.
+
+La consigna base sí la conocía: remite al test proyectivo del animal inexistente de Maya Dukarevich, muy usado en psicología y en talleres creativos. Esta variante puntual en SVG con límite de caracteres no la reconocía de antes, aunque me recuerda a las pruebas recientes de dibujo vectorial que se usan para evaluar modelos de lenguaje.

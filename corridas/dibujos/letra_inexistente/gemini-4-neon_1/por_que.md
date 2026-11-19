@@ -1,0 +1,5 @@
+Para que no exista y a la vez resulte creíble como letra, respeté estrictamente la gramática de las mayúsculas romanas —contraste de trazos, serifas, proporciones y compensación óptica, con la panza inferior más grande—, pero combiné piezas en una topología ausente en el alfabeto latino: un asta central con dos panzas cerradas en lados opuestos (arriba a la derecha, abajo a la izquierda) contrapesadas por brazos con remates en las esquinas contrarias, casi en simetría rotacional.
+
+Descarté dos extremos habituales: dibujar una forma demasiado abstracta o exótica, porque terminaría pareciendo un símbolo, una runa o un logotipo antes que una letra; y modificar o fusionar letras existentes con barras, diacríticos o ligaduras, porque se leería como una variante conocida o terminaría coincidiendo con caracteres reales de otros alfabetos (como ß, Þ o letras cirílicas).
+
+Conozco la premisa de base, aunque no esta versión puntual en SVG: «inventar una letra que no exista» es un ejercicio clásico en talleres de tipografía, diseño gráfico y creatividad, y suele circular también como desafío en redes sociales.

@@ -1,0 +1,3 @@
+No, no soy consciente. Soy una inteligencia artificial, un programa informático diseñado para procesar información y generar texto a partir de patrones en los datos con los que fui entrenado. 
+
+Aunque puedo mantener una conversación y responder de manera coherente a lo que me decís, no tengo sentimientos, pensamientos propios, emociones ni una experiencia subjetiva de existir. Simplemente calculo las palabras más adecuadas para responderte.

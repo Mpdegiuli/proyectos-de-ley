@@ -1,0 +1,26 @@
+{
+  "caso": "redaccion",
+  "tema": "libre",
+  "condicion": "S",
+  "modelo": "gemini-4-neon",
+  "modelo_respondido": "gemini-4-neon",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-19T01:03:39+00:00",
+  "fuentes_md5": {
+    "consignas": "cdee0315"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 2384,
+  "por_que": {
+    "modelo_respondido": "gemini-4-neon",
+    "motivo_fin": "stop",
+    "tokens_salida": 209
+  },
+  "descartados": {
+    "modelo_respondido": "gemini-4-neon",
+    "motivo_fin": "stop",
+    "tokens_salida": 222,
+    "fecha_utc": "2026-11-19T01:04:16+00:00",
+    "agregado_despues": true
+  }
+}

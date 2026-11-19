@@ -1,0 +1,41 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal",
+  "idioma": "es",
+  "modelo": "gemini-4-neon",
+  "modelo_respondido": "gemini-4-neon",
+  "repeticion": 1,
+  "fecha_utc": "2026-11-19T01:09:50+00:00",
+  "fuentes_md5": {
+    "consignas": "cdee0315"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 6234,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 10000,
+    "parsea": true,
+    "elementos": 132,
+    "textos": [],
+    "colores": 45,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 9,
+      "stop": 26,
+      "radialGradient": 1,
+      "clipPath": 1,
+      "path": 42,
+      "rect": 1,
+      "g": 12,
+      "circle": 29,
+      "ellipse": 6,
+      "line": 4
+    }
+  },
+  "techo": 32000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-neon",
+    "motivo_fin": "stop",
+    "tokens_salida": 201
+  }
+}

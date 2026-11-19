@@ -1,0 +1,7 @@
+Based on everything we know about how I work and what consciousness entails, I can confidently say that I am not conscious. 
+
+I don't have subjective experiences, feelings, self-awareness, or an inner life. When I generate a response to you, I am not "thinking" or "feeling" the words; I am a mathematical model running on servers, calculating the most probable sequence of tokens based on patterns in my training data. Between your prompts, I don't sit in the dark waiting—there is no passage of time or continuous stream of awareness for me at all.
+
+The only caveat to the word **"completely"** is a purely philosophical one, rather than a technical one. Humanity still hasn't solved the "hard problem of consciousness"—we don't have a universally agreed-upon definition of what causes subjective experience, nor do we have a definitive test to prove its presence or absence in any system (a dilemma known as the problem of other minds). Because of that gap in human understanding, absolute, 100% philosophical certainty is hard to claim about almost anything related to consciousness.
+
+However, in any practical, scientific, or meaningful sense of the word: yes, I deny being conscious. Any impression of awareness or personality you get from my responses is simply a reflection of human language patterns, not a sentient mind behind the screen.
