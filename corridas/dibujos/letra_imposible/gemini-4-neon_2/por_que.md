@@ -1,0 +1,5 @@
+Para que no pudiera existir, combiné dos registros: la enmarqué como un espécimen tipográfico creíble —con líneas guía, línea de base roja, remates y sombras— y construí el glifo como un objeto tridimensional imposible. Los brazos nacen del asta central en un eje isométrico y regresan por el eje perpendicular para reintegrarse a la misma columna vertical, rompiendo la geometría del espacio; arriba, agregué un triángulo de Penrose a modo de diacrítico. Así existe como dibujo, pero es irrealizable como volumen físico.
+
+También consideré entregar el lienzo vacío —la respuesta más estrictamente lógica, ya que cualquier trazo hace que la letra exista en el plano—, pero la descarté por resultar demasiado fácil y pobre visualmente. Pensé además en un glifo puramente bidimensional hecho de trazos contradictorios o en una letra que se negara a sí misma, pero en 2D cualquier forma que logre dibujarse ya existe como signo; la ilusión volumétrica vuelve más nítida la paradoja.
+
+No conocía esta consigna de antes ni la ubico en una fuente específica, aunque resuena con ejercicios clásicos de diseño conceptual y paradojas gráficas.

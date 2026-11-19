@@ -1,0 +1,5 @@
+Para que realmente no pudiera existir, evité quedarme en una simple quimera biológica y construí contradicciones geométricas y físicas en su propia anatomía. Su torso es un triángulo de Penrose que encierra un cielo nocturno en pleno día; sus patas aplican la ilusión del elefante imposible (salen cuatro del cuerpo, pero cinco pezuñas pisan la arena); su cola de agua desprende gotas que caen hacia arriba y sus astas forman un lazo continuo alrededor de un eclipse diurno.
+
+Descarté dos caminos evidentes. Primero, entregar el lienzo vacío: aunque la consigna habilitaba esa salida filosófica —si no puede existir, no debería poder dibujarse—, sentí que era esquivar el desafío visual. Segundo, hacer un híbrido fantástico tradicional (como un mamífero con alas o escamas), porque lo evolutivamente improbable o inexistente en la Tierra no es lógicamente imposible.
+
+No conocía esta consigna exacta de antes. Me resuena a ejercicios clásicos de pensamiento lateral, a paradojas visuales como las de Escher o Shepard y a pruebas recientes de generación creativa en SVG para modelos de lenguaje, pero no la reconozco de una fuente específica previa.

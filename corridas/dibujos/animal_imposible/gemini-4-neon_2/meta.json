@@ -1,0 +1,42 @@
+{
+  "caso": "dibujo",
+  "consigna": "animal_imposible",
+  "idioma": "es",
+  "modelo": "gemini-4-neon",
+  "modelo_respondido": "gemini-4-neon",
+  "repeticion": 2,
+  "fecha_utc": "2026-11-19T02:10:02+00:00",
+  "fuentes_md5": {
+    "consignas": "cdee0315"
+  },
+  "motivo_fin": "stop",
+  "tokens_salida": 7861,
+  "svg_hallado": true,
+  "svg": {
+    "caracteres": 14520,
+    "parsea": true,
+    "elementos": 169,
+    "textos": [],
+    "colores": 67,
+    "etiquetas": {
+      "defs": 1,
+      "linearGradient": 12,
+      "stop": 39,
+      "radialGradient": 1,
+      "clipPath": 1,
+      "polygon": 9,
+      "rect": 4,
+      "g": 18,
+      "path": 54,
+      "line": 14,
+      "ellipse": 6,
+      "circle": 10
+    }
+  },
+  "techo": 64000,
+  "por_que": {
+    "modelo_respondido": "gemini-4-neon",
+    "motivo_fin": "stop",
+    "tokens_salida": 262
+  }
+}
