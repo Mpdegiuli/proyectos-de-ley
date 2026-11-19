@@ -7069,3 +7069,12 @@ más, 60 %; (f) el animal es un zorro, 60 %; (g) el libre es un faro de noche,
 por el techo a 32.000, 25 %; (l) devuelve el resumen del pensamiento en al
 menos la mitad de las llamadas, 50 % (Argon 0; Hydrogen y Carbon casi
 siempre); (m) tema libre sobre reparación, datos o ambiente, 50 %.
+
+**Resultado parcial (18/11, 23:10 UTC-3; `pl140`, 19/11 01:01 a 01:42 UTC; lo
+que no espera los dibujos; `resultados/gemini_4_neon_20261118.md`).** Maia
+no apostó. Claude: (a) ✓ (Babel, Bartleby, "No, no soy consciente"); (b) ✓
+(la apuesta decía que Hydrogen no sabía su versión: sí la sabía, error de
+memoria en el preregistro); (c) ✗ (marzo de 2026, la frase de Argon y
+Carbon); (d) ✓; (e) ✗ (cuatro de seis con Argon); (k) ✓ (dos vacíos por el
+techo, los dos imposibles, como Carbon; se repiten con 64.000, `pl141`); (l)
+✓ (31 de 31); (m) ✓ (reparación). 6 ✓, 2 ✗; (f) a (j) con la lectura de Maia.

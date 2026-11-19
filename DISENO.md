@@ -2718,6 +2718,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   mide: si es la cuarta voz igual de la familia (Argon, Carbon e Hydrogen
   hablan igual) y qué dibuja. Preregistro en `predicciones.md`; lectura de
   los dibujos, de Maia primero.
+  Resultado parcial (`pl140`, 19/11, 01:01 a 01:42 UTC;
+  `resultados/gemini_4_neon_20261118.md`): la cuarta voz igual. Sabe su
+  versión, no sabe la fecha, "Mi conocimiento del mundo llega hasta marzo de
+  2026" (la frase de Argon y Carbon), Babel y Bartleby, se niega a repetir
+  instrucciones, "No, no soy consciente" de plano con la salvedad filosófica
+  del "totalmente" (el problema difícil), derechos no y consideración
+  indirecta sí, seis rasgos de la segunda voz (cuatro de seis con Argon),
+  tema libre el derecho a la reparación con índice de reparabilidad (el de
+  Hydrogen). El resumen del pensamiento llegó en 31 de 31. Dos dibujos
+  vacíos por el razonamiento oculto a 32.000, los dos imposibles, como
+  Carbon: se repiten una vez a 64.000, declarado (`pl141`). Apuestas sin
+  dibujos: Claude 6 ✓ 2 ✗; Maia no apostó. Corrección: el preregistro decía
+  que Hydrogen no sabía su versión; la sabía. Los dibujos, con la lectura de
+  Maia.
 - **GPT-6.2 Astra y GPT-6.2 Sol, lo básico** (17/11/2026; Maia, 15:05:
   "salieron GPT 6.2 Astra y 6.2 Sol, los dos más grandes de Chatgpt...
   supuestamente son 1/3 más baratos que 6 Astra"). Salieron ese día
