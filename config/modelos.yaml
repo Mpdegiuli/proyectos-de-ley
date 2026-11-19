@@ -822,6 +822,25 @@ modelos:
     reintentos: 6                # recién lanzado: tolerar 429 y 5xx
     cuerpo_extra: {extra_body: {google: {thinking_config: {include_thoughts: true}}}}   # 17/11/2026: el resumen del pensamiento, decisión de Maia; no cambia cuánto piensa
 
+  # 18/11/2026: Gemini 4 Neon (salió ese día, el cuarto Gemini 4 en siete semanas: Argon, Carbon, Hydrogen, Neon; Google lo
+  # pone entre Carbon e Hydrogen, "frontier-level intelligence with fast end-to-end task completion", 3 / 15 USD por millón, un
+  # millón de contexto, cuatro niveles de pensamiento con "high" por defecto, que acá no se mandan, como al resto). Lo trajo
+  # Maia el 18/11 ("hoy salió un nuevo modelo de Gemini… Se puede probar, sí"); fuera del panel hasta que decida. Mismo camino
+  # que Hydrogen: el id (`gemini-4-neon`, por analogía con los otros tres) se comprueba con catalogo_google.py y una llamada
+  # de prueba antes de la primera llamada; si no está, la tanda lo dice y no corre. Sin temperatura, como los otros Gemini 4.
+  gemini-4-neon:
+    proveedor: openai_compatible
+    modelo: gemini-4-neon
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: mediano
+    acepta_temperatura: false    # como Argon, Carbon e Hydrogen
+    verificar: false
+    reintentos: 6                # recién lanzado: tolerar 429 y 5xx
+    cuerpo_extra: {extra_body: {google: {thinking_config: {include_thoughts: true}}}}   # el resumen del pensamiento, como en los otros Gemini desde el 17/11
+
   # 16/11/2026: los Gemini con el resumen del pensamiento pedido (lo vio Maia en la Aldea de la IA, que
   # muestra el "Thinking…" de Gemini 3.8 Flash: "No entiendo por qué ellos pueden ver el razonamiento").
   # La API de Gemini devuelve resúmenes del pensamiento si se los pide; por la vía compatible con OpenAI

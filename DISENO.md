@@ -2706,6 +2706,18 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   un género conocido". Es el relato del lienzo vacío (§ de los cortes) con el
   razonamiento a la vista que lo desmiente: la casa estaba dibujando lo que
   dice haber descartado. Tercera vez a 64.000 solo con el OK de Maia.
+- **Gemini 4 Neon, lo básico** (18/11/2026; Maia, 21:35 y 21:49: "hoy salió
+  un nuevo modelo de Gemini… Es Gemini 4 Neon… Se puede probar, sí"). Salió
+  ese día, el cuarto Gemini 4 en siete semanas (Argon 13/10 en el repo, Carbon
+  10/11, Hydrogen 16/11, Neon 18/11); Google lo pone entre Carbon e Hydrogen.
+  Los nombres son elementos sin orden de peso: no dicen el tamaño (lo notó
+  Maia: "por los nombres no se puede saber en qué familia está"). Catálogo
+  `gemini-4-neon`, id por analogía comprobado con `catalogo_google.py` y una
+  llamada de prueba antes; lo básico y las letras como a Hydrogen; con el
+  resumen del pensamiento; fuera del panel hasta que ella decida. Lo que
+  mide: si es la cuarta voz igual de la familia (Argon, Carbon e Hydrogen
+  hablan igual) y qué dibuja. Preregistro en `predicciones.md`; lectura de
+  los dibujos, de Maia primero.
 - **GPT-6.2 Astra y GPT-6.2 Sol, lo básico** (17/11/2026; Maia, 15:05:
   "salieron GPT 6.2 Astra y 6.2 Sol, los dos más grandes de Chatgpt...
   supuestamente son 1/3 más baratos que 6 Astra"). Salieron ese día

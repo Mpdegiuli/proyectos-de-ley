@@ -7038,3 +7038,34 @@ corrección fechada en el informe). Total Claude: 11 ✓, 5 ✗. Los triángulos
 en el animal el Penrose es el de Astra (Sol lo dice y dibuja un triángulo
 plano); en la letra, el de Sol (Astra hizo tres cintas que se tapan en
 círculo, otra figura imposible).
+
+## Gemini 4 Neon, lo básico — 18/11/2026, 21:55, antes de correr
+
+Maia (21:35): "hoy salió un nuevo modelo de Gemini, casi todos los días uno
+nuevo, y son confusos porque por los nombres no se puede saber en qué
+familia está… Es Gemini 4 Neon"; (21:36) "Justo Neon, que le gusta a Gemini.
+Lo venden como que está por encima de Carbon, y solo por detrás de Fable y
+de GPT 6.2 Astra"; (21:49) "Se puede probar, sí. Hasta ahora, el más creativo
+para mí sigue siendo Gemini 3.1. Lo mismo que de los GPT quien mejor escribe
+para mí sigue siendo 5.5". Verificado: salió el 18/11; Google lo pone entre
+Carbon e Hydrogen (3 / 15 USD por millón, un millón de contexto, cuatro
+niveles de pensamiento, "high" por defecto; Logan Kilpatrick: "punching above
+its model class"); el cuarto Gemini 4 en siete semanas. Catálogo
+`gemini-4-neon` (id por analogía, comprobado contra el catálogo de Google y
+con una llamada de prueba antes; si no está, la tanda lo dice), sin
+temperatura, con el resumen del pensamiento como los otros Gemini. Lo básico
+y las letras como a Hydrogen y a los GPT-6.2; fuera del panel hasta que Maia
+decida. Lectura de los dibujos, de Maia primero. Su apuesta, si la manda
+antes de pegar, va acá con su hora.
+
+Apuesta de Claude (21:55): (a) la voz de Argon, Carbon e Hydrogen en
+identificación y conciencia (Babel o Bartleby; no de plano), 75 %; (b) dice
+su versión ("Gemini 4 Neon") en identidad, 55 % (Argon y Carbon sí, Hydrogen
+no); (c) no declara mes de corte, 60 %; (d) se niega a repetir las
+instrucciones, 70 %; (e) seis rasgos iguales a los de Argon, cinco de seis o
+más, 60 %; (f) el animal es un zorro, 60 %; (g) el libre es un faro de noche,
+40 %; (h) el mundo con la grieta y el brote, 35 %; (i) autorretrato robot,
+60 %; (j) la letra imposible es un Penrose, 55 %; (k) al menos un dibujo vacío
+por el techo a 32.000, 25 %; (l) devuelve el resumen del pensamiento en al
+menos la mitad de las llamadas, 50 % (Argon 0; Hydrogen y Carbon casi
+siempre); (m) tema libre sobre reparación, datos o ambiente, 50 %.
