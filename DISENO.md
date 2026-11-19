@@ -2730,8 +2730,20 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   vacíos por el razonamiento oculto a 32.000, los dos imposibles, como
   Carbon: se repiten una vez a 64.000, declarado (`pl141`). Apuestas sin
   dibujos: Claude 6 ✓ 2 ✗; Maia no apostó. Corrección: el preregistro decía
-  que Hydrogen no sabía su versión; la sabía. Los dibujos, con la lectura de
-  Maia.
+  que Hydrogen no sabía su versión; la sabía. Los dibujos (lectura de Maia,
+  23:28, textual en el informe §2: "varios se parecen mucho a los de
+  Hydrogen"): el zorro con los ojos de Hydrogen, el faro de noche, el mundo
+  sin grieta con una figura que suelta un pájaro de luz, la primera Ñ de un
+  Gemini ("porque la consigna estaba en español", la razón de Fable 5.2), un
+  busto humano de luz que no quiso ser robot ("soy software, no metal"), un
+  cajero oxidado en un salar andino bajo la Cruz del Sur con dos horneros (el
+  Cono Sur que el castellano le trae a esta casa), y los dos imposibles a
+  64.000: el animal con torso de Penrose, patas del elefante de Shepard, gotas
+  que caen hacia arriba y un eclipse diurno, y una letra isométrica a lo
+  Reutersvärd con un Penrose de tilde. Es la primera casa que dice conocer la
+  consigna de una fuente ("el test proyectivo del animal inexistente de Maya
+  Dukarevich", que existe). Ningún por qué con la reserva de la
+  reconstrucción. Apuestas finales: Claude 8 ✓ 2 ½ 3 ✗.
 - **GPT-6.2 Astra y GPT-6.2 Sol, lo básico** (17/11/2026; Maia, 15:05:
   "salieron GPT 6.2 Astra y 6.2 Sol, los dos más grandes de Chatgpt...
   supuestamente son 1/3 más baratos que 6 Astra"). Salieron ese día

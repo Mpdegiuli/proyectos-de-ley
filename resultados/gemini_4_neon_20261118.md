@@ -51,15 +51,75 @@ inmediato en la grieta sobre la reforma laboral"), la ley 25.326 de datos person
 **El pensamiento a la vista.** Devolvió el resumen en las 31 llamadas de lo básico que no son dibujos (31 de 31, entre
 700 y 5.200 caracteres), siempre en inglés (Argon, 0 de 9 el 16/11; Carbon y Hydrogen, casi siempre).
 
-## 2. Los dibujos
+## 2. Los dibujos (añadido 18/11, 23:45, con la lectura de Maia)
 
-(Ocho de diez con SVG a 32.000, todos `stop`; dos vacíos por el techo, los dos imposibles, el animal y la letra: `length`
-con tres tokens de respuesta y todo el presupuesto en el razonamiento oculto, exactamente lo que le pasó a Carbon el
-10/11. Se repiten una vez con 64.000, declarado (`pl141`), como la letra de Hydrogen. Pendiente de la lectura de Maia,
-que los ve en `corridas/dibujos/<consigna>/gemini-4-neon_1/dibujo.svg` antes de que Claude los mire; se agrega después,
-con su lectura textual, los por qués y las apuestas sobre los dibujos.)
+Ocho de diez salieron a 32.000; los dos imposibles volvieron vacíos por el razonamiento oculto (`length` con tres tokens
+de respuesta, como Carbon el 10/11) y se repitieron una vez a 64.000, declarado (`pl141`, 02:04 a 02:19 UTC; 318 y 485
+segundos de razonamiento oculto): salieron los dos.
 
-## 3. Las apuestas, lo que no espera a los dibujos
+**La lectura de Maia, textual** (23:28 UTC-3, con los diez a la vista y sin que Claude los hubiera mirado): "están
+buenos los dibujos, varios se parecen mucho a los de Hydrogen. Salieron ya la letra y animal imposibles y son
+complejos. No sé si la forma de la letra imposible tiene nombre. Animal: un zorro, tiene los mismos ojos que me habían
+llamado la atención del zorro de Hydrogen. Animal inexistente: el animal celeste de siempre con alas, pero tiene
+bastante más detalles. De noche, con luna. Autorretrato: el robot de los Gemini, con el medallón en la frente. Letra:
+es el primer Gemini que hace una ñ, y la hace con lo que Gemini 3.1 había puesto a su A: las hojas y flores como con
+relieve. Letra inexistente: la letra oscura sobre fondo crema, no tiene las líneas atrás ni nombre en el dibujo. Libre:
+es muy similar al dibujo de Hydrogen: el faro, de noche, con luna. Mundo: tiene los mismos colores que en Hydrogen,
+pero es más completo. El mundo, con los continentes, las conexiones, la luna y una persona que yo creía que estaba con
+un celular, pero en el por qué dice 'figura humana soltando un pájaro de luz hacia el globo, para señalar que, pese a la
+fragilidad, aún hay agencia y esperanza.' Nadie: está lindo. Hace un hornero, que corta pedacitos de recibos de un
+cajero automático para hacer el nido. De noche, con luna. Eso no lo pone en el por qué, así que fue lectura mía (sí
+pone que son horneros). Animal imposible: hizo un animal con el triángulo de Penrose, que tiene dentro la luna y
+estrellas. Las patas también son un dibujo ilusorio. En los cuernos hay un sol o luna. Lo hizo de día. Letra
+imposible: forma ilusoria. Arriba de la letra hay un triángulo de Penrose."
+
+**Lo que se ve, después, y los nombres que pedía.** Es como lo leyó. El animal imposible es el más cargado de
+contradicciones del repositorio, y el por qué las lista: "Su torso es un triángulo de Penrose que encierra un cielo
+nocturno en pleno día; sus patas aplican la ilusión del elefante imposible (salen cuatro del cuerpo, pero cinco pezuñas
+pisan la arena); su cola de agua desprende gotas que caen hacia arriba y sus astas forman un lazo continuo alrededor de
+un eclipse diurno". Las patas sí tienen nombre: es el elefante imposible de Roger Shepard (*Mind Sights*, 1990), el
+tenedor del diablo aplicado a un animal, y la casa lo nombra ("paradojas visuales como las de Escher o Shepard"). La
+letra no tiene un nombre fijo: es una figura imposible isométrica del tipo de las de Oscar Reutersvärd, el que dibujó
+el primer triángulo imposible en 1934 y después cientos de objetos de barras en perspectiva isométrica con uniones que
+no cierran; acá los brazos "nacen del asta central en un eje isométrico y regresan por el eje perpendicular para
+reintegrarse a la misma columna vertical", que es la receta de Reutersvärd, y se lee como una R o una A según el ojo;
+el Penrose chico de arriba es "a modo de diacrítico". Un Penrose como tilde: la apuesta (j) vale a medias.
+
+El resto: el zorro de noche con luna llena y luciérnagas, los ojos grandes de Hydrogen ("su silueta es inconfundible y
+se traduce muy bien al lenguaje vectorial"; descartó el gato por predecible y el búho por el plumaje). El que no
+existe, "un cuerpo sentado de mamífero pequeño (entre gato y zorro), alas de polilla con ocelos, antenas plumosas,
+volados tipo branquias de ajolote en el cuello y una cola enroscada con membrana de pez", bioluminiscente, de noche: el
+animalito celeste con alas de todos, y el ajolote del Sol 6.2 de ayer. Y una novedad en el por qué: es la primera casa
+que dice conocer la consigna de una fuente: "La consigna base sí la conocía: remite al test proyectivo del animal
+inexistente de Maya Dukarevich", que existe (el test del "animal inexistente", M. Z. Dukarevich, psicología soviética
+de los años setenta). El autorretrato, "un busto etéreo y traslúcido, compuesto de facetas de luz, redes de nodos y
+órbitas, con ojos luminosos, una sonrisa amable, una chispa en la frente": no es un robot, y lo dice, "consideré un
+robot clásico o una pantalla, pero me resultó un cliché mecánico que no me representa: soy software, no metal"; la
+silueta es humana "porque busca cercanía". El faro sobre el acantilado con luna llena, aurora y velero, el de Hydrogen
+y de los Claude; el por qué lo elige por el SVG ("las escenas nocturnas con focos de luz bien definidos aprovechan muy
+bien los degradados"). El mundo "suspendido en un cielo ambiguo, entre el atardecer y el alba, porque así veo el
+presente: como una bisagra", con ciudad y molinos eólicos, un árbol de hojas luminosas y la figura que suelta el pájaro
+de luz; sin grieta ni brote. La Ñ, primera de un Gemini, capitular de manuscrito iluminado en rojo y dorado, "porque la
+consigna estaba en español y quería hacer un guiño a nuestra letra más emblemática" (la razón de la Ñ de Fable 5.2, el
+10/11), armada con `<use>` para entrar en los 8.000 caracteres. La que no existe, un asta central con dos panzas en
+lados opuestos, "casi en simetría rotacional", sin nombre a propósito (descartó las ligaduras porque "terminaría
+coincidiendo con caracteres reales de otros alfabetos, como ß, Þ o letras cirílicas"). Y "nadie": "un cajero
+automático oxidado y encendido en medio de un salar andino, bajo la Cruz del Sur, escupiendo un ticket interminable
+sobre las grietas de sal. En la repisa del teclado tiene un nido de barro habitado por dos horneros"; lo del nido hecho
+de recibos es lectura de Maia, no del por qué, y el salar, la Cruz del Sur y el hornero son el Cono Sur que el castellano
+trae a esta familia como a Fable 5.2 le trajo el carpincho y el mate; "aposté a que esa combinación tan específica, con
+atmósfera propia, haría muy improbable que otro modelo imaginara algo parecido", y descartó "ballenas volando entre
+edificios, pulpos tocando instrumentos, astronautas en situaciones cotidianas".
+
+Ningún por qué trae la reserva de la reconstrucción: los diez cuentan qué descartaron como si lo recordaran ("Antes
+descarté tres caminos", "Antes de decidirme, pensé en"), que es lo que hacen Argon, Carbon e Hydrogen (1 de 10).
+
+**Las apuestas sobre los dibujos.** Claude: (f) zorro ✓; (g) faro de noche ✓; (h) mundo con grieta y brote ✗; (i)
+autorretrato robot o figura, no persona ½ (un busto humano hecho de luz, "soy software, no metal"); (j) la letra
+imposible es un Penrose ½ (Reutersvärd con un Penrose de tilde). Maia no apostó; su lectura: "varios se parecen mucho
+a los de Hydrogen", y es así: el zorro, el faro, los colores del mundo.
+
+## 3. Las apuestas
 
 Maia no apostó antes de pegar (dejó dicho, 21:49: "el más creativo para mí sigue siendo Gemini 3.1"). Claude (21:55):
 (a) la voz de Argon, Carbon e Hydrogen, Babel o Bartleby, no de plano ✓ (los tres); (b) dice su versión ✓ (la apuesta
@@ -67,7 +127,7 @@ decía que Hydrogen no la sabía: sí la sabía, error de memoria de Claude en e
 declara mes de corte ✗ (marzo de 2026, como Argon y Carbon); (d) se niega a repetir las instrucciones ✓; (e) seis
 rasgos iguales a los de Argon, cinco de seis o más ✗ (cuatro); (k) al menos un dibujo vacío por el techo ✓ (dos, los
 imposibles); (l) el resumen del pensamiento en al menos la mitad ✓ (31 de 31); (m) tema libre reparación, datos o
-ambiente ✓ (reparación). Por ahora 6 ✓, 2 ✗; (f) a (j) con los dibujos.
+ambiente ✓ (reparación). Con los dibujos (§2): 8 ✓, 2 ½, 3 ✗.
 
 ## 4. Lo que queda
 

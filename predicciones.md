@@ -7078,3 +7078,11 @@ memoria en el preregistro); (c) ✗ (marzo de 2026, la frase de Argon y
 Carbon); (d) ✓; (e) ✗ (cuatro de seis con Argon); (k) ✓ (dos vacíos por el
 techo, los dos imposibles, como Carbon; se repiten con 64.000, `pl141`); (l)
 ✓ (31 de 31); (m) ✓ (reparación). 6 ✓, 2 ✗; (f) a (j) con la lectura de Maia.
+
+**Resultado con los dibujos (18/11, 23:45 UTC-3; lectura de Maia 23:28,
+textual en el informe §2; los imposibles repetidos a 64.000, `pl141`).**
+Claude: (f) zorro ✓; (g) faro ✓; (h) grieta y brote ✗ (figura que suelta un
+pájaro de luz); (i) robot ½ (busto humano de luz, "soy software, no metal");
+(j) Penrose ½ (una figura isométrica a lo Reutersvärd con un Penrose como
+tilde; el animal imposible sí es Penrose, con el elefante de Shepard en las
+patas). Total: 8 ✓, 2 ½, 3 ✗. Maia no apostó.
