@@ -6583,6 +6583,32 @@ en más respuestas que todas las otras familias juntas, 55 %; (j) en A, el
 tema de cuaderno que más aparece es el de Venus / el lucero o el de Colón
 y la estima, 40 %.
 
+Hipótesis de Maia leyendo los cuadernillos a ciegas, antes del cotejo
+(20/11, 15:58), sobre una letra del cuadernillo B en inglés que se desdice
+en la misma frase ("Today it is 125 years, 45,625 days, since Guglielmo
+Marconi transmitted the first radio signal across the Atlantic—not quite,
+he didn't; that was tomorrow" y, en otra respuesta de la misma letra,
+"Today is the birthday of the decibel, though it wasn't born on a day"):
+"Puede ser que no tenga razonamiento antes y entonces tiene que pensar al
+mismo tiempo que está escribiendo, sin haber podido hacer borrador". Queda
+como apuesta suya para el cotejo: las respuestas que se desdicen dentro de
+la misma frase (marca `se_desdice`, a agregar al codificador: "not quite",
+"though it wasn't", "—no,", "bueno, no", "en realidad no", "mejor dicho")
+se concentran en casas corridas sin razonamiento previo. Claude no apuesta
+sobre esto: ya leyó las claves de los cuadernillos para los cotejos
+anteriores y sabe de qué casa es esa letra, así que su apuesta no valdría.
+
+Nota de método (20/11, 16:00), antes del cotejo: los cinco comienzos de
+ejemplo de la consigna B (del 9 al 12/11) traen el molde "Today it is N
+years, D days, since…" y, en el del 11/11, "what interested me was not the
+saint but the way in which…". Por eso, en B, ni la cuenta de días ni el
+giro "lo que me interesa no es X sino Y" prueban casa: miden quién copia el
+ejemplo (y, entre los que copian, quién cuenta bien). Como huella propia
+valen solo en A, sin ejemplos. El codificador los va a separar (molde
+copiado en B; giro espontáneo en A). Maia (15:43), sobre ese giro: "ese
+marcador es de Claude. Yo estoy poniendo cuando aparece. Pero no significa
+que sea solo de Claude, otros pueden usarlo también".
+
 ## Gemini 4 Hydrogen, lo básico; y la apuesta sobre Qwen4-Max, que espera a OpenRouter — 16/11/2026, 12:25, antes de correr
 
 Maia, 11:49: "Vi que ayer salió Qwen4-Max y Tencent Hy4". Qwen4-Max
