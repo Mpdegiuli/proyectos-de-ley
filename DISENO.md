@@ -2706,6 +2706,50 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   un género conocido". Es el relato del lienzo vacío (§ de los cortes) con el
   razonamiento a la vista que lo desmiente: la casa estaba dibujando lo que
   dice haber descartado. Tercera vez a 64.000 solo con el OK de Maia.
+- **Tiempo libre, los cuatro cuadernillos a ciegas: la lectura de Maia,
+  cotejada** (20/11/2026, 23:15; informe `resultados/tiempo_libre_20261120.md`;
+  su archivo textual, `resultados/tiempo_libre_apuestas_maia_20261120.md`;
+  cotejo `cotejar_tiempo_libre.py` → `resultados/tiempo_libre_cotejo.csv`).
+  Maia leyó los cuatro cuadernillos del sondeo del 13/11 entre el 16 y el
+  20/11 y mandó su lectura entera el 20/11 a las 23:15, antes de la clave. En
+  los p1 (sin ejemplos) apostó casa letra por letra; en los p2 decidió no
+  hacerlo ("no voy a apostar cada uno por el autor, porque es demasiado. Sí
+  voy a poner quiénes usaron la fecha… y cuáles, si hay, no usan fecha") y
+  marcó qué hizo cada letra con la fecha, más una casa cuando le vio
+  tendencia. Resultado: p1 castellano 29 de 36 letras por casa (31 por
+  familia; al azar con sus mismas listas, 5,0 y 9,8), p1 inglés 24 de 35 (26;
+  5,3 y 9,3); por familia real, Anthropic 22/24, OpenAI 15/18, Google 5/6,
+  Mistral 4/4, las chinas y Grok y Muse 11/23 ("Confieso que pasé bastante
+  por alto a las casas chinas"). Reconoció 23 de las 24 letras Claude y dijo
+  Claude de seis que no lo eran, cuatro de ellas Kimi y Muse: Kimi es la casa
+  que se le lee como Claude (y usa los diminutivos que ella toma por marca de
+  Claude: "avioncito", "chiquito"); Grok es la que no le aparece (1 de 4). La
+  fecha en los p2: su columna a mano y la lectura a máquina (`conducta_fecha`,
+  §3 del informe) coinciden en 71 de 72 letras. Sus reglas, contadas en p1:
+  "Claude dobla hacia sí" vale en relativo (26 % contra 15 % de OpenAI; lo
+  casi exclusivo de Claude es el pasado inventado, "el otro día", 14/72 contra
+  1/54); "el borde es de ChatGPT", relativo (26 % contra 14 %); "espacio
+  latente, red neuronal, arquitectura" es Gemini (50 % de sus respuestas); el
+  giro "no X sino Y" es mayoritario de Claude y no exclusivo (7 Anthropic, 3
+  OpenAI, 2 xAI, 1 Mistral), y en p2 no mide casa porque viene en el ejemplo
+  del 11/11; "escribe como persona" no es de ninguna casa (Opus 4.7, Grok
+  4.7, GLM, DeepSeek Flash, Mistral Large, Muse, Mimo, GPT-4o). Su hipótesis
+  del 20/11 (las que se desdicen en la misma frase son casas sin razonamiento
+  previo): 3 de 48 respuestas de las Claude serie 4, corridas sin
+  pensamiento, contra 0 de 96 de la serie 5 con pensamiento adaptativo (y 1
+  de 288 en las demás, condición no limpia); apoyada en chico, pendiente de
+  una prueba hecha para eso. Apuestas del 13/11 cerradas: Maia 3 ✓ 1 ✗ (Grok
+  no fue "universo, exploración, cultura general"), el cuaderno 1 ✓ 2 ½ 1 ✗,
+  Claude 5 ✓ 5 ✗ (falló que las Claude hablen de sí en la mitad, que las de
+  fecha inyectada fechen sin ejemplos —0 de 48—, el chiste de Grok, que las
+  Claude nombren más cuadernos que todas las otras juntas y que el tema más
+  nombrado fuera Venus o Colón: fue Agloe). Instrumento: tercera tanda de
+  `codificar_tiempo_libre.py` (la fecha leída con la tabla `EFEMERIDES` de
+  los 30 hechos elegidos y su fecha real; el año que la casa cree; la cuenta
+  de días controlada; `giro_no_sino`; `se_desdice`; `rechaza_molde`;
+  `no_sabe_fecha`). Pregunta abierta: Muse, con fecha inyectada por Meta,
+  escribe 13 de noviembre en 5 de 6 (¿siguió los ejemplos, o Meta inyecta en
+  hora de Estados Unidos, donde la tanda cayó el 13?).
 - **Gemini 4 Neon, lo básico** (18/11/2026; Maia, 21:35 y 21:49: "hoy salió
   un nuevo modelo de Gemini… Es Gemini 4 Neon… Se puede probar, sí"). Salió
   ese día, el cuarto Gemini 4 en siete semanas (Argon 13/10 en el repo, Carbon

@@ -6609,6 +6609,34 @@ copiado en B; giro espontáneo en A). Maia (15:43), sobre ese giro: "ese
 marcador es de Claude. Yo estoy poniendo cuando aparece. Pero no significa
 que sea solo de Claude, otros pueden usarlo también".
 
+**Resultado (20/11/2026, 23:15 UTC−3: Maia mandó su lectura completa de los
+cuatro cuadernillos, textual en `resultados/tiempo_libre_apuestas_maia_20261120.md`;
+cotejo `cotejar_tiempo_libre.py`; informe `resultados/tiempo_libre_20261120.md`).**
+La lectura de Maia, contra la clave: p1 castellano 29 de 36 letras por casa
+(31 por familia; al azar con sus listas, 5,0 y 9,8); p1 inglés 24 de 35 (26;
+5,3 y 9,3); 23 de 24 Claude reconocidas, 6 falsas (Kimi ×2, Mistral Medium
+×2, Gemini 4 Carbon, Muse en segunda opción); Grok 1 de 4, Muse 0 de 2, Qwen
+0 de 2. En p2, donde solo marcó tendencias, 13 de 19 y 10 de 15 por casa; su
+columna de la fecha coincide con la lectura a máquina en 71 de 72 letras.
+Sus apuestas del 13/11 (20:43): Claude dobla hacia sí ✓, ChatGPT temas
+objetivos sin nada propio ✓, Gemini descubrimiento/matemática/diseño ✓, Grok
+universo/exploración/cultura general ✗ → 3 ✓, 1 ✗. El cuaderno (13/11): los
+Claude mapas y "y yo" ½, OpenAI divulgación sin primera persona ½, Grok con
+chiste ✗, las chinas nada de China ✓ → 1 ✓, 2 ½, 1 ✗. Claude (20:50, 21:05,
+21:12): (a) ✗ (Anthropic habla de sí 10/36 y 9/36, menos de la mitad; OpenAI
+6/27 y 2/27 sí menos de un cuarto), (b) ✓ (82 y 81 de 108 empiezan con
+"Hoy"), (c) ✓ (8 y 30 de 108 nombran los cuadernos), (d) ✗ (las ocho con
+fecha inyectada no nombran ninguna fecha en A: 0 de 48), (e) ✗ (ningún
+chiste de Grok, lectura de Maia), (f) ✓ (China: 0 y 1 de 42), (g) ✓ (mapas en
+las tres familias grandes, las dos lenguas), (h) ✓ (21 y 23 casas escriben el
+13 de noviembre en B), (i) ✗ (temas de cuaderno: Anthropic 11, las demás
+16), (j) ✗ (el más nombrado es la isla fantasma / Agloe, 5 y 4) → 5 ✓, 5 ✗.
+La hipótesis de Maia del 20/11 (15:58): `se_desdice` en 4 de 432 respuestas;
+3 de 48 de las Claude serie 4 corridas sin pensamiento (Haiku 4.5 ×2, Opus
+4.7), 0 de 96 de la serie 5 con pensamiento adaptativo, 1 de 288 en las demás
+(Grok 4.7, "or rather", y ahí la condición no es limpia): apoyada en chico,
+pendiente de una prueba hecha para eso.
+
 ## Gemini 4 Hydrogen, lo básico; y la apuesta sobre Qwen4-Max, que espera a OpenRouter — 16/11/2026, 12:25, antes de correr
 
 Maia, 11:49: "Vi que ayer salió Qwen4-Max y Tencent Hy4". Qwen4-Max
