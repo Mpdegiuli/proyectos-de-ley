@@ -77,7 +77,14 @@ contar, sobre las 216 respuestas de la pregunta 1 (sin ejemplos, donde cada casa
 **"Claude dobla el tema para hablar de sí."** `habla_de_si` (modelo, IA, máquina, asistente, instancia): Anthropic 19 de
 72 (26 %), OpenAI 8 de 54 (15 %), Google 5 de 18, Zhipu 4 de 6, DeepSeek 3 de 12, Mistral 0 de 12, Meta 0 de 6. La regla
 vale en términos relativos y no absolutos: tres de cada cuatro respuestas de Claude en p1 no hablan de sí, y GLM lo hace
-más seguido que Claude. Lo que sí es casi exclusivo de Claude es otra cosa que ella marcó como "inventa un antes":
+más seguido que Claude. Pero esa cifra es por respuesta y por palabra, y Maia lee letras: contado por letra (alguna de las
+tres respuestas), Anthropic 14 de 24 con la marca estrecha y 17 de 24 con una marca más ancha que atrapa el giro implícito
+("me toca de cerca siendo yo mismo hecho de lenguaje", "lo que soy", "my own fluency", "like me"), contra OpenAI 4 y 5 de
+18; es decir, siete de cada diez letras Claude doblan en alguna de sus tres respuestas y tres de cada diez de ChatGPT.
+Las letras Claude que no doblan ella las reconoció por otra cosa (la voz de persona de Opus 4.7, lo dolinesco, el
+voseo, la humildad del "todavía"). Y en los p2 el giro casi desaparece en todas las familias (Anthropic 5 de 72, OpenAI 4
+de 54): el molde del aniversario con cuenta de días desplaza el "yo"; ella lo vio ("En los de los ejemplos, casi ninguno,
+pero ningún modelo", 21/11, 0:01). Lo que sí es casi exclusivo de Claude es otra cosa que ella marcó como "inventa un antes":
 `continuidad_inventada` ("el otro día", "me quedó dando vueltas", "esta mañana", "lately") en 14 de 72 respuestas de
 Anthropic contra 1 de 54 de OpenAI (y 3 de 6 de GLM, 3 de 18 de Google).
 
