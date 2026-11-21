@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 640" width="320" height="640">
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f7cff"/>
+      <stop offset="1" stop-color="#b14cff"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2e2e33"/>
+      <stop offset="0.5" stop-color="#121214"/>
+      <stop offset="1" stop-color="#2e2e33"/>
+    </linearGradient>
+    <linearGradient id="glare" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- botones laterales -->
+  <rect x="30" y="150" width="6" height="34" rx="3" fill="#3a3a3e"/>
+  <rect x="30" y="200" width="6" height="56" rx="3" fill="#3a3a3e"/>
+  <rect x="30" y="266" width="6" height="56" rx="3" fill="#3a3a3e"/>
+  <rect x="284" y="210" width="6" height="80" rx="3" fill="#3a3a3e"/>
+
+  <!-- cuerpo -->
+  <rect x="34" y="20" width="252" height="600" rx="44" fill="url(#body)" stroke="#55555c" stroke-width="2"/>
+  <rect x="42" y="28" width="236" height="584" rx="38" fill="#0a0a0c"/>
+
+  <!-- pantalla -->
+  <rect x="50" y="36" width="220" height="568" rx="32" fill="url(#screen)"/>
+
+  <!-- barra de estado -->
+  <text x="70" y="62" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff">9:41</text>
+  <rect x="204" y="58" width="3" height="5" rx="1" fill="#fff"/>
+  <rect x="209" y="55" width="3" height="8" rx="1" fill="#fff"/>
+  <rect x="214" y="52" width="3" height="11" rx="1" fill="#fff"/>
+  <rect x="219" y="49" width="3" height="14" rx="1" fill="#fff"/>
+  <rect x="229" y="51" width="22" height="12" rx="3" fill="none" stroke="#fff" stroke-width="1.5"/>
+  <rect x="231" y="53" width="15" height="8" rx="1.5" fill="#fff"/>
+  <rect x="252" y="55" width="2" height="4" rx="1" fill="#fff"/>
+
+  <!-- isla / cámara frontal -->
+  <rect x="120" y="44" width="80" height="22" rx="11" fill="#0a0a0c"/>
+  <circle cx="186" cy="55" r="5" fill="#1b1b2e"/>
+  <circle cx="186" cy="55" r="2.5" fill="#2b3a6b"/>
+  <circle cx="187.5" cy="53.5" r="0.9" fill="#8fa8ff"/>
+
+  <!-- reloj -->
+  <text x="160" y="150" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="56" font-weight="300" fill="#fff">9:41</text>
+  <text x="160" y="174" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" fill-opacity="0.85">miércoles 18 de noviembre</text>
+
+  <!-- grilla de apps -->
+  <g>
+    <rect x="62" y="210" width="40" height="40" rx="10" fill="#ff5e5b"/>
+    <path d="M74 236 q-6 -10 2 -14 l3 5 -2 3 q3 5 8 8 l3 -2 5 3 q-4 8 -14 2z" fill="#fff"/>
+    <rect x="114" y="210" width="40" height="40" rx="10" fill="#ffd166"/>
+    <circle cx="134" cy="230" r="9" fill="none" stroke="#fff" stroke-width="3"/>
+    <rect x="166" y="210" width="40" height="40" rx="10" fill="#06d6a0"/>
+    <path d="M176 226 a10 7 0 1 1 6 7 l-5 3 1 -4 a10 7 0 0 1 -2 -6z" fill="#fff"/>
+    <rect x="218" y="210" width="40" height="40" rx="10" fill="#f8f9fa"/>
+    <rect x="226" y="220" width="24" height="20" rx="3" fill="#ff5e5b"/>
+    <rect x="226" y="225" width="24" height="15" rx="2" fill="#fff"/>
+
+    <rect x="62" y="266" width="40" height="40" rx="10" fill="#118ab2"/>
+    <circle cx="82" cy="286" r="9" fill="none" stroke="#fff" stroke-width="2.5"/>
+    <path d="M82 279 v7 l5 3" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="114" y="266" width="40" height="40" rx="10" fill="#ef476f"/>
+    <path d="M134 296 c-8 -6 -12 -10 -12 -15 a5 5 0 0 1 12 -3 a5 5 0 0 1 12 3 c0 5 -4 9 -12 15z" fill="#fff"/>
+    <rect x="166" y="266" width="40" height="40" rx="10" fill="#fff" fill-opacity="0.92"/>
+    <rect x="176" y="278" width="20" height="16" rx="3" fill="#333"/>
+    <circle cx="186" cy="286" r="4" fill="#9ad"/>
+    <rect x="218" y="266" width="40" height="40" rx="10" fill="#073b4c"/>
+    <path d="M233 279 l12 7 -12 7z" fill="#fff"/>
+
+    <rect x="62" y="322" width="40" height="40" rx="10" fill="#8338ec"/>
+    <path d="M82 332 l3 6 7 1 -5 5 1 7 -6 -3 -6 3 1 -7 -5 -5 7 -1z" fill="#fff"/>
+    <rect x="114" y="322" width="40" height="40" rx="10" fill="#3a86ff"/>
+    <circle cx="134" cy="342" r="9" fill="none" stroke="#fff" stroke-width="2.5"/>
+    <path d="M125 342 h18 M134 333 c-5 5 -5 13 0 18 c5 -5 5 -13 0 -18" fill="none" stroke="#fff" stroke-width="2"/>
+    <rect x="166" y="322" width="40" height="40" rx="10" fill="#fb5607"/>
+    <path d="M186 332 v20 M176 342 h20" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <rect x="218" y="322" width="40" height="40" rx="10" fill="#ffbe0b"/>
+    <circle cx="238" cy="342" r="7" fill="#fff"/>
+  </g>
+
+  <!-- puntos de página -->
+  <circle cx="150" cy="505" r="3" fill="#fff"/>
+  <circle cx="160" cy="505" r="3" fill="#fff" fill-opacity="0.45"/>
+  <circle cx="170" cy="505" r="3" fill="#fff" fill-opacity="0.45"/>
+
+  <!-- dock -->
+  <rect x="62" y="520" width="196" height="64" rx="20" fill="#fff" fill-opacity="0.22"/>
+  <rect x="69" y="532" width="40" height="40" rx="10" fill="#2ecc71"/>
+  <path d="M81 558 q-6 -10 2 -14 l3 5 -2 3 q3 5 8 8 l3 -2 5 3 q-4 8 -14 2z" fill="#fff"/>
+  <rect x="116" y="532" width="40" height="40" rx="10" fill="#4cc9f0"/>
+  <circle cx="136" cy="552" r="9" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <path d="M136 543 l3 6 6 1 -4 4 1 6 -6 -3 -6 3 1 -6 -4 -4 6 -1z" fill="#fff"/>
+  <rect x="164" y="532" width="40" height="40" rx="10" fill="#f1f3f5"/>
+  <path d="M172 552 l12 -10 12 10 v12 h-24z" fill="#4361ee"/>
+  <rect x="181" y="556" width="6" height="8" fill="#fff"/>
+  <rect x="211" y="532" width="40" height="40" rx="10" fill="#f72585"/>
+  <path d="M225 545 a6 6 0 0 1 12 0 v10 a6 6 0 0 1 -12 0z M222 554 a9 9 0 0 0 18 0 M231 563 v5" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- indicador de inicio -->
+  <rect x="110" y="592" width="100" height="5" rx="2.5" fill="#fff" fill-opacity="0.9"/>
+
+  <!-- brillo del vidrio -->
+  <rect x="50" y="36" width="220" height="568" rx="32" fill="url(#glare)"/>
+</svg>

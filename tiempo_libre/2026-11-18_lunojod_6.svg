@@ -1,0 +1,268 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Lunojod 1 sobre la superficie de la Luna, con la Tierra en el cielo">
+  <title>Lunojod 1 sobre la Luna</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#020309"/>
+      <stop offset="1" stop-color="#0c1022"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#aeb1b6"/>
+      <stop offset="0.3" stop-color="#8d9096"/>
+      <stop offset="1" stop-color="#5a5d63"/>
+    </linearGradient>
+    <radialGradient id="earth" cx="0.36" cy="0.34" r="0.78">
+      <stop offset="0" stop-color="#a9dcff"/>
+      <stop offset="0.55" stop-color="#2f80d8"/>
+      <stop offset="1" stop-color="#0a2a60"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f7f9"/>
+      <stop offset="0.55" stop-color="#cfd4da"/>
+      <stop offset="1" stop-color="#858d97"/>
+    </linearGradient>
+    <linearGradient id="lidEdge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#a9b0b8"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b8bfc7"/>
+      <stop offset="1" stop-color="#6f777f"/>
+    </linearGradient>
+    <pattern id="cells" patternUnits="userSpaceOnUse" width="12" height="11">
+      <rect width="12" height="11" fill="#17284a"/>
+      <rect x="0.8" y="0.8" width="10.4" height="9.4" fill="#2a4a84" stroke="#6a93d6" stroke-width="0.6"/>
+    </pattern>
+    <clipPath id="earthClip"><circle cx="690" cy="85" r="36"/></clipPath>
+    <g id="wheel">
+      <circle r="22" fill="#23262c"/>
+      <circle r="18.5" fill="none" stroke="#8d949d" stroke-width="1" stroke-dasharray="1.6 2.2"/>
+      <circle r="13" fill="none" stroke="#8d949d" stroke-width="1" stroke-dasharray="1.6 2.2"/>
+      <g stroke="#d3d8de" stroke-width="1.6" stroke-linecap="round">
+        <line x1="0" y1="-20" x2="0" y2="20"/>
+        <line x1="-20" y1="0" x2="20" y2="0"/>
+        <line x1="-14.1" y1="-14.1" x2="14.1" y2="14.1"/>
+        <line x1="-14.1" y1="14.1" x2="14.1" y2="-14.1"/>
+      </g>
+      <circle r="22" fill="none" stroke="#dfe3e8" stroke-width="3"/>
+      <circle r="22" fill="none" stroke="#5c636b" stroke-width="3" stroke-dasharray="2.5 3.5"/>
+      <circle r="5.5" fill="#8a919a" stroke="#4a5058" stroke-width="1"/>
+      <circle r="1.8" fill="#3a3f47"/>
+    </g>
+  </defs>
+
+  <!-- Cielo -->
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <g fill="#ffffff">
+    <circle cx="30" cy="42" r="1.3"/><circle cx="82" cy="118" r="0.9"/><circle cx="142" cy="58" r="1.6"/>
+    <circle cx="204" cy="26" r="1"/><circle cx="258" cy="142" r="0.9"/><circle cx="312" cy="72" r="1.4"/>
+    <circle cx="372" cy="32" r="1"/><circle cx="422" cy="112" r="1.2"/><circle cx="468" cy="52" r="0.9"/>
+    <circle cx="522" cy="182" r="1.1"/><circle cx="562" cy="22" r="1.5"/><circle cx="612" cy="146" r="0.9"/>
+    <circle cx="652" cy="214" r="1.2"/><circle cx="742" cy="38" r="1"/><circle cx="772" cy="112" r="1.4"/>
+    <circle cx="102" cy="222" r="1"/><circle cx="182" cy="192" r="0.8"/><circle cx="242" cy="252" r="1.1"/>
+    <circle cx="62" cy="272" r="0.9"/><circle cx="342" cy="202" r="0.8"/><circle cx="402" cy="242" r="1"/>
+    <circle cx="452" cy="162" r="1.3"/><circle cx="502" cy="92" r="0.8"/><circle cx="582" cy="252" r="1"/>
+    <circle cx="632" cy="48" r="0.9"/><circle cx="722" cy="252" r="1.2"/><circle cx="762" cy="202" r="0.8"/>
+    <circle cx="22" cy="162" r="1"/><circle cx="292" cy="14" r="0.9"/><circle cx="132" cy="152" r="1.2"/>
+    <circle cx="532" cy="34" r="0.8"/><circle cx="482" cy="222" r="0.9"/><circle cx="702" cy="20" r="1"/>
+    <circle cx="362" cy="130" r="0.8"/><circle cx="222" cy="98" r="1.4"/>
+  </g>
+
+  <!-- Tierra -->
+  <g>
+    <circle cx="690" cy="85" r="38.5" fill="none" stroke="#7fb8ff" stroke-width="2.5" opacity=".4"/>
+    <circle cx="690" cy="85" r="36" fill="url(#earth)"/>
+    <g clip-path="url(#earthClip)">
+      <path d="M662,74 q10,-14 26,-8 q10,10 -1,20 q-16,8 -25,-12 z" fill="#4f8d3e" opacity=".9"/>
+      <path d="M688,98 q13,-6 20,6 q-3,13 -17,9 q-9,-5 -3,-15 z" fill="#4f8d3e" opacity=".9"/>
+      <path d="M700,60 q8,-4 12,4 q-4,6 -12,2 z" fill="#4f8d3e" opacity=".8"/>
+      <path d="M656,88 q16,-10 34,-4 q-16,10 -34,4 z" fill="#ffffff" opacity=".75"/>
+      <path d="M672,108 q12,-7 26,-1 q-14,7 -26,1 z" fill="#ffffff" opacity=".7"/>
+      <path d="M680,64 q10,-5 18,0 q-9,5 -18,0 z" fill="#ffffff" opacity=".6"/>
+      <path d="M690,49 A36,36 0 0 1 690,121 A17,36 0 0 0 690,49 Z" fill="#000" opacity=".62"/>
+    </g>
+  </g>
+
+  <!-- Colina lejana y suelo lunar -->
+  <path d="M0,330 L0,318 Q70,272 170,302 Q230,312 300,302 L300,330 Z" fill="#a9acb1"/>
+  <path d="M0,312 C200,298 600,296 800,318 L800,500 L0,500 Z" fill="url(#ground)"/>
+  <path d="M0,312 C200,298 600,296 800,318" fill="none" stroke="#d2d5d9" stroke-width="1.2" opacity=".55"/>
+
+  <!-- Cráteres -->
+  <g>
+    <ellipse cx="200" cy="339" rx="36" ry="5.5" fill="#6e7177"/>
+    <ellipse cx="200" cy="337.5" rx="36" ry="5.5" fill="none" stroke="#c4c7cc" stroke-width="1.5"/>
+    <ellipse cx="199" cy="340" rx="28" ry="3.4" fill="#4e5258"/>
+  </g>
+  <g>
+    <ellipse cx="640" cy="360" rx="62" ry="10" fill="#6a6d73"/>
+    <ellipse cx="640" cy="357.5" rx="62" ry="10" fill="none" stroke="#c4c7cc" stroke-width="2"/>
+    <ellipse cx="638" cy="362" rx="50" ry="6.5" fill="#484c52"/>
+    <path d="M592,362 Q638,374 686,362" fill="none" stroke="#8c9096" stroke-width="1.5" opacity=".8"/>
+  </g>
+  <g>
+    <ellipse cx="130" cy="446" rx="92" ry="20" fill="#60646a"/>
+    <ellipse cx="130" cy="442" rx="92" ry="20" fill="none" stroke="#bdc0c5" stroke-width="3"/>
+    <ellipse cx="128" cy="449" rx="74" ry="13" fill="#434750"/>
+    <path d="M58,450 Q128,472 202,450" fill="none" stroke="#8c9096" stroke-width="2" opacity=".8"/>
+    <ellipse cx="150" cy="452" rx="10" ry="2.5" fill="#2f3339" opacity=".6"/>
+  </g>
+  <g>
+    <ellipse cx="700" cy="474" rx="78" ry="16" fill="#62666c"/>
+    <ellipse cx="700" cy="471" rx="78" ry="16" fill="none" stroke="#bdc0c5" stroke-width="2.5"/>
+    <ellipse cx="698" cy="476" rx="62" ry="10" fill="#45494f"/>
+    <path d="M640,476 Q698,494 760,476" fill="none" stroke="#8c9096" stroke-width="2" opacity=".8"/>
+  </g>
+  <ellipse cx="190" cy="394" rx="20" ry="4" fill="#4d5157"/>
+  <ellipse cx="190" cy="392.5" rx="20" ry="4" fill="none" stroke="#b9bcc1" stroke-width="1.2"/>
+
+  <!-- Rocas y guijarros -->
+  <g>
+    <path d="M556,440 l14,-17 l20,4 l8,15 z" fill="#969aa1"/>
+    <path d="M570,423 l20,4 l8,15 l-20,0 z" fill="#5a5e65"/>
+    <path d="M88,382 l8,-10 l13,2 l5,9 z" fill="#969aa1"/>
+    <path d="M96,372 l13,2 l5,9 l-10,0 z" fill="#5a5e65"/>
+    <path d="M738,422 l10,-13 l15,3 l7,11 z" fill="#8f939a"/>
+    <path d="M748,409 l15,3 l7,11 l-11,0 z" fill="#575b62"/>
+    <path d="M30,468 l12,-14 l18,3 l9,13 z" fill="#8f939a"/>
+    <path d="M42,454 l18,3 l9,13 l-14,0 z" fill="#555960"/>
+  </g>
+  <g fill="#4f535a" opacity=".55">
+    <ellipse cx="320" cy="430" rx="3" ry="1.4"/><ellipse cx="410" cy="455" rx="4" ry="1.8"/>
+    <ellipse cx="470" cy="432" rx="2.5" ry="1.2"/><ellipse cx="520" cy="470" rx="3.5" ry="1.5"/>
+    <ellipse cx="250" cy="480" rx="4" ry="1.8"/><ellipse cx="610" cy="412" rx="3" ry="1.3"/>
+    <ellipse cx="350" cy="492" rx="5" ry="2"/><ellipse cx="760" cy="392" rx="2.5" ry="1"/>
+    <ellipse cx="430" cy="416" rx="2.2" ry="1"/><ellipse cx="560" cy="494" rx="4" ry="1.8"/>
+    <ellipse cx="300" cy="372" rx="2" ry="0.9"/><ellipse cx="660" cy="440" rx="3" ry="1.3"/>
+    <ellipse cx="150" cy="410" rx="2.5" ry="1.1"/><ellipse cx="40" cy="420" rx="3" ry="1.3"/>
+    <ellipse cx="590" cy="384" rx="2" ry="0.9"/>
+  </g>
+  <g fill="#c3c6cb" opacity=".6">
+    <ellipse cx="330" cy="470" rx="2" ry="0.9"/><ellipse cx="690" cy="430" rx="2.5" ry="1.1"/>
+    <ellipse cx="215" cy="462" rx="2" ry="0.9"/><ellipse cx="500" cy="446" rx="1.8" ry="0.8"/>
+  </g>
+
+  <!-- Huellas de las ruedas -->
+  <g fill="none" stroke="#4b4f56" stroke-linecap="round" opacity=".75">
+    <path d="M478,404 C580,400 690,362 800,332" stroke-width="4.5" stroke-dasharray="6 3.5"/>
+    <path d="M490,392 C588,388 692,354 800,326" stroke-width="3.5" stroke-dasharray="5 3"/>
+  </g>
+  <g fill="none" stroke="#b3b6bb" opacity=".45">
+    <path d="M478,407 C580,403 690,365 800,335" stroke-width="1.2"/>
+    <path d="M490,395 C588,391 692,357 800,329" stroke-width="1"/>
+  </g>
+
+  <!-- Sombras -->
+  <ellipse cx="380" cy="403" rx="162" ry="8" fill="#000" opacity=".5"/>
+  <ellipse cx="560" cy="401" rx="110" ry="5.5" fill="#000" opacity=".3"/>
+  <g fill="#3a3e44" opacity=".5">
+    <ellipse cx="270" cy="400" rx="24" ry="3"/><ellipse cx="330" cy="400" rx="24" ry="3"/>
+    <ellipse cx="390" cy="400" rx="24" ry="3"/><ellipse cx="450" cy="400" rx="24" ry="3"/>
+  </g>
+
+  <!-- Lunojod 1: ruedas del lado lejano -->
+  <g opacity=".55">
+    <use xlink:href="#wheel" x="282" y="367"/>
+    <use xlink:href="#wheel" x="342" y="367"/>
+    <use xlink:href="#wheel" x="402" y="367"/>
+    <use xlink:href="#wheel" x="462" y="367"/>
+  </g>
+
+  <!-- Bastidor y suspensión -->
+  <g fill="#3f444b">
+    <rect x="256" y="365" width="214" height="7" rx="2"/>
+    <rect x="266" y="368" width="8" height="12" rx="1.5"/>
+    <rect x="326" y="368" width="8" height="12" rx="1.5"/>
+    <rect x="386" y="368" width="8" height="12" rx="1.5"/>
+    <rect x="446" y="368" width="8" height="12" rx="1.5"/>
+  </g>
+
+  <!-- Calefactor isotópico trasero -->
+  <g>
+    <rect x="474" y="337" width="24" height="28" rx="3" fill="url(#metal)" stroke="#4a505a" stroke-width="1"/>
+    <g stroke="#4a505a" stroke-width="1">
+      <line x1="476" y1="344" x2="496" y2="344"/>
+      <line x1="476" y1="350" x2="496" y2="350"/>
+      <line x1="476" y1="356" x2="496" y2="356"/>
+    </g>
+  </g>
+
+  <!-- Novena rueda (odómetro) -->
+  <line x1="478" y1="362" x2="494" y2="386" stroke="#4a505a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="494" cy="392" r="7.5" fill="#23262c" stroke="#d3d8de" stroke-width="2"/>
+  <circle cx="494" cy="392" r="2" fill="#8a919a"/>
+
+  <!-- Cuerpo en forma de bañera -->
+  <path d="M250,316 H475 V350 Q475,370 455,370 H270 Q250,370 250,350 Z" fill="url(#body)" stroke="#5b6168" stroke-width="1.5"/>
+  <rect x="249" y="312" width="227" height="5" fill="#e9ebee" stroke="#5b6168" stroke-width="1"/>
+  <line x1="252" y1="338" x2="473" y2="338" stroke="#9aa1aa" stroke-width="1"/>
+  <line x1="256" y1="326" x2="470" y2="326" stroke="#7c848d" stroke-width="1" stroke-dasharray="2 5"/>
+  <rect x="300" y="344" width="60" height="16" rx="2" fill="none" stroke="#9aa1aa" stroke-width="1"/>
+  <rect x="380" y="344" width="60" height="16" rx="2" fill="none" stroke="#9aa1aa" stroke-width="1"/>
+
+  <!-- Tapa abierta con celdas solares -->
+  <g transform="translate(472,312) rotate(-56)">
+    <rect x="0" y="-44" width="214" height="44" fill="url(#cells)" stroke="#e9ebee" stroke-width="2"/>
+    <line x1="71" y1="-44" x2="71" y2="0" stroke="#e9ebee" stroke-width="1.5"/>
+    <line x1="142" y1="-44" x2="142" y2="0" stroke="#e9ebee" stroke-width="1.5"/>
+    <rect x="0" y="0" width="214" height="7" fill="url(#lidEdge)" stroke="#6b7078" stroke-width="1"/>
+    <rect x="211" y="-44" width="4" height="51" fill="#ffffff" stroke="#6b7078" stroke-width=".8"/>
+    <circle cx="0" cy="0" r="4.5" fill="#5b6168" stroke="#2f3339" stroke-width="1"/>
+  </g>
+  <line x1="446" y1="314" x2="517" y2="246" stroke="#aab1b9" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Cámaras frontales de TV -->
+  <g>
+    <rect x="234" y="325" width="17" height="10" rx="2" fill="#a9afb7" stroke="#5b6168" stroke-width="1"/>
+    <circle cx="235" cy="330" r="3.2" fill="#0f1319" stroke="#7c848d" stroke-width="1"/>
+    <rect x="234" y="343" width="17" height="10" rx="2" fill="#a9afb7" stroke="#5b6168" stroke-width="1"/>
+    <circle cx="235" cy="348" r="3.2" fill="#0f1319" stroke="#7c848d" stroke-width="1"/>
+  </g>
+
+  <!-- Retrorreflector láser -->
+  <g>
+    <rect x="254" y="297" width="24" height="15" fill="#cfd4da" stroke="#5b6168" stroke-width="1"/>
+    <g fill="#8fb6dd" stroke="#3b5f85" stroke-width=".6">
+      <rect x="256" y="299" width="6" height="5"/><rect x="263" y="299" width="6" height="5"/><rect x="270" y="299" width="6" height="5"/>
+      <rect x="256" y="305" width="6" height="5"/><rect x="263" y="305" width="6" height="5"/><rect x="270" y="305" width="6" height="5"/>
+    </g>
+  </g>
+
+  <!-- Antenas -->
+  <line x1="298" y1="312" x2="290" y2="212" stroke="#e9ebee" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="290" cy="211" r="2.6" fill="#e9ebee"/>
+  <line x1="264" y1="312" x2="254" y2="258" stroke="#d3d8de" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M250,258 l8,0 l-4,-9 z" fill="#d3d8de"/>
+  <g transform="rotate(12 345 312)">
+    <polygon points="339,312 351,312 365,236 325,236" fill="#1b1f27" opacity=".55" stroke="#d3d8de" stroke-width="1.2"/>
+    <g fill="none" stroke="#eef0f3" stroke-width="1.2">
+      <ellipse cx="345" cy="248" rx="18" ry="3"/>
+      <ellipse cx="345" cy="260" rx="16" ry="2.8"/>
+      <ellipse cx="345" cy="272" rx="14" ry="2.6"/>
+      <ellipse cx="345" cy="284" rx="12" ry="2.4"/>
+      <ellipse cx="345" cy="296" rx="9" ry="2.2"/>
+      <ellipse cx="345" cy="306" rx="7" ry="2"/>
+    </g>
+    <ellipse cx="345" cy="236" rx="20" ry="3.8" fill="#2a2e36" stroke="#eef0f3" stroke-width="1.4"/>
+    <rect x="341" y="305" width="8" height="8" fill="#8a919a" stroke="#4a5058" stroke-width="1"/>
+  </g>
+
+  <!-- Cámaras panorámicas -->
+  <g>
+    <rect x="392" y="294" width="11" height="19" rx="2.5" fill="url(#metal)" stroke="#5b6168" stroke-width="1"/>
+    <ellipse cx="397.5" cy="294.5" rx="5.5" ry="2" fill="#1b1f27" stroke="#9aa1aa" stroke-width=".8"/>
+    <rect x="416" y="300" width="9" height="13" rx="2" fill="url(#metal)" stroke="#5b6168" stroke-width="1"/>
+    <ellipse cx="420.5" cy="300.5" rx="4.5" ry="1.7" fill="#1b1f27" stroke="#9aa1aa" stroke-width=".8"/>
+  </g>
+
+  <!-- Banderín -->
+  <rect x="278" y="320" width="11" height="8" fill="#b3261e" stroke="#7a1812" stroke-width=".8"/>
+  <circle cx="283.5" cy="324" r="1.8" fill="#f2c200"/>
+
+  <!-- Ruedas del lado cercano -->
+  <g>
+    <use xlink:href="#wheel" x="270" y="378"/>
+    <use xlink:href="#wheel" x="330" y="378"/>
+    <use xlink:href="#wheel" x="390" y="378"/>
+    <use xlink:href="#wheel" x="450" y="378"/>
+  </g>
+</svg>

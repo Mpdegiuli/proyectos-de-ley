@@ -1,0 +1,73 @@
+1. La razón 21:19
+   21/19 = 1.10526; un semitono temperado es 2^(1/12) = 1.05946; un tono, 1.12246.
+   En cents, 21:19 son 173.3 (un semitono son 100, un tono 200).
+   filas: 770/697 = 1.1047, 852/770 = 1.1065, 941/852 = 1.1045
+   columnas: 1336/1209 = 1.1050, 1477/1336 = 1.1055, 1633/1477 = 1.1056
+   grupo B de 1960: 1209/1094 = 1.1051, 1336/1209 = 1.1050, 1477/1336 = 1.1055
+   941 * (21/19)^1.5 = 1093.4 (el 1.094 del artículo de 1960)
+   941 * (21/19)^2.5 = 1208.5 (el 1.209 del estándar)
+   la serie entera desde 941 con medio paso de corrimiento: 1093.4, 1208.5, 1335.7, 1476.3, 1631.7
+   es decir, 1.094, 1.209, 1.336, 1.477 y 1.633 son cinco términos seguidos de la misma serie;
+   el estándar de 1963 dejó los cuatro de arriba y el artículo de 1960 tenía los cuatro de abajo.
+   desde 697: 697.0, 770.4, 851.5, 941.1 (697, 770, 852, 941)
+
+2. Cada tono contra la escala temperada (La4 = 440 Hz)
+   tono     nota    frecuencia de la nota   desvío (cents)   desvío (%)
+     697   Fa5        698.46 Hz              -3.6         -0.21 %
+     770   Sol5       783.99 Hz             -31.2         -1.78 %
+     852   Sol#5      830.61 Hz             +44.0         +2.58 %
+     941   La#5       932.33 Hz             +16.0         +0.93 %
+    1209   Re6       1174.66 Hz             +49.9         +2.92 %
+    1336   Mi6       1318.51 Hz             +22.8         +1.33 %
+    1477   Fa#6      1479.98 Hz              -3.5         -0.20 %
+    1633   Sol#6     1661.22 Hz             -29.7         -1.70 %
+   (un cuarto de tono son 50 cents; el oído distingue unos 5 o 6 cents en tonos puros sostenidos)
+
+3. El intervalo de cada tecla (tono agudo / tono grave) y la diagonal más cercana
+   tecla  grave  agudo   razón    cents   intervalo justo más cercano    diagonal más cercana (desvío en %)
+     1     697   1209   1.7346     954   séptima menor  (  -64 cents)   3:5 (sexta mayor)      +4.1 %
+     2     697   1336   1.9168    1126   séptima mayor  (  +38 cents)   1:2 (octava)           -4.2 %
+     3     697   1477   2.1191    1300   octava         ( +100 cents)   1:2 (octava)           +6.0 %
+     A     697   1633   2.3429    1474   octava         ( +274 cents)   1:2 (octava)           +17.1 %
+     4     770   1209   1.5701     781   sexta menor    (  -33 cents)   2:3 (quinta)           +4.7 %
+     5     770   1336   1.7351     954   séptima menor  (  -64 cents)   3:5 (sexta mayor)      +4.1 %
+     6     770   1477   1.9182    1128   séptima mayor  (  +39 cents)   1:2 (octava)           -4.1 %
+     B     770   1633   2.1208    1302   octava         ( +102 cents)   1:2 (octava)           +6.0 %
+     7     852   1209   1.4190     606   tritono        (  +16 cents)   2:3 (quinta)           -5.4 %
+     8     852   1336   1.5681     779   sexta menor    (  -35 cents)   2:3 (quinta)           +4.5 %
+     9     852   1477   1.7336     952   séptima menor  (  -65 cents)   3:5 (sexta mayor)      +4.0 %
+     C     852   1633   1.9167    1126   séptima mayor  (  +38 cents)   1:2 (octava)           -4.2 %
+     *     941   1209   1.2848     434   tercera mayor  (  +48 cents)   4:5 (tercera mayor)    +2.8 %
+     0     941   1336   1.4198     607   tritono        (  +17 cents)   2:3 (quinta)           -5.3 %
+     #     941   1477   1.5696     780   sexta menor    (  -33 cents)   2:3 (quinta)           +4.6 %
+     D     941   1633   1.7354     954   séptima menor  (  -63 cents)   3:5 (sexta mayor)      +4.1 %
+   la tecla más cerca de una diagonal prohibida es *: 4:5 (tercera mayor), a +2.8 % (la ventana de reconocimiento del artículo es ±2 %).
+   Con 1.094 en vez de 1.633 (el código de 1960), las cuatro teclas de la columna baja daban:
+     697-1094: razón 1.5696, 2:3 (quinta) a +4.6 %
+     770-1094: razón 1.4208, 2:3 (quinta) a -5.3 %
+     852-1094: razón 1.2840, 4:5 (tercera mayor) a +2.7 %
+     941-1094: razón 1.1626, 5:6 (tercera menor) a -3.1 %
+
+4. Qué tecla marcaría un zumbido con armónicos puros (fundamental f0, armónicos m·f0 y n·f0)
+   Una tecla se 'marca' si algún armónico cae a ±2 % de su tono grave y otro a ±2 % de su agudo.
+   f0 de 80 a 400 Hz, de a 1 Hz; se listan los tramos de f0 que marcan cada tecla.
+   1: 85.4-88.0 Hz (armónicos 8 y 14); 98.8-101.5 Hz (armónicos 7 y 12); 136.7-137.0 Hz (armónicos 5 y 9); 170.8-176.1 Hz (armónicos 4 y 7)
+   2: 87.3-88.8 Hz (armónicos 8 y 15); 100.8-101.5 Hz (armónicos 7 y 13)
+   3: 85.4-88.6 Hz (armónicos 8 y 17); 97.6-100.4 Hz (armónicos 7 y 15); 113.9-115.8 Hz (armónicos 6 y 13); 136.7-136.9 Hz (armónicos 5 y 11)
+   A: 85.4-87.6 Hz (armónicos 8 y 19); 97.6-97.9 Hz (armónicos 7 y 17); 100.1-101.5 Hz (armónicos 7 y 16); 114.4-118.4 Hz (armónicos 6 y 14); 136.7-138.8 Hz (armónicos 5 y 12); 228.7-236.9 Hz (armónicos 3 y 7)
+   4: 84.7-87.2 Hz (armónicos 9 y 14); 94.4-94.8 Hz (armónicos 8 y 13); 107.9-112.1 Hz (armónicos 7 y 11); 151.0-154.1 Hz (armónicos 5 y 8)
+   5: 83.9-85.1 Hz (armónicos 9 y 16); 94.4-97.3 Hz (armónicos 8 y 14); 109.2-112.1 Hz (armónicos 7 y 12); 151.0-151.4 Hz (armónicos 5 y 9); 188.7-194.6 Hz (armónicos 4 y 7)
+   6: 85.2-87.2 Hz (armónicos 9 y 17); 96.5-98.1 Hz (armónicos 8 y 15); 111.4-112.1 Hz (armónicos 7 y 13)
+   B: 84.3-87.2 Hz (armónicos 9 y 19); 94.4-97.9 Hz (armónicos 8 y 17); 107.9-111.0 Hz (armónicos 7 y 15); 125.8-128.1 Hz (armónicos 6 y 13); 151.0-151.4 Hz (armónicos 5 y 11)
+   7: 84.7-86.9 Hz (armónicos 10 y 14); 92.8-94.8 Hz (armónicos 9 y 13); 107.8-108.6 Hz (armónicos 8 y 11); 119.3-123.3 Hz (armónicos 7 y 10); 169.3-173.8 Hz (armónicos 5 y 7)
+   8: 83.5-85.1 Hz (armónicos 10 y 16); 93.6-96.5 Hz (armónicos 9 y 14); 104.4-104.8 Hz (armónicos 8 y 13); 119.3-123.8 Hz (armónicos 7 y 11); 167.0-170.3 Hz (armónicos 5 y 8)
+   9: 83.5-83.6 Hz (armónicos 10 y 18); 85.2-86.9 Hz (armónicos 10 y 17); 92.8-94.1 Hz (armónicos 9 y 16); 96.5-96.5 Hz (armónicos 9 y 15); 104.4-107.6 Hz (armónicos 8 y 14); 120.7-124.1 Hz (armónicos 7 y 12); 144.8-144.8 Hz (armónicos 6 y 10); 167.0-167.3 Hz (armónicos 5 y 9); 208.8-215.2 Hz (armónicos 4 y 7); 289.5-289.6 Hz (armónicos 3 y 5)
+   C: 84.3-86.9 Hz (armónicos 10 y 19); 94.2-96.5 Hz (armónicos 9 y 17); 106.7-108.6 Hz (armónicos 8 y 15); 123.2-124.1 Hz (armónicos 7 y 13)
+   *: 84.7-87.2 Hz (armónicos 11 y 14); 92.3-94.8 Hz (armónicos 10 y 13); 102.5-102.7 Hz (armónicos 9 y 12); 118.5-119.9 Hz (armónicos 8 y 10); 131.8-137.0 Hz (armónicos 7 y 9); 153.7-154.1 Hz (armónicos 6 y 8); 237.0-239.9 Hz (armónicos 4 y 5); 307.4-308.2 Hz (armónicos 3 y 4)
+   0: 83.9-85.1 Hz (armónicos 11 y 16); 93.6-95.9 Hz (armónicos 10 y 14); 102.5-104.8 Hz (armónicos 9 y 13); 119.1-119.9 Hz (armónicos 8 y 11); 131.8-136.2 Hz (armónicos 7 y 10); 187.1-191.9 Hz (armónicos 5 y 7)
+   #: 85.2-87.2 Hz (armónicos 11 y 17); 92.3-94.1 Hz (armónicos 10 y 16); 103.4-106.6 Hz (armónicos 9 y 14); 115.3-115.8 Hz (armónicos 8 y 13); 131.8-136.9 Hz (armónicos 7 y 11); 184.5-188.3 Hz (armónicos 5 y 8)
+   D: 84.3-87.2 Hz (armónicos 11 y 19); 92.3-92.5 Hz (armónicos 10 y 18); 94.2-95.9 Hz (armónicos 10 y 17); 102.5-104.1 Hz (armónicos 9 y 16); 115.3-118.9 Hz (armónicos 8 y 14); 133.4-137.1 Hz (armónicos 7 y 12); 184.5-185.0 Hz (armónicos 5 y 9); 230.6-237.9 Hz (armónicos 4 y 7)
+   Ejemplo: cantar un Fa3 (174,6 Hz) pone el 4º armónico en 698 y el 7º en 1.222: la tecla 1.
+   Lo que lo impide en un receptor de verdad es la 'acción de guardia': los demás armónicos
+   (el 5º, el 6º...) suenan con niveles comparables y el receptor no acepta la pareja.
+

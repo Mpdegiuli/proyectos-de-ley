@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#03030a"/>
+      <stop offset="1" stop-color="#0c0e1c"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a3a39b"/>
+      <stop offset="0.25" stop-color="#7e7e76"/>
+      <stop offset="1" stop-color="#45453f"/>
+    </linearGradient>
+    <radialGradient id="earth" cx="0.35" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#9fdcff"/>
+      <stop offset="0.5" stop-color="#2d7bd1"/>
+      <stop offset="1" stop-color="#0a2a5e"/>
+    </radialGradient>
+    <linearGradient id="hull" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6e6de"/>
+      <stop offset="0.6" stop-color="#b9b9b0"/>
+      <stop offset="1" stop-color="#7d7d75"/>
+    </linearGradient>
+    <linearGradient id="solar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b4f8f"/>
+      <stop offset="1" stop-color="#0e1f45"/>
+    </linearGradient>
+    <pattern id="cells" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="none" stroke="#8fb3ff" stroke-width="0.8" opacity="0.7"/>
+    </pattern>
+    <clipPath id="earthClip"><circle cx="130" cy="85" r="42"/></clipPath>
+    <g id="wheel">
+      <circle r="23.5" fill="none" stroke="#f0f0e8" stroke-width="2" stroke-dasharray="2 4.5"/>
+      <circle r="22" fill="#2a2a26" fill-opacity="0.35" stroke="#cfcfc6" stroke-width="3.5"/>
+      <circle r="17.5" fill="none" stroke="#9a9a92" stroke-width="1" stroke-dasharray="2 2"/>
+      <circle r="13" fill="none" stroke="#9a9a92" stroke-width="0.8" stroke-dasharray="1.5 2.5"/>
+      <g stroke="#bdbdb4" stroke-width="1.6">
+        <line x1="0" y1="-20" x2="0" y2="20"/>
+        <line x1="-20" y1="0" x2="20" y2="0"/>
+        <line x1="-14" y1="-14" x2="14" y2="14"/>
+        <line x1="-14" y1="14" x2="14" y2="-14"/>
+      </g>
+      <circle r="5.5" fill="#6a6a62" stroke="#e8e8e0" stroke-width="1.2"/>
+    </g>
+  </defs>
+
+  <!-- Cielo -->
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <g fill="#ffffff">
+    <circle cx="22" cy="18" r="1.2"/><circle cx="58" cy="120" r="0.8"/><circle cx="75" cy="210" r="1"/>
+    <circle cx="110" cy="160" r="0.7"/><circle cx="160" cy="30" r="1.1"/><circle cx="190" cy="140" r="0.8"/>
+    <circle cx="205" cy="70" r="0.6"/><circle cx="240" cy="22" r="1.3"/><circle cx="262" cy="110" r="0.8"/>
+    <circle cx="285" cy="180" r="0.7"/><circle cx="300" cy="45" r="1"/><circle cx="330" cy="90" r="0.6"/>
+    <circle cx="360" cy="20" r="1.2"/><circle cx="375" cy="150" r="0.8"/><circle cx="410" cy="60" r="0.9"/>
+    <circle cx="430" cy="115" r="0.6"/><circle cx="455" cy="30" r="1.1"/><circle cx="480" cy="170" r="0.7"/>
+    <circle cx="505" cy="80" r="0.8"/><circle cx="530" cy="25" r="1.3"/><circle cx="550" cy="130" r="0.7"/>
+    <circle cx="585" cy="55" r="0.9"/><circle cx="610" cy="180" r="0.8"/><circle cx="630" cy="20" r="1.1"/>
+    <circle cx="655" cy="110" r="0.7"/><circle cx="680" cy="65" r="1.2"/><circle cx="700" cy="200" r="0.8"/>
+    <circle cx="720" cy="30" r="0.9"/><circle cx="745" cy="140" r="0.7"/><circle cx="765" cy="80" r="1.2"/>
+    <circle cx="785" cy="210" r="0.8"/><circle cx="40" cy="260" r="0.7"/><circle cx="140" cy="245" r="0.9"/>
+    <circle cx="230" cy="230" r="0.6"/><circle cx="350" cy="230" r="0.8"/><circle cx="640" cy="250" r="0.7"/>
+    <circle cx="760" cy="250" r="0.9"/><circle cx="90" cy="25" r="0.6"/><circle cx="445" cy="220" r="0.6"/>
+    <circle cx="590" cy="120" r="0.6"/><circle cx="700" cy="245" r="0.6"/><circle cx="15" cy="170" r="0.8"/>
+    <circle cx="395" cy="195" r="0.5"/><circle cx="570" cy="230" r="0.6"/><circle cx="250" cy="160" r="1"/>
+    <circle cx="680" cy="65" r="3" opacity="0.15"/><circle cx="240" cy="22" r="3" opacity="0.15"/><circle cx="530" cy="25" r="3" opacity="0.15"/>
+  </g>
+
+  <!-- Tierra -->
+  <g>
+    <circle cx="130" cy="85" r="42" fill="url(#earth)"/>
+    <g clip-path="url(#earthClip)" fill="#ffffff" opacity="0.85">
+      <path d="M96,70 q14,-10 30,-2 q12,6 26,-2 q10,-6 22,2 l0,10 q-12,8 -26,2 q-14,-6 -28,2 q-14,6 -24,-4 z"/>
+      <path d="M100,105 q18,-8 36,0 q12,6 30,-2 l0,9 q-18,8 -34,0 q-14,-6 -32,2 z" opacity="0.7"/>
+      <ellipse cx="150" cy="60" rx="10" ry="4" opacity="0.6"/>
+      <path d="M112,120 q20,-6 44,2 l-4,8 q-20,-4 -40,-2 z" opacity="0.5"/>
+    </g>
+    <g clip-path="url(#earthClip)">
+      <circle cx="172" cy="85" r="46" fill="#000" opacity="0.62"/>
+    </g>
+    <circle cx="130" cy="85" r="42" fill="none" stroke="#bfe6ff" stroke-width="0.8" opacity="0.5"/>
+  </g>
+
+  <!-- Suelo lunar -->
+  <path d="M0,300 Q400,278 800,300 L800,500 L0,500 Z" fill="url(#ground)"/>
+  <path d="M0,300 Q400,278 800,300 L800,314 Q400,292 0,314 Z" fill="#b8b8b0" opacity="0.45"/>
+  <path d="M0,300 Q400,278 800,300" fill="none" stroke="#d6d6ce" stroke-width="1" opacity="0.6"/>
+
+  <!-- Cráteres -->
+  <g>
+    <ellipse cx="135" cy="425" rx="95" ry="30" fill="#8f8f87"/>
+    <ellipse cx="138" cy="424" rx="80" ry="22" fill="#4b4b45"/>
+    <ellipse cx="118" cy="424" rx="60" ry="18" fill="#353530" opacity="0.7"/>
+    <path d="M165,406 Q212,414 214,430" fill="none" stroke="#b8b8b0" stroke-width="3" opacity="0.6"/>
+    <ellipse cx="690" cy="385" rx="58" ry="17" fill="#8a8a82"/>
+    <ellipse cx="692" cy="384" rx="48" ry="12" fill="#4b4b45"/>
+    <ellipse cx="680" cy="384" rx="36" ry="10" fill="#353530" opacity="0.7"/>
+    <path d="M708,375 Q735,380 737,390" fill="none" stroke="#b8b8b0" stroke-width="2" opacity="0.6"/>
+    <ellipse cx="250" cy="312" rx="22" ry="4" fill="#6a6a62"/>
+    <ellipse cx="247" cy="312" rx="16" ry="2.5" fill="#44443f"/>
+    <ellipse cx="620" cy="308" rx="18" ry="3.5" fill="#6a6a62"/>
+    <ellipse cx="617" cy="308" rx="13" ry="2" fill="#44443f"/>
+    <ellipse cx="80" cy="322" rx="26" ry="5" fill="#6a6a62"/>
+    <ellipse cx="77" cy="322" rx="19" ry="3" fill="#44443f"/>
+    <ellipse cx="420" cy="470" rx="40" ry="11" fill="#5c5c55"/>
+    <ellipse cx="423" cy="469" rx="32" ry="8" fill="#3f3f3a"/>
+  </g>
+
+  <!-- Rocas y textura -->
+  <g>
+    <polygon points="600,445 618,432 640,438 648,452 620,458" fill="#3c3c37"/>
+    <polygon points="600,445 618,432 640,438 628,441 606,447" fill="#7a7a72"/>
+    <polygon points="300,420 310,412 322,416 324,424 306,426" fill="#3c3c37"/>
+    <polygon points="300,420 310,412 322,416 314,418 304,421" fill="#7a7a72"/>
+    <polygon points="740,460 756,450 776,456 780,468 752,472" fill="#3c3c37"/>
+    <polygon points="740,460 756,450 776,456 766,458 746,462" fill="#7a7a72"/>
+    <polygon points="200,350 207,345 215,348 216,354 204,355" fill="#3c3c37"/>
+    <polygon points="200,350 207,345 215,348 210,349 203,351" fill="#7a7a72"/>
+    <g fill="#000" opacity="0.15">
+      <circle cx="60" cy="370" r="2"/><circle cx="240" cy="395" r="1.5"/><circle cx="350" cy="360" r="1.8"/>
+      <circle cx="500" cy="420" r="2"/><circle cx="560" cy="470" r="1.5"/><circle cx="660" cy="430" r="1.8"/>
+      <circle cx="120" cy="480" r="2.2"/><circle cx="700" cy="490" r="1.5"/><circle cx="30" cy="440" r="1.6"/>
+    </g>
+    <g fill="#fff" opacity="0.18">
+      <circle cx="70" cy="368" r="1.5"/><circle cx="250" cy="393" r="1.2"/><circle cx="360" cy="358" r="1.4"/>
+      <circle cx="510" cy="418" r="1.5"/><circle cx="670" cy="428" r="1.3"/><circle cx="130" cy="478" r="1.6"/>
+    </g>
+  </g>
+
+  <!-- Huellas -->
+  <g fill="none" stroke="#4e4e47" stroke-linecap="round">
+    <path d="M538,330 C610,324 690,312 790,297" stroke-width="5" stroke-dasharray="3 3"/>
+    <path d="M540,321 C612,315 692,305 790,292" stroke-width="4" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- Sombra -->
+  <ellipse cx="460" cy="331" rx="170" ry="8" fill="#000" opacity="0.45"/>
+  <ellipse cx="625" cy="332" rx="60" ry="5" fill="#000" opacity="0.3"/>
+
+  <!-- Lunojod 1 -->
+  <g>
+    <!-- Ruedas lejanas -->
+    <g opacity="0.55">
+      <use href="#wheel" x="338" y="298"/>
+      <use href="#wheel" x="400" y="298"/>
+      <use href="#wheel" x="462" y="298"/>
+      <use href="#wheel" x="524" y="298"/>
+    </g>
+
+    <!-- Tapa abierta con celdas solares -->
+    <g transform="translate(512,224) rotate(28)">
+      <rect x="-40" y="-180" width="80" height="180" rx="36" fill="#cfcfc6" stroke="#8a8a82" stroke-width="2"/>
+      <rect x="-33" y="-173" width="66" height="166" rx="30" fill="url(#solar)"/>
+      <rect x="-33" y="-173" width="66" height="166" rx="30" fill="url(#cells)"/>
+      <rect x="-33" y="-173" width="66" height="166" rx="30" fill="none" stroke="#6f8fd0" stroke-width="1"/>
+      <path d="M-20,-160 q20,-8 40,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.35"/>
+    </g>
+    <g stroke="#55554f" stroke-width="2.5" stroke-linecap="round">
+      <line x1="504" y1="222" x2="510" y2="214"/>
+      <line x1="518" y1="222" x2="524" y2="214"/>
+    </g>
+
+    <!-- Bastidor y soportes -->
+    <rect x="318" y="290" width="214" height="7" rx="2" fill="#8c8c84"/>
+    <g stroke="#a0a098" stroke-width="4" stroke-linecap="round">
+      <line x1="330" y1="292" x2="330" y2="305"/>
+      <line x1="392" y1="292" x2="392" y2="305"/>
+      <line x1="454" y1="292" x2="454" y2="305"/>
+      <line x1="516" y1="292" x2="516" y2="305"/>
+    </g>
+
+    <!-- Casco (bañera) -->
+    <path d="M296,222 L524,222 L516,284 Q514,292 506,292 L314,292 Q306,292 304,284 Z" fill="url(#hull)" stroke="#5e5e57" stroke-width="1.5"/>
+    <g stroke="#6e6e66" stroke-width="1" opacity="0.5">
+      <line x1="303" y1="242" x2="519" y2="242"/>
+      <line x1="305" y1="262" x2="517" y2="262"/>
+      <line x1="307" y1="280" x2="515" y2="280"/>
+    </g>
+    <rect x="292" y="215" width="236" height="9" rx="3" fill="#eeeee6" stroke="#8a8a82" stroke-width="1"/>
+    <line x1="296" y1="219.5" x2="524" y2="219.5" stroke="#9a9a92" stroke-width="7" stroke-dasharray="1.2 8.8"/>
+
+    <!-- Detalles del casco -->
+    <circle cx="478" cy="254" r="11" fill="#a9a9a1" stroke="#5e5e57" stroke-width="1.2"/>
+    <circle cx="478" cy="254" r="7" fill="#8b8b83" stroke="#5e5e57" stroke-width="0.8"/>
+    <g fill="#5e5e57">
+      <circle cx="478" cy="244.5" r="1"/><circle cx="478" cy="263.5" r="1"/>
+      <circle cx="468.5" cy="254" r="1"/><circle cx="487.5" cy="254" r="1"/>
+    </g>
+    <rect x="392" y="238" width="18" height="12" fill="#c0202e" stroke="#7a1018" stroke-width="1"/>
+    <rect x="430" y="250" width="26" height="16" rx="1.5" fill="#9c9c94" stroke="#5e5e57" stroke-width="1"/>
+    <circle cx="443" cy="258" r="4" fill="#d8d8d0" stroke="#5e5e57" stroke-width="0.8"/>
+    <line x1="443" y1="258" x2="445.5" y2="255.5" stroke="#333" stroke-width="0.8"/>
+    <circle cx="335" cy="250" r="8" fill="#4a4a44" stroke="#d0d0c8" stroke-width="1.5"/>
+    <circle cx="335" cy="250" r="3" fill="#111"/>
+    <circle cx="333.5" cy="248.5" r="1" fill="#fff" opacity="0.8"/>
+
+    <!-- Cámaras y retrorreflector al frente -->
+    <rect x="278" y="232" width="22" height="13" rx="2" fill="#6e6e66" stroke="#3a3a36" stroke-width="1"/>
+    <circle cx="279" cy="238.5" r="4.5" fill="#15151a" stroke="#c8c8c0" stroke-width="1"/>
+    <circle cx="278" cy="237" r="1.2" fill="#fff" opacity="0.8"/>
+    <rect x="281" y="252" width="19" height="11" rx="2" fill="#6e6e66" stroke="#3a3a36" stroke-width="1"/>
+    <circle cx="282" cy="257.5" r="3.8" fill="#15151a" stroke="#c8c8c0" stroke-width="1"/>
+    <circle cx="281" cy="256" r="1" fill="#fff" opacity="0.8"/>
+    <rect x="284" y="203" width="14" height="13" fill="#2a2a30" stroke="#c9a84a" stroke-width="1.2"/>
+    <g stroke="#c9a84a" stroke-width="0.6" opacity="0.8">
+      <line x1="288.7" y1="203" x2="288.7" y2="216"/>
+      <line x1="293.3" y1="203" x2="293.3" y2="216"/>
+      <line x1="284" y1="209.5" x2="298" y2="209.5"/>
+    </g>
+
+    <!-- Antena cónica apuntando a la Tierra -->
+    <g transform="rotate(-15 316 216)">
+      <line x1="316" y1="216" x2="316" y2="188" stroke="#d0d0c8" stroke-width="2.5"/>
+      <polygon points="308,188 324,188 342,150 290,150" fill="#dcdcd4" stroke="#6e6e66" stroke-width="1.2"/>
+      <g stroke="#8a8a82" stroke-width="0.8">
+        <line x1="300" y1="170" x2="332" y2="170"/>
+        <line x1="304" y1="180" x2="328" y2="180"/>
+      </g>
+      <ellipse cx="316" cy="150" rx="26" ry="6" fill="#3a3a40" stroke="#c0c0b8" stroke-width="1.2"/>
+    </g>
+
+    <!-- Antena helicoidal -->
+    <line x1="352" y1="216" x2="352" y2="138" stroke="#c0c0b8" stroke-width="1.2"/>
+    <line x1="352" y1="214" x2="352" y2="140" stroke="#e6e6de" stroke-width="7" stroke-dasharray="1.6 3.4"/>
+    <circle cx="352" cy="136" r="2.5" fill="#f0f0e8"/>
+
+    <!-- Antenas de látigo -->
+    <line x1="500" y1="216" x2="548" y2="96" stroke="#e0e0d8" stroke-width="1.2"/>
+    <line x1="466" y1="216" x2="458" y2="118" stroke="#e0e0d8" stroke-width="1"/>
+    <circle cx="548" cy="96" r="1.5" fill="#fff"/>
+
+    <!-- Calentador de isótopos atrás -->
+    <rect x="524" y="248" width="14" height="24" rx="3" fill="#8a8a80" stroke="#55554f" stroke-width="1"/>
+    <g stroke="#55554f" stroke-width="0.8">
+      <line x1="524" y1="254" x2="538" y2="254"/>
+      <line x1="524" y1="260" x2="538" y2="260"/>
+      <line x1="524" y1="266" x2="538" y2="266"/>
+    </g>
+
+    <!-- Novena rueda (odómetro) -->
+    <path d="M518,286 L560,306" stroke="#9a9a92" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <use href="#wheel" transform="translate(562,316) scale(0.5)"/>
+
+    <!-- Ruedas cercanas -->
+    <use href="#wheel" x="330" y="305"/>
+    <use href="#wheel" x="392" y="305"/>
+    <use href="#wheel" x="454" y="305"/>
+    <use href="#wheel" x="516" y="305"/>
+
+    <!-- Regolito al pie de las ruedas -->
+    <g fill="#6b6b64" opacity="0.6">
+      <ellipse cx="330" cy="327" rx="14" ry="3"/>
+      <ellipse cx="392" cy="327" rx="14" ry="3"/>
+      <ellipse cx="454" cy="327" rx="14" ry="3"/>
+      <ellipse cx="516" cy="327" rx="14" ry="3"/>
+      <ellipse cx="562" cy="327" rx="7" ry="2"/>
+    </g>
+  </g>
+</svg>

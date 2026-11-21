@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="100%" r="90%">
+      <stop offset="0" stop-color="#171a2b"/>
+      <stop offset="1" stop-color="#03040a"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a3a29b"/>
+      <stop offset="1" stop-color="#585753"/>
+    </linearGradient>
+    <radialGradient id="earth" cx="38%" cy="36%" r="70%">
+      <stop offset="0" stop-color="#8fd0ff"/>
+      <stop offset="0.65" stop-color="#2d6fc4"/>
+      <stop offset="1" stop-color="#0b2a60"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ece6d6"/>
+      <stop offset="1" stop-color="#978f7e"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2ddcf"/>
+      <stop offset="1" stop-color="#a39d8d"/>
+    </linearGradient>
+    <pattern id="cells" width="14" height="16" patternUnits="userSpaceOnUse">
+      <rect width="14" height="16" fill="#182a5e"/>
+      <rect x="1" y="1" width="12" height="14" fill="#2b4fa6"/>
+      <rect x="1" y="1" width="12" height="4" fill="#4a73c9" opacity="0.6"/>
+    </pattern>
+    <clipPath id="earthClip"><circle cx="665" cy="100" r="44"/></clipPath>
+    <g id="wheel">
+      <circle r="25" fill="none" stroke="#8d8d8d" stroke-width="4" stroke-dasharray="2.5 4.5"/>
+      <circle r="23" fill="#242424" stroke="#9a9a9a" stroke-width="2.5"/>
+      <circle r="16" fill="none" stroke="#777" stroke-width="1.2" stroke-dasharray="2 2"/>
+      <g stroke="#c9c9c9" stroke-width="1.6">
+        <line x1="0" y1="-6" x2="0" y2="-22"/>
+        <line x1="0" y1="-6" x2="0" y2="-22" transform="rotate(45)"/>
+        <line x1="0" y1="-6" x2="0" y2="-22" transform="rotate(90)"/>
+        <line x1="0" y1="-6" x2="0" y2="-22" transform="rotate(135)"/>
+        <line x1="0" y1="-6" x2="0" y2="-22" transform="rotate(180)"/>
+        <line x1="0" y1="-6" x2="0" y2="-22" transform="rotate(225)"/>
+        <line x1="0" y1="-6" x2="0" y2="-22" transform="rotate(270)"/>
+        <line x1="0" y1="-6" x2="0" y2="-22" transform="rotate(315)"/>
+      </g>
+      <circle r="6" fill="#b5b5b5" stroke="#4d4d4d" stroke-width="1.5"/>
+      <circle r="2" fill="#4d4d4d"/>
+    </g>
+  </defs>
+
+  <!-- Cielo -->
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <g fill="#ffffff">
+    <circle cx="40" cy="30" r="1.2"/><circle cx="95" cy="80" r="0.8"/><circle cx="130" cy="22" r="1"/>
+    <circle cx="210" cy="60" r="1.4"/><circle cx="210" cy="60" r="3.5" opacity="0.15"/>
+    <circle cx="260" cy="15" r="0.8"/><circle cx="300" cy="95" r="1"/><circle cx="345" cy="40" r="0.9"/>
+    <circle cx="390" cy="120" r="0.7"/><circle cx="430" cy="25" r="1.2"/><circle cx="480" cy="70" r="0.8"/>
+    <circle cx="515" cy="140" r="1"/><circle cx="550" cy="35" r="0.9"/><circle cx="590" cy="110" r="0.7"/>
+    <circle cx="620" cy="20" r="1.1"/><circle cx="730" cy="45" r="0.9"/><circle cx="770" cy="140" r="1.2"/>
+    <circle cx="770" cy="140" r="3.5" opacity="0.15"/><circle cx="760" cy="20" r="0.7"/><circle cx="700" cy="180" r="0.8"/>
+    <circle cx="60" cy="150" r="0.9"/><circle cx="160" cy="130" r="0.7"/><circle cx="230" cy="200" r="1"/>
+    <circle cx="20" cy="220" r="0.8"/><circle cx="110" cy="250" r="0.9"/><circle cx="360" cy="180" r="0.7"/>
+    <circle cx="450" cy="210" r="1.1"/><circle cx="560" cy="230" r="0.8"/><circle cx="610" cy="270" r="0.7"/>
+    <circle cx="780" cy="250" r="1"/><circle cx="690" cy="300" r="0.8"/><circle cx="30" cy="300" r="0.9"/>
+    <circle cx="330" cy="260" r="0.6"/><circle cx="500" cy="290" r="0.7"/>
+  </g>
+
+  <!-- Tierra -->
+  <g>
+    <circle cx="665" cy="100" r="44" fill="url(#earth)"/>
+    <g clip-path="url(#earthClip)" fill="#4f9a4a" opacity="0.85">
+      <path d="M640,78 q12,-10 26,-4 q8,6 2,14 q-10,8 -20,2 q-12,-4 -8,-12z"/>
+      <path d="M662,112 q10,-6 18,2 q6,10 -2,18 q-10,6 -16,-4 q-4,-10 0,-16z"/>
+      <path d="M690,70 q8,2 10,10 q-2,8 -10,6 q-6,-6 0,-16z"/>
+    </g>
+    <g clip-path="url(#earthClip)" fill="#ffffff" opacity="0.7">
+      <path d="M628,96 q20,-4 40,2 q14,4 28,-2 q-10,10 -30,8 q-22,0 -38,-8z"/>
+      <path d="M650,124 q16,-6 34,2 q-14,8 -34,-2z"/>
+      <path d="M660,66 q12,-8 26,0 q-12,6 -26,0z"/>
+    </g>
+    <circle cx="703" cy="100" r="44" fill="#02040a" opacity="0.72" clip-path="url(#earthClip)"/>
+  </g>
+
+  <!-- Relieve lejano y regolito -->
+  <path d="M0,338 L70,327 L140,331 L215,319 L300,327 L385,315 L470,325 L560,313 L645,323 L730,317 L800,329 V345 H0 Z" fill="#74736e"/>
+  <path d="M0,340 Q400,326 800,340 V500 H0 Z" fill="url(#ground)"/>
+
+  <!-- Crateres -->
+  <g>
+    <ellipse cx="640" cy="430" rx="95" ry="26" fill="#3d3c39"/>
+    <ellipse cx="628" cy="432" rx="78" ry="19" fill="#7b7a74"/>
+    <ellipse cx="640" cy="428" rx="95" ry="26" fill="none" stroke="#c3c2ba" stroke-width="2.5" opacity="0.75"/>
+    <ellipse cx="150" cy="455" rx="42" ry="12" fill="#3d3c39"/>
+    <ellipse cx="145" cy="456" rx="34" ry="8.5" fill="#7b7a74"/>
+    <ellipse cx="150" cy="454" rx="42" ry="12" fill="none" stroke="#c3c2ba" stroke-width="2" opacity="0.7"/>
+    <ellipse cx="505" cy="372" rx="26" ry="7" fill="#3d3c39"/>
+    <ellipse cx="502" cy="373" rx="21" ry="5" fill="#7b7a74"/>
+    <ellipse cx="505" cy="371" rx="26" ry="7" fill="none" stroke="#c3c2ba" stroke-width="1.5" opacity="0.7"/>
+    <ellipse cx="745" cy="362" rx="22" ry="6" fill="#3d3c39"/>
+    <ellipse cx="742" cy="363" rx="18" ry="4.2" fill="#7b7a74"/>
+    <ellipse cx="745" cy="361" rx="22" ry="6" fill="none" stroke="#c3c2ba" stroke-width="1.5" opacity="0.7"/>
+    <ellipse cx="60" cy="395" rx="18" ry="5" fill="#3d3c39"/>
+    <ellipse cx="58" cy="396" rx="14" ry="3.5" fill="#7b7a74"/>
+    <ellipse cx="60" cy="394" rx="18" ry="5" fill="none" stroke="#c3c2ba" stroke-width="1.5" opacity="0.7"/>
+  </g>
+  <g fill="#8a8984">
+    <circle cx="300" cy="420" r="2"/><circle cx="420" cy="460" r="1.5"/><circle cx="560" cy="480" r="2"/>
+    <circle cx="230" cy="380" r="1.5"/><circle cx="780" cy="420" r="1.8"/><circle cx="350" cy="395" r="1.2"/>
+  </g>
+
+  <!-- Rocas -->
+  <ellipse cx="548" cy="394" rx="14" ry="2.5" fill="#2b2a28" opacity="0.6"/>
+  <ellipse cx="682" cy="474" rx="18" ry="3" fill="#2b2a28" opacity="0.6"/>
+  <g fill="#8c8b85" stroke="#45443f" stroke-width="1" stroke-linejoin="round">
+    <path d="M560,392 l14,-11 l18,4 l6,11 z"/>
+    <path d="M88,353 l9,-6 l10,2 l4,6 z"/>
+    <path d="M696,472 l20,-13 l25,6 l7,13 z"/>
+    <path d="M380,440 l10,-7 l12,3 l4,7 z"/>
+  </g>
+
+  <!-- Huellas -->
+  <g fill="none">
+    <path d="M-10,368 Q140,356 288,346" stroke="#8f8e88" stroke-width="13"/>
+    <path d="M-10,368 Q140,356 288,346" stroke="#55544f" stroke-width="9" stroke-dasharray="3 4" opacity="0.85"/>
+    <path d="M-10,350 Q150,340 304,331" stroke="#8f8e88" stroke-width="10"/>
+    <path d="M-10,350 Q150,340 304,331" stroke="#55544f" stroke-width="7" stroke-dasharray="3 4" opacity="0.8"/>
+  </g>
+
+  <!-- Sombra -->
+  <ellipse cx="372" cy="350" rx="165" ry="11" fill="#141413" opacity="0.5"/>
+  <path d="M258,346 L150,350 L96,366 L236,360 Z" fill="#141413" opacity="0.35"/>
+
+  <!-- Lunojod 1 -->
+  <g opacity="0.78">
+    <use href="#wheel" xlink:href="#wheel" transform="translate(301,308) scale(0.9)"/>
+    <use href="#wheel" xlink:href="#wheel" transform="translate(361,308) scale(0.9)"/>
+    <use href="#wheel" xlink:href="#wheel" transform="translate(421,308) scale(0.9)"/>
+    <use href="#wheel" xlink:href="#wheel" transform="translate(481,308) scale(0.9)"/>
+  </g>
+
+  <rect x="262" y="301" width="230" height="8" rx="2" fill="#474744"/>
+  <g stroke="#5b5b58" stroke-width="5" stroke-linecap="round">
+    <line x1="285" y1="306" x2="285" y2="321"/>
+    <line x1="345" y1="306" x2="345" y2="321"/>
+    <line x1="405" y1="306" x2="405" y2="321"/>
+    <line x1="465" y1="306" x2="465" y2="321"/>
+  </g>
+  <path d="M266,306 L232,334" stroke="#6a6a67" stroke-width="3.5" stroke-linecap="round"/>
+  <g transform="translate(232,334)">
+    <circle r="12" fill="none" stroke="#8d8d8d" stroke-width="2.5" stroke-dasharray="2 3"/>
+    <circle r="10.5" fill="#242424" stroke="#9a9a9a" stroke-width="2"/>
+    <circle r="3" fill="#b5b5b5"/>
+  </g>
+
+  <rect x="238" y="266" width="12" height="24" rx="3" fill="#7d7a70" stroke="#4a4842" stroke-width="1.2"/>
+
+  <path d="M252,245 H503 L498,282 Q496,301 478,301 H277 Q259,301 257,282 Z" fill="url(#body)" stroke="#5f5a4f" stroke-width="2" stroke-linejoin="round"/>
+  <line x1="255" y1="264" x2="500" y2="264" stroke="#857f71" stroke-width="1.2"/>
+  <g stroke="#857f71" stroke-width="1.2">
+    <line x1="320" y1="248" x2="320" y2="298"/>
+    <line x1="380" y1="248" x2="380" y2="298"/>
+    <line x1="440" y1="248" x2="440" y2="298"/>
+  </g>
+  <circle cx="293" cy="283" r="9" fill="#c9c3b3" stroke="#6b665a" stroke-width="1.5"/>
+  <circle cx="293" cy="283" r="4" fill="#8f897a"/>
+  <rect x="392" y="270" width="24" height="16" fill="#c4332a" stroke="#7a1f19" stroke-width="1"/>
+  <circle cx="398" cy="275" r="2.5" fill="#f2c541"/>
+  <line x1="250" y1="245" x2="505" y2="245" stroke="#f4efe3" stroke-width="3"/>
+
+  <rect x="426" y="233" width="12" height="22" rx="3" fill="#8a8578" stroke="#55514a" stroke-width="1.2"/>
+  <rect x="429" y="238" width="6" height="4" fill="#1c2430"/>
+
+  <rect x="499" y="251" width="17" height="11" rx="2" fill="#6e6a60" stroke="#3d3a34" stroke-width="1.2"/>
+  <circle cx="516" cy="256.5" r="3.2" fill="#1c2430" stroke="#9aabbb" stroke-width="1"/>
+  <rect x="499" y="267" width="12" height="9" fill="#d8d3c5" stroke="#6b665a" stroke-width="1.2"/>
+
+  <line x1="470" y1="245" x2="470" y2="222" stroke="#999" stroke-width="3"/>
+  <path d="M452,196 L488,196 L470,222 Z" fill="#c9c4b6" stroke="#6b665a" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M457,203 L483,203 M461,209 L479,209 M465,215 L475,215" stroke="#6b665a" stroke-width="1"/>
+  <ellipse cx="470" cy="196" rx="18" ry="4" fill="#e9e4d6" stroke="#6b665a" stroke-width="1.5"/>
+
+  <line x1="275" y1="245" x2="275" y2="150" stroke="#bbb" stroke-width="2"/>
+  <circle cx="275" cy="149" r="3" fill="#ddd"/>
+
+  <g transform="translate(252,245) rotate(-125)">
+    <path d="M0,-3 Q100,-24 200,-3 L200,0 L0,0 Z" fill="url(#lid)" stroke="#5f5a4f" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="3" y="0" width="194" height="16" fill="url(#cells)" stroke="#3b4a6b" stroke-width="1.5"/>
+    <line x1="3" y1="8" x2="197" y2="8" stroke="#0f1d44" stroke-width="0.8" opacity="0.7"/>
+  </g>
+  <circle cx="252" cy="245" r="4.5" fill="#6d6859" stroke="#3a3730" stroke-width="1.5"/>
+
+  <use href="#wheel" xlink:href="#wheel" transform="translate(285,321)"/>
+  <use href="#wheel" xlink:href="#wheel" transform="translate(345,321)"/>
+  <use href="#wheel" xlink:href="#wheel" transform="translate(405,321)"/>
+  <use href="#wheel" xlink:href="#wheel" transform="translate(465,321)"/>
+
+  <text x="788" y="488" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#d8d8d0" opacity="0.8">Луноход-1 · Mare Imbrium, 1970</text>
+</svg>
