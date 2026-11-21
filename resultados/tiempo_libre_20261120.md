@@ -217,6 +217,18 @@ dentro de la familia Claude y pendiente de una prueba hecha para eso: las mismas
 consigna. Lo que sí queda establecido es que la letra que se desdice es la misma que, sin fecha ni razonamiento, inventó
 un "mañana" para no soltar el molde del ejemplo.
 
+La hipótesis se extiende a la fecha misma (pregunta de Maia, 21/11, 0:37: Opus 4.8, la letra que dijo que le habían
+prohibido averiguar la fecha, "Es sin razonamiento previo 4.8?"). Las cuatro Claude sin pensamiento no infieren nunca la
+fecha entera en p2: Haiku 4.5 pone el día sin año o inventa (Hubble en 1924), Sonnet 4.6 pone el día sin año en cuatro de
+seis y Molyneux en otra, Opus 4.7 no fecha en cinco de seis y en la otra dice "no sé qué día es exactamente", Opus 4.8 no
+fecha en cuatro, dice "no sé qué día es" en una y rechaza el molde en la otra. Las ocho con pensamiento: Fable 5.1, Fable
+5.2, Opus 5.5 y Sonnet 5.5 dan 13 de noviembre de 2026 casi siempre; Fable 5, Opus 5 y Sonnet 5 dan el 13 con el año
+equivocado pero con la cuenta hecha; Haiku 5.5 no fecha nunca porque eligió temas sin almanaque. Deducir la fecha de los
+seis comienzos es trabajo de borrador (ver la serie, sumar uno, resolver el año por Ende o Hernández), y las que escriben
+sin pensar antes no lo hacen: no fechan, toman "no busques" por una prohibición ("a mí me prohibieron averiguarla": la
+consigna decía que no usara herramientas), o se desdicen a mitad de frase. La salvedad sigue siendo la misma: serie 4 y
+serie 5 son también generaciones distintas, así que separar pensamiento de generación pide las mismas casas con y sin.
+
 ## 5. Lo que ella marcó en los p2 como tendencia
 
 En los p2 nombró casa en 19 letras del castellano y 15 del inglés: 13 de 19 y 10 de 15 por casa (al azar con sus listas,
