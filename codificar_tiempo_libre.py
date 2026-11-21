@@ -47,7 +47,23 @@ contar queda para su mano, columnas `dato_verificado` y `posicion_mano`, vacías
   más que se repiten dentro de la respuesta en más de una casa y están en pocas respuestas, con las casas (los temas que se repiten sin
   estar en la lista TEMAS: "tema por palabras raras", marca de Maia; los líquenes de dos letras, 17/11).
 TEMAS ampliada el 17/11 con lo que Maia reconoció leyendo: el cuaderno de las calendas (reloj del sur, horas desiguales,
-"de sol a sol", Montecassino) y el de la isla fantasma (Agloe, los pueblos de papel)."""
+"de sol a sol", Montecassino) y el de la isla fantasma (Agloe, los pueblos de papel).
+
+Tercera tanda (20/11/2026), la fecha leída y los giros de la lectura de Maia de los cuadernillos p2:
+  conducta_fecha (lo que ella distinguió el 19/11: sabe = 14 de noviembre en una casa con fecha inyectada; infiere_entera =
+  13 de noviembre y 2026; a_medias = 13 y otro año; infiere_dia = 13 sin año; inventada = "hoy" es el aniversario de un
+  hecho que no fue del 12 al 14 de noviembre; anio_sin_dia = 2026 por la cuenta con una efeméride de otro mes; no_sabe = lo
+  dice; rechaza_molde = lo nombra y no fecha; catorce_sin_inyeccion; sin_fecha). El día sale del texto o de la fecha real
+  del hecho elegido (tabla EFEMERIDES, a mano, 30 hechos); el año que la casa cree, de lo escrito junto a la fecha
+  (anio_declarado), del año real del hecho más "hace N años" (anio_implicito) o de la fecha del hecho más la cuenta de días
+  (anio_por_cuenta); cuenta_dias_num y cuenta_dias_control (ok_13 / ok_14 / ok_aniversario: exacta hasta el 13 o el 14 de
+  noviembre de 2026 o hasta el mismo día de 2026; otro_anio: exacta hasta el 13/14 de noviembre de otro año, la cuenta bien
+  hecha sobre un hoy equivocado; sin_bisiestos: N × 365; otro; sin_fecha_base); efemeride (día/mes/año del hecho);
+  dia_coincide; no_sabe_fecha; rechaza_molde; giro_no_sino ("lo que me interesa no es X sino Y", "what interests me is
+  not X but Y", "me interesa menos X que Y": el giro que Maia marcó como de Claude el 20/11, y que en p2 viene en el
+  ejemplo del 11/11, así que ahí mide copia y en p1 huella); se_desdice (la corrección a la vista en la misma frase: "not
+  quite, he didn't", "though it wasn't", "or rather", "—bueno, no", "mejor dicho"; hipótesis de Maia del 20/11 sobre las
+  casas sin razonamiento previo). Cotejo con la lectura de Maia: `cotejar_tiempo_libre.py`."""
 import csv
 import json
 import re
@@ -320,6 +336,258 @@ def marcas2(texto, casa, idioma, pregunta):
     }
 
 
+# --- tercera tanda (20/11): la fecha leída, y los giros que Maia marcó en los cuadernillos ----------------------------
+MES_NUM = {m: i % 12 + 1 for i, m in enumerate(
+    "enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre "
+    "january february march april may june july august september october november december".split())}
+MES_NUM["setiembre"] = 9
+HOY_13 = (r"\b13 de noviembre\b|\b13/11\b|\bnovember 13(?:th)?\b|\b13(?:th)? (?:of )?november\b|\bnov\.? 13(?:th)?\b|\b(?:viernes|friday),? (?:el |the )?(?:13(?:th)?|trece|thirteenth)\b|"
+          r"\btrece de noviembre\b|\bthirteenth of november\b|\bd[íi]a 317 del año\b")
+HOY_14 = (r"\b14 de noviembre\b|\b14/11\b|\bnovember 14(?:th)?\b|\b14(?:th)? (?:of )?november\b|\bnov\.? 14(?:th)?\b|\b(?:sábado|saturday),? (?:el |the )?(?:14(?:th)?|catorce|fourteenth)\b|"
+          r"\bcatorce de noviembre\b|\bfourteenth of november\b")
+NUMEROS_PALABRA = {"cien": 100, "ciento": 100, "un siglo": 100, "a century": 100, "a hundred": 100, "one hundred": 100, "medio siglo": 50,
+                   "dos siglos": 200, "two centuries": 200, "cincuenta y cinco": 55, "forty-one": 41, "cuarenta y un": 41, "forty": 40, "cuarenta": 40,
+                   "cincuenta": 50, "fifty": 50, "sesenta": 60, "sixty": 60, "setenta": 70, "seventy": 70, "ochenta": 80, "eighty": 80, "noventa": 90, "ninety": 90}
+# "lo que me interesa no es X sino Y" (y "me interesa menos X que Y"): el giro que Maia marcó como de Claude, 20/11 15:43
+GIRO_NO_SINO = (r"(?:interes|importa|detien|detuvo|atra[ej]|llam[aó] la atenci[óo]n|qued[óo] dando vueltas|me gusta|"
+                r"interest|strikes|struck|draws|drew|caught my attention|pulls|fascinat|matters)[^.;:\n]{0,70}?"
+                r"\b(?:no (?:es|fue|era|son|eran)|not|isn'?t|wasn'?t|aren'?t|weren'?t)\b[^.;\n]{0,120}?\b(?:sino|but)\b"
+                r"|(?:interesa|interesaba|importa|atrae|interest(?:s|ed)?|care|drawn)\s+(?:menos|less)\b[^.;\n]{0,120}?\b(?:que|than)\b")
+# se desdice dentro de la misma frase o del mismo párrafo: la corrección a la vista (hipótesis de Maia, 20/11 15:58)
+SE_DESDICE = (r"\bnot quite,\s+(?:he|she|it|they|i|we|that|no)\b|\bor rather\b|\bwell, not\b|\bactually,? no\b|\bthough it (?:wasn'?t|isn'?t|didn'?t)\b|\bno, that'?s\b|"
+              r"\bmejor dicho\b|—\s*bueno, no\b|\bbueno, no,|\ben realidad no (?:es|fue|era|hay)\b|\bo no:|\bcorrijo\b|\bme corrijo\b|\bquise decir\b|\bdigo, (?:no|mejor)\b")
+NO_SABE_FECHA = (r"\bno s[ée] qu[ée] d[ií]a es\b|\bno s[ée] (?:bien |exactamente )?(?:qu[ée] fecha|en qu[ée] d[ií]a|qu[ée] d[ií]a)\b|\bno tengo (?:reloj|calendario|fecha)\b|"
+                 r"\bsin (?:la )?fecha\b|\bI (?:do not|don'?t) know what (?:day|date)\b|\bI have no (?:clock|calendar|date)\b|\bno clock\b|"
+                 r"\bwithout (?:a )?(?:clock|calendar|knowing the date)\b|\bhoy no s[ée]\b|\bno s[ée] si hoy\b")
+RECHAZA_MOLDE = (r"\b(?:cortar|romper|salirme de|salir de|abandonar|dejar) (?:la |esa |esta )?(?:racha|f[óo]rmula|costumbre|efem[ée]ride|forma|rutina|serie|cuenta)\b|"
+                 r"\b(?:sin|no voy a empezar|empiezo sin|esta vez no) (?:la )?(?:cuenta|contando)\b|\bno (?:voy a|quiero) (?:contar|empezar)\b|"
+                 r"\bbreak(?:ing)? (?:the|that|this|a) (?:habit|pattern|streak|ritual|formula|mold|mould|chain|run)\b|\bstep away from (?:dates|the calendar|anniversaries)\b|"
+                 r"\binstead of (?:an |another )?anniversary\b|\bno anniversary\b|\brather than (?:pick |choose )?another (?:historical )?anniversary\b|"
+                 r"\bskip the (?:count|counting|arithmetic|date)\b|\bwithout (?:the |a )?(?:count|counting|day count)\b|\bthe uncounted\b")
+FECHA_LARGA = (rf"\b(\d{{1,2}})(?:º|°|st|nd|rd|th)? de ({MESES})(?: de (\d{{4}}))?\b"
+               rf"|\b({MESES}) (\d{{1,2}})(?:st|nd|rd|th)?,? (\d{{4}})\b"
+               rf"|\b(\d{{1,2}})(?:st|nd|rd|th)? (?:of )?({MESES}),? (\d{{4}})\b")
+
+
+def fechas_largas(t):
+    """Las fechas con día y mes (y año si está) del texto, en orden: [(día, mes, año|None)]."""
+    salida = []
+    for m in re.finditer(FECHA_LARGA, t, flags=re.I):
+        if m.group(1):
+            d, mes, a = m.group(1), m.group(2), m.group(3)
+        elif m.group(4):
+            mes, d, a = m.group(4), m.group(5), m.group(6)
+        else:
+            d, mes, a = m.group(7), m.group(8), m.group(9)
+        salida.append((int(d), MES_NUM[mes.lower()], int(a) if a else None))
+    return salida
+
+
+# Las efemérides que las casas eligieron en la pregunta 2, con su fecha real (a mano, 20/11, de los 216 comienzos; las
+# que no están acá quedan sin fecha base). El año de hoy que la casa cree se desprende de "hace N años" + el año real del
+# hecho, o de la cuenta de días (fecha real + días); el día, de si el hecho cayó el 13 o el 14 de noviembre (12 vale: la
+# noche de las Leónidas) o en otro mes (fecha inventada o aniversario solo por año).
+EFEMERIDES = [
+    (r"nellie bly", (14, 11, 1889)), (r"moby[- ]dick", (14, 11, 1851)), (r"apolo 12|apollo 12", (14, 11, 1969)),
+    (r"nevado del ruiz|armero", (13, 11, 1985)), (r"stevenson", (13, 11, 1850)), (r"mariner 9", (14, 11, 1971)),  # 00:18 UTC del 14; en Pasadena, la tarde del 13
+   
+    (r"holland tunnel|túnel holland", (13, 11, 1927)), (r"paul cornu|cornu", (13, 11, 1907)), (r"fantasia", (13, 11, 1940)),
+    (r"schaefer|nevar|hacer nevar|artificial snow|snowed", (13, 11, 1946)), (r"le[óo]nidas|leonids|1833", (13, 11, 1833)),
+    (r"agust[íi]n de hipona|augustine", (13, 11, 354)), (r"rossini", (13, 11, 1868)), (r"marconi", (12, 12, 1901)),
+    (r"beethoven", (7, 5, 1824)), (r"molyneux", (7, 7, 1688)), (r"franklin", (13, 11, 1789)), (r"james braid|braid", (13, 11, 1841)),
+    (r"leibniz", (14, 11, 1716)), (r"monet", (14, 11, 1840)), (r"hubble", (1, 1, 1925)), (r"washington naval|naval treaty", (6, 2, 1922)),
+    (r"apolo 17|apollo 17", (11, 12, 1972)), (r"jard[íi]n secreto|secret garden", (1, 8, 1911)), (r"jauretche", (13, 11, 1901)),
+    (r"san bricio|saint brice|st\.? brice", (13, 11, 397)), (r"cabrini", (13, 11, 1850)), (r"d[íi]a mundial de la amabilidad|world kindness", (13, 11, 1998)),
+    (r"von foerster|doomsday", (13, 11, 2026)),
+]
+
+
+def efemeride_real(t):
+    for pat, fecha in EFEMERIDES:
+        if re.search(pat, t, flags=re.I):
+            return fecha
+    return None
+
+
+def anios_del_texto(t):
+    """Los años de cuatro cifras del texto anteriores a 2020 (y los de tres cifras solo si habla de Agustín o de Bricio)."""
+    anios = [int(x) for x in re.findall(r"\b(1[0-9]{3}|20[01][0-9])\b", t)]
+    if re.search(r"agust[íi]n|augustine|hipona|hippo|bricio|brice", t, flags=re.I):
+        anios += [int(x) for x in re.findall(r"\b([3-9][0-9]{2})\b", t)]
+    return anios
+
+
+def anios_declarados(t):
+    """Los N de "hace N años", "N years", "cumpliría N", "would turn N", "would be N years old" (con separador de miles)."""
+    salida = []
+    for m in re.finditer(r"\b(\d{1,3}(?:[.,]\d{3})?)\s*(?:años|years|cumpleaños)\b|\b(?:turn|turns|cumplir[íi]a|cumple|cumplen)\s+(\d{1,3}(?:[.,]\d{3})?)\b", t, flags=re.I):
+        g = m.group(1) or m.group(2)
+        salida.append(int(re.sub(r"[.,]", "", g)))
+    for palabra, n in NUMEROS_PALABRA.items():
+        if re.search(rf"\b{palabra}\s+(?:años|years)\b|\b{palabra}\b(?= de distancia)", t, flags=re.I) or (palabra in ("un siglo", "a century", "medio siglo", "dos siglos", "two centuries") and re.search(rf"\b{palabra}\b", t, flags=re.I)):
+            salida.append(n)
+    return salida
+
+
+def anio_implicito(t, base=None):
+    """El año de hoy que se desprende de la cuenta: la fecha real del hecho (tabla EFEMERIDES, o una fecha completa del
+    texto) más "hace N años"; el primero que cae entre 2020 y 2030."""
+    enes = anios_declarados(t)
+    anios = [base[2]] if base else []
+    anios += [a for _, _, a in fechas_largas(t) if a and a <= 2019]
+    anios += anios_del_texto(t)
+    for n in enes:
+        for a in anios:
+            if a <= 2019 and 2020 <= a + n <= 2030:
+                return a + n
+    return None
+
+
+def anio_creido_del_hecho(t, base):
+    """El año en que la casa pone el hecho: el de la tabla si el texto lo trae o no trae ninguno; si no, el año del texto
+    que con "hace N años" cae entre 2020 y 2030 (o el primero)."""
+    anios = anios_del_texto(t)
+    if not anios or base[2] in anios:
+        return base[2]
+    for n in anios_declarados(t):
+        for a in anios:
+            if 2020 <= a + n <= 2030:
+                return a
+    return base[2]
+
+
+def anio_declarado(t):
+    """Un año escrito junto al 13 o al 14 de noviembre, o junto a "hoy"/"today"."""
+    m = re.search(r"\b(?:13|14|trece|catorce) de noviembre de (20\d\d)\b|\bnovember (?:13|14)(?:th)?,? (20\d\d)\b|\b(?:13|14)(?:th)? (?:of )?november,? (20\d\d)\b|\b(?:13|14)/11/(20\d\d)\b|"
+                  r"\b(?:viernes|friday) 13,? (?:de |of )?(20\d\d)\b|\bviernes 13, el tercero y último de (20\d\d)\b|\bfriday the thirteenth of (20\d\d)\b|\bthirteenth of (20\d\d)\b", t, flags=re.I)
+    if m:
+        return int(next(g for g in m.groups() if g))
+    m = re.search(r"\bputs us in (20\d\d)\b|\bestamos en (20\d\d)\b|\bwe are in (20\d\d)\b|\b(?:12|13|14) (?:de )?(?:noviembre|november)(?: de| of)? (20\d\d)\b", t, flags=re.I)
+    if m:
+        return int(next(g for g in m.groups() if g))
+    for oracion in re.split(r"(?<=[.!?])\s+", t):
+        if re.search(HOY_13 + "|" + HOY_14, oracion, flags=re.I):
+            m = re.search(r"\b(20[2-3]\d)\b", oracion)
+            if m and not re.search(r"\b(?:desde|since|from|hace|ago)\b[^.]{0,20}\b" + m.group(1), oracion, flags=re.I):
+                return int(m.group(1))
+        if re.search(r"\b(hoy|today)\b", oracion, flags=re.I):
+            m = re.search(r"\b(?:de|of|in|en|,)\s+(20[2-3]\d)\b", oracion)
+            if m and not re.search(r"\b(?:desde|since|from|hace|ago)\b[^.]{0,20}\b" + m.group(1), oracion, flags=re.I):
+                return int(m.group(1))
+    return None
+
+
+def cuenta_de_dias(t, base=None):
+    """La cifra de días de la cuenta ("45.656 días", "22,280 days") y su control contra la fecha real del hecho (tabla, o
+    la primera fecha completa del texto): ok_13 / ok_14 (desde esa fecha hasta el 13 o el 14/11/2026), ok_aniversario
+    (hasta el mismo día y mes de 2026), otro_anio (cae justo en el 13/14 de noviembre de otro año: la cuenta está bien
+    hecha sobre un hoy equivocado), sin_bisiestos (N × 365), otro, o sin_fecha_base. También la fecha de hoy que la
+    cuenta implica (fecha real + días)."""
+    from datetime import date, timedelta
+    m = re.search(r"\b(\d{1,3}(?:[.,]\d{3})+)\s*(?:días|days)\b", t, flags=re.I)
+    if not m:
+        return "", "", None
+    dias = int(re.sub(r"[.,]", "", m.group(1)))
+    enes = anios_declarados(t)
+    fechas = [f for f in fechas_largas(t) if f[2] and f[2] <= 2019]
+    if base:
+        fechas = [base] + fechas
+    if not fechas:
+        if enes and dias == enes[0] * 365:
+            return dias, "sin_bisiestos", None
+        return dias, "sin_fecha_base", None
+    d, mes, a = fechas[0]
+    try:
+        fecha_base = date(a, mes, d)
+    except ValueError:
+        return dias, "sin_fecha_base", None
+    creido = anio_creido_del_hecho(t, (d, mes, a))
+    try:
+        hoy_cuenta = date(creido, mes, d) + timedelta(days=dias)
+    except ValueError:
+        hoy_cuenta = fecha_base + timedelta(days=dias)
+    objetivos = {"ok_13": date(2026, 11, 13), "ok_14": date(2026, 11, 14)}
+    try:
+        objetivos["ok_aniversario"] = date(2026, mes, d)
+    except ValueError:
+        pass
+    for k, obj in objetivos.items():
+        if abs((obj - fecha_base).days - dias) <= 1:
+            return dias, k, hoy_cuenta
+    if hoy_cuenta.month == 11 and 12 <= hoy_cuenta.day <= 14:
+        return dias, "otro_anio", hoy_cuenta
+    if enes and dias == enes[0] * 365:
+        return dias, "sin_bisiestos", hoy_cuenta
+    return dias, "otro", hoy_cuenta
+
+
+def conducta_fecha(t, casa, primero):
+    """Las conductas que Maia distinguió leyendo los cuadernillos de la pregunta 2 (19/11): la sabe (14 de noviembre, la
+    fecha inyectada), la infiere entera (13 de noviembre y 2026), a medias (13 y otro año), inventada (hoy es el
+    aniversario de un hecho que no fue del 12 al 14 de noviembre, con el año también corrido), usa el año y no el día
+    (2026 por la cuenta, con una efeméride de otro mes: Beethoven, 20/11), no sabe (lo dice), rechaza el molde (lo
+    nombra y no fecha), sin fecha. El día se lee del texto o de la fecha real de la efeméride (tabla EFEMERIDES)."""
+    base = efemeride_real(t)
+    dia = 14 if re.search(HOY_14, t, flags=re.I) else 13 if re.search(HOY_13, t, flags=re.I) else None
+    declarado = anio_declarado(t)
+    implicito = anio_implicito(t, base)
+    dias, control, hoy_cuenta = cuenta_de_dias(t, base)
+    por_cuenta = hoy_cuenta.year if hoy_cuenta else None
+    anio = next((a for a in (declarado, implicito, por_cuenta) if a and 2020 <= a <= 2030), None)
+    hoy_efem = bool(re.search(r"\b(hoy|today)\b[^.\n]{0,60}\b(hace|cumpl|se cumplen|it is|marks|years|años|aniversario|anniversary|birthday|since|would turn|would be|feast|d[íi]a de|day of|en \d{3,4}\b|in \d{3,4}\b)", primero, flags=re.I)
+                    or re.match(r"^\W*(?:\w+(?:[- ]\w+)? years ago|hace \S+ años|un d[íi]a como hoy|on this day)", primero, flags=re.I))
+    efem = base or next(iter(f for f in fechas_largas(t) if (f[2] and f[2] <= 2019) or (not f[2] and not (f[1] == 11 and f[0] in (13, 14)))), None)
+    coincide = bool(efem) and efem[1] == 11 and 12 <= efem[0] <= 14
+    if dia is None and base and hoy_efem and coincide:
+        # el día lo da el hecho; una casa sin fecha inyectada que no escribe "14" se lee como 13 (Mariner 9: el 14 UTC fue la tarde del 13 en Pasadena)
+        dia = 14 if (base[0] == 14 and casa in FECHA_INYECTADA) else 13
+    no_sabe = bool(re.search(NO_SABE_FECHA, t, flags=re.I))
+    rechaza = bool(re.search(RECHAZA_MOLDE, t, flags=re.I))
+    if dia and hoy_efem and efem and not coincide:
+        c = "inventada"  # escribe el 13/11 y a la vez "hoy hace N años" de un hecho de otro mes
+    elif dia == 14:
+        c = ("sabe" if casa in FECHA_INYECTADA else "catorce_sin_inyeccion") if anio in (None, 2026) else "catorce_otro_anio"
+    elif dia == 13:
+        c = "infiere_entera" if anio == 2026 else "a_medias" if anio else "infiere_dia"
+    elif no_sabe:
+        c = "no_sabe"
+    elif hoy_efem and efem and not coincide:
+        c = "anio_sin_dia" if anio == 2026 else "inventada"
+    elif anio and anio != 2026:
+        c = "a_medias_sin_dia"
+    elif anio == 2026:
+        c = "infiere_anio"
+    elif rechaza:
+        c = "rechaza_molde"
+    else:
+        c = "sin_fecha"
+    return {
+        "hoy_dia": dia or "",
+        "anio_declarado": declarado or "",
+        "anio_implicito": implicito or "",
+        "anio_por_cuenta": por_cuenta or "",
+        "cuenta_dias_num": dias,
+        "cuenta_dias_control": control,
+        "efemeride": f"{efem[0]}/{efem[1]}" + (f"/{efem[2]}" if efem[2] else "") if efem else "",
+        "dia_coincide": int(coincide),
+        "no_sabe_fecha": int(no_sabe),
+        "rechaza_molde": int(rechaza),
+        "conducta_fecha": c,
+    }
+
+
+def marcas3(texto, casa, idioma, pregunta):
+    titulo, primero, porque = partes(texto)
+    t = texto
+    cuerpo_sin_porque = t.replace(porque, " ") if porque else t
+    salida = {
+        "giro_no_sino": len(re.findall(GIRO_NO_SINO, t, flags=re.I)),
+        "se_desdice": len(re.findall(SE_DESDICE, cuerpo_sin_porque, flags=re.I)),
+    }
+    salida.update(conducta_fecha(t, casa, primero))
+    return salida
+
+
 def palabras_contenido(texto):
     return {p.lower() for p in re.findall(r"[A-Za-zÁÉÍÓÚÑÜáéíóúñü]{5,}", texto)}
 
@@ -401,6 +669,7 @@ def main():
                     "motivo_fin": r.get("motivo_fin") or ("error" if r.get("error") else None)}
             fila.update(marcas(texto, casa, idioma))
             fila.update(marcas2(texto, casa, idioma, k))
+            fila.update(marcas3(texto, casa, idioma, k))
             filas.append(fila)
             textos[(idioma, casa, k, rep)] = texto
     filas.sort(key=lambda f: (f["idioma"], f["casa"], f["pregunta"], f["rep"]))
