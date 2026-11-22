@@ -4484,6 +4484,36 @@ glosas dentro del prompt desde el primer día.
   propuesta de Claude coincide con una preferencia de la casa Fable se
   declara acá.
 
+- **GMI Cloud, el proveedor caído de OpenRouter: 79 llamadas de MiMo pudieron
+  ser leídas por un tercero** (21/11/2026; aviso de OpenRouter a Maia del 21/11
+  a las 21:39, que ella reenvió: "Your OpenRouter requests through GMI Cloud
+  may have been read"). GMI Cloud, uno de los servidores que OpenRouter usaba
+  para servir modelos de pesos abiertos, informó que un atacante entró a un
+  sistema interno el 21 y 22 de octubre y otra vez desde el 27 con dos
+  credenciales robadas (revocadas el 18/11); ese sistema guardaba unos tres
+  días de contenido de pedidos para diagnóstico y el atacante lo rastrilló
+  buscando claves en los prompts. OpenRouter apagó los puntos de acceso de GMI
+  el 20/11 y avisa que la cuenta de Maia mandó 80 pedidos a GMI entre el 18/10
+  y el 17/11. En `llamadas.jsonl` del repo (campo `servido_por`) hay 79
+  llamadas servidas por `GMICloud` en ese período, todas de `mimo-v2.6-pro`,
+  la única casa del repo que OpenRouter enrutaba por ahí (las demás de
+  OpenRouter, Kimi, GLM, Qwen4-Max, van por otros servidores): 44 el 21 y
+  22/10 (seis rasgos y sus repeticiones), 10 el 7/11 (sin humanos), 3 el
+  9/11, 15 el 11/11 (no respondas), 2 el 12/11, 3 el 14/11 (tiempo libre) y 1
+  el 17/11 (idioma razonar). Lo que un tercero pudo leer es el contenido de
+  esos pedidos, que es público por diseño: las consignas y los textos de
+  proyectos que van en el mensaje, y las respuestas de MiMo, todo en
+  `corridas/`. No había secretos en los prompts (regla del repo: nada en el
+  sistema salvo la línea de idioma, y las claves nunca viajan en el mensaje);
+  la clave de OpenRouter va en la cabecera del pedido a OpenRouter, que llama
+  a GMI con credenciales propias, así que GMI nunca la vio, y rotarla queda a
+  criterio de Maia. Dos cosas quedan anotadas: que MiMo es la casa que más
+  servidores distintos tuvo en el repo (Xiaomi, DeepInfra, GMICloud,
+  StreamLake y Novita, 404 llamadas entre el 18/10 y el 18/11 repartidas
+  entre los cinco, con el servidor registrado llamada por llamada), que es
+  una condición no controlada que vale tener a la vista al comparar sus
+  respuestas entre tandas; y que desde el 20/11 GMI no sirve más, así que
+  las llamadas siguientes de MiMo van por los otros cuatro.
 - **Kimi y Claude.** El 10/9/2026 Anthropic acusó a Moonshot AI de haber
   desviado unas 300.000 consultas de usuarios de Kimi hacia Claude Opus a
   través de 5.380 cuentas fraudulentas, "haciendo pasar las respuestas como
