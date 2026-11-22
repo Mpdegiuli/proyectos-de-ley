@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f0c29"/>
+      <stop offset="0.5" stop-color="#302b63"/>
+      <stop offset="1" stop-color="#24243e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd166" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffd166" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <circle cx="240" cy="170" r="120" fill="url(#glow)"/>
+  <g fill="#ffffff">
+    <circle cx="150" cy="58" r="1.8" opacity="0.8"/>
+    <circle cx="300" cy="72" r="1.4" opacity="0.6"/>
+    <circle cx="350" cy="40" r="2" opacity="0.7"/>
+    <circle cx="40" cy="80" r="1.5" opacity="0.5"/>
+    <circle cx="200" cy="300" r="1.6" opacity="0.6"/>
+    <circle cx="170" cy="360" r="1.2" opacity="0.5"/>
+    <circle cx="60" cy="40" r="1.2" opacity="0.6"/>
+  </g>
+  <g fill="none" stroke="#7fe3ff" stroke-width="3" stroke-linecap="round">
+    <path d="M320 380 A60 60 0 0 1 380 320" opacity="0.9"/>
+    <path d="M290 380 A90 90 0 0 1 380 290" opacity="0.65"/>
+    <path d="M260 380 A120 120 0 0 1 380 260" opacity="0.45"/>
+    <path d="M230 380 A150 150 0 0 1 380 230" opacity="0.25"/>
+  </g>
+  <g fill="none" stroke="#b8c2ff" stroke-width="1.6" opacity="0.7">
+    <path d="M20 150 C140 125 260 175 380 150"/>
+    <path d="M20 166 C140 141 260 191 380 166"/>
+    <path d="M20 182 C140 157 260 207 380 182"/>
+    <path d="M20 198 C140 173 260 223 380 198"/>
+    <path d="M20 214 C140 189 260 239 380 214"/>
+  </g>
+  <path d="M78 282 C68 296 88 306 96 292 C103 279 90 270 84 266 L97 110 C100 85 118 88 114 108 C108 136 72 150 62 184 C52 218 80 243 103 231 C126 219 118 182 92 182 C72 182 66 203 76 213"
+        fill="none" stroke="#ffffff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#ffd166" stroke="#ffd166" stroke-linecap="round">
+    <ellipse cx="172" cy="196" rx="8.5" ry="6" transform="rotate(-20 172 196)"/>
+    <ellipse cx="212" cy="180" rx="8.5" ry="6" transform="rotate(-20 212 180)"/>
+    <line x1="179" y1="194" x2="179" y2="130" stroke-width="3"/>
+    <line x1="219" y1="178" x2="219" y2="124" stroke-width="3"/>
+    <polygon points="179,128 219,122 219,131 179,137"/>
+    <ellipse cx="262" cy="200" rx="8.5" ry="6" transform="rotate(-20 262 200)"/>
+    <ellipse cx="302" cy="184" rx="8.5" ry="6" transform="rotate(-20 302 184)"/>
+    <line x1="269" y1="198" x2="269" y2="134" stroke-width="3"/>
+    <line x1="309" y1="182" x2="309" y2="128" stroke-width="3"/>
+    <polygon points="269,132 309,126 309,135 269,141"/>
+  </g>
+  <g fill="#ff8fab" stroke="#ff8fab" stroke-linecap="round">
+    <ellipse cx="95" cy="335" rx="8.5" ry="6" transform="rotate(-20 95 335)"/>
+    <line x1="102" y1="333" x2="102" y2="290" stroke-width="3"/>
+    <path d="M102 290 C118 300 120 316 108 326" fill="none" stroke-width="4"/>
+  </g>
+</svg>

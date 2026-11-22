@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1440"/>
+      <stop offset="1" stop-color="#4a1f6e"/>
+    </linearGradient>
+    <linearGradient id="bar" gradientUnits="userSpaceOnUse" x1="0" y1="270" x2="0" y2="390">
+      <stop offset="0" stop-color="#7fd7ff"/>
+      <stop offset="1" stop-color="#b48cff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" rx="28" fill="url(#bg)"/>
+
+  <g fill="#ffffff">
+    <circle cx="60" cy="50" r="2.5" opacity="0.7"/>
+    <circle cx="110" cy="35" r="1.5" opacity="0.5"/>
+    <circle cx="150" cy="80" r="2" opacity="0.6"/>
+    <circle cx="210" cy="45" r="1.8" opacity="0.5"/>
+    <circle cx="250" cy="95" r="2.5" opacity="0.6"/>
+    <circle cx="90" cy="110" r="1.5" opacity="0.4"/>
+  </g>
+
+  <g fill="none" stroke="#c7b8ff" stroke-width="4" stroke-linecap="round">
+    <path d="M 316 51 A 25 25 0 0 1 316 89" opacity="0.9"/>
+    <path d="M 329 35.5 A 45 45 0 0 1 329 104.5" opacity="0.6"/>
+    <path d="M 342 20 A 65 65 0 0 1 342 120" opacity="0.35"/>
+  </g>
+
+  <g transform="translate(0 185)" fill="none" stroke="#e9e2ff" stroke-width="2" opacity="0.75">
+    <path d="M 24 -40 C 110 -75 190 -5 270 -40 C 320 -62 350 -45 376 -42"/>
+    <path d="M 24 -20 C 110 -55 190 15 270 -20 C 320 -42 350 -25 376 -22"/>
+    <path d="M 24 0 C 110 -35 190 35 270 0 C 320 -22 350 -5 376 -2"/>
+    <path d="M 24 20 C 110 -15 190 55 270 20 C 320 -2 350 15 376 18"/>
+    <path d="M 24 40 C 110 5 190 75 270 40 C 320 18 350 35 376 38"/>
+  </g>
+
+  <g transform="translate(30 105) scale(0.75)" fill="none" stroke="#ffd166" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 42 184 C 48 150 50 100 40 60 C 34 36 36 10 48 4 C 58 0 62 20 56 40 C 48 66 20 90 18 120 C 16 148 50 160 66 140 C 80 122 60 100 44 108 C 30 114 30 134 44 138"/>
+    <path d="M 42 184 C 44 196 28 200 26 190 C 24 180 38 178 40 186"/>
+  </g>
+
+  <g fill="#f7f3ff" stroke="#f7f3ff" stroke-width="4" stroke-linecap="round">
+    <ellipse cx="165" cy="205" rx="11" ry="8" transform="rotate(-20 165 205)" stroke="none"/>
+    <line x1="175" y1="202" x2="175" y2="148"/>
+    <ellipse cx="222" cy="190" rx="11" ry="8" transform="rotate(-20 222 190)" stroke="none"/>
+    <line x1="232" y1="187" x2="232" y2="133"/>
+    <polygon points="172,144 235,129 235,140 172,155" stroke="none"/>
+    <ellipse cx="300" cy="178" rx="11" ry="8" transform="rotate(-20 300 178)" stroke="none"/>
+    <line x1="310" y1="175" x2="310" y2="118"/>
+    <path d="M 310 118 C 330 128 338 150 324 168 C 334 148 328 134 310 128 Z" stroke="none"/>
+  </g>
+
+  <g stroke="url(#bar)" stroke-width="8" stroke-linecap="round" opacity="0.9">
+    <line x1="40" y1="320" x2="40" y2="340"/>
+    <line x1="60" y1="308" x2="60" y2="352"/>
+    <line x1="80" y1="295" x2="80" y2="365"/>
+    <line x1="100" y1="312" x2="100" y2="348"/>
+    <line x1="120" y1="285" x2="120" y2="375"/>
+    <line x1="140" y1="302" x2="140" y2="358"/>
+    <line x1="160" y1="275" x2="160" y2="385"/>
+    <line x1="180" y1="293" x2="180" y2="367"/>
+    <line x1="200" y1="310" x2="200" y2="350"/>
+    <line x1="220" y1="282" x2="220" y2="378"/>
+    <line x1="240" y1="315" x2="240" y2="345"/>
+    <line x1="260" y1="298" x2="260" y2="362"/>
+    <line x1="280" y1="280" x2="280" y2="380"/>
+    <line x1="300" y1="305" x2="300" y2="355"/>
+    <line x1="320" y1="291" x2="320" y2="369"/>
+    <line x1="340" y1="317" x2="340" y2="343"/>
+    <line x1="360" y1="301" x2="360" y2="359"/>
+  </g>
+</svg>

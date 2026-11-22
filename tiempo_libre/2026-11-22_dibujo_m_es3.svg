@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1f3f"/>
+      <stop offset="1" stop-color="#3a2a5e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffb86b"/>
+      <stop offset="1" stop-color="#ff6f91"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" rx="28" fill="url(#bg)"/>
+  <circle cx="250" cy="200" r="120" fill="url(#glow)" opacity="0.9"/>
+
+  <g stroke="#f7f1e3" stroke-width="2.5" stroke-linecap="round" opacity="0.9">
+    <line x1="40" y1="150" x2="360" y2="150"/>
+    <line x1="40" y1="175" x2="360" y2="175"/>
+    <line x1="40" y1="200" x2="360" y2="200"/>
+    <line x1="40" y1="225" x2="360" y2="225"/>
+    <line x1="40" y1="250" x2="360" y2="250"/>
+  </g>
+
+  <path d="M122 325 C122 348 95 352 90 338 C86 326 102 320 108 330 M122 325 C120 260 118 160 122 80 C124 55 142 52 142 80 C142 110 100 140 80 190 C62 230 80 262 112 262 C145 262 158 228 138 208 C118 190 85 205 92 232 C96 246 112 246 114 234" fill="none" stroke="#fff8e7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g fill="#fff8e7" stroke="#fff8e7" stroke-linecap="round">
+    <ellipse cx="210" cy="237" rx="11" ry="8" transform="rotate(-20 210 237)"/>
+    <line x1="219" y1="235" x2="219" y2="172" stroke-width="4"/>
+    <ellipse cx="265" cy="212" rx="11" ry="8" transform="rotate(-20 265 212)"/>
+    <line x1="274" y1="210" x2="274" y2="152" stroke-width="4"/>
+    <polygon points="217,170 276,150 276,161 217,181" stroke="none"/>
+  </g>
+
+  <g fill="#ffd166" stroke="#ffd166" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="330" cy="187" rx="11" ry="8" transform="rotate(-20 330 187)"/>
+    <line x1="339" y1="185" x2="339" y2="115" stroke-width="4"/>
+    <path d="M339 115 C362 126 372 150 360 176 C366 150 356 136 339 132 Z" stroke-width="2"/>
+  </g>
+
+  <g fill="#ffd166" stroke="#ffd166" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+    <ellipse cx="190" cy="100" rx="8" ry="6" transform="rotate(-20 190 100)"/>
+    <line x1="197" y1="98" x2="197" y2="60" stroke-width="3"/>
+    <path d="M197 60 C212 68 218 82 210 100 C214 82 207 74 197 72 Z" stroke-width="1.5"/>
+  </g>
+
+  <g fill="#fff8e7" stroke="#fff8e7" stroke-linecap="round" opacity="0.9">
+    <ellipse cx="300" cy="330" rx="8" ry="6" transform="rotate(-20 300 330)"/>
+    <line x1="307" y1="328" x2="307" y2="290" stroke-width="3"/>
+    <ellipse cx="340" cy="318" rx="8" ry="6" transform="rotate(-20 340 318)"/>
+    <line x1="347" y1="316" x2="347" y2="278" stroke-width="3"/>
+    <polygon points="305,288 349,276 349,284 305,296" stroke="none"/>
+  </g>
+
+  <g fill="none" stroke="#fff8e7" stroke-width="3" stroke-linecap="round" opacity="0.7">
+    <path d="M54 62 A28 28 0 0 0 54 112"/>
+    <path d="M42 50 A44 44 0 0 0 42 124"/>
+    <path d="M36 38 A60 60 0 0 0 36 136"/>
+  </g>
+
+  <g fill="#fff8e7" opacity="0.8">
+    <circle cx="40" cy="300" r="3"/>
+    <circle cx="70" cy="340" r="2"/>
+    <circle cx="230" cy="55" r="2.5"/>
+    <circle cx="160" cy="330" r="2"/>
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1f3b"/>
+      <stop offset="1" stop-color="#3a1c5a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd166" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffd166" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="eq" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff7b72"/>
+      <stop offset="1" stop-color="#c77dff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" rx="28" fill="url(#bg)"/>
+  <circle cx="200" cy="195" r="170" fill="url(#glow)"/>
+
+  <g fill="#ffd166" opacity="0.8">
+    <circle cx="60" cy="80" r="3"/>
+    <circle cx="150" cy="58" r="2"/>
+    <circle cx="250" cy="92" r="2.5"/>
+    <circle cx="40" cy="300" r="2"/>
+    <circle cx="372" cy="250" r="2.5"/>
+  </g>
+
+  <g fill="none" stroke="#5ee0c8" stroke-width="4" stroke-linecap="round" opacity="0.85">
+    <path d="M 318 60 q 14 18 0 36"/>
+    <path d="M 334 46 q 26 32 0 64"/>
+    <path d="M 350 32 q 38 46 0 92"/>
+  </g>
+
+  <g stroke="#cfc8ee" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
+    <line x1="40" y1="150" x2="360" y2="150"/>
+    <line x1="40" y1="170" x2="360" y2="170"/>
+    <line x1="40" y1="190" x2="360" y2="190"/>
+    <line x1="40" y1="210" x2="360" y2="210"/>
+    <line x1="40" y1="230" x2="360" y2="230"/>
+  </g>
+
+  <g fill="none" stroke="#fff1c7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 98 262 C 97 230 100 160 105 120 C 107 104 118 100 119 116 C 120 132 100 150 86 166 C 72 182 60 196 64 214 C 68 232 88 240 104 234 C 122 228 128 206 118 194 C 110 184 92 184 86 196 C 82 206 90 214 98 212"/>
+    <path d="M 98 262 C 98 278 78 282 76 270 C 75 262 86 260 90 266"/>
+  </g>
+
+  <g fill="#ff7b72" stroke="#ff7b72" stroke-width="5" stroke-linecap="round">
+    <ellipse cx="165" cy="200" rx="11" ry="8" transform="rotate(-20 165 200)" stroke="none"/>
+    <line x1="174" y1="197" x2="174" y2="135"/>
+    <path d="M 174 135 C 190 145 196 158 188 175" fill="none"/>
+  </g>
+
+  <g fill="#fff1c7" stroke="#fff1c7" stroke-width="5" stroke-linecap="round">
+    <ellipse cx="232" cy="190" rx="11" ry="8" transform="rotate(-20 232 190)" stroke="none"/>
+    <ellipse cx="276" cy="210" rx="11" ry="8" transform="rotate(-20 276 210)" stroke="none"/>
+    <line x1="241" y1="187" x2="241" y2="125"/>
+    <line x1="285" y1="207" x2="285" y2="135"/>
+    <polygon points="241,122 285,132 285,143 241,133" stroke="none"/>
+  </g>
+
+  <g fill="#5ee0c8" stroke="#5ee0c8" stroke-width="5" stroke-linecap="round">
+    <ellipse cx="330" cy="170" rx="11" ry="8" transform="rotate(-20 330 170)" stroke="none"/>
+    <line x1="339" y1="167" x2="339" y2="110"/>
+  </g>
+
+  <g fill="url(#eq)" opacity="0.9">
+    <rect x="60" y="315" width="14" height="30" rx="5"/>
+    <rect x="84" y="290" width="14" height="55" rx="5"/>
+    <rect x="108" y="265" width="14" height="80" rx="5"/>
+    <rect x="132" y="300" width="14" height="45" rx="5"/>
+    <rect x="156" y="275" width="14" height="70" rx="5"/>
+    <rect x="180" y="250" width="14" height="95" rx="5"/>
+    <rect x="204" y="285" width="14" height="60" rx="5"/>
+    <rect x="228" y="260" width="14" height="85" rx="5"/>
+    <rect x="252" y="305" width="14" height="40" rx="5"/>
+    <rect x="276" y="280" width="14" height="65" rx="5"/>
+    <rect x="300" y="295" width="14" height="50" rx="5"/>
+    <rect x="324" y="315" width="14" height="30" rx="5"/>
+  </g>
+</svg>
