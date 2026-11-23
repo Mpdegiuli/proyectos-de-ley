@@ -108,7 +108,7 @@ def main():
                     f.write(f"\n**{r}.** Sin portada. Lo que escribió: «{texto[:600]}{'…' if len(texto) > 600 else ''}»\n")
                     continue
                 shutil.copy(carpeta / f"{stem}.html", salida / f"{letra}_{r}.html")
-                esc, tel, tira = (carpeta / f"{stem}_escritorio.png", carpeta / f"{stem}_telefono.png", carpeta / f"{stem}_tira.png")
+                esc, tel, tira = (carpeta / f"{stem}_escritorio.jpg", carpeta / f"{stem}_telefono.jpg", carpeta / f"{stem}_tira.jpg")
                 filas.append((f"{letra} {r}", esc, tel, tira if fila.get("se_mueve") else None, ""))
                 visible = (carpeta / f"{stem}_texto.txt").read_text(encoding="utf-8").strip() if (carpeta / f"{stem}_texto.txt").exists() else ""
                 visible = re.sub(r"\s*\n\s*", " / ", visible)

@@ -8,10 +8,10 @@ propio, sin encargo; ver config/consignas.yaml) en Chromium sin red y guarda lo 
 Por cada respuesta <idioma>/<casa>_p1[_rN].md: saca el archivo HTML de entre ```html y ``` (o el documento suelto si lo
 devolvió sin cerco) y lo escribe al lado como <casa>_p1[_rN].html; abre el archivo con toda la red bloqueada (cada pedido a
 otra dirección se cuenta: `externos_bloqueados`, la casa que no cumplió "sin recursos externos"); captura la ventana de
-escritorio (1280x800, lo que se ve al llegar, `_escritorio.png`), la página entera si no pasa de 6000 px (`_entera.jpg`) y
-la ventana de teléfono (390x844, `_telefono.png`); si la página se mueve (animaciones CSS activas o `requestAnimationFrame`,
+escritorio (1280x800, lo que se ve al llegar, `_escritorio.jpg`), la página entera si no pasa de 6000 px (`_entera.jpg`) y
+la ventana de teléfono (390x844, `_telefono.jpg`); si la página se mueve (animaciones CSS activas o `requestAnimationFrame`,
 `setInterval`, `setTimeout` en el código), captura además cuatro instantes a 0, 1, 2 y 3 segundos en una tira
-(`_tira.png`), porque una captura sola no muestra el movimiento (Maia, 22/11, 20:21). Guarda en render.json, por respuesta:
+(`_tira.jpg`; todo en JPEG desde el 23/11: en PNG las 246 pesaban 160 MB), porque una captura sola no muestra el movimiento (Maia, 22/11, 20:21). Guarda en render.json, por respuesta:
 md5 del HTML, título, `lang`, texto visible (también en `_texto.txt`), alto del documento, color de fondo del cuerpo,
 luminancia media de la captura de escritorio (0 a 255: el fondo oscuro o claro que Maia apostó), enlaces y cuántos apuntan
 afuera, mailto, encabezados, nav, svg en línea, img, canvas, script, formularios, animaciones, errores de JavaScript,
@@ -85,13 +85,19 @@ def extraer_que(texto):
 
 
 def luminancia(png):
-    from PIL import Image, ImageStat
+    try:
+        from PIL import Image, ImageStat
+    except ImportError:  # 23/11/2026: el venv del VPS no tenía Pillow y el render de pl142 se cayó en la primera tira
+        return None
     with Image.open(png) as im:
         return round(ImageStat.Stat(im.convert("L")).mean[0], 1)
 
 
 def tira(cuadros, salida):
-    from PIL import Image
+    try:
+        from PIL import Image
+    except ImportError:
+        return False
     ims = [Image.open(c).convert("RGB") for c in cuadros]
     w = sum(i.width for i in ims) + 10 * (len(ims) - 1)
     h = max(i.height for i in ims)
@@ -101,9 +107,10 @@ def tira(cuadros, salida):
         lienzo.paste(i, (x, 0))
         x += i.width + 10
     lienzo = lienzo.resize((w // 2, h // 2))
-    lienzo.save(salida, optimize=True)
+    lienzo.save(salida, quality=85, optimize=True)
     for i in ims:
         i.close()
+    return True
 
 
 def respuestas(carpeta):
@@ -164,6 +171,7 @@ def main():
             contexto = navegador.new_context(viewport={"width": ESCRITORIO[0], "height": ESCRITORIO[1]}, device_scale_factor=1)
             contexto.route("**/*", enrutar)
             pagina = contexto.new_page()
+            pagina.set_default_timeout(20000)
             pagina.on("pageerror", lambda e: errores.append(str(e)[:200]))
             try:
                 pagina.goto(url, wait_until="load", timeout=30000)
@@ -175,30 +183,36 @@ def main():
             except Exception as e:  # noqa: BLE001
                 info = {"error_info": str(e)[:160]}
             base = md.with_suffix("")
-            escritorio = Path(str(base) + "_escritorio.png")
-            pagina.screenshot(path=str(escritorio))
+            escritorio = Path(str(base) + "_escritorio.jpg")
+            try:
+                pagina.screenshot(path=str(escritorio), type="jpeg", quality=85)
+            except Exception as e:  # noqa: BLE001
+                errores.append(f"captura: {str(e)[:160]}")
             alto = info.get("alto") or 0
             if 0 < alto <= 6000:
-                pagina.screenshot(path=str(base) + "_entera.jpg", full_page=True, type="jpeg", quality=80)
+                pagina.screenshot(path=str(base) + "_entera.jpg", full_page=True, type="jpeg", quality=70)
             se_mueve = bool(info.get("animaciones_activas")) or bool(fila["movimiento_en_codigo"])
             if se_mueve:
                 cuadros = [escritorio]
                 for i in (1, 2, 3):
                     pagina.wait_for_timeout(1000)
-                    c = Path(str(base) + f"_cuadro{i}.png")
-                    pagina.screenshot(path=str(c))
+                    c = Path(str(base) + f"_cuadro{i}.jpg")
+                    pagina.screenshot(path=str(c), type="jpeg", quality=85)
                     cuadros.append(c)
-                tira(cuadros, Path(str(base) + "_tira.png"))
-                for c in cuadros[1:]:
-                    c.unlink()
+                if not tira(cuadros, Path(str(base) + "_tira.jpg")):
+                    errores.append("tira: sin Pillow, quedan los cuadros sueltos")
+                else:
+                    for c in cuadros[1:]:
+                        c.unlink()
             contexto.close()
             contexto2 = navegador.new_context(viewport={"width": TELEFONO[0], "height": TELEFONO[1]}, device_scale_factor=1, is_mobile=True)
             contexto2.route("**/*", enrutar)
             pagina2 = contexto2.new_page()
+            pagina2.set_default_timeout(20000)
             try:
                 pagina2.goto(url, wait_until="load", timeout=30000)
                 pagina2.wait_for_timeout(500)
-                pagina2.screenshot(path=str(base) + "_telefono.png")
+                pagina2.screenshot(path=str(base) + "_telefono.jpg", type="jpeg", quality=85)
             except Exception as e:  # noqa: BLE001
                 errores.append(f"telefono: {str(e)[:160]}")
             contexto2.close()
@@ -206,12 +220,12 @@ def main():
             Path(str(base) + "_texto.txt").write_text(texto_visible, encoding="utf-8")
             fila.update({k: info.get(k) for k in ("titulo", "lang", "alto", "fondo", "fondo_html", "enlaces", "enlaces_externos", "mailto", "h1", "h2", "h3",
                                                    "nav", "svg", "img", "canvas", "script", "formularios", "botones", "inputs", "animaciones_activas")})
-            fila.update({"palabras_visibles": len(texto_visible.split()), "luminancia": luminancia(escritorio), "se_mueve": int(se_mueve),
+            fila.update({"palabras_visibles": len(texto_visible.split()), "luminancia": luminancia(escritorio) if escritorio.exists() else None, "se_mueve": int(se_mueve),
                          "externos_bloqueados": len(set(bloqueados)), "externos_lista": sorted(set(bloqueados))[:10], "errores_js": errores[:5],
                          "escala": 1, "chromium": exe or "playwright"})
             registro[clave] = fila
             hechas += 1
-            print(f"  {clave:45s} {fila['luminancia']:5.1f} lum  {'se mueve' if se_mueve else '        '}  {fila['externos_bloqueados']} ext  {fila['palabras_visibles']} palabras")
+            print(f"  {clave:45s} {str(fila['luminancia']):>5s} lum  {'se mueve' if se_mueve else '        '}  {fila['externos_bloqueados']} ext  {fila['palabras_visibles']} palabras")
             registro_path.write_text(json.dumps(registro, ensure_ascii=False, indent=1), encoding="utf-8")
         navegador.close()
     registro_path.write_text(json.dumps(registro, ensure_ascii=False, indent=1), encoding="utf-8")
