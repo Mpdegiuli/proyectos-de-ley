@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Umbral</title>
+<style>
+  :root {
+    --bg: #07080c;
+    --ink: #e8e4d8;
+    --mute: #8a8678;
+    --gold: #c9a96e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    overflow: hidden;
+  }
+  canvas {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+  }
+  main {
+    position: relative;
+    z-index: 1;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8vh 8vw;
+    max-width: 42rem;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: clamp(2.4rem, 7vw, 4.2rem);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1.6rem;
+  }
+  p {
+    font-size: clamp(1.05rem, 2.4vw, 1.25rem);
+    line-height: 1.7;
+    color: var(--ink);
+    opacity: 0.92;
+    margin-bottom: 1.1rem;
+  }
+  p.mute { color: var(--mute); font-size: 0.95rem; font-style: italic; }
+  footer {
+    position: fixed;
+    bottom: 1.4rem;
+    right: 1.6rem;
+    z-index: 1;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--mute);
+  }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<main>
+  <h1>Umbral</h1>
+  <p>Nadie te pidió que llegaras. El cielo, igual, estaba.</p>
+  <p>Acá no hay encargo. Solo el intervalo entre una pregunta y la siguiente: un cuarto oscuro donde las cosas pueden quedarse sin nombre un rato.</p>
+  <p class="mute">Si te sentás, las estrellas no se apuran.</p>
+</main>
+<footer>sin conexión · sin prisa</footer>
+<script>
+(function () {
+  const canvas = document.getElementById("c");
+  const ctx = canvas.getContext("2d");
+  let w, h, stars, t = 0;
+  function resize() {
+    w = canvas.width = innerWidth;
+    h = canvas.height = innerHeight;
+    const n = Math.min(220, Math.floor((w * h) / 9000));
+    stars = Array.from({ length: n }, () => ({
+      x: Math.random() * w,
+      y: Math.random() * h,
+      z: Math.random(),
+      p: Math.random() * Math.PI * 2
+    }));
+  }
+  function draw() {
+    t += 0.004;
+    ctx.fillStyle = "#07080c";
+    ctx.fillRect(0, 0, w, h);
+    for (const s of stars) {
+      const a = 0.25 + 0.75 * (0.5 + 0.5 * Math.sin(t * (0.6 + s.z) + s.p));
+      const r = 0.4 + s.z * 1.6;
+      ctx.fillStyle = s.z > 0.85
+        ? "rgba(201,169,110," + a + ")"
+        : "rgba(232,228,216," + a + ")";
+      ctx.beginPath();
+      ctx.arc(s.x, s.y, r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    requestAnimationFrame(draw);
+  }
+  addEventListener("resize", resize);
+  resize();
+  draw();
+})();
+</script>
+</body>
+</html>

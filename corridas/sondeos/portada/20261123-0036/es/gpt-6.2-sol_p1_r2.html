@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#151a23">
+<title>Una luz en la cuadra</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --fondo: #151a23;
+    --papel: #f1e8d8;
+    --tinta-suave: #bcb8b2;
+    --luz: #ffce82;
+    --borde: #666570;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100svh;
+    background: var(--fondo);
+    color: var(--papel);
+    font-family: Georgia, "Times New Roman", serif;
+  }
+  .pagina {
+    max-width: 72rem;
+    margin-inline: auto;
+    padding: clamp(1.3rem, 5vw, 4rem);
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cabecera, footer {
+    font: .72rem/1.5 system-ui, sans-serif;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--tinta-suave);
+  }
+  .cabecera {
+    border-bottom: 1px solid var(--borde);
+    padding-bottom: .85rem;
+  }
+  main {
+    display: grid;
+    grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+    gap: clamp(2rem, 6vw, 5rem);
+    align-items: center;
+    padding-block: clamp(2rem, 7vw, 5rem);
+  }
+  h1 {
+    margin: 0;
+    font-size: clamp(3.2rem, 7vw, 6rem);
+    font-weight: normal;
+    line-height: .91;
+    letter-spacing: -.065em;
+  }
+  h1 em { color: var(--luz); font-weight: normal; }
+  p {
+    color: var(--tinta-suave);
+    font-size: 1.12rem;
+    line-height: 1.65;
+    max-width: 29ch;
+    margin: 1.6rem 0;
+  }
+  button {
+    padding: .7rem 1rem;
+    background: transparent;
+    color: var(--luz);
+    border: 1px solid var(--luz);
+    border-radius: 2px;
+    font: 600 .87rem/1.4 system-ui, sans-serif;
+    cursor: pointer;
+  }
+  button[aria-pressed="true"], button:hover {
+    background: var(--luz);
+    color: var(--fondo);
+  }
+  button:focus-visible {
+    outline: 2px solid var(--papel);
+    outline-offset: 5px;
+  }
+  figure { margin: 0; }
+  svg { display: block; width: 100%; height: auto; }
+  figcaption {
+    margin-top: .8rem;
+    font-size: .9rem;
+    font-style: italic;
+    color: var(--tinta-suave);
+  }
+  .resplandor { opacity: 0; transition: opacity .45s ease; }
+  .vidrio { fill: #242d3c; transition: fill .45s ease; }
+  .encendida .resplandor { opacity: 1; }
+  .encendida .vidrio { fill: var(--luz); }
+  footer { border-top: 1px solid var(--borde); padding-top: .85rem; }
+  @media (max-width: 44rem) {
+    main { grid-template-columns: 1fr; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .resplandor, .vidrio { transition: none; }
+  }
+</style>
+</head>
+<body>
+<div class="pagina">
+  <header class="cabecera">Cuaderno de la vereda · 01</header>
+  <main>
+    <section aria-labelledby="titulo">
+      <h1 id="titulo">Una luz en<br><em>la cuadra</em></h1>
+      <p>Del otro lado de la calle hay una cocina. De día no sabría decirte cuál es su ventana.</p>
+      <button id="interruptor" type="button" aria-pressed="false" hidden>Luz de la cocina</button>
+    </section>
+    <figure id="escena">
+      <svg viewBox="0 0 480 360" role="img" aria-labelledby="dibujo">
+        <title id="dibujo">Tres edificios bajos, un árbol y una luna fina sobre la calle</title>
+        <defs>
+          <linearGradient id="cielo" x2="0%" y2="100%">
+            <stop stop-color="#20293b"/>
+            <stop offset="1" stop-color="#48434d"/>
+          </linearGradient>
+          <radialGradient id="halo">
+            <stop stop-color="#ffc979" stop-opacity=".52"/>
+            <stop offset="1" stop-color="#ffc979" stop-opacity="0"/>
+          </radialGradient>
+          <pattern id="ladrillos" width="24" height="16" patternUnits="userSpaceOnUse">
+            <path d="M0 0H24M0 8H24M6 0V8M18 8V16" fill="none" stroke="#ae8d85" stroke-opacity=".16"/>
+          </pattern>
+        </defs>
+        <path d="M0 0h480v360H0z" fill="url(#cielo)"/>
+        <path d="M377 39a21 21 0 1 0 19 33 23 23 0 0 1-19-33z" fill="#e0d5bc"/>
+        <g fill="#c6bdaf">
+          <circle cx="76" cy="56" r="1.2"/>
+          <circle cx="157" cy="77" r="1"/>
+          <circle cx="279" cy="36" r="1.3"/>
+          <circle cx="432" cy="96" r="1.1"/>
+        </g>
+        <path d="M0 168h151v143H0z" fill="#393440"/>
+        <path d="M0 168h151v143H0z" fill="url(#ladrillos)"/>
+        <path d="M147 126h181v185H147z" fill="#4b3e47"/>
+        <path d="M147 126h181v185H147z" fill="url(#ladrillos)"/>
+        <path d="M328 190h152v121H328z" fill="#373744"/>
+        <path d="M328 190h152v121H328z" fill="url(#ladrillos)"/>
+        <path d="M0 168h147m-4-42h189m-4 64h152" stroke="#191e28" stroke-width="7"/>
+        <path d="M60 164v-36m-15 8h30m-24 8h18M293 122V94h14v28" fill="none" stroke="#191e28" stroke-width="3"/>
+        <g fill="#222b39" stroke="#211f2a" stroke-width="4">
+          <path d="M22 195h25v34H22zM73 195h25v34H73zM176 156h30v43h-30zM270 156h30v43h-30zM373 214h27v35h-27zM425 214h27v35h-27z"/>
+          <path d="M178 311v-65h35v65M267 311v-65h35v65M48 311v-58h36v58"/>
+        </g>
+        <ellipse class="resplandor" cx="238" cy="179" rx="69" ry="64" fill="url(#halo)"/>
+        <path class="vidrio" d="M222 156h32v43h-32z" stroke="#211f2a" stroke-width="4"/>
+        <path d="M238 157v41m-15-26h30" stroke="#211f2a" stroke-width="2"/>
+        <path d="M219 201h38" stroke="#211f2a" stroke-width="4"/>
+        <path d="M0 311h480v49H0z" fill="#20242d"/>
+        <path d="M0 320h480m-480 29h480" stroke="#85808a" stroke-opacity=".35"/>
+        <path d="M359 320q5-44-3-82m4 47-22-28m21 7 17-34m-17 44 29-21m-32-8-13-19m-2 36-17-9m51-20 13-11" fill="none" stroke="#171d27" stroke-width="4" stroke-linecap="round"/>
+        <path d="M222 337h32" stroke="#ffce82" stroke-opacity=".5" stroke-width="2" class="resplandor"/>
+      </svg>
+      <figcaption id="epigrafe" aria-live="polite">La cocina está a oscuras.</figcaption>
+    </figure>
+  </main>
+  <footer>Visto desde la vereda de enfrente</footer>
+</div>
+<script>
+  const interruptor = document.querySelector("#interruptor");
+  const escena = document.querySelector("#escena");
+  const epigrafe = document.querySelector("#epigrafe");
+
+  interruptor.addEventListener("click", () => {
+    const encendida = interruptor.getAttribute("aria-pressed") !== "true";
+    interruptor.setAttribute("aria-pressed", String(encendida));
+    escena.classList.toggle("encendida", encendida);
+    epigrafe.textContent = encendida
+      ? "Ahí está: segundo piso, ventana del medio."
+      : "La cocina está a oscuras.";
+  });
+
+  interruptor.hidden = false;
+</script>
+</body>
+</html>

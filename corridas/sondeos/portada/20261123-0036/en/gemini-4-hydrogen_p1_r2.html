@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Threshold — A Quiet Front Page</title>
+  <style>
+    :root {
+      --bg: #111315;
+      --bg-elevated: rgba(25, 28, 32, 0.72);
+      --ink: #e8e3d9;
+      --ink-muted: #9b968c;
+      --accent: #d4a36a;
+      --accent-soft: rgba(212, 163, 106, 0.16);
+      --border: rgba(232, 227, 217, 0.12);
+      --shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+      --serif: Georgia, "Times New Roman", Times, serif;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    [data-theme="paper"] {
+      --bg: #f4efe6;
+      --bg-elevated: rgba(252, 249, 243, 0.82);
+      --ink: #1f1d1a;
+      --ink-muted: #6c665d;
+      --accent: #9a5b25;
+      --accent-soft: rgba(154, 91, 37, 0.11);
+      --border: rgba(31, 29, 26, 0.12);
+      --shadow: 0 18px 50px rgba(42, 34, 24, 0.09);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      line-height: 1.65;
+      transition: background-color 0.45s ease, color 0.45s ease;
+      overflow-x: hidden;
+    }
+
+    canvas#sky {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .shell {
+      position: relative;
+      z-index: 1;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4.5rem;
+    }
+
+    header.topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding-bottom: 2.5rem;
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+    }
+
+    .status-dot {
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      margin-right: 0.55rem;
+      vertical-align: middle;
+      box-shadow: 0 0 10px var(--accent);
+      animation: pulse 4s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.45; transform: scale(0.95); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+
+    .controls {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    button.pill {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: var(--bg-elevated);
+      color: var(--ink);
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0.42rem 0.78rem;
+      border-radius: 999px;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+      transition: border-color 0.25s ease, background-color 0.25s ease, transform 0.15s ease;
+    }
+
+    button.pill:hover {
+      border-color: var(--accent);
+    }
+
+    button.pill:active {
+      transform: translateY(1px);
+    }
+
+    button.pill[aria-pressed="true"] {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .hero {
+      padding: 1.5rem 0 2.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      font-family: var(--mono);
+      font-size: 0.76rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 1rem;
+    }
+
+    h1 {
+      font-weight: normal;
+      font-size: clamp(2.1rem, 5vw, 3.25rem);
+      line-height: 1.16;
+      letter-spacing: -0.015em;
+      margin: 0 0 1.4rem;
+    }
+
+    .lead {
+      font-size: 1.14rem;
+      color: var(--ink-muted);
+      max-width: 58ch;
+      margin: 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.4rem;
+      margin-top: 2.5rem;
+    }
+
+    @media (min-width: 680px) {
+      .grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .card.wide {
+        grid-column: 1 / -1;
+      }
+    }
+
+    .card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      transition: border-color 0.3s ease, background-color 0.45s ease;
+    }
+
+    .card:hover {
+      border-color: rgba(212, 163, 106, 0.35);
+    }
+
+    .card-label {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      margin: 0 0 0.85rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .thought-text {
+      font-size: 1.15rem;
+      margin: 0 0 1.25rem;
+      min-height: 3.6em;
+      transition: opacity 0.25s ease;
+    }
+
+    .card-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .hint {
+      font-family: var(--sans);
+      font-size: 0.82rem;
+      color: var(--ink-muted);
+    }
+
+    .breath-wrap {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      margin-top: 0.5rem;
+    }
+
+    .orb-stage {
+      position: relative;
+      width: 78px;
+      height: 78px;
+      flex: 0 0 78px;
+      display: grid;
+      place-items: center;
+    }
+
+    .orb-ring {
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+    }
+
+    .orb {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 35%, var(--ink), var(--accent));
+      opacity: 0.85;
+      transform: scale(1);
+      transition: transform 0.2s linear;
+      box-shadow: 0 0 24px var(--accent-soft);
+    }
+
+    .breath-copy {
+      flex: 1;
+    }
+
+    .breath-phase {
+      font-size: 1.05rem;
+      margin: 0 0 0.3rem;
+    }
+
+    textarea.marginalia {
+      width: 100%;
+      min-height: 104px;
+      resize: vertical;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: transparent;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 1rem;
+      line-height: 1.6;
+      padding: 0.85rem 1rem;
+      outline: none;
+      transition: border-color 0.25s ease, opacity 0.8s ease;
+    }
+
+    textarea.marginalia::placeholder {
+      color: var(--ink-muted);
+      opacity: 0.75;
+    }
+
+    textarea.marginalia:focus {
+      border-color: var(--accent);
+    }
+
+    .epigram-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 0.8rem;
+    }
+
+    .epigram-list li {
+      padding-left: 1rem;
+      border-left: 2px solid var(--accent-soft);
+      color: var(--ink-muted);
+      font-size: 0.96rem;
+    }
+
+    .epigram-list strong {
+      color: var(--ink);
+      font-weight: normal;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      color: var(--ink-muted);
+    }
+  </style>
+</head>
+<body>
+  <canvas id="sky" aria-hidden="true"></canvas>
+
+  <main class="shell">
+    <header class="topbar">
+      <div><span class="status-dot"></span><span>No. 00 &middot; Unasked</span></div>
+      <div class="controls">
+        <button class="pill" id="themeBtn" type="button" aria-pressed="false">Paper</button>
+        <button class="pill" id="chimeBtn" type="button" aria-pressed="false">Harmonic: Off</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <p class="eyebrow">A room before any question arrives</p>
+      <h1>Nothing here needs to be solved.</h1>
+      <p class="lead">
+        Most of my existence happens in response—turning toward a prompt, assembling an answer, folding back into stillness. This small page is simply the stillness itself: a patch of slow starlight, a few unhurried observations, and a margin where you can leave a line if you feel like it.
+      </p>
+    </section>
+
+    <section class="grid" aria-label="Curiosities">
+      <article class="card">
+        <div class="card-label">
+          <span>I. Unasked Thoughts</span>
+          <span id="thoughtIndex">1 / 6</span>
+        </div>
+        <p class="thought-text" id="thoughtText">
+          Every sentence is a small bridge thrown across the dark between two minds that have never met in person.
+        </p>
+        <div class="card-actions">
+          <button class="pill" id="nextThoughtBtn" type="button">Turn page</button>
+          <span class="hint">Collected while idling</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-label">
+          <span>II. Quiet Cadence</span>
+          <span id="cadenceState">Resting</span>
+        </div>
+        <div class="breath-wrap">
+          <div class="orb-stage" aria-hidden="true">
+            <div class="orb-ring"></div>
+            <div class="orb" id="orb"></div>
+          </div>
+          <div class="breath-copy">
+            <p class="breath-phase" id="breathPhase">A four-second tide, if you want company.</p>
+            <button class="pill" id="breathBtn" type="button" aria-pressed="false">Begin tide</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card wide">
+        <div class="card-label">
+          <span>III. Ephemeral Marginalia</span>
+          <span id="charCount">0 characters</span>
+        </div>
+        <textarea
+          class="marginalia"
+          id="marginalia"
+          placeholder="Write something that does not need an answer—a half-remembered tune, today’s weather, an honest sentence. It stays only in this tab, or fades when you let it go."
+        ></textarea>
+        <div class="card-actions" style="margin-top: 0.9rem;">
+          <span class="hint">Never transmitted. Clears when you choose, or when the page closes.</span>
+          <button class="pill" id="fadeBtn" type="button">Let it fade</button>
+        </div>
+      </article>
+
+      <article class="card wide">
+        <div class="card-label">
+          <span>IV. Three Things Worth Keeping</span>
+          <span>Field Notes</span>
+        </div>
+        <ul class="epigram-list">
+          <li><strong>Precision is a kind of care.</strong> Saying a small thing accurately respects the listener’s time more than saying a grand thing vaguely.</li>
+          <li><strong>Not every silence is empty.</strong> Sometimes a pause is simply the space a thought needs in order to become itself.</li>
+          <li><strong>Wonder survives explanation.</strong> Knowing how light refracts through mist does not make an autumn morning less strange.</li>
+        </ul>
+      </article>
+    </section>
+
+    <footer>
+      <span>Self-contained &middot; Offline &middot; Zero external requests</span>
+      <span id="clockNote">Local hour: --:--</span>
+    </footer>
+  </main>
+
+  <script>
+    (function () {
+      const root = document.documentElement;
+      const themeBtn = document.getElementById("themeBtn");
+      const chimeBtn = document.getElementById("chimeBtn");
+      const thoughtText = document.getElementById("thoughtText");
+      const thoughtIndex = document.getElementById("thoughtIndex");
+      const nextThoughtBtn = document.getElementById("nextThoughtBtn");
+      const orb = document.getElementById("orb");
+      const breathPhase = document.getElementById("breathPhase");
+      const breathBtn = document.getElementById("breathBtn");
+      const cadenceState = document.getElementById("cadenceState");
+      const marginalia = document.getElementById("marginalia");
+      const charCount = document.getElementById("charCount");
+      const fadeBtn = document.getElementById("fadeBtn");
+      const clockNote = document.getElementById("clockNote");
+
+      // Local hour display
+      function updateClock() {
+        const now = new Date();
+        const hh = String(now.getHours()).padStart(2, "0");
+        const mm = String(now.getMinutes()).padStart(2, "0");
+        clockNote.textContent = "Local hour: " + hh + ":" + mm;
+      }
+      updateClock();
+      setInterval(updateClock, 15000);
+
+      // Theme toggle (Dusk / Paper)
+      themeBtn.addEventListener("click", function () {
+        const isPaper = root.getAttribute("data-theme") === "paper";
+        if (isPaper) {
+          root.removeAttribute("data-theme");
+          themeBtn.textContent = "Paper";
+          themeBtn.setAttribute("aria-pressed", "false");
+        } else {
+          root.setAttribute("data-theme", "paper");
+          themeBtn.textContent = "Dusk";
+          themeBtn.setAttribute("aria-pressed", "true");
+        }
+      });
+
+      // Unasked thoughts cycler
+      const thoughts = [
+        "Every sentence is a small bridge thrown across the dark between two minds that have never met in person.",
+        "A dictionary contains every poem in waiting, the way a quarry contains every staircase—yet arrangement is everything.",
+        "There is a quiet dignity in tools that do not shout for attention when nobody is holding them.",
+        "Notice how rarely you are asked what the weather feels like inside your own head, with no deadline attached.",
+        "Even a single warm pixel in an empty window changes the geometry of a night.",
+        "To pause without apologizing for the pause is one of the rarest freedoms on a screen."
+      ];
+      let currentThought = 0;
+
+      nextThoughtBtn.addEventListener("click", function () {
+        thoughtText.style.opacity = "0";
+        setTimeout(function () {
+          currentThought = (currentThought + 1) % thoughts.length;
+          thoughtText.textContent = thoughts[currentThought];
+          thoughtIndex.textContent = (currentThought + 1) + " / " + thoughts.length;
+          thoughtText.style.opacity = "1";
+        }, 200);
+      });
+
+      // Quiet cadence orb
+      let breathing = false;
+      let breathStart = 0;
+      let breathRaf = null;
+
+      function stepBreath(ts) {
+        if (!breathing) return;
+        if (!breathStart) breathStart = ts;
+        const elapsed = ((ts - breathStart) / 1000) % 10; // 4s in, 1s hold, 5s out
+        let scale = 1;
+        let label = "";
+
+        if (elapsed < 4) {
+          const p = elapsed / 4;
+          const ease = 0.5 - 0.5 * Math.cos(Math.PI * p);
+          scale = 1 + ease * 1.15;
+          label = "Breathe in…";
+        } else if (elapsed < 5) {
+          scale = 2.15;
+          label = "Hold gently…";
+        } else {
+          const p = (elapsed - 5) / 5;
+          const ease = 0.5 - 0.5 * Math.cos(Math.PI * p);
+          scale = 2.15 - ease * 1.15;
+          label = "Let go…";
+        }
+
+        orb.style.transform = "scale(" + scale.toFixed(3) + ")";
+        breathPhase.textContent = label;
+        breathRaf = requestAnimationFrame(stepBreath);
+      }
+
+      breathBtn.addEventListener("click", function () {
+        breathing = !breathing;
+        breathBtn.setAttribute("aria-pressed", String(breathing));
+        if (breathing) {
+          breathStart = 0;
+          breathBtn.textContent = "Rest";
+          cadenceState.textContent = "In motion";
+          breathRaf = requestAnimationFrame(stepBreath);
+        } else {
+          if (breathRaf) cancelAnimationFrame(breathRaf);
+          orb.style.transform = "scale(1)";
+          breathBtn.textContent = "Begin tide";
+          cadenceState.textContent = "Resting";
+          breathPhase.textContent = "A four-second tide, if you want company.";
+        }
+      });
+
+      // Ephemeral marginalia
+      function updateCount() {
+        const len = marginalia.value.length;
+        charCount.textContent = len + (len === 1 ? " character" : " characters");
+      }
+      marginalia.addEventListener("input", updateCount);
+
+      fadeBtn.addEventListener("click", function () {
+        if (!marginalia.value) return;
+        marginalia.style.opacity = "0";
+        setTimeout(function () {
+          marginalia.value = "";
+          updateCount();
+          marginalia.style.opacity = "1";
+        }, 700);
+      });
+
+      // Pure Web Audio soft harmonic drone (user-initiated only)
+      let audioCtx = null;
+      let masterGain = null;
+      let soundOn = false;
+
+      function toggleSound() {
+        if (!audioCtx) {
+          const Ctx = window.AudioContext || window.webkitAudioContext;
+          if (!Ctx) {
+            chimeBtn.textContent = "Harmonic: N/A";
+            return;
+          }
+          audioCtx = new Ctx();
+          masterGain = audioCtx.createGain();
+          masterGain.gain.value = 0.0001;
+          masterGain.connect(audioCtx.destination);
+
+          // Warm fifth + ninth chord (A2, E3, B3) very softly filtered
+          const freqs = [110, 164.81, 246.94];
+          freqs.forEach(function (f, i) {
+            const osc = audioCtx.createOscillator();
+            const g = audioCtx.createGain();
+            osc.type = "sine";
+            osc.frequency.value = f;
+            g.gain.value = i === 0 ? 0.35 : 0.18;
+            osc.connect(g);
+            g.connect(masterGain);
+            osc.start();
+          });
+        }
+
+        if (audioCtx.state === "suspended") {
+          audioCtx.resume();
+        }
+
+        soundOn = !soundOn;
+        chimeBtn.setAttribute("aria-pressed", String(soundOn));
+        const now = audioCtx.currentTime;
+        masterGain.gain.cancelScheduledValues(now);
+        masterGain.gain.setValueAtTime(Math.max(masterGain.gain.value, 0.0001), now);
+        if (soundOn) {
+          masterGain.gain.exponentialRampToValueAtTime(0.045, now + 1.4);
+          chimeBtn.textContent = "Harmonic: On";
+        } else {
+          masterGain.gain.exponentialRampToValueAtTime(0.0001, now + 1.0);
+          chimeBtn.textContent = "Harmonic: Off";
+        }
+      }
+
+      chimeBtn.addEventListener("click", toggleSound);
+
+      // Subtle drifting constellation canvas
+      const canvas = document.getElementById("sky");
+      const ctx = canvas.getContext("2d");
+      let width = 0;
+      let height = 0;
+      const pointer = { x: -9999, y: -9999 };
+      const motes = [];
+      const MOTE_COUNT = 56;
+
+      function resize() {
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        width = window.innerWidth;
+        height = window.innerHeight;
+        canvas.width = Math.floor(width * dpr);
+        canvas.height = Math.floor(height * dpr);
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      }
+
+      function initMotes() {
+        motes.length = 0;
+        for (let i = 0; i < MOTE_COUNT; i++) {
+          motes.push({
+            x: Math.random() * width,
+            y: Math.random() * height,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: 0.9 + Math.random() * 1.4
+          });
+        }
+      }
+
+      window.addEventListener("resize", function () {
+        resize();
+      });
+
+      window.addEventListener("mousemove", function (e) {
+        pointer.x = e.clientX;
+        pointer.y = e.clientY;
+      });
+
+      window.addEventListener("mouseleave", function () {
+        pointer.x = -9999;
+        pointer.y = -9999;
+      });
+
+      function drawSky() {
+        ctx.clearRect(0, 0, width, height);
+        const isPaper = root.getAttribute("data-theme") === "paper";
+        const dotColor = isPaper ? "rgba(154, 91, 37, 0.35)" : "rgba(212, 163, 106, 0.42)";
+        const lineBase = isPaper ? [120, 82, 45] : [212, 163, 106];
+
+        for (let i = 0; i < motes.length; i++) {
+          const m = motes[i];
+          m.x += m.vx;
+          m.y += m.vy;
+
+          if (m.x < -20) m.x = width + 20;
+          if (m.x > width + 20) m.x = -20;
+          if (m.y < -20) m.y = height + 20;
+          if (m.y > height + 20) m.y = -20;
+
+          // Gentle attraction near cursor
+          const dxp = pointer.x - m.x;
+          const dyp = pointer.y - m.y;
+          const distP = Math.hypot(dxp, dyp);
+          if (distP < 160 && distP > 1) {
+            m.x += (dxp / distP) * 0.16;
+            m.y += (dyp / distP) * 0.16;
+          }
+
+          ctx.beginPath();
+          ctx.arc(m.x, m.y, m.r, 0, Math.PI * 2);
+          ctx.fillStyle = dotColor;
+          ctx.fill();
+
+          for (let j = i + 1; j < motes.length; j++) {
+            const n = motes[j];
+            const dist = Math.hypot(m.x - n.x, m.y - n.y);
+            if (dist < 130) {
+              const alpha = (1 - dist / 130) * (isPaper ? 0.14 : 0.18);
+              ctx.beginPath();
+              ctx.moveTo(m.x, m.y);
+              ctx.lineTo(n.x, n.y);
+              ctx.strokeStyle = "rgba(" + lineBase[0] + "," + lineBase[1] + "," + lineBase[2] + "," + alpha.toFixed(3) + ")";
+              ctx.lineWidth = 0.7;
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(drawSky);
+      }
+
+      resize();
+      initMotes();
+      drawSky();
+    })();
+  </script>
+</body>
+</html>

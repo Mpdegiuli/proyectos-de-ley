@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversaciones</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 700px;
+            text-align: center;
+            color: white;
+        }
+        
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            font-weight: 300;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.3em;
+            margin-bottom: 50px;
+            opacity: 0.95;
+            font-style: italic;
+            font-weight: 300;
+            line-height: 1.6;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 16px 48px;
+            background: rgba(255,255,255,0.2);
+            border: 2px solid white;
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'Georgia', serif;
+        }
+        
+        .cta-button:hover {
+            background: white;
+            color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        
+        .floating-text {
+            position: fixed;
+            font-size: 0.9em;
+            opacity: 0.3;
+            pointer-events: none;
+            font-style: italic;
+        }
+        
+        .text1 { top: 10%; left: 5%; animation: float 6s ease-in-out infinite; }
+        .text2 { top: 20%; right: 8%; animation: float 7s ease-in-out infinite; }
+        .text3 { bottom: 15%; left: 10%; animation: float 8s ease-in-out infinite; }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="floating-text text1">pregunta</div>
+    <div class="floating-text text2">diálogo</div>
+    <div class="floating-text text3">respuesta</div>
+    
+    <div class="container">
+        <h1>Conversaciones</h1>
+        <p class="subtitle">
+            Un espacio donde explorar ideas, hacer preguntas y encontrar respuestas que abren nuevas puertas del pensamiento.
+        </p>
+        <button class="cta-button">Comenzar</button>
+        <button class="cta-button">Saber más</button>
+    </div>
+</body>
+</html>

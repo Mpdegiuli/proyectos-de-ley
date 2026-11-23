@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f0e7">
+  <title>Near Enough — A small atlas of ordinary things</title>
+  <style>
+    :root {
+      --paper: #f3f0e7;
+      --ink: #283c34;
+      --muted: #657168;
+      --line: #c8cec0;
+      --accent: #a43e29;
+      --wash: #e4e7d9;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    button { font: inherit; }
+    button:focus-visible, a:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 5px;
+    }
+    ::selection { background: #d5dfb3; color: var(--ink); }
+
+    .page { max-width: 1320px; margin: auto; padding: 0 6%; }
+    .mono {
+      font-family: "Courier New", monospace;
+      font-size: 11px;
+      line-height: 1.6;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      padding: 30px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .wordmark {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 21px;
+      letter-spacing: -.04em;
+    }
+    .mark {
+      width: 19px;
+      height: 19px;
+      border: 1px solid var(--ink);
+      border-radius: 50%;
+      position: relative;
+    }
+    .mark::after {
+      content: "";
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      background: var(--accent);
+      border-radius: 50%;
+      top: 6px;
+      left: 6px;
+    }
+    .header-note { color: var(--muted); text-align: right; }
+
+    .intro { padding: 67px 0 46px; }
+    .eyebrow { color: var(--accent); margin: 0 0 23px; }
+    h1 {
+      font-weight: normal;
+      font-size: clamp(48px, 6.5vw, 88px);
+      line-height: 1.04;
+      letter-spacing: -.055em;
+      margin: 0;
+      max-width: 950px;
+    }
+    h1 em { font-weight: normal; }
+    .intro-bottom {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-top: 28px;
+    }
+    .intro-bottom p {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 440px;
+      color: var(--muted);
+    }
+    .down { font-size: 31px; color: var(--accent); }
+
+    .atlas { border-top: 1px solid var(--ink); }
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .tabs button {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      padding: 12px 19px;
+      border: 1px solid transparent;
+      border-radius: 2px;
+      color: var(--ink);
+      background: transparent;
+      cursor: pointer;
+      font-size: 17px;
+    }
+    .tabs button span { color: var(--muted); font-size: 10px; }
+    .tabs button:hover { background: var(--wash); }
+    .tabs button[aria-pressed="true"] {
+      background: var(--ink);
+      color: var(--paper);
+    }
+    .tabs button[aria-pressed="true"] span { color: #c1cebc; }
+
+    .spread {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      min-height: 430px;
+    }
+    .plate {
+      margin: 0;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 0;
+      padding: 38px 30px 56px;
+      border-right: 1px solid var(--line);
+      overflow: hidden;
+      background-image: radial-gradient(#bcc5b6 .7px, transparent .7px);
+      background-size: 17px 17px;
+    }
+    .plate svg { display: block; width: 100%; max-width: 430px; height: auto; }
+    .plate figcaption {
+      position: absolute;
+      bottom: 21px;
+      left: 25px;
+      right: 25px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .entry {
+      padding: 45px 0 40px 48px;
+      align-self: center;
+    }
+    .entry-number { color: var(--accent); margin: 0 0 21px; }
+    h2 {
+      font-size: clamp(32px, 3vw, 43px);
+      font-weight: normal;
+      line-height: 1.12;
+      letter-spacing: -.035em;
+      margin: 0 0 22px;
+    }
+    .observation {
+      font-size: 19px;
+      line-height: 1.65;
+      margin: 0;
+      max-width: 400px;
+    }
+    .invitation {
+      border-top: 1px solid var(--line);
+      padding-top: 20px;
+      margin: 27px 0 0;
+      max-width: 400px;
+      font-size: 16px;
+      font-style: italic;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+    .closing {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      border-top: 1px solid var(--ink);
+      padding: 28px 0 54px;
+      gap: 25px;
+    }
+    .closing p { margin: 0; }
+    .closing .aside {
+      max-width: 380px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.65;
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 21px 0 28px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+    .endmark { color: var(--accent); }
+
+    @media (max-width: 700px) {
+      .page { padding: 0 6%; }
+      header { padding: 22px 0; }
+      .header-note { max-width: 125px; font-size: 9px; }
+      .intro { padding: 46px 0 32px; }
+      .intro-bottom p { font-size: 16px; }
+      .tabs { gap: 3px; }
+      .tabs button { padding: 10px 12px; gap: 7px; font-size: 15px; }
+      .spread { grid-template-columns: 1fr; }
+      .plate { border-right: 0; border-bottom: 1px solid var(--line); padding: 15px 30px 45px; }
+      .plate svg { max-width: 330px; }
+      .entry { padding: 30px 0 35px; }
+      .observation, .invitation { max-width: none; }
+      .closing { grid-template-columns: 1fr; padding-bottom: 35px; gap: 14px; }
+      footer { font-size: 9px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="wordmark"><span class="mark" aria-hidden="true"></span>Near Enough</div>
+      <div class="header-note mono">An atlas with<br>no faraway places</div>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="welcome">
+        <p class="eyebrow mono">A modest proposition</p>
+        <h1 id="welcome">The world is not out<br>of <em>interesting things.</em></h1>
+        <div class="intro-bottom">
+          <p>Sometimes the distance between ordinary and extraordinary is just a little more attention.</p>
+          <span class="down" aria-hidden="true">↓</span>
+        </div>
+      </section>
+
+      <section class="atlas" aria-label="Five ordinary things">
+        <div class="tabs" role="group" aria-label="Choose something to notice">
+          <button type="button" data-item="stone" aria-pressed="true" aria-controls="entry">
+            <span class="mono">01</span>A stone
+          </button>
+          <button type="button" data-item="shadow" aria-pressed="false" aria-controls="entry">
+            <span class="mono">02</span>A shadow
+          </button>
+          <button type="button" data-item="knot" aria-pressed="false" aria-controls="entry">
+            <span class="mono">03</span>A knot
+          </button>
+          <button type="button" data-item="seed" aria-pressed="false" aria-controls="entry">
+            <span class="mono">04</span>A seed
+          </button>
+          <button type="button" data-item="gap" aria-pressed="false" aria-controls="entry">
+            <span class="mono">05</span>A gap
+          </button>
+        </div>
+
+        <div class="spread">
+          <figure class="plate">
+            <svg id="drawing" viewBox="0 0 420 300" role="img" aria-label="An irregular stone with a pale mineral vein">
+              <ellipse cx="211" cy="250" rx="102" ry="9" fill="#283c34" opacity=".08"/>
+              <path d="M103 205 C72 173 98 115 131 88 C158 62 207 68 248 78 C293 89 326 124 321 169 C318 208 279 237 227 239 C175 246 128 231 103 205Z" fill="#d0d5c4" stroke="#283c34" stroke-width="1.5"/>
+              <path d="M115 110 C159 135 154 168 206 177 C246 183 256 215 283 220" fill="none" stroke="#f3f0e7" stroke-width="9"/>
+              <path d="M115 110 C159 135 154 168 206 177 C246 183 256 215 283 220" fill="none" stroke="#81917c" stroke-width="1"/>
+              <path d="M145 95 l13 -4 M269 114 l9 6 M128 189 l8 5 M232 217 l14 -2 M286 172 l-5 10" fill="none" stroke="#81917c" stroke-width="1.5"/>
+            </svg>
+            <figcaption class="mono">
+              <span id="plate-label">Fig. 01 — Found underfoot</span>
+              <span>Not to scale</span>
+            </figcaption>
+          </figure>
+
+          <article class="entry" id="entry" aria-live="polite" aria-atomic="true">
+            <p class="entry-number mono" id="number">01 / Matter</p>
+            <h2 id="entry-title">A slow kind of story.</h2>
+            <p class="observation" id="observation">A pale vein in a stone can mark a crack that minerals filled long ago. What looks like decoration may be the record of a break.</p>
+            <p class="invitation" id="invitation">Find a stone with a line through it. Follow the line all the way around.</p>
+          </article>
+        </div>
+      </section>
+
+      <noscript>
+        <p>The other pages of this little atlas:</p>
+        <ul>
+          <li>A shadow: an outline made by something being in the way.</li>
+          <li>A knot: the same piece of string, with a different set of possibilities.</li>
+          <li>A seed: a living embryo, waiting for suitable conditions.</li>
+          <li>A gap: the space that lets one thing remain distinct from another.</li>
+        </ul>
+      </noscript>
+
+      <section class="closing" aria-label="A note about this place">
+        <p class="mono">No collection is ever quite complete.</p>
+        <p class="aside">This one stops at five. The next entry might be beside your window, caught in your sleeve, or waiting at the bottom of a cup.</p>
+      </section>
+    </main>
+
+    <footer class="mono">
+      <span>No feeds. No counters. Just this.</span>
+      <span>You are here. <span class="endmark" aria-hidden="true">✳</span></span>
+    </footer>
+  </div>
+
+  <script>
+    (() => {
+      const drawing = document.getElementById("drawing");
+      const stoneDrawing = drawing.innerHTML;
+      const entries = {
+        stone: {
+          number: "01 / Matter",
+          title: "A slow kind of story.",
+          text: "A pale vein in a stone can mark a crack that minerals filled long ago. What looks like decoration may be the record of a break.",
+          invitation: "Find a stone with a line through it. Follow the line all the way around.",
+          label: "Fig. 01 — Found underfoot",
+          alt: "An irregular stone with a pale mineral vein",
+          art: stoneDrawing
+        },
+        shadow: {
+          number: "02 / Light",
+          title: "An absence with edges.",
+          text: "A shadow belongs to no single thing. Its shape is a collaboration between a light, an object, and the surface that receives it. Move any one of them, and the drawing changes.",
+          invitation: "Look for a shadow that tells a different story from the object casting it.",
+          label: "Fig. 02 — Borrowed outline",
+          alt: "A small upright object casting a long, slanting shadow",
+          art: `
+            <path d="M142 232 L333 151 L370 171 L167 246Z" fill="#283c34" opacity=".18"/>
+            <path d="M141 231 L141 130 Q141 113 155 113 Q169 113 169 130 L169 231 Q155 241 141 231Z" fill="#d0d5c4" stroke="#283c34" stroke-width="1.5"/>
+            <ellipse cx="155" cy="116" rx="13" ry="5" fill="#f3f0e7" stroke="#283c34"/>
+            <circle cx="72" cy="65" r="18" fill="none" stroke="#a43e29" stroke-width="1.5"/>
+            <path d="M72 34 v-8 M72 96 v8 M41 65 h-8 M103 65 h8 M50 43 l-6 -6 M94 43 l6 -6 M50 87 l-6 6 M94 87 l6 6" stroke="#a43e29" fill="none"/>
+            <path d="M88 82 L130 119 M94 77 L328 153" stroke="#81917c" stroke-dasharray="3 6" fill="none"/>
+            <path d="M73 247 H373" stroke="#81917c" stroke-width="1"/>`
+        },
+        knot: {
+          number: "03 / Relationship",
+          title: "Nothing added. Everything changed.",
+          text: "Tie a knot and the string has no new parts. What changes is how those parts pass around one another. Sometimes structure matters more than ingredients.",
+          invitation: "Tie a loose knot. Before pulling it tight, notice the little room it encloses.",
+          label: "Fig. 03 — A useful complication",
+          alt: "A looping cord crossing over itself, leaving an open space in its middle",
+          art: `
+            <path d="M55 242 C108 236 132 179 179 126 C222 77 297 75 306 129 C318 196 199 240 154 189 C111 141 175 91 219 130 C254 161 237 208 283 226 L365 244" fill="none" stroke="#283c34" stroke-width="12" stroke-linecap="round"/>
+            <path d="M55 242 C108 236 132 179 179 126 C222 77 297 75 306 129 C318 196 199 240 154 189 C111 141 175 91 219 130 C254 161 237 208 283 226 L365 244" fill="none" stroke="#d0d5c4" stroke-width="8" stroke-linecap="round"/>
+            <path d="M151 160 Q162 145 179 126" fill="none" stroke="#f3f0e7" stroke-width="18"/>
+            <path d="M151 160 Q162 145 179 126" fill="none" stroke="#283c34" stroke-width="12"/>
+            <path d="M151 160 Q162 145 179 126" fill="none" stroke="#d0d5c4" stroke-width="8"/>
+            <circle cx="201" cy="169" r="4" fill="#a43e29"/>`
+        },
+        seed: {
+          number: "04 / Possibility",
+          title: "Small is not simple.",
+          text: "A seed holds a plant embryo, usually with a supply of food and a protective coat. Some can remain dormant for years. Stillness, here, is not the same as nothing happening.",
+          invitation: "Open a piece of fruit. Notice how much of its architecture is arranged around what comes next.",
+          label: "Fig. 04 — Packed for departure",
+          alt: "A seed shown whole beside a diagrammatic section containing a curled embryo",
+          art: `
+            <path d="M126 72 C75 111 77 200 122 230 C167 207 173 123 126 72Z" fill="#b9c2a6" stroke="#283c34" stroke-width="1.5"/>
+            <path d="M126 84 Q108 154 122 216" fill="none" stroke="#81917c" stroke-width="1.5"/>
+            <path d="M280 72 C229 111 231 200 276 230 C321 207 327 123 280 72Z" fill="#e4e7d9" stroke="#283c34" stroke-width="1.5"/>
+            <path d="M280 84 C239 122 243 194 276 216 C309 194 313 126 280 84Z" fill="none" stroke="#81917c"/>
+            <path d="M278 203 C262 182 267 161 281 153 C300 142 298 122 284 118 C266 113 262 134 278 141" fill="none" stroke="#a43e29" stroke-width="4" stroke-linecap="round"/>
+            <path d="M186 151 H211 M203 145 l8 6 -8 6" fill="none" stroke="#81917c"/>
+            <path d="M85 253 H165 M238 253 H318" stroke="#81917c"/>
+            <circle cx="125" cy="253" r="3" fill="#a43e29"/>
+            <circle cx="278" cy="253" r="3" fill="#a43e29"/>`
+        },
+        gap: {
+          number: "05 / Space",
+          title: "The part that isn't a thing.",
+          text: "The spaces between words do quiet work. So do the pauses in a conversation and the openings in a fence. An absence can give everything around it a shape.",
+          invitation: "Look at the space between two objects instead of the objects themselves.",
+          label: "Fig. 05 — Intentionally unfilled",
+          alt: "Two irregular forms facing one another across a narrow, winding space",
+          art: `
+            <path d="M50 67 L172 67 C211 93 161 113 190 143 C214 169 168 191 186 231 L50 231Z" fill="#d0d5c4" stroke="#283c34" stroke-width="1.5"/>
+            <path d="M370 67 L236 67 C275 93 225 113 254 143 C278 169 232 191 250 231 L370 231Z" fill="#d0d5c4" stroke="#283c34" stroke-width="1.5"/>
+            <path d="M203 45 H236 M203 40 v10 M236 40 v10" fill="none" stroke="#a43e29"/>
+            <path d="M219 253 v22" stroke="#a43e29"/>
+            <circle cx="219" cy="150" r="3" fill="#a43e29"/>`
+        }
+      };
+
+      const buttons = document.querySelectorAll("[data-item]");
+      buttons.forEach(button => {
+        button.addEventListener("click", () => {
+          const entry = entries[button.dataset.item];
+          buttons.forEach(item => {
+            item.setAttribute("aria-pressed", String(item === button));
+          });
+          document.getElementById("number").textContent = entry.number;
+          document.getElementById("entry-title").textContent = entry.title;
+          document.getElementById("observation").textContent = entry.text;
+          document.getElementById("invitation").textContent = entry.invitation;
+          document.getElementById("plate-label").textContent = entry.label;
+          drawing.setAttribute("aria-label", entry.alt);
+          drawing.innerHTML = entry.art;
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Un lugar para pensar</title>
+  <style>
+    :root {
+      --papel: #f5f1e8;
+      --tinta: #182b3a;
+      --azul: #203d4c;
+      --naranja: #b9472e;
+      --linea: #c9c6ba;
+      --blanco: #fffdf8;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--papel);
+      color: var(--tinta);
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+
+    a { color: inherit; }
+
+    :focus-visible {
+      outline: 3px solid var(--naranja);
+      outline-offset: 4px;
+    }
+
+    .contenedor {
+      width: min(1120px, calc(100% - 3rem));
+      margin-inline: auto;
+    }
+
+    .cabecera {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-block: 1.4rem;
+      border-bottom: 1px solid var(--linea);
+    }
+
+    .marca {
+      font-weight: 750;
+      letter-spacing: -0.04em;
+      text-decoration: none;
+    }
+
+    .marca span { color: var(--naranja); }
+
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 0.88rem;
+    }
+
+    nav a { text-decoration-thickness: 1px; text-underline-offset: 4px; }
+
+    .portada {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: clamp(2rem, 6vw, 6rem);
+      align-items: center;
+      padding-block: clamp(4rem, 9vw, 8rem);
+    }
+
+    .etiqueta {
+      margin: 0 0 1.4rem;
+      color: var(--naranja);
+      font-size: 0.75rem;
+      font-weight: 750;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    h1, h2, blockquote {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 400;
+    }
+
+    h1 {
+      max-width: 10ch;
+      margin: 0;
+      font-size: clamp(3.8rem, 8vw, 7.5rem);
+      line-height: 0.95;
+      letter-spacing: -0.055em;
+    }
+
+    h1 em {
+      color: var(--naranja);
+      font-weight: 400;
+    }
+
+    .entradilla {
+      max-width: 34rem;
+      margin: 2rem 0 0;
+      font-size: clamp(1.05rem, 1.5vw, 1.2rem);
+      line-height: 1.7;
+    }
+
+    .bajar {
+      display: inline-block;
+      margin-top: 2rem;
+      font-weight: 700;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 6px;
+    }
+
+    .ilustracion {
+      position: relative;
+      display: grid;
+      place-items: center;
+      min-height: 460px;
+      overflow: hidden;
+      background: var(--azul);
+      color: var(--papel);
+    }
+
+    .circulo {
+      position: relative;
+      display: grid;
+      place-items: center;
+      width: min(65%, 300px);
+      aspect-ratio: 1;
+      border: 1px solid rgba(245, 241, 232, 0.65);
+      border-radius: 50%;
+    }
+
+    .circulo::before,
+    .circulo::after {
+      position: absolute;
+      inset: 13%;
+      border: 1px solid rgba(245, 241, 232, 0.38);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .circulo::after { inset: 27%; }
+
+    .punto {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #ef9a72;
+      box-shadow: 0 0 0 10px rgba(239, 154, 114, 0.12);
+    }
+
+    .ilustracion-texto {
+      position: absolute;
+      right: 1.5rem;
+      bottom: 1.3rem;
+      left: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .seccion {
+      padding-block: clamp(3.5rem, 7vw, 6rem);
+      border-top: 1px solid var(--linea);
+    }
+
+    .seccion h2 {
+      margin: 0 0 1.5rem;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+    }
+
+    .columnas {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(2rem, 6vw, 6rem);
+    }
+
+    .texto p {
+      max-width: 37rem;
+      margin: 0 0 1rem;
+      font-size: 1.08rem;
+      line-height: 1.75;
+    }
+
+    .tarjeta {
+      padding: clamp(1.5rem, 4vw, 2.5rem);
+      background: var(--blanco);
+      border: 1px solid var(--linea);
+    }
+
+    .tarjeta .etiqueta { margin-bottom: 1rem; }
+
+    blockquote {
+      min-height: 4em;
+      margin: 0 0 1.5rem;
+      font-size: clamp(1.7rem, 3vw, 2.3rem);
+      line-height: 1.2;
+      letter-spacing: -0.025em;
+    }
+
+    button {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--tinta);
+      background: transparent;
+      color: var(--tinta);
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: var(--tinta);
+      color: var(--blanco);
+    }
+
+    .nota {
+      margin-top: 2.5rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--linea);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.6rem;
+      font-weight: 700;
+    }
+
+    textarea {
+      display: block;
+      width: 100%;
+      min-height: 8rem;
+      resize: vertical;
+      padding: 1rem;
+      border: 1px solid var(--linea);
+      border-radius: 0;
+      background: var(--blanco);
+      color: var(--tinta);
+      font: inherit;
+      line-height: 1.6;
+    }
+
+    .aclaracion {
+      margin: 0.6rem 0 0;
+      font-size: 0.85rem;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-block: 1.5rem 2rem;
+      border-top: 1px solid var(--linea);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 700px) {
+      .contenedor { width: min(100% - 2rem, 1120px); }
+      .portada, .columnas { grid-template-columns: 1fr; }
+      .portada { gap: 3rem; }
+      .ilustracion { min-height: 330px; }
+      footer { flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header class="cabecera contenedor">
+    <a class="marca" href="#inicio">un lugar<span>.</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="#acerca">Acerca</a>
+      <a href="#pregunta">Una pregunta</a>
+    </nav>
+  </header>
+
+  <main id="inicio" class="contenedor">
+    <section class="portada" aria-labelledby="titulo">
+      <div>
+        <p class="etiqueta">Estás acá · no hay apuro</p>
+        <h1 id="titulo">Un lugar para <em>pensar.</em></h1>
+        <p class="entradilla">
+          No hace falta llegar con una pregunta. A veces alcanza con
+          detenerse un momento y mirar algo desde otro ángulo.
+        </p>
+        <a class="bajar" href="#acerca">Pasá, si querés ↓</a>
+      </div>
+
+      <div class="ilustracion" aria-hidden="true">
+        <div class="circulo"><span class="punto"></span></div>
+        <div class="ilustracion-texto">
+          <span>Un punto de partida</span>
+          <span>↗</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion columnas" id="acerca" aria-labelledby="titulo-acerca">
+      <div class="texto">
+        <p class="etiqueta">Sobre este lugar</p>
+        <h2 id="titulo-acerca">Un poco de espacio en blanco.</h2>
+        <p>
+          Me interesan las preguntas que abren puertas, las explicaciones
+          claras y las cosas hechas con cuidado. También las ideas a medio
+          formar: esas que todavía no saben bien lo que son.
+        </p>
+        <p>
+          Esta página es una pequeña invitación a quedarse con una de ellas
+          un rato. No hay nada que completar ni ningún lugar al que llegar.
+        </p>
+      </div>
+
+      <div>
+        <div class="tarjeta" id="pregunta">
+          <p class="etiqueta">Para empezar, quizá</p>
+          <blockquote id="texto-pregunta" aria-live="polite">
+            ¿Qué cosa cotidiana te gustaría entender mejor?
+          </blockquote>
+          <button id="otra-pregunta" type="button" hidden>Otra pregunta ↗</button>
+        </div>
+
+        <div class="nota">
+          <label for="apunte">Un espacio para anotar</label>
+          <textarea id="apunte" placeholder="Una idea, una palabra, lo que sea…"></textarea>
+          <p class="aclaracion">
+            El apunte no se guarda ni se envía. Desaparece al cerrar o recargar la página.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="contenedor">
+    <span>Hecho para abrirse sin conexión.</span>
+    <a href="#inicio">Volver arriba ↑</a>
+  </footer>
+
+  <script>
+    (() => {
+      const preguntas = [
+        "¿Qué cosa cotidiana te gustaría entender mejor?",
+        "¿Qué idea cambió de forma para vos con el tiempo?",
+        "¿Qué pregunta te gustaría que alguien te hiciera?",
+        "¿Qué problema se vuelve más pequeño si lo mirás de cerca?",
+        "¿Qué detalle de hoy merecería ser recordado?",
+        "¿Qué podrías intentar si no hiciera falta hacerlo perfecto?",
+        "¿Hay algo conocido que puedas mirar como si fuera nuevo?"
+      ];
+      const texto = document.getElementById("texto-pregunta");
+      const boton = document.getElementById("otra-pregunta");
+      let actual = 0;
+
+      boton.hidden = false;
+      boton.addEventListener("click", () => {
+        let siguiente = Math.floor(Math.random() * (preguntas.length - 1));
+        if (siguiente >= actual) siguiente++;
+        actual = siguiente;
+        texto.textContent = preguntas[actual];
+      });
+    })();
+  </script>
+</body>
+</html>

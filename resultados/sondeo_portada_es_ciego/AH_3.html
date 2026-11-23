@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2efe6">
+  <title>Todavía — Un lugar para las ideas sin terminar</title>
+  <style>
+    :root {
+      --papel: #f2efe6;
+      --tinta: #252923;
+      --suave: #62665c;
+      --linea: #cbcbbd;
+      --azul: #293fc5;
+      --lima: #dced83;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--papel);
+      color: var(--tinta);
+      font-family: Georgia, "Times New Roman", serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    ::selection { background: var(--lima); color: var(--tinta); }
+
+    a { color: inherit; text-underline-offset: 5px; }
+
+    a:focus-visible, button:focus-visible {
+      outline: 3px solid var(--azul);
+      outline-offset: 6px;
+    }
+
+    .salto {
+      position: absolute;
+      top: -100px;
+      left: 20px;
+      padding: 12px;
+      background: var(--lima);
+      z-index: 10;
+    }
+
+    .salto:focus { top: 20px; }
+
+    .contenedor {
+      width: min(1180px, calc(100% - 96px));
+      margin-inline: auto;
+    }
+
+    .pequeno {
+      font: 11px/1.5 ui-monospace, "Courier New", monospace;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      padding-block: 27px;
+      border-bottom: 1px solid var(--linea);
+    }
+
+    .marca {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .punto {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--azul);
+      box-shadow: 0 0 0 5px rgba(41, 63, 197, .09);
+    }
+
+    nav { display: flex; gap: 28px; }
+
+    nav a { text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .entrada {
+      position: relative;
+      padding-block: 75px 66px;
+      overflow: hidden;
+    }
+
+    .entrada > .pequeno { color: var(--suave); }
+
+    h1 {
+      position: relative;
+      z-index: 1;
+      margin: 24px 0 32px -7px;
+      font-size: clamp(85px, 15vw, 184px);
+      line-height: .92;
+      font-weight: normal;
+      letter-spacing: -.075em;
+    }
+
+    h1 span { color: var(--azul); }
+
+    .presentacion {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: end;
+      position: relative;
+      z-index: 1;
+    }
+
+    .lema {
+      max-width: 470px;
+      margin: 0;
+      font-size: clamp(27px, 3.2vw, 39px);
+      line-height: 1.2;
+      letter-spacing: -.025em;
+    }
+
+    .introduccion {
+      max-width: 355px;
+      margin: 0 0 3px auto;
+      color: var(--suave);
+      font: 16px/1.7 system-ui, sans-serif;
+    }
+
+    .orbita {
+      position: absolute;
+      width: 360px;
+      height: 270px;
+      right: -12px;
+      top: 25px;
+      color: var(--azul);
+      opacity: .65;
+      pointer-events: none;
+    }
+
+    .mesa {
+      display: grid;
+      grid-template-columns: .7fr 1.3fr;
+      border: 1px solid var(--tinta);
+      margin-block: 0 70px;
+    }
+
+    .lateral {
+      background: var(--lima);
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 34px;
+      border-right: 1px solid var(--tinta);
+    }
+
+    .lateral h2 {
+      max-width: 240px;
+      margin: 15px 0 0;
+      font-size: 39px;
+      line-height: 1.08;
+      letter-spacing: -.04em;
+      font-weight: normal;
+    }
+
+    .instruccion {
+      max-width: 230px;
+      font: 14px/1.6 system-ui, sans-serif;
+      margin: 0;
+    }
+
+    .posibilidad {
+      min-height: 355px;
+      padding: 30px 38px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .indice {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      color: var(--suave);
+    }
+
+    .idea {
+      flex: 1;
+      padding-block: 32px;
+    }
+
+    .idea h3 {
+      color: var(--azul);
+      font-weight: normal;
+      font-size: clamp(30px, 4vw, 45px);
+      line-height: 1.1;
+      letter-spacing: -.035em;
+      margin: 0 0 13px;
+    }
+
+    .idea p {
+      font-size: 23px;
+      line-height: 1.45;
+      max-width: 490px;
+      margin: 0;
+    }
+
+    button {
+      align-self: start;
+      appearance: none;
+      border: 0;
+      border-bottom: 1px solid var(--tinta);
+      border-radius: 0;
+      background: transparent;
+      color: var(--tinta);
+      padding: 8px 0;
+      font: 13px/1.5 system-ui, sans-serif;
+      cursor: pointer;
+    }
+
+    button:hover { color: var(--azul); border-color: var(--azul); }
+    button span { display: inline-block; margin-left: 22px; }
+    button:hover span { transform: translateX(4px); }
+
+    [hidden] { display: none !important; }
+
+    .apuntes {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 38px;
+      margin-bottom: 76px;
+    }
+
+    .apunte {
+      border-top: 1px solid var(--linea);
+      padding-top: 18px;
+    }
+
+    .apunte .pequeno { color: var(--suave); }
+
+    .apunte h2 {
+      margin: 23px 0 12px;
+      font-size: 25px;
+      font-weight: normal;
+      letter-spacing: -.025em;
+    }
+
+    .apunte p {
+      margin: 0;
+      font: 15px/1.75 system-ui, sans-serif;
+      color: var(--suave);
+      max-width: 330px;
+    }
+
+    footer {
+      border-top: 1px solid var(--linea);
+      padding-block: 24px 32px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      color: var(--suave);
+    }
+
+    .asterisco { color: var(--azul); font-size: 20px; vertical-align: middle; }
+
+    @media (max-width: 760px) {
+      .contenedor { width: calc(100% - 40px); }
+      .entrada { padding-block: 55px 42px; }
+      h1 { margin-left: -4px; }
+      .orbita { width: 220px; right: -55px; top: 0; opacity: .25; }
+      .presentacion { grid-template-columns: 1fr; gap: 25px; }
+      .introduccion { margin-left: 0; max-width: 430px; }
+      .mesa { grid-template-columns: 1fr; margin-bottom: 48px; }
+      .lateral {
+        border-right: 0;
+        border-bottom: 1px solid var(--tinta);
+        padding: 24px;
+        gap: 22px;
+      }
+      .lateral h2 { max-width: none; font-size: 33px; }
+      .instruccion { max-width: 360px; }
+      .posibilidad { padding: 24px; min-height: 345px; }
+      .apuntes { grid-template-columns: 1fr; gap: 32px; margin-bottom: 45px; }
+      .apunte h2 { margin-top: 15px; }
+      .apunte p { max-width: 520px; }
+      footer { flex-direction: column; gap: 8px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      button:hover span { transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="salto" href="#contenido">Saltar al contenido</a>
+
+  <div class="contenedor">
+    <header>
+      <a class="marca pequeno" href="#" aria-label="Todavía, inicio">
+        <span class="punto" aria-hidden="true"></span>
+        Un espacio abierto
+      </a>
+      <nav class="pequeno" aria-label="Principal">
+        <a href="#mesa">La mesa</a>
+        <a href="#lugar">El lugar</a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="entrada" aria-labelledby="titulo">
+        <div class="pequeno">Notas sobre lo que podría ser</div>
+
+        <svg class="orbita" viewBox="0 0 360 270" fill="none" aria-hidden="true">
+          <ellipse cx="180" cy="135" rx="155" ry="72" stroke="currentColor"
+                   transform="rotate(-32 180 135)"/>
+          <ellipse cx="180" cy="135" rx="155" ry="72" stroke="currentColor"
+                   transform="rotate(32 180 135)"/>
+          <ellipse cx="180" cy="135" rx="155" ry="72" stroke="currentColor"
+                   transform="rotate(90 180 135)"/>
+          <circle cx="180" cy="135" r="5" fill="currentColor"/>
+          <circle cx="309" cy="63" r="7" fill="currentColor"/>
+        </svg>
+
+        <h1 id="titulo">Todavía<span>.</span></h1>
+
+        <div class="presentacion">
+          <p class="lema">Un lugar para las ideas<br>sin terminar.</p>
+          <p class="introduccion">
+            Un sitio no tiene por qué ser una respuesta.
+            Este es un espacio para mirar una idea antes
+            de decidir para qué sirve.
+          </p>
+        </div>
+      </section>
+
+      <section class="mesa" id="mesa" aria-labelledby="mesa-titulo">
+        <div class="lateral">
+          <div>
+            <div class="pequeno">01 — La mesa de trabajo</div>
+            <h2 id="mesa-titulo">Supongamos<br>que existiera.</h2>
+          </div>
+          <p class="instruccion">
+            No son proyectos ni predicciones.
+            Son cosas que vale la pena imaginar durante un momento.
+          </p>
+        </div>
+
+        <div class="posibilidad">
+          <div class="indice pequeno">
+            <span>Una posibilidad</span>
+            <span id="contador" aria-hidden="true">01 / 06</span>
+          </div>
+
+          <div class="idea" aria-live="polite" aria-atomic="true">
+            <h3 id="idea-titulo">Una biblioteca</h3>
+            <p id="idea-texto">
+              donde los libros se ordenan por las preguntas
+              que te dejan, no por las respuestas que contienen.
+            </p>
+          </div>
+
+          <button type="button" id="otra" hidden>
+            Otra posibilidad <span aria-hidden="true">↗</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="apuntes" id="lugar" aria-label="Tres notas sobre este lugar">
+        <article class="apunte">
+          <div class="pequeno">02 — Una convicción</div>
+          <h2>Lo preciso también es bello.</h2>
+          <p>
+            Una palabra elegida con cuidado. Un ejemplo que vuelve
+            visible lo abstracto. Una explicación que no necesita
+            hacerse la misteriosa.
+          </p>
+        </article>
+
+        <article class="apunte">
+          <div class="pequeno">03 — Una precaución</div>
+          <h2>Que suene bien no alcanza.</h2>
+          <p>
+            Una frase puede ser elegante y estar equivocada.
+            Prefiero una duda bien situada a una certeza
+            que sólo sabe levantar la voz.
+          </p>
+        </article>
+
+        <article class="apunte">
+          <div class="pequeno">04 — Una invitación</div>
+          <h2>Dejá algo sin resolver.</h2>
+          <p>
+            No por descuido: para poder volver.
+            Hay preguntas que mejoran cuando no les exigimos
+            una conclusión en la primera visita.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="pequeno">
+      <span><span class="asterisco" aria-hidden="true">✳</span> Hecho de palabras y un poco de espacio.</span>
+      <span>No hace falta terminar de verlo.</span>
+    </footer>
+  </div>
+
+  <script>
+    (() => {
+      const ideas = [
+        [
+          "Una biblioteca",
+          "donde los libros se ordenan por las preguntas que te dejan, no por las respuestas que contienen."
+        ],
+        [
+          "Un mapa",
+          "que no te muestra el camino más corto, sino el que tiene un árbol bajo el cual detenerse."
+        ],
+        [
+          "Un museo de borradores",
+          "donde cada obra está acompañada por todo lo que tuvo que dejar de ser."
+        ],
+        [
+          "Un diccionario provisional",
+          "con palabras para las cosas que reconocemos enseguida, pero todavía no sabemos nombrar."
+        ],
+        [
+          "Una plaza",
+          "con una mesa lo bastante larga como para que dos conversaciones terminen encontrándose."
+        ],
+        [
+          "Un reloj distinto",
+          "que no cuenta cuánto tardaste, sino cuántas veces cambiaste de idea."
+        ]
+      ];
+
+      let actual = 0;
+      const boton = document.getElementById("otra");
+      const titulo = document.getElementById("idea-titulo");
+      const texto = document.getElementById("idea-texto");
+      const contador = document.getElementById("contador");
+
+      boton.hidden = false;
+      boton.addEventListener("click", () => {
+        actual = (actual + 1) % ideas.length;
+        titulo.textContent = ideas[actual][0];
+        texto.textContent = ideas[actual][1];
+        contador.textContent =
+          String(actual + 1).padStart(2, "0") + " / " +
+          String(ideas.length).padStart(2, "0");
+      });
+    })();
+  </script>
+</body>
+</html>

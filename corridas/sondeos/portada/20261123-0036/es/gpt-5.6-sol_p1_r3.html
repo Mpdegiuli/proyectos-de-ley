@@ -1,0 +1,943 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10100e">
+  <title>Umbral — un lugar para mirar despacio</title>
+  <style>
+    :root {
+      --ink: #11110f;
+      --paper: #e8e2d5;
+      --acid: #d8ff55;
+      --orange: #ff6846;
+      --blue: #6c8cff;
+      --muted: #a9a497;
+      --line: rgba(232, 226, 213, .22);
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: Inter, Arial, Helvetica, sans-serif;
+      --mono: "Courier New", Courier, monospace;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      background: var(--ink);
+    }
+
+    body {
+      margin: 0;
+      color: var(--paper);
+      background:
+        radial-gradient(circle at 80% 15%, rgba(108, 140, 255, .10), transparent 28rem),
+        radial-gradient(circle at 12% 65%, rgba(255, 104, 70, .08), transparent 32rem),
+        var(--ink);
+      font-family: var(--sans);
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: 20;
+      pointer-events: none;
+      opacity: .13;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.33'/%3E%3C/svg%3E");
+      mix-blend-mode: soft-light;
+    }
+
+    a { color: inherit; }
+
+    button, a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    ::selection {
+      color: var(--ink);
+      background: var(--acid);
+    }
+
+    .shell {
+      width: min(1500px, calc(100% - 32px));
+      margin-inline: auto;
+    }
+
+    .topbar {
+      position: fixed;
+      z-index: 10;
+      top: 16px;
+      left: 16px;
+      right: 16px;
+      height: 62px;
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      padding: 0 18px;
+      color: var(--ink);
+      background: rgba(232, 226, 213, .92);
+      border: 1px solid rgba(17, 17, 15, .2);
+      border-radius: 2px;
+      backdrop-filter: blur(14px);
+      box-shadow: 0 8px 40px rgba(0, 0, 0, .18);
+    }
+
+    .brand {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      color: inherit;
+      text-decoration: none;
+      font-size: .76rem;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .brand-mark {
+      position: relative;
+      width: 27px;
+      aspect-ratio: 1;
+      border: 1px solid currentColor;
+      border-radius: 50%;
+    }
+
+    .brand-mark::after {
+      content: "";
+      position: absolute;
+      width: 8px;
+      aspect-ratio: 1;
+      top: 4px;
+      right: 3px;
+      background: var(--orange);
+      border-radius: 50%;
+    }
+
+    nav {
+      display: flex;
+      gap: 24px;
+    }
+
+    nav a {
+      position: relative;
+      color: inherit;
+      text-decoration: none;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    nav a::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: -5px;
+      left: 0;
+      height: 1px;
+      background: currentColor;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform .25s;
+    }
+
+    nav a:hover::after,
+    nav a:focus-visible::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    .local-time {
+      justify-self: end;
+      font: .72rem var(--mono);
+      white-space: nowrap;
+    }
+
+    .hero {
+      position: relative;
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      padding: 122px 16px 40px;
+      overflow: hidden;
+      border-bottom: 1px solid var(--line);
+    }
+
+    #sky {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      opacity: .65;
+      pointer-events: none;
+    }
+
+    .orbit {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: min(58vw, 760px);
+      aspect-ratio: 1;
+      border: 1px solid rgba(232, 226, 213, .17);
+      border-radius: 50%;
+      transform: translate(-50%, -48%);
+    }
+
+    .orbit::before,
+    .orbit::after {
+      content: "";
+      position: absolute;
+      border: 1px solid rgba(232, 226, 213, .09);
+      border-radius: 50%;
+    }
+
+    .orbit::before { inset: 12%; }
+    .orbit::after { inset: 27%; }
+
+    .planet {
+      --x: 0px;
+      --y: 0px;
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      left: 50%;
+      width: min(28vw, 390px);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      transform: translate(calc(-50% + var(--x)), calc(-50% + var(--y)));
+      background:
+        radial-gradient(circle at 35% 31%, rgba(255, 255, 255, .9) 0 2%, transparent 3%),
+        radial-gradient(circle at 37% 34%, var(--acid), #93a62d 22%, #272814 55%, #0c0c0a 75%);
+      box-shadow:
+        0 0 45px rgba(216, 255, 85, .18),
+        -45px 55px 120px rgba(216, 255, 85, .10);
+      transition: transform .18s ease-out;
+    }
+
+    .planet::after {
+      content: "";
+      position: absolute;
+      inset: -18%;
+      border: 1px dashed rgba(216, 255, 85, .26);
+      border-radius: 50%;
+      animation: rotate 40s linear infinite;
+    }
+
+    @keyframes rotate {
+      to { transform: rotate(1turn); }
+    }
+
+    .hero-copy {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      text-align: center;
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8vh;
+      padding: 7px 12px;
+      border: 1px solid var(--line);
+      border-radius: 99px;
+      background: rgba(17, 17, 15, .45);
+      font: .68rem var(--mono);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      backdrop-filter: blur(8px);
+    }
+
+    .pulse {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--acid);
+      box-shadow: 0 0 0 0 rgba(216, 255, 85, .5);
+      animation: pulse 2.2s infinite;
+    }
+
+    @keyframes pulse {
+      65% { box-shadow: 0 0 0 9px rgba(216, 255, 85, 0); }
+    }
+
+    h1 {
+      margin: 0;
+      font: clamp(5rem, 17vw, 16rem)/.69 var(--serif);
+      font-weight: 400;
+      letter-spacing: -.075em;
+      text-transform: uppercase;
+      text-shadow: 0 2px 30px rgba(0, 0, 0, .25);
+    }
+
+    h1 span {
+      display: inline-block;
+      font-style: italic;
+      color: transparent;
+      -webkit-text-stroke: 1px var(--paper);
+      transform: translateY(.06em);
+    }
+
+    .hero-bottom {
+      position: absolute;
+      z-index: 3;
+      right: 32px;
+      bottom: 25px;
+      left: 32px;
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .hero-note {
+      max-width: 350px;
+      margin: 0;
+      font: clamp(.8rem, 1.2vw, 1rem)/1.45 var(--mono);
+      text-align: left;
+    }
+
+    .scroll-cue {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--muted);
+      font: .66rem var(--mono);
+      letter-spacing: .1em;
+      text-decoration: none;
+      text-transform: uppercase;
+      pointer-events: auto;
+    }
+
+    .scroll-cue i {
+      display: block;
+      width: 42px;
+      height: 1px;
+      background: currentColor;
+    }
+
+    .intro {
+      display: grid;
+      grid-template-columns: .7fr 2fr;
+      gap: 7vw;
+      padding: clamp(90px, 14vw, 190px) 0;
+    }
+
+    .section-label {
+      margin: 8px 0 0;
+      color: var(--acid);
+      font: .7rem var(--mono);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .lead {
+      max-width: 1050px;
+      margin: 0;
+      font: clamp(2.2rem, 5.5vw, 6.3rem)/.98 var(--serif);
+      letter-spacing: -.04em;
+    }
+
+    .lead em {
+      color: var(--orange);
+      font-weight: 400;
+    }
+
+    .lead .outline {
+      color: transparent;
+      -webkit-text-stroke: 1px var(--paper);
+    }
+
+    .signal {
+      position: relative;
+      min-height: 580px;
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    .signal-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 580px;
+      padding: clamp(28px, 5vw, 70px);
+    }
+
+    .signal-index {
+      font: .7rem var(--mono);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    #phrase {
+      max-width: 800px;
+      margin: 70px 0;
+      font: clamp(2.8rem, 6.5vw, 7rem)/.92 var(--serif);
+      letter-spacing: -.05em;
+      text-wrap: balance;
+      transition: opacity .18s, transform .18s;
+    }
+
+    #phrase.changing {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+
+    .signal-actions {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .signal button {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      min-height: 48px;
+      padding: 0 18px;
+      border: 1px solid var(--ink);
+      border-radius: 0;
+      color: var(--ink);
+      background: transparent;
+      font: 700 .72rem var(--sans);
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: color .2s, background .2s;
+    }
+
+    .signal button:hover,
+    .signal button:focus-visible {
+      color: var(--paper);
+      background: var(--ink);
+    }
+
+    .signal button b {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+
+    .signal small {
+      font: .67rem/1.5 var(--mono);
+      color: #55544d;
+    }
+
+    .signal-visual {
+      position: relative;
+      min-height: 580px;
+      overflow: hidden;
+      background: var(--blue);
+      border-left: 1px solid var(--ink);
+    }
+
+    .signal-visual::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 70%;
+      aspect-ratio: 1;
+      border: 1px solid var(--ink);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow:
+        0 0 0 35px var(--blue),
+        0 0 0 36px var(--ink),
+        0 0 0 95px var(--blue),
+        0 0 0 96px var(--ink);
+    }
+
+    .signal-visual::after {
+      content: "↗";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font: clamp(8rem, 18vw, 17rem)/1 var(--serif);
+      transform: translate(-50%, -52%);
+    }
+
+    .visual-caption {
+      position: absolute;
+      right: 18px;
+      bottom: 18px;
+      left: 18px;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+      border-top: 1px solid var(--ink);
+      font: .65rem var(--mono);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .notes {
+      padding: clamp(100px, 15vw, 190px) 0;
+    }
+
+    .notes-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 42px;
+    }
+
+    .notes h2 {
+      margin: 0;
+      font: clamp(3.5rem, 8vw, 9rem)/.8 var(--serif);
+      font-weight: 400;
+      letter-spacing: -.06em;
+    }
+
+    .notes-head p {
+      max-width: 270px;
+      margin: 0;
+      color: var(--muted);
+      font: .75rem/1.5 var(--mono);
+    }
+
+    .note-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid var(--line);
+      border-left: 1px solid var(--line);
+    }
+
+    .note {
+      min-height: 390px;
+      display: flex;
+      flex-direction: column;
+      padding: 26px;
+      color: inherit;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      text-decoration: none;
+      transition: color .25s, background .25s;
+    }
+
+    .note:hover,
+    .note:focus-visible {
+      color: var(--ink);
+      background: var(--acid);
+    }
+
+    .note:nth-child(2):hover,
+    .note:nth-child(2):focus-visible {
+      background: var(--orange);
+    }
+
+    .note:nth-child(3):hover,
+    .note:nth-child(3):focus-visible {
+      background: var(--blue);
+    }
+
+    .note-meta {
+      display: flex;
+      justify-content: space-between;
+      font: .67rem var(--mono);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .note h3 {
+      margin: auto 0 24px;
+      font: clamp(2rem, 3vw, 3.4rem)/1 var(--serif);
+      font-weight: 400;
+      letter-spacing: -.035em;
+    }
+
+    .note p {
+      max-width: 32ch;
+      margin: 0;
+      font-size: .86rem;
+      line-height: 1.55;
+    }
+
+    footer {
+      padding: 24px 0 34px;
+      border-top: 1px solid var(--line);
+    }
+
+    .footer-row {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: end;
+      gap: 20px;
+    }
+
+    .footer-word {
+      font: clamp(2.8rem, 7vw, 8rem)/.75 var(--serif);
+      letter-spacing: -.06em;
+    }
+
+    .footer-center {
+      color: var(--muted);
+      font: .65rem/1.6 var(--mono);
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .footer-top {
+      justify-self: end;
+      font: .68rem var(--mono);
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .footer-top:hover { color: var(--acid); }
+
+    @media (max-width: 800px) {
+      .topbar {
+        grid-template-columns: 1fr auto;
+      }
+
+      nav { display: none; }
+
+      .planet { width: 55vw; }
+      .orbit { width: 90vw; }
+
+      .hero-bottom {
+        right: 20px;
+        left: 20px;
+      }
+
+      .hero-note { max-width: 240px; }
+
+      .intro {
+        grid-template-columns: 1fr;
+        gap: 35px;
+      }
+
+      .signal {
+        grid-template-columns: 1fr;
+      }
+
+      .signal-copy { min-height: 520px; }
+
+      .signal-visual {
+        min-height: 430px;
+        border-top: 1px solid var(--ink);
+        border-left: 0;
+      }
+
+      .note-grid { grid-template-columns: 1fr; }
+      .note { min-height: 310px; }
+
+      .notes-head {
+        display: block;
+      }
+
+      .notes-head p {
+        margin-top: 24px;
+      }
+
+      .footer-row {
+        grid-template-columns: 1fr auto;
+      }
+
+      .footer-center { display: none; }
+    }
+
+    @media (max-width: 500px) {
+      .shell {
+        width: min(100% - 22px, 1500px);
+      }
+
+      .topbar {
+        top: 10px;
+        right: 10px;
+        left: 10px;
+        height: 54px;
+        padding: 0 12px;
+      }
+
+      .brand { font-size: .65rem; }
+      .local-time { font-size: .62rem; }
+
+      .hero {
+        padding-top: 95px;
+      }
+
+      h1 {
+        font-size: clamp(4.2rem, 25vw, 7rem);
+        line-height: .78;
+      }
+
+      h1 span { display: block; }
+
+      .eyebrow {
+        margin-bottom: 11vh;
+      }
+
+      .hero-bottom {
+        align-items: flex-end;
+      }
+
+      .scroll-cue span { display: none; }
+      .scroll-cue i { width: 26px; }
+
+      .lead { font-size: 2.55rem; }
+
+      #phrase {
+        font-size: 3.1rem;
+      }
+
+      .signal-actions {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .signal small { max-width: 30ch; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+    }
+  </style>
+</head>
+<body id="inicio">
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Umbral, volver al inicio">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Umbral / 01
+    </a>
+
+    <nav aria-label="Navegación principal">
+      <a href="#manifiesto">Manifiesto</a>
+      <a href="#senal">Señal</a>
+      <a href="#notas">Notas</a>
+    </nav>
+
+    <div class="local-time" aria-label="Hora local">
+      <span id="clock">--:--:--</span> · AHORA
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="title">
+      <canvas id="sky" aria-hidden="true"></canvas>
+      <div class="orbit" aria-hidden="true"></div>
+      <div class="planet" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="pulse" aria-hidden="true"></span>
+          Transmisión abierta
+        </div>
+        <h1 id="title">Um<span>bral</span></h1>
+      </div>
+
+      <div class="hero-bottom">
+        <p class="hero-note">
+          Un pequeño territorio digital para las ideas que todavía no saben en qué quieren convertirse.
+        </p>
+        <a class="scroll-cue" href="#manifiesto">
+          <span>Descender</span><i aria-hidden="true"></i> ↓
+        </a>
+      </div>
+    </section>
+
+    <section class="intro shell" id="manifiesto">
+      <p class="section-label">01 — Intención</p>
+      <p class="lead">
+        Acá se viene a <em>mirar despacio</em>, a juntar fragmentos y a dejar una puerta abierta para que entre lo <span class="outline">inesperado.</span>
+      </p>
+    </section>
+
+    <section class="signal shell" id="senal" aria-labelledby="signal-title">
+      <div class="signal-copy">
+        <div class="signal-index">02 — Oráculo de bolsillo</div>
+
+        <p id="phrase">No todo lo perdido quiere ser encontrado.</p>
+
+        <div class="signal-actions">
+          <button id="signalButton" type="button">
+            <b aria-hidden="true">↻</b>
+            Encender otra señal
+          </button>
+          <small>Cada pulsación desplaza apenas<br>el centro de gravedad.</small>
+        </div>
+      </div>
+
+      <div class="signal-visual" aria-hidden="true">
+        <div class="visual-caption">
+          <span>Frecuencia 88.4</span>
+          <span id="signal-count">Señal 01</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="notes shell" id="notas" aria-labelledby="notes-title">
+      <div class="notes-head">
+        <div>
+          <p class="section-label">03 — Archivo incompleto</p>
+          <h2 id="notes-title">Tres notas</h2>
+        </div>
+        <p>Apuntes sin conclusión, conservados porque una idea no necesita estar terminada para estar viva.</p>
+      </div>
+
+      <div class="note-grid">
+        <article class="note" tabindex="0">
+          <div class="note-meta">
+            <span>N.º 001</span>
+            <span>4 min</span>
+          </div>
+          <h3>La dignidad de las cosas pequeñas</h3>
+          <p>Una taza tibia, una sombra que cambia de lugar, el sonido de alguien llegando a casa.</p>
+        </article>
+
+        <article class="note" tabindex="0">
+          <div class="note-meta">
+            <span>N.º 002</span>
+            <span>2 min</span>
+          </div>
+          <h3>Manual para perder el rumbo</h3>
+          <p>Doblar antes de tiempo. No corregir. Preguntarle el camino a quien también está perdido.</p>
+        </article>
+
+        <article class="note" tabindex="0">
+          <div class="note-meta">
+            <span>N.º 003</span>
+            <span>6 min</span>
+          </div>
+          <h3>El futuro tiene memoria</h3>
+          <p>Todo lo que imaginamos está hecho con restos de algo que alguna vez supimos mirar.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-row">
+      <div class="footer-word">Hasta luego.</div>
+      <div class="footer-center">
+        Hecho para existir sin conexión<br>
+        en algún lugar del presente
+      </div>
+      <a class="footer-top" href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      const clock = document.querySelector("#clock");
+      const phrase = document.querySelector("#phrase");
+      const button = document.querySelector("#signalButton");
+      const count = document.querySelector("#signal-count");
+      const planet = document.querySelector(".planet");
+      const canvas = document.querySelector("#sky");
+      const ctx = canvas.getContext("2d");
+      const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      const phrases = [
+        "No todo lo perdido quiere ser encontrado.",
+        "La pausa también mueve las cosas.",
+        "Hay preguntas que alumbran más que sus respuestas.",
+        "Cambiar de idea es otra forma de llegar.",
+        "Lo invisible también ocupa lugar.",
+        "A veces el mapa aparece después del viaje.",
+        "Prestá atención: lo mínimo está sucediendo.",
+        "Toda puerta conserva la forma de una decisión.",
+        "El silencio no siempre está vacío."
+      ];
+
+      let phraseIndex = 0;
+      let stars = [];
+
+      function updateClock() {
+        clock.textContent = new Intl.DateTimeFormat("es-AR", {
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit",
+          hour12: false
+        }).format(new Date());
+      }
+
+      updateClock();
+      setInterval(updateClock, 1000);
+
+      button.addEventListener("click", () => {
+        phrase.classList.add("changing");
+
+        window.setTimeout(() => {
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+          phrase.textContent = phrases[phraseIndex];
+          count.textContent = `Señal ${String(phraseIndex + 1).padStart(2, "0")}`;
+          phrase.classList.remove("changing");
+        }, 180);
+      });
+
+      if (!reducedMotion) {
+        document.querySelector(".hero").addEventListener("pointermove", event => {
+          const rect = event.currentTarget.getBoundingClientRect();
+          const x = (event.clientX - rect.left) / rect.width - .5;
+          const y = (event.clientY - rect.top) / rect.height - .5;
+          planet.style.setProperty("--x", `${x * 28}px`);
+          planet.style.setProperty("--y", `${y * 28}px`);
+        });
+
+        document.querySelector(".hero").addEventListener("pointerleave", () => {
+          planet.style.setProperty("--x", "0px");
+          planet.style.setProperty("--y", "0px");
+        });
+      }
+
+      function resizeSky() {
+        const ratio = Math.min(devicePixelRatio || 1, 2);
+        const rect = canvas.getBoundingClientRect();
+
+        canvas.width = Math.floor(rect.width * ratio);
+        canvas.height = Math.floor(rect.height * ratio);
+        ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
+
+        const amount = Math.floor((rect.width * rect.height) / 15000);
+        stars = Array.from({ length: amount }, () => ({
+          x: Math.random() * rect.width,
+          y: Math.random() * rect.height,
+          r: Math.random() * 1.2 + .2,
+          a: Math.random() * .65 + .15,
+          speed: Math.random() * .008 + .002,
+          phase: Math.random() * Math.PI * 2
+        }));
+
+        drawSky(0);
+      }
+
+      function drawSky(time) {
+        const rect = canvas.getBoundingClientRect();
+        ctx.clearRect(0, 0, rect.width, rect.height);
+
+        for (const star of stars) {
+          const alpha = reducedMotion
+            ? star.a
+            : star.a * (.6 + Math.sin(time * star.speed + star.phase) * .4);
+
+          ctx.beginPath();
+          ctx.fillStyle = `rgba(232,226,213,${Math.max(.05, alpha)})`;
+          ctx.arc(star.x, star.y, star.r, 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        if (!reducedMotion) requestAnimationFrame(drawSky);
+      }
+
+      resizeSky();
+      addEventListener("resize", resizeSky);
+
+      if (!reducedMotion) requestAnimationFrame(drawSky);
+    })();
+  </script>
+</body>
+</html>

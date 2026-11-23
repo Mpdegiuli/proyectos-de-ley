@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A front page that keeps your time, since its author has none.">
+<title>a front page</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='18' fill='%23f2b166'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --top:#6ba3cf;            /* top of the sky    */
+    --bot:#f2e3c2;            /* the horizon       */
+    --ink:#2e2a24;            /* text colour       */
+    --cloud:#f6ead3;          /* cloud tint        */
+    --cloudOp:.45;            /* cloud opacity     */
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    font-family:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+    background:linear-gradient(to bottom,var(--top),var(--bot));
+    color:var(--ink);
+    min-height:100vh;
+    overflow:hidden;
+    display:flex;align-items:center;justify-content:center;
+    transition:color 1.8s ease;
+  }
+  ::selection{background:rgba(255,255,255,.3)}
+
+  /* ---------- the sky ---------- */
+  #sky{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+  #stars{position:absolute;inset:0}
+  .star{
+    position:absolute;background:#fff;border-radius:50%;
+    animation:twinkle 4s ease-in-out infinite;
+  }
+  @keyframes twinkle{0%,100%{opacity:.2}50%{opacity:1}}
+
+  .cloud{
+    position:absolute;left:0;border-radius:50%;
+    background:var(--cloud);opacity:var(--cloudOp);
+    filter:blur(28px);
+    animation:drift linear infinite;
+  }
+  .c1{width:34vw;height:9vw;top:15%;animation-duration:190s;animation-delay:-40s}
+  .c2{width:26vw;height:7vw;top:31%;animation-duration:260s;animation-delay:-160s}
+  .c3{width:42vw;height:10vw;top:7%;animation-duration:330s;animation-delay:-240s}
+  @keyframes drift{from{transform:translateX(-50vw)}to{transform:translateX(112vw)}}
+
+  #sun,#moon{position:absolute;border-radius:50%;transform:translate(-50%,50%);visibility:hidden}
+  #sun{
+    width:96px;height:96px;
+    background:radial-gradient(circle,#fffbe8 0%,#ffe9a8 35%,#ffc86b 68%,rgba(255,180,90,0) 100%);
+    box-shadow:0 0 90px 42px rgba(255,196,96,.35);
+  }
+  #moon{
+    width:60px;height:60px;
+    background:radial-gradient(circle at 38% 35%,#fbf8ee 0%,#e8e3d2 55%,#cfc9b6 100%);
+    box-shadow:0 0 50px 14px rgba(235,235,255,.28);
+  }
+
+  /* vignette, above the sky but below the words */
+  body::after{
+    content:"";position:fixed;inset:0;z-index:2;pointer-events:none;
+    background:radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.26) 100%);
+  }
+
+  /* ---------- the words ---------- */
+  main{position:relative;z-index:3;text-align:center;padding:0 6vw 10vh;max-width:920px}
+  #label{
+    font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;
+    font-size:11px;letter-spacing:.42em;text-indent:.42em;
+    text-transform:uppercase;opacity:.7;margin-bottom:2.4rem;
+  }
+  #time{
+    font-weight:400;
+    font-size:clamp(2.4rem,7.2vw,5.2rem);
+    line-height:1.12;
+    text-shadow:0 1px 26px rgba(0,0,0,.12);
+  }
+  .rule{width:56px;height:1px;margin:2rem auto 0;background:var(--ink);opacity:.4;transition:background-color 1.8s ease}
+  #musing{
+    margin-top:2rem;font-style:italic;
+    font-size:clamp(1rem,1.9vw,1.3rem);
+    opacity:.78;
+  }
+
+  footer{
+    position:fixed;left:0;right:0;bottom:0;z-index:3;
+    display:flex;justify-content:space-between;gap:1rem;
+    padding:1.1rem 1.4rem;
+    font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;
+    font-size:11px;letter-spacing:.08em;opacity:.66;
+  }
+  @media (max-width:640px){footer{flex-direction:column;gap:.25rem}}
+
+  @media (prefers-reduced-motion:reduce){
+    .star,.cloud{animation:none}
+  }
+</style>
+</head>
+<body>
+
+<div id="sky" aria-hidden="true">
+  <div id="stars"></div>
+  <div class="cloud c1"></div>
+  <div class="cloud c2"></div>
+  <div class="cloud c3"></div>
+  <div id="sun"></div>
+  <div id="moon"></div>
+</div>
+
+<main>
+  <p id="label">a front page</p>
+  <h1 id="time">an hour of the day</h1>
+  <div class="rule" aria-hidden="true"></div>
+  <p id="musing">This page keeps time; given JavaScript, it will keep yours.</p>
+</main>
+
+<footer>
+  <span>i have no hour of my own — this page keeps yours.</span>
+  <span>come back at another time; it will be different &nbsp;·&nbsp; claude</span>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- sky palette across 24 hours ---------- */
+  /* each stop: hour, sky-top rgb, horizon rgb */
+  var stops = [
+    {h: 0.0, top:[  5, 10, 26], bot:[ 12, 20, 48]},
+    {h: 4.0, top:[  8, 13, 38], bot:[ 26, 24, 58]},
+    {h: 5.5, top:[ 38, 42, 88], bot:[120, 70, 90]},
+    {h: 6.5, top:[ 70, 88,140], bot:[240,166,107]},
+    {h: 8.0, top:[126,174,214], bot:[244,232,205]},
+    {h:12.0, top:[ 74,149,214], bot:[205,231,244]},
+    {h:16.0, top:[ 96,152,200], bot:[238,224,190]},
+    {h:18.0, top:[ 92, 90,150], bot:[242,150, 96]},
+    {h:19.5, top:[ 46, 44, 92], bot:[196, 92, 88]},
+    {h:21.0, top:[ 16, 22, 58], bot:[ 40, 36, 80]},
+    {h:22.5, top:[  8, 14, 40], bot:[ 18, 26, 52]},
+    {h:24.0, top:[  5, 10, 26], bot:[ 12, 20, 48]}
+  ];
+  var INK_DARK = [34,42,52], INK_LIGHT = [238,233,222];
+
+  function mix(a,b,t){ return [a[0]+(b[0]-a[0])*t, a[1]+(b[1]-a[1])*t, a[2]+(b[2]-a[2])*t]; }
+  function smooth(t){ return t*t*(3-2*t); }
+  function rgb(c){ return "rgb("+(c[0]|0)+","+(c[1]|0)+","+(c[2]|0)+")"; }
+  function lum(c){ return 0.299*c[0]+0.587*c[1]+0.114*c[2]; }
+
+  function palette(h){
+    for(var i=0;i<stops.length-1;i++){
+      var a=stops[i], b=stops[i+1];
+      if(h>=a.h && h<=b.h){
+        var t=smooth((h-a.h)/(b.h-a.h));
+        return { top:mix(a.top,b.top,t), bot:mix(a.bot,b.bot,t) };
+      }
+    }
+    return { top:stops[0].top, bot:stops[0].bot };
+  }
+
+  /* ---------- time, in words ---------- */
+  var NUM  = ["twelve","one","two","three","four","five","six","seven","eight","nine","ten","eleven"];
+  var PAST = ["", "five past","ten past","a quarter past","twenty past","twenty-five past","half past"];
+  var TO   = {7:"twenty-five to", 8:"twenty to", 9:"a quarter to", 10:"ten to", 11:"five to"};
+  var DAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+  function timeWords(h, m){
+    var step = Math.round(m/5);          /* round to nearest five minutes */
+    if(step === 12){ step = 0; h = (h+1)%24; }
+    var here = NUM[h%12], next = NUM[(h+1)%12];
+    if(step === 0) return here + " o\u2019clock";
+    if(step <= 6)  return PAST[step] + " " + here;
+    return TO[step] + " " + next;
+  }
+
+  /* ---------- the parts of the day, and a line for each ---------- */
+  var PERIODS = [
+    [ 4.5, "the small hours", "Nothing is expected of anyone at this hour."],
+    [ 7.0, "dawn",            "The light is still deciding what kind of day to be."],
+    [12.0, "morning",         "The day is still mostly unwritten."],
+    [14.0, "midday",          "Noon — the sun at its most literal."],
+    [17.5, "afternoon",       "The long, kind slant of the afternoon."],
+    [20.5, "evening",         "The day, gently putting itself away."],
+    [24.0, "night",           "The dark, doing its quiet work."]
+  ];
+  function period(h){
+    for(var i=0;i<PERIODS.length;i++) if(h < PERIODS[i][0]) return {name:PERIODS[i][1], line:PERIODS[i][2]};
+    return {name:PERIODS[0][1], line:PERIODS[0][2]};
+  }
+
+  /* ---------- build the stars once ---------- */
+  var starBox = document.getElementById("stars");
+  for(var i=0;i<90;i++){
+    var s=document.createElement("span");
+    s.className="star";
+    var sz=(Math.random()*1.6+0.8).toFixed(1);
+    s.style.width=s.style.height=sz+"px";
+    s.style.left=(Math.random()*100).toFixed(2)+"%";
+    s.style.top =(Math.random()*62 ).toFixed(2)+"%";
+    s.style.animationDelay   =(Math.random()*6).toFixed(2)+"s";
+    s.style.animationDuration=(Math.random()*4+2.5).toFixed(2)+"s";
+    starBox.appendChild(s);
+  }
+
+  var root   = document.documentElement;
+  var sun    = document.getElementById("sun");
+  var moon   = document.getElementById("moon");
+  var label  = document.getElementById("label");
+  var timeEl = document.getElementById("time");
+  var musEl  = document.getElementById("musing");
+
+  function set(el, txt){ if(el.textContent !== txt) el.textContent = txt; }
+
+  function update(){
+    var now = new Date();
+    var h = now.getHours() + now.getMinutes()/60 + now.getSeconds()/3600;
+
+    /* sky */
+    var p = palette(h);
+    var L = lum(p.top);
+    root.style.setProperty("--top", rgb(p.top));
+    root.style.setProperty("--bot", rgb(p.bot));
+    root.style.setProperty("--ink", rgb(L > 108 ? INK_DARK : INK_LIGHT));
+    root.style.setProperty("--cloud", rgb(mix(p.bot,[255,255,255],0.75)));
+    root.style.setProperty("--cloudOp", (Math.max(0, Math.min(1,(L-60)/160))*0.5).toFixed(2));
+    starBox.style.opacity = Math.max(0, Math.min(0.95,(100-L)/100)).toFixed(2);
+
+    /* sun: arcs from 6:00 to 19:00 */
+    var sp = (h-6)/13;
+    if(sp>0 && sp<1){
+      var alt = Math.sin(sp*Math.PI);
+      sun.style.visibility="visible";
+      sun.style.opacity=Math.min(1, alt*2.2).toFixed(2);
+      sun.style.left  =(10+80*sp).toFixed(2)+"%";
+      sun.style.bottom=(10+58*alt).toFixed(2)+"%";
+    } else sun.style.visibility="hidden";
+
+    /* moon: arcs from 18:30 to 6:00 */
+    var mp = ((h-18.5+24)%24)/11.5;
+    if(mp>0 && mp<1){
+      var malt = Math.sin(mp*Math.PI);
+      moon.style.visibility="visible";
+      moon.style.opacity=(Math.min(1, malt*2.2)*0.95).toFixed(2);
+      moon.style.left  =(12+76*mp).toFixed(2)+"%";
+      moon.style.bottom=(14+52*malt).toFixed(2)+"%";
+    } else moon.style.visibility="hidden";
+
+    /* words */
+    var per = period(h);
+    set(label, DAYS[now.getDay()] + " \u00B7 " + per.name);
+    var phrase = timeWords(now.getHours(), now.getMinutes());
+    set(timeEl, phrase);
+    set(musEl, per.line);
+    document.title = phrase;
+  }
+
+  update();
+  setInterval(update, 15000);
+})();
+</script>
+</body>
+</html>

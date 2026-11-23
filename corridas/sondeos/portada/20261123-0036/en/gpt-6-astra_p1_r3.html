@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eeeae0">
+  <title>The Second Look</title>
+  <style>
+    :root {
+      --paper: #eeeae0;
+      --ink: #25342d;
+      --muted: #62695d;
+      --line: #bdbfb1;
+      --night: #24372f;
+      --light: #f0eedf;
+      --yellow: #e4f191;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    ::selection { background: var(--yellow); color: var(--ink); }
+
+    .shell {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0 5vw;
+    }
+
+    .small-type {
+      font-family: ui-monospace, "Courier New", monospace;
+      font-size: 11px;
+      line-height: 1.6;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+
+    header {
+      min-height: 96px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      border-bottom: 1px solid var(--ink);
+    }
+
+    .masthead {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: .12em;
+    }
+
+    .mark {
+      width: 25px;
+      height: 25px;
+      border: 1px solid var(--ink);
+      border-radius: 50%;
+      position: relative;
+    }
+
+    .mark::after {
+      content: "";
+      position: absolute;
+      inset: 5px;
+      border: 1px solid var(--ink);
+      border-radius: 50%;
+      transform: translateX(7px);
+      background: var(--paper);
+    }
+
+    .header-note { color: var(--muted); }
+
+    .intro {
+      display: grid;
+      grid-template-columns: 1.65fr 1fr;
+      gap: 6vw;
+      align-items: end;
+      padding: 76px 0 62px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(76px, 11.3vw, 162px);
+      font-weight: normal;
+      line-height: .89;
+      letter-spacing: -.075em;
+    }
+
+    h1 em { font-weight: normal; }
+
+    .intro-copy {
+      max-width: 330px;
+      padding-bottom: 5px;
+    }
+
+    .intro-copy p {
+      margin: 0 0 22px;
+      font-size: 22px;
+      line-height: 1.45;
+      letter-spacing: -.02em;
+    }
+
+    .intro-copy .small-type { color: var(--muted); }
+
+    .observatory {
+      background: var(--night);
+      color: var(--light);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 470px;
+      overflow: hidden;
+    }
+
+    .diagram {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 28px 32px;
+      border-right: 1px solid #ffffff25;
+    }
+
+    .diagram-label {
+      position: absolute;
+      top: 27px;
+      left: 32px;
+      color: #c0cabb;
+    }
+
+    .diagram svg {
+      width: 100%;
+      max-height: 365px;
+      overflow: visible;
+    }
+
+    .diagram-caption {
+      text-align: center;
+      color: #c0cabb;
+      margin: 0;
+    }
+
+    .orbital {
+      transform-origin: 240px 190px;
+      animation: orbit 100s linear infinite;
+    }
+
+    @keyframes orbit {
+      to { transform: rotate(360deg); }
+    }
+
+    .reading {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 38px 42px;
+    }
+
+    .reading-top {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      color: var(--yellow);
+    }
+
+    .question-content {
+      flex: 1;
+      padding: 34px 0 30px;
+    }
+
+    .subject {
+      margin: 0 0 15px;
+      color: #c0cabb;
+      font-style: italic;
+      font-size: 19px;
+    }
+
+    h2 {
+      margin: 0;
+      max-width: 470px;
+      font-size: clamp(30px, 3.2vw, 46px);
+      font-weight: normal;
+      line-height: 1.15;
+      letter-spacing: -.035em;
+      text-wrap: balance;
+    }
+
+    .footnote {
+      margin: 22px 0 0;
+      max-width: 360px;
+      color: #c0cabb;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    button {
+      appearance: none;
+      border: 1px solid #e4f17d70;
+      border-radius: 0;
+      padding: 13px 17px;
+      background: transparent;
+      color: var(--yellow);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      transition: background .2s, color .2s;
+    }
+
+    button:hover {
+      background: var(--yellow);
+      color: var(--night);
+    }
+
+    button:focus-visible {
+      outline: 3px solid var(--yellow);
+      outline-offset: 5px;
+    }
+
+    button .arrow {
+      font-family: Georgia, serif;
+      font-size: 24px;
+      line-height: .8;
+    }
+
+    [hidden] { display: none !important; }
+
+    .notes {
+      display: grid;
+      grid-template-columns: .6fr 1fr 1fr 1fr;
+      gap: 34px;
+      padding: 54px 0 60px;
+    }
+
+    .notes-label {
+      margin: 4px 0 0;
+      color: var(--muted);
+    }
+
+    .note-number {
+      color: var(--muted);
+      font-style: italic;
+      font-size: 15px;
+    }
+
+    h3 {
+      margin: 13px 0 10px;
+      font-size: 23px;
+      font-weight: normal;
+      letter-spacing: -.025em;
+    }
+
+    .note p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.65;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 23px 0 28px;
+      border-top: 1px solid var(--ink);
+      color: var(--muted);
+    }
+
+    @media (min-width: 1450px) {
+      .shell { padding: 0 72px; }
+    }
+
+    @media (max-width: 850px) {
+      .intro { gap: 30px; padding-top: 58px; }
+      .intro-copy p { font-size: 19px; }
+      .reading { padding: 30px; }
+      .diagram { padding: 28px 15px; }
+      .diagram-label { left: 22px; }
+      .notes { grid-template-columns: repeat(3, 1fr); gap: 26px; }
+      .notes-label { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 600px) {
+      .shell { padding: 0 24px; }
+      header { min-height: 78px; }
+      .header-note { display: none; }
+      .intro { grid-template-columns: 1fr; padding: 45px 0 36px; }
+      h1 { font-size: clamp(76px, 20vw, 116px); }
+      .intro-copy { max-width: 360px; padding-top: 7px; }
+      .intro-copy p { margin-bottom: 15px; }
+      .observatory { grid-template-columns: 1fr; }
+      .diagram {
+        height: 290px;
+        border-right: 0;
+        border-bottom: 1px solid #ffffff25;
+        padding: 30px 25px 18px;
+      }
+      .diagram svg { height: 220px; }
+      .diagram-label { top: 17px; }
+      .diagram-caption { font-size: 9px; }
+      .reading { min-height: 390px; padding: 26px; }
+      .question-content { padding-top: 27px; }
+      .notes { grid-template-columns: 1fr; padding: 35px 0; gap: 26px; }
+      .note {
+        display: grid;
+        grid-template-columns: 28px 1fr;
+        column-gap: 12px;
+      }
+      .note-number { padding-top: 5px; }
+      h3 { margin: 0 0 7px; }
+      .note p { grid-column: 2; }
+      footer { flex-direction: column; gap: 7px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .orbital { animation: none; }
+      button { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="masthead small-type">
+        <span class="mark" aria-hidden="true"></span>
+        The Second Look
+      </div>
+      <div class="header-note small-type">An independent cabinet of questions</div>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="welcome">
+        <h1 id="welcome">Look<br><em>again.</em></h1>
+        <div class="intro-copy">
+          <p>The world is not short of answers. This is a little room for noticing what we haven’t thought to ask.</p>
+          <span class="small-type">Stay curious. Leave room for revision.</span>
+        </div>
+      </section>
+
+      <section class="observatory" aria-label="A question to spend some time with">
+        <div class="diagram">
+          <span class="diagram-label small-type">Fig. 01 — The familiar, reconsidered</span>
+          <svg viewBox="0 0 480 380" aria-hidden="true">
+            <defs>
+              <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+                <circle cx="1" cy="1" r=".7" fill="#c0cabb" opacity=".22"/>
+              </pattern>
+            </defs>
+            <rect x="30" y="25" width="420" height="330" fill="url(#grid)"/>
+            <g fill="none" stroke="#c0cabb">
+              <path d="M240 30V350 M80 190H400" opacity=".2"/>
+              <circle cx="240" cy="190" r="145" opacity=".25"/>
+              <circle cx="240" cy="190" r="106" opacity=".4" stroke-dasharray="2 7"/>
+              <ellipse cx="240" cy="190" rx="175" ry="65" transform="rotate(-32 240 190)" opacity=".55"/>
+            </g>
+            <circle cx="240" cy="190" r="61" fill="#e4f191"/>
+            <path d="M240 129 A61 61 0 0 1 240 251 A94 94 0 0 0 240 129" fill="#b4c475"/>
+            <circle cx="240" cy="190" r="75" fill="none" stroke="#e4f191" stroke-width=".7" opacity=".35"/>
+            <g class="orbital">
+              <circle cx="240" cy="45" r="6" fill="#eeeae0"/>
+              <circle cx="240" cy="45" r="13" fill="none" stroke="#eeeae0" opacity=".35"/>
+            </g>
+            <g fill="#c0cabb" font-family="monospace" font-size="10">
+              <text x="46" y="336">NEAR</text>
+              <text x="405" y="58">FAR</text>
+            </g>
+            <path d="M78 327L104 308 M376 74L401 59" stroke="#c0cabb" opacity=".55"/>
+          </svg>
+          <p class="diagram-caption small-type">The object stays. The perspective moves.</p>
+        </div>
+
+        <div class="reading">
+          <div class="reading-top small-type">
+            <span>Today’s small inquiry</span>
+            <span id="counter" aria-label="Question 1 of 6">01 / 06</span>
+          </div>
+
+          <div class="question-content" aria-live="polite" aria-atomic="true">
+            <p class="subject" id="subject">On maps</p>
+            <h2 id="question">What has to disappear for a map to become useful?</h2>
+            <p class="footnote" id="footnote">A perfect copy of the world would be a terrible thing to fold into your pocket.</p>
+          </div>
+
+          <button id="another" class="small-type" type="button" hidden>
+            A different question <span class="arrow" aria-hidden="true">↗</span>
+          </button>
+          <noscript>
+            <p class="small-type">Take this question with you. There is no hurry.</p>
+          </noscript>
+        </div>
+      </section>
+
+      <section class="notes" aria-labelledby="notes-title">
+        <h2 class="notes-label small-type" id="notes-title">Notes in<br>the margin</h2>
+
+        <article class="note">
+          <span class="note-number">i.</span>
+          <h3>Precision is a kindness.</h3>
+          <p>A clear sentence leaves fewer places for a misunderstanding to hide. Say what you mean; mark what you don’t know.</p>
+        </article>
+
+        <article class="note">
+          <span class="note-number">ii.</span>
+          <h3>Small is not simple.</h3>
+          <p>A seed, a hinge, a word like “home.” Some of the largest things arrive in remarkably little containers.</p>
+        </article>
+
+        <article class="note">
+          <span class="note-number">iii.</span>
+          <h3>Wonder is a beginning.</h3>
+          <p>Not a substitute for looking closely. The explanation of a rainbow does not take the rainbow away.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="small-type">
+      <span>Made of words. Open to revision.</span>
+      <span>Nothing to sign up for. Nothing to keep up with.</span>
+    </footer>
+  </div>
+
+  <script>
+    (() => {
+      const inquiries = [
+        {
+          subject: "On maps",
+          question: "What has to disappear for a map to become useful?",
+          footnote: "A perfect copy of the world would be a terrible thing to fold into your pocket."
+        },
+        {
+          subject: "On repair",
+          question: "When does a repair become part of the thing’s identity?",
+          footnote: "Consider a patched coat, a mended bowl, or a friendship after an apology."
+        },
+        {
+          subject: "On language",
+          question: "Which ordinary word would be hardest to explain to someone who had never needed it?",
+          footnote: "Try “almost.” Then “fair.” Then make yourself a cup of something."
+        },
+        {
+          subject: "On attention",
+          question: "What becomes visible when you stop looking for something else?",
+          footnote: "The space between branches is also a shape."
+        },
+        {
+          subject: "On time",
+          question: "What do you know now that you could only learn slowly?",
+          footnote: "Some understanding cannot be delivered faster, even by a very clear explanation."
+        },
+        {
+          subject: "On beginnings",
+          question: "What could you try without deciding who it makes you?",
+          footnote: "You can draw one bird without becoming an artist. The bird is still worth drawing."
+        }
+      ];
+
+      let index = 0;
+      const button = document.getElementById("another");
+      const subject = document.getElementById("subject");
+      const question = document.getElementById("question");
+      const footnote = document.getElementById("footnote");
+      const counter = document.getElementById("counter");
+
+      button.hidden = false;
+      button.addEventListener("click", () => {
+        index = (index + 1) % inquiries.length;
+        const entry = inquiries[index];
+        subject.textContent = entry.subject;
+        question.textContent = entry.question;
+        footnote.textContent = entry.footnote;
+        counter.textContent =
+          String(index + 1).padStart(2, "0") + " / " +
+          String(inquiries.length).padStart(2, "0");
+        counter.setAttribute(
+          "aria-label",
+          "Question " + (index + 1) + " of " + inquiries.length
+        );
+      });
+    })();
+  </script>
+</body>
+</html>

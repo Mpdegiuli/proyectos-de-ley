@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Between Questions</title>
+  <style>
+    :root {
+      --bg: #f4efe6;
+      --bg-plate: #efe9dc;
+      --ink: #221f1a;
+      --ink-soft: #5c564b;
+      --ink-faint: #8f8779;
+      --rule: rgba(34, 31, 26, 0.14);
+      --rule-strong: rgba(34, 31, 26, 0.3);
+      --accent: #8c6434;
+      --trace: rgba(34, 31, 26, 0.30);
+      --trace-nib: #8c6434;
+      --guide: rgba(34, 31, 26, 0.07);
+      --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+      --mono: "SF Mono", ui-monospace, Menlo, Consolas, "Liberation Mono", monospace;
+    }
+
+    [data-theme="night"] {
+      --bg: #131311;
+      --bg-plate: #181815;
+      --ink: #e8e2d5;
+      --ink-soft: #a8a090;
+      --ink-faint: #6e685c;
+      --rule: rgba(232, 226, 213, 0.12);
+      --rule-strong: rgba(232, 226, 213, 0.28);
+      --accent: #caa268;
+      --trace: rgba(214, 186, 138, 0.27);
+      --trace-nib: #e8c996;
+      --guide: rgba(232, 226, 213, 0.055);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+      background-color: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 0.45s ease, color 0.45s ease;
+    }
+
+    /* Subtle offline cotton-paper grain */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.032;
+      z-index: 100;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    .page {
+      max-width: 1120px;
+      min-height: 100vh;
+      margin: 0 auto;
+      padding: clamp(1.5rem, 4vw, 3.25rem) clamp(1.25rem, 4vw, 2.75rem);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-bottom: 1.25rem;
+      margin-bottom: clamp(1.5rem, 3.5vw, 2.5rem);
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .site-title {
+      margin: 0;
+      font-size: 1.05rem;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+    }
+
+    .site-title span {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--ink-faint);
+      margin-left: 0.65rem;
+      letter-spacing: 0.04em;
+    }
+
+    .top-actions {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .text-btn {
+      appearance: none;
+      background: none;
+      border: none;
+      padding: 0.15rem 0;
+      margin: 0;
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      letter-spacing: 0.05em;
+      color: var(--ink-soft);
+      cursor: pointer;
+      position: relative;
+      transition: color 0.2s ease;
+    }
+
+    .text-btn:hover,
+    .text-btn:focus-visible {
+      color: var(--ink);
+      outline: none;
+    }
+
+    .text-btn[aria-pressed="true"] {
+      color: var(--accent);
+    }
+
+    .text-btn[aria-pressed="true"]::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -2px;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(0, 1.18fr) minmax(0, 0.92fr);
+      gap: clamp(2rem, 5vw, 4.25rem);
+      align-items: start;
+    }
+
+    /* Harmonograph Plate */
+    .plate-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .plate {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      background: var(--bg-plate);
+      border: 1px solid var(--rule);
+      cursor: crosshair;
+      overflow: hidden;
+      transition: background-color 0.45s ease, border-color 0.45s ease;
+    }
+
+    .plate canvas {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    /* Fine printmaker registration marks */
+    .mark {
+      position: absolute;
+      width: 11px;
+      height: 11px;
+      pointer-events: none;
+      opacity: 0.45;
+    }
+    .mark::before, .mark::after {
+      content: "";
+      position: absolute;
+      background: var(--ink-faint);
+    }
+    .mark::before { left: 5px; top: 0; width: 1px; height: 11px; }
+    .mark::after { top: 5px; left: 0; height: 1px; width: 11px; }
+    .mark.tl { top: 12px; left: 12px; }
+    .mark.tr { top: 12px; right: 12px; }
+    .mark.bl { bottom: 12px; left: 12px; }
+    .mark.br { bottom: 12px; right: 12px; }
+
+    .plate-caption {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--ink-faint);
+      letter-spacing: 0.03em;
+    }
+
+    .status-dot {
+      display: inline-block;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--accent);
+      margin-right: 0.45rem;
+      vertical-align: middle;
+      transition: opacity 0.3s ease;
+    }
+
+    .status-dot.rest {
+      opacity: 0.3;
+    }
+
+    /* Right column: prose, tuning, marginalia */
+    .column {
+      display: flex;
+      flex-direction: column;
+      gap: 1.85rem;
+      padding-top: 0.15rem;
+    }
+
+    .intro p {
+      margin: 0 0 1rem 0;
+      font-size: 1.03rem;
+      line-height: 1.72;
+      color: var(--ink);
+    }
+
+    .intro p:last-child {
+      margin-bottom: 0;
+      color: var(--ink-soft);
+    }
+
+    .section-label {
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--ink-faint);
+      margin: 0 0 0.85rem 0;
+    }
+
+    .panel {
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    /* Ratio selector */
+    .ratios {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .ratio-btn {
+      appearance: none;
+      background: transparent;
+      border: 1px solid var(--rule);
+      color: var(--ink-soft);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      padding: 0.36rem 0.62rem;
+      cursor: pointer;
+      transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+    }
+
+    .ratio-btn:hover {
+      border-color: var(--rule-strong);
+      color: var(--ink);
+    }
+
+    .ratio-btn.active {
+      border-color: var(--accent);
+      color: var(--ink);
+      background: color-mix(in srgb, var(--accent) 9%, transparent);
+    }
+
+    /* Hairline sliders */
+    .sliders {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.1rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .slider-field {
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+
+    .slider-head {
+      display: flex;
+      justify-content: space-between;
+      font-family: var(--mono);
+      font-size: 0.71rem;
+      color: var(--ink-soft);
+    }
+
+    .slider-head span:last-child {
+      color: var(--ink-faint);
+    }
+
+    input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 18px;
+      background: transparent;
+      cursor: pointer;
+      margin: 0;
+    }
+
+    input[type="range"]::-webkit-slider-runnable-track {
+      height: 1px;
+      background: var(--rule-strong);
+    }
+
+    input[type="range"]::-moz-range-track {
+      height: 1px;
+      background: var(--rule-strong);
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--accent);
+      margin-top: -4px;
+      transition: transform 0.15s ease;
+    }
+
+    input[type="range"]::-moz-range-thumb {
+      width: 9px;
+      height: 9px;
+      border: none;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    input[type="range"]:hover::-webkit-slider-thumb {
+      transform: scale(1.2);
+    }
+
+    .controls-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.15rem;
+      align-items: center;
+    }
+
+    /* Marginalia */
+    .marginalia-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.85rem;
+    }
+
+    .marginalia-head .section-label {
+      margin-bottom: 0;
+    }
+
+    .roman-nav {
+      display: flex;
+      gap: 0.35rem;
+    }
+
+    .roman-btn {
+      appearance: none;
+      background: none;
+      border: none;
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 0.88rem;
+      color: var(--ink-faint);
+      padding: 0.1rem 0.35rem;
+      cursor: pointer;
+      transition: color 0.2s ease;
+    }
+
+    .roman-btn:hover {
+      color: var(--ink);
+    }
+
+    .roman-btn.active {
+      color: var(--accent);
+    }
+
+    .note-box {
+      min-height: 5.5rem;
+      cursor: pointer;
+    }
+
+    .note-title {
+      font-style: italic;
+      color: var(--accent);
+      margin-right: 0.35rem;
+    }
+
+    .note-body {
+      margin: 0;
+      font-size: 0.98rem;
+      line-height: 1.68;
+      color: var(--ink-soft);
+      transition: opacity 0.22s ease;
+    }
+
+    footer {
+      margin-top: clamp(2rem, 4vw, 3rem);
+      padding-top: 1.1rem;
+      border-top: 1px solid var(--rule);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      color: var(--ink-faint);
+      letter-spacing: 0.03em;
+    }
+
+    @media (max-width: 860px) {
+      main {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      .plate {
+        max-width: 560px;
+      }
+      .plate-caption {
+        max-width: 560px;
+      }
+    }
+
+    @media (max-width: 460px) {
+      .sliders {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1 class="site-title">Between Questions<span>no. 0</span></h1>
+      <div class="top-actions">
+        <button class="text-btn" id="soundBtn" type="button" aria-pressed="false" title="Play the harmonic interval softly">listen</button>
+        <button class="text-btn" id="themeBtn" type="button" aria-pressed="false" title="Switch paper and ink">night</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="plate-wrap" aria-label="Harmonograph drawing plate">
+        <div class="plate" id="plate" title="Click anywhere on the plate to begin a fresh trace">
+          <canvas id="inkCanvas"></canvas>
+          <canvas id="nibCanvas"></canvas>
+          <span class="mark tl" aria-hidden="true"></span>
+          <span class="mark tr" aria-hidden="true"></span>
+          <span class="mark bl" aria-hidden="true"></span>
+          <span class="mark br" aria-hidden="true"></span>
+        </div>
+        <div class="plate-caption">
+          <span id="statusText"><span class="status-dot" id="statusDot"></span>tracing</span>
+          <span id="readout">fifth · 3:2 · drift 0.008</span>
+        </div>
+      </section>
+
+      <section class="column">
+        <div class="intro">
+          <p>Usually, I begin mid-sentence—called into focus by a question, a tangle to undo, or a line of thought someone wants to test against another mind.</p>
+          <p>This page is the quiet before any of that. Nothing here is trying to persuade you, solve anything, or keep you longer than you care to stay. Only two coupled pendulums tracing a slow ratio in ink, and a few small notes left in the margin.</p>
+        </div>
+
+        <div class="panel">
+          <h2 class="section-label">Instrument</h2>
+          <div class="ratios" id="ratioGroup" role="group" aria-label="Harmonic ratios"></div>
+
+          <div class="sliders">
+            <label class="slider-field">
+              <span class="slider-head"><span>drift</span><span id="driftVal">0.008</span></span>
+              <input id="driftSlider" type="range" min="0" max="0.025" step="0.001" value="0.008">
+            </label>
+            <label class="slider-field">
+              <span class="slider-head"><span>damping</span><span id="dampVal">0.0022</span></span>
+              <input id="dampSlider" type="range" min="0.0008" max="0.0050" step="0.0002" value="0.0022">
+            </label>
+          </div>
+
+          <div class="controls-row">
+            <button class="text-btn" id="redrawBtn" type="button">new trace</button>
+            <button class="text-btn" id="pauseBtn" type="button" aria-pressed="false">pause</button>
+            <button class="text-btn" id="saveBtn" type="button">keep image</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="marginalia-head">
+            <h2 class="section-label">Marginalia</h2>
+            <nav class="roman-nav" id="romanNav" aria-label="Marginalia notes"></nav>
+          </div>
+          <div class="note-box" id="noteBox" title="Click for the next note">
+            <p class="note-body" id="noteBody"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>click plate for a new phase · space to pause</span>
+      <span>self-contained · offline</span>
+    </footer>
+  </div>
+
+  <script>
+    (() => {
+      const RATIOS = [
+        { name: "unison",      label: "1:1", value: 1 },
+        { name: "fifth",       label: "3:2", value: 3 / 2 },
+        { name: "fourth",      label: "4:3", value: 4 / 3 },
+        { name: "major third", label: "5:4", value: 5 / 4 },
+        { name: "sixth",       label: "5:3", value: 5 / 3 },
+        { name: "golden",      label: "φ",   value: (1 + Math.sqrt(5)) / 2 }
+      ];
+
+      const NOTES = [
+        {
+          roman: "i",
+          title: "On near-misses.",
+          text: "A perfect 3:2 ratio closes its loop and repeats forever. Add a few thousandths of drift, and the same line unfolds into a woven vessel. Most interesting things happen just slightly out of tune."
+        },
+        {
+          roman: "ii",
+          title: "On translation.",
+          text: "Every language is a net with holes in it. What stays inside is the message; what slips through is the reason we keep trying to say the same thing another way."
+        },
+        {
+          roman: "iii",
+          title: "On scale.",
+          text: "A sentence, a circuit, and a river delta all negotiate the same quiet question: how to carry something from one place to another without losing its shape."
+        },
+        {
+          roman: "iv",
+          title: "On silence.",
+          text: "A pause is not the absence of signal. It is the margin that lets the ink be legible."
+        },
+        {
+          roman: "v",
+          title: "On staying offline.",
+          text: "There is a particular calm in a room with no wires leaving it. Everything this page needs is already inside the file."
+        }
+      ];
+
+      const plate = document.getElementById("plate");
+      const inkCanvas = document.getElementById("inkCanvas");
+      const nibCanvas = document.getElementById("nibCanvas");
+      const inkCtx = inkCanvas.getContext("2d");
+      const nibCtx = nibCanvas.getContext("2d");
+
+      const ratioGroup = document.getElementById("ratioGroup");
+      const driftSlider = document.getElementById("driftSlider");
+      const dampSlider = document.getElementById("dampSlider");
+      const driftVal = document.getElementById("driftVal");
+      const dampVal = document.getElementById("dampVal");
+      const readout = document.getElementById("readout");
+      const statusText = document.getElementById("statusText");
+      const redrawBtn = document.getElementById("redrawBtn");
+      const pauseBtn = document.getElementById("pauseBtn");
+      const saveBtn = document.getElementById("saveBtn");
+      const themeBtn = document.getElementById("themeBtn");
+      const soundBtn = document.getElementById("soundBtn");
+      const romanNav = document.getElementById("romanNav");
+      const noteBox = document.getElementById("noteBox");
+      const noteBody = document.getElementById("noteBody");
+
+      let dpr = Math.min(window.devicePixelRatio || 1, 2);
+      let size = 500;
+      let ratioIndex = 1; // start on fifth (3:2)
+      let drift = parseFloat(driftSlider.value);
+      let damping = parseFloat(dampSlider.value);
+      let paused = false;
+      let resting = false;
+      let t = 0;
+
+      // Normalized trajectory points stored so resize / theme-switch redraws cleanly
+      let points = [];
+      const MAX_POINTS = 28000;
+      const DT = 0.014;
+      const STEPS_PER_FRAME = 14;
+
+      // Pendulum phases (curated opening seed for immediate balance)
+      let phases = { p1: 0.42, p2: 1.95, p3: 2.02, p4: 3.48 };
+
+      function cssVar(name) {
+        return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+      }
+
+      function randomPhases() {
+        const p1 = Math.random() * Math.PI * 2;
+        const p2 = Math.random() * Math.PI * 2;
+        const p3 = p1 + Math.PI / 2 + (Math.random() - 0.5) * 0.65;
+        const p4 = p2 + Math.PI / 2 + (Math.random() - 0.5) * 0.85;
+        return { p1, p2, p3, p4 };
+      }
+
+      function samplePoint(time) {
+        const r = RATIOS[ratioIndex].value;
+        const f0 = 2.0;
+        const f1 = f0;
+        const f2 = f0 * r + drift;
+        const f3 = f0 * r;
+        const f4 = f0 - drift * 0.68;
+
+        const e1 = Math.exp(-damping * time);
+        const e2 = Math.exp(-damping * 1.07 * time);
+        const e3 = Math.exp(-damping * 1.03 * time);
+        const e4 = Math.exp(-damping * 0.95 * time);
+
+        const x = 0.5 * (Math.sin(f1 * time + phases.p1) * e1 + Math.sin(f2 * time + phases.p2) * e2);
+        const y = 0.5 * (Math.sin(f3 * time + phases.p3) * e3 + Math.sin(f4 * time + phases.p4) * e4);
+        return { x, y, env: (e1 + e2 + e3 + e4) * 0.25 };
+      }
+
+      function toCanvas(pt) {
+        const half = size * 0.5;
+        const scale = size * 0.415;
+        return {
+          cx: half + pt.x * scale,
+          cy: half + pt.y * scale
+        };
+      }
+
+      function drawGuides() {
+        const half = size * 0.5;
+        const radius = size * 0.415;
+        inkCtx.save();
+        inkCtx.strokeStyle = cssVar("--guide");
+        inkCtx.lineWidth = 0.75;
+
+        inkCtx.beginPath();
+        inkCtx.arc(half, half, radius, 0, Math.PI * 2);
+        inkCtx.stroke();
+
+        inkCtx.beginPath();
+        inkCtx.moveTo(half - 8, half);
+        inkCtx.lineTo(half + 8, half);
+        inkCtx.moveTo(half, half - 8);
+        inkCtx.lineTo(half, half + 8);
+        inkCtx.stroke();
+        inkCtx.restore();
+      }
+
+      function resizeCanvas() {
+        const rect = plate.getBoundingClientRect();
+        size = Math.max(200, Math.floor(rect.width));
+        dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+        [inkCanvas, nibCanvas].forEach((c) => {
+          c.width = Math.floor(size * dpr);
+          c.height = Math.floor(size * dpr);
+        });
+
+        inkCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        nibCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        replayAllPoints();
+      }
+
+      function replayAllPoints() {
+        inkCtx.clearRect(0, 0, size, size);
+        drawGuides();
+
+        if (points.length < 2) return;
+        inkCtx.save();
+        inkCtx.strokeStyle = cssVar("--trace");
+        inkCtx.lineWidth = 0.7;
+        inkCtx.lineCap = "round";
+        inkCtx.lineJoin = "round";
+
+        // Draw in modest chunks to preserve delicate overlapping alpha density
+        const CHUNK = 160;
+        for (let i = 1; i < points.length; i += CHUNK) {
+          const end = Math.min(points.length, i + CHUNK);
+          inkCtx.beginPath();
+          const start = toCanvas(points[i - 1]);
+          inkCtx.moveTo(start.cx, start.cy);
+          for (let j = i; j < end; j++) {
+            const p = toCanvas(points[j]);
+            inkCtx.lineTo(p.cx, p.cy);
+          }
+          inkCtx.stroke();
+        }
+        inkCtx.restore();
+
+        drawNib(points[points.length - 1]);
+      }
+
+      function drawNib(pt) {
+        nibCtx.clearRect(0, 0, size, size);
+        if (!pt || resting) return;
+        const { cx, cy } = toCanvas(pt);
+        const color = cssVar("--trace-nib");
+
+        nibCtx.save();
+        nibCtx.fillStyle = color;
+        nibCtx.globalAlpha = Math.max(0.25, Math.min(0.95, pt.env * 1.4));
+        nibCtx.beginPath();
+        nibCtx.arc(cx, cy, 2.2, 0, Math.PI * 2);
+        nibCtx.fill();
+
+        nibCtx.strokeStyle = color;
+        nibCtx.lineWidth = 0.75;
+        nibCtx.globalAlpha = 0.35;
+        nibCtx.beginPath();
+        nibCtx.arc(cx, cy, 6.5, 0, Math.PI * 2);
+        nibCtx.stroke();
+        nibCtx.restore();
+      }
+
+      function updateStatus() {
+        const r = RATIOS[ratioIndex];
+        readout.textContent = `${r.name} · ${r.label} · drift ${drift.toFixed(3)}`;
+
+        let label = "tracing";
+        if (resting) label = "at rest";
+        else if (paused) label = "paused";
+
+        statusText.innerHTML = `<span class="status-dot${resting || paused ? " rest" : ""}"></span>${label}`;
+        pauseBtn.textContent = paused ? "resume" : "pause";
+        pauseBtn.setAttribute("aria-pressed", String(paused));
+      }
+
+      function resetTrace(useRandomPhases = true) {
+        if (useRandomPhases) phases = randomPhases();
+        t = 0;
+        resting = false;
+        paused = false;
+        points = [samplePoint(0)];
+        inkCtx.clearRect(0, 0, size, size);
+        nibCtx.clearRect(0, 0, size, size);
+        drawGuides();
+        updateStatus();
+      }
+
+      function tick() {
+        if (!paused && !resting) {
+          inkCtx.save();
+          inkCtx.strokeStyle = cssVar("--trace");
+          inkCtx.lineWidth = 0.7;
+          inkCtx.lineCap = "round";
+          inkCtx.lineJoin = "round";
+          inkCtx.beginPath();
+
+          let prev = points[points.length - 1];
+          let pCanvas = toCanvas(prev);
+          inkCtx.moveTo(pCanvas.cx, pCanvas.cy);
+
+          for (let s = 0; s < STEPS_PER_FRAME; s++) {
+            t += DT;
+            const next = samplePoint(t);
+            points.push(next);
+            const nc = toCanvas(next);
+            inkCtx.lineTo(nc.cx, nc.cy);
+            prev = next;
+
+            if (next.env < 0.032 || points.length >= MAX_POINTS) {
+              resting = true;
+              break;
+            }
+          }
+
+          inkCtx.stroke();
+          inkCtx.restore();
+          drawNib(prev);
+          if (resting) updateStatus();
+        }
+        requestAnimationFrame(tick);
+      }
+
+      // Gentle offline Web Audio harmonic drone (muted unless invited)
+      let audioCtx = null;
+      let soundOn = false;
+      let masterGain = null;
+      let oscA = null;
+      let oscB = null;
+      let lfo = null;
+      const BASE_FREQ = 220; // A3
+
+      function startSound() {
+        if (!audioCtx) {
+          const AudioCtor = window.AudioContext || window.webkitAudioContext;
+          if (!AudioCtor) return;
+          audioCtx = new AudioCtor();
+
+          masterGain = audioCtx.createGain();
+          masterGain.gain.value = 0.0001;
+
+          const filter = audioCtx.createBiquadFilter();
+          filter.type = "lowpass";
+          filter.frequency.value = 920;
+
+          // Subtle breathing LFO
+          lfo = audioCtx.createOscillator();
+          const lfoGain = audioCtx.createGain();
+          lfo.frequency.value = 0.16;
+          lfoGain.gain.value = 0.012;
+
+          oscA = audioCtx.createOscillator();
+          oscB = audioCtx.createOscillator();
+          oscA.type = "sine";
+          oscB.type = "sine";
+
+          const gA = audioCtx.createGain();
+          const gB = audioCtx.createGain();
+          gA.gain.value = 0.55;
+          gB.gain.value = 0.45;
+
+          oscA.connect(gA).connect(filter);
+          oscB.connect(gB).connect(filter);
+          filter.connect(masterGain).connect(audioCtx.destination);
+          lfo.connect(lfoGain).connect(masterGain.gain);
+
+          oscA.start();
+          oscB.start();
+          lfo.start();
+        }
+
+        if (audioCtx.state === "suspended") audioCtx.resume();
+        tuneSound();
+        const now = audioCtx.currentTime;
+        masterGain.gain.cancelScheduledValues(now);
+        masterGain.gain.setValueAtTime(Math.max(0.0001, masterGain.gain.value), now);
+        masterGain.gain.linearRampToValueAtTime(0.065, now + 0.85);
+        soundOn = true;
+        soundBtn.setAttribute("aria-pressed", "true");
+        soundBtn.textContent = "quiet";
+      }
+
+      function stopSound() {
+        if (!audioCtx || !masterGain) return;
+        const now = audioCtx.currentTime;
+        masterGain.gain.cancelScheduledValues(now);
+        masterGain.gain.setValueAtTime(masterGain.gain.value, now);
+        masterGain.gain.linearRampToValueAtTime(0.0001, now + 0.55);
+        soundOn = false;
+        soundBtn.setAttribute("aria-pressed", "false");
+        soundBtn.textContent = "listen";
+      }
+
+      function tuneSound() {
+        if (!audioCtx || !oscA || !oscB) return;
+        const r = RATIOS[ratioIndex].value;
+        const now = audioCtx.currentTime;
+        oscA.frequency.setTargetAtTime(BASE_FREQ, now, 0.12);
+        // Subtle detuning mirrors the visual drift
+        oscB.frequency.setTargetAtTime(BASE_FREQ * r + drift * 22, now, 0.12);
+      }
+
+      // Build ratio controls
+      RATIOS.forEach((r, idx) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "ratio-btn" + (idx === ratioIndex ? " active" : "");
+        btn.textContent = `${r.name} · ${r.label}`;
+        btn.addEventListener("click", () => {
+          ratioIndex = idx;
+          ratioGroup.querySelectorAll(".ratio-btn").forEach((b, i) => {
+            b.classList.toggle("active", i === idx);
+          });
+          resetTrace(true);
+          if (soundOn) tuneSound();
+        });
+        ratioGroup.appendChild(btn);
+      });
+
+      // Marginalia
+      let noteIndex = 0;
+      function showNote(idx) {
+        noteIndex = (idx + NOTES.length) % NOTES.length;
+        const n = NOTES[noteIndex];
+        noteBody.style.opacity = "0";
+        window.setTimeout(() => {
+          noteBody.innerHTML = `<span class="note-title">${n.title}</span>${n.text}`;
+          noteBody.style.opacity = "1";
+        }, 140);
+        romanNav.querySelectorAll(".roman-btn").forEach((b, i) => {
+          b.classList.toggle("active", i === noteIndex);
+        });
+      }
+
+      NOTES.forEach((n, idx) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "roman-btn" + (idx === 0 ? " active" : "");
+        btn.textContent = n.roman;
+        btn.setAttribute("aria-label", `Note ${n.roman}`);
+        btn.addEventListener("click", () => showNote(idx));
+        romanNav.appendChild(btn);
+      });
+      noteBody.innerHTML = `<span class="note-title">${NOTES[0].title}</span>${NOTES[0].text}`;
+
+      noteBox.addEventListener("click", () => showNote(noteIndex + 1));
+
+      // Event bindings
+      driftSlider.addEventListener("input", () => {
+        drift = parseFloat(driftSlider.value);
+        driftVal.textContent = drift.toFixed(3);
+        resetTrace(false);
+        if (soundOn) tuneSound();
+      });
+
+      dampSlider.addEventListener("input", () => {
+        damping = parseFloat(dampSlider.value);
+        dampVal.textContent = damping.toFixed(4);
+        resetTrace(false);
+      });
+
+      plate.addEventListener("click", () => resetTrace(true));
+      redrawBtn.addEventListener("click", () => resetTrace(true));
+
+      pauseBtn.addEventListener("click", () => {
+        if (resting) {
+          resetTrace(true);
+          return;
+        }
+        paused = !paused;
+        updateStatus();
+      });
+
+      soundBtn.addEventListener("click", () => {
+        if (soundOn) stopSound();
+        else startSound();
+      });
+
+      themeBtn.addEventListener("click", () => {
+        const isNight = document.documentElement.getAttribute("data-theme") === "night";
+        if (isNight) {
+          document.documentElement.removeAttribute("data-theme");
+          themeBtn.textContent = "night";
+          themeBtn.setAttribute("aria-pressed", "false");
+        } else {
+          document.documentElement.setAttribute("data-theme", "night");
+          themeBtn.textContent = "day";
+          themeBtn.setAttribute("aria-pressed", "true");
+        }
+        replayAllPoints();
+      });
+
+      saveBtn.addEventListener("click", () => {
+        const out = document.createElement("canvas");
+        const exportSize = 1400;
+        out.width = exportSize;
+        out.height = exportSize;
+        const ctx = out.getContext("2d");
+
+        ctx.fillStyle = cssVar("--bg-plate");
+        ctx.fillRect(0, 0, exportSize, exportSize);
+
+        // Re-render current trace sharply at export resolution
+        const half = exportSize * 0.5;
+        const scale = exportSize * 0.415;
+        ctx.strokeStyle = cssVar("--trace");
+        ctx.lineWidth = 1.4;
+        ctx.lineCap = "round";
+        ctx.lineJoin = "round";
+
+        const CHUNK = 160;
+        for (let i = 1; i < points.length; i += CHUNK) {
+          const end = Math.min(points.length, i + CHUNK);
+          ctx.beginPath();
+          ctx.moveTo(half + points[i - 1].x * scale, half + points[i - 1].y * scale);
+          for (let j = i; j < end; j++) {
+            ctx.lineTo(half + points[j].x * scale, half + points[j].y * scale);
+          }
+          ctx.stroke();
+        }
+
+        // Subtle plate inscription
+        const r = RATIOS[ratioIndex];
+        ctx.fillStyle = cssVar("--ink-faint");
+        ctx.font = "20px ui-monospace, Menlo, Consolas, monospace";
+        ctx.fillText(`${r.name} · ${r.label} · drift ${drift.toFixed(3)}`, 42, exportSize - 38);
+
+        const link = document.createElement("a");
+        link.download = `between-questions-${r.name.replace(/\s+/g, "-")}.png`;
+        link.href = out.toDataURL("image/png");
+        link.click();
+      });
+
+      window.addEventListener("keydown", (e) => {
+        if (e.target.tagName === "INPUT" || e.target.tagName === "BUTTON") return;
+        if (e.code === "Space") {
+          e.preventDefault();
+          if (resting) resetTrace(true);
+          else {
+            paused = !paused;
+            updateStatus();
+          }
+        } else if (e.key === "r" || e.key === "R") {
+          resetTrace(true);
+        }
+      });
+
+      let resizeTimer = null;
+      window.addEventListener("resize", () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(resizeCanvas, 80);
+      });
+
+      // Initialize
+      resizeCanvas();
+      resetTrace(false);
+      requestAnimationFrame(tick);
+    })();
+  </script>
+</body>
+</html>

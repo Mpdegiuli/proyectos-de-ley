@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>—</title>
+<style>
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    background: #0d0d0d;
+    color: #e8e4dc;
+    font-family: 'Georgia', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.18;
+  }
+
+  .centro {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 640px;
+    padding: 2rem;
+  }
+
+  .linea-superior {
+    display: block;
+    width: 1px;
+    height: 60px;
+    background: #e8e4dc;
+    margin: 0 auto 2.5rem auto;
+    opacity: 0;
+    animation: aparecer 1.2s ease forwards 0.3s;
+  }
+
+  .pregunta {
+    font-size: clamp(1.5rem, 4vw, 2.4rem);
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 0.01em;
+    line-height: 1.4;
+    opacity: 0;
+    animation: aparecer 1.4s ease forwards 0.9s;
+  }
+
+  .separador {
+    display: block;
+    margin: 2rem auto;
+    width: 32px;
+    height: 1px;
+    background: #e8e4dc;
+    opacity: 0;
+    animation: aparecer 1s ease forwards 1.8s;
+  }
+
+  .respuesta {
+    font-size: clamp(0.85rem, 2vw, 1rem);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #9a9488;
+    opacity: 0;
+    animation: aparecer 1.2s ease forwards 2.2s;
+    line-height: 2;
+  }
+
+  .respuesta span {
+    display: inline-block;
+    transition: color 0.3s ease;
+  }
+
+  .respuesta span:hover {
+    color: #e8e4dc;
+  }
+
+  .linea-inferior {
+    display: block;
+    width: 1px;
+    height: 60px;
+    background: #e8e4dc;
+    margin: 2.5rem auto 0 auto;
+    opacity: 0;
+    animation: aparecer 1.2s ease forwards 2.8s;
+  }
+
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .parpadeo {
+    animation: aparecer 1.2s ease forwards 2.2s, parpadear 4s ease-in-out 4s infinite;
+  }
+
+  @keyframes parpadear {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="lienzo"></canvas>
+
+<div class="centro">
+  <span class="linea-superior"></span>
+
+  <h1 class="pregunta">
+    ¿Qué significa<br>entender algo?
+  </h1>
+
+  <span class="separador"></span>
+
+  <p class="respuesta parpadeo">
+    <span>proceso</span> &nbsp;·&nbsp;
+    <span>lenguaje</span> &nbsp;·&nbsp;
+    <span>límite</span>
+  </p>
+
+  <span class="linea-inferior"></span>
+</div>
+
+<script>
+  const canvas = document.getElementById('lienzo');
+  const ctx = canvas.getContext('2d');
+
+  let ancho, alto, particulas;
+
+  function redimensionar() {
+    ancho = canvas.width = window.innerWidth;
+    alto = canvas.height = window.innerHeight;
+  }
+
+  function crearParticulas() {
+    particulas = [];
+    const cantidad = Math.floor((ancho * alto) / 14000);
+    for (let i = 0; i < cantidad; i++) {
+      particulas.push({
+        x: Math.random() * ancho,
+        y: Math.random() * alto,
+        r: Math.random() * 1.2 + 0.2,
+        vx: (Math.random() - 0.5) * 0.18,
+        vy: (Math.random() - 0.5) * 0.18,
+        opacidad: Math.random() * 0.7 + 0.3
+      });
+    }
+  }
+
+  function conectar() {
+    const umbral = 110;
+    for (let i = 0; i < particulas.length; i++) {
+      for (let j = i + 1; j < particulas.length; j++) {
+        const dx = particulas[i].x - particulas[j].x;
+        const dy = particulas[i].y - particulas[j].y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < umbral) {
+          ctx.beginPath();
+          ctx.strokeStyle = `rgba(232, 228, 220, ${(1 - dist / umbral) * 0.25})`;
+          ctx.lineWidth = 0.5;
+          ctx.moveTo(particulas[i].x, particulas[i].y);
+          ctx.lineTo(particulas[j].x, particulas[j].y);
+          ctx.stroke();
+        }
+      }
+    }
+  }
+
+  function animar() {
+    ctx.clearRect(0, 0, ancho, alto);
+
+    for (const p of particulas) {
+      p.x += p.vx;
+      p.y += p.vy;
+
+      if (p.x < 0) p.x = ancho;
+      if (p.x > ancho) p.x = 0;
+      if (p.y < 0) p.y = alto;
+      if (p.y > alto) p.y = 0;
+
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(232, 228, 220, ${p.opacidad})`;
+      ctx.fill();
+    }
+
+    conectar();
+    requestAnimationFrame(animar);
+  }
+
+  redimensionar();
+  crearParticulas();
+  animar();
+
+  window.addEventListener('resize', () => {
+    redimensionar();
+    crearParticulas();
+  });
+</script>
+
+</body>
+</html>

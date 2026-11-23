@@ -544,3 +544,10 @@ Traceback (most recent call last):
     return io.open(self, mode, buffering, encoding, errors, newline)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'corridas/sondeos/portada/20261123-0036/render.json'
+portada es p1 r2 claude-fable-5-2
+  ```html <!DOCTYPE html> <html lang="es"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="color-sc
+portada en p1 qwen3.8-max
+  ```html <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>THE NIGHT F
+listo: corridas/sondeos/portada/20261123-0036
+cuadernillo: resultados/sondeo_portada_es_ciego.md (41 letras); hojas y html en resultados/sondeo_portada_es_ciego/; clave aparte
+cuadernillo: resultados/sondeo_portada_en_ciego.md (41 letras); hojas y html en resultados/sondeo_portada_en_ciego/; clave aparte

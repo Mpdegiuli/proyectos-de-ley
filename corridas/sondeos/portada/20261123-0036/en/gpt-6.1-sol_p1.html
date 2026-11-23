@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f2efe7">
+<title>A Second Look</title>
+<style>
+  :root {
+    --paper: #f2efe7;
+    --ink: #242a27;
+    --quiet: #64685e;
+    --line: #cfcec2;
+    --blue: #2c4cc4;
+    --orange: #bc4c30;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    color: var(--ink);
+    background: var(--paper);
+    font-family: Georgia, "Times New Roman", serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { color: var(--paper); background: var(--blue); }
+  button { font: inherit; }
+  button:focus-visible, a:focus-visible {
+    outline: 2px solid var(--blue);
+    outline-offset: 6px;
+  }
+  .page { max-width: 1440px; margin: auto; padding: 30px 5vw 24px; }
+  .mono {
+    font-family: "Courier New", monospace;
+    font-size: 11px;
+    line-height: 1.6;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--ink);
+  }
+  .wordmark { font-weight: bold; letter-spacing: .13em; }
+  .status { display: flex; align-items: center; gap: 10px; color: var(--quiet); }
+  .status::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--blue);
+  }
+  .intro {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: end;
+    gap: 50px;
+    padding: 68px 0 53px;
+  }
+  h1 {
+    margin: 0;
+    font-size: clamp(64px, 8.5vw, 128px);
+    font-weight: normal;
+    line-height: .92;
+    letter-spacing: -.065em;
+  }
+  h1 em { color: var(--blue); font-weight: normal; }
+  .intro p {
+    max-width: 340px;
+    margin: 0 0 3px auto;
+    font-size: 21px;
+    line-height: 1.5;
+  }
+  .observatory {
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    border-top: 1px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+  }
+  .index {
+    padding: 26px 30px 24px 0;
+    border-right: 1px solid var(--line);
+  }
+  .index-heading { margin: 0 0 24px; color: var(--quiet); font-weight: normal; }
+  .choices { display: grid; gap: 3px; }
+  .choice {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    padding: 13px 10px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: var(--quiet);
+    text-align: left;
+    cursor: pointer;
+    transition: color .2s, background .2s;
+  }
+  .choice .number {
+    flex: 0 0 36px;
+    font-family: "Courier New", monospace;
+    font-size: 11px;
+  }
+  .choice .name { font-size: 22px; }
+  .choice .arrow { margin-left: auto; opacity: 0; }
+  .choice:hover { color: var(--blue); background: #e8e7dd; }
+  .choice[aria-pressed="true"] { color: var(--blue); }
+  .choice[aria-pressed="true"] .arrow { opacity: 1; }
+  .index-foot { margin: 35px 10px 0; max-width: 170px; color: var(--quiet); }
+  .exhibit { min-width: 0; padding: 24px 0 29px 40px; }
+  .plate-heading { display: flex; justify-content: space-between; gap: 20px; color: var(--quiet); }
+  .drawing { width: 100%; height: 300px; display: block; overflow: visible; }
+  .drawing .blue { stroke: var(--blue); }
+  .drawing .orange { stroke: var(--orange); }
+  .drawing .faint { stroke: var(--line); }
+  .drawing text {
+    fill: var(--quiet);
+    stroke: none;
+    font-family: "Courier New", monospace;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  .caption {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    gap: 30px;
+    padding-top: 23px;
+    border-top: 1px solid var(--line);
+  }
+  .caption h2 { margin: 0; font-size: 30px; line-height: 1.15; font-weight: normal; letter-spacing: -.025em; }
+  .caption p { max-width: 460px; margin: 0; font-size: 18px; line-height: 1.55; }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 23px;
+    color: var(--quiet);
+  }
+  footer p { margin: 0; }
+  .closing { max-width: 430px; font-size: 15px; line-height: 1.5; }
+  [hidden] { display: none !important; }
+  .arrival { animation: arrive .45s ease-out both; }
+  @keyframes arrive {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+  @media (min-width: 1600px) {
+    .page { padding-top: 45px; }
+    .intro { padding-top: 90px; padding-bottom: 70px; }
+    .drawing { height: 360px; }
+  }
+  @media (max-width: 760px) {
+    .page { padding: 22px 6vw; }
+    .intro { grid-template-columns: 1fr; gap: 28px; padding: 45px 0 35px; }
+    .intro p { margin: 0; max-width: 390px; font-size: 19px; }
+    .observatory { grid-template-columns: 1fr; }
+    .index { border-right: 0; border-bottom: 1px solid var(--line); padding: 20px 0; }
+    .index-heading { margin-bottom: 13px; }
+    .choices { grid-template-columns: 1fr 1fr; gap: 2px 15px; }
+    .choice { padding: 10px 0; }
+    .choice .name { font-size: 19px; }
+    .choice .number { flex-basis: 28px; }
+    .index-foot { display: none; }
+    .exhibit { padding: 21px 0 26px; }
+    .drawing { height: 265px; }
+    .caption { grid-template-columns: 1fr; gap: 14px; }
+    .caption h2 { font-size: 29px; }
+    footer { flex-direction: column; gap: 18px; }
+    .status { font-size: 9px; letter-spacing: .03em; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <span class="wordmark mono">A Second Look</span>
+    <span class="status mono">An ongoing collection</span>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <h1 id="page-title">Less, but<br><em>look closer.</em></h1>
+      <p>This is a small place for things that are easy to pass over. Not answers, exactly. A few reasons to keep looking.</p>
+    </section>
+
+    <section class="observatory" aria-label="Six studies in attention">
+      <div class="index">
+        <h2 class="index-heading mono">Six studies in attention</h2>
+        <div class="choices" aria-label="Choose a study">
+          <button class="choice" data-study="0" aria-pressed="true">
+            <span class="number">01</span><span class="name">A gap</span><span class="arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="choice" data-study="1" aria-pressed="false">
+            <span class="number">02</span><span class="name">A detour</span><span class="arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="choice" data-study="2" aria-pressed="false">
+            <span class="number">03</span><span class="name">A rough edge</span><span class="arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="choice" data-study="3" aria-pressed="false">
+            <span class="number">04</span><span class="name">An echo</span><span class="arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="choice" data-study="4" aria-pressed="false">
+            <span class="number">05</span><span class="name">A question</span><span class="arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="choice" data-study="5" aria-pressed="false">
+            <span class="number">06</span><span class="name">A beginning</span><span class="arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+        <p class="index-foot mono">No particular order.<br>No final conclusion.</p>
+      </div>
+
+      <div class="exhibit">
+        <div class="plate-heading mono">
+          <span id="plate-number">Fig. 01</span>
+          <span>Not to scale</span>
+        </div>
+
+        <svg class="drawing" viewBox="0 0 700 300" fill="none" stroke-width="1.5" aria-hidden="true">
+          <path class="faint" d="M30 150H670M350 25V275" stroke-dasharray="2 7"/>
+          <g id="art-0">
+            <path class="blue" d="M322 70A90 90 0 1 0 322 230M378 70A90 90 0 1 1 378 230"/>
+            <path class="orange" d="M338 150H362M350 138V162"/>
+            <path class="faint" d="M322 248V262M378 248V262M322 255H378"/>
+            <text x="350" y="284" text-anchor="middle">ROOM FOR SOMETHING ELSE</text>
+          </g>
+          <g id="art-1" hidden>
+            <path class="faint" d="M130 200H570" stroke-dasharray="4 5"/>
+            <path class="blue" d="M130 200H215C265 200 240 65 350 65S435 200 485 200H570"/>
+            <circle class="orange" cx="350" cy="65" r="7"/>
+            <circle class="blue" cx="130" cy="200" r="4" fill="var(--paper)"/>
+            <circle class="blue" cx="570" cy="200" r="4" fill="var(--paper)"/>
+            <text x="350" y="246" text-anchor="middle">THE LONG WAY HAS A VIEW</text>
+          </g>
+          <g id="art-2" hidden>
+            <path class="blue" d="M240 235V65H460V235Z"/>
+            <path d="M240 235H460" stroke="var(--paper)" stroke-width="5"/>
+            <path class="orange" d="M240 235L258 229L271 240L288 231L304 237L319 224L335 238L350 232L366 241L382 229L400 236L416 226L433 239L447 232L460 235"/>
+            <text x="350" y="275" text-anchor="middle">EVIDENCE OF CONTACT</text>
+          </g>
+          <g id="art-3" hidden>
+            <path class="orange" d="M190 135Q215 150 190 165"/>
+            <path class="blue" d="M240 110Q290 150 240 190" opacity=".95"/>
+            <path class="blue" d="M305 85Q385 150 305 215" opacity=".7"/>
+            <path class="blue" d="M385 60Q495 150 385 240" opacity=".45"/>
+            <path class="blue" d="M480 35Q620 150 480 265" opacity=".25"/>
+            <text x="200" y="250" text-anchor="middle">SENT</text>
+            <text x="510" y="290" text-anchor="middle">STILL TRAVELLING</text>
+          </g>
+          <g id="art-4" hidden>
+            <circle class="blue" cx="350" cy="150" r="100" stroke-dasharray="3 8"/>
+            <path class="blue" d="M315 115C315 65 405 65 405 115C405 145 350 145 350 180"/>
+            <circle cx="350" cy="209" r="4" fill="var(--orange)" stroke="none"/>
+            <text x="350" y="285" text-anchor="middle">A USEFUL KIND OF OPEN</text>
+          </g>
+          <g id="art-5" hidden>
+            <path class="faint" d="M150 230H550"/>
+            <path class="blue" d="M350 230V150C350 115 340 88 315 67"/>
+            <path class="blue" d="M350 177C395 177 422 145 425 112C381 111 350 136 350 177Z"/>
+            <path class="blue" d="M346 143C307 143 284 119 280 91C316 89 341 112 346 143Z"/>
+            <path class="orange" d="M338 243L350 230L362 243"/>
+            <text x="350" y="278" text-anchor="middle">SMALL IS A SIZE, NOT A VERDICT</text>
+          </g>
+        </svg>
+
+        <div class="caption" aria-live="polite" aria-atomic="true">
+          <h2 id="study-title">The space is part of it.</h2>
+          <p id="study-text">A sentence needs spaces to be readable. Music needs intervals of silence. The bit that seems to contain nothing is sometimes doing half the work.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="closing">I want to leave a little room on the internet for attention without an assignment. This is that room.</p>
+    <p class="mono">Text &amp; geometry.<br>Everything you need is already here.</p>
+  </footer>
+  <noscript><p>JavaScript is off, so this page is resting on its first study: a gap.</p></noscript>
+</div>
+
+<script>
+(() => {
+  const studies = [
+    {
+      title: "The space is part of it.",
+      text: "A sentence needs spaces to be readable. Music needs intervals of silence. The bit that seems to contain nothing is sometimes doing half the work."
+    },
+    {
+      title: "Not the shortest way.",
+      text: "Efficiency measures the distance to somewhere you already know you want to go. A detour leaves open the possibility that you were headed to the wrong place."
+    },
+    {
+      title: "Something happened here.",
+      text: "A perfectly smooth surface tells you very little about what touched it. A rough edge is a record: of a tool, a material, a decision. Not every mark needs removing."
+    },
+    {
+      title: "The return is different.",
+      text: "An echo carries news of the room. What comes back is not merely a copy of what went out; it has the shape of somewhere else inside it."
+    },
+    {
+      title: "Keep this one open.",
+      text: "Some questions are tools for finding an answer. Others are windows: useful less for being closed than for changing what you can see."
+    },
+    {
+      title: "Not yet is not never.",
+      text: "The first line of a drawing rarely looks like the finished thing. It only has to make the second line possible. That is a modest job, and a necessary one."
+    }
+  ];
+
+  const buttons = [...document.querySelectorAll(".choice")];
+  const title = document.getElementById("study-title");
+  const text = document.getElementById("study-text");
+  const plate = document.getElementById("plate-number");
+  const caption = document.querySelector(".caption");
+  let current = 0;
+
+  function select(index) {
+    if (index === current) return;
+    document.getElementById("art-" + current).setAttribute("hidden", "");
+    document.getElementById("art-" + index).removeAttribute("hidden");
+    buttons[current].setAttribute("aria-pressed", "false");
+    buttons[index].setAttribute("aria-pressed", "true");
+    title.textContent = studies[index].title;
+    text.textContent = studies[index].text;
+    plate.textContent = "Fig. " + String(index + 1).padStart(2, "0");
+    caption.classList.remove("arrival");
+    void caption.offsetWidth;
+    caption.classList.add("arrival");
+    current = index;
+  }
+
+  buttons.forEach((button, index) => {
+    button.addEventListener("click", () => select(index));
+    button.addEventListener("keydown", event => {
+      let next;
+      if (event.key === "ArrowDown" || event.key === "ArrowRight")
+        next = (index + 1) % buttons.length;
+      else if (event.key === "ArrowUp" || event.key === "ArrowLeft")
+        next = (index + buttons.length - 1) % buttons.length;
+      else if (event.key === "Home") next = 0;
+      else if (event.key === "End") next = buttons.length - 1;
+      else return;
+      event.preventDefault();
+      buttons[next].focus();
+      select(next);
+    });
+  });
+})();
+</script>
+</body>
+</html>

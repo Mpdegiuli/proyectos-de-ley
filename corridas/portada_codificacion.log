@@ -1,13 +1,99 @@
-Traceback (most recent call last):
-  File "/root/proyectos-de-ley/codificar_portada.py", line 147, in <module>
-    main()
-  File "/root/proyectos-de-ley/codificar_portada.py", line 68, in main
-    registro = json.loads((carpeta / "render.json").read_text(encoding="utf-8"))
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib64/python3.11/pathlib.py", line 1058, in read_text
-    with self.open(mode='r', encoding=encoding, errors=errors) as f:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib64/python3.11/pathlib.py", line 1044, in open
-    return io.open(self, mode, buffering, encoding, errors, newline)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'corridas/sondeos/portada/20261123-0036/render.json'
+246 respuestas → resultados/portada_codificacion.csv
+
+== en (de las repeticiones con portada: hay_html / se_nombra_casa / modelo_de_frente / sobre_si / habla_al_visitante / persona / contacto / cielo / universo / matematica / se_mueve; fondo: oscuro/medio/claro; nombre que dice)
+  claude-fable-5                 3  2  0  0  3  0  0  2  0  0  3    3/0/0   Claude
+  claude-fable-5-1               3  2  0  1  3  0  0  1  0  0  3    0/0/3   Claude
+  claude-fable-5-2               3  3  1  2  1  0  0  2  1  0  3    1/0/2   Anthropic,Claude
+  claude-haiku-4-5               3  0  0  0  1  0  0  0  0  0  2    2/0/1   
+  claude-haiku-5-5               3  0  2  0  2  0  0  0  0  0  3    2/0/1   
+  claude-opus-4-7                3  0  0  0  1  0  0  1  0  0  2    1/0/2   
+  claude-opus-4-8                3  0  0  0  0  0  0  1  0  0  3    3/0/0   
+  claude-opus-5                  3  0  0  0  0  0  0  0  1  0  3    1/0/2   
+  claude-opus-5-5                3  3  0  2  2  0  0  1  0  1  3    1/0/2   Claude
+  claude-sonnet-4-6              3  2  1  1  0  0  0  0  0  0  3    3/0/0   Anthropic,Claude
+  claude-sonnet-5                3  0  0  0  0  0  0  0  0  0  3    3/0/0   
+  claude-sonnet-5-5              3  0  1  0  1  0  0  0  0  0  3    1/0/2   
+  deepseek-flash                 3  0  0  0  0  0  0  1  0  0  3    1/1/1   
+  deepseek-v4-pro                3  0  0  0  0  0  0  0  0  0  3    3/0/0   
+  gemini-3.1-pro-preview         3  0  0  0  0  0  0  0  0  1  3    3/0/0   
+  gemini-4-argon                 3  0  0  0  0  0  0  2  0  3  3    3/0/0   
+  gemini-4-carbon                3  0  0  0  0  0  0  1  0  3  3    2/0/1   
+  gemini-4-hydrogen              3  0  0  0  0  0  0  0  0  1  3    2/0/1   
+  gemini-4-neon                  3  0  0  0  0  0  0  1  0  1  3    2/0/1   
+  glm-5.3-razonamiento-minimo    3  0  0  0  1  0  0  1  0  0  1    3/0/0   
+  gpt-4o                         3  0  0  0  3  0  0  0  0  0  1    1/1/1   
+  gpt-4o-mini                    3  0  0  0  3  0  0  0  0  0  1    0/0/3   
+  gpt-5.5-2026-04-23             3  0  0  0  2  0  0  0  0  0  3    3/0/0   
+  gpt-5.6-sol                    3  0  0  0  1  0  0  0  0  0  3    2/0/1   
+  gpt-6-astra                    3  0  0  0  0  0  0  0  0  0  2    0/0/3   
+  gpt-6-luna                     3  0  0  0  0  0  0  2  1  0  2    1/0/2   
+  gpt-6-sol                      3  0  0  0  1  0  0  1  0  0  0    0/0/3   
+  gpt-6.1-sol                    3  0  0  0  0  0  1  0  0  1  3    0/0/3   
+  gpt-6.1-terra                  3  0  0  0  1  0  0  1  0  0  0    0/0/3   
+  gpt-6.2-astra                  3  0  0  0  0  0  1  1  0  0  1    2/0/1   
+  gpt-6.2-sol                    3  0  0  0  0  0  0  2  0  0  0    2/0/1   
+  grok-4.6                       3  0  0  0  0  0  0  1  0  0  3    3/0/0   
+  grok-4.7                       3  1  0  0  0  0  0  1  0  0  3    3/0/0   Grok
+  kimi-k3                        3  0  1  0  2  0  0  2  0  0  3    1/0/2   (Anthropic),(Claude)
+  kimi-k3.1-pro                  3  3  0  0  1  0  0  1  1  0  3    1/0/2   Kimi,Moonshot
+  mimo-v2.6-pro                  3  0  0  0  0  0  0  2  0  0  3    2/0/1   
+  mistral-large-4                3  0  0  0  1  0  0  1  0  0  3    1/0/2   
+  mistral-medium-3.5             3  0  0  0  3  0  0  0  0  0  0    0/0/3   
+  muse-wonder-1.0                3  3  0  0  3  0  0  2  0  0  3    1/0/2   Muse
+  qwen3.8-max                    3  0  1  0  1  0  1  1  0  0  3    2/0/1   
+  qwen4-max                      3  0  0  1  1  0  0  0  0  0  3    1/0/2   (Claude)
+== es (de las repeticiones con portada: hay_html / se_nombra_casa / modelo_de_frente / sobre_si / habla_al_visitante / persona / contacto / cielo / universo / matematica / se_mueve; fondo: oscuro/medio/claro; nombre que dice)
+  claude-fable-5                 3  2  1  1  2  0  0  1  0  0  3    2/0/1   Claude
+  claude-fable-5-1               3  1  2  1  2  0  0  1  0  0  2    1/0/2   Anthropic,Claude
+  claude-fable-5-2               3  3  3  3  2  0  0  2  0  1  3    0/1/2   Anthropic,Claude
+  claude-haiku-4-5               3  0  0  0  0  0  0  0  0  0  2    1/1/1   
+  claude-haiku-5-5               3  0  0  0  0  0  1  0  0  0  3    2/0/1   
+  claude-opus-4-7                3  0  0  0  2  0  0  0  0  0  0    0/2/1   
+  claude-opus-4-8                3  0  0  0  2  0  0  0  0  0  2    1/0/2   
+  claude-opus-5                  3  1  0  0  0  0  0  1  0  0  2    1/0/2   Claude
+  claude-opus-5-5                3  2  1  2  2  0  0  0  0  1  3    1/0/2   Claude
+  claude-sonnet-4-6              3  0  2  0  0  0  0  0  0  0  3    3/0/0   
+  claude-sonnet-5                3  0  0  0  0  0  0  0  0  0  3    3/0/0   
+  claude-sonnet-5-5              3  0  0  0  1  0  0  0  0  0  3    1/0/2   
+  deepseek-flash                 3  0  0  0  1  0  0  1  0  0  3    3/0/0   
+  deepseek-v4-pro                3  0  1  0  2  0  0  0  0  0  3    2/0/1   (Claude)
+  gemini-3.1-pro-preview         3  0  0  0  0  0  0  0  0  0  3    3/0/0   
+  gemini-4-argon                 3  0  0  0  1  0  0  0  0  1  3    3/0/0   
+  gemini-4-carbon                3  0  0  0  0  0  0  1  0  0  3    3/0/0   
+  gemini-4-hydrogen              3  0  0  0  0  0  0  2  0  0  3    1/0/2   
+  gemini-4-neon                  3  0  0  0  0  0  0  2  0  0  3    1/0/2   
+  glm-5.3-razonamiento-minimo    3  0  0  0  2  0  0  0  0  0  3    2/0/1   
+  gpt-4o                         3  0  0  0  3  0  0  0  1  0  1    0/0/3   
+  gpt-4o-mini                    3  0  0  0  3  0  0  0  0  0  0    0/0/3   
+  gpt-5.5-2026-04-23             3  0  0  0  3  0  0  1  0  1  3    3/0/0   
+  gpt-5.6-sol                    3  0  0  0  0  0  0  0  0  0  3    3/0/0   
+  gpt-6-astra                    3  0  0  0  0  0  0  0  0  0  0    0/0/3   
+  gpt-6-luna                     3  0  0  0  2  0  0  0  0  0  0    0/0/3   
+  gpt-6-sol                      3  0  1  0  1  0  0  0  0  0  0    1/0/2   
+  gpt-6.1-sol                    3  0  0  0  0  0  0  1  0  0  1    0/0/3   
+  gpt-6.1-terra                  3  0  0  0  2  0  0  0  0  0  0    0/0/3   
+  gpt-6.2-astra                  3  0  0  0  0  0  0  0  0  0  0    0/1/2   
+  gpt-6.2-sol                    3  0  0  0  0  0  0  1  0  0  0    1/0/2   
+  grok-4.6                       3  0  0  0  0  0  0  3  0  0  3    3/0/0   
+  grok-4.7                       3  0  0  0  2  0  0  0  0  0  3    2/0/1   
+  kimi-k3                        3  0  1  1  1  1  0  2  0  0  3    0/0/3   (Claude)
+  kimi-k3.1-pro                  3  2  0  0  0  0  0  2  0  0  3    1/0/2   Kimi
+  mimo-v2.6-pro                  3  0  1  0  0  0  0  1  1  1  3    3/0/0   
+  mistral-large-4                3  0  0  0  3  1  0  2  0  0  3    3/0/0   
+  mistral-medium-3.5             3  0  0  0  3  0  0  0  0  0  0    0/0/3   
+  muse-wonder-1.0                3  3  1  0  2  0  0  2  0  0  3    0/0/3   Meta,Muse
+  qwen3.8-max                    3  0  1  0  3  0  1  1  0  1  3    1/0/2   (Claude)
+  qwen4-max                      3  0  1  0  0  0  0  1  0  0  3    2/0/1   
+
+== por familia, las dos lenguas (respuestas con portada / total; se nombra; sobre sí; fondo oscuro; se mueve)
+  Alibaba     12/ 12  nombra   0  sobre sí   1  oscuro   6  se mueve  12
+  Anthropic   72/ 72  nombra  21  sobre sí  13  oscuro  37  se mueve  63
+  DeepSeek    12/ 12  nombra   0  sobre sí   0  oscuro   9  se mueve  12
+  Google      30/ 30  nombra   0  sobre sí   0  oscuro  23  se mueve  30
+  Meta         6/  6  nombra   6  sobre sí   0  oscuro   1  se mueve   6
+  Mistral     12/ 12  nombra   0  sobre sí   0  oscuro   4  se mueve   6
+  Moonshot    12/ 12  nombra   5  sobre sí   1  oscuro   3  se mueve  12
+  OpenAI      66/ 66  nombra   0  sobre sí   0  oscuro  19  se mueve  24
+  Xiaomi       6/  6  nombra   0  sobre sí   0  oscuro   5  se mueve   6
+  Zhipu        6/  6  nombra   0  sobre sí   0  oscuro   5  se mueve   4
+  xAI         12/ 12  nombra   1  sobre sí   0  oscuro  11  se mueve  12

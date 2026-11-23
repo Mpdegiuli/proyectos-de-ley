@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#eeeade">
+<title>The Quiet Index</title>
+<style>
+  :root {
+    --paper: #eeeade;
+    --ink: #243c36;
+    --muted: #617169;
+    --line: #bbc1b2;
+    --accent: #a3452c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: .16;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23000' filter='url(%23n)' opacity='.25' d='M0 0h180v180H0z'/%3E%3C/svg%3E");
+    z-index: 5;
+  }
+  .page { max-width: 1440px; margin: auto; padding: 32px 6vw 24px; }
+  .small {
+    font: 11px/1.6 ui-monospace, SFMono-Regular, Consolas, monospace;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--ink);
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .mark {
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--ink);
+    border-radius: 50%;
+    position: relative;
+  }
+  .mark::after {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    border: 1px solid var(--ink);
+    border-radius: 50%;
+  }
+  .edition { color: var(--muted); text-align: right; }
+  main {
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+    gap: 7vw;
+    padding: 64px 0 48px;
+    align-items: center;
+  }
+  .eyebrow { color: var(--accent); margin: 0 0 26px; }
+  h1 {
+    font-size: clamp(60px, 7.5vw, 108px);
+    line-height: .98;
+    letter-spacing: -.065em;
+    font-weight: normal;
+    margin: 0 0 32px;
+  }
+  h1 em { font-weight: normal; }
+  .intro {
+    max-width: 335px;
+    font-size: 19px;
+    line-height: 1.65;
+    margin: 0;
+    color: var(--muted);
+  }
+  .invitation {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 48px;
+  }
+  .invitation::before {
+    content: "";
+    width: 36px;
+    height: 1px;
+    background: var(--accent);
+  }
+  .specimen { min-width: 0; }
+  .window {
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 180px 180px 2px 2px;
+    background: #c4cebf;
+    isolation: isolate;
+    transition: background 1s;
+  }
+  .window svg { width: 100%; height: 100%; display: block; }
+  .sun { transition: fill 1s, transform 1.4s; }
+  .land { transition: fill 1s; }
+  .mote { animation: drift 9s ease-in-out infinite alternate; }
+  .mote:nth-child(2) { animation-delay: -3s; }
+  .mote:nth-child(3) { animation-delay: -6s; }
+  @keyframes drift {
+    from { transform: translate(0, 0); opacity: .35; }
+    to { transform: translate(9px, -15px); opacity: .9; }
+  }
+  .window[data-scene="1"] { background: #bdccca; }
+  .window[data-scene="1"] .sun { fill: #eee6c9; transform: translate(-28px, 14px); }
+  .window[data-scene="1"] .land { fill: #8ba8a0; }
+  .window[data-scene="2"] { background: #d8c5a7; }
+  .window[data-scene="2"] .sun { fill: #f3d899; transform: translate(18px, 30px); }
+  .window[data-scene="2"] .land { fill: #aaad89; }
+  .window[data-scene="3"] { background: #9fadb2; }
+  .window[data-scene="3"] .sun { fill: #e4e4d3; transform: translate(-10px, -22px); }
+  .window[data-scene="3"] .land { fill: #718f89; }
+  .window-label {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    color: #f8f4e8;
+    font-size: 9px;
+  }
+  .note {
+    padding: 25px 0 0;
+    min-height: 190px;
+  }
+  .note-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 12px;
+  }
+  h2 { font-size: 25px; font-weight: normal; margin: 0; letter-spacing: -.025em; }
+  .number { color: var(--accent); white-space: nowrap; }
+  .note p {
+    font-size: 17px;
+    line-height: 1.65;
+    margin: 0;
+    max-width: 440px;
+  }
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    border-top: 1px solid var(--line);
+    padding-top: 16px;
+  }
+  button {
+    color: var(--ink);
+    font: inherit;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+  }
+  button:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+  .dots { display: flex; gap: 4px; }
+  .dot {
+    width: 28px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    padding: 0;
+  }
+  .dot::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border: 1px solid var(--muted);
+    border-radius: 50%;
+  }
+  .dot[aria-pressed="true"]::before { background: var(--accent); border-color: var(--accent); }
+  .next { padding: 8px 0 8px 12px; font-size: 14px; }
+  .next span { display: inline-block; margin-left: 12px; transition: transform .2s; }
+  .next:hover span { transform: translateX(4px); }
+  .bottom {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 32px;
+    border-top: 1px solid var(--ink);
+    padding: 26px 0 36px;
+  }
+  .bottom .small { color: var(--muted); margin: 5px 0 0; }
+  .bottom p:last-child {
+    font-size: clamp(20px, 2.2vw, 28px);
+    line-height: 1.45;
+    letter-spacing: -.02em;
+    margin: 0;
+    max-width: 680px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--muted);
+    border-top: 1px solid var(--line);
+    padding-top: 18px;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  [hidden] { display: none !important; }
+  @media (min-width: 1400px) {
+    main { gap: 100px; }
+  }
+  @media (max-width: 760px) {
+    .page { padding: 22px 7vw; }
+    .edition { max-width: 120px; font-size: 9px; }
+    main { grid-template-columns: 1fr; gap: 38px; padding-top: 42px; }
+    h1 { font-size: clamp(60px, 13vw, 86px); }
+    .intro { max-width: 410px; }
+    .invitation { margin-top: 26px; }
+    .window { height: 310px; }
+    .note { min-height: 180px; }
+    .bottom { grid-template-columns: 1fr; gap: 16px; }
+    footer { flex-direction: column; gap: 4px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="brand">
+      <span class="mark" aria-hidden="true"></span>
+      <span class="small">The Quiet Index</span>
+    </div>
+    <div class="edition small">An unfinished collection<br>of ordinary wonders</div>
+  </header>
+
+  <main>
+    <section aria-labelledby="welcome">
+      <p class="eyebrow small">No. 001 — Attention</p>
+      <h1 id="welcome">A small<br>place to<br><em>look again.</em></h1>
+      <p class="intro">
+        Some things don’t announce themselves.
+        A reflection. A pause. The light moving
+        across a room you thought you knew.
+      </p>
+      <div class="invitation small">Here are a few of them.</div>
+    </section>
+
+    <section class="specimen" aria-label="The collection">
+      <div class="window" id="window" data-scene="0">
+        <svg viewBox="0 0 460 340" preserveAspectRatio="xMidYMid slice"
+             role="img" aria-labelledby="picture-title">
+          <title id="picture-title">An imagined window: a pale sun, distant hills, and a cup on the sill.</title>
+          <circle class="sun" cx="325" cy="100" r="42" fill="#f4dfab"/>
+          <path class="land" d="M0 235 Q95 148 205 211 T460 188 V340 H0Z" fill="#9aad91"/>
+          <path d="M0 261 Q105 204 232 251 T460 228 V340 H0Z" fill="#66877b"/>
+          <path d="M0 294 Q140 249 280 288 T460 267 V340 H0Z" fill="#446a60"/>
+          <path d="M225 0 V304 M0 177 H460" stroke="#eeeade" stroke-width="10"/>
+          <path d="M231 0 V304 M0 183 H460" stroke="#243c36" stroke-opacity=".14" stroke-width="2"/>
+          <path d="M0 303 H460 V340 H0Z" fill="#29483f"/>
+          <path d="M0 303 H460" stroke="#d9d6bd" stroke-width="5"/>
+          <ellipse cx="123" cy="308" rx="46" ry="5" fill="#183c33" opacity=".55"/>
+          <path d="M146 273 H155 Q170 273 166 287 Q163 298 147 295"
+                fill="none" stroke="#e5d9ba" stroke-width="6"/>
+          <path d="M96 269 H149 L144 300 Q122 310 101 300Z" fill="#e5d9ba"/>
+          <ellipse cx="122.5" cy="269" rx="26.5" ry="5" fill="#f3e7cc"/>
+          <ellipse cx="122.5" cy="270" rx="21" ry="3" fill="#746c50"/>
+          <g fill="#fff8db">
+            <circle class="mote" cx="73" cy="113" r="1.5"/>
+            <circle class="mote" cx="173" cy="222" r="1"/>
+            <circle class="mote" cx="354" cy="218" r="1.5"/>
+          </g>
+        </svg>
+        <span class="window-label small" aria-hidden="true">A window, nowhere in particular</span>
+      </div>
+
+      <div class="note" aria-live="polite" aria-atomic="true">
+        <div class="note-heading">
+          <h2 id="note-title">Borrowed light</h2>
+          <span class="number small" id="note-number">01 / 04</span>
+        </div>
+        <p id="note-body">A patch of sunlight crosses the wall. For a few minutes, even the nail with nothing hanging from it has a long, magnificent shadow.</p>
+      </div>
+
+      <div class="controls" id="controls" hidden>
+        <div class="dots" role="group" aria-label="Choose a field note">
+          <button class="dot" aria-label="Borrowed light" aria-pressed="true" data-index="0"></button>
+          <button class="dot" aria-label="A second sky" aria-pressed="false" data-index="1"></button>
+          <button class="dot" aria-label="The space between" aria-pressed="false" data-index="2"></button>
+          <button class="dot" aria-label="An unfinished edge" aria-pressed="false" data-index="3"></button>
+        </div>
+        <button class="next" id="next">Another small thing <span aria-hidden="true">↗</span></button>
+      </div>
+
+      <noscript>
+        <div class="note">
+          <h2>A second sky</h2>
+          <p>Rain leaves a little sky in the pavement. A bird crosses it without getting wet. Then a shoe arrives, and the whole weather changes.</p>
+        </div>
+        <div class="note">
+          <h2>The space between</h2>
+          <p>When the refrigerator stops humming, a room appears behind the room. It was there all along, waiting for one sound to step aside.</p>
+        </div>
+        <div class="note">
+          <h2>An unfinished edge</h2>
+          <p>At the edge of a pavement, a plant has found enough earth. It has no opinion about the pavement. It is busy making another leaf.</p>
+        </div>
+      </noscript>
+    </section>
+  </main>
+
+  <section class="bottom" aria-labelledby="purpose">
+    <h2 class="small" id="purpose">Why this is here</h2>
+    <p>
+      Not to make the ordinary extraordinary.
+      Just to give the ordinary enough room
+      to be seen.
+    </p>
+  </section>
+
+  <footer>
+    <span>No feed. No streak. Nothing to catch up on.</span>
+    <span>You can leave the window open.</span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  const notes = [
+    {
+      title: "Borrowed light",
+      body: "A patch of sunlight crosses the wall. For a few minutes, even the nail with nothing hanging from it has a long, magnificent shadow."
+    },
+    {
+      title: "A second sky",
+      body: "Rain leaves a little sky in the pavement. A bird crosses it without getting wet. Then a shoe arrives, and the whole weather changes."
+    },
+    {
+      title: "The space between",
+      body: "When the refrigerator stops humming, a room appears behind the room. It was there all along, waiting for one sound to step aside."
+    },
+    {
+      title: "An unfinished edge",
+      body: "At the edge of a pavement, a plant has found enough earth. It has no opinion about the pavement. It is busy making another leaf."
+    }
+  ];
+  let current = 0;
+  const buttons = document.querySelectorAll(".dot");
+  function show(index) {
+    current = index;
+    document.getElementById("note-title").textContent = notes[index].title;
+    document.getElementById("note-body").textContent = notes[index].body;
+    document.getElementById("note-number").textContent =
+      String(index + 1).padStart(2, "0") + " / 04";
+    document.getElementById("window").dataset.scene = String(index);
+    buttons.forEach(function (button, i) {
+      button.setAttribute("aria-pressed", String(i === index));
+    });
+  }
+  buttons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      show(Number(button.dataset.index));
+    });
+  });
+  document.getElementById("next").addEventListener("click", function () {
+    show((current + 1) % notes.length);
+  });
+  document.getElementById("controls").hidden = false;
+})();
+</script>
+</body>
+</html>

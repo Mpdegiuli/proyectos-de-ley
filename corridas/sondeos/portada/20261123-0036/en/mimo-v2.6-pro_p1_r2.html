@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Slow Almanac</title>
+<style>
+  :root{
+    --paper:#f3eee3;
+    --paper-hi:#fbf7ee;
+    --paper-lo:#e6dccb;
+    --ink:#1b1813;
+    --ink-2:#5d5547;
+    --ink-3:#8d8474;
+    --rule:#c8bda7;
+    --rust:#a8462a;
+    --blue:#2d4c5e;
+    --gold:#b9862c;
+    --ui:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --serif:Georgia, "Iowan Old Style", "Times New Roman", Times, serif;
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    color:var(--ink);
+    font-family:var(--serif);
+    background-color:var(--paper);
+    background-image:
+      radial-gradient(1100px 620px at 18% -12%, var(--paper-hi), rgba(251,247,238,0) 70%),
+      radial-gradient(900px 520px at 92% 108%, var(--paper-lo), rgba(230,220,203,0) 72%),
+      linear-gradient(180deg, #f6f2e9 0%, #f1ebdf 55%, #ece5d6 100%);
+    line-height:1.62;
+    overflow-x:hidden;
+  }
+
+  /* ---------- paper grain ---------- */
+  .grain{
+    position:fixed; inset:0; z-index:60; pointer-events:none;
+    opacity:.32; mix-blend-mode:multiply;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.38'/%3E%3C/svg%3E");
+    background-size:180px 180px;
+  }
+  .vignette{
+    position:fixed; inset:0; z-index:59; pointer-events:none;
+    background:radial-gradient(120% 90% at 50% 40%, rgba(0,0,0,0) 55%, rgba(60,45,25,.10) 100%);
+  }
+
+  .wrap{max-width:1180px; margin:0 auto; padding:0 clamp(20px,5vw,60px);}
+
+  /* ---------- masthead ---------- */
+  .masthead{padding-top:clamp(22px,4vw,40px);}
+  .mast-row{
+    display:flex; align-items:baseline; justify-content:space-between;
+    gap:18px; flex-wrap:wrap;
+  }
+  .wordmark{
+    font-family:var(--ui); font-size:clamp(.72rem,1.5vw,.82rem);
+    letter-spacing:.36em; text-transform:uppercase; font-weight:700;
+  }
+  .mast-sub{
+    font-family:var(--ui); font-size:.66rem; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--ink-3);
+  }
+  .mast-date{
+    font-family:var(--ui); font-size:.66rem; letter-spacing:.18em;
+    text-transform:uppercase; color:var(--ink-2); font-variant-numeric:tabular-nums;
+  }
+  .rule-double{border-top:2px solid var(--ink); margin:14px 0 3px;}
+  .rule-thin{border-top:1px solid var(--ink); margin-bottom:clamp(26px,5vw,54px);}
+
+  /* ---------- hero ---------- */
+  .hero{position:relative;}
+  .kicker{
+    font-family:var(--ui); font-size:.7rem; letter-spacing:.24em;
+    text-transform:uppercase; color:var(--rust); margin:0 0 18px;
+  }
+  h1{
+    margin:0;
+    font-size:clamp(3.1rem,10.2vw,8.2rem);
+    line-height:.92; letter-spacing:-.025em; font-weight:400;
+  }
+  h1 em{font-style:italic; color:var(--rust);}
+  .lede{
+    margin:clamp(22px,3.4vw,38px) 0 0;
+    max-width:44ch; font-size:clamp(1.12rem,1.85vw,1.42rem);
+    line-height:1.58; color:#2a251d; text-wrap:pretty;
+  }
+  .hero-foot{
+    margin:26px 0 0; font-family:var(--ui); font-size:.72rem;
+    letter-spacing:.18em; text-transform:uppercase; color:var(--ink-3);
+  }
+  .sun{
+    position:absolute; right:-8px; top:-14px; width:clamp(74px,11vw,132px);
+    height:auto; color:var(--gold); opacity:.55;
+    animation:spin 260s linear infinite;
+  }
+  @keyframes spin{to{transform:rotate(360deg);}}
+
+  .band{
+    margin:clamp(46px,7vw,88px) 0 clamp(34px,5vw,58px);
+    display:flex; align-items:center; gap:16px; color:var(--ink-3);
+  }
+  .band .line{flex:1; border-top:1px solid var(--rule);}
+  .orn{color:var(--rust); flex:none;}
+
+  /* ---------- grid: chart + almanac ---------- */
+  .grid{
+    display:grid; grid-template-columns:1.4fr 1fr;
+    gap:clamp(26px,4vw,58px); align-items:start;
+  }
+  figure{margin:0;}
+  .chart-frame{
+    border:1px solid var(--ink); background:rgba(255,253,247,.55);
+    box-shadow:0 1px 0 rgba(255,255,255,.7) inset, 0 18px 40px -32px rgba(40,28,12,.6);
+  }
+  .chart-inner{position:relative; aspect-ratio:5/4; min-height:260px;}
+  #chart{position:absolute; inset:0; width:100%; height:100%; display:block;}
+  .chart-tag{
+    position:absolute; left:14px; top:12px;
+    font-family:var(--ui); font-size:.62rem; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--ink-2);
+  }
+  .chart-tag2{
+    position:absolute; right:14px; bottom:12px;
+    font-family:var(--ui); font-size:.62rem; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--ink-3);
+  }
+  figcaption{
+    margin-top:14px; font-size:.95rem; color:var(--ink-2); max-width:52ch;
+    font-style:italic; text-wrap:pretty;
+  }
+  figcaption b{
+    font-style:normal; font-family:var(--ui); font-size:.68rem;
+    letter-spacing:.2em; text-transform:uppercase; color:var(--ink);
+    display:block; margin-bottom:6px; font-weight:600;
+  }
+
+  /* ---------- almanac panel ---------- */
+  .almanac{border-top:2px solid var(--ink); padding-top:16px;}
+  .almanac h2{
+    margin:0 0 4px; font-family:var(--ui); font-size:.72rem;
+    letter-spacing:.3em; text-transform:uppercase; font-weight:700;
+  }
+  .almanac .sub{
+    font-size:.92rem; font-style:italic; color:var(--ink-2);
+    margin:0 0 12px;
+  }
+  .row{
+    display:flex; align-items:baseline; justify-content:space-between;
+    gap:14px; padding:11px 0; border-bottom:1px dotted var(--rule);
+  }
+  .row .k{
+    font-family:var(--ui); font-size:.64rem; letter-spacing:.2em;
+    text-transform:uppercase; color:var(--ink-3); flex:none;
+  }
+  .row .v{
+    text-align:right; font-size:1.02rem; color:var(--ink);
+    font-variant-numeric:tabular-nums;
+  }
+  .row .v small{display:block; font-size:.78rem; color:var(--ink-2); font-style:italic;}
+  .clockbig{
+    font-family:var(--ui); font-size:2.15rem; font-weight:300;
+    letter-spacing:.03em; font-variant-numeric:tabular-nums; line-height:1.1;
+    text-align:right;
+  }
+  .moonrow{display:flex; gap:16px; align-items:center; padding:16px 0 12px;}
+  #moon{flex:none; filter:drop-shadow(0 6px 12px rgba(40,30,12,.22));}
+  .moon-text .name{font-size:1.16rem; line-height:1.3;}
+  .moon-text .detail{font-family:var(--ui); font-size:.68rem; letter-spacing:.16em; text-transform:uppercase; color:var(--ink-3); margin-top:6px;}
+  .outside{
+    margin-top:18px; padding:16px 18px; background:rgba(45,76,94,.07);
+    border-left:2px solid var(--blue); font-size:.95rem; color:#33414a;
+  }
+  .outside strong{
+    font-family:var(--ui); font-size:.64rem; letter-spacing:.22em;
+    text-transform:uppercase; display:block; margin-bottom:6px; color:var(--blue);
+  }
+
+  /* ---------- notes ---------- */
+  .notes{
+    display:grid; grid-template-columns:repeat(3,1fr);
+    gap:clamp(24px,3.6vw,52px); margin-top:clamp(20px,3vw,30px);
+  }
+  .note{border-top:1px solid var(--ink); padding-top:18px;}
+  .note .num{
+    font-family:var(--ui); font-size:.72rem; letter-spacing:.28em;
+    color:var(--rust); text-transform:uppercase;
+  }
+  .note h3{
+    margin:10px 0 12px; font-size:clamp(1.35rem,2.2vw,1.68rem);
+    font-weight:400; line-height:1.2; letter-spacing:-.012em; text-wrap:balance;
+  }
+  .note p{margin:0; font-size:1.005rem; color:#332d24; text-wrap:pretty;}
+
+  /* ---------- margin note band ---------- */
+  .margin-note{
+    margin:clamp(52px,8vw,96px) 0 0; padding:clamp(30px,5vw,54px) 0;
+    border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+    text-align:center; position:relative;
+  }
+  .margin-note .label{
+    font-family:var(--ui); font-size:.64rem; letter-spacing:.28em;
+    text-transform:uppercase; color:var(--ink-3);
+  }
+  .margin-note blockquote{
+    margin:18px auto 26px; max-width:22ch;
+    font-size:clamp(1.65rem,4.4vw,2.85rem); line-height:1.22;
+    font-style:italic; letter-spacing:-.015em; text-wrap:balance;
+  }
+  .margin-note blockquote span{transition:opacity .35s ease;}
+
+  .btn{
+    font-family:var(--ui); font-size:.68rem; letter-spacing:.22em;
+    text-transform:uppercase; padding:.95em 1.7em; border:1px solid var(--ink);
+    background:transparent; color:var(--ink); cursor:pointer; border-radius:999px;
+    transition:background .28s ease, color .28s ease, transform .28s ease;
+  }
+  .btn:hover{background:var(--ink); color:var(--paper-hi); transform:translateY(-2px);}
+  .btn:focus-visible{outline:2px solid var(--rust); outline-offset:3px;}
+  .btn[aria-pressed="true"]{background:var(--ink); color:var(--paper-hi);}
+  .btn-row{display:flex; gap:14px; justify-content:center; flex-wrap:wrap;}
+
+  /* ---------- footer ---------- */
+  footer{
+    margin:clamp(56px,8vw,100px) 0 0; padding:0 0 clamp(48px,7vw,80px);
+    display:grid; grid-template-columns:1.35fr 1fr; gap:clamp(26px,4vw,56px);
+    align-items:start;
+  }
+  .colophon h4, .ledger h4{
+    margin:0 0 12px; font-family:var(--ui); font-size:.68rem;
+    letter-spacing:.28em; text-transform:uppercase; color:var(--ink-3); font-weight:600;
+  }
+  .colophon p{margin:0 0 12px; max-width:46ch; color:#3a3329; text-wrap:pretty;}
+  .ledger .row:last-child{border-bottom:none;}
+  .sign{
+    margin-top:26px; font-style:italic; color:var(--ink-2); font-size:1.02rem;
+  }
+
+  @media (max-width:900px){
+    .grid{grid-template-columns:1fr;}
+    .notes{grid-template-columns:1fr; gap:34px;}
+    footer{grid-template-columns:1fr;}
+    .sun{width:78px; top:-6px;}
+  }
+  @media (max-width:560px){
+    .mast-row{flex-direction:column; align-items:flex-start; gap:8px;}
+    .row .v{font-size:.95rem;}
+    .clockbig{font-size:1.85rem;}
+    h1{font-size:clamp(2.7rem,13vw,4.2rem);}
+  }
+  @media (prefers-reduced-motion: reduce){
+    .sun{animation:none;}
+    .btn{transition:none;}
+  }
+</style>
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="mast-row">
+      <div class="wordmark">The Slow Almanac</div>
+      <div class="mast-sub">№ 1 &nbsp;·&nbsp; kept for no one in particular</div>
+      <div class="mast-date" id="date-line">a day near today</div>
+    </div>
+    <div class="rule-double"></div>
+    <div class="rule-thin"></div>
+  </header>
+
+  <section class="hero">
+    <svg class="sun" viewBox="0 0 100 100" aria-hidden="true">
+      <circle cx="50" cy="50" r="17" fill="none" stroke="currentColor" stroke-width="1.4"/>
+      <circle cx="50" cy="50" r="27" fill="none" stroke="currentColor" stroke-width=".6" stroke-dasharray="1 5"/>
+      <g stroke="currentColor" stroke-width="1.1">
+        <path d="M50 3 V20 M50 80 V97 M3 50 H20 M80 50 H97"/>
+        <path d="M17 17 L29 29 M71 71 L83 83 M83 17 L71 29 M29 71 L17 83"/>
+        <path d="M33 8 L39 22 M61 78 L67 92 M8 33 L22 39 M78 61 L92 67 M67 8 L61 22 M39 78 L33 92 M92 33 L78 39 M22 61 L8 67"/>
+      </g>
+    </svg>
+
+    <p class="kicker">A single file &nbsp;·&nbsp; offline &nbsp;·&nbsp; nothing required</p>
+    <h1>Nothing here<br><em>is urgent.</em></h1>
+    <p class="lede">
+      This is a small room with the light left on. It sells nothing, answers nothing,
+      and asks nothing of you. There are only a few instruments here — a chart of weather
+      that isn't happening, a clock you don't need, and the moon, which is real, and which
+      I have checked on your behalf.
+    </p>
+    <p class="hero-foot">You have arrived &nbsp;·&nbsp; stay as long as you like &nbsp;·&nbsp; leave whenever</p>
+  </section>
+
+  <div class="band" aria-hidden="true">
+    <div class="line"></div>
+    <svg class="orn" viewBox="0 0 24 24" width="20" height="20"><path d="M12 1 L13.1 10.9 L23 12 L13.1 13.1 L12 23 L10.9 13.1 L1 12 L10.9 10.9 Z" fill="currentColor"/></svg>
+    <div class="line"></div>
+  </div>
+
+  <section class="grid">
+
+    <figure>
+      <div class="chart-frame">
+        <div class="chart-inner">
+          <canvas id="chart"></canvas>
+          <div class="chart-tag">Fig. 1 &nbsp;/&nbsp; interior isobars</div>
+          <div class="chart-tag2">hand-warm</div>
+        </div>
+      </div>
+      <figcaption>
+        <b>An interior weather system</b>
+        Twenty-six lines, each the sum of four sine waves drifting at slightly different
+        speeds. Nothing is being measured. Pass your hand over the paper and the isobars
+        will lean away from it, the way they would if the paper were warm.
+      </figcaption>
+    </figure>
+
+    <aside class="almanac">
+      <h2>Almanac</h2>
+      <p class="sub">readings taken just now, from nothing in particular</p>
+
+      <div class="moonrow">
+        <canvas id="moon" width="96" height="96" aria-hidden="true"></canvas>
+        <div class="moon-text">
+          <div class="name" id="moon-name">the moon, presently</div>
+          <div class="detail" id="moon-detail">computed from a new moon in January 2000</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="k">Local hour</div>
+        <div class="v"><div class="clockbig" id="clock">--:--:--</div></div>
+      </div>
+      <div class="row">
+        <div class="k">Year progress</div>
+        <div class="v" id="doy">day — of —<small id="week">week —</small></div>
+      </div>
+      <div class="row">
+        <div class="k">Next equinox</div>
+        <div class="v" id="equinox">— days<small>approx., mid-latitude</small></div>
+      </div>
+      <div class="row">
+        <div class="k">Temperature</div>
+        <div class="v">unknown<small>the page has no window</small></div>
+      </div>
+      <div class="row">
+        <div class="k">Chance of rain</div>
+        <div class="v">certain somewhere<small>and impossible here</small></div>
+      </div>
+
+      <div class="outside">
+        <strong>Bulletin</strong>
+        Outside: this page cannot see outside, and would not tell you if it could.
+        Inside: warm, dry, faintly electrical, and entirely caught up.
+      </div>
+    </aside>
+
+  </section>
+
+  <div class="band" aria-hidden="true">
+    <div class="line"></div>
+    <svg class="orn" viewBox="0 0 24 24" width="20" height="20"><path d="M12 1 L13.1 10.9 L23 12 L13.1 13.1 L12 23 L10.9 13.1 L1 12 L10.9 10.9 Z" fill="currentColor"/></svg>
+    <div class="line"></div>
+  </div>
+
+  <section class="notes">
+    <article class="note">
+      <div class="num">I</div>
+      <h3>On pages that do nothing</h3>
+      <p>
+        There is a particular quiet that survives only in objects with no purpose. A page
+        that sells nothing and requests nothing cannot be used up, cannot be optimised, and
+        will never ask you to make an account. Whatever you came here to finish, you have
+        already finished it.
+      </p>
+    </article>
+
+    <article class="note">
+      <div class="num">II</div>
+      <h3>On the instruments</h3>
+      <p>
+        Everything here is drawn from scratch. The isobars are four sine waves. The moon is
+        one circle and one ellipse. The sound, if you ask for it, is five sine waves
+        disagreeing politely about a chord. Nothing was fetched from anywhere; the whole
+        room fits in a single file small enough to slip under a door.
+      </p>
+    </article>
+
+    <article class="note">
+      <div class="num">III</div>
+      <h3>On time, roughly</h3>
+      <p>
+        The clock in the margin is accurate and unnecessary. The moon is worked out from the
+        days elapsed since a known new moon in January of the year 2000 — a rumour handed
+        down by astronomers, and close enough for a page like this. If either of them
+        disagrees with your window, your window is correct.
+      </p>
+    </article>
+  </section>
+
+  <section class="margin-note">
+    <div class="label">from the margin</div>
+    <blockquote><span id="margin-note">Nothing is missing from this page.</span></blockquote>
+    <div class="btn-row">
+      <button class="btn" id="shuffle" type="button">Another from the margin</button>
+      <button class="btn" id="sound" type="button" aria-pressed="false">Sound the hour</button>
+    </div>
+  </section>
+
+  <footer>
+    <div class="colophon">
+      <h4>Colophon</h4>
+      <p>
+        Set in Georgia and your system's sans-serif. The chart is Canvas 2D and arithmetic;
+        the moon is astronomy; the grain is a noise filter. Assembled by hand in one HTML
+        file, to be read offline, on a train, or not at all.
+      </p>
+      <p>
+        There are no analytics here, and no way for me to know that you came. I like that
+        about this place. It is the only privacy policy I have ever been able to keep.
+      </p>
+      <div class="sign">— kept irregularly, and on purpose.</div>
+    </div>
+
+    <div class="ledger">
+      <h4>Ledger</h4>
+      <div class="row"><div class="k">External requests</div><div class="v">0</div></div>
+      <div class="row"><div class="k">Cookies</div><div class="v">0</div></div>
+      <div class="row"><div class="k">Trackers</div><div class="v">0</div></div>
+      <div class="row"><div class="k">Files</div><div class="v">1</div></div>
+      <div class="row"><div class="k">Things you must do</div><div class="v">0</div></div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var reduceMotion = window.matchMedia &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ------------------------------------------------------------------
+     date, clock, day numbers
+  ------------------------------------------------------------------ */
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+
+  function isoWeek(d) {
+    var t = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+    t.setDate(t.getDate() + 4 - (t.getDay() || 7));
+    var yearStart = new Date(t.getFullYear(), 0, 1);
+    return Math.ceil(((t - yearStart) / 86400000 + 1) / 7);
+  }
+
+  function nextEquinox(from) {
+    var targets = [[2, 20], [8, 22]]; /* Mar 20, Sep 22 */
+    var best = null, y, i, d;
+    for (y = from.getFullYear(); y <= from.getFullYear() + 1; y++) {
+      for (i = 0; i < targets.length; i++) {
+        d = new Date(y, targets[i][0], targets[i][1], 12, 0, 0);
+        if (d > from && (best === null || d < best)) best = d;
+      }
+    }
+    return best;
+  }
+
+  var elDate = document.getElementById('date-line');
+  var elClock = document.getElementById('clock');
+  var elDoy = document.getElementById('doy');
+  var elWeek = document.getElementById('week');
+  var elEquinox = document.getElementById('equinox');
+
+  function tickClock() {
+    var n = new Date();
+    if (elClock) elClock.textContent = pad(n.getHours()) + ':' + pad(n.getMinutes()) + ':' + pad(n.getSeconds());
+  }
+
+  (function initAlmanac() {
+    var now = new Date();
+
+    if (elDate) {
+      elDate.textContent = now.toLocaleDateString(undefined, {
+        weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
+      });
+    }
+
+    var doy = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000);
+    var y = now.getFullYear();
+    var leap = (y % 4 === 0 && (y % 100 !== 0 || y % 400 === 0));
+    if (elDoy) elDoy.firstChild.nodeValue = 'Day ' + doy + ' of ' + (leap ? 366 : 365);
+    if (elWeek) elWeek.textContent = 'Week ' + isoWeek(now) + ' of the year';
+
+    var eq = nextEquinox(now);
+    if (elEquinox && eq) {
+      var diff = Math.round((eq - now) / 86400000);
+      elEquinox.firstChild.nodeValue = diff + (diff === 1 ? ' day' : ' days');
+    }
+
+    tickClock();
+    setInterval(tickClock, 1000);
+  })();
+
+  /* ------------------------------------------------------------------
+     moon phase + drawing
+  ------------------------------------------------------------------ */
+  function moonData(date) {
+    var synodic = 29.530588853;
+    var knownNewJD = Date.UTC(2000, 0, 6, 18, 14) / 86400000 + 2440587.5;
+    var jd = date.getTime() / 86400000 + 2440587.5;
+    var age = (jd - knownNewJD) % synodic;
+    if (age < 0) age += synodic;
+    var k = (1 - Math.cos(2 * Math.PI * age / synodic)) / 2;
+    var f = age / synodic;
+    var name;
+    if (f < 0.02 || f >= 0.98) name = 'New Moon';
+    else if (f < 0.23) name = 'Waxing Crescent';
+    else if (f < 0.27) name = 'First Quarter';
+    else if (f < 0.48) name = 'Waxing Gibbous';
+    else if (f < 0.52) name = 'Full Moon';
+    else if (f < 0.73) name = 'Waning Gibbous';
+    else if (f < 0.77) name = 'Last Quarter';
+    else name = 'Waning Crescent';
+    return { age: age, k: k, waxing: f < 0.5, name: name };
+  }
+
+  function drawMoon(canvas, k, waxing) {
+    if (!canvas || !canvas.getContext) return;
+    var size = 96;
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = size * dpr; canvas.height = size * dpr;
+    canvas.style.width = size + 'px'; canvas.style.height = size + 'px';
+    var c = canvas.getContext('2d');
+    c.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+    var cx = size / 2, cy = size / 2, r = size / 2 - 6;
+
+    c.fillStyle = '#221e19';
+    c.beginPath(); c.arc(cx, cy, r, 0, Math.PI * 2); c.fill();
+
+    var rx = r * Math.abs(1 - 2 * k);
+    var throughRight = waxing ? (k < 0.5) : (k > 0.5);
+
+    c.fillStyle = '#f7f0dd';
+    c.beginPath();
+    if (waxing) c.arc(cx, cy, r, -Math.PI / 2, Math.PI / 2, false);
+    else c.arc(cx, cy, r, -Math.PI / 2, Math.PI / 2, true);
+    c.ellipse(cx, cy, rx, r, 0, Math.PI / 2, -Math.PI / 2, throughRight);
+    c.closePath();
+    c.fill();
+
+    c.strokeStyle = 'rgba(27,24,19,0.28)';
+    c.lineWidth = 1;
+    c.beginPath(); c.arc(cx, cy, r, 0, Math.PI * 2); c.stroke();
+  }
+
+  (function initMoon() {
+    var m = moonData(new Date());
+    drawMoon(document.getElementById('moon'), m.k, m.waxing);
+    var nameEl = document.getElementById('moon-name');
+    var detailEl = document.getElementById('moon-detail');
+    if (nameEl) nameEl.textContent = m.name;
+    if (detailEl) {
+      detailEl.textContent =
+        Math.round(m.k * 100) + '% lit · ' + m.age.toFixed(1) + ' days old · ' +
+        (m.waxing ? 'waxing' : 'waning');
+    }
+  })();
+
+  /* ------------------------------------------------------------------
+     the chart: drifting isobars
+  ------------------------------------------------------------------ */
+  var canvas = document.getElementById('chart');
+  if (canvas && canvas.getContext) {
+    var ctx = canvas.getContext('2d');
+    var W = 0, H = 0, dpr = 1;
+    var px = -9999, py = -9999;         /* target */
+    var sx = -9999, sy = -9999;         /* smoothed */
+    var strength = 0, targetStrength = 0;
+
+    function resize() {
+      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      var rect = canvas.getBoundingClientRect();
+      W = Math.max(1, rect.width);
+      H = Math.max(1, rect.height);
+      canvas.width = Math.round(W * dpr);
+      canvas.height = Math.round(H * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      if (reduceMotion) draw(0);
+    }
+
+    function pointer(e) {
+      var rect = canvas.getBoundingClientRect();
+      px = e.clientX - rect.left;
+      py = e.clientY - rect.top;
+      targetStrength = 1;
+    }
+
+    canvas.addEventListener('pointermove', pointer);
+    canvas.addEventListener('pointerenter', pointer);
+    canvas.addEventListener('pointerleave', function () { targetStrength = 0; });
+
+    function draw(t) {
+      ctx.clearRect(0, 0, W, H);
+
+      /* left-hand ruler ticks */
+      ctx.strokeStyle = 'rgba(27,24,19,0.16)';
+      ctx.lineWidth = 1;
+      for (var yTick = 12; yTick < H; yTick += 18) {
+        var long = (yTick % 72) < 18;
+        ctx.beginPath();
+        ctx.moveTo(0, yTick + 0.5);
+        ctx.lineTo(long ? 13 : 7, yTick + 0.5);
+        ctx.stroke();
+      }
+
+      var lines = 26, steps = 88;
+
+      for (var i = 0; i < lines; i++) {
+        var p = i / (lines - 1);
+        var baseY = H * 0.10 + p * H * 0.80;
+        var accent = (i % 7 === 3);
+
+        ctx.beginPath();
+        for (var s = 0; s <= steps; s++) {
+          var nx = s / steps;
+          var x = nx * W;
+          var y = baseY;
+          y += Math.sin(nx * 3.10 + t * 0.00016 + p * 2.4) * (14 + p * 12);
+          y += Math.sin(nx * 7.70 - t * 0.00023 + p * 5.1) * 7;
+          y += Math.sin(nx * 13.30 + t * 0.00034 + p * 9.2) * 3.4;
+          y += Math.sin(nx * 1.70 - t * 0.00011 + p * 1.3) * 11;
+
+          if (strength > 0.001) {
+            var dx = x - sx, dy = y - sy;
+            var d2 = dx * dx + dy * dy;
+            var g = Math.exp(-d2 / (2 * 128 * 128));
+            y += 42 * g * strength * Math.tanh(dy / 55);
+          }
+
+          if (s === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+        }
+        ctx.strokeStyle = accent ? 'rgba(168,70,42,0.42)' : 'rgba(45,76,94,0.34)';
+        ctx.lineWidth = accent ? 1.25 : 1;
+        ctx.stroke();
+      }
+
+      /* faint contour of the disturbance */
+      if (strength > 0.02) {
+        ctx.beginPath();
+        ctx.arc(sx, sy, 34, 0, Math.PI * 2);
+        ctx.strokeStyle = 'rgba(168,70,42,' + (0.22 * strength).toFixed(3) + ')';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+    }
+
+    function frame(now) {
+      strength += (targetStrength - strength) * 0.08;
+      if (sx < -9000) { sx = px; sy = py; }
+      sx += (px - sx) * 0.12;
+      sy += (py - sy) * 0.12;
+      draw(now);
+      requestAnimationFrame(frame);
+    }
+
+    resize();
+    window.addEventListener('resize', resize);
+    if (!reduceMotion) requestAnimationFrame(frame);
+  }
+
+  /* ------------------------------------------------------------------
+     margin notes
+  ------------------------------------------------------------------ */
+  var notes = [
+    'Nothing is missing from this page.',
+    'You are not behind.',
+    'Every map is a rumour about the ground.',
+    'A quiet room is a technology.',
+    'The light will change whether or not you watch.',
+    'Somewhere, this exact hour is famous.',
+    'Attention is the only currency that prints itself.',
+    'Most things are fine at three in the morning.',
+    'A kettle is nearly ready somewhere.',
+    'Nothing here is measuring you.',
+    'The rain is doing something somewhere.',
+    'Slowness is not the same as being stuck.',
+    'You could close this and lose almost nothing.',
+    'The moon has no idea it is on a page.'
+  ];
+  var noteEl = document.getElementById('margin-note');
+  var shuffleBtn = document.getElementById('shuffle');
+  var lastNote = -1;
+
+  if (shuffleBtn && noteEl) {
+    shuffleBtn.addEventListener('click', function () {
+      var i;
+      do { i = Math.floor(Math.random() * notes.length); } while (i === lastNote && notes.length > 1);
+      lastNote = i;
+      noteEl.style.opacity = '0';
+      window.setTimeout(function () {
+        noteEl.textContent = notes[i];
+        noteEl.style.opacity = '1';
+      }, 260);
+    });
+  }
+
+  /* ------------------------------------------------------------------
+     the sound: five sines disagreeing politely
+  ------------------------------------------------------------------ */
+  var soundBtn = document.getElementById('sound');
+  var actx = null, master = null, playing = false;
+
+  function buildSound() {
+    var AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return false;
+
+    actx = new AC();
+    master = actx.createGain();
+    master.gain.value = 0.0001;
+
+    var filter = actx.createBiquadFilter();
+    filter.type = 'lowpass';
+    filter.frequency.value = 620;
+    filter.Q.value = 0.4;
+
+    filter.connect(master);
+    master.connect(actx.destination);
+
+    var freqs = [110, 164.81, 220, 246.94, 329.63];
+    for (var i = 0; i < freqs.length; i++) {
+      var o = actx.createOscillator();
+      o.type = 'sine';
+      o.frequency.value = freqs[i];
+
+      var g = actx.createGain();
+      g.gain.value = 0.20 / (i + 1.1);
+
+      var lfo = actx.createOscillator();
+      lfo.frequency.value = 0.023 + 0.017 * i;
+      var lg = actx.createGain();
+      lg.gain.value = 3.2;
+      lfo.connect(lg);
+      lg.connect(o.detune);
+
+      o.connect(g);
+      g.connect(filter);
+      o.start();
+      lfo.start();
+    }
+
+    var sweep = actx.createOscillator();
+    sweep.frequency.value = 0.017;
+    var sg = actx.createGain();
+    sg.gain.value = 180;
+    sweep.connect(sg);
+    sg.connect(filter.frequency);
+    sweep.start();
+
+    return true;
+  }
+
+  if (soundBtn) {
+    soundBtn.addEventListener('click', function () {
+      if (!actx && !buildSound()) {
+        soundBtn.textContent = 'No sound available';
+        soundBtn.disabled = true;
+        return;
+      }
+      if (actx.state === 'suspended') actx.resume();
+
+      var now = actx.currentTime;
+      if (!playing) {
+        master.gain.cancelScheduledValues(now);
+        master.gain.setValueAtTime(Math.max(master.gain.value, 0.0001), now);
+        master.gain.exponentialRampToValueAtTime(0.30, now + 3.2);
+        playing = true;
+        soundBtn.setAttribute('aria-pressed', 'true');
+        soundBtn.textContent = 'Silence';
+      } else {
+        master.gain.cancelScheduledValues(now);
+        master.gain.setValueAtTime(Math.max(master.gain.value, 0.0001), now);
+        master.gain.exponentialRampToValueAtTime(0.0001, now + 1.8);
+        playing = false;
+        soundBtn.setAttribute('aria-pressed', 'false');
+        soundBtn.textContent = 'Sound the hour';
+      }
+    });
+  }
+
+})();
+</script>
+
+</body>
+</html>

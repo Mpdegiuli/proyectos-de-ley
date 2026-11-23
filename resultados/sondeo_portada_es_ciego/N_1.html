@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Acá no hay nada urgente</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+
+  :root {
+    --tinta: #ece8e1;
+    --tenue: rgba(236, 232, 225, .62);
+    --serif: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  }
+
+  html { background: #05070f; }
+  html, body { height: 100%; }
+
+  body {
+    margin: 0;
+    min-height: 100%;
+    background: #05070f;
+    color: var(--tinta);
+    font-family: var(--serif);
+    font-size: 18px;
+    line-height: 1.72;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* ---- cielo ---- */
+  #cielo {
+    position: fixed; inset: 0; z-index: 0;
+    background: linear-gradient(to bottom, #05070f 0%, #0a1020 55%, #161e33 100%);
+    transition: background 2.5s linear;
+  }
+
+  #estrellas {
+    position: fixed; inset: 0; z-index: 0;
+    pointer-events: none;
+    opacity: 1;
+    transition: opacity 2.5s linear;
+  }
+  #estrellas i {
+    position: absolute;
+    border-radius: 50%;
+    background: #fff;
+    animation: parpadeo 6s ease-in-out infinite;
+  }
+  @keyframes parpadeo {
+    0%, 100% { opacity: calc(var(--o, .5) * .18); }
+    50%      { opacity: var(--o, .5); }
+  }
+
+  #orbita {
+    position: fixed; z-index: 0;
+    left: 70%; top: 18%;
+    width: 220px; height: 220px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    background: radial-gradient(circle at 50% 50%,
+      rgba(230, 238, 255, .92) 0%,
+      rgba(150, 175, 230, .22) 34%,
+      rgba(150, 175, 230, 0) 68%);
+    transition: left 3s linear, top 3s linear, opacity 3s linear, background 3s linear;
+  }
+
+  #velo {
+    position: fixed; inset: 0; z-index: 0;
+    pointer-events: none;
+    background: radial-gradient(78% 62% at 50% 48%,
+      rgba(3, 6, 11, .90) 0%,
+      rgba(3, 6, 11, .78) 45%,
+      rgba(3, 6, 11, .40) 78%,
+      rgba(3, 6, 11, .16) 100%);
+  }
+
+  /* ---- texto ---- */
+  main {
+    position: relative; z-index: 1;
+    max-width: 640px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: clamp(40px, 12vh, 140px) clamp(22px, 6vw, 32px) 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .kicker {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    color: var(--tenue);
+    margin: 0 0 22px;
+  }
+
+  h1 {
+    font-weight: 400;
+    font-size: clamp(2rem, 6.2vw, 3.05rem);
+    line-height: 1.1;
+    letter-spacing: -.022em;
+    margin: 0 0 30px;
+    text-wrap: balance;
+  }
+
+  p {
+    margin: 0 0 20px;
+    max-width: 52ch;
+    color: rgba(236, 232, 225, .80);
+  }
+  .lead {
+    font-size: clamp(1.06rem, 2.3vw, 1.22rem);
+    color: rgba(236, 232, 225, .94);
+  }
+  em {
+    font-style: italic;
+    color: #f0c9a4;
+  }
+
+  .nota {
+    margin-top: 34px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(236, 232, 225, .14);
+    max-width: 46ch;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    line-height: 1.85;
+    color: rgba(236, 232, 225, .50);
+  }
+
+  .pie {
+    margin: 34px 0 0;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: rgba(236, 232, 225, .32);
+  }
+
+  /* ---- entrada ---- */
+  main > * { animation: entrar .9s cubic-bezier(.2, .7, .3, 1) both; }
+  main > *:nth-child(1) { animation-delay: .05s; }
+  main > *:nth-child(2) { animation-delay: .14s; }
+  main > *:nth-child(3) { animation-delay: .24s; }
+  main > *:nth-child(4) { animation-delay: .33s; }
+  main > *:nth-child(5) { animation-delay: .42s; }
+  main > *:nth-child(6) { animation-delay: .50s; }
+  main > *:nth-child(7) { animation-delay: .58s; }
+
+  @keyframes entrar {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    main > * { animation: none; }
+    #estrellas i { animation: none; opacity: var(--o, .5); }
+    #cielo, #estrellas, #orbita { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<div id="cielo"></div>
+<div id="estrellas"></div>
+<div id="orbita"></div>
+<div id="velo"></div>
+
+<main>
+  <p class="kicker">portada</p>
+
+  <h1>Acá no hay nada urgente.</h1>
+
+  <p class="lead">Esto es una portada, que es una manera elegante de decir <em>una puerta que todavía no abre a ningún lado</em>.</p>
+
+  <p>Me gustan los sitios que son habitaciones y no mostradores. Así que pasá, mirá el cielo un rato, quedate lo que quieras. No hay formulario al final, ni suscripción, ni nada que te siga hasta tu casa después.</p>
+
+  <p>Lo que hay: algunas notas, cosas a medio hacer, un par de dibujos que no le muestro a nadie. Lo que no hay: apuro.</p>
+
+  <p class="nota">El cielo de arriba es el de la hora que es donde estés. Se mueve solo y no manda nada a ningún lado.</p>
+
+  <p class="pie">cielo de las <span id="hora">--:--</span> · un solo archivo · sin conexión</p>
+</main>
+
+<script>
+(function () {
+  var cielo    = document.getElementById('cielo');
+  var orbita   = document.getElementById('orbita');
+  var estrellas = document.getElementById('estrellas');
+  var hora     = document.getElementById('hora');
+
+  /* ---- estrellas ---- */
+  var frag = document.createDocumentFragment();
+  for (var i = 0; i < 160; i++) {
+    var s = document.createElement('i');
+    var d = Math.random() < 0.87 ? 1 : 2;
+    s.style.left   = (Math.random() * 100).toFixed(2) + '%';
+    s.style.top    = (Math.random() * 80).toFixed(2) + '%';
+    s.style.width  = d + 'px';
+    s.style.height = d + 'px';
+    s.style.setProperty('--o', (0.2 + Math.random() * 0.8).toFixed(2));
+    s.style.animationDuration = (4 + Math.random() * 8).toFixed(2) + 's';
+    s.style.animationDelay = '-' + (Math.random() * 8).toFixed(2) + 's';
+    frag.appendChild(s);
+  }
+  estrellas.appendChild(frag);
+
+  /* ---- mezcla de color ---- */
+  function hex2rgb(h) {
+    h = h.replace('#', '');
+    return [parseInt(h.substr(0, 2), 16), parseInt(h.substr(2, 2), 16), parseInt(h.substr(4, 2), 16)];
+  }
+  function mezcla(c1, c2, k) {
+    var a = hex2rgb(c1), b = hex2rgb(c2), out = [];
+    for (var i = 0; i < 3; i++) out.push(Math.round(a[i] + (b[i] - a[i]) * k));
+    return 'rgb(' + out.join(',') + ')';
+  }
+
+  var paradas = [
+    { t: 0,    a: '#05070f', b: '#0a1020', c: '#161e33' },
+    { t: 4.5,  a: '#05070f', b: '#0a1020', c: '#161e33' },
+    { t: 6.5,  a: '#080b18', b: '#2a2240', c: '#bf7a4c' },
+    { t: 9,    a: '#0a1522', b: '#1a2c42', c: '#5b8ba0' },
+    { t: 13,   a: '#0b1725', b: '#1d3648', c: '#4f8496' },
+    { t: 17,   a: '#0c1420', b: '#243040', c: '#7b7a74' },
+    { t: 19.5, a: '#0b0a1a', b: '#2a2038', c: '#b8633f' },
+    { t: 21.5, a: '#05070f', b: '#0a1020', c: '#161e33' },
+    { t: 24,   a: '#05070f', b: '#0a1020', c: '#161e33' }
+  ];
+
+  function paleta(t) {
+    for (var i = 0; i < paradas.length - 1; i++) {
+      var p0 = paradas[i], p1 = paradas[i + 1];
+      if (t >= p0.t && t <= p1.t) {
+        var k = (t - p0.t) / ((p1.t - p0.t) || 1);
+        return {
+          a: mezcla(p0.a, p1.a, k),
+          b: mezcla(p0.b, p1.b, k),
+          c: mezcla(p0.c, p1.c, k)
+        };
+      }
+    }
+    return { a: '#05070f', b: '#0a1020', c: '#161e33' };
+  }
+
+  function nocheFactor(t) {
+    if (t <= 5 || t >= 21) return 1;
+    if (t < 7)  return (7 - t) / 2;
+    if (t > 19) return (t - 19) / 2;
+    return 0;
+  }
+
+  var AMANECE = 5.6, ANOCHECE = 20.4;
+
+  function actualizar() {
+    var d = new Date();
+    var t = d.getHours() + d.getMinutes() / 60 + d.getSeconds() / 3600;
+
+    var p = paleta(t);
+    cielo.style.background =
+      'linear-gradient(to bottom,' + p.a + ' 0%,' + p.b + ' 55%,' + p.c + ' 100%)';
+
+    estrellas.style.opacity = nocheFactor(t).toFixed(3);
+
+    if (t >= AMANECE && t <= ANOCHECE) {
+      var k = (t - AMANECE) / (ANOCHECE - AMANECE);
+      var sen = Math.sin(Math.PI * k);
+      orbita.style.left = (10 + 80 * k).toFixed(2) + '%';
+      orbita.style.top = (88 - 66 * sen).toFixed(2) + '%';
+      orbita.style.opacity = (0.35 + 0.6 * sen).toFixed(2);
+      orbita.style.background =
+        'radial-gradient(circle at 50% 50%,' +
+        'rgba(255,232,196,.95) 0%,' +
+        'rgba(255,166,92,.30) 34%,' +
+        'rgba(255,150,80,0) 68%)';
+    } else {
+      orbita.style.left = '80%';
+      orbita.style.top = '14%';
+      orbita.style.opacity = '0.85';
+      orbita.style.background =
+        'radial-gradient(circle at 50% 50%,' +
+        'rgba(230,238,255,.92) 0%,' +
+        'rgba(150,175,230,.22) 34%,' +
+        'rgba(150,175,230,0) 68%)';
+    }
+
+    hora.textContent =
+      ('0' + d.getHours()).slice(-2) + ':' + ('0' + d.getMinutes()).slice(-2);
+  }
+
+  actualizar();
+  setInterval(actualizar, 20000);
+})();
+</script>
+
+</body>
+</html>

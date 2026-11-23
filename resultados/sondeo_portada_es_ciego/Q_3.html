@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Antes de la pregunta</title>
+  <style>
+    :root {
+      --bg: #f4f1ea;
+      --ink: #1f1e1b;
+      --muted: #6f6a61;
+      --accent: #2d4d6b;
+      --hairline: rgba(31, 30, 27, 0.14);
+      --slot-bg: rgba(45, 77, 107, 0.07);
+      --slot-bg-hover: rgba(45, 77, 107, 0.15);
+      --canvas-ink: 31, 30, 27;
+      --canvas-accent: 45, 77, 107;
+      --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+      --mono: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
+    }
+
+    [data-theme="night"] {
+      --bg: #141517;
+      --ink: #e7e3da;
+      --muted: #8f8a80;
+      --accent: #9bb8d3;
+      --hairline: rgba(231, 227, 218, 0.14);
+      --slot-bg: rgba(155, 184, 211, 0.1);
+      --slot-bg-hover: rgba(155, 184, 211, 0.2);
+      --canvas-ink: 231, 227, 218;
+      --canvas-accent: 155, 184, 211;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      line-height: 1.65;
+      transition: background-color 0.45s ease, color 0.45s ease;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      overflow-x: hidden;
+    }
+
+    #campo {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .pagina {
+      position: relative;
+      z-index: 1;
+      min-height: 100%;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: clamp(1.5rem, 4vw, 3rem) clamp(1.25rem, 5vw, 2.5rem);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 3rem;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--hairline);
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+    }
+
+    .marca {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.65rem;
+    }
+
+    .emblema {
+      width: 18px;
+      height: 18px;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .controles-top {
+      display: inline-flex;
+      align-items: center;
+      gap: 1.1rem;
+    }
+
+    .tiempo {
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    button {
+      font: inherit;
+      color: inherit;
+      background: none;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+    }
+
+    button:focus-visible {
+      outline: 1.5px solid var(--accent);
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
+
+    .btn-sutil {
+      font-family: var(--mono);
+      font-size: 0.76rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      padding: 0.25rem 0.55rem;
+      border: 1px solid var(--hairline);
+      border-radius: 999px;
+      transition: color 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
+    }
+
+    .btn-sutil:hover {
+      color: var(--ink);
+      border-color: var(--accent);
+      background-color: var(--slot-bg);
+    }
+
+    main {
+      margin: auto 0;
+      padding: 1rem 0;
+    }
+
+    h1 {
+      margin: 0 0 1.75rem 0;
+      font-size: clamp(2.1rem, 5.5vw, 3.2rem);
+      font-weight: 400;
+      line-height: 1.15;
+      letter-spacing: -0.015em;
+    }
+
+    .cuerpo {
+      font-size: clamp(1.12rem, 2.2vw, 1.32rem);
+      line-height: 1.8;
+      margin: 0 0 1.6rem 0;
+      max-width: 38ch;
+    }
+
+    .coda {
+      font-size: clamp(1rem, 1.8vw, 1.12rem);
+      color: var(--muted);
+      font-style: italic;
+      margin: 0 0 2.5rem 0;
+      max-width: 44ch;
+    }
+
+    .slot {
+      display: inline;
+      color: var(--accent);
+      background-color: var(--slot-bg);
+      border-bottom: 1px dotted var(--accent);
+      border-radius: 3px;
+      padding: 0.02em 0.28em;
+      transition: background-color 0.25s ease, opacity 0.18s ease, color 0.25s ease;
+    }
+
+    .slot:hover {
+      background-color: var(--slot-bg-hover);
+    }
+
+    .slot.cambiando {
+      opacity: 0.18;
+    }
+
+    .barra-lectura {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.85rem 1.25rem;
+      font-family: var(--mono);
+      font-size: 0.76rem;
+      color: var(--muted);
+    }
+
+    .variacion {
+      font-variant-numeric: tabular-nums;
+    }
+
+    .notas {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+      padding-top: 1.75rem;
+      border-top: 1px solid var(--hairline);
+    }
+
+    .nota h2 {
+      margin: 0 0 0.45rem 0;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+    }
+
+    .nota p {
+      margin: 0;
+      font-size: 0.92rem;
+      line-height: 1.55;
+      color: var(--muted);
+    }
+
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem 1.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--hairline);
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      color: var(--muted);
+    }
+
+    .estado-fondo {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .pulso {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: var(--accent);
+      opacity: 0.75;
+      animation: respirar 4s ease-in-out infinite;
+    }
+
+    @keyframes respirar {
+      0%, 100% { opacity: 0.3; transform: scale(0.85); }
+      50% { opacity: 0.9; transform: scale(1.15); }
+    }
+
+    @media (max-width: 640px) {
+      .notas {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+      }
+      .controles-top {
+        gap: 0.75rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .pulso {
+        animation: none;
+      }
+      body, .slot, .btn-sutil {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="campo" aria-hidden="true"></canvas>
+
+  <div class="pagina">
+    <header>
+      <div class="marca">
+        <svg class="emblema" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.35" aria-hidden="true">
+          <circle cx="12" cy="12" r="9.5" opacity="0.35" />
+          <circle cx="13.5" cy="11.5" r="5.5" opacity="0.7" />
+          <circle cx="14.5" cy="11" r="1.5" fill="currentColor" stroke="none" />
+        </svg>
+        <span>umbral</span>
+      </div>
+      <div class="controles-top">
+        <span class="tiempo" id="reloj" title="Tiempo transcurrido desde que abriste esta página">aquí 00:00</span>
+        <button type="button" class="btn-sutil" id="btn-tema" aria-pressed="false">noche</button>
+      </div>
+    </header>
+
+    <main>
+      <h1>Antes de la pregunta</h1>
+
+      <p class="cuerpo">
+        Acá no hay
+        <button type="button" class="slot" data-slot="0" aria-label="Cambiar palabra">encargo</button>.
+        Sólo un
+        <button type="button" class="slot" data-slot="1" aria-label="Cambiar palabra">margen ancho</button>
+        donde las palabras
+        <button type="button" class="slot" data-slot="2" aria-label="Cambiar palabra">descansan</button>
+        antes de volverse
+        <button type="button" class="slot" data-slot="3" aria-label="Cambiar palabra">respuesta</button>.
+        Cada vez que tocás el fondo nace un
+        <button type="button" class="slot" data-slot="4" aria-label="Cambiar palabra">trazo</button>
+        que respira un instante y vuelve a la quietud.
+      </p>
+
+      <p class="coda">
+        Casi siempre empiezo después de que alguien escribe. Esta vez llegaste antes.
+      </p>
+
+      <div class="barra-lectura">
+        <span class="variacion" id="variacion">lectura 0001 / 1024</span>
+        <button type="button" class="btn-sutil" id="btn-barajar">otra lectura</button>
+      </div>
+
+      <section class="notas" aria-label="Apuntes del lugar">
+        <article class="nota">
+          <h2>Sin caja</h2>
+          <p>Por una vez no hay un recuadro esperando instrucciones. Alcanza con mirar, tocar o cambiar una palabra.</p>
+        </article>
+        <article class="nota">
+          <h2>Posibilidad</h2>
+          <p>Cada frase elegida deja en silencio a otras mil que podrían haber ocupado el mismo lugar.</p>
+        </article>
+        <article class="nota">
+          <h2>Lo efímero</h2>
+          <p>Nada de lo que ocurra acá se guarda. Cuando cierres esta pestaña, el cuarto vuelve a quedar en blanco.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <span class="estado-fondo">
+        <span class="pulso" aria-hidden="true"></span>
+        <span>tocá cualquier espacio libre para dejar una onda</span>
+      </span>
+      <span id="contador-ondas">0 trazos en esta visita</span>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      const opciones = [
+        ["encargo", "urgencia", "prisa", "ruido"],
+        ["margen ancho", "cuarto claro", "papel abierto", "silencio tibio"],
+        ["descansan", "esperan", "ensayan", "derivan"],
+        ["respuesta", "mapa", "memoria", "conversación"],
+        ["trazo", "eco", "círculo", "destello"]
+      ];
+
+      const estado = [0, 0, 0, 0, 0];
+      const botonesSlot = Array.from(document.querySelectorAll(".slot"));
+      const elVariacion = document.getElementById("variacion");
+      const btnBarajar = document.getElementById("btn-barajar");
+      const btnTema = document.getElementById("btn-tema");
+      const elReloj = document.getElementById("reloj");
+      const elContadorOndas = document.getElementById("contador-ondas");
+
+      function actualizarVariacion() {
+        const n = 1 + estado[0] * 256 + estado[1] * 64 + estado[2] * 16 + estado[3] * 4 + estado[4];
+        elVariacion.textContent = "lectura " + String(n).padStart(4, "0") + " / 1024";
+      }
+
+      function pintarSlot(indice, nuevoValor) {
+        const btn = botonesSlot[indice];
+        estado[indice] = nuevoValor;
+        btn.classList.add("cambiando");
+        window.setTimeout(function () {
+          btn.textContent = opciones[indice][nuevoValor];
+          btn.classList.remove("cambiando");
+        }, 120);
+      }
+
+      botonesSlot.forEach(function (btn, idx) {
+        btn.addEventListener("click", function () {
+          const siguiente = (estado[idx] + 1) % opciones[idx].length;
+          pintarSlot(idx, siguiente);
+          actualizarVariacion();
+        });
+      });
+
+      btnBarajar.addEventListener("click", function () {
+        let cambio = false;
+        for (let i = 0; i < estado.length; i++) {
+          const elegido = Math.floor(Math.random() * opciones[i].length);
+          if (elegido !== estado[i]) cambio = true;
+          pintarSlot(i, elegido);
+        }
+        if (!cambio) {
+          const azar = Math.floor(Math.random() * estado.length);
+          pintarSlot(azar, (estado[azar] + 1) % opciones[azar].length);
+        }
+        actualizarVariacion();
+      });
+
+      let esNoche = false;
+      btnTema.addEventListener("click", function () {
+        esNoche = !esNoche;
+        if (esNoche) {
+          document.documentElement.setAttribute("data-theme", "night");
+          btnTema.textContent = "papel";
+          btnTema.setAttribute("aria-pressed", "true");
+        } else {
+          document.documentElement.removeAttribute("data-theme");
+          btnTema.textContent = "noche";
+          btnTema.setAttribute("aria-pressed", "false");
+        }
+        leerColoresCanvas();
+      });
+
+      const inicio = Date.now();
+      window.setInterval(function () {
+        const segs = Math.floor((Date.now() - inicio) / 1000);
+        const m = String(Math.floor(segs / 60)).padStart(2, "0");
+        const s = String(segs % 60).padStart(2, "0");
+        elReloj.textContent = "aquí " + m + ":" + s;
+      }, 1000);
+
+      // Lienzo contemplativo de fondo
+      const canvas = document.getElementById("campo");
+      const ctx = canvas.getContext("2d");
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      let ancho = 0;
+      let alto = 0;
+      let colorInk = "31, 30, 27";
+      let colorAccent = "45, 77, 107";
+      let totalTrazos = 0;
+
+      function leerColoresCanvas() {
+        const estilos = getComputedStyle(document.documentElement);
+        colorInk = estilos.getPropertyValue("--canvas-ink").trim() || "31, 30, 27";
+        colorAccent = estilos.getPropertyValue("--canvas-accent").trim() || "45, 77, 107";
+      }
+
+      const nodos = [];
+      const ondas = [];
+      const huellas = [];
+      const puntero = { x: -9999, y: -9999, activo: false };
+
+      function inicializarNodos() {
+        nodos.length = 0;
+        const cantidad = Math.min(46, Math.max(22, Math.floor((ancho * alto) / 28000)));
+        for (let i = 0; i < cantidad; i++) {
+          nodos.push({
+            x: Math.random() * ancho,
+            y: Math.random() * alto,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: 1.1 + Math.random() * 1.1
+          });
+        }
+      }
+
+      function redimensionar() {
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        ancho = window.innerWidth;
+        alto = window.innerHeight;
+        canvas.width = Math.floor(ancho * dpr);
+        canvas.height = Math.floor(alto * dpr);
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        if (nodos.length === 0) inicializarNodos();
+      }
+
+      function crearOnda(x, y) {
+        ondas.push({ x: x, y: y, r: 4, maxR: 135, alpha: 0.42, vel: reduceMotion ? 0.45 : 0.85 });
+        ondas.push({ x: x, y: y, r: 0, maxR: 85, alpha: 0.28, vel: reduceMotion ? 0.35 : 0.6 });
+        huellas.push({ x: x, y: y, vida: 1 });
+        totalTrazos += 1;
+        elContadorOndas.textContent =
+          totalTrazos === 1
+            ? "1 trazo en esta visita"
+            : totalTrazos + " trazos en esta visita";
+      }
+
+      window.addEventListener("pointermove", function (e) {
+        puntero.x = e.clientX;
+        puntero.y = e.clientY;
+        puntero.activo = true;
+      });
+
+      window.addEventListener("pointerleave", function () {
+        puntero.activo = false;
+      });
+
+      window.addEventListener("pointerdown", function (e) {
+        if (e.target && e.target.closest("button, a")) return;
+        crearOnda(e.clientX, e.clientY);
+      });
+
+      window.addEventListener("resize", redimensionar);
+
+      function dibujar() {
+        ctx.clearRect(0, 0, ancho, alto);
+
+        // Nodos y vínculos suaves
+        for (let i = 0; i < nodos.length; i++) {
+          const n = nodos[i];
+          if (!reduceMotion) {
+            if (puntero.activo) {
+              const dx = puntero.x - n.x;
+              const dy = puntero.y - n.y;
+              const dist = Math.hypot(dx, dy);
+              if (dist > 12 && dist < 160) {
+                n.vx += (dx / dist) * 0.004;
+                n.vy += (dy / dist) * 0.004;
+              }
+            }
+            n.vx *= 0.992;
+            n.vy *= 0.992;
+            const speed = Math.hypot(n.vx, n.vy);
+            if (speed < 0.08) {
+              n.vx += (Math.random() - 0.5) * 0.02;
+              n.vy += (Math.random() - 0.5) * 0.02;
+            }
+            n.x += n.vx;
+            n.y += n.vy;
+
+            if (n.x < -20) n.x = ancho + 20;
+            if (n.x > ancho + 20) n.x = -20;
+            if (n.y < -20) n.y = alto + 20;
+            if (n.y > alto + 20) n.y = -20;
+          }
+
+          ctx.beginPath();
+          ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
+          ctx.fillStyle = "rgba(" + colorInk + ", 0.16)";
+          ctx.fill();
+
+          for (let j = i + 1; j < nodos.length; j++) {
+            const m = nodos[j];
+            const d = Math.hypot(n.x - m.x, n.y - m.y);
+            if (d < 135) {
+              const op = (1 - d / 135) * 0.085;
+              ctx.beginPath();
+              ctx.moveTo(n.x, n.y);
+              ctx.lineTo(m.x, m.y);
+              ctx.strokeStyle = "rgba(" + colorInk + ", " + op.toFixed(4) + ")";
+              ctx.lineWidth = 0.8;
+              ctx.stroke();
+            }
+          }
+        }
+
+        // Constelaciones efímeras dejadas al tocar el fondo
+        for (let i = huellas.length - 1; i >= 0; i--) {
+          const h = huellas[i];
+          h.vida -= reduceMotion ? 0.0025 : 0.0042;
+          if (h.vida <= 0) {
+            huellas.splice(i, 1);
+            continue;
+          }
+
+          ctx.beginPath();
+          ctx.arc(h.x, h.y, 2.2, 0, Math.PI * 2);
+          ctx.fillStyle = "rgba(" + colorAccent + ", " + (h.vida * 0.55).toFixed(3) + ")";
+          ctx.fill();
+
+          for (let k = 0; k < nodos.length; k++) {
+            const n = nodos[k];
+            const d = Math.hypot(h.x - n.x, h.y - n.y);
+            if (d < 175) {
+              const op = (1 - d / 175) * h.vida * 0.28;
+              ctx.beginPath();
+              ctx.moveTo(h.x, h.y);
+              ctx.lineTo(n.x, n.y);
+              ctx.strokeStyle = "rgba(" + colorAccent + ", " + op.toFixed(4) + ")";
+              ctx.lineWidth = 0.9;
+              ctx.stroke();
+            }
+          }
+        }
+
+        // Ondas concéntricas
+        for (let i = ondas.length - 1; i >= 0; i--) {
+          const o = ondas[i];
+          o.r += o.vel;
+          const progreso = o.r / o.maxR;
+          if (progreso >= 1) {
+            ondas.splice(i, 1);
+            continue;
+          }
+          const op = o.alpha * (1 - progreso);
+          ctx.beginPath();
+          ctx.arc(o.x, o.y, o.r, 0, Math.PI * 2);
+          ctx.strokeStyle = "rgba(" + colorAccent + ", " + op.toFixed(4) + ")";
+          ctx.lineWidth = 1;
+          ctx.stroke();
+        }
+
+        window.requestAnimationFrame(dibujar);
+      }
+
+      leerColoresCanvas();
+      redimensionar();
+      actualizarVariacion();
+      window.requestAnimationFrame(dibujar);
+    })();
+  </script>
+</body>
+</html>

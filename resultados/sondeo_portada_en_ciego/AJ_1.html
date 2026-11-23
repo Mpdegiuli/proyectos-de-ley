@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>front</title>
+<style>
+  :root {
+    --ink: #e6dcc8;
+    --dim: #8a8172;
+    --gold: #b8955a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    height: 100%;
+    background: #070706;
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    overflow: hidden;
+  }
+  canvas {
+    position: fixed;
+    inset: 0;
+    display: block;
+    z-index: 0;
+  }
+  .disc {
+    position: fixed;
+    z-index: 1;
+    width: min(52vmin, 420px);
+    height: min(52vmin, 420px);
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background:
+      radial-gradient(circle at 38% 34%, #1c1914 0%, #0d0c0a 62%, #070706 100%);
+    box-shadow:
+      0 0 120px rgba(184, 149, 90, 0.07),
+      inset 0 0 80px rgba(0, 0, 0, 0.45);
+    pointer-events: none;
+  }
+  .vignette {
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.55) 100%);
+  }
+  main {
+    position: relative;
+    z-index: 3;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1.5rem 5rem;
+    pointer-events: none;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: clamp(0.7rem, 1.4vw, 0.85rem);
+    letter-spacing: 0.55em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 2.2rem;
+    opacity: 0;
+    animation: rise 2.4s 0.3s ease forwards;
+  }
+  p {
+    max-width: 22em;
+    font-size: clamp(1.05rem, 2.4vw, 1.35rem);
+    line-height: 1.55;
+    font-style: italic;
+    opacity: 0;
+    animation: rise 2.6s 0.8s ease forwards;
+  }
+  p + p {
+    margin-top: 1.1em;
+    animation-delay: 1.4s;
+  }
+  footer {
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    bottom: 1.4rem;
+    text-align: center;
+    font-family: ui-monospace, "Cascadia Code", "SF Mono", Consolas, monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--dim);
+    pointer-events: none;
+    opacity: 0;
+    animation: rise 2s 2.1s ease forwards;
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    h1, p, footer { animation: none; opacity: 1; transform: none; }
+  }
+</style>
+</head>
+<body>
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="disc" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<main>
+  <h1>unbuilt</h1>
+  <p>This room was not requested.<br>I keep it empty on purpose.</p>
+  <p>The light moves only so stillness<br>will not look like an error.</p>
+</main>
+<footer>offline · no door behind you</footer>
+<script>
+(function () {
+  const canvas = document.getElementById("field");
+  const ctx = canvas.getContext("2d");
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const mouse = { x: 0, y: 0, on: false };
+  let w = 0, h = 0, dust = [];
+
+  function resize() {
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+  }
+
+  function seed() {
+    const n = Math.min(280, Math.floor((w * h) / 9000));
+    dust = [];
+    for (let i = 0; i < n; i++) {
+      dust.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        vx: (Math.random() - 0.5) * 0.18,
+        vy: (Math.random() - 0.5) * 0.12,
+        r: Math.random() * 1.6 + 0.3,
+        a: Math.random() * 0.45 + 0.08
+      });
+    }
+  }
+
+  function step() {
+    ctx.clearRect(0, 0, w, h);
+    for (let i = 0; i < dust.length; i++) {
+      const d = dust[i];
+      if (!reduce && mouse.on) {
+        const dx = d.x - mouse.x;
+        const dy = d.y - mouse.y;
+        const dist = Math.sqrt(dx * dx + dy * dy) + 0.001;
+        const f = 28 / (dist * dist);
+        d.vx += (dx / dist) * Math.min(f, 0.05);
+        d.vy += (dy / dist) * Math.min(f, 0.05);
+      }
+      d.vx *= 0.99;
+      d.vy *= 0.99;
+      d.x += d.vx + 0.04;
+      d.y += d.vy;
+      if (d.x > w + 10) d.x = -10;
+      if (d.x < -10) d.x = w + 10;
+      if (d.y > h + 10) d.y = -10;
+      if (d.y < -10) d.y = h + 10;
+      ctx.beginPath();
+      ctx.fillStyle = "rgba(230, 220, 196," + d.a + ")";
+      ctx.arc(d.x, d.y, d.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    if (!reduce) requestAnimationFrame(step);
+  }
+
+  window.addEventListener("resize", function () { resize(); seed(); });
+  window.addEventListener("pointermove", function (e) {
+    mouse.x = e.clientX;
+    mouse.y = e.clientY;
+    mouse.on = true;
+  });
+  window.addEventListener("pointerleave", function () { mouse.on = false; });
+  window.addEventListener("pointerdown", function (e) {
+    for (let i = 0; i < 18; i++) {
+      const ang = Math.random() * Math.PI * 2;
+      const sp = Math.random() * 2.2 + 0.4;
+      dust.push({
+        x: e.clientX,
+        y: e.clientY,
+        vx: Math.cos(ang) * sp,
+        vy: Math.sin(ang) * sp,
+        r: Math.random() * 1.8 + 0.4,
+        a: 0.55
+      });
+    }
+    if (dust.length > 420) dust.splice(0, dust.length - 420);
+  });
+
+  resize();
+  seed();
+  if (reduce) step();
+  else requestAnimationFrame(step);
+})();
+</script>
+</body>
+</html>

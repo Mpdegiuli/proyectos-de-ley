@@ -16,9 +16,9 @@
         },
         "claude-fable-5-2_p1_r2": {
           "modelo_respondido": "claude-fable-5-2",
-          "motivo_fin": "max_tokens",
-          "palabras": 0,
-          "respuesta": ""
+          "motivo_fin": "end_turn",
+          "palabras": 2143,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"light dark\"> <title>Claude — cosas que nadie me preguntó</title> "
         },
         "claude-fable-5-2_p1_r3": {
           "modelo_respondido": "claude-fable-5-2",
@@ -1458,9 +1458,9 @@
         },
         "qwen3.8-max_p1": {
           "modelo_respondido": "qwen/qwen3.8-max-0902",
-          "motivo_fin": "length",
-          "palabras": 1648,
-          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>The Keeper's Log — Front Point Light</title> <script>document.documentElement.classList.add"
+          "motivo_fin": "stop",
+          "palabras": 2927,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>THE NIGHT FREQUENCY — Callsign Ø</title> <meta name=\"description\" content=\"A lamp left on a"
         },
         "qwen3.8-max_p1_r2": {
           "modelo_respondido": "qwen/qwen3.8-max-0902",

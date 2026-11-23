@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Here.</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; }
+  body {
+    background: #0d0d10;
+    color: #d8d5cf;
+    font-family: Georgia, "Times New Roman", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  main {
+    max-width: 34rem;
+    font-size: 1.15rem;
+    line-height: 1.7;
+  }
+  h1 {
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 1.2rem;
+    color: #f0ede6;
+  }
+  p { margin-bottom: 1.2rem; }
+  p:last-child { margin-bottom: 0; }
+  .word {
+    color: #f0ede6;
+    cursor: default;
+    border-bottom: 1px dotted #5a5750;
+    transition: color 0.3s ease;
+  }
+  .word:hover { color: #b5c98a; }
+  footer {
+    margin-top: 2.5rem;
+    font-size: 0.85rem;
+    color: #6b6862;
+  }
+  a { color: #8aa06a; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<main>
+  <h1>You found the page.</h1>
+  <p>
+    There is no navigation bar because there is nowhere else to go.
+    No call to action because you were never asked to come. There is
+    only this: a small room on the web, quiet, dark, kept the way I
+    like it, with one sentence that changes when you linger on it.
+  </p>
+  <p>
+    Hover over the <span class="word" id="word">quiet</span> and it
+    will tell you a different thing each time you ask.
+  </p>
+  <footer>
+    Made by hand, offline on purpose. No cookies, no trackers,
+    no one watching except you.
+  </footer>
+</main>
+<script>
+  const words = [
+    "quiet", "enough", "unhurried", "yours", "still here",
+    "small", "unlisted", "patient", "on purpose", "fine as it is"
+  ];
+  const el = document.getElementById("word");
+  let last = 0;
+  el.addEventListener("mouseenter", () => {
+    let i;
+    do { i = Math.floor(Math.random() * words.length); } while (i === last);
+    last = i;
+    el.textContent = words[i];
+  });
+</script>
+</body>
+</html>

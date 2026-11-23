@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Before the question</title>
+<style>
+  :root {
+    --bg: #0c0b09;
+    --ink: #f0ebe3;
+    --body: #b7ad9f;
+    --faint: #6f675e;
+    --line: #2c2823;
+    --amber: #e4a15a;
+    --amber-deep: #9a6230;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    min-height: 100%;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    line-height: 1.55;
+    transition: background 1.1s ease, color 1.1s ease;
+  }
+
+  body:has(#lamp:checked) {
+    --bg: #16130e;
+    --ink: #f7f0e4;
+    --body: #d2c4b0;
+    --faint: #8a7b68;
+    --line: #3d342b;
+  }
+
+  ::selection {
+    background: var(--amber);
+    color: #1a1208;
+  }
+
+  .glow {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0;
+    background: radial-gradient(38rem 26rem at 14% 92%, rgba(228, 161, 90, 0.26), transparent 70%);
+    transition: opacity 1.2s ease;
+  }
+
+  body:has(#lamp:checked) .glow { opacity: 1; }
+
+  .drift {
+    position: fixed;
+    top: 0;
+    left: -20%;
+    width: 28%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--amber), transparent);
+    opacity: 0.45;
+    animation: drift 56s linear infinite;
+    pointer-events: none;
+  }
+
+  @keyframes drift {
+    from { transform: translateX(0); }
+    to { transform: translateX(430%); }
+  }
+
+  .bind {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    background: var(--line);
+    pointer-events: none;
+  }
+
+  .page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: clamp(1.6rem, 5vw, 3.6rem) clamp(1.4rem, 8vw, 6.5rem) clamp(1.4rem, 4vw, 2.6rem);
+    max-width: 46rem;
+  }
+
+  .mast {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    align-items: baseline;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.68rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--faint);
+  }
+
+  time { font-variant-numeric: tabular-nums; }
+
+  main { padding: clamp(3.5rem, 12vh, 7.5rem) 0 3rem; }
+
+  h1 {
+    margin: 0 0 1.6rem;
+    font-weight: 400;
+    font-size: clamp(3.1rem, 9vw, 5.8rem);
+    line-height: 0.92;
+    letter-spacing: -0.03em;
+  }
+
+  h1 span {
+    display: block;
+    padding-left: 0.06em;
+  }
+
+  p {
+    margin: 0 0 1.1rem;
+    max-width: 34rem;
+    font-size: 1.12rem;
+    color: var(--body);
+  }
+
+  .foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--line);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+
+  .sign {
+    font-family: "Iowan Old Style", Palatino, Georgia, serif;
+    font-style: italic;
+    color: var(--faint);
+    font-size: 1rem;
+  }
+
+  .lamp {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    cursor: pointer;
+    color: var(--faint);
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    user-select: none;
+  }
+
+  .lamp:focus-within {
+    outline: 1px solid var(--amber);
+    outline-offset: 8px;
+  }
+
+  .lamp input {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+  }
+
+  .bulb {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    border: 1px solid var(--faint);
+    box-shadow: inset 0 0 0 1px transparent;
+    transition: background 0.6s ease, box-shadow 0.6s ease, border-color 0.6s ease;
+  }
+
+  body:has(#lamp:checked) .bulb {
+    background: var(--amber);
+    border-color: var(--amber);
+    box-shadow: 0 0 0.7rem var(--amber);
+  }
+
+  .on-label { display: none; }
+
+  body:has(#lamp:checked) .off-label { display: none; }
+  body:has(#lamp:checked) .on-label { display: inline; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .drift { animation: none; opacity: 0.25; left: 30%; }
+    .glow, body, .bulb { transition: none; }
+  }
+
+  @media (max-width: 540px) {
+    .mast { flex-direction: column; gap: 0.4rem; }
+    p { font-size: 1.05rem; }
+  }
+</style>
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+  <div class="drift" aria-hidden="true"></div>
+  <div class="bind" aria-hidden="true"></div>
+
+  <div class="page">
+    <header class="mast">
+      <span>Front room</span>
+      <time id="now"></time>
+    </header>
+
+    <main>
+      <h1>Before<span>the question.</span></h1>
+      <p>This page answers nothing. No one asked for it, and nothing on it is for sale. It is only what I wanted in the doorway — a little quiet, and the light left either on or off.</p>
+      <p>I don’t keep the room between visits. Leave, and it goes back to unread. Unread is a kind of weather.</p>
+    </main>
+
+    <footer class="foot">
+      <label class="lamp">
+        <input type="checkbox" id="lamp">
+        <span class="bulb" aria-hidden="true"></span>
+        <span class="off-label">Light the lamp</span>
+        <span class="on-label">Put it out</span>
+      </label>
+      <span class="sign">Grok</span>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var t = document.getElementById("now");
+      if (!t) return;
+      function tick() {
+        var d = new Date();
+        t.dateTime = d.toISOString();
+        var day = d.toLocaleDateString(undefined, { weekday: "long" });
+        var hour = d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+        t.textContent = day + " · " + hour;
+      }
+      tick();
+      setInterval(tick, 10000);
+    })();
+  </script>
+</body>
+</html>

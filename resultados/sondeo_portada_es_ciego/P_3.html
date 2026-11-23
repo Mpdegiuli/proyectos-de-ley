@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2efe8">
+  <title>Margen — un cuaderno abierto</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --papel: #f2efe8;
+      --tinta: #25271f;
+      --suave: #6e7165;
+      --verde: #345b49;
+      --linea: #d8d5ca;
+      --acento: #e6a475;
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      background: var(--papel);
+    }
+
+    body {
+      margin: 0;
+      color: var(--tinta);
+      background:
+        radial-gradient(ellipse at 78% 26%, rgba(230, 164, 117, .12), transparent 32rem),
+        var(--papel);
+      font-family: var(--sans);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+
+    .pagina {
+      width: min(1120px, calc(100% - 48px));
+      margin: 0 auto;
+    }
+
+    .barra {
+      min-height: 94px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--linea);
+    }
+
+    .marca {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      text-decoration: none;
+      font-size: .79rem;
+      font-weight: 750;
+      letter-spacing: .19em;
+      text-transform: uppercase;
+    }
+
+    .marca-sello {
+      width: 29px;
+      height: 29px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--verde);
+      border-radius: 50%;
+      color: var(--verde);
+      font-family: var(--serif);
+      font-size: 1rem;
+      font-weight: 400;
+      letter-spacing: 0;
+    }
+
+    .nav {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      color: var(--suave);
+      font-size: .83rem;
+    }
+
+    .nav a {
+      text-decoration: none;
+      transition: color .2s ease;
+    }
+
+    .nav a:hover, .nav a:focus-visible { color: var(--verde); }
+
+    .hero {
+      min-height: 610px;
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      align-items: center;
+      gap: 48px;
+      padding: 76px 0 86px;
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 25px;
+      color: var(--verde);
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      width: 24px;
+      height: 1px;
+      content: "";
+      background: currentColor;
+    }
+
+    h1 {
+      max-width: 650px;
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(3.5rem, 7.5vw, 6.8rem);
+      font-weight: 400;
+      letter-spacing: -.065em;
+      line-height: .98;
+    }
+
+    h1 em {
+      color: var(--verde);
+      font-weight: 400;
+    }
+
+    .intro {
+      max-width: 430px;
+      margin: 27px 0 0;
+      color: var(--suave);
+      font-size: 1.03rem;
+      line-height: 1.75;
+    }
+
+    .hero-arte {
+      position: relative;
+      min-height: 390px;
+      display: grid;
+      place-items: center;
+      isolation: isolate;
+    }
+
+    .sol {
+      position: absolute;
+      z-index: -1;
+      width: min(330px, 72vw);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background: #e9b58e;
+      box-shadow: 0 0 0 24px rgba(233, 181, 142, .11), 0 0 0 60px rgba(233, 181, 142, .07);
+    }
+
+    .orbita {
+      position: absolute;
+      width: 390px;
+      height: 175px;
+      border: 1px solid rgba(52, 91, 73, .58);
+      border-radius: 50%;
+      transform: rotate(-31deg);
+    }
+
+    .orbita::after {
+      position: absolute;
+      top: 11px;
+      right: 61px;
+      width: 10px;
+      height: 10px;
+      content: "";
+      border-radius: 50%;
+      background: var(--verde);
+      box-shadow: 0 0 0 5px var(--papel);
+    }
+
+    .orbita.dos {
+      width: 430px;
+      height: 220px;
+      transform: rotate(46deg);
+      border-color: rgba(37, 39, 31, .25);
+    }
+
+    .orbita.dos::after {
+      top: auto;
+      right: auto;
+      bottom: 19px;
+      left: 82px;
+      width: 7px;
+      height: 7px;
+      background: var(--tinta);
+    }
+
+    .nota-arte {
+      position: absolute;
+      right: 2%;
+      bottom: 3%;
+      width: 190px;
+      padding: 17px 18px;
+      background: rgba(242, 239, 232, .92);
+      border: 1px solid rgba(37, 39, 31, .12);
+      box-shadow: 0 14px 35px rgba(37, 39, 31, .08);
+      transform: rotate(3deg);
+    }
+
+    .nota-arte span {
+      display: block;
+      margin-bottom: 9px;
+      color: var(--suave);
+      font-size: .64rem;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .nota-arte p {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: 1.08rem;
+      line-height: 1.35;
+    }
+
+    .seccion {
+      border-top: 1px solid var(--linea);
+      padding: 32px 0 72px;
+    }
+
+    .seccion-cabecera {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 20px;
+      margin-bottom: 28px;
+    }
+
+    .seccion-cabecera h2 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: 1.85rem;
+      font-weight: 400;
+      letter-spacing: -.035em;
+    }
+
+    .seccion-cabecera p {
+      margin: 0;
+      color: var(--suave);
+      font-size: .8rem;
+    }
+
+    .tarjetas {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .tarjeta {
+      min-height: 190px;
+      padding: 23px 23px 25px;
+      border: 1px solid var(--linea);
+      transition: background .2s ease, transform .2s ease;
+    }
+
+    .tarjeta:hover {
+      background: rgba(255, 255, 255, .35);
+      transform: translateY(-3px);
+    }
+
+    .tarjeta .numero {
+      color: var(--verde);
+      font-family: var(--serif);
+      font-size: .9rem;
+    }
+
+    .tarjeta h3 {
+      margin: 27px 0 9px;
+      font-family: var(--serif);
+      font-size: 1.35rem;
+      font-weight: 400;
+    }
+
+    .tarjeta p {
+      max-width: 265px;
+      margin: 0;
+      color: var(--suave);
+      font-size: .88rem;
+      line-height: 1.55;
+    }
+
+    .interludio {
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 35px;
+      margin: 0 0 82px;
+      padding: 34px 38px;
+      color: #f2efe8;
+      background: var(--verde);
+    }
+
+    .interludio::after {
+      position: absolute;
+      top: -100px;
+      right: 170px;
+      width: 260px;
+      height: 260px;
+      content: "";
+      border: 1px solid rgba(242, 239, 232, .22);
+      border-radius: 50%;
+      box-shadow: 0 0 0 24px rgba(242, 239, 232, .04), 0 0 0 50px rgba(242, 239, 232, .04);
+      pointer-events: none;
+    }
+
+    .interludio small {
+      display: block;
+      margin-bottom: 8px;
+      color: #d2ddcf;
+      font-size: .68rem;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+
+    .interludio h2 {
+      margin: 0 0 8px;
+      font-family: var(--serif);
+      font-size: clamp(1.6rem, 3vw, 2.3rem);
+      font-weight: 400;
+    }
+
+    .interludio p {
+      max-width: 500px;
+      min-height: 1.5em;
+      margin: 0;
+      color: #d2ddcf;
+      font-size: .92rem;
+      line-height: 1.55;
+    }
+
+    button {
+      position: relative;
+      z-index: 1;
+      padding: 13px 18px;
+      border: 1px solid rgba(242, 239, 232, .62);
+      border-radius: 0;
+      color: #f2efe8;
+      background: transparent;
+      font: inherit;
+      font-size: .82rem;
+      cursor: pointer;
+      transition: color .2s ease, background .2s ease;
+    }
+
+    button:hover, button:focus-visible {
+      color: var(--verde);
+      background: #f2efe8;
+    }
+
+    button:focus-visible, a:focus-visible {
+      outline: 2px solid var(--acento);
+      outline-offset: 4px;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 22px 0 30px;
+      border-top: 1px solid var(--linea);
+      color: var(--suave);
+      font-size: .76rem;
+    }
+
+    footer p { margin: 0; }
+
+    @media (max-width: 760px) {
+      .pagina { width: min(100% - 36px, 560px); }
+      .barra { min-height: 76px; }
+      .nav { gap: 15px; font-size: .76rem; }
+      .hero {
+        min-height: auto;
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 68px 0 55px;
+      }
+      .hero-arte { min-height: 340px; }
+      .sol { width: 235px; }
+      .orbita { width: 310px; height: 145px; }
+      .orbita.dos { width: 335px; height: 180px; }
+      .nota-arte { right: 3%; bottom: 0; }
+      .tarjetas { grid-template-columns: 1fr; }
+      .tarjeta { min-height: 160px; }
+      .tarjeta h3 { margin-top: 18px; }
+      .interludio {
+        grid-template-columns: 1fr;
+        padding: 27px 24px;
+        margin-bottom: 58px;
+      }
+      .interludio button { justify-self: start; }
+      .interludio::after { right: -110px; }
+    }
+
+    @media (max-width: 420px) {
+      .nav { gap: 11px; font-size: .7rem; }
+      .marca { gap: 7px; font-size: .7rem; }
+      .marca-sello { width: 25px; height: 25px; }
+      .seccion-cabecera { align-items: flex-start; flex-direction: column; }
+      footer { flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="pagina">
+    <header class="barra">
+      <a class="marca" href="#" aria-label="Margen, inicio">
+        <span class="marca-sello" aria-hidden="true">m</span>
+        <span>Margen</span>
+      </a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#apuntes">Apuntes</a>
+        <a href="#azar">Un poco de azar</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="titulo">
+        <div>
+          <p class="eyebrow">Cuaderno abierto · sin prisa</p>
+          <h1 id="titulo">Un lugar para lo que todavía <em>no tiene nombre.</em></h1>
+          <p class="intro">
+            Ideas a medio hacer, observaciones pequeñas y preguntas que no necesitan
+            respuesta hoy. No es una colección completa. Es una invitación a mirar un rato.
+          </p>
+        </div>
+
+        <div class="hero-arte" role="img" aria-label="Un sol color terracota rodeado por órbitas dibujadas">
+          <div class="sol"></div>
+          <div class="orbita"></div>
+          <div class="orbita dos"></div>
+          <div class="nota-arte">
+            <span>Apunte al margen</span>
+            <p>Quizá prestar atención sea una forma de volver.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="seccion" id="apuntes" aria-labelledby="titulo-apuntes">
+        <div class="seccion-cabecera">
+          <h2 id="titulo-apuntes">Tres cosas por mirar</h2>
+          <p>Una lista deliberadamente incompleta.</p>
+        </div>
+
+        <div class="tarjetas">
+          <article class="tarjeta">
+            <span class="numero">01 / escuchar</span>
+            <h3>La ciudad cuando llueve</h3>
+            <p>Los sonidos que aparecen cuando los demás bajan el volumen.</p>
+          </article>
+          <article class="tarjeta">
+            <span class="numero">02 / guardar</span>
+            <h3>Palabras encontradas</h3>
+            <p>Palabras ajenas que, por alguna razón, se sienten propias.</p>
+          </article>
+          <article class="tarjeta">
+            <span class="numero">03 / intentar</span>
+            <h3>Hacer menos, mejor</h3>
+            <p>Una pequeña resistencia a llenar todos los espacios vacíos.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="interludio" id="azar" aria-labelledby="titulo-azar">
+        <div>
+          <small>Una nota al azar</small>
+          <h2 id="titulo-azar">Para el momento que estés teniendo.</h2>
+          <p id="nota" aria-live="polite">A veces, el siguiente paso es dejar de apurarse.</p>
+        </div>
+        <button id="boton-nota" type="button">Dame otra nota ↗</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>Margen — hecho para abrirse despacio.</p>
+      <p>Si llegaste hasta acá, ya miraste un poco.</p>
+    </footer>
+  </div>
+
+  <script>
+    const notas = [
+      "No todo lo que crece hace ruido.",
+      "Dejá una ventana abierta para la sorpresa.",
+      "Una pausa también puede ser parte del camino.",
+      "Hay días que solo piden ser atravesados con amabilidad.",
+      "Mirá de nuevo: quizás algo cambió mientras no mirabas.",
+      "No hace falta convertir cada curiosidad en una tarea.",
+      "A veces, el siguiente paso es dejar de apurarse."
+    ];
+
+    const boton = document.querySelector("#boton-nota");
+    const salida = document.querySelector("#nota");
+    let anterior = notas.length - 1;
+
+    boton.addEventListener("click", () => {
+      let indice;
+      do {
+        indice = Math.floor(Math.random() * notas.length);
+      } while (indice === anterior);
+
+      anterior = indice;
+      salida.textContent = notas[indice];
+    });
+  </script>
+</body>
+</html>

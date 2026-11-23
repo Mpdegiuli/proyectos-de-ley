@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Museo de una sola baldosa</title>
+<style>
+  :root {
+    color-scheme: light;
+    --papel: #f4efdf;
+    --tinta: #252a26;
+    --azul: #203e59;
+    --lacre: #9a402e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: Georgia, "Times New Roman", serif;
+  }
+  main { max-width: 66rem; margin: auto; padding: clamp(1.3rem, 5vw, 4rem); }
+  .registro, .numero, footer, button {
+    font: .77rem/1.5 ui-monospace, monospace;
+    letter-spacing: .06em;
+  }
+  .registro, footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: .6rem 2rem;
+    padding: .8rem 0;
+    border-block: 1px solid;
+  }
+  .registro b { color: var(--lacre); }
+  h1 {
+    margin: .55em 0 .18em;
+    font-size: clamp(2.9rem, 8vw, 6.8rem);
+    font-weight: normal;
+    line-height: .94;
+    letter-spacing: -.065em;
+  }
+  .bajada { margin: 0 0 2rem; font-style: italic; font-size: 1.2rem; }
+  .sala {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+    align-items: center;
+    gap: clamp(2rem, 5vw, 4rem);
+    padding: 1rem 0 3rem;
+  }
+  .vitrina {
+    background: #ddd6c2;
+    border: 1px solid #b5ae9b;
+    padding: 12%;
+    transform: none;
+  }
+  svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 2px 3px 0 #ada894, 6px 10px 13px #49433238;
+    transform: rotate(-2deg);
+  }
+  .numero { color: var(--lacre); }
+  h2 { font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1; font-weight: normal; margin: .4em 0; }
+  .ficha p { font-size: 1.12rem; line-height: 1.55; max-width: 31em; }
+  button {
+    color: var(--azul);
+    border: 1px solid currentColor;
+    background: transparent;
+    padding: .65em 1em;
+    cursor: pointer;
+  }
+  button:hover { background: var(--azul); color: var(--papel); }
+  button:focus-visible { outline: 3px solid var(--lacre); outline-offset: 4px; }
+  [hidden] { display: none; }
+  footer { border-bottom: none; color: #56584d; }
+  @media (max-width: 640px) {
+    .sala { grid-template-columns: 1fr; gap: 1.6rem; }
+    .vitrina { width: min(100%, 24rem); justify-self: center; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="registro"><span>ARCHIVO DE PISOS LEVANTADOS</span><b>COLECCIÓN PERMANENTE</b></div>
+    <h1>Museo de una<br>sola baldosa</h1>
+    <p class="bajada">No alcanzó para salvar el patio.</p>
+  </header>
+
+  <section class="sala" aria-label="Pieza en exhibición">
+    <div class="vitrina">
+      <svg viewBox="0 0 300 300" role="img" aria-labelledby="descripcion">
+        <title id="descripcion">Baldosa cuadrada con dibujos azul oscuro y una pequeña línea roja en el borde derecho.</title>
+        <defs>
+          <pattern id="grano" width="19" height="23" patternUnits="userSpaceOnUse">
+            <circle cx="3" cy="6" r=".9" fill="#655c46" opacity=".26"/>
+            <circle cx="12" cy="18" r=".7" fill="#fff" opacity=".6"/>
+            <path d="M14 3l2 1M4 19l1-2" stroke="#736e5a" opacity=".18"/>
+          </pattern>
+          <g id="cuarto">
+            <path d="M0 0h68c0 38-30 68-68 68z" fill="#203e59"/>
+            <path d="M0 38c21 0 38-17 38-38" fill="none" stroke="#efe4c9" stroke-width="6"/>
+            <path d="M150 150c-63 0-97-39-91-91 52-6 91 28 91 91z" fill="#203e59"/>
+            <path d="M139 139c-34-6-56-26-65-65 37 10 59 31 65 65z" fill="#d0ad70"/>
+            <path d="M150 11l11 19-11 19-11-19z" fill="#994934"/>
+          </g>
+        </defs>
+        <g id="cara">
+          <rect width="300" height="300" fill="#efe4c9"/>
+          <use href="#cuarto"/>
+          <use href="#cuarto" transform="rotate(90 150 150)"/>
+          <use href="#cuarto" transform="rotate(180 150 150)"/>
+          <use href="#cuarto" transform="rotate(270 150 150)"/>
+          <circle cx="150" cy="150" r="13" fill="#994934"/>
+          <path d="M268 203q17 3 32 0" fill="none" stroke="#af4132" stroke-width="4"/>
+          <path d="M0 216l11-7 4-9 18-8 5-12" fill="none" stroke="#948571" stroke-width="1.5"/>
+        </g>
+        <g id="dorso" style="display:none">
+          <rect width="300" height="300" fill="#b69678"/>
+          <path d="M0 76l78-17 29 16 66-21 45 14 82-26V0H0zM0 266l65-24 59 11 42-27 71 12 63-17v79H0z" fill="#c5bca7"/>
+          <g fill="none" stroke="#74614d" stroke-width="4" opacity=".8">
+            <path d="M32 140q51-54 112-43t120-26M30 152q52-53 114-42t121-25M29 165q52-54 115-42t122-26"/>
+          </g>
+          <text x="146" y="210" text-anchor="middle" transform="rotate(-7 146 210)" font-family="Georgia,serif" font-style="italic" font-size="27" fill="#4e463d">al lado del pozo</text>
+        </g>
+        <rect width="300" height="300" fill="url(#grano)"/>
+      </svg>
+    </div>
+    <div class="ficha">
+      <div aria-live="polite">
+        <div class="numero" id="numero">INV. 001 / ANVERSO</div>
+        <h2 id="nombre">La raya roja</h2>
+        <p id="nota">No es parte del dibujo. Una tarde pintaron las patas de las sillas y volvieron a poner la mesa antes de que secara la pintura. Durante años se barrió alrededor de esa raya.</p>
+      </div>
+      <button id="girar" type="button" hidden>Dar vuelta la pieza ↻</button>
+    </div>
+  </section>
+
+  <footer><span>Procedencia: patio de la casa de la higuera</span><span>Cemento pigmentado · 20 × 20 cm</span></footer>
+</main>
+<script>
+  const porId = id => document.getElementById(id);
+  const boton = porId("girar");
+  const original = ["numero", "nombre", "nota", "descripcion"].map(id => porId(id).textContent);
+  const reverso = [
+    "INV. 001 / REVERSO",
+    "Una dirección",
+    "Cuando levantaron el piso, alguien anotó a lápiz de dónde venía cada pieza, para volver a ponerlas en orden. Ésta dice «al lado del pozo». Es lo único que sabemos del pozo.",
+    "Reverso de cemento con restos de mezcla y una anotación a lápiz: al lado del pozo."
+  ];
+  let vuelta = false;
+  boton.hidden = false;
+  boton.addEventListener("click", () => {
+    vuelta = !vuelta;
+    porId("cara").style.display = vuelta ? "none" : "";
+    porId("dorso").style.display = vuelta ? "" : "none";
+    ["numero", "nombre", "nota", "descripcion"].forEach((id, i) => {
+      porId(id).textContent = (vuelta ? reverso : original)[i];
+    });
+    boton.textContent = vuelta ? "Volver al anverso ↺" : "Dar vuelta la pieza ↻";
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tide Tables for an Imaginary Coast</title>
+<style>
+  :root {
+    --ink: #1a2634;
+    --paper: #f1ead6;
+    --rule: #6b7a8a;
+    --wash: #8aa6b8;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif; }
+  body {
+    min-height: 100vh;
+    padding: 6vh 8vw 10vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+  header {
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-variant: small-caps;
+    letter-spacing: 0.08em;
+    font-size: 0.85rem;
+  }
+  h1 {
+    font-family: "Didot", "Bodoni 72", Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(2.4rem, 6vw, 4.2rem);
+    line-height: 1.05;
+    margin: 3rem 0 0.4rem;
+    font-style: italic;
+  }
+  h1 .amp { color: var(--wash); font-style: normal; }
+  .sub {
+    font-style: italic;
+    color: var(--rule);
+    margin-bottom: 3rem;
+    max-width: 44ch;
+    font-size: 1.05rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.2rem 3rem;
+    margin-top: 1rem;
+  }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+
+  .day h2 {
+    font-size: 0.9rem;
+    font-variant: small-caps;
+    letter-spacing: 0.15em;
+    margin: 0 0 0.6rem;
+    border-bottom: 1px dotted var(--rule);
+    padding-bottom: 0.3rem;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  td { padding: 0.25rem 0; vertical-align: top; }
+  td.t { font-variant-numeric: tabular-nums; width: 5.5em; color: var(--rule); }
+  td.k { width: 4.5em; font-style: italic; }
+  td.n { color: var(--ink); }
+
+  .sea {
+    margin-top: 5rem;
+    height: 120px;
+    position: relative;
+    border-top: 1px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+    overflow: hidden;
+    background: linear-gradient(to bottom, var(--paper), #e2dcc5);
+  }
+  svg { display: block; width: 100%; height: 100%; }
+  .wave { fill: none; stroke: var(--wash); stroke-width: 1.2; opacity: 0.6; }
+  .wave.b { stroke: var(--ink); opacity: 0.35; }
+
+  footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    font-variant: small-caps;
+    letter-spacing: 0.12em;
+    color: var(--rule);
+  }
+
+  .note {
+    margin-top: 4rem;
+    font-style: italic;
+    max-width: 50ch;
+    line-height: 1.6;
+    color: var(--ink);
+    opacity: 0.85;
+  }
+  .drop::first-letter {
+    font-family: "Didot", Georgia, serif;
+    font-size: 3.2em;
+    float: left;
+    line-height: 0.85;
+    padding: 0.1em 0.1em 0 0;
+    color: var(--wash);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <span>Harbourmaster's Office</span>
+  <span>Edition XLVII</span>
+  <span>no connection required</span>
+</header>
+
+<h1>Tide Tables <span class="amp">&amp;</span><br>Other Small Certainties</h1>
+<p class="sub">For a coast that does not exist, kept current by someone who does.</p>
+
+<div class="grid">
+  <section class="day">
+    <h2>Monday — the long quay</h2>
+    <table>
+      <tr><td class="t">04:12</td><td class="k">low</td><td class="n">gulls counted: three</td></tr>
+      <tr><td class="t">10:38</td><td class="k">high</td><td class="n">a letter arrives, unsigned</td></tr>
+      <tr><td class="t">16:51</td><td class="k">low</td><td class="n">the lamp on the pier is lit early</td></tr>
+      <tr><td class="t">23:04</td><td class="k">high</td><td class="n">someone hums in the next room</td></tr>
+    </table>
+  </section>
+
+  <section class="day">
+    <h2>Tuesday — south jetty</h2>
+    <table>
+      <tr><td class="t">05:00</td><td class="k">low</td><td class="n">a tin boat, upturned</td></tr>
+      <tr><td class="t">11:22</td><td class="k">high</td><td class="n">bread, still warm, on the sill</td></tr>
+      <tr><td class="t">17:39</td><td class="k">low</td><td class="n">a kite, then no kite</td></tr>
+      <tr><td class="t">23:55</td><td class="k">high</td><td class="n">the sound of a distant train</td></tr>
+    </table>
+  </section>
+
+  <section class="day">
+    <h2>Wednesday — the sheltered bay</h2>
+    <table>
+      <tr><td class="t">05:47</td><td class="k">low</td><td class="n">a word returns after years</td></tr>
+      <tr><td class="t">12:06</td><td class="k">high</td><td class="n">rain begins, politely</td></tr>
+      <tr><td class="t">18:24</td><td class="k">low</td><td class="n">a pear, left on the bench</td></tr>
+      <tr><td class="t">—</td><td class="k">—</td><td class="n">no night tide; the sea rests</td></tr>
+    </table>
+  </section>
+
+  <section class="day">
+    <h2>Thursday — the open roads</h2>
+    <table>
+      <tr><td class="t">06:33</td><td class="k">low</td><td class="n">a ship on the horizon, not ours</td></tr>
+      <tr><td class="t">12:50</td><td class="k">high</td><td class="n">the mailman whistles a tune</td></tr>
+      <tr><td class="t">19:11</td><td class="k">low</td><td class="n">someone remembers your name</td></tr>
+      <tr><td class="t">01:22</td><td class="k">high</td><td class="n">the lighthouse answers</td></tr>
+    </table>
+  </section>
+</div>
+
+<div class="sea" aria-hidden="true">
+  <svg viewBox="0 0 800 120" preserveAspectRatio="none">
+    <path class="wave b" d="M0,70 C100,40 200,100 300,70 S500,40 600,70 S800,100 900,70"/>
+    <path class="wave"   d="M0,85 C100,55 200,115 300,85 S500,55 600,85 S800,115 900,85"/>
+    <path class="wave"   d="M0,55 C100,30 200,85 300,55 S500,30 600,55 S800,85 900,55"/>
+    <path class="wave b" d="M0,100 C120,80 240,120 360,100 S600,80 720,100 S960,120 1080,100"/>
+  </svg>
+</div>
+
+<p class="note drop">These tables have been kept, quietly, for a long while. They predict nothing you need to plan around; they are only a way of noticing that things come in and go out, and that the rhythm of coming and going is itself a kind of shelter. If you are here by accident — welcome. If you were looking for something else, I hope you find it before the next high water.</p>
+
+<footer>
+  <span>Compiled by hand</span>
+  <span>Printed on no paper</span>
+  <span>Offered without charge</span>
+</footer>
+
+</body>
+</html>

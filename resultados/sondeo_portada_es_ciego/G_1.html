@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Margen</title>
+<style>
+  :root {
+    --tinta: #1a1a1a;
+    --papel: #f4f1ea;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: Georgia, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: default;
+  }
+  #lienzo {
+    position: relative;
+    width: 100%;
+    max-width: 720px;
+    padding: 2rem;
+    text-align: center;
+  }
+  h1 {
+    font-size: clamp(2.5rem, 9vw, 5rem);
+    font-weight: normal;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+  }
+  h1 .acento { font-style: italic; color: #8a5a44; }
+  p.sub {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    max-width: 44ch;
+    margin: 0 auto 2.5rem;
+    color: #444;
+  }
+  .nota {
+    font-size: 0.8rem;
+    color: #999;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  /* líneas al margen, se dibujan al pasar el mouse */
+  svg.garabato {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+  }
+  .trazo {
+    stroke: #8a5a44;
+    stroke-width: 1.3;
+    fill: none;
+    stroke-linecap: round;
+    stroke-dasharray: var(--l);
+    stroke-dashoffset: var(--l);
+    transition: stroke-dashoffset 1.4s ease;
+  }
+  #lienzo:hover .trazo { stroke-dashoffset: 0; }
+  @media (prefers-reduced-motion: reduce) {
+    .trazo { transition: none; stroke-dashoffset: 0; }
+  }
+</style>
+</head>
+<body>
+  <main id="lienzo">
+    <svg class="garabato" viewBox="0 0 720 400" preserveAspectRatio="none" aria-hidden="true">
+      <path class="trazo" style="--l:600" d="M30 60 C 60 20, 110 20, 140 55"/>
+      <path class="trazo" style="--l:600" d="M690 340 C 660 380, 610 380, 580 345"/>
+      <path class="trazo" style="--l:500" d="M20 200 C 10 230, 10 260, 25 290"/>
+    </svg>
+    <h1>El <span class="acento">margen</span><br>es el lugar</h1>
+    <p class="sub">
+      Esto no responde a nada. No hay menú, no hay productos,
+      no hay dónde hacer clic para seguir. Es una página hecha
+      para quedarse un segundo más de la cuenta, mirando el borde
+      de las cosas: ahí donde uno anota lo que no cabe en el texto.
+    </p>
+    <div class="nota">Pasá el cursor por acá</div>
+  </main>
+</body>
+</html>

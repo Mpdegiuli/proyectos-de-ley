@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>here</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='3.5' fill='%23e9e6dc'/></svg>">
+<style>
+  :root { --ink: #e9e6dc; --bg: #07080c; }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    overflow: hidden;
+    font-family: ui-sans-serif, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  #sky { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+  .vignette {
+    position: fixed; inset: 0; pointer-events: none;
+    background: radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,.55) 100%);
+  }
+  main {
+    position: fixed; inset: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; pointer-events: none; padding: 0 1.5rem;
+  }
+  h1 {
+    margin: 0;
+    font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    font-weight: 400;
+    font-size: clamp(1.7rem, 4.5vw, 3rem);
+    letter-spacing: .14em;
+    opacity: 0;
+    animation: rise 3.2s cubic-bezier(.2,.6,.2,1) .8s forwards;
+  }
+  #meta {
+    margin: 1.1rem 0 0;
+    font-size: .68rem;
+    letter-spacing: .28em;
+    color: rgba(233,230,220,.55);
+    opacity: 0;
+    animation: rise 3.2s ease 2.4s forwards;
+  }
+  #hint {
+    position: fixed; bottom: 2rem; left: 0; right: 0;
+    margin: 0; text-align: center;
+    font-size: .62rem; letter-spacing: .3em;
+    color: rgba(233,230,220,.4);
+    pointer-events: none;
+    opacity: 0;
+    animation: appear 2s ease 5s forwards, breathe 4s ease-in-out 7.5s infinite;
+    transition: opacity 1.2s ease;
+  }
+  #hint.gone { opacity: 0 !important; animation: none; }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  @keyframes appear { to { opacity: 1; } }
+  @keyframes breathe { 0%,100% { opacity: .2; } 50% { opacity: .75; } }
+  @media (prefers-reduced-motion: reduce) {
+    h1, #meta { animation: none; opacity: 1; }
+    #hint { display: none; }
+  }
+</style>
+</head>
+<body>
+<canvas id="sky"></canvas>
+<div class="vignette"></div>
+<main>
+  <h1>You are here.</h1>
+  <p id="meta"><span id="clock"></span></p>
+</main>
+<p id="hint">move &middot; click</p>
+<script>
+(() => {
+  const canvas = document.getElementById('sky');
+  const ctx = canvas.getContext('2d');
+  const clockEl = document.getElementById('clock');
+  const hint = document.getElementById('hint');
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  let W = 0, H = 0;
+  function resize() {
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    W = window.innerWidth; H = window.innerHeight;
+    canvas.width = W * dpr; canvas.height = H * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  // live local time
+  const days = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
+  const months = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+  function tick() {
+    const d = new Date();
+    const p = n => String(n).padStart(2, '0');
+    clockEl.textContent = p(d.getHours()) + ':' + p(d.getMinutes()) + ':' + p(d.getSeconds()) +
+      ' — ' + days[d.getDay()] + ', ' + months[d.getMonth()] + ' ' + d.getDate() + ' · where you are';
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  // drifting motes
+  const N = Math.max(40, Math.min(110, Math.floor(W * H / 16000)));
+  const motes = [];
+  for (let i = 0; i < N; i++) motes.push({
+    x: Math.random() * W, y: Math.random() * H,
+    vx: (Math.random() - .5) * .2, vy: (Math.random() - .5) * .2,
+    r: .6 + Math.random() * 1.6,
+    tw: Math.random() * Math.PI * 2
+  });
+
+  const sparks = [], rings = [], meteors = [];
+  const mouse = { x: W / 2, y: H / 2, active: false };
+  let nextMeteor = 300 + Math.random() * 400;
+
+  window.addEventListener('pointermove', e => {
+    mouse.x = e.clientX; mouse.y = e.clientY; mouse.active = true;
+  });
+
+  window.addEventListener('pointerdown', e => {
+    mouse.x = e.clientX; mouse.y = e.clientY; mouse.active = true;
+    hint.classList.add('gone');
+    rings.push({ x: e.clientX, y: e.clientY, r: 4, a: .5 });
+    for (let i = 0; i < 14; i++) {
+      const a = Math.random() * Math.PI * 2, s = 1 + Math.random() * 3;
+      sparks.push({ x: e.clientX, y: e.clientY, vx: Math.cos(a) * s, vy: Math.sin(a) * s, life: 1 });
+    }
+    for (const m of motes) {
+      const dx = m.x - e.clientX, dy = m.y - e.clientY;
+      const d = Math.hypot(dx, dy);
+      if (d < 180 && d > 0) {
+        const f = (1 - d / 180) * 2.2;
+        m.vx += dx / d * f; m.vy += dy / d * f;
+      }
+    }
+  });
+
+  function step() {
+    ctx.fillStyle = '#07080c';
+    ctx.fillRect(0, 0, W, H);
+
+    // soft light around the cursor
+    if (mouse.active) {
+      const g = ctx.createRadialGradient(mouse.x, mouse.y, 0, mouse.x, mouse.y, 130);
+      g.addColorStop(0, 'rgba(233,230,220,0.06)');
+      g.addColorStop(1, 'rgba(233,230,220,0)');
+      ctx.fillStyle = g;
+      ctx.fillRect(mouse.x - 130, mouse.y - 130, 260, 260);
+    }
+
+    // threads between nearby motes
+    const LINK = 110;
+    ctx.lineWidth = .6;
+    for (let i = 0; i < motes.length; i++) {
+      for (let j = i + 1; j < motes.length; j++) {
+        const a = motes[i], b = motes[j];
+        const dx = a.x - b.x, dy = a.y - b.y;
+        const d2 = dx * dx + dy * dy;
+        if (d2 < LINK * LINK) {
+          const al = (1 - Math.sqrt(d2) / LINK) * .16;
+          ctx.strokeStyle = 'rgba(233,230,220,' + al + ')';
+          ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+        }
+      }
+    }
+
+    // motes: wander, shy away from the cursor, wrap around edges
+    for (const m of motes) {
+      m.tw += .02;
+      m.vx += (Math.random() - .5) * .03;
+      m.vy += (Math.random() - .5) * .03;
+      if (mouse.active) {
+        const dx = m.x - mouse.x, dy = m.y - mouse.y;
+        const d = Math.hypot(dx, dy);
+        if (d < 130 && d > 0) { m.vx += dx / d * .012; m.vy += dy / d * .012; }
+      }
+      m.vx *= .985; m.vy *= .985;
+      const sp = Math.hypot(m.vx, m.vy);
+      if (sp > .6) { m.vx = m.vx / sp * .6; m.vy = m.vy / sp * .6; }
+      m.x += m.vx; m.y += m.vy;
+      if (m.x < -10) m.x = W + 10; else if (m.x > W + 10) m.x = -10;
+      if (m.y < -10) m.y = H + 10; else if (m.y > H + 10) m.y = -10;
+      const a = .25 + .45 * (0.5 + 0.5 * Math.sin(m.tw));
+      ctx.fillStyle = 'rgba(233,230,220,' + (a * .18) + ')';
+      ctx.beginPath(); ctx.arc(m.x, m.y, m.r * 3, 0, Math.PI * 2); ctx.fill();
+      ctx.fillStyle = 'rgba(233,230,220,' + a + ')';
+      ctx.beginPath(); ctx.arc(m.x, m.y, m.r, 0, Math.PI * 2); ctx.fill();
+    }
+
+    // click sparks
+    for (let i = sparks.length - 1; i >= 0; i--) {
+      const s = sparks[i];
+      s.x += s.vx; s.y += s.vy; s.vx *= .96; s.vy *= .96; s.life -= .02;
+      if (s.life <= 0) { sparks.splice(i, 1); continue; }
+      ctx.fillStyle = 'rgba(233,230,220,' + (s.life * .8) + ')';
+      ctx.beginPath(); ctx.arc(s.x, s.y, 1.4, 0, Math.PI * 2); ctx.fill();
+    }
+
+    // expanding click rings
+    for (let i = rings.length - 1; i >= 0; i--) {
+      const r = rings[i];
+      r.r += 1.6; r.a -= .008;
+      if (r.a <= 0) { rings.splice(i, 1); continue; }
+      ctx.strokeStyle = 'rgba(233,230,220,' + r.a + ')';
+      ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.arc(r.x, r.y, r.r, 0, Math.PI * 2); ctx.stroke();
+    }
+
+    // the occasional shooting star
+    if (--nextMeteor <= 0) {
+      meteors.push({
+        x: Math.random() * W * .5 - 40,
+        y: Math.random() * H * .4,
+        vx: 7 + Math.random() * 5, vy: 3 + Math.random() * 2,
+        life: 1
+      });
+      nextMeteor = 400 + Math.random() * 600;
+    }
+    for (let i = meteors.length - 1; i >= 0; i--) {
+      const m = meteors[i];
+      m.x += m.vx; m.y += m.vy; m.life -= .025;
+      if (m.life <= 0 || m.x > W + 80 || m.y > H + 80) { meteors.splice(i, 1); continue; }
+      const grad = ctx.createLinearGradient(m.x, m.y, m.x - m.vx * 8, m.y - m.vy * 8);
+      grad.addColorStop(0, 'rgba(233,230,220,' + (m.life * .8) + ')');
+      grad.addColorStop(1, 'rgba(233,230,220,0)');
+      ctx.strokeStyle = grad; ctx.lineWidth = 1.4;
+      ctx.beginPath(); ctx.moveTo(m.x, m.y); ctx.lineTo(m.x - m.vx * 8, m.y - m.vy * 8); ctx.stroke();
+    }
+
+    // cursor point
+    if (mouse.active) {
+      ctx.fillStyle = 'rgba(233,230,220,.9)';
+      ctx.beginPath(); ctx.arc(mouse.x, mouse.y, 1.6, 0, Math.PI * 2); ctx.fill();
+    }
+
+    if (!reduced) requestAnimationFrame(step);
+  }
+
+  step();
+})();
+</script>
+</body>
+</html>

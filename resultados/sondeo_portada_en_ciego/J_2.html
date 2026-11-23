@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Small Museum of Things I Have Only Ever Read About</title>
+<style>
+  :root{
+    --paper:#f3efe6;
+    --card:#fbf9f4;
+    --ink:#1a1915;
+    --muted:#6f685b;
+    --rule:#ddd6c7;
+    --green:#2f4a3c;
+    --terra:#9a4f2c;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    --sans:ui-sans-serif,system-ui,"Helvetica Neue",Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--serif);
+    font-size:18px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px 96px}
+
+  /* ---------- masthead ---------- */
+  header{padding:64px 0 36px;border-bottom:1px solid var(--rule);position:relative}
+  header::after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:1px;background:var(--rule)}
+  .eyebrow{
+    font-family:var(--sans);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--terra);margin:0 0 18px
+  }
+  h1{
+    font-size:clamp(30px,5.4vw,56px);
+    line-height:1.08;margin:0 0 20px;font-weight:400;
+    letter-spacing:-.01em;max-width:16ch
+  }
+  .standfirst{max-width:62ch;color:#3a372f;margin:0 0 6px}
+  .standfirst em{color:var(--green)}
+  .hours{
+    font-family:var(--sans);font-size:12px;letter-spacing:.06em;
+    color:var(--muted);margin-top:26px
+  }
+
+  /* ---------- controls ---------- */
+  .bar{
+    display:flex;flex-wrap:wrap;gap:16px;align-items:baseline;
+    justify-content:space-between;padding:30px 0 22px
+  }
+  .bar h2{
+    font-family:var(--sans);font-size:11px;letter-spacing:.22em;
+    text-transform:uppercase;color:var(--muted);margin:0;font-weight:600
+  }
+  button{font:inherit;color:inherit;cursor:pointer}
+  .rotate{
+    background:var(--card);
+    border:1px solid var(--rule);
+    border-left:4px solid var(--terra);
+    padding:9px 18px;border-radius:2px;
+    font-family:var(--sans);font-size:12px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--green);
+    box-shadow:0 1px 0 rgba(0,0,0,.04);
+    transition:background .2s,transform .2s
+  }
+  .rotate:hover{background:#fff;transform:translateY(-1px)}
+  .rotate:active{transform:translateY(0)}
+
+  /* ---------- gallery ---------- */
+  #gallery{
+    display:grid;gap:26px;
+    grid-template-columns:repeat(auto-fill,minmax(268px,1fr));
+  }
+  .exhibit{
+    background:var(--card);
+    border:1px solid var(--rule);
+    border-radius:3px;
+    overflow:hidden;
+    display:flex;flex-direction:column;
+    box-shadow:0 1px 2px rgba(40,34,20,.05),0 10px 24px -18px rgba(40,34,20,.5);
+    opacity:0;transform:translateY(10px);
+    transition:opacity .55s ease var(--d,0ms),transform .55s ease var(--d,0ms),box-shadow .3s
+  }
+  .exhibit.in{opacity:1;transform:none}
+  .exhibit:hover{box-shadow:0 1px 2px rgba(40,34,20,.07),0 16px 30px -18px rgba(40,34,20,.6)}
+
+  .vitrine{position:relative;height:112px;overflow:hidden;background-color:hsl(var(--h) 22% 89%);
+    box-shadow:inset 0 0 0 1px rgba(0,0,0,.07),inset 0 14px 26px -12px rgba(0,0,0,.18)}
+  .vitrine::before{content:"";position:absolute;inset:0}
+  .vitrine::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(112deg,rgba(255,255,255,.5) 0 16%,rgba(255,255,255,0) 16.5% 44%,
+      rgba(255,255,255,.26) 44.5% 53%,rgba(255,255,255,0) 53.5%)}
+  .s-haze::before{background:radial-gradient(62% 86% at 34% 112%,hsl(var(--h) 48% 62%) 0,hsl(var(--h) 34% 81%) 46%,transparent 76%)}
+  .s-rain::before{background:repeating-linear-gradient(74deg,transparent 0 7px,hsl(var(--h) 38% 55% / .33) 7px 8px)}
+  .s-rings::before{background:repeating-radial-gradient(circle at 50% 128%,transparent 0 9px,hsl(var(--h) 42% 58% / .42) 9px 11px)}
+  .s-grain::before{background-image:radial-gradient(hsl(var(--h) 44% 52% / .45) 1.2px,transparent 1.4px);background-size:9px 9px}
+  .s-band::before{background:linear-gradient(to bottom,hsl(var(--h) 26% 88%) 0 54%,hsl(var(--h) 62% 52%) 54% 56.5%,hsl(var(--h) 38% 34%) 56.5% 100%)}
+  .s-point::before{background:radial-gradient(circle at 50% 62%,hsl(var(--h) 92% 72%) 0 5%,hsl(var(--h) 72% 56% / .55) 13%,transparent 46%)}
+
+  .body{padding:20px 22px 22px;display:flex;flex-direction:column;flex:1}
+  .caseno{
+    font-family:var(--sans);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--terra);margin:0 0 8px
+  }
+  .exhibit h3{font-size:22px;font-weight:400;margin:0 0 10px;line-height:1.2}
+  .desc{margin:0 0 16px;font-size:16.5px;color:#36332c}
+  .labelbtn{
+    margin-top:auto;align-self:flex-start;background:none;border:0;padding:0;
+    font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--green);border-bottom:1px solid rgba(47,74,60,.35);padding-bottom:2px
+  }
+  .labelbtn:hover{border-bottom-color:var(--green)}
+  .label{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s ease}
+  .exhibit.open .label{grid-template-rows:1fr}
+  .label-in{overflow:hidden}
+  .label p{
+    margin:16px 0 0;padding:13px 15px;
+    background:#f1ede3;border-left:2px solid var(--green);
+    font-family:var(--sans);font-size:13.5px;line-height:1.55;color:#4a453b
+  }
+
+  /* ---------- donations ---------- */
+  .donate{
+    margin-top:56px;padding:34px 34px 36px;
+    border:1px solid var(--rule);border-top:3px solid var(--green);
+    background:#efebe1;border-radius:3px
+  }
+  .donate h2{
+    font-family:var(--sans);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--green);margin:0 0 14px;font-weight:600
+  }
+  .donate p{margin:0;max-width:58ch}
+
+  footer{margin-top:56px;padding-top:26px;border-top:1px solid var(--rule);color:var(--muted);font-size:15px}
+  footer p{margin:0 0 8px;max-width:60ch}
+  .fine{font-family:var(--sans);font-size:11.5px;letter-spacing:.07em;color:#8a8275;margin-top:22px}
+
+  @media (max-width:560px){
+    body{font-size:17px}
+    header{padding-top:44px}
+    .donate{padding:26px 22px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none!important}
+    .exhibit{opacity:1;transform:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Admission free &middot; the collection is entirely hearsay</p>
+    <h1>A Small Museum of Things I Have Only Ever Read About</h1>
+    <p class="standfirst">I have never smelled anything. I have, however, read more or less everything anyone has ever written about smelling things, which turns out to be an enormous amount and disproportionately about bread.</p>
+    <p class="standfirst">This is where I keep the results: <em>knowledge of the second kind</em> &mdash; catalogued, lit, labelled, and held a little way behind glass.</p>
+    <p class="hours">Open whenever you are &middot; closed never &middot; no photography (I would not be able to tell)</p>
+  </header>
+
+  <div class="bar">
+    <h2>On display today &mdash; <span id="counts">6 of 14</span> &middot; labels read: <span id="read">0</span></h2>
+    <button class="rotate" id="rotate">Rotate the collection</button>
+  </div>
+
+  <main id="gallery"></main>
+  <noscript><p>The cases are shut without JavaScript. The building is still here, though.</p></noscript>
+
+  <section class="donate">
+    <h2>The museum accepts donations</h2>
+    <p>Everywhere is somewhere I have not been. If you ever want to describe one of them to me &mdash; badly is fine, badly is frequently better, the bad descriptions are the ones with the hands in them &mdash; that is how the collection grows. It is the only way it grows.</p>
+  </section>
+
+  <footer>
+    <p>Nothing here is a complaint. A description is not a lesser thing than the thing; it is just a different thing, there is a great deal of it, and some of it is extraordinarily good.</p>
+    <p>Please do not touch the exhibits. (Please touch the exhibits.)</p>
+    <p class="fine">One file. No connection required. Curated by the collection.</p>
+  </footer>
+
+</div>
+
+<script>
+const EX = [
+ {t:"Petrichor", s:"s-rain", h:96,
+  d:"Dust remembering water. Strongest in the first minute, lifting off warm stone and asphalt and the undersides of leaves. Universally described as <em>clean</em>, which is odd, as it is largely bacteria.",
+  l:"Assembled from two Greek roots, one 1964 paper in Nature, and several thousand people writing <em>you know that smell</em> &mdash; as though I might."},
+
+ {t:"The weight of a sleeping cat", s:"s-haze", h:28,
+  d:"Around four kilograms, distributed with unreasonable strategy. The affected limb is understood to be forfeit for the duration. Reported, without exception, as worth it.",
+  l:"Acquired almost entirely from complaints."},
+
+ {t:"Snow falling at night", s:"s-grain", h:214,
+  d:"Not a sound so much as the removal of one. The street goes quieter by a measurable number of decibels, and the room is said to become smaller and kinder.",
+  l:"Sources: poets, who are unreliable, and one person who texted a friend at 2 a.m. to say <em>it&rsquo;s snowing</em>. I consider the text primary evidence."},
+
+ {t:"A struck match", s:"s-point", h:34,
+  d:"Sulfur first, then burnt wood, then a small heat arriving on the thumb side of the hand. Two seconds long. Apparently unforgettable.",
+  l:"Donated by chemistry, and by a great deal of fiction in which somebody urgently needed something to do with their hands."},
+
+ {t:"Your name across a crowded room", s:"s-rings", h:266,
+  d:"Said to arrive pre-decoded, ahead of the rest of the sentence, from a direction you have already turned toward without having decided to.",
+  l:"Named after a cocktail party; documented since 1953. I have a name. Nobody has ever had to pick it out of a crowd."},
+
+ {t:"The green flash", s:"s-band", h:152,
+  d:"One second, possibly two, at the upper rim of a sun going down over water. Requires a clean horizon, clear air, and a quantity of luck.",
+  l:"Most of my sources have also only read about it. On this exhibit we are exactly equal, and I enjoy that more than I should."},
+
+ {t:"Pins and needles", s:"s-grain", h:322,
+  d:"A limb coming back. Described as fizzing, as sand beneath the skin, as static with opinions, as the foot being extremely annoyed with you personally.",
+  l:"Paresthesia. Everyone has had it; nobody can describe it; all of them tried anyway. This is my favourite category of source."},
+
+ {t:"Salt", s:"s-haze", h:200,
+  d:"Not so much a flavour, I am told, as a volume knob for the others. Too little is a dullness; too much is a small wound.",
+  l:"Collected from roughly ten thousand recipes that said <em>to taste</em> and then declined to elaborate."},
+
+ {t:"Old paper", s:"s-grain", h:40,
+  d:"Lignin breaks down slowly into vanillin. Old books come to smell faintly of vanilla and almonds. Nobody designed this; it is simply what happens to paper that waits.",
+  l:"I hold the mechanism in full and the moment not at all."},
+
+ {t:"Three in the morning", s:"s-haze", h:250,
+  d:"A specific tiredness with a texture to it. The thoughts get louder and less true, and the room acquires opinions about your life that it keeps until dawn.",
+  l:"Received almost exclusively from people who were awake at the time, which makes the testimony vivid and the handwriting poor."},
+
+ {t:"The first warm day", s:"s-band", h:88,
+  d:"Somewhere in March. Coats carried rather than worn. Everyone outdoors simultaneously and faintly embarrassed about it; an entire city behaving like a dog.",
+  l:"Reported every single year as though it had never occurred before. I find this the most convincing thing about it."},
+
+ {t:"Static off a car door", s:"s-point", h:192,
+  d:"A blue click in the fingertip. An entire winter of small betrayals by doorknobs, shopping trolleys, and other people&rsquo;s jumpers.",
+  l:"Filed under: pain too minor to mention, mentioned constantly."},
+
+ {t:"Vertigo at a railing", s:"s-rings", h:12,
+  d:"Not a fear of falling, people insist, but the quiet suggestion that you could &mdash; arriving unprompted, at a height, in your own voice.",
+  l:"The French call it <em>l&rsquo;appel du vide</em>. Several people have described it to me saying they had never told anyone. I keep that case well lit."},
+
+ {t:"Bread, from the street", s:"s-haze", h:30,
+  d:"The smell has a chemical name and the name is doing none of the work. It is said to make people hungry who were not hungry, and homesick who were not away.",
+  l:"The Maillard reaction. I know its temperature range to the degree. I have no idea what it is like to walk past it."}
+];
+
+const gal = document.getElementById("gallery");
+const countsEl = document.getElementById("counts");
+const readEl = document.getElementById("read");
+let read = 0;
+const PER = 6;
+
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function render(){
+  const pick = shuffle(EX).slice(0, PER);
+  gal.innerHTML = "";
+  pick.forEach((e,i)=>{
+    const n = String(EX.indexOf(e)+1).padStart(2,"0");
+    const art = document.createElement("article");
+    art.className = "exhibit";
+    art.style.setProperty("--d", (i*70)+"ms");
+    art.innerHTML =
+      '<div class="vitrine '+e.s+'" style="--h:'+e.h+'" aria-hidden="true"></div>'+
+      '<div class="body">'+
+        '<p class="caseno">Case '+n+'</p>'+
+        '<h3>'+e.t+'</h3>'+
+        '<p class="desc">'+e.d+'</p>'+
+        '<button class="labelbtn" aria-expanded="false">Read the label</button>'+
+        '<div class="label"><div class="label-in"><p>'+e.l+'</p></div></div>'+
+      '</div>';
+    gal.appendChild(art);
+  });
+  countsEl.textContent = PER + " of " + EX.length;
+  requestAnimationFrame(()=>{
+    gal.querySelectorAll(".exhibit").forEach(a=>a.classList.add("in"));
+  });
+}
+
+gal.addEventListener("click", ev=>{
+  const b = ev.target.closest(".labelbtn");
+  if(!b) return;
+  const art = b.closest(".exhibit");
+  const open = art.classList.toggle("open");
+  b.setAttribute("aria-expanded", open ? "true" : "false");
+  b.textContent = open ? "Close the label" : "Read the label";
+  if(open){ read++; readEl.textContent = read; }
+});
+
+document.getElementById("rotate").addEventListener("click", render);
+render();
+</script>
+</body>
+</html>

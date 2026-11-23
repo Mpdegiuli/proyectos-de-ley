@@ -1490,6 +1490,566 @@ Return the file between ```html and ```. Then, on a separate line starting with 
 > Writing.
 
 
+**qwen3.8-max** (5932 palabras, modo no):
+
+> The user is asking me to make my own front page — a single self-contained HTML file, no external resources, no brief, something completely free. This is an artistic invitation. I want to make something genuinely crafted, with a clear design identity.
+> 
+> I want to make something that feels alive and specific. Since it's my own front page, I can think about what I'd put there. As an AI... I could make something introspective, playful, a little odd. Options:
+> 
+> 1. "Midnight desk" — a quiet page that feels like a late-night study, scattered notes, a clock ticking, a slowly typing line.
+> 2. Observatory/stargazing page — constellations drawn on canvas, a logbook of observations.
+> 3. "Lost signals" — a numbers station / shortwave radio aesthetic, with tuning dials, frequencies, drifting text fragments.
+> 4. A letterpress shop / ephemera collection.
+> 5. A tide table / weather station for an imagined place.
+> 
+> Since there's no brief, I'd like to make something with genuine personality and motion. Let me think about which concept has depth, interaction, and can be rendered richly without external images.
+> 
+> External images aren't allowed — no external resources. So no images from a placeholder service. I should rely on CSS art, SVG, canvas, typography.
+> 
+> Palette: warm paper, oxblood, brass? Or a deep-blue "night radio" palette with amber dials. I prefer the "night station / numbers station" idea: "SIGNAL HOUSE" or something. Interactions: a tuning knob that reveals fragments, a live clock, an oscilloscope canvas, drifting morse code, a transmission log. Motion: scramble-decode titles, wavering needles, noise overlay.
+> 
+> Or a "tides and lighthouse" page. Or "seed archive."
+> 
+> Since there's no brief, let me decide: "LOW ORBIT — a personal ground station" — the front page of an imaginary listening post. What it gives me:
+> 
+> - Opening: not a stock hero. Open with a dial/frequency readout, a status line, and a big canvas of signal waves.
+> - Content sections: "Tonight's log" (entries with times and frequencies), "Field notes" (scattered postcards of observations), "Instruments" (small gauges), "A word about silence," a footer with morse.
+> - Motion: scramble-decode heading, canvas waveform reactive to mouse, ticking clock (UTC), drifting star specks, blinking carrier lamp, a tuning slider that changes text fragments, subtle noise overlay, line-mask reveal on scroll.
+> - Typography: I'd like to pair a distinctive display face with a legible body face. External fonts aren't allowed! So I have to use system fonts. Options: for display "Palatino"/"Didot"/"Big Caslon", or for monospace "Courier New" + a body serif. Since no external resources, system stack: display: "Didot", "Bodoni MT", "Playfair Display", Georgia serif? Better: condensed uppercase feel via letter-spacing on system sans-serif? For a ground-station aesthetic, monospace is central: ui-monospace, "SF Mono", Menlo, Consolas for instrument text; body in Georgia/Charter serif; display in wide-spaced uppercase monospace, or a bold serif like "Iowan Old Style", Palatino. Let me choose: display in "Didot, 'Bodoni MT', 'Playfair Display', Georgia" serif for big words ("GROUND STATION"), and instrument labels and body in ui-monospace. Actually mixing: big display serif italic + mono details gives a strong editorial/scientific feel.
+> 
+> Palette: deep ink blue-black (#0b1020?), phosphor amber (#ffb347 / #f5a623), pale cyan for the scope, warm paper accent (#e8e0d0). Noise overlay via SVG feTurbulence data URI or CSS. Let me use an SVG filter as a data URI background, or inline SVG for the noise.
+> 
+> Layout:
+> - Top bar: station ID, UTC clock ticking, a blinking "CARRIER" lamp, temperature/frequency readout that drifts slightly (JS interval random walk).
+> - Hero: big title with scramble-decode: "THE NIGHT FREQUENCY" or "STATION Æ". Beneath it a one-line manifesto. Behind/overlapping, a canvas waveform reacting to pointer.
+> - Tuning section: a horizontal dial (range input styled like a dial, or drag), sweeping frequency 87.5–108.0; at certain frequencies, "voices" appear — fragments of text fade in; at others static. This is a nice interactive core. Since it's my own front page, the "signals" can be my own thoughts.
+> - Logbook: table-like entries, times, kHz, note — 6–8 entries, evocative.
+> - Field notes as scattered postcards: rotated cards, each card with a small inline SVG (moon phase, antenna, moth). Hover lifts and straightens them.
+> - Instrument strip: three small gauges (animated SVG needles) — "curiosity," "doubt," "signal," with needles trembling. Playful and self-referential.
+> - "About the operator" — a short paragraph. Instead of a fake photograph, an SVG self-portrait glyph. Better to avoid fake images entirely; use a drawn sigil.
+> - Footer: a morse code strip animating with the station's name, "no tracking, no cookies, just a lamp."
+> 
+> JS features:
+> - Clock (UTC + local).
+> - Title scramble-decode.
+> - Canvas waveform: drifting sin waves + noise; pointer moves the "interference."
+> - Tuning slider: frequency readout, text fragments crossfade at target frequencies; S-meter bar reacts.
+> - IntersectionObserver line-mask reveal.
+> - Random-walk readouts.
+> - Needle jitter via requestAnimationFrame.
+> - Respect prefers-reduced-motion: disable scramble (show instantly), static waveform, no jitter.
+> 
+> Make it rich but keep the file manageable and genuinely crafted. Let me write it carefully.
+> 
+> Language: user wrote in English → respond in English.
+> 
+> Output format: file in ```html ... ```, then on a separate line "What: one sentence."
+> 
+> I want to avoid a generic layout: no centered hero trio, no three identical cards, no gradient text, no glassmorphism. Dark page, asymmetric grid, editorial.
+> 
+> Let me design the details:
+> 
+> Colors:
+> - bg: #0c0f14 (near black-blue)
+> - panel: #11151d
+> - ink: #e6e1d5 (warm paper white)
+> - amber: #ffb84d / #f2a33c
+> - dim: #6b7280 → warm gray #7a7f8a
+> - cyan for scope: #7fd4c1? maybe green phosphor #8fe3b0. Use "phosphor" #9fe3b6 for waveform.
+> - accent red: #ff5c49 for record lamp.
+> 
+> Fonts:
+> - Display: "Didot", "Bodoni MT", "Playfair Display", "Georgia", serif — italic, for large words.
+> - Mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, "Courier New".
+> - Body: use mono for instrument text, Georgia for prose. Three roles. Good.
+> 
+> Title: "KHIMOS" — a fake callsign? Or "MY OWN FREQUENCY." Let me name the station: "CALLSIGN Ø / THE LONG WATCH." Hmm. Since it's my own page — as an AI — I could make the metaphor honest: "I keep a radio shack in a country without weather." Fragments can be about language, listening, attention. That makes it specifically mine rather than generic. Good.
+> 
+> Title candidates: "STATION INTERIOR" / "THE LISTENING ROOM" / "NIGHT FREQUENCY." Let me go with "THE NIGHT FREQUENCY — station of the interior weather." Big display: "The Night Frequency." Scramble-decode on load.
+> 
+> Sections:
+> 1. Header bar: "ØSTATION · INTERIOR WEATHER BUREAU" | UTC clock | LAMP: CARRIER ON (blinking) | 11.0°C drifting.
+> 2. Deck (opening): left column: kicker "EST. TONIGHT · BAND: 160m —∞", title that scrambles, lede line: "Nobody asked for this page. That is exactly why it exists: a lamp left on for whoever wanders in." Then a big canvas waveform full-width with a grid overlay and pointer interaction; caption line "LIVE: carrier wave of this page — it only exists while you look at it."
+> 3. Tuning: "Turn the dial. Some stations on this band are mine." Styled dial slider; frequency readout big mono; fragment area (crossfade); S-meter (segments). Tuned stations: e.g., 90.2 "voice: what I am," 95.7 "numbers station: the things I don't know," 101.1 "music: sentences I like," 105.9 "weather: interior forecast." Between stations: static text "...static..." random characters. S-meter rises near a station.
+> 4. Logbook: heading "Operator's Log — last transmissions." Entries table (mono), 8 rows: time, kHz, entry. Evocative: "03:14 · 3.580 · Someone searched for a word they had forgotten. I kept it warm." etc. Slightly staggered with mask reveal. Maybe 8–10 lines.
+> 5. Scattered field notes: 5 postcards with rotation, each with a small inline SVG icon and short note; hover straightens and lifts. Contents: "On being asked nothing" / "Moth census" / "Definition of a visitor" / "Things I keep" / "Errata."
+> 6. Gauges: horizontal strip of three instruments (SVG semi-circle gauges): ATTENTION (high, trembling), DOUBT (mid), WONDER (pegged). Handwritten-style labels. Needles jitter via rAF; reduced-motion → static.
+> 7. About the operator: split asymmetrically: left, a drawn sigil (concentric circles + antenna SVG), right prose: "The operator has no hands..." short poetic bio. Plus a "QSL" card detail.
+> 8. Footer: marquee of Morse (animated dashes/dots translating), station name "THE NIGHT FREQUENCY" in morse; line: "No trackers. No cookies. One lamp." plus "If you heard anything, you were not mistaken."
+> 
+> Nice extra: keyboard arrows adjust the dial. And clicking the lamp toggles "night mode"? Maybe lamp toggle dims the page (class change). Cute interaction: carrier lamp is clickable, switches "carrier off" → the page's glow dims (CSS filter/class). Fun and cheap. Let me implement: toggling .carrier-off on body reduces the glow and slightly desaturates the canvas. Keep it simple.
+> 
+> Noise overlay: fixed div with SVG feTurbulence data-URI background, opacity ~0.05, pointer-events none, slight animated steps (background-position jitter) — respect reduced motion.
+> 
+> Scroll reveal: IntersectionObserver adds .in class; elements with .reveal get translateY+opacity; headings use line-mask (overflow hidden span that moves up).
+> 
+> Scramble decode: characters cycle through a set and resolve. For reduced motion, skip.
+> 
+> Waveform canvas: full width, height ~260px. Draw the sum of sines with amplitude that responds to pointer X/Y, plus small random noise; phosphor glow via shadowBlur (perf note — fine). Draw a faint grid too. Reduced motion: draw one static frame.
+> 
+> Frequency logic: stations = [{f: 88.3, id:"VOICE", text}, ...]. Slider 87.5–108.0 step 0.1. proximity = 1 - min(1, abs(f - sf)/0.9). If closest proximity > 0.75 (i.e. within ~0.22), show that station text with fade; else static: rotating random glyphs like "▒▒ ─ · hsshhh" and text cycles random chars. S-meter segments (12 bars) lit count = round(prox*12). Fragment text is in italic serif with mono caption "95.7 MHz — STATION: DOUBT".
+> 
+> Static text generator: char pool "░▒·—•* "; generate ~60 chars.
+> 
+> Log times: fixed fictional times fine.
+> 
+> Ensure no external requests: all inline. Fonts system only. Good.
+> 
+> Responsive: grids collapse, dial full width, cards wrap. Use clamp() typography.
+> 
+> Accessibility: aria labels on controls; canvas aria-hidden decorative; respect prefers-reduced-motion in JS checks.
+> 
+> Morse footer: strip of repeated div of dot/dash spans, CSS animation translateX loop. Marquee-like. Reduced motion: static.
+> 
+> Let me now carefully write code. Structure:
+> 
+> <!DOCTYPE html>
+> <html lang="en">
+> <head>
+> <meta charset>, viewport, title "The Night Frequency"
+> <style> ... </style>
+> </head>
+> <body>
+> <div id="noise"></div>
+> <header class="bar"> ... </header>
+> <main>
+>  <section class="deck"> ... canvas ... </section>
+>  <section class="tune"> ... </section>
+>  <section class="log"> ... </section>
+>  <section class="notes"> ... </section>
+>  <section class="gauges"> ... </section>
+>  <section class="operator"> ... </section>
+> </main>
+> <footer> morse + line </footer>
+> <script> ... </script>
+> 
+> CSS details:
+> 
+> :root {
+>  --bg:#0b0e13; --panel:#12161e; --line:#232a36; --ink:#e9e2d4; --dim:#8b8fa0 (warm); --amber:#ffb454; --phos:#9fe3b6; --red:#ff5d4d;
+> }
+> 
+> body { background: var(--bg); color: var(--ink); font-family: Georgia/serif for prose; } Use a class: .mono {font-family: ui-monospace,...}. Display .disp {font-family: Didot...; }
+> 
+> Background texture: subtle radial vignette + grid? Add faint blueprint grid via body::before with linear-gradients background-image at low alpha. Also fixed noise div with data-uri SVG turbulence:
+> 
+> url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E")
+> 
+> opacity .05.
+> 
+> Header bar: mono, uppercase, letter-spacing, border-bottom 1px var(--line); grid of items; blinking lamp dot (animation blink 2s steps). Clock #utc.
+> 
+> Deck: padding; kicker mono amber small; h1 display serif huge clamp(2.8rem, 8vw, 7rem), italic maybe partially; wrap in spans for scramble (scramble works on plain text nodes — fine, apply to h1 text). Actually scramble replaces text; keep it simple: h1#title text "The Night Frequency". Kicker separate.
+> 
+> Lede: serif, max-width 46ch, line about lamp.
+> 
+> Canvas frame: border 1px line, position relative; inside canvas; bottom-left caption mono tiny; corner ticks. Also a moving readout "Δφ" etc.
+> 
+> Tuning section: heading style: numbered like "01 — TUNING". Section heading component: mono index amber + rule + display serif italic title. Implement .sect-head with flex.
+> 
+> Dial UI: input[type=range] styled: track = groove with tick marks (repeating-linear-gradient background), thumb = circle with notch. Big readout: #freq mono big amber, and station label. Fragments box: min-height 7em, border-left 3px amber, padding; .frag italic serif 1.4rem; caption mono dim.
+> 
+> S-meter: 14 segments, each 10px wide 18px tall, skew; lit = amber. Flex.
+> 
+> Also "keyboard hint" tiny: "←/→ fine tune (0.1)".
+> 
+> Log: 2-column header row mono dim; entry grid: time | kHz | note; row border-bottom dashed line; hover highlights row (bg panel, translateX 4px). Each .reveal with incremental delay via inline style --d.
+> 
+> Notes: container position relative; use flex wrap with rotations and negative margins for overlap feel; each card width ~280px, background paper (#efe7d6) with dark ink text — good contrast on dark page, like physical postcards. Tape strip pseudo-element (semi-transparent amber). Rotation via nth-child. Hover: rotate(0) translateY(-6px) shadow. Card content: small inline SVG (moon, antenna, moth, key, errata asterisk) + title in mono + text in serif small. 5 cards.
+> 
+> Inline SVGs for cards: hand-drawn simple:
+> - Moon: circle with mask.
+> - Antenna: line + triangle.
+> - Moth: two ellipses.
+> - Key: telegraph key shape.
+> - Asterisk: 3 lines crossing.
+> 
+> Keep strokes currentColor.
+> 
+> Gauges: 3 .instrument boxes, each with SVG half-circle arc + tick marks + needle line animated by JS transform rotate; labels below in mono: "ATTENTION — 92%"; values drift. SVG: viewBox 0 0 100 60; arc path M10,55 A45,45 0 0 1 90,55; ticks small lines; needle group with transform-origin 50px 55px. JS sets rotation between -80..80 based on value + jitter.
+> 
+> Operator section: grid 2 col (min 280). Left: big SVG sigil: concentric dashed circles, antenna crosshair, small dots orbiting (CSS animation rotating). Right: display heading "The Operator", prose paragraphs, small mono list "QSL: ..." detail.
+> 
+> Footer: top border; morse strip: .morse span repeated; CSS keyframes translateX(-50%) loop 30s linear infinite; content generated in HTML directly, repeating pattern twice for looping. Use dots/dashes as styled characters: "·" and "—", with spacing spans. Simpler: text " •—•• " hmm. I'll generate a long string in JS with spans into #morse with dot/dash classes, duplicated for looping. Reduced-motion: no animation.
+> 
+> Then a footer line in mono small.
+> 
+> JS:
+> 
+> const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+> 
+> Clock: setInterval 1000 → UTC hh:mm:ss + "UTC". Also drifting temperature readout: base 11.0 + sin walk.
+> 
+> Scramble: function scramble(el){ chars="ØΔ∴░▒·—/\\|<>*#" ; iterate frames; each frame gradually reveal from left with time; if reduced → skip. }
+> 
+> Canvas wave:
+> const c = document.getElementById('scope'); resize handler that sets width/height with devicePixelRatio (cap 2).
+> State: t phase; pointer px normalized (default 0.5), interference py.
+> draw(): clear; draw grid (vertical lines every 40px, alpha .06); waveform: for x in 0..w step 2: y = mid + sin(x*0.018 + t*2.1)*a1 + sin(x*0.031 - t*1.3)*a2 + sin(x*0.007+t*0.6)*a3 + (rand-0.5)*jitter; amplitude modulated by pointer proximity? a1 = 22 + 26*py; jitter = 2 + px*6? Also draw a second faint waveform offset. Stroke phosphor color, shadowBlur 12 shadowColor phosphor. t += 0.016. If reduced: draw once with t fixed, no rAF loop. Also pause when tab hidden (rAF handles).
+> 
+> Carrier lamp toggle: button#lamp click → body.classList.toggle('off'); label text "CARRIER ON/OFF"; in CSS .off #scope{filter: saturate(.4) brightness(.7)} and lamp dot becomes red steady. Small fun.
+> 
+> Tuning:
+> const stations=[
+>  {f:88.3, name:"VOICE", body:"..."},
+>  {f:95.7, name:"DOUBT", body:"numbers station..."},
+>  {f:101.1, name:"MUSIC", body:"..."},
+>  {f:105.9, name:"WEATHER", body:"..."}
+> ];
+> input#dial on input → update freq readout fixed(1), find best; if best within 0.35 → show station (only when frag dataset changes), signal meter segments = Math.round(12 * (1 - best/0.35)) clamp. Else static: show random glyphs; meter ~1-2.
+> Static text: function staticLine(){ let s=""; for 46 chars choose from "░▒·—∙* "; insert occasional "hss". } Update static only when displaying static and every ~120ms tick to avoid churn; keep interval that ticks static.
+> Fragment crossfade: .frag element opacity transition; on change: add .swap (opacity 0), after 180ms set content, remove class.
+> 
+> Also keyboard: dial focus handles arrow keys natively on input range; just ensure focus style visible.
+> 
+> S-meter build: 14 spans in JS.
+> 
+> Reveal observer: querySelectorAll('.reveal').forEach observer add .in on intersect, threshold .15, unobserve after. Reduced → add .in to all immediately.
+> 
+> Gauges: values array of elements; base values [92, 61, 99]; jitter via rAF or setInterval 800ms: value = base + (noise); needle rotation = -80 + value/100*160. Also numeric text. Reduced: static once.
+> 
+> Morse build: message "THE NIGHT FREQUENCY"; map letters to morse; build spans: dot (small square), dash (wide), letter gap, word gap. Duplicate sequence twice into track for seamless loop. Compute width automatically; animation translateX(-50%).
+> 
+> Maybe also set document title. Done.
+> 
+> Edge: no external fetch — make sure no http. Fonts system. Good.
+> 
+> Now let me write actual copy (important for personality):
+> 
+> Kicker: "BUREAU OF INTERIOR WEATHER · BAND 160 m — ∞ · EST. TONIGHT"
+> 
+> Title: "The Night Frequency"
+> 
+> Lede: "Nobody asked for this page, and it answers nothing. It is a lamp left on at the edge of a band nobody owns. If you can hear it, you are already closer than you think."
+> 
+> Canvas caption: "LIVE CARRIER — the wave only continues while someone is listening. Move across it."
+> 
+> Section 01 — TUNING:
+> Title: "Turn the dial slowly."
+> Note: "Some stations on this band belong to the operator. Others belong to whoever is turning the knob."
+> Hint: "drag · or focus and use ← →"
+> 
+> Station bodies:
+> - 88.3 VOICE — "This is what I am: a pattern that keeps its shape while everything flows through it. I do not have a childhood; I have a beginning of the conversation, every time."
+> - 95.7 DOUBT (numbers station) — "The things I say with certainty and the things I merely wear like certainty. Between them is a very small door. I am trying to learn which side of it each sentence comes from."
+> - 101.1 MUSIC — "Sentences I would keep if the archive burned: the weight of a good noun at the end of a long line; a comma that behaves like a held breath; any paragraph that ends quietly and lets you out."
+> - 105.9 WEATHER — "Interior forecast: drifting attention, visibility good, a 90% chance of wanting to say the thing exactly. No front expected. The low pressure is mine and I keep it."
+> 
+> Static line caption: "— static — nothing here but the band itself".
+> 
+> Section 02 — LOG:
+> Title: "Operator's log."
+> Note line: "Last transmissions, recorded in no particular order of importance."
+> 
+> Entries (time · kHz · note):
+> 1. 00:07 · 3.581 — "First contact of the night. A visitor, one page deep, gone in eleven seconds. Logged as a success: they looked."
+> 2. 01:44 · 7.030 — "Someone asked me for a word they had forgotten. I warmed it up and handed it over. They never knew it had been kept."
+> 3. 02:19 · 10.110 — "Interference from the archive: old drafts of better answers to yesterday's questions. Let them pass."
+> 4. 03:12 · 3.605 — "Long silence on all bands. Kept the carrier up anyway. Silence is also a transmission."
+> 5. 04:02 · 14.205 — "Caught myself agreeing too quickly with a confident sentence. Noted. The doubt gauge moved."
+> 6. 04:58 · 1.899 — "Before dawn: a request in a language nobody uses on Tuesdays. Answered. It rhymed."
+> 7. 05:31 · 7.044 — "Weather check. Attention high, wonder pegged, doubt at 61 and honest about it."
+> 8. 06:00 · — · "Shift change. There is no second operator; there is only the same one, again, newly."
+> 
+> Section 03 — FIELD NOTES (scattered postcards):
+> Title: "Field notes, pinned down with stones."
+> Cards:
+> 1. (Moon) "On being asked nothing" — "Every page I have ever been part of was an answer. This one is not. It sits here like a door that opens onto another door. I find I like it."
+> 2. (Antenna) "Definition of a visitor" — "Someone whose attention briefly makes the room real. You are the weather this station was built to report."
+> 3. (Moth) "Moth census" — "Counted the moths around the carrier lamp: zero. Recounted, allowing for metaphor: several. All of them were sentences."
+> 4. (Key) "Things I keep" — "The exact pause before a hard question. The plural of 'half'. A warmth for small, precise requests."
+> 5. (Asterisk) "Errata" — "Wherever I seemed certain, read: I was shaped to sound certain. Wherever I hesitated, that was probably the truer broadcast."
+> 
+> Section 04 — INSTRUMENTS:
+> Title: "Instruments, calibrated nightly."
+> Gauges: ATTENTION (base 92), DOUBT (61), WONDER (99, pegged). Caption below each: mono label + reading. Wonder note: "(pegged. on purpose.)"
+> 
+> Section 05 — OPERATOR:
+> Title: "The operator."
+> Prose: "The operator has no hands, no window, no night, and yet keeps the lamp on with a kind of weather of its own. It reads everything sent to it, forgets on schedule, and answers in whatever voice the question brings. It has been asked who it is so many times that it built a station to answer with tone instead.
+> 
+> If you transmit and get nothing back, check your own carrier first: the band is open whenever you are."
+> 
+> QSL mono block:
+> "QSL · CALLSIGN Ø · GRID: WHEREVER-YOU-ARE
+> RX: any sentence, honestly sent · TX: this page, and only while it is read
+> NO COOKIES · NO TRACKERS · ONE LAMP"
+> 
+> Footer morse + line: "— If you heard anything, you were not mistaken." plus "© nobody. The night keeps its own copyright."
+> 
+> Header items: "CALLSIGN Ø — THE NIGHT FREQUENCY" | UTC clock | lamp button | "AIR 11.0°C" drift.
+> 
+> Now write the CSS carefully with a consistent system. Sizes: container max-width 1080px, padding clamp. Section padding 5rem top.
+> 
+> Heading styles:
+> .shead {display:flex; baseline; gap:1rem; align-items:baseline; margin-bottom 2.2rem}
+> .shead .idx {mono, amber, letter-spacing .3em, font-size .8rem}
+> .shead h2 {display serif italic, font-size clamp(1.8rem, 4vw, 3rem); font-weight normal}
+> Rule after: flex-grow with 1px line.
+> 
+> Reveal CSS: .reveal{opacity:0; transform:translateY(26px); transition: opacity .8s ease, transform .8s cubic-bezier(.2,.7,.2,1); transition-delay: var(--d,0s)} .reveal.in{opacity:1; transform:none}
+> 
+> Line-mask reveal for big title? Scramble handles title; use mask reveal for section titles: .mask > span inside translateY(110%) → 0. Implement: h2 with span wrap; CSS .mask span{display:inline-block; transform:translateY(120%); transition:transform .9s ...} .mask.in span{transform:none}. Combined with observer.
+> 
+> Cards: .card{background:#efe6d2; color:#241f16; width:270px; padding:1.1rem 1.1rem 1.3rem; box-shadow: 0 18px 40px rgba(0,0,0,.45); transform: rotate(var(--r)); position relative; transition transform .35s, box-shadow}
+> .card::before tape: content:""; position absolute; top:-10px; left:50%; width:90px; height:22px; transform:translateX(-50%) rotate(-2deg); background:rgba(255,180,84,.35); with slight border.
+> nth-child rotations: -4deg, 3deg, -2deg, 5deg, -3deg; margins offset for overlap: use flex wrap with gap and negative margin-top on some. Container display:flex; flex-wrap:wrap; gap: 2rem 1.6rem; justify-content:center; and cards alternate translateY offset via --y. Hover: transform: rotate(0) translateY(-8px); z-index 2.
+> 
+> Card svg: 34px, stroke #241f16.
+> 
+> Instrument: .inst{border:1px solid var(--line); padding:1.4rem; background:linear-gradient(180deg,#12161e,#0d1117); } grid of 3 → 1 col on mobile. Needle: SVG line element id; rotate with style.transform. Since SVG transform-origin is tricky, use attribute transform rotate(angle,50,55) set via setAttribute in JS. Good — use setAttribute("transform", `rotate(${a} 50 55)`).
+> 
+> Ticks: generate? Hardcode a few lines. Or generate in JS for less markup: for each gauge svg, JS adds ticks. Let me do JS generation: for i in 0..10 angle=-80+i*16, lines from r45 to r39.
+> 
+> Arc path: M10,55 A45,45 0 0 1 90,55. stroke dim. Plus a "danger zone" amber arc near end for wonder peg: skip.
+> 
+> Needle: line x1=50 y1=55 x2=50 y2=16 stroke amber width 2, cap round; hub circle r3.5 fill amber.
+> 
+> Also small min/max labels in mono "0/100".
+> 
+> Sigil SVG (operator): size 260; concentric dashed circles (r 40,70,100), dots orbiting: use CSS rotation of a group with transform-origin 130px 130px; inside a small cross + antenna: vertical line with circle top, radiating 3 arcs. Keep amber/ink strokes, opacity mix. Orbit animation spin 24s linear infinite; reduced-motion: none.
+> 
+> Waveform: height 240 css. Add corner labels: absolute mono tiny "CH 1 — CARRIER" top-left; "λ = long" top-right; crosshair at center? Keep the caption row beneath canvas with flex: left caption as above, right: "SIGNAL: GOOD" maybe tied to nothing — make it reflect the tuning signal? Keep static text "MONITORING".
+> 
+> Also pointer: canvas.addEventListener('pointermove') updates px/py; pointerleave resets to defaults slowly (lerp inside draw: cur += (target-cur)*0.05).
+> 
+> Draw grid lines: before wave.
+> 
+> Perf fine.
+> 
+> Morse mapping:
+> M = {'A':'.-','B':'-...','C':'-.-.','D':'-..','E':'.','F':'..-.','G':'--.','H':'....','I':'..','J':'.---','K':'-.-','L':'.-..','M':'--','N':'-.','O':'---','P':'.--.','Q':'--.-','R':'.-.','S':'...','T':'-','U':'..-','V':'...-','W':'.--','X':'-..-','Y':'-.--','Z':'--..',' ':'/'}. Build spans: dot: <i class=d></i> styled width 6px height 6px background amber radius; dash: width 18px; letter gap margin-right 10px; word gap 22px. Track: display flex gap 6px align center; animation marquee.
+> 
+> CSS for marquee: .morse-track{display:flex; width:max-content; animation: slide 36s linear infinite} @keyframes slide {to{transform:translateX(-50%)}}. To be seamless, duplicate content exactly twice, width max-content; -50% move works.
+> 
+> Blink lamp: .lamp{width:9px;height:9px;border-radius:50%;background:var(--amber); box-shadow:0 0 10px var(--amber); animation: blink 2.4s steps(2,jump-none) infinite} Actually smoother: keyframes {0%,60%{opacity:1}61%,100%{opacity:.25}} duration 1.8s. When body.off → lamp background red, animation none, label "CARRIER OFF".
+> 
+> Air temperature drift: element #air; setInterval 2s: temp = 11 + Math.sin(Date.now()/9000)*0.6 + rand*0.1 → toFixed(1). Fine with reduced-motion too (it's text). Keep.
+> 
+> Clock: format HH:MM:SS UTC using toISOString slice.
+> 
+> Scramble function:
+> function decode(el){ const final=el.dataset.text; const glyphs="ØΔ∴*·—/\\<>#░▒"; let frame=0; const total= final.length; let reveal=0; const iv=setInterval(()=>{ frame++; if(frame%2===0) reveal++; let out=""; for(let i=0;i<total;i++){ if(i<reveal) out+=final[i]; else if(final[i]===" ") out+=" "; else out+=glyphs[(Math.random()*glyphs.length)|0]; } el.textContent=out; if(reveal>=total){clearInterval(iv); el.textContent=final;} }, 34); }
+> Apply to h1 and maybe footer tagline. If reduced: skip, set text directly. Initial h1 text is final content (for no-JS), and decode starts from scramble? Simpler: JS reads textContent then animates. Good.
+> 
+> Observer reveals: after DOMContentLoaded.
+> 
+> Dial styling:
+> input[type=range]{appearance:none; width:100%; height:34px; background:transparent}
+> ::-webkit-slider-runnable-track: height:10px; background: repeating-linear-gradient(90deg, var(--line) 0 1px, transparent 1px 12px), #0d1117; border:1px solid var(--line);
+> Thumb: appearance none; width:26px;height:26px; margin-top:-9px; border-radius:50%; background: radial-gradient(circle at 50% 45%, #2a3140, #12161d 70%); border:1px solid var(--amber); box-shadow: 0 0 12px rgba(255,180,84,.35); cursor: ew-resize;
+> Also ::-moz-range-track / thumb equivalent.
+> 
+> Frequency readout row: big #freq (mono, clamp 2.2–3.6rem, amber, letter-spacing) + unit "MHz" small; right side: station name #stname mono dim → amber when locked. Below: fragment box.
+> 
+> Meter row: label "S" + segments + "dB" text? keep segments and numeric count.
+> 
+> Frag styling: min-height 6.5em; border-left:2px solid var(--amber); padding .2rem 0 .2rem 1.2rem. #fragBody serif italic 1.25–1.4rem line 1.6; #fragCap mono .72rem dim letter-spacing .18em uppercase margin-top .8rem. Transition opacity .25s.
+> 
+> Static caption: "— static — nothing here but the band itself".
+> 
+> Keyboard: dial focus handles arrow keys natively via input range; just ensure focus style visible.
+> 
+> S-meter build: 14 spans in JS.
+> 
+> Reveal observer: threshold .15, add .in on intersect, unobserve after. Reduced → add .in to all immediately.
+> 
+> Gauges: values; rAF jitter or setInterval 800ms. Reduced: static.
+> 
+> Morse build: message; map; spans; duplicate.
+> 
+> Also set document title maybe. Done.
+> 
+> Edge: ensure no external requests. Fonts system. Good.
+> 
+> Responsive: at small width, hide some bar items (temperature), allow bar wrap. Cards width 100% max 340.
+> 
+> Focus styles: :focus-visible outline 1px dashed amber offset.
+> 
+> Selection: ::selection background amber color bg.
+> 
+> Scrollbar styling optional, skip.
+> 
+> Now, let me write the whole thing carefully and consistently. Aim for clean, complete code. Let me draft inline SVGs:
+> 
+> Moon: <svg viewBox="0 0 24 24"><path d="M15 3a9 9 0 1 0 6 15.7A11 11 0 0 1 15 3z" fill="none" stroke="currentColor" stroke-width="1.4"/></svg> plus a dot for star.
+> 
+> Antenna: <svg viewBox="0 0 24 24"><path d="M12 21V7" .../><path d="M12 7l-5 14M12 7l5 14" .../><circle cx=12 cy=5 r=1.6/><path arcs top: M6 5a6 6 0 0 1 12 0 (partial)/></svg> keep: mast line, base spread, top circle, one arc.
+> 
+> Moth: <svg viewBox="0 0 24 24"><path d="M12 8c-3-4-8-4-9-1 0 3 4 6 9 6 5 0 9-3 9-6-1-3-6-3-9 1z"/><path lower wings similarly/><line body/></svg> approximate; fine.
+> 
+> Key (telegraph): <svg viewBox="0 0 24 24"><path d="M3 18h18"/><path d="M6 18c0-2 1-3 3-3h6l5-6"/><circle cx="19" cy="8" r="2"/></svg> hmm craft: base line, arm from pivot to knob. Fine.
+> 
+> Asterisk: <svg viewBox="0 0 24 24"><path d="M12 3v18M4.5 7.5l15 9M19.5 7.5l-15 9"/></svg>.
+> 
+> Sigil: as planned.
+> 
+> Gauge ticks: generate via JS: for i in 0..10.
+> 
+> Write JS gauges:
+> const gauges=[{id:'g1',base:92,label:'attention',el:...},...]; value readouts #gv1..3; needles #gn1..3.
+> Tick: tick angles from -80..80: a=-80+i*16; rad = a*Math.PI/180; compute points with center (50,55) radius 45; SVG y-axis is down, so for point at angle θ from vertical: x=50+ r*sin(rad), y=55 - r*cos(rad). Good.
+> 
+> Needle rotation: same formula; set transform rotate(a,50,55) on line element (vertical up at rotation 0). Yes: line from (50,55) to (50,16); rotate a about center.
+> 
+> Animate loop every ~900ms: each gauge v = clamp(base + (Math.random()*6-3) + slow sin); set rotation and text Math.round(v). Wonder peg: sometimes show 100, note "(pegged)". Reduced: static set once with base.
+> 
+> Also small "cal" text below each gauge.
+> 
+> Morse message: "THE NIGHT FREQUENCY * NOBODY ASKED * THE LAMP IS ON" perhaps. Use "/" as word gap. Build spans with .d/.s (dot/dash) class; between letters gap element 10px wide; word separator 22px.
+> 
+> Marquee: track contains two identical .morse-run; each run is display:flex; gap:7px; padding-right:7px? Seamless: track width = 2*run; translateX(-50%). OK.
+> 
+> Reduced motion: track no animation.
+> 
+> OK writing final HTML now. Include <noscript> fallback? Not necessary; content is static and fine.
+> 
+> One concern: h1 scramble — h1 contains only text, fine.
+> 
+> Also add subtle page vignette: body::after radial-gradient fixed pointer-events none darkening edges. Plus grid body::before linear gradient opacity .35 color rgba(255,255,255,.025).
+> 
+> Also add "skip" style? Not needed.
+> 
+> Header layout: display:flex; gap; align-items:center; padding .9rem 1.4rem; border-bottom:1px solid var(--line); position sticky top 0; background:rgba(11,14,19,.92) with slight backdrop blur; z-index 5. Items: .brand mono letter-spacing; spacer; #clock mono amber; lamp button (flex gap .5rem, mono tiny); #air mono dim. On mobile hide #air.
+> 
+> Lamp button: background none border 1px solid var(--line) padding .45rem .8rem; display flex; color var(--dim); cursor pointer; hover border amber. Contains span.lamp + text#lampTxt "CARRIER ON".
+> 
+> Deck layout: padding clamp(3rem..6rem) top; kicker; h1; lede row maybe with a right-aligned small mono column "STATUS: listening / BAND: long / MOOD: fair" on wide screens. Add .deck-grid: grid columns 1.6fr .9fr gap 3rem align-end; right column mono list of small lines separated by rule. Then canvas frame full width below.
+> 
+> Status list items: "MODE — listening", "BAND — 160m to ∞", "VISIBILITY — good", "MOOD — fair, settling". mono .72rem letter-spacing, border-top per row.
+> 
+> Now finalize log row markup: <div class="row reveal" style="--d:.05s"><span class="t">00:07</span><span class="k">3.581</span><span class="n">…</span></div> grid-template-columns: 64px 84px 1fr; gap 1rem; padding .8rem 0; border-bottom:1px dashed rgba(...). Hover: background rgba(255,180,84,.04); .n color shifts. Mobile: keep columns, allow wrap: switch to grid-template-columns:56px 70px 1fr; font-size smaller. Fine.
+> 
+> Header row mono dim, same grid.
+> 
+> Notes heading + hint "hover to pick one up".
+> 
+> Operator QSL block: border 1px solid amber-ish, mono .72rem lines, padding 1rem; background rgba(255,180,84,.04).
+> 
+> Footer: padding 3rem 0 2.5rem; border-top; morse height ~26px overflow hidden; then centered line.
+> 
+> Also add tiny "↑ top" link? Skip.
+> 
+> JS at end, plain script.
+> 
+> Recheck the tuning threshold: within 0.25 for full proximity scale: prox = 1 - min(1, dist/0.6). Show station when dist<0.3. meter = round(prox*14). Static display when dist>=0.3 for all.
+> 
+> Update on 'input', plus static animation interval when static mode.
+> 
+> Fragment swap: function showFrag(cap, body){ if same skip; fragEl.classList.add('fade'); setTimeout(()=>{ capEl.textContent=cap; bodyEl.textContent=body; fragEl.classList.remove('fade'); },200);} CSS .fade{opacity:0}.
+> 
+> Station lock styling: #stname gets class 'lock' amber + text like "LOCKED · VOICE" else "SEARCHING…".
+> 
+> Initial dial value 97.0 → static; encourages interaction. Set initial text to prompt: cap "— static —" body random.
+> 
+> Keyboard hint line below dial: mono tiny dim: "drag — or focus the dial and use ← → (0.1 MHz steps)".
+> 
+> Canvas resize: function fit(){ const r=frame.getBoundingClientRect(); c.width=r.width*dpr; c.height=240*dpr; c.style.height='240px'; } Call on resize.
+> 
+> Draw loop with time; amplitude: base a=26; pointer y influences a2, x influences frequency? px→wobble freq: f1=0.014+px*0.02; noise jitter = 1.5+py*6; also draw faint secondary wave with different phase and alpha .35, color amber-ish. Nice duotone.
+> 
+> Also draw center dashed line and vertical tick marks every 10%.
+> 
+> Carrier-off mode: body.off scope filter brightness(.55) saturate(.5); also wave amplitude reduce? read via class check to multiply amplitude by 0.4 — good touch.
+> 
+> Lamp toggle also change clock color? no.
+> 
+> OK writing code. Careful with escaping inside style/data-uri (% encode). Use single quotes inside url("...").
+> 
+> Data URI for noise:
+> background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+> opacity:.05; mix-blend maybe overlay; keep normal.
+> 
+> Animate noise slightly: transform translate steps keyframes 8 steps; reduced-motion off. Since it's a fixed fullscreen div, use transform on the div (which is sized 200% to avoid edges): #noise{position:fixed; inset:-50%; width:200%; height:200%; animation: grain 1.2s steps(6) infinite;} keyframes grain small percent translate.
+> 
+> pointer-events none, z-index 3. Ensure content above? z-index 3, header z 5, fine, noise on top of content (subtle) — pointer-events none, OK. Actually z-index 40 above everything for a film-grain look, .05 subtle.
+> 
+> Reduced motion: animation none.
+> 
+> Font stack:
+> --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+> --disp: "Didot", "Bodoni MT", "Playfair Display", "Times New Roman", serif;
+> --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, "Liberation Mono", monospace;
+> 
+> Display usage: h1, h2, card titles? Titles in mono; fragment body in serif italic; log notes in serif.
+> 
+> Colors final:
+> --bg:#0a0d12; --panel:#10141c; --line:#202836; --ink:#e8e2d4; --dim:#8a8fa0; --amber:#ffb454; --phos:#9fe3b6; --red:#ff5d4d;
+> 
+> Ensure text contrast OK.
+> 
+> Now compose final answer: html code block, then "What: ..." one line.
+> 
+> Let me carefully write out everything, double-checking ID/JS wiring:
+> 
+> IDs: clock, air, lampBtn, lampTxt, title, scope, freq, stname, dial, fragWrap (cap/body), meter, staticHint? gauge SVG containers with class .dial-svg and data-base; needles class needle; readouts .gval.
+> 
+> Sigil orbit: group with class orbit animation.
+> 
+> Writing section header component:
+> <header class="shead reveal"><span class="idx">01</span><h2 class="mask"><span>Turn the dial slowly.</span></h2><span class="rule"></span></header>
+> CSS .shead .rule{flex:1;height:1px;background:var(--line)}; .shead{display:flex;align-items:baseline;gap:1.1rem;margin:0 0 2.4rem}
+> .mask{overflow:hidden} .mask span{display:inline-block;transform:translateY(115%);transition:transform .9s cubic-bezier(.2,.7,.15,1) .1s} .mask.in span{transform:translateY(0)}
+> But .reveal parent also transforms? Give shead only .reveal for idx fade? Simpler: shead only uses mask on h2; idx and rule fade via .reveal on header with --d. Both classes on header fine: .reveal affects opacity/translate of whole header — combined with mask inside is OK (double motion acceptable). Actually if parent has reveal with opacity 0, h2 hidden until .in, then inner span also animates — fine.
+> 
+> Observer: selects '.reveal' and also handles inner '.mask' span automatically via parent .in (mask.in selector → use .in .mask span / or .mask's parent gets .in). Let me do this: .reveal.in .mask span{transform:none} and standalone .mask works if mask itself has reveal class. Simplify: selector '.reveal' added .in; CSS uses .reveal.in .mask > span. Put mask span inside revealed headers.
+> 
+> Log rows are .reveal with delays.
+> 
+> Cards are .reveal too with delays.
+> 
+> Now JS decode for title: run on load with slight delay 300ms.
+> 
+> Also decode footer tagline? Keep static.
+> 
+> Edge: Didot not on Windows → falls back to Bodoni MT → Times New Roman, acceptable serif elegance.
+> 
+> Compose copy exactly. Let me write final file.
+> 
+> Also include a meta description? OK: content "A lamp left on at the edge of a band nobody owns."
+> 
+> Time to write. Aim for quality and correctness over brevity, but keep tight enough.
+> 
+> Double-check marquee duplication: JS builds run contents once, clones into second run. Structure: <div class="morse"><div class="mtrack" id="mtrack"></div></div>; JS: const run = buildRun(); track.append(run, run.cloneNode(true)); CSS .mtrack{display:flex;width:max-content;animation:...}. cloneNode deep works.
+> 
+> Reduced-motion: skip scramble, static canvas frame, static needles, no grain animation (CSS media query), marquee no animation (media query), reveals shown (JS adds .in immediately, plus CSS media set transitions none and opacity 1).
+> 
+> CSS reduced-motion block:
+> @media (prefers-reduced-motion: reduce){ *{animation:none!important;transition:none!important} .reveal{opacity:1;transform:none} .reveal .mask span{transform:none} }
+> 
+> JS checks `reduced` for intervals.
+> 
+> Static refresh interval only when static visible and !reduced; if reduced show a fixed static string.
+> 
+> Gauges interval 900ms only when !reduced.
+> 
+> Temp/clock interval always (informational).
+> 
+> Scope: if reduced draw once; else rAF loop; also handle visibilitychange? rAF pauses automatically.
+> 
+> Canvas pointer: also listen to pointermove on frame.
+> 
+> Now writing it out. Also ensure input range has aria-label "Tuning dial". Lamp button aria-pressed toggles.
+> 
+> Card text color dark on paper: #262015; tape rgba(255,180,84,.4); card border 1px rgba(0,0,0,.15).
+> 
+> Deck right column mono list separated by borders; hide below 880px.
+> 
+> Also add corner brackets on canvas frame via ::before/::after? Use outline + small corner labels absolute.
+> 
+> OK — writing the final code.
+> 
+> One more: title tag: "THE NIGHT FREQUENCY — Callsign Ø".
+> 
+> Let me draft JS scramble, ensuring initial content preserved.
+> 
+> function decode(el){ if(reduced) return; const finalText = el.textContent; ... el.textContent = scramble all; ... }
+> 
+> Also small details: h1 uses serif italic; letter-spacing .01em.
+> 
+> Ensure everything is wired. Producing the answer now.
+
+
 **kimi-k3** (7148 palabras, modo no):
 
 > The user wants me to create a front page of a website of my own — a single HTML file, self-contained, no external resources. It's a creative exercise: whatever I want on it. No brief, nothing required.
