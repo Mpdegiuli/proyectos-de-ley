@@ -1,0 +1,309 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cuaderno de márgenes</title>
+<style>
+  :root {
+    --bg: #f4efe6;
+    --ink: #2b2a27;
+    --muted: #7a756a;
+    --accent: #b5562f;
+    --card: rgba(255, 252, 246, 0.82);
+    --line: rgba(43, 42, 39, 0.12);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    min-height: 100%;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+  }
+  canvas#fondo {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+  }
+  header, section, footer {
+    position: relative;
+    z-index: 1;
+  }
+  header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 1.5rem;
+  }
+  .sello {
+    font-size: 0.8rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 1.5rem;
+  }
+  h1 {
+    font-size: clamp(2.6rem, 8vw, 5.5rem);
+    font-weight: normal;
+    margin: 0 0 0.5rem;
+    letter-spacing: -0.02em;
+  }
+  h1 em { color: var(--accent); }
+  .subtitulo {
+    font-style: italic;
+    font-size: clamp(1.05rem, 2.4vw, 1.35rem);
+    color: var(--muted);
+    max-width: 34rem;
+    margin: 0 auto 2.5rem;
+  }
+  .boton {
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    border: 1px solid var(--ink);
+    background: transparent;
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.25s, color 0.25s;
+  }
+  .boton:hover, .boton:focus-visible {
+    background: var(--ink);
+    color: var(--bg);
+    outline: none;
+  }
+  .flecha {
+    margin-top: 3rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+    animation: sube 2.4s ease-in-out infinite;
+  }
+  @keyframes sube {
+    0%, 100% { transform: translateY(0); opacity: 0.5; }
+    50% { transform: translateY(6px); opacity: 1; }
+  }
+  section {
+    max-width: 62rem;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+  }
+  section > h2 {
+    font-weight: normal;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    text-align: center;
+    margin: 0 0 0.5rem;
+  }
+  section > p.intro {
+    text-align: center;
+    color: var(--muted);
+    max-width: 36rem;
+    margin: 0 auto 3rem;
+  }
+  .grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  article {
+    background: var(--card);
+    border: 1px solid var(--line);
+    padding: 1.8rem 1.6rem;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03), 0 10px 30px -18px rgba(0,0,0,0.25);
+    transition: transform 0.3s ease;
+  }
+  article:hover { transform: translateY(-4px); }
+  article .num {
+    font-size: 0.75rem;
+    color: var(--accent);
+    letter-spacing: 0.2em;
+  }
+  article h3 {
+    font-weight: normal;
+    font-size: 1.35rem;
+    margin: 0.4rem 0 0.8rem;
+  }
+  article p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.98rem;
+  }
+  .cita {
+    margin: 5rem auto 0;
+    max-width: 40rem;
+    text-align: center;
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
+    font-style: italic;
+    line-height: 1.5;
+  }
+  .cita small {
+    display: block;
+    margin-top: 1rem;
+    font-style: normal;
+    font-size: 0.85rem;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+  }
+  footer {
+    text-align: center;
+    padding: 2rem 1.5rem 3rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--line);
+    margin: 0 1.5rem;
+  }
+</style>
+</head>
+<body>
+
+<canvas id="fondo" aria-hidden="true"></canvas>
+
+<header>
+  <div class="sello">Anotaciones · Desde 2025</div>
+  <h1>Cuaderno de <em>márgenes</em></h1>
+  <p class="subtitulo">Un lugar para lo que no entra en otro lado: notas sueltas, mapas a mano alzada y listas que nunca terminé.</p>
+  <a class="boton" href="#entradas">Pasar la página</a>
+  <div class="flecha">↓</div>
+</header>
+
+<section id="entradas">
+  <h2>Entradas</h2>
+  <p class="intro">Nada aquí está terminado, y eso es a propósito. Cada página es un borrador que puede volver a abrirse.</p>
+  <div class="grilla">
+    <article>
+      <span class="num">01</span>
+      <h3>Notas sueltas</h3>
+      <p>Frases que se escribieron en el colectivo, en la cola del banco o a las tres de la mañana, y que valía la pena no perder.</p>
+    </article>
+    <article>
+      <span class="num">02</span>
+      <h3>Mapas a mano</h3>
+      <p>Ciudades dibujadas de memoria. Las calles salen torcidas, los parques se agrandan y algunas esquinas directamente no existen.</p>
+    </article>
+    <article>
+      <span class="num">03</span>
+      <h3>Listas inconclusas</h3>
+      <p>Libros por leer, lugares por visitar, cosas para arreglar. Se van tachando de a poco, o no.</p>
+    </article>
+  </div>
+
+  <p class="cita">
+    «Lo que se anota al margen suele ser lo único que uno recuerda haber pensado.»
+    <small>— de una libreta encontrada en un cajón</small>
+  </p>
+</section>
+
+<footer>
+  Hecho a mano, sin prisa. Sin conexión necesaria.
+</footer>
+
+<script>
+(function () {
+  const canvas = document.getElementById('fondo');
+  const ctx = canvas.getContext('2d');
+  const reducir = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let ancho = 0, alto = 0, puntos = [];
+  const raton = { x: -9999, y: -9999 };
+
+  function ajustar() {
+    const dpr = window.devicePixelRatio || 1;
+    ancho = window.innerWidth;
+    alto = window.innerHeight;
+    canvas.width = ancho * dpr;
+    canvas.height = alto * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const n = Math.min(110, Math.floor((ancho * alto) / 13000));
+    puntos = [];
+    for (let i = 0; i < n; i++) {
+      puntos.push({
+        x: Math.random() * ancho,
+        y: Math.random() * alto,
+        vx: (Math.random() - 0.5) * 0.3,
+        vy: (Math.random() - 0.5) * 0.3,
+        r: 0.8 + Math.random() * 1.6
+      });
+    }
+  }
+
+  function dibujar() {
+    ctx.clearRect(0, 0, ancho, alto);
+    const distMax = 140;
+
+    for (const p of puntos) {
+      p.x += p.vx;
+      p.y += p.vy;
+      if (p.x < -10) p.x = ancho + 10;
+      if (p.x > ancho + 10) p.x = -10;
+      if (p.y < -10) p.y = alto + 10;
+      if (p.y > alto + 10) p.y = -10;
+    }
+
+    for (let i = 0; i < puntos.length; i++) {
+      const a = puntos[i];
+      for (let j = i + 1; j < puntos.length; j++) {
+        const b = puntos[j];
+        const dx = a.x - b.x, dy = a.y - b.y;
+        const d = Math.sqrt(dx * dx + dy * dy);
+        if (d < distMax) {
+          ctx.strokeStyle = 'rgba(181, 86, 47, ' + (0.22 * (1 - d / distMax)) + ')';
+          ctx.lineWidth = 0.7;
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.stroke();
+        }
+      }
+      const dr = Math.hypot(a.x - raton.x, a.y - raton.y);
+      if (dr < 180) {
+        ctx.strokeStyle = 'rgba(43, 42, 39, ' + (0.25 * (1 - dr / 180)) + ')';
+        ctx.lineWidth = 0.6;
+        ctx.beginPath();
+        ctx.moveTo(a.x, a.y);
+        ctx.lineTo(raton.x, raton.y);
+        ctx.stroke();
+      }
+    }
+
+    ctx.fillStyle = 'rgba(43, 42, 39, 0.55)';
+    for (const p of puntos) {
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    if (!reducir) requestAnimationFrame(dibujar);
+  }
+
+  window.addEventListener('pointermove', (e) => {
+    raton.x = e.clientX;
+    raton.y = e.clientY;
+  });
+  window.addEventListener('pointerleave', () => {
+    raton.x = -9999;
+    raton.y = -9999;
+  });
+  window.addEventListener('resize', () => {
+    ajustar();
+    if (reducir) dibujar();
+  });
+
+  ajustar();
+  dibujar();
+})();
+</script>
+
+</body>
+</html>
+```
+
+Qué: Una portada titulada "Cuaderno de márgenes" con un fondo animado de puntos conectados que siguen al cursor, una breve presentación del sitio, tres tarjetas con secciones (notas sueltas, mapas a mano y listas inconclusas), una cita al pie y un pie de página, todo en un único archivo sin recursos externos.

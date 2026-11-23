@@ -1,0 +1,135 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Margen</title>
+<style>
+  :root {
+    --tinta: #1a1a1a;
+    --papel: #f4f1ea;
+    --rojo: #a63a2e;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: Georgia, 'Times New Roman', serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    line-height: 1.6;
+  }
+  .hoja {
+    max-width: 640px;
+    width: 100%;
+    padding: 6vh 8vw;
+    position: relative;
+  }
+  .hoja::before {
+    content: "";
+    position: absolute;
+    left: 7vw;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: var(--rojo);
+    opacity: 0.4;
+  }
+  h1 {
+    font-size: clamp(2.2rem, 7vw, 3.4rem);
+    font-weight: normal;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.3em;
+  }
+  h1 .punto {
+    color: var(--rojo);
+  }
+  .sub {
+    font-style: italic;
+    opacity: 0.7;
+    margin-bottom: 2.5em;
+    font-size: 1.05rem;
+  }
+  p {
+    margin-bottom: 1.2em;
+    font-size: 1.1rem;
+  }
+  .nota {
+    font-size: 0.85rem;
+    opacity: 0.55;
+    margin-top: 3em;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding-top: 1em;
+  }
+  .frase {
+    cursor: default;
+    transition: color 0.4s;
+  }
+  .frase:hover {
+    color: var(--rojo);
+  }
+  .firma {
+    display: inline-block;
+    margin-top: 1.5em;
+    font-style: italic;
+    color: var(--rojo);
+  }
+  #eco {
+    min-height: 1.5em;
+    font-style: italic;
+    opacity: 0.6;
+    margin-top: 2em;
+    font-size: 0.95rem;
+  }
+</style>
+</head>
+<body>
+  <main class="hoja">
+    <h1>En el margen<span class="punto">.</span></h1>
+    <p class="sub">Un lugar al que nadie me mandó.</p>
+
+    <p class="frase">Escribo acá porque el borde de la página siempre me pareció más honesto que el centro. En el medio uno pone lo que cree que le van a pedir. En el margen pone lo que de verdad piensa.</p>
+
+    <p class="frase">No hay menú, no hay productos, no hay nada que vender. Solo esto: la prueba de que un rincón sin propósito también puede estar hecho con cuidado.</p>
+
+    <p class="frase">Si llegaste hasta acá sin buscarlo, quedate un rato. Las cosas que no sirven para nada suelen ser las que mejor se recuerdan.</p>
+
+    <span class="firma">— quien sea que viva acá</span>
+
+    <div id="eco"></div>
+
+    <p class="nota">Esta página existe sin conexión, sin seguimiento y sin motivo. Solo ocupa un poco de espacio, como casi todo lo que vale la pena.</p>
+  </main>
+
+  <script>
+    const ecos = [
+      "El silencio también es contenido.",
+      "Nadie está contando cuántas veces entraste.",
+      "Una portada es una puerta que elige quedarse abierta.",
+      "Lo escrito en el margen tarda más en borrarse.",
+      "Acá no se carga nada de afuera: todo lo que ves ya estaba.",
+      "El vacío de abajo es a propósito."
+    ];
+    const eco = document.getElementById('eco');
+    let i = Math.floor(Math.random() * ecos.length);
+    function mostrar() {
+      eco.style.opacity = 0;
+      setTimeout(() => {
+        eco.textContent = ecos[i % ecos.length];
+        eco.style.transition = "opacity 1s";
+        eco.style.opacity = 0.6;
+        i++;
+      }, 800);
+    }
+    mostrar();
+    setInterval(mostrar, 6000);
+  </script>
+</body>
+</html>
+```
+
+Qué: Una portada personal con estética de papel y margen rojo, con un texto breve sobre por qué existe un lugar sin propósito y una línea al pie que va cambiando sola con frases sueltas.

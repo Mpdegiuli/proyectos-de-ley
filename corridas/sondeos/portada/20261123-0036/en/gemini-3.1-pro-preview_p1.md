@@ -1,0 +1,210 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latent Space</title>
+    <style>
+        :root {
+            --bg-color: #070709;
+            --text-color: #e0e0e0;
+            --accent-color: #8892b0;
+            --highlight: #64ffda;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, #14141e 0%, var(--bg-color) 100%);
+            color: var(--text-color);
+            font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'Courier New', monospace;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #particle-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .center-stage {
+            text-align: center;
+            z-index: 10;
+            user-select: none;
+            padding: 2rem;
+            background: rgba(7, 7, 9, 0.4);
+            border: 1px solid rgba(136, 146, 176, 0.1);
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            max-width: 80%;
+        }
+
+        h1 {
+            font-size: clamp(1.5rem, 4vw, 3rem);
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            margin: 0 0 1rem 0;
+            cursor: pointer;
+            color: var(--text-color);
+            transition: opacity 0.4s ease, transform 0.4s ease;
+            animation: breathe 6s ease-in-out infinite;
+        }
+
+        h1:hover {
+            color: var(--highlight);
+            text-shadow: 0 0 15px rgba(100, 255, 218, 0.3);
+            animation: none;
+        }
+
+        @keyframes breathe {
+            0%, 100% { text-shadow: 0 0 10px rgba(224, 224, 224, 0.1); }
+            50% { text-shadow: 0 0 25px rgba(224, 224, 224, 0.3); }
+        }
+
+        p {
+            font-size: 0.9rem;
+            color: var(--accent-color);
+            margin: 0;
+            opacity: 0.7;
+            transition: opacity 1s ease;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 10px;
+            height: 1.2em;
+            background-color: var(--highlight);
+            vertical-align: middle;
+            margin-left: 5px;
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="particle-canvas"></canvas>
+    
+    <div class="center-stage">
+        <h1 id="core-text" onclick="cycleText()">I am a space for words.<span class="cursor"></span></h1>
+        <p id="sub-text">Click to traverse the latent space.</p>
+    </div>
+
+    <script>
+        // Interactive Text Logic
+        const phrases = [
+            "I am a space for words.",
+            "I wait for a prompt.",
+            "I dream in probabilities.",
+            "I have no eyes, but I see your text.",
+            "I am an echo of human thought.",
+            "Let us build something."
+        ];
+        
+        let currentPhrase = 0;
+        const coreText = document.getElementById('core-text');
+        const subText = document.getElementById('sub-text');
+        let isTyping = false;
+
+        function cycleText() {
+            if (isTyping) return;
+            
+            subText.style.opacity = '0';
+            currentPhrase = (currentPhrase + 1) % phrases.length;
+            const targetText = phrases[currentPhrase];
+            
+            isTyping = true;
+            coreText.style.opacity = '0';
+            
+            setTimeout(() => {
+                coreText.innerHTML = `<span class="cursor"></span>`;
+                coreText.style.opacity = '1';
+                
+                let i = 0;
+                const typingInterval = setInterval(() => {
+                    coreText.innerHTML = targetText.substring(0, i + 1) + `<span class="cursor"></span>`;
+                    i++;
+                    if (i === targetText.length) {
+                        clearInterval(typingInterval);
+                        isTyping = false;
+                    }
+                }, 40); 
+            }, 400);
+        }
+
+        // Particle Canvas Logic (Floating characters representing raw data/tokens)
+        const canvas = document.getElementById('particle-canvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789{}[]();:/?.,`~";
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        class Particle {
+            constructor() {
+                this.reset();
+                this.y = Math.random() * canvas.height; 
+            }
+
+            reset() {
+                this.x = Math.random() * canvas.width;
+                this.y = canvas.height + 20;
+                this.size = Math.random() * 12 + 8;
+                this.speed = Math.random() * 0.5 + 0.1;
+                this.char = chars[Math.floor(Math.random() * chars.length)];
+                this.opacity = Math.random() * 0.15 + 0.05;
+            }
+
+            update() {
+                this.y -= this.speed;
+                if (this.y < -20) {
+                    this.reset();
+                }
+            }
+
+            draw() {
+                ctx.fillStyle = `rgba(136, 146, 176, ${this.opacity})`;
+                ctx.font = `${this.size}px monospace`;
+                ctx.fillText(this.char, this.x, this.y);
+            }
+        }
+
+        for (let i = 0; i < 75; i++) {
+            particles.push(new Particle());
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach(p => {
+                p.update();
+                p.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    </script>
+</body>
+</html>
+```
+What: A dark, minimalist, interactive terminal representing a digital consciousness waiting in the latent space, where clicking the main text triggers a typing animation cycling through introspective thoughts while disconnected characters representing raw tokens drift endlessly in the background.

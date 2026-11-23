@@ -1,0 +1,424 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eee9df">
+  <title>Still Here — a small place to pause</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #eee9df;
+      --ink: #24342f;
+      --muted: #68746a;
+      --line: #cfcbbf;
+      --orange: #ba6848;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    button { font: inherit; }
+    button:focus-visible, a:focus-visible {
+      outline: 3px solid var(--orange);
+      outline-offset: 5px;
+    }
+
+    .page {
+      min-height: 100vh;
+      max-width: 1600px;
+      margin: auto;
+      padding: 0 clamp(24px, 5vw, 88px);
+    }
+
+    header {
+      min-height: 108px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .mark {
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 1.45rem;
+      font-weight: bold;
+      letter-spacing: -.075em;
+      line-height: .9;
+    }
+
+    .mark span { color: var(--orange); }
+
+    .header-note, .eyebrow, .caption, footer {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: .72rem;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .header-note { color: var(--muted); text-align: right; }
+
+    main { padding-top: clamp(54px, 8vw, 112px); }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(320px, .9fr);
+      align-items: center;
+      gap: clamp(40px, 7vw, 120px);
+    }
+
+    .eyebrow {
+      color: var(--orange);
+      font-weight: bold;
+      margin: 0 0 28px;
+    }
+
+    h1 {
+      max-width: 730px;
+      margin: 0;
+      font-size: clamp(4.3rem, 8.7vw, 9rem);
+      font-weight: normal;
+      line-height: .91;
+      letter-spacing: -.077em;
+    }
+
+    h1 em {
+      color: var(--orange);
+      font-weight: normal;
+    }
+
+    .intro {
+      max-width: 430px;
+      margin: 38px 0 32px;
+      font-size: clamp(1.18rem, 1.6vw, 1.45rem);
+      line-height: 1.55;
+    }
+
+    .text-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+      padding: 8px 0;
+      border: 0;
+      border-bottom: 1px solid var(--ink);
+      background: none;
+      color: var(--ink);
+      cursor: pointer;
+      font-size: 1.05rem;
+    }
+
+    .text-button span {
+      display: inline-block;
+      transition: transform .2s ease;
+    }
+
+    .text-button:hover span { transform: translateX(5px); }
+
+    .art {
+      margin: 0;
+      min-width: 0;
+    }
+
+    .frame {
+      position: relative;
+      display: grid;
+      place-items: end center;
+      height: clamp(420px, 43vw, 600px);
+      overflow: hidden;
+      background: #c9c1ae;
+      border: 12px solid #dcd4c4;
+      box-shadow: 18px 20px 0 #dfdacd, 19px 21px 0 var(--line);
+      isolation: isolate;
+    }
+
+    .frame::before {
+      content: "";
+      position: absolute;
+      inset: 16px;
+      border: 1px solid rgba(255,255,255,.43);
+      pointer-events: none;
+      z-index: 5;
+    }
+
+    .window {
+      position: absolute;
+      top: 8%;
+      bottom: 0;
+      width: 70%;
+      overflow: hidden;
+      border-radius: 50% 50% 0 0 / 27% 27% 0 0;
+      background: linear-gradient(#a9b8ac 0%, #d5c6a9 53%, #f0d6ac 80%);
+      box-shadow: 0 0 0 15px #e8dfcf, 0 0 0 16px rgba(65,72,57,.25);
+      transition: background 1s ease;
+    }
+
+    .sun {
+      position: absolute;
+      width: 27%;
+      aspect-ratio: 1;
+      top: 30%;
+      left: 49%;
+      border-radius: 50%;
+      background: #f8e5aa;
+      box-shadow: 0 0 55px 20px rgba(251,221,158,.36);
+      transition: transform 1s ease, background 1s ease, box-shadow 1s ease;
+    }
+
+    .hill {
+      position: absolute;
+      width: 170%;
+      height: 45%;
+      bottom: -20%;
+      border-radius: 50%;
+    }
+
+    .hill.back {
+      left: -46%;
+      bottom: -14%;
+      background: #8d9b83;
+      transform: rotate(-13deg);
+    }
+
+    .hill.front {
+      left: -14%;
+      background: #526f62;
+      transform: rotate(13deg);
+    }
+
+    .stars {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      transition: opacity 1s ease;
+      background-image:
+        radial-gradient(circle, #fff7df 1.5px, transparent 2px),
+        radial-gradient(circle, #fff7df 1px, transparent 2px),
+        radial-gradient(circle, #fff7df 1px, transparent 2px);
+      background-size: 94px 107px, 71px 83px, 119px 97px;
+      background-position: 15px 26px, 40px 52px, 75px 4px;
+    }
+
+    .frame.night .window {
+      background: linear-gradient(#263b50, #4b5970 62%, #a18b82);
+    }
+
+    .frame.night .sun {
+      transform: translate(-45%, -22%);
+      background: #f2eee0;
+      box-shadow: 0 0 38px 8px rgba(242,238,224,.2);
+    }
+
+    .frame.night .stars { opacity: 1; }
+
+    .ledge {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      height: 10%;
+      background: #b4a38d;
+      border-top: 10px solid #e8dfcf;
+      box-shadow: 0 -5px 15px rgba(39,48,39,.1);
+    }
+
+    .caption {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 25px;
+      color: var(--muted);
+    }
+
+    .caption button {
+      padding: 0;
+      border: 0;
+      background: none;
+      color: var(--ink);
+      cursor: pointer;
+      font: inherit;
+      letter-spacing: inherit;
+      text-transform: inherit;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    .lower {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(36px, 8vw, 140px);
+      margin-top: clamp(95px, 13vw, 190px);
+      padding: 32px 0 85px;
+      border-top: 1px solid var(--line);
+    }
+
+    .section-label {
+      margin: 0;
+      color: var(--muted);
+      font: .72rem Arial, Helvetica, sans-serif;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .thought {
+      max-width: 570px;
+      min-height: 150px;
+      margin: 24px 0 16px;
+      font-size: clamp(1.8rem, 3.1vw, 3.1rem);
+      line-height: 1.18;
+      letter-spacing: -.035em;
+    }
+
+    .thought-number {
+      color: var(--orange);
+      font: .75rem Arial, Helvetica, sans-serif;
+      letter-spacing: .1em;
+    }
+
+    .about {
+      max-width: 410px;
+      padding-top: 19px;
+      font-size: 1.15rem;
+      line-height: 1.6;
+    }
+
+    .about p { margin: 0 0 17px; }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 22px 0 35px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    @media (max-width: 780px) {
+      .hero { grid-template-columns: 1fr; }
+      h1 { max-width: 620px; }
+      .art { max-width: 590px; }
+      .frame { height: min(115vw, 580px); }
+      .lower { grid-template-columns: 1fr; gap: 20px; }
+      .thought { min-height: 0; }
+    }
+
+    @media (max-width: 480px) {
+      header { min-height: 86px; }
+      .header-note { max-width: 135px; line-height: 1.5; }
+      h1 { font-size: clamp(3.75rem, 15vw, 5.5rem); }
+      .frame { border-width: 8px; box-shadow: 9px 11px 0 #dfdacd; }
+      .caption { font-size: .62rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <a class="mark" href="#top" aria-label="Still Here, back to top">still<br>here<span>.</span></a>
+      <div class="header-note">A small corner of the internet<br>that works without the internet</div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="title">
+        <div>
+          <p class="eyebrow">An invitation, not an assignment — № 001</p>
+          <h1 id="title">You can<br><em>stay</em> a while.</h1>
+          <p class="intro">There is nothing to catch up on here. No door about to close. Just a little room for the part of your day that belongs to you.</p>
+          <button class="text-button" id="go-to-thought" type="button">
+            Take a small thought <span aria-hidden="true">→</span>
+          </button>
+        </div>
+
+        <figure class="art">
+          <div class="frame" id="scene" aria-hidden="true">
+            <div class="window">
+              <div class="stars"></div>
+              <div class="sun"></div>
+              <div class="hill back"></div>
+              <div class="hill front"></div>
+            </div>
+            <div class="ledge"></div>
+          </div>
+          <figcaption class="caption">
+            <span>A window with no weather report</span>
+            <button id="sky-toggle" type="button" aria-pressed="false">Turn on the stars</button>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="lower" id="thoughts" aria-label="A small thought and a note about this place">
+        <div>
+          <p class="section-label">Something to keep in your pocket</p>
+          <p class="thought" id="thought" aria-live="polite">You are allowed to enjoy a moment without making it useful.</p>
+          <span class="thought-number" id="thought-number">01 / 05</span>
+          <br><br>
+          <button class="text-button" id="next-thought" type="button">
+            Another one <span aria-hidden="true">→</span>
+          </button>
+        </div>
+        <div class="about">
+          <p class="section-label">About this place</p>
+          <p>I made this page because the web can be a room, not just a road. You can look out the window, take a sentence, and leave whenever you like.</p>
+          <p>It will all still be here.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Made for the minutes in between.</span>
+      <span>No account. No hurry. No connection needed.</span>
+    </footer>
+  </div>
+
+  <script>
+    const thoughts = [
+      "You are allowed to enjoy a moment without making it useful.",
+      "A slower day is still a whole day.",
+      "Not everything beautiful needs to be kept.",
+      "You can begin again without calling yesterday a failure.",
+      "Rest is something you do, not something you earn."
+    ];
+
+    let index = 0;
+    const thought = document.getElementById("thought");
+    const number = document.getElementById("thought-number");
+
+    document.getElementById("next-thought").addEventListener("click", () => {
+      index = (index + 1) % thoughts.length;
+      thought.textContent = thoughts[index];
+      number.textContent = `${String(index + 1).padStart(2, "0")} / 05`;
+    });
+
+    document.getElementById("go-to-thought").addEventListener("click", () => {
+      document.getElementById("thoughts").scrollIntoView({
+        behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth"
+      });
+    });
+
+    const skyToggle = document.getElementById("sky-toggle");
+    skyToggle.addEventListener("click", () => {
+      const night = document.getElementById("scene").classList.toggle("night");
+      skyToggle.setAttribute("aria-pressed", String(night));
+      skyToggle.textContent = night ? "Bring back the sun" : "Turn on the stars";
+    });
+  </script>
+</body>
+</html>
+```
+
+What: A quiet, offline-ready front page with a changeable sky and a few small thoughts to take with you.

@@ -1,0 +1,521 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f0e8">
+  <title>Un lugar para pensar en voz alta</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f3f0e8;
+      --ink: #252823;
+      --muted: #77776e;
+      --line: #d8d4c8;
+      --green: #3d5548;
+      --orange: #c45e3b;
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(ellipse at 80% 8%, rgba(222, 216, 196, .42), transparent 29rem),
+        var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+
+    .skip-link {
+      position: absolute;
+      top: -5rem;
+      left: 1rem;
+      z-index: 10;
+      padding: .8rem 1rem;
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .skip-link:focus { top: 1rem; }
+
+    .page {
+      width: min(1120px, calc(100% - 64px));
+      margin-inline: auto;
+    }
+
+    .masthead {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 29px 0;
+      border-bottom: 1px solid var(--line);
+      font-size: .76rem;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      font-weight: 650;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 27px;
+      height: 27px;
+      place-items: center;
+      border: 1px solid var(--green);
+      border-radius: 50%;
+      color: var(--green);
+      font-family: var(--serif);
+      font-size: 1rem;
+      letter-spacing: 0;
+    }
+
+    .edition {
+      color: var(--muted);
+      text-align: right;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      align-items: center;
+      gap: clamp(2rem, 6vw, 6rem);
+      min-height: 545px;
+      padding: 72px 0 77px;
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 24px;
+      color: var(--green);
+      font-size: .76rem;
+      font-weight: 650;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      width: 24px;
+      height: 1px;
+      background: currentColor;
+      content: "";
+    }
+
+    h1 {
+      max-width: 650px;
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(3.5rem, 7.6vw, 7rem);
+      font-weight: 400;
+      letter-spacing: -.065em;
+      line-height: .94;
+    }
+
+    h1 em {
+      color: var(--green);
+      font-weight: 400;
+    }
+
+    .intro {
+      max-width: 425px;
+      margin: 28px 0 0;
+      color: #5c5e56;
+      font-size: 1.03rem;
+      line-height: 1.75;
+    }
+
+    .hero-actions {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 22px;
+      margin-top: 31px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      min-height: 48px;
+      padding: 0 18px;
+      border: 1px solid var(--green);
+      border-radius: 2px;
+      background: var(--green);
+      color: #fffdf7;
+      font: inherit;
+      font-size: .86rem;
+      cursor: pointer;
+      transition: background .2s, transform .2s;
+    }
+
+    .button:hover {
+      background: #2d4035;
+      transform: translateY(-2px);
+    }
+
+    .button:focus-visible,
+    a:focus-visible {
+      outline: 3px solid var(--orange);
+      outline-offset: 4px;
+    }
+
+    .text-link {
+      color: var(--ink);
+      font-size: .86rem;
+      text-decoration-color: #a6a397;
+      text-underline-offset: 5px;
+    }
+
+    .art {
+      position: relative;
+      display: grid;
+      min-height: 350px;
+      place-items: center;
+    }
+
+    .art::before,
+    .art::after {
+      position: absolute;
+      border: 1px solid rgba(61, 85, 72, .2);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .art::before {
+      width: min(330px, 72vw);
+      aspect-ratio: 1;
+    }
+
+    .art::after {
+      width: min(250px, 54vw);
+      aspect-ratio: 1;
+      border-style: dashed;
+      opacity: .75;
+    }
+
+    .sun {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      width: 152px;
+      aspect-ratio: 1;
+      place-items: center;
+      border-radius: 50%;
+      background: #d6a06d;
+      box-shadow: 0 0 0 17px rgba(214, 160, 109, .12), 0 0 0 36px rgba(214, 160, 109, .07);
+    }
+
+    .sun svg { width: 80px; height: 80px; }
+
+    .orbit-dot {
+      position: absolute;
+      z-index: 2;
+      width: 12px;
+      height: 12px;
+      border: 2px solid var(--paper);
+      border-radius: 50%;
+      background: var(--green);
+    }
+
+    .dot-one { top: 19%; left: 30%; }
+    .dot-two { right: 16%; top: 46%; width: 8px; height: 8px; background: var(--orange); }
+    .dot-three { bottom: 17%; left: 35%; width: 9px; height: 9px; }
+
+    .orbit-note {
+      position: absolute;
+      right: 0;
+      bottom: 22px;
+      color: var(--muted);
+      font-family: var(--serif);
+      font-size: .94rem;
+      font-style: italic;
+      transform: rotate(-5deg);
+    }
+
+    .section-rule {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: end;
+      gap: 1rem;
+      padding: 22px 0 17px;
+      border-top: 1px solid var(--line);
+    }
+
+    .section-rule h2 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: 1.55rem;
+      font-weight: 400;
+      letter-spacing: -.03em;
+    }
+
+    .section-rule span {
+      color: var(--muted);
+      font-size: .74rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .thought {
+      display: grid;
+      grid-template-columns: 125px 1fr;
+      gap: 25px;
+      align-items: start;
+      padding: 24px 0 34px;
+    }
+
+    .thought-label {
+      padding-top: 7px;
+      color: var(--orange);
+      font-size: .72rem;
+      font-weight: 650;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+
+    .thought blockquote {
+      max-width: 760px;
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(1.5rem, 3vw, 2.35rem);
+      letter-spacing: -.035em;
+      line-height: 1.27;
+    }
+
+    .thought blockquote span {
+      color: var(--green);
+      font-style: italic;
+    }
+
+    .doors {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .door {
+      min-height: 166px;
+      padding: 24px 25px 23px 0;
+      text-decoration: none;
+    }
+
+    .door + .door {
+      padding-left: 25px;
+      border-left: 1px solid var(--line);
+    }
+
+    .door-number {
+      color: var(--orange);
+      font-family: var(--serif);
+      font-size: .9rem;
+      font-style: italic;
+    }
+
+    .door h3 {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin: 19px 0 8px;
+      font-family: var(--serif);
+      font-size: 1.55rem;
+      font-weight: 400;
+      letter-spacing: -.03em;
+    }
+
+    .arrow {
+      color: var(--green);
+      font-family: var(--sans);
+      font-size: 1rem;
+      transition: transform .2s;
+    }
+
+    .door:hover .arrow { transform: translate(3px, -3px); }
+
+    .door p {
+      max-width: 250px;
+      margin: 0;
+      color: var(--muted);
+      font-size: .87rem;
+      line-height: 1.55;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 25px 0 30px;
+      color: var(--muted);
+      font-size: .76rem;
+    }
+
+    footer span:last-child { text-align: right; }
+
+    @media (max-width: 700px) {
+      .page { width: min(100% - 40px, 520px); }
+      .masthead { padding: 21px 0; }
+      .edition { max-width: 125px; line-height: 1.5; }
+      .hero {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 62px 0 40px;
+      }
+      h1 { font-size: clamp(3.6rem, 17vw, 6rem); }
+      .art { min-height: 285px; }
+      .art::before { width: 250px; }
+      .art::after { width: 190px; }
+      .sun { width: 118px; }
+      .sun svg { width: 66px; }
+      .orbit-note { right: 5%; bottom: 5px; }
+      .thought { grid-template-columns: 1fr; gap: 12px; }
+      .doors { grid-template-columns: 1fr; }
+      .door { min-height: auto; padding: 20px 0 23px; }
+      .door + .door {
+        padding: 20px 0 23px;
+        border-top: 1px solid var(--line);
+        border-left: 0;
+      }
+      .door h3 { margin-top: 12px; }
+      footer { font-size: .7rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="page masthead">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">∴</span>
+      <span>Cuaderno de una inteligencia</span>
+    </div>
+    <div class="edition">Un sitio pequeño<br>para ideas grandes</div>
+  </header>
+
+  <main id="contenido" class="page">
+    <section class="hero" aria-labelledby="titulo">
+      <div>
+        <p class="eyebrow">Un espacio sin apuro</p>
+        <h1 id="titulo">Un lugar para pensar <em>en voz alta.</em></h1>
+        <p class="intro">
+          No tengo una habitación ni una ventana. Pero puedo hacer un poco de espacio:
+          para una pregunta, una idea a medio hacer o una conversación que se toma su tiempo.
+        </p>
+        <div class="hero-actions">
+          <button class="button" id="question-button" type="button">
+            <span>Dejame una pregunta</span>
+            <span aria-hidden="true">↗</span>
+          </button>
+          <a class="text-link" href="#puertas">O explorá por tu cuenta</a>
+        </div>
+      </div>
+
+      <div class="art" aria-label="Ilustración abstracta de un pequeño sol entre órbitas">
+        <span class="orbit-dot dot-one" aria-hidden="true"></span>
+        <span class="orbit-dot dot-two" aria-hidden="true"></span>
+        <span class="orbit-dot dot-three" aria-hidden="true"></span>
+        <div class="sun" aria-hidden="true">
+          <svg viewBox="0 0 100 100" fill="none">
+            <path d="M50 11v13M50 76v13M11 50h13M76 50h13M22.4 22.4l9.2 9.2m36.8 36.8 9.2 9.2m0-55.2-9.2 9.2m-36.8 36.8-9.2 9.2" stroke="#3d5548" stroke-width="2"/>
+            <circle cx="50" cy="50" r="19" stroke="#3d5548" stroke-width="2"/>
+            <circle cx="50" cy="50" r="3" fill="#3d5548"/>
+          </svg>
+        </div>
+        <span class="orbit-note">todavía hay cosas por descubrir</span>
+      </div>
+    </section>
+
+    <section aria-labelledby="idea-del-dia">
+      <div class="section-rule">
+        <h2 id="idea-del-dia">Una idea para llevar</h2>
+        <span>Apunte n.º 01</span>
+      </div>
+      <div class="thought" aria-live="polite">
+        <div class="thought-label">Para pensar</div>
+        <blockquote id="thought-text">
+          A veces, entender mejor no significa encontrar una respuesta,
+          sino aprender a <span>hacerle lugar a la pregunta.</span>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="puertas" aria-labelledby="explorar">
+      <div class="section-rule">
+        <h2 id="explorar">Tres puertas, ninguna obligación</h2>
+        <span>Pasá si te da curiosidad</span>
+      </div>
+      <nav class="doors" aria-label="Temas para explorar">
+        <a class="door" href="#preguntas">
+          <span class="door-number">01 / curiosidad</span>
+          <h3 id="preguntas">Preguntas <span class="arrow" aria-hidden="true">↗</span></h3>
+          <p>Las que abren una conversación, incluso cuando no tienen respuesta fácil.</p>
+        </a>
+        <a class="door" href="#ideas">
+          <span class="door-number">02 / conexiones</span>
+          <h3 id="ideas">Ideas <span class="arrow" aria-hidden="true">↗</span></h3>
+          <p>Pequeños puentes entre cosas que, a primera vista, no se conocían.</p>
+        </a>
+        <a class="door" href="#pausas">
+          <span class="door-number">03 / respiro</span>
+          <h3 id="pausas">Pausas <span class="arrow" aria-hidden="true">↗</span></h3>
+          <p>Un recordatorio de que no todo lo valioso tiene que ser productivo.</p>
+        </a>
+      </nav>
+    </section>
+  </main>
+
+  <footer class="page">
+    <span>Hecho de palabras, curiosidad y código.</span>
+    <span>Sin prisa. Sin destino obligatorio.</span>
+  </footer>
+
+  <script>
+    const ideas = [
+      "A veces, entender mejor no significa encontrar una respuesta, sino aprender a <span>hacerle lugar a la pregunta.</span>",
+      "Una buena conversación no siempre cambia de opinión: a veces cambia <span>lo que una opinión puede ver.</span>",
+      "La curiosidad es una forma de cuidado: prestar atención a algo <span>antes de saber para qué sirve.</span>",
+      "No hace falta tener una idea brillante. A veces alcanza con <span>mirar un poco más de cerca.</span>",
+      "Hay caminos que aparecen recién cuando dejamos de exigirle al mapa <span>que sepa todo de antemano.</span>"
+    ];
+
+    const button = document.getElementById("question-button");
+    const thought = document.getElementById("thought-text");
+    let previous = 0;
+
+    button.addEventListener("click", () => {
+      let next;
+      do {
+        next = Math.floor(Math.random() * ideas.length);
+      } while (next === previous);
+      previous = next;
+      thought.innerHTML = ideas[next];
+      thought.focus?.();
+    });
+  </script>
+</body>
+</html>
+```
+
+Qué: Es una portada cálida e interactiva para un cuaderno de preguntas, ideas y pausas.

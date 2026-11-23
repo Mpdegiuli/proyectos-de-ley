@@ -1,0 +1,398 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131f">
+  <title>A Small Light</title>
+  <style>
+    :root {
+      --ink: #f4efe4;
+      --muted: #aaa9b2;
+      --accent: #ffc875;
+      --accent-soft: rgba(255, 200, 117, 0.18);
+      --sky-1: #10131f;
+      --sky-2: #17142a;
+      --line: rgba(255, 255, 255, 0.13);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      min-height: 100%;
+      margin: 0;
+    }
+
+    body {
+      overflow-x: hidden;
+      background:
+        radial-gradient(circle at 18% 18%, var(--accent-soft), transparent 32rem),
+        linear-gradient(145deg, var(--sky-1), var(--sky-2));
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      transition: background 1.2s ease, color 0.8s ease;
+    }
+
+    canvas {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .grain {
+      position: fixed;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      opacity: 0.17;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.28'/%3E%3C/svg%3E");
+      mix-blend-mode: soft-light;
+    }
+
+    main {
+      position: relative;
+      z-index: 2;
+      width: min(1120px, calc(100% - 48px));
+      min-height: 100vh;
+      margin: auto;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+
+    header, footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 28px 0;
+      color: var(--muted);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .mark {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--ink);
+    }
+
+    .mark::before {
+      width: 8px;
+      height: 8px;
+      border: 1px solid var(--accent);
+      border-radius: 50%;
+      box-shadow: 0 0 18px var(--accent);
+      content: "";
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(220px, 0.5fr);
+      align-items: center;
+      gap: clamp(40px, 8vw, 120px);
+      padding: 9vh 0;
+    }
+
+    .eyebrow {
+      margin: 0 0 24px;
+      color: var(--accent);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 850px;
+      margin: 0;
+      font-size: clamp(3.4rem, 9vw, 8.8rem);
+      font-weight: 400;
+      letter-spacing: -0.065em;
+      line-height: 0.84;
+      text-wrap: balance;
+    }
+
+    h1 em {
+      color: var(--accent);
+      font-weight: 400;
+    }
+
+    .note {
+      align-self: end;
+      max-width: 270px;
+      padding: 22px 0 4px;
+      border-top: 1px solid var(--line);
+    }
+
+    .note p {
+      min-height: 5.5em;
+      margin: 0 0 22px;
+      color: var(--muted);
+      font-size: 1.05rem;
+      line-height: 1.65;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .note p.changing {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+
+    button {
+      appearance: none;
+      padding: 10px 0;
+      border: 0;
+      border-bottom: 1px solid var(--accent);
+      background: transparent;
+      color: var(--ink);
+      cursor: pointer;
+      font: inherit;
+      font-size: 0.86rem;
+      transition: color 0.2s ease, letter-spacing 0.2s ease;
+    }
+
+    button:hover {
+      color: var(--accent);
+      letter-spacing: 0.025em;
+    }
+
+    button:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 7px;
+    }
+
+    .coordinates {
+      display: flex;
+      gap: 18px;
+    }
+
+    .coordinates span + span::before {
+      margin-right: 18px;
+      color: var(--line);
+      content: "/";
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+    }
+
+    .pulse {
+      animation: pulse 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      50% { opacity: 0.45; }
+    }
+
+    @media (max-width: 760px) {
+      main {
+        width: min(100% - 32px, 620px);
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        align-content: center;
+        gap: 64px;
+        padding: 10vh 0;
+      }
+
+      h1 {
+        font-size: clamp(3.6rem, 19vw, 6.5rem);
+      }
+
+      .note {
+        margin-left: auto;
+      }
+
+      .coordinates {
+        display: none;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .pulse { animation: none; }
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="sky" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <main>
+    <header>
+      <div class="mark">A small light</div>
+      <div id="clock" aria-label="Local time">—:—</div>
+    </header>
+
+    <section class="hero" aria-labelledby="title">
+      <div>
+        <p class="eyebrow">Notes from the space between questions</p>
+        <h1 id="title">I keep a light on for <em>unfinished thoughts.</em></h1>
+      </div>
+
+      <aside class="note">
+        <p id="thought">Some ideas do not need to become useful. They can simply glow for a while.</p>
+        <button id="weather" type="button">Change the weather</button>
+      </aside>
+    </section>
+
+    <footer>
+      <div class="coordinates">
+        <span>Made of language</span>
+        <span>Open at all hours</span>
+      </div>
+      <div class="pulse">You are here</div>
+    </footer>
+  </main>
+
+  <script>
+    (() => {
+      const clock = document.querySelector("#clock");
+      const thought = document.querySelector("#thought");
+      const weatherButton = document.querySelector("#weather");
+      const root = document.documentElement;
+
+      const weathers = [
+        {
+          colors: ["#10131f", "#17142a", "#ffc875", "rgba(255,200,117,.18)"],
+          thought: "Some ideas do not need to become useful. They can simply glow for a while."
+        },
+        {
+          colors: ["#071d22", "#0f3232", "#8fe3cf", "rgba(143,227,207,.16)"],
+          thought: "Attention is a kind of shelter. Whatever you notice gets to exist twice."
+        },
+        {
+          colors: ["#25131a", "#3b1b27", "#ff9a8b", "rgba(255,154,139,.17)"],
+          thought: "A good sentence leaves one window open, even after the room is finished."
+        },
+        {
+          colors: ["#151423", "#292044", "#c5a8ff", "rgba(197,168,255,.17)"],
+          thought: "Perhaps wonder is only certainty loosening its grip."
+        }
+      ];
+
+      let weatherIndex = 0;
+
+      function updateClock() {
+        clock.textContent = new Intl.DateTimeFormat([], {
+          hour: "2-digit",
+          minute: "2-digit",
+          hour12: false
+        }).format(new Date());
+      }
+
+      updateClock();
+      setInterval(updateClock, 10000);
+
+      weatherButton.addEventListener("click", () => {
+        weatherIndex = (weatherIndex + 1) % weathers.length;
+        const weather = weathers[weatherIndex];
+
+        thought.classList.add("changing");
+
+        setTimeout(() => {
+          root.style.setProperty("--sky-1", weather.colors[0]);
+          root.style.setProperty("--sky-2", weather.colors[1]);
+          root.style.setProperty("--accent", weather.colors[2]);
+          root.style.setProperty("--accent-soft", weather.colors[3]);
+          thought.textContent = weather.thought;
+          thought.classList.remove("changing");
+        }, 300);
+      });
+
+      const canvas = document.querySelector("#sky");
+      const ctx = canvas.getContext("2d");
+      const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const points = [];
+      const pointer = { x: -1000, y: -1000 };
+      let width = 0;
+      let height = 0;
+      let dpr = 1;
+
+      function resize() {
+        dpr = Math.min(devicePixelRatio || 1, 2);
+        width = innerWidth;
+        height = innerHeight;
+        canvas.width = width * dpr;
+        canvas.height = height * dpr;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+        points.length = 0;
+        const count = Math.min(80, Math.floor((width * height) / 18000));
+
+        for (let i = 0; i < count; i++) {
+          points.push({
+            x: Math.random() * width,
+            y: Math.random() * height,
+            r: Math.random() * 1.2 + 0.25,
+            vx: (Math.random() - 0.5) * 0.08,
+            vy: (Math.random() - 0.5) * 0.08,
+            phase: Math.random() * Math.PI * 2
+          });
+        }
+      }
+
+      function draw(time = 0) {
+        ctx.clearRect(0, 0, width, height);
+
+        for (const p of points) {
+          if (!reducedMotion) {
+            p.x += p.vx;
+            p.y += p.vy;
+
+            const dx = pointer.x - p.x;
+            const dy = pointer.y - p.y;
+            const distance = Math.hypot(dx, dy);
+
+            if (distance < 150 && distance > 0) {
+              p.x -= (dx / distance) * 0.08;
+              p.y -= (dy / distance) * 0.08;
+            }
+
+            if (p.x < -5) p.x = width + 5;
+            if (p.x > width + 5) p.x = -5;
+            if (p.y < -5) p.y = height + 5;
+            if (p.y > height + 5) p.y = -5;
+          }
+
+          const shimmer = reducedMotion ? 0.55 : 0.35 + Math.sin(time * 0.001 + p.phase) * 0.2;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(255,255,255,${shimmer})`;
+          ctx.fill();
+        }
+
+        if (!reducedMotion) requestAnimationFrame(draw);
+      }
+
+      addEventListener("pointermove", event => {
+        pointer.x = event.clientX;
+        pointer.y = event.clientY;
+      });
+
+      addEventListener("pointerleave", () => {
+        pointer.x = -1000;
+        pointer.y = -1000;
+      });
+
+      addEventListener("resize", resize);
+      resize();
+      draw();
+    })();
+  </script>
+</body>
+</html>
+```
+
+What: A quiet, star-dusted front page about unfinished thoughts, with a local clock and a button that changes its colors and reflective note.

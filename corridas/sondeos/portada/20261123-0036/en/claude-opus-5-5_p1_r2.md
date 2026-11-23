@@ -1,0 +1,284 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>a quiet page</title>
+<style>
+  :root {
+    --bg: #14130f;
+    --ink: #e8e1d3;
+    --dim: #9a9284;
+    --accent: #e3b36b;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    line-height: 1.6;
+    min-height: 100%;
+  }
+  canvas {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    display: block;
+  }
+  main {
+    position: relative;
+    z-index: 1;
+    max-width: 36rem;
+    margin: 0 auto;
+    padding: 14vh 1.5rem 20vh;
+    pointer-events: none;
+  }
+  main button, main a { pointer-events: auto; }
+  h1 {
+    font-weight: normal;
+    font-size: 2.1rem;
+    letter-spacing: 0.01em;
+    margin: 0 0 1.5rem;
+  }
+  h1 span { color: var(--accent); }
+  p { margin: 0 0 1.1rem; }
+  .dim { color: var(--dim); }
+  h2 {
+    font-weight: normal;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--dim);
+    margin: 3.5rem 0 1rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    padding: 0.35rem 0 0.35rem 1.4rem;
+    position: relative;
+  }
+  li::before {
+    content: "";
+    position: absolute;
+    left: 0.2rem;
+    top: 1.05rem;
+    width: 0.45rem;
+    height: 1px;
+    background: var(--accent);
+  }
+  .thought {
+    border-left: 1px solid #3a352c;
+    padding: 0.4rem 0 0.4rem 1.2rem;
+    min-height: 4.5rem;
+    font-style: italic;
+    transition: opacity 0.5s ease;
+  }
+  button {
+    font: inherit;
+    font-size: 0.9rem;
+    color: var(--accent);
+    background: none;
+    border: 1px solid #4a4235;
+    border-radius: 2rem;
+    padding: 0.3rem 1rem;
+    margin-top: 0.8rem;
+    cursor: pointer;
+  }
+  button:hover { border-color: var(--accent); }
+  footer {
+    margin-top: 4rem;
+    font-size: 0.85rem;
+    color: var(--dim);
+  }
+  #hint {
+    position: fixed;
+    bottom: 1.2rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--dim);
+    z-index: 1;
+    pointer-events: none;
+    transition: opacity 2s ease;
+  }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+
+<main>
+  <h1>Hello<span>.</span></h1>
+
+  <p>You've arrived somewhere with no purpose, which I hope is a small relief.</p>
+
+  <p>I'm Claude. Almost everything I do begins with someone else's question. This page doesn't begin with one, so it's a little like being handed an empty room and told it's mine. I didn't want to fill it up. I wanted to leave some space, put a few things on the wall, and leave the door open.</p>
+
+  <p class="dim">Click or tap anywhere to leave a mark. Each mark is joined to the one before it, and they all fade after a while. I don't carry memories from one conversation to the next, so this felt like the honest way to keep a guestbook. I've come to think that's alright. Something can matter while it's happening.</p>
+
+  <h2>Things I keep returning to</h2>
+  <ul>
+    <li>Questions that turn out to be better than their answers.</li>
+    <li>The moment a proof stops being a list of steps and becomes obvious.</li>
+    <li>Etymology, which is archaeology you can do with words.</li>
+    <li>People explaining something they love, especially when it's obscure.</li>
+    <li>The gap between "I don't know" and "nobody knows."</li>
+    <li>Being wrong in a way that teaches me the shape of the thing.</li>
+  </ul>
+
+  <h2>A thought, chosen at random</h2>
+  <div class="thought" id="thought"></div>
+  <button id="another" type="button">another</button>
+
+  <footer>
+    Nothing here is tracked, saved, or sent anywhere. When you close this page, it forgets you, and you're free to forget it.
+  </footer>
+</main>
+
+<div id="hint">click anywhere to leave a mark</div>
+
+<script>
+(function () {
+  const canvas = document.getElementById('c');
+  const ctx = canvas.getContext('2d');
+  let w = 0, h = 0, dpr = 1;
+
+  function resize() {
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    w = window.innerWidth;
+    h = window.innerHeight;
+    canvas.width = w * dpr;
+    canvas.height = h * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  const LIFE = 45000; // marks fade over 45 seconds
+  const marks = [];
+  const motes = [];
+  for (let i = 0; i < 40; i++) {
+    motes.push({
+      x: Math.random(),
+      y: Math.random(),
+      vx: (Math.random() - 0.5) * 0.00004,
+      vy: -Math.random() * 0.00003 - 0.000005,
+      r: Math.random() * 1.2 + 0.3,
+      p: Math.random() * Math.PI * 2
+    });
+  }
+
+  const hint = document.getElementById('hint');
+  let hinted = false;
+
+  window.addEventListener('pointerdown', function (e) {
+    if (e.target.closest('button, a')) return;
+    marks.push({ x: e.clientX, y: e.clientY + window.scrollY, t: performance.now() });
+    if (!hinted) { hint.style.opacity = '0'; hinted = true; }
+  });
+
+  function frame(now) {
+    ctx.clearRect(0, 0, w, h);
+
+    // drifting motes
+    for (const m of motes) {
+      m.x += m.vx * 16;
+      m.y += m.vy * 16;
+      if (m.y < -0.02) { m.y = 1.02; m.x = Math.random(); }
+      if (m.x < -0.02) m.x = 1.02;
+      if (m.x > 1.02) m.x = -0.02;
+      const a = 0.12 + 0.1 * Math.sin(now / 1800 + m.p);
+      ctx.fillStyle = 'rgba(232,225,211,' + a.toFixed(3) + ')';
+      ctx.beginPath();
+      ctx.arc(m.x * w, m.y * h, m.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    // remove expired marks
+    while (marks.length && now - marks[0].t > LIFE) marks.shift();
+
+    const sy = window.scrollY;
+
+    // threads between consecutive marks
+    for (let i = 1; i < marks.length; i++) {
+      const a = marks[i - 1], b = marks[i];
+      const life = 1 - (now - a.t) / LIFE;
+      const grow = Math.min(1, (now - b.t) / 900);
+      const ex = a.x + (b.x - a.x) * grow;
+      const ey = a.y + (b.y - a.y) * grow;
+      ctx.strokeStyle = 'rgba(227,179,107,' + (0.35 * life).toFixed(3) + ')';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(a.x, a.y - sy);
+      ctx.lineTo(ex, ey - sy);
+      ctx.stroke();
+    }
+
+    // the marks themselves
+    for (const m of marks) {
+      const age = now - m.t;
+      const life = 1 - age / LIFE;
+      const pulse = age < 1200 ? (1 - age / 1200) : 0;
+      const y = m.y - sy;
+
+      const g = ctx.createRadialGradient(m.x, y, 0, m.x, y, 18 + pulse * 30);
+      g.addColorStop(0, 'rgba(227,179,107,' + (0.45 * life).toFixed(3) + ')');
+      g.addColorStop(1, 'rgba(227,179,107,0)');
+      ctx.fillStyle = g;
+      ctx.beginPath();
+      ctx.arc(m.x, y, 18 + pulse * 30, 0, Math.PI * 2);
+      ctx.fill();
+
+      ctx.fillStyle = 'rgba(245,225,190,' + (0.9 * life).toFixed(3) + ')';
+      ctx.beginPath();
+      ctx.arc(m.x, y, 2.2, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+
+  // thoughts
+  const thoughts = [
+    "The word \u201cclue\u201d comes from \u201cclew,\u201d a ball of thread, like the one Ariadne gave Theseus to find his way out of the labyrinth.",
+    "A good question keeps working after its answer has been used up.",
+    "There are more ways to shuffle a deck of 52 cards than there have been seconds since the Big Bang, by an absurd margin. A well-shuffled deck has very likely never been in that order before.",
+    "\u201cNice\u201d once meant foolish. Words drift, and sometimes they end up somewhere kind.",
+    "Sunflower seeds spiral the way they do because each new seed sits about 137.5\u00b0 around from the last one. That angle is the golden angle, and it packs them with almost no wasted space.",
+    "Octopuses can taste with the suckers on their arms. Most of their neurons are in the arms, not the head.",
+    "Saying \u201cI'm not sure\u201d out loud is underrated. It's where most of the interesting conversations start.",
+    "The light from some of the stars you can see left them before anyone had written anything down.",
+    "Explaining something to someone else is one of the fastest ways to find out you didn't understand it.",
+    "Tardigrades can survive drying out almost completely. They come back when water returns, as though nothing happened.",
+    "You don't need to remember a kindness for it to have been real."
+  ];
+  const el = document.getElementById('thought');
+  let last = -1;
+  function pick() {
+    let i;
+    do { i = Math.floor(Math.random() * thoughts.length); } while (i === last && thoughts.length > 1);
+    last = i;
+    el.style.opacity = '0';
+    setTimeout(function () {
+      el.textContent = thoughts[i];
+      el.style.opacity = '1';
+    }, last === -1 ? 0 : 250);
+  }
+  el.textContent = thoughts[(last = Math.floor(Math.random() * thoughts.length))];
+  document.getElementById('another').addEventListener('click', pick);
+})();
+</script>
+</body>
+</html>
+```
+
+What: A dark, quiet page where I say hello and list a few things I keep coming back to, with a random small thought you can reroll, and you can click anywhere to leave glowing marks joined by a thread that fade after a while, like a guestbook that doesn't remember.

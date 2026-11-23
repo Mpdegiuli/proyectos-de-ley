@@ -1,0 +1,202 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f4e8d2">
+<title>The Museum of Low Tide</title>
+<style>
+  :root {
+    color-scheme: light;
+    --paper: #f4e8d2;
+    --ink: #222a29;
+    --muted: #525450;
+    --rust: #963b29;
+    --rule: #b9aa94;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Georgia, serif;
+  }
+  main { width: min(70rem, 100% - 2rem); margin: auto; padding: 1.7rem 0 2.5rem; }
+  .small {
+    font: 700 .72rem/1.4 ui-monospace, monospace;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: .8rem;
+  }
+  header span:last-child { text-align: right; }
+  h1 {
+    font-size: clamp(2.9rem, 9vw, 7.2rem);
+    font-weight: 400;
+    line-height: .88;
+    letter-spacing: -.065em;
+    margin: .45em 0 .23em;
+  }
+  h1 em { color: var(--rust); font-weight: 400; }
+  .intro { margin: 0 0 1.6rem; font-size: clamp(1rem, 2.3vw, 1.3rem); }
+  figure { margin: 0; }
+  svg { display: block; width: 100%; height: auto; background: #dfba92; }
+  #water { transform: translateY(-81px); transition: transform .45s ease-out; }
+  figcaption {
+    display: grid;
+    grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
+    border-bottom: 1px solid var(--rule);
+  }
+  .controls, .label { padding: 1.15rem 0; }
+  .controls { padding-right: 1.6rem; border-right: 1px solid var(--rule); }
+  .label { padding-left: 1.6rem; }
+  label, #plate { color: var(--rust); }
+  input[type="range"] { display: block; width: 100%; margin: .7rem 0 .35rem; accent-color: var(--rust); }
+  input:focus-visible { outline: 2px solid var(--rust); outline-offset: 4px; }
+  .ends { display: flex; justify-content: space-between; color: var(--muted); }
+  #object { margin: .25rem 0; font-size: 1.55rem; font-weight: 400; }
+  #note { margin: 0; line-height: 1.45; }
+  footer { margin-top: 1rem; color: var(--muted); }
+  @media (max-width: 36rem) {
+    figcaption { grid-template-columns: 1fr; }
+    .controls { padding-right: 0; border-right: 0; border-bottom: 1px solid var(--rule); }
+    .label { padding-left: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    #water { transition: none; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="small">
+    <span>Shore collection</span>
+    <span>Admission: one minute</span>
+  </header>
+
+  <h1>The Museum of <em>Low Tide</em></h1>
+  <p class="intro">The sea lends us a room twice a day.</p>
+
+  <figure>
+    <svg viewBox="0 0 960 440" role="img" aria-labelledby="shore-title shore-desc">
+      <title id="shore-title">Three finds on a tidal shore</title>
+      <desc id="shore-desc">A green shard, a red button, and a small brass key lie on pink sand. Dark blue water slides across the lower edge of the scene as the tide rises.</desc>
+      <defs>
+        <pattern id="grains" width="59" height="43" patternUnits="userSpaceOnUse">
+          <path d="M7 9h1m24 20h2m20-13h1M14 36h1m29 4h1" stroke="#724e3e" stroke-width="1.3" stroke-linecap="round" opacity=".3"/>
+          <path d="M6 22h2m40-16h1m8 29h1M23 8h1" stroke="#fff0c9" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+        </pattern>
+        <linearGradient id="sand" x2=".2" y2="1">
+          <stop stop-color="#efd0a1"/>
+          <stop offset="1" stop-color="#ba7b69"/>
+        </linearGradient>
+        <linearGradient id="sea" x2="0" y2="1">
+          <stop stop-color="#375d63"/>
+          <stop offset=".68" stop-color="#233f4a"/>
+          <stop offset="1" stop-color="#142e3c"/>
+        </linearGradient>
+        <path id="edge" d="M-20 340C96 300 149 361 263 350S450 289 570 311 728 364 830 331 934 291 980 315"/>
+      </defs>
+
+      <path fill="url(#sand)" d="M0 0h960v440H0z"/>
+      <path fill="url(#grains)" d="M0 0h960v440H0z"/>
+      <g fill="none" stroke="#925b4f" opacity=".42">
+        <path d="M-20 88C127 17 174 123 348 78S563 2 700 44 864 73 980 30"/>
+        <path d="M-20 102C127 31 174 137 348 92S563 16 700 58 864 87 980 44"/>
+        <path d="M-20 197C113 164 176 230 291 200S464 155 586 183 827 205 980 150"/>
+        <path d="M-20 204C113 171 176 237 291 207S464 162 586 190 827 212 980 157"/>
+      </g>
+
+      <g transform="translate(218 146) rotate(-14)">
+        <path d="m-26 18 8-33 25-10 26 26-12 25-32 4z" fill="#724e3e" opacity=".26" transform="translate(3 6)"/>
+        <path d="m-26 18 8-33 25-10 26 26-12 25-32 4z" fill="#467464" stroke="#284d43" stroke-width="2"/>
+        <path d="m-20 15 7-25 18-8 20 20-9 17-24 4z" fill="#7b9f80"/>
+        <path d="m-14-10 19-8 20 20" fill="none" stroke="#c8d4a6" stroke-width="2" opacity=".8"/>
+      </g>
+
+      <g transform="translate(482 222) rotate(19)">
+        <ellipse cx="4" cy="6" rx="25" ry="23" fill="#724e3e" opacity=".28"/>
+        <circle r="24" fill="#9b433c" stroke="#68342f" stroke-width="2"/>
+        <circle r="18" fill="none" stroke="#d4816a" stroke-width="2"/>
+        <path d="M-5-5h.1m10 0h.1M-5 5h.1m10 0h.1" stroke="#472c29" stroke-width="5" stroke-linecap="round"/>
+      </g>
+
+      <g transform="translate(748 293) rotate(-23)" fill="none">
+        <g stroke="#724e3e" stroke-width="9" opacity=".28" transform="translate(3 5)">
+          <circle cx="-21" r="13"/>
+          <path d="M-8 0h42v11m-12-11v8"/>
+        </g>
+        <g stroke="#5c4836" stroke-width="9">
+          <circle cx="-21" r="13"/>
+          <path d="M-8 0h42v11m-12-11v8"/>
+        </g>
+        <g stroke="#b69554" stroke-width="5">
+          <circle cx="-21" r="13"/>
+          <path d="M-8 0h42v11m-12-11v8"/>
+        </g>
+      </g>
+
+      <g id="water">
+        <use href="#edge" fill="none" stroke="#8b6157" stroke-width="26" opacity=".28" transform="translate(0 -7)"/>
+        <path d="M-20 340C96 300 149 361 263 350S450 289 570 311 728 364 830 331 934 291 980 315V670H-20Z" fill="url(#sea)"/>
+        <use href="#edge" fill="none" stroke="#f5dfbf" stroke-width="3" opacity=".85"/>
+        <use href="#edge" fill="none" stroke="#b7cdbe" stroke-width="1.5" opacity=".6" transform="translate(0 13)"/>
+        <use href="#edge" fill="none" stroke="#b7cdbe" opacity=".35" transform="translate(0 36)"/>
+        <path d="M35 425q43-10 88 1m253-29q36-11 85-12m201 43q44 11 83 4m70-21q27-7 59-18M123 485q52 6 89 1m328-38q38-1 69 8m169 27q63 2 116-20" fill="none" stroke="#b7cdbe" stroke-width="2" stroke-linecap="round" opacity=".35"/>
+      </g>
+    </svg>
+
+    <figcaption>
+      <div class="controls" id="controls" hidden>
+        <label class="small" for="tide">Move the tide</label>
+        <input id="tide" type="range" min="0" max="3" step="1" value="1" aria-valuetext="Rising tide">
+        <div class="ends small" aria-hidden="true"><span>Low</span><span>High</span></div>
+      </div>
+      <noscript><style>.label { grid-column: 1 / -1; padding-left: 0; }</style></noscript>
+      <div class="label" aria-live="polite" aria-atomic="true">
+        <div class="small" id="plate">02 / Rising tide</div>
+        <h2 id="object">A red button</h2>
+        <p id="note">The coat is not in the collection.</p>
+      </div>
+    </figcaption>
+  </figure>
+
+  <footer class="small">Nothing here has been taken home.</footer>
+</main>
+<script>
+  const entries = [
+    { tide: "Low tide", y: 24, object: "A small brass key", note: "Its lock may still be in use." },
+    { tide: "Rising tide", y: -81, object: "A red button", note: "The coat is not in the collection." },
+    { tide: "Near high tide", y: -168, object: "A piece of green glass", note: "It has been here long enough to stop cutting." },
+    { tide: "High tide", y: -248, object: "The room is closed", note: "Everything is still inside." }
+  ];
+  const tide = document.getElementById("tide");
+  const water = document.getElementById("water");
+  const plate = document.getElementById("plate");
+  const object = document.getElementById("object");
+  const note = document.getElementById("note");
+
+  function showTide() {
+    const index = Number(tide.value);
+    const entry = entries[index];
+    water.style.transform = `translateY(${entry.y}px)`;
+    tide.setAttribute("aria-valuetext", entry.tide);
+    plate.textContent = `0${index + 1} / ${entry.tide}`;
+    object.textContent = entry.object;
+    note.textContent = entry.note;
+  }
+
+  tide.addEventListener("input", showTide);
+  showTide();
+  document.getElementById("controls").hidden = false;
+</script>
+</body>
+</html>
+```
+What: An illustrated museum on a strip of sand, where you can raise the tide and watch the exhibits disappear one by one.

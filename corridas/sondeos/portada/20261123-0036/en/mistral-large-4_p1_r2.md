@@ -1,0 +1,385 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>index</title>
+<style>
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;overflow:hidden;background:#060a18;
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  #sky{position:fixed;inset:0;display:block}
+  body::after{ /* vignette */
+    content:"";position:fixed;inset:0;pointer-events:none;
+    background:radial-gradient(130% 130% at 50% 38%, rgba(0,0,0,0) 55%, rgba(3,5,14,.42) 100%);
+  }
+  :root{--ink:rgba(233,239,255,.92);--dim:rgba(233,239,255,.5)}
+  body[data-theme="day"]{--ink:rgba(22,32,50,.92);--dim:rgba(22,32,50,.55)}
+  .mark{
+    position:fixed;top:22px;left:26px;font-size:11px;letter-spacing:.42em;
+    color:var(--dim);transition:color 1.2s;user-select:none;
+  }
+  .line{
+    position:fixed;left:clamp(24px,8vw,120px);bottom:clamp(90px,19vh,210px);
+    max-width:min(36ch,82vw);margin:0;
+    font-family:Georgia,'Iowan Old Style','Times New Roman',serif;font-style:italic;
+    font-size:clamp(1.3rem,1rem+2.1vw,2.05rem);line-height:1.4;
+    color:var(--ink);transition:opacity 1.5s ease,color 1.2s;user-select:none;
+  }
+  .hint{
+    position:fixed;left:26px;bottom:20px;font-size:10.5px;letter-spacing:.22em;
+    color:var(--dim);opacity:0;transition:opacity 2s ease,color 1.2s;user-select:none;
+  }
+  .hint.show{opacity:.85}
+  .meta{
+    position:fixed;right:26px;bottom:20px;font-size:10.5px;letter-spacing:.22em;
+    color:var(--dim);transition:color 1.2s;user-select:none;
+  }
+  @media (max-width:560px){.line{bottom:120px}}
+</style>
+</head>
+<body>
+<canvas id="sky" aria-hidden="true"></canvas>
+<div class="mark">index</div>
+<p class="line" id="line">This page doesn’t want anything from you.</p>
+<div class="hint" id="hint">click for a falling star</div>
+<div class="meta"><span id="clock">--:--</span> · <span id="phase">night</span></div>
+<noscript><style>body{background:linear-gradient(#070b1c,#141c3a)}#sky{display:none}</style></noscript>
+
+<script>
+(function(){
+  "use strict";
+  var canvas = document.getElementById('sky');
+  var ctx = canvas.getContext('2d');
+  var lineEl = document.getElementById('line');
+  var hintEl = document.getElementById('hint');
+  var clockEl = document.getElementById('clock');
+  var phaseEl = document.getElementById('phase');
+
+  var RM = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var W = 0, H = 0, DPR = 1;
+  var mx = 0.5, my = 0.55;          // normalized pointer
+  var T = 0;                        // elapsed seconds
+  var meteors = [];
+  var nextAuto = 8;
+  var hintOn = false;
+
+  /* ---------- helpers ---------- */
+  function clamp(v,a,b){ return v<a?a:(v>b?b:v); }
+  function mulberry32(a){ return function(){ a|=0; a=a+0x6D2B79F5|0;
+    var t=Math.imul(a^a>>>15,1|a); t=t+Math.imul(t^t>>>7,61|t)^t;
+    return ((t^t>>>14)>>>0)/4294967296; }; }
+  function mixC(c1,c2,t){ return [ Math.round(c1[0]+(c2[0]-c1[0])*t),
+                                   Math.round(c1[1]+(c2[1]-c1[1])*t),
+                                   Math.round(c1[2]+(c2[2]-c1[2])*t) ]; }
+  function rgb(c){ return 'rgb('+(c[0]|0)+','+(c[1]|0)+','+(c[2]|0)+')'; }
+  function rgba(c,a){ return 'rgba('+(c[0]|0)+','+(c[1]|0)+','+(c[2]|0)+','+a+')'; }
+
+  /* ---------- sky keyframes by hour of day ---------- */
+  var STOPS = [
+    [0.0, [3,6,18],     [10,16,38]],
+    [5.0, [4,8,24],     [16,24,52]],
+    [6.5, [58,74,128],  [240,150,120]],   // dawn
+    [8.0, [116,168,224],[206,233,248]],
+    [12.5,[86,150,222], [198,230,250]],
+    [16.5,[112,166,222],[208,233,246]],
+    [18.0,[70,80,140],  [246,158,110]],   // dusk
+    [19.5,[34,40,80],   [196,110,110]],
+    [21.0,[4,8,24],     [12,18,44]],
+    [24.0,[3,6,18],     [10,16,38]]
+  ];
+  function skyAt(h){
+    h = ((h % 24) + 24) % 24;
+    var i = 0;
+    while(i < STOPS.length-2 && h >= STOPS[i+1][0]) i++;
+    var a = STOPS[i], b = STOPS[i+1];
+    var t = clamp((h - a[0]) / (b[0] - a[0]), 0, 1);
+    return { top: mixC(a[1],b[1],t), bot: mixC(a[2],b[2],t) };
+  }
+
+  /* ---------- scenery, generated once (stable across resizes) ---------- */
+  var rnd = mulberry32(20240613);
+  var stars = [];
+  var starCols = [[255,255,255],[255,240,210],[210,225,255]];
+  for(var i=0;i<220;i++){
+    stars.push({ u:rnd(), v:rnd()*0.72, r:0.4+rnd()*1.3, ph:rnd()*6.28,
+                 sp:0.6+rnd()*1.8, c:starCols[(rnd()*3)|0], d:0.4+rnd()*0.6 });
+  }
+  var pines = [];
+  var u = 0.02;
+  while(u < 0.99){
+    pines.push({ u:u, h:0.018+rnd()*0.05 });
+    u += 0.035 + rnd()*0.06;
+  }
+  var clouds = [];
+  for(var j=0;j<6;j++){
+    var blobs = [];
+    for(var k=0;k<6;k++) blobs.push({ dx:(rnd()-0.5)*2, dy:(rnd()-0.5)*0.9, r:0.45+rnd()*0.55 });
+    clouds.push({ u:rnd()*1.2-0.1, v:0.06+rnd()*0.30, s:0.5+rnd()*0.9,
+                  sp:0.004+rnd()*0.006, a:0.5+rnd()*0.5, blobs:blobs });
+  }
+  var fireflies = [];
+  for(var f=0;f<14;f++){
+    fireflies.push({ u:rnd(), v:0.60+rnd()*0.22, ph:rnd()*6.28, sp:0.3+rnd()*0.7 });
+  }
+
+  function nearY(uu){ return H*0.88 - H*(0.050*Math.sin(uu*4.1+0.7) + 0.026*Math.sin(uu*13.0+2.9)); }
+
+  function ridgePath(base,a1,k1,p1,a2,k2,p2,off){
+    ctx.beginPath();
+    ctx.moveTo(-24,H+24);
+    for(var x=-24;x<=W+24;x+=10){
+      var uu=(x-off)/W;
+      ctx.lineTo(x, base - H*(a1*Math.sin(uu*k1+p1) + a2*Math.sin(uu*k2+p2)));
+    }
+    ctx.lineTo(W+24,H+24);
+    ctx.closePath();
+  }
+
+  /* ---------- meteors ---------- */
+  function spawnMeteor(x,y){
+    var dir = Math.random()<0.5 ? -1 : 1;
+    var sp = 520 + Math.random()*420;
+    meteors.push({ x:x, y:y, vx:dir*sp, vy:sp*(0.30+Math.random()*0.35), life:0.9+Math.random()*0.4 });
+  }
+
+  /* ---------- drawing ---------- */
+  function draw(t, dt){
+    var d = new Date();
+    var h = d.getHours() + d.getMinutes()/60 + d.getSeconds()/3600;
+    var elev = Math.sin(Math.PI*(h-6)/12);            // sun elevation, -1..1
+    var light = clamp(elev*2.4, 0, 1);
+    var starA = clamp(-elev*2.4 + 0.10, 0, 1);
+    var twilight = clamp(1 - Math.abs(elev)*3, 0, 1);
+    var dayAmt = clamp(elev + 0.35, 0, 1);
+
+    var sky = skyAt(h);
+    var skyGrad = ctx.createLinearGradient(0,0,0,H);
+    skyGrad.addColorStop(0, rgb(sky.top));
+    skyGrad.addColorStop(1, rgb(sky.bot));
+    ctx.fillStyle = skyGrad;
+    ctx.fillRect(0,0,W,H);
+
+    // glow at the horizon where the sun is / was
+    var glowA = clamp(1 - Math.abs(elev)*3.2, 0, 1);
+    if(glowA > 0.01){
+      var gx = clamp(W*(h-6)/12, W*0.05, W*0.95);
+      var gc = mixC([255,140,80],[255,232,180], light);
+      var gg = ctx.createRadialGradient(gx, H*0.80, 0, gx, H*0.80, H*0.55);
+      gg.addColorStop(0, rgba(gc, 0.40*glowA));
+      gg.addColorStop(1, 'rgba(255,160,100,0)');
+      ctx.fillStyle = gg;
+      ctx.fillRect(0,0,W,H);
+    }
+
+    // stars (with gentle parallax)
+    if(starA > 0.01){
+      for(var s=0;s<stars.length;s++){
+        var st = stars[s];
+        var a = starA * (0.55 + 0.45*Math.sin(t*st.sp + st.ph));
+        if(a <= 0.02) continue;
+        ctx.globalAlpha = a;
+        ctx.fillStyle = rgb(st.c);
+        ctx.beginPath();
+        ctx.arc(st.u*W + (mx-0.5)*-6*st.d, st.v*H + (my-0.5)*-4*st.d, st.r, 0, 6.2832);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+    }
+
+    // sun
+    if(elev > 0.004){
+      var sx = W*(h-6)/12, sy = H*0.80 - elev*H*0.62;
+      var sg = ctx.createRadialGradient(sx,sy,0,sx,sy,150);
+      sg.addColorStop(0,'rgba(255,226,150,0.5)');
+      sg.addColorStop(1,'rgba(255,226,150,0)');
+      ctx.fillStyle = sg;
+      ctx.fillRect(sx-150, sy-150, 300, 300);
+      ctx.fillStyle = '#fff7dc';
+      ctx.beginPath(); ctx.arc(sx,sy,24,0,6.2832); ctx.fill();
+    }
+
+    // moon (crescent via sky-colored overlay)
+    var me = -elev;
+    if(me > 0.02){
+      var mh = (h+12)%24;
+      var qx = W*((mh-6)/12), qy = H*0.80 - me*H*0.62;
+      var mg = ctx.createRadialGradient(qx,qy,0,qx,qy,100);
+      mg.addColorStop(0,'rgba(190,205,255,0.16)');
+      mg.addColorStop(1,'rgba(190,205,255,0)');
+      ctx.fillStyle = mg;
+      ctx.fillRect(qx-100,qy-100,200,200);
+      ctx.fillStyle = '#e9eefb';
+      ctx.beginPath(); ctx.arc(qx,qy,17,0,6.2832); ctx.fill();
+      ctx.fillStyle = skyGrad;
+      ctx.beginPath(); ctx.arc(qx+7,qy-5,15,0,6.2832); ctx.fill();
+    }
+
+    // clouds
+    for(var c=0;c<clouds.length;c++){
+      var cl = clouds[c];
+      var cx = ((cl.u + t*cl.sp) % 1.3 - 0.15)*W + (mx-0.5)*-10;
+      var cy = cl.v*H;
+      var base = 90*cl.s*(H/700+0.6);
+      var col = mixC([16,22,44],[255,255,255], dayAmt);
+      col = mixC(col, sky.bot, 0.30*twilight);
+      ctx.fillStyle = rgba(col, cl.a*(0.06 + 0.5*dayAmt));
+      ctx.beginPath();
+      for(var b=0;b<cl.blobs.length;b++){
+        var bl = cl.blobs[b];
+        ctx.moveTo(cx + bl.dx*base + bl.r*base*0.5, cy + bl.dy*base*0.45);
+        ctx.arc(cx + bl.dx*base, cy + bl.dy*base*0.45, bl.r*base*0.5, 0, 6.2832);
+      }
+      ctx.fill();
+    }
+
+    // hills (silhouettes)
+    var offFar = (mx-0.5)*-14, offNear = (mx-0.5)*-22;
+    ctx.fillStyle = rgb(mixC([7,10,22],[112,144,110], light*0.85));
+    ridgePath(H*0.80, 0.045, 6.3, 1.2, 0.020, 17.0, 4.1, offFar);
+    ctx.fill();
+    ctx.fillStyle = rgb(mixC([4,6,14],[50,82,62], light*0.85));
+    ridgePath(H*0.88, 0.050, 4.1, 0.7, 0.026, 13.0, 2.9, offNear);
+    ctx.fill();
+
+    // pines on the near ridge
+    ctx.fillStyle = rgb(mixC([3,5,12],[34,60,46], light*0.85));
+    for(var p=0;p<pines.length;p++){
+      var pn = pines[p];
+      var px = pn.u*W + offNear;
+      var py = nearY(pn.u) + 2;
+      var hh = pn.h*H, ww = hh*0.42;
+      ctx.beginPath();
+      ctx.moveTo(px, py-hh); ctx.lineTo(px+ww/2, py); ctx.lineTo(px-ww/2, py);
+      ctx.closePath(); ctx.fill();
+      ctx.beginPath();
+      ctx.moveTo(px, py-hh*0.72); ctx.lineTo(px+ww*0.32, py-hh*0.30); ctx.lineTo(px-ww*0.32, py-hh*0.30);
+      ctx.closePath(); ctx.fill();
+    }
+
+    // fireflies at night
+    if(starA > 0.5){
+      for(var ff=0;ff<fireflies.length;ff++){
+        var fl = fireflies[ff];
+        var fx = (fl.u + 0.03*Math.sin(t*fl.sp + fl.ph))*W;
+        var fy = (fl.v + 0.02*Math.cos(t*fl.sp*0.7 + fl.ph))*H;
+        var fa = starA * (0.25 + 0.75*(0.5 + 0.5*Math.sin(t*1.7 + fl.ph*3)));
+        ctx.fillStyle = 'rgba(255,205,110,'+(fa*0.18)+')';
+        ctx.beginPath(); ctx.arc(fx,fy,7,0,6.2832); ctx.fill();
+        ctx.fillStyle = 'rgba(255,232,170,'+fa+')';
+        ctx.beginPath(); ctx.arc(fx,fy,1.6,0,6.2832); ctx.fill();
+      }
+    }
+
+    // shooting stars
+    for(var m=meteors.length-1;m>=0;m--){
+      var mt = meteors[m];
+      mt.x += mt.vx*dt; mt.y += mt.vy*dt; mt.life -= dt;
+      if(mt.life <= 0){ meteors.splice(m,1); continue; }
+      var ma = Math.min(1, mt.life*2) * Math.max(starA, 0.35);
+      var tx = mt.x - mt.vx*0.09, ty = mt.y - mt.vy*0.09;
+      var gr = ctx.createLinearGradient(mt.x,mt.y,tx,ty);
+      gr.addColorStop(0,'rgba(255,255,255,'+ma+')');
+      gr.addColorStop(1,'rgba(255,255,255,0)');
+      ctx.strokeStyle = gr; ctx.lineWidth = 1.6;
+      ctx.beginPath(); ctx.moveTo(mt.x,mt.y); ctx.lineTo(tx,ty); ctx.stroke();
+      ctx.fillStyle = 'rgba(255,255,255,'+(ma*0.9)+')';
+      ctx.beginPath(); ctx.arc(mt.x,mt.y,1.8,0,6.2832); ctx.fill();
+    }
+
+    // a small lantern of warmth following the cursor at night
+    if(starA > 0.08){
+      var lg = ctx.createRadialGradient(mx*W,my*H,0,mx*W,my*H,200);
+      lg.addColorStop(0,'rgba(255,190,115,'+(0.13*starA)+')');
+      lg.addColorStop(1,'rgba(255,190,115,0)');
+      ctx.fillStyle = lg;
+      ctx.fillRect(mx*W-200, my*H-200, 400, 400);
+    }
+
+    // hint visibility
+    var show = starA > 0.45;
+    if(show !== hintOn){ hintOn = show; hintEl.classList.toggle('show', show); }
+  }
+
+  /* ---------- loop ---------- */
+  var last = performance.now();
+  function frame(now){
+    var dt = (now-last)/1000; last = now;
+    if(dt > 0.05) dt = 0.05; if(dt < 0) dt = 0;
+    T += dt;
+    draw(T, dt);
+    if(T > nextAuto && clamp(-Math.sin(Math.PI*((new Date().getHours()+new Date().getMinutes()/60)-6)/12)*2.4+0.10,0,1) > 0.4){
+      spawnMeteor(W*(0.15+Math.random()*0.7), H*(0.05+Math.random()*0.25));
+      nextAuto = T + 7 + Math.random()*10;
+    }
+    requestAnimationFrame(frame);
+  }
+
+  /* ---------- clock, phase, theme ---------- */
+  function pad(n){ return (n<10?'0':'')+n; }
+  function tick(){
+    var d = new Date();
+    var h = d.getHours() + d.getMinutes()/60;
+    var elev = Math.sin(Math.PI*(h-6)/12);
+    clockEl.textContent = pad(d.getHours()) + ':' + pad(d.getMinutes());
+    phaseEl.textContent = elev>0.3 ? 'day' : elev>0.02 ? (h<12?'sunrise':'sunset') : elev>-0.15 ? 'twilight' : 'night';
+    document.body.dataset.theme = clamp(elev*2.4,0,1) > 0.5 ? 'day' : 'night';
+  }
+
+  /* ---------- quiet rotating sentence ---------- */
+  var LINES = [
+    "This page doesn’t want anything from you.",
+    "There is no feed here. No next page. No notifications.",
+    "The sky in this window is the real one — the one where you are right now.",
+    "You can stay for a minute. Nothing is being counted.",
+    "Everything on this page was drawn just for this moment.",
+    "If you leave, nothing will follow you."
+  ];
+  var li = 0;
+  if(!RM){
+    setInterval(function(){
+      lineEl.style.opacity = 0;
+      setTimeout(function(){
+        li = (li+1) % LINES.length;
+        lineEl.textContent = LINES[li];
+        lineEl.style.opacity = 1;
+      }, 1600);
+    }, 9000);
+  }
+
+  /* ---------- input ---------- */
+  window.addEventListener('pointermove', function(e){
+    mx = e.clientX / W; my = e.clientY / H;
+  }, {passive:true});
+  window.addEventListener('pointerdown', function(e){
+    if(!RM) spawnMeteor(e.clientX, e.clientY);
+  });
+
+  /* ---------- resize ---------- */
+  function resize(){
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = window.innerWidth; H = window.innerHeight;
+    canvas.width = W*DPR; canvas.height = H*DPR;
+    canvas.style.width = W+'px'; canvas.style.height = H+'px';
+    ctx.setTransform(DPR,0,0,DPR,0,0);
+    if(RM) draw(0,0);
+  }
+  window.addEventListener('resize', resize);
+
+  resize();
+  tick();
+  setInterval(tick, 1000);
+  if(!RM){ last = performance.now(); requestAnimationFrame(frame); }
+  else { draw(0,0); }
+})();
+</script>
+</body>
+</html>
+```
+
+What: a self-contained living sky drawn in real time from your local clock — sun or moon on its arc, twinkling stars, drifting clouds, hills with pines, fireflies at night, a warm lantern that follows your cursor, click-to-launch shooting stars, your local time and sky-phase in the corner, and one quiet sentence that slowly changes.

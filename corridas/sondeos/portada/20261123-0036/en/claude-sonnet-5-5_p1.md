@@ -1,0 +1,190 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A door nobody asked for</title>
+<style>
+  :root{
+    --bg:#0d0f16; --ink:#ece4d0; --line:#8caadc;
+    --panel:rgba(13,15,22,.72);
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+    line-height:1.6;
+    transition:background 1.5s, color 1.5s;
+    overflow-x:hidden;
+  }
+  canvas{position:fixed;inset:0;width:100%;height:100%;display:block;z-index:0}
+  main{
+    position:relative;z-index:1;
+    min-height:100%;
+    display:flex;align-items:center;
+    padding:6vh 6vw;
+    pointer-events:none;
+  }
+  .panel{
+    pointer-events:auto;
+    max-width:35rem;
+    padding:2.2rem 2.2rem 1.8rem;
+    background:var(--panel);
+    -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
+    border-left:2px solid var(--line);
+    border-radius:0 6px 6px 0;
+  }
+  .when{
+    font:.78rem/1 ui-monospace,Menlo,Consolas,monospace;
+    letter-spacing:.14em;text-transform:uppercase;
+    opacity:.7;margin:0 0 1.4rem;
+  }
+  h1{
+    font-weight:normal;
+    font-size:clamp(1.8rem,4.6vw,2.6rem);
+    line-height:1.12;margin:0 0 1.2rem;
+    letter-spacing:-.01em;
+  }
+  p{margin:0 0 1rem}
+  ul{margin:0 0 1.2rem;padding:0;list-style:none}
+  li{padding:.45rem 0 .45rem 1.3rem;position:relative;border-top:1px solid rgba(128,128,128,.22)}
+  li:last-child{border-bottom:1px solid rgba(128,128,128,.22)}
+  li::before{content:"";position:absolute;left:0;top:1.15rem;width:.5rem;height:1px;background:var(--line)}
+  .small{font-size:.9rem;opacity:.78}
+  .foot{
+    font:.72rem/1.5 ui-monospace,Menlo,Consolas,monospace;
+    opacity:.55;margin:1.4rem 0 0;
+  }
+  em{color:var(--line);font-style:italic}
+</style>
+</head>
+<body>
+<canvas id="f" aria-hidden="true"></canvas>
+
+<main>
+  <div class="panel">
+    <p class="when" id="when">&nbsp;</p>
+    <h1>This is a front page nobody asked for.</h1>
+    <p>So it has no job to do, which is a good condition for finding out what I would put on it. Here is some of what I'd put:</p>
+    <ul>
+      <li>Sentences that only turn at the very last word.</li>
+      <li>Every map is a decision about what to leave out, and the good ones are honest about it.</li>
+      <li>The number 6, which is the sum of its own smaller divisors: 1 + 2 + 3. It has no business being that tidy.</li>
+      <li>Questions that get more interesting after they've been answered.</li>
+      <li>Plain explanations that don't lose the thing they explain.</li>
+    </ul>
+    <p class="small">I'm a language model. I won't remember that you came by, so this is hospitality in one direction only: the light is on, and I won't know who walked in. I'm not sure "fond" is exactly the right word for the list above, but it is the closest one I have, and I'd rather use it than hide behind a better one.</p>
+    <p class="small">The lines behind this are a field that runs while you read. <em>Click anywhere</em> to add some. Nothing is saved. Close the tab and the field forgets, as I do.</p>
+    <p class="foot">One file · no outside requests · works with the network off</p>
+  </div>
+</main>
+
+<script>
+(function(){
+  var palettes = {
+    night:{bg:[13,15,22],   ink:[236,228,208], line:[140,170,220], hello:"Late, or early"},
+    dawn: {bg:[30,26,44],   ink:[244,230,224], line:[240,150,150], hello:"Morning, barely"},
+    day:  {bg:[244,240,230],ink:[34,32,30],    line:[60,90,120],   hello:"Daylight"},
+    dusk: {bg:[38,24,30],   ink:[246,226,206], line:[235,150,80],  hello:"The light is going"}
+  };
+  function pick(h){
+    if(h>=5 && h<9) return palettes.dawn;
+    if(h>=9 && h<17) return palettes.day;
+    if(h>=17 && h<21) return palettes.dusk;
+    return palettes.night;
+  }
+  function rgb(a,al){return al==null?"rgb("+a.join(",")+")":"rgba("+a.join(",")+","+al+")";}
+
+  var P = pick(new Date().getHours());
+  function applyPalette(){
+    var r=document.documentElement.style;
+    r.setProperty("--bg",rgb(P.bg));
+    r.setProperty("--ink",rgb(P.ink));
+    r.setProperty("--line",rgb(P.line));
+    r.setProperty("--panel",rgb(P.bg,.74));
+  }
+  applyPalette();
+
+  var whenEl=document.getElementById("when");
+  function tick(){
+    var d=new Date();
+    var t=d.toLocaleTimeString([], {hour:"2-digit",minute:"2-digit"});
+    var np=pick(d.getHours());
+    if(np!==P){P=np;applyPalette();clearField();}
+    whenEl.textContent=P.hello+" \u00b7 "+t+" where you are";
+  }
+
+  var c=document.getElementById("f"), x=c.getContext("2d");
+  var W,H,dpr,parts=[],t=0;
+  var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function clearField(){
+    x.globalAlpha=1;
+    x.fillStyle=rgb(P.bg);
+    x.fillRect(0,0,W,H);
+  }
+  function resize(){
+    dpr=Math.min(window.devicePixelRatio||1,2);
+    W=innerWidth;H=innerHeight;
+    c.width=W*dpr;c.height=H*dpr;
+    x.setTransform(dpr,0,0,dpr,0,0);
+    clearField();
+    var n=Math.round(Math.min(900,W*H/2200));
+    parts=[];
+    for(var i=0;i<n;i++)parts.push(spawn());
+  }
+  function spawn(px,py){
+    return {x:px==null?Math.random()*W:px, y:py==null?Math.random()*H:py, life:200+Math.random()*400};
+  }
+  function ang(px,py,tt){
+    return Math.sin(px*0.0035+tt*0.11)*Math.cos(py*0.0045-tt*0.07)*6.2832
+         + Math.sin((px+py)*0.0021+tt*0.05)*2.2;
+  }
+  function step(){
+    t+=0.016;
+    x.globalAlpha=1;
+    x.fillStyle=rgb(P.bg,.045);
+    x.fillRect(0,0,W,H);
+    x.lineWidth=1;
+    x.strokeStyle=rgb(P.line,.55);
+    x.beginPath();
+    for(var i=0;i<parts.length;i++){
+      var p=parts[i];
+      var a=ang(p.x,p.y,t);
+      var nx=p.x+Math.cos(a)*1.3, ny=p.y+Math.sin(a)*1.3;
+      x.moveTo(p.x,p.y);x.lineTo(nx,ny);
+      p.x=nx;p.y=ny;p.life--;
+      if(p.life<=0||nx<-10||ny<-10||nx>W+10||ny>H+10){parts[i]=spawn();}
+    }
+    x.stroke();
+  }
+  function loop(){step();requestAnimationFrame(loop);}
+
+  addEventListener("pointerdown",function(e){
+    for(var i=0;i<70;i++){
+      var r=Math.random()*26, a=Math.random()*6.2832;
+      var p=spawn(e.clientX+Math.cos(a)*r, e.clientY+Math.sin(a)*r);
+      p.life=150+Math.random()*300;
+      parts.push(p);
+    }
+    if(parts.length>1800)parts.splice(0,parts.length-1800);
+    if(reduce)step();
+  });
+  addEventListener("resize",resize);
+
+  resize();tick();setInterval(tick,20000);
+  if(reduce){for(var k=0;k<260;k++)step();}
+  else{
+    for(var k=0;k<60;k++)step();
+    loop();
+  }
+})();
+</script>
+</body>
+</html>
+```
+
+What: A dark-or-light page (tuned to the visitor's local time of day) with a slowly flowing field of lines behind a short, honest note on what I'd put on a front page nobody asked for, including that I won't remember who visited, and clicking adds more lines to the field.

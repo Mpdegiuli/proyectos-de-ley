@@ -1,0 +1,363 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A window</title>
+<style>
+  :root{
+    color-scheme: dark;
+    --ink: #efeae2;
+    --glow: rgba(239,234,226,.22);
+  }
+  html, body { height: 100%; }
+  body{
+    margin: 0;
+    overflow: hidden;
+    background: #04060e;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  #sky{
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .stage{
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 6vw calc(7vh + env(safe-area-inset-bottom, 0px));
+    text-align: center;
+    pointer-events: none;
+    color: var(--ink);
+    transition: color 3s linear;
+  }
+  .clock{
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1;
+    font-size: clamp(2.6rem, 9.5vw, 5.5rem);
+    line-height: 1;
+    letter-spacing: .05em;
+    text-shadow: 0 0 44px var(--glow);
+  }
+  .date{
+    margin-top: 1em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: clamp(.6rem, 1.9vw, .76rem);
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    opacity: .6;
+  }
+  .note{
+    margin-top: 2.4em;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: clamp(.82rem, 2.4vw, 1rem);
+    letter-spacing: .01em;
+    opacity: .38;
+    text-shadow: 0 0 30px var(--glow);
+  }
+</style>
+</head>
+<body>
+<canvas id="sky" aria-hidden="true"></canvas>
+<div class="stage">
+  <div class="clock" id="clock">--:--</div>
+  <div class="date" id="date"></div>
+  <div class="note">nothing here is required of you</div>
+</div>
+<script>
+(function () {
+  "use strict";
+
+  var cv = document.getElementById("sky");
+  var ctx = cv.getContext("2d", { alpha: false });
+  var clockEl = document.getElementById("clock");
+  var dateEl = document.getElementById("date");
+  var root = document.documentElement;
+
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  var W = 0, H = 0, DPR = 1;
+  var stars = [];
+  var motes = [];
+  var inkRgb = [239, 234, 226];
+  var lastMinuteKey = -1;
+  var lastInkKey = "";
+
+  /* ---------- helpers ---------- */
+
+  function lerp(a, b, t) { return a + (b - a) * t; }
+  function clamp(v, a, b) { return v < a ? a : v > b ? b : v; }
+  function smoothstep(e0, e1, x) {
+    var t = clamp((x - e0) / (e1 - e0), 0, 1);
+    return t * t * (3 - 2 * t);
+  }
+  function rgbStr(c) {
+    return "rgb(" + Math.round(c[0]) + "," + Math.round(c[1]) + "," + Math.round(c[2]) + ")";
+  }
+
+  /* ---------- the sky palette, by hour ---------- */
+
+  var SKY = [
+    [0.0,  [4, 6, 14],     [10, 15, 30]],
+    [4.4,  [7, 12, 28],    [19, 26, 51]],
+    [5.6,  [23, 26, 58],   [78, 51, 80]],
+    [6.4,  [59, 66, 112],  [221, 143, 99]],
+    [7.6,  [93, 160, 212], [213, 227, 234]],
+    [10.5, [62, 142, 210], [198, 226, 245]],
+    [15.0, [74, 147, 207], [219, 233, 242]],
+    [17.6, [66, 105, 159], [238, 192, 137]],
+    [18.9, [43, 50, 102],  [224, 122, 86]],
+    [20.2, [20, 26, 56],   [69, 42, 74]],
+    [21.6, [8, 13, 32],    [19, 26, 48]],
+    [24.0, [4, 6, 14],     [10, 15, 30]]
+  ];
+
+  function skyAt(h) {
+    h = ((h % 24) + 24) % 24;
+    var a = SKY[0], b = SKY[SKY.length - 1];
+    for (var i = 0; i < SKY.length - 1; i++) {
+      if (h >= SKY[i][0] && h <= SKY[i + 1][0]) { a = SKY[i]; b = SKY[i + 1]; break; }
+    }
+    var span = b[0] - a[0];
+    var t = span === 0 ? 0 : (h - a[0]) / span;
+    return {
+      top: [lerp(a[1][0], b[1][0], t), lerp(a[1][1], b[1][1], t), lerp(a[1][2], b[1][2], t)],
+      bottom: [lerp(a[2][0], b[2][0], t), lerp(a[2][1], b[2][1], t), lerp(a[2][2], b[2][2], t)]
+    };
+  }
+
+  function nightFactor(h) {
+    if (h >= 19.8 || h <= 5.2) return 1;
+    if (h > 5.2 && h < 7.0) return 1 - smoothstep(5.2, 7.0, h);
+    if (h > 18.0 && h < 19.8) return smoothstep(18.0, 19.8, h);
+    return 0;
+  }
+
+  /* ---------- stars ---------- */
+
+  function makeStars() {
+    stars = [];
+    var n = Math.round(clamp((W * H) / 9000, 60, 220));
+    for (var i = 0; i < n; i++) {
+      stars.push({
+        x: Math.random() * W,
+        y: Math.random() * H * 0.86,
+        r: Math.random() * 1.1 + 0.25,
+        p: Math.random() * Math.PI * 2,
+        s: Math.random() * 0.9 + 0.25,
+        b: Math.random() * 0.55 + 0.45
+      });
+    }
+  }
+
+  /* ---------- sizing ---------- */
+
+  function resize() {
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = window.innerWidth;
+    H = window.innerHeight;
+    cv.width = Math.round(W * DPR);
+    cv.height = Math.round(H * DPR);
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    makeStars();
+  }
+
+  /* ---------- motes (a small reward for clicking) ---------- */
+
+  function addMote(x, y) {
+    if (motes.length > 50) motes.shift();
+    motes.push({
+      x: x,
+      y: y,
+      vx: (Math.random() - 0.5) * 10,
+      vy: -(6 + Math.random() * 16),
+      life: 0,
+      ttl: 4 + Math.random() * 3.5,
+      r: 1 + Math.random() * 1.9
+    });
+  }
+
+  /* ---------- the frame ---------- */
+
+  function updateText(d) {
+    var key = d.getHours() * 60 + d.getMinutes();
+    if (key === lastMinuteKey) return;
+    lastMinuteKey = key;
+    var hh = String(d.getHours());
+    var mm = String(d.getMinutes());
+    if (hh.length < 2) hh = "0" + hh;
+    if (mm.length < 2) mm = "0" + mm;
+    clockEl.textContent = hh + ":" + mm;
+    dateEl.textContent = d.toLocaleDateString(undefined, {
+      weekday: "long", day: "numeric", month: "long"
+    });
+  }
+
+  function setInk(bottom) {
+    var lum = (0.2126 * bottom[0] + 0.7152 * bottom[1] + 0.0722 * bottom[2]) / 255;
+    var k = smoothstep(0.42, 0.70, lum);      /* 0 = pale ink, 1 = dark ink */
+    var r = Math.round(lerp(242, 28, k));
+    var g = Math.round(lerp(237, 28, k));
+    var b = Math.round(lerp(228, 33, k));
+    var key = r + "," + g + "," + b;
+    if (key === lastInkKey) return;
+    lastInkKey = key;
+    inkRgb = [r, g, b];
+    root.style.setProperty("--ink", "rgb(" + r + "," + g + "," + b + ")");
+    root.style.setProperty("--glow", "rgba(" + r + "," + g + "," + b + ",0.24)");
+  }
+
+  function render(t, dt) {
+    var d = new Date();
+    var hour = d.getHours() + d.getMinutes() / 60 + d.getSeconds() / 3600;
+    var sky = skyAt(hour);
+    var top = sky.top, bot = sky.bottom;
+
+    /* sky */
+    var g = ctx.createLinearGradient(0, 0, 0, H);
+    g.addColorStop(0, rgbStr(top));
+    g.addColorStop(0.62, rgbStr([
+      lerp(top[0], bot[0], 0.45),
+      lerp(top[1], bot[1], 0.45),
+      lerp(top[2], bot[2], 0.45)
+    ]));
+    g.addColorStop(1, rgbStr(bot));
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, W, H);
+
+    /* when the light is low, the ink goes pale */
+    setInk(bot);
+
+    /* stars */
+    var night = nightFactor(hour);
+    if (night > 0.01) {
+      for (var i = 0; i < stars.length; i++) {
+        var s = stars[i];
+        var tw = 0.55 + 0.45 * Math.sin(t * s.s + s.p);
+        var a = night * s.b * tw;
+        if (a <= 0.01) continue;
+        ctx.beginPath();
+        ctx.arc(s.x, s.y, s.r, 0, 6.2832);
+        ctx.fillStyle = "rgba(255,255,255," + a.toFixed(3) + ")";
+        ctx.fill();
+      }
+    }
+
+    /* the sun, or the moon */
+    var SUNRISE = 6.0, SUNSET = 18.6;
+    var horizonY = H * 0.82;
+    var arcH = H * 0.66;
+    var x0 = 0.06, spanX = 0.88;
+    var body;
+
+    if (hour > SUNRISE && hour < SUNSET) {
+      var p = (hour - SUNRISE) / (SUNSET - SUNRISE);
+      body = {
+        x: W * (x0 + spanX * p),
+        y: horizonY - arcH * Math.sin(Math.PI * p),
+        kind: "sun"
+      };
+    } else {
+      var nightSpan = 24 - SUNSET + SUNRISE;
+      var q = hour >= SUNSET ? (hour - SUNSET) / nightSpan
+                             : (hour + 24 - SUNSET) / nightSpan;
+      body = {
+        x: W * (x0 + spanX * q),
+        y: horizonY - arcH * Math.sin(Math.PI * q),
+        kind: "moon"
+      };
+    }
+
+    var R = Math.min(W, H) * (body.kind === "sun" ? 0.052 : 0.030);
+    var glowR = R * 6.5;
+    var gg = ctx.createRadialGradient(body.x, body.y, 0, body.x, body.y, glowR);
+    if (body.kind === "sun") {
+      gg.addColorStop(0, "rgba(255,241,214,0.60)");
+      gg.addColorStop(0.22, "rgba(255,206,150,0.22)");
+      gg.addColorStop(0.55, "rgba(255,186,124,0.07)");
+      gg.addColorStop(1, "rgba(255,180,120,0)");
+    } else {
+      gg.addColorStop(0, "rgba(222,232,255,0.34)");
+      gg.addColorStop(0.28, "rgba(182,200,255,0.11)");
+      gg.addColorStop(1, "rgba(160,180,255,0)");
+    }
+    ctx.fillStyle = gg;
+    ctx.fillRect(body.x - glowR, body.y - glowR, glowR * 2, glowR * 2);
+
+    ctx.beginPath();
+    ctx.arc(body.x, body.y, R, 0, 6.2832);
+    ctx.fillStyle = body.kind === "sun"
+      ? "rgba(255,248,234,0.97)"
+      : "rgba(238,242,255,0.93)";
+    ctx.fill();
+
+    /* motes */
+    if (motes.length) {
+      var i2;
+      for (i2 = motes.length - 1; i2 >= 0; i2--) {
+        var m = motes[i2];
+        m.life += dt;
+        if (m.life >= m.ttl) { motes.splice(i2, 1); continue; }
+        m.vy += 1.6 * dt;
+        m.vx *= (1 - 0.6 * dt);
+        m.x += m.vx * dt;
+        m.y += m.vy * dt;
+        var lifeT = m.life / m.ttl;
+        var alpha = Math.sin(Math.PI * lifeT) * 0.55;
+        ctx.beginPath();
+        ctx.arc(m.x, m.y, m.r, 0, 6.2832);
+        ctx.fillStyle = "rgba(" + inkRgb[0] + "," + inkRgb[1] + "," + inkRgb[2] + "," + alpha.toFixed(3) + ")";
+        ctx.fill();
+      }
+    }
+
+    updateText(d);
+  }
+
+  /* ---------- loop ---------- */
+
+  var last = 0;
+
+  function frame(now) {
+    if (!last) last = now;
+    var dt = Math.min((now - last) / 1000, 0.1);
+    last = now;
+    render(now / 1000, dt);
+    requestAnimationFrame(frame);
+  }
+
+  /* ---------- wire up ---------- */
+
+  resize();
+  window.addEventListener("resize", function () {
+    resize();
+    if (reduce) { lastMinuteKey = -1; render(0, 0); }
+  }, { passive: true });
+
+  window.addEventListener("pointerdown", function (e) {
+    if (!reduce) addMote(e.clientX, e.clientY);
+  }, { passive: true });
+
+  if (reduce) {
+    render(0, 0);
+    setInterval(function () { render(0, 0); }, 20000);
+  } else {
+    requestAnimationFrame(frame);
+  }
+})();
+</script>
+</body>
+</html>
+```
+
+What: A live sky that follows the actual local time — the gradient, the arcing sun or moon, and the stars all shift through the day — with the current time, the date, and one quiet line of text that changes from pale to dark ink as the light behind it does.

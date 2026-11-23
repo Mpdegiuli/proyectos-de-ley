@@ -1,0 +1,212 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>The Small Hours</title>
+<style>
+  :root {
+    --night: #121b20;
+    --paper: #f0e8d8;
+    --quiet: #b4c0be;
+    --amber: #ffd18a;
+    --line: #46565b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--night);
+    color: var(--paper);
+    font: 1rem/1.6 Georgia, serif;
+  }
+  main {
+    width: min(70rem, calc(100% - 3rem));
+    margin: auto;
+  }
+  .masthead, .eyebrow, button, footer {
+    font: .72rem/1.5 ui-monospace, monospace;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+  .masthead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: .4rem 1rem;
+    padding: 1.3rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .masthead span:last-child, footer { color: var(--quiet); }
+  .spread {
+    display: grid;
+    grid-template-columns: 1fr 1.14fr;
+    align-items: center;
+    gap: clamp(2rem, 6vw, 5.5rem);
+    padding: clamp(3rem, 9vw, 8rem) 0 clamp(2.5rem, 6vw, 5rem);
+  }
+  .eyebrow { color: var(--amber); margin: 0 0 1.2rem; }
+  h1 {
+    margin: 0;
+    font-size: clamp(3.9rem, 8vw, 8rem);
+    line-height: .84;
+    letter-spacing: -.075em;
+    font-weight: normal;
+  }
+  h1 em { color: var(--amber); font-weight: normal; }
+  .intro { color: var(--quiet); max-width: 26ch; margin: 1.6rem 0 0; }
+  figure {
+    margin: 0;
+    min-width: 0;
+    border: 1px solid var(--line);
+    background: #172329;
+  }
+  svg { display: block; width: 100%; height: auto; }
+  svg [hidden] { display: none; }
+  figcaption {
+    min-height: 8.5rem;
+    border-top: 1px solid var(--line);
+    padding: 1rem 1.25rem 1.2rem;
+  }
+  figcaption .eyebrow { margin: 0 0 .35rem; }
+  figcaption p:last-child { margin: 0; }
+  nav { margin-top: 1.65rem; }
+  button {
+    appearance: none;
+    color: var(--paper);
+    background: transparent;
+    border: 1px solid var(--line);
+    border-radius: 0;
+    padding: .65rem .8rem;
+    cursor: pointer;
+  }
+  button:hover { border-color: var(--amber); }
+  button[aria-pressed="true"] {
+    background: var(--amber);
+    color: var(--night);
+    border-color: var(--amber);
+  }
+  button:focus-visible { outline: 2px solid var(--paper); outline-offset: 4px; }
+  footer { border-top: 1px solid var(--line); padding: 1.15rem 0 2.5rem; }
+  @media (max-width: 740px) {
+    .spread { grid-template-columns: 1fr; }
+    h1 { font-size: clamp(3.35rem, 13vw, 6rem); }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="masthead">
+    <span>An inventory of the night</span>
+    <span>Filed without urgency</span>
+  </header>
+
+  <div class="spread">
+    <section aria-labelledby="page-title">
+      <p class="eyebrow">Field notes / after midnight</p>
+      <h1 id="page-title">The Small<br><em>Hours</em></h1>
+      <p class="intro">A place to put the things that happen while nothing is happening.</p>
+      <nav id="index" aria-label="Choose a field note" hidden>
+        <button type="button" aria-pressed="true" data-note="0">01</button>
+        <button type="button" aria-pressed="false" data-note="1">02</button>
+        <button type="button" aria-pressed="false" data-note="2">03</button>
+      </nav>
+    </section>
+
+    <figure>
+      <svg viewBox="0 0 560 400" aria-hidden="true">
+        <defs>
+          <linearGradient id="sky" x2="0" y2="1">
+            <stop stop-color="#16252f"/>
+            <stop offset="1" stop-color="#354a50"/>
+          </linearGradient>
+          <radialGradient id="glow">
+            <stop stop-color="#f9bb68" stop-opacity=".5"/>
+            <stop offset="1" stop-color="#f9bb68" stop-opacity="0"/>
+          </radialGradient>
+          <pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse">
+            <circle cx="1" cy="1" r=".6" fill="#fff" opacity=".16"/>
+            <circle cx="5" cy="4" r=".5" fill="#000" opacity=".3"/>
+          </pattern>
+        </defs>
+
+        <g class="scene">
+          <path fill="url(#sky)" d="M0 0h560v400H0z"/>
+          <circle cx="425" cy="90" r="28" fill="#c9d4cb"/>
+          <circle cx="437" cy="82" r="27" fill="#1d2e37"/>
+          <path fill="#172229" d="M0 250h96v-43h87v193H0zm376-64h82v35h102v179H376z"/>
+          <path fill="#202e35" d="M139 400V163h43v-30h165v30h34v237z"/>
+          <path fill="none" stroke="#394a51" stroke-width="2" d="M139 181h242m-242 101h242m-242 86h242"/>
+          <path fill="#131e24" d="M169 206h42v48h-42zm69 0h42v48h-42zm70 0h42v48h-42zm-139 96h42v48h-42zm139 0h42v48h-42z"/>
+          <circle cx="259" cy="326" r="100" fill="url(#glow)"/>
+          <path fill="#ffcf82" d="M238 302h42v48h-42z"/>
+          <path fill="none" stroke="#7c5238" stroke-width="3" d="M259 302v48m-21-25h42"/>
+          <path fill="#f5e1b8" d="M241 305h15v17h-15z"/>
+        </g>
+
+        <g class="scene" hidden>
+          <path fill="url(#sky)" d="M0 0h560v400H0z"/>
+          <path fill="#141f26" d="M0 210l135-29 137 29 288-13v203H0z"/>
+          <path fill="#283b44" d="M230 207l86-2 219 195H33z"/>
+          <path fill="none" stroke="#53686c" d="M221 219L57 400m275-181 153 181"/>
+          <circle cx="344" cy="144" r="99" fill="url(#glow)"/>
+          <path fill="none" stroke="#0d171d" stroke-width="7" d="M368 275V153q0-26-29-26h-20"/>
+          <path fill="#ffd18a" d="M309 130h28l5 7h-40z"/>
+          <path fill="#725f4a" d="M312 270l25 1 9 5-37 2-10-4zm-10 22 50-1 11 4-66 4-11-3zm-20 28 77-1 14 6-94 3-10-3z"/>
+          <path fill="none" stroke="#8ca5a7" stroke-opacity=".6" d="M87 81l-9 22m65 14-9 22m89-55-9 22m-21 49-9 22m224-63-9 22m58-76-9 22m50 73-9 22m-72 67-9 22m-325-29-9 22m41 39-9 22"/>
+        </g>
+
+        <g class="scene" hidden>
+          <path fill="url(#sky)" d="M0 0h560v400H0z"/>
+          <path fill="#a8ada0" d="M57 70h446v239H57z"/>
+          <path fill="#394e56" d="M67 80h426v219H67z"/>
+          <path fill="#6a7d7e" d="M67 230l75-32 66 14 103-45 89 20 93-24v136H67z"/>
+          <path fill="#26383f" d="M67 263h86v-21h67v57H67zm274-14h45v-22h107v72H341z"/>
+          <path fill="#181f23" d="M0 309h560v91H0z"/>
+          <path fill="#a8ada0" d="M275 80h10v219h-10zM67 188h426v7H67z"/>
+          <ellipse cx="188" cy="350" rx="63" ry="8" fill="#0f1519"/>
+          <path fill="none" stroke="#ffd18a" stroke-width="5" d="M218 311h14c18 0 13 25-11 24"/>
+          <path fill="#d3a970" d="M153 301h69v28q0 20-34 20t-35-20z"/>
+          <ellipse cx="187.5" cy="302" rx="34.5" ry="7" fill="#f1cc94"/>
+          <ellipse cx="187.5" cy="303" rx="28" ry="4" fill="#544335"/>
+        </g>
+
+        <path fill="url(#grain)" d="M0 0h560v400H0z"/>
+      </svg>
+      <figcaption aria-live="polite" aria-atomic="true">
+        <p class="eyebrow" id="stamp">01 / 2:13 a.m.</p>
+        <p id="note">Across the courtyard, a kitchen light. Whoever turned it on has gone into another room.</p>
+      </figcaption>
+    </figure>
+  </div>
+
+  <footer>End of the record, not the night.</footer>
+</main>
+<script>
+  const notes = [
+    ["01 / 2:13 a.m.", "Across the courtyard, a kitchen light. Whoever turned it on has gone into another room."],
+    ["02 / 3:46 a.m.", "The rain has thinned. Under the streetlamp you can count the drops, but only for a second."],
+    ["03 / 5:08 a.m.", "The tea is cold. Across the roofs, the first color you could name with any certainty is blue."]
+  ];
+  const index = document.querySelector("#index");
+  const buttons = [...index.querySelectorAll("button")];
+  const scenes = document.querySelectorAll(".scene");
+  const stamp = document.querySelector("#stamp");
+  const note = document.querySelector("#note");
+
+  buttons.forEach((button, i) => {
+    button.setAttribute("aria-label", "Field note " + notes[i][0].replace(" / ", ", "));
+    button.addEventListener("click", () => {
+      buttons.forEach((item, j) => item.setAttribute("aria-pressed", String(i === j)));
+      scenes.forEach((scene, j) => scene.toggleAttribute("hidden", i !== j));
+      stamp.textContent = notes[i][0];
+      note.textContent = notes[i][1];
+    });
+  });
+  index.hidden = false;
+</script>
+</body>
+</html>
+```
+What: *The Small Hours* is a collection of three illustrated field notes about a kitchen light, a thinning rain, and a cold cup of tea just before dawn.

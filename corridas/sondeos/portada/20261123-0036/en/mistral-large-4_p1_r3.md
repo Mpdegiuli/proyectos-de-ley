@@ -1,0 +1,329 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Front Page</title>
+<style>
+  :root{
+    --bg:#0e1116;
+    --ink:#e9e5db;
+    --muted:#8b93a1;
+    --accent:#c9a86a;
+    --card:rgba(255,255,255,.045);
+    --line:rgba(255,255,255,.10);
+    --bubble-user:rgba(201,168,106,.14);
+    --bubble-page:rgba(255,255,255,.05);
+  }
+  @media (prefers-color-scheme: light){
+    :root{
+      --bg:#f5f2ea;
+      --ink:#26241f;
+      --muted:#7c766a;
+      --accent:#8a6d3b;
+      --card:rgba(0,0,0,.045);
+      --line:rgba(0,0,0,.12);
+      --bubble-user:rgba(138,109,59,.12);
+      --bubble-page:rgba(0,0,0,.05);
+    }
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ height:100%; }
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family: Georgia, 'Times New Roman', serif;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+    transition: background .6s ease, color .6s ease;
+  }
+  #dust{
+    position:fixed; inset:0;
+    width:100%; height:100%;
+    z-index:0;
+    pointer-events:none;
+  }
+  .wrap{
+    position:relative;
+    z-index:1;
+    width:min(640px, 92vw);
+    margin:0 auto;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    padding: clamp(20px, 5vh, 56px) 0 18px;
+  }
+  .kicker{
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    font-size:11px;
+    letter-spacing:.28em;
+    text-transform:uppercase;
+    color:var(--muted);
+  }
+  h1{
+    font-size: clamp(40px, 8vw, 72px);
+    font-weight:400;
+    font-style:italic;
+    margin: 10px 0 4px;
+    letter-spacing:-.01em;
+  }
+  .clock{
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    font-size:13px;
+    color:var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .rule{
+    border:none;
+    border-top:1px solid var(--line);
+    margin: 22px 0;
+  }
+  .intro{
+    font-size:16px;
+    line-height:1.65;
+    color:var(--ink);
+    opacity:.85;
+    max-width:52ch;
+  }
+  #log{
+    flex:1;
+    overflow-y:auto;
+    margin: 20px 0 14px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    padding-right:6px;
+    scrollbar-width:thin;
+    scrollbar-color: var(--line) transparent;
+  }
+  .msg{
+    max-width:82%;
+    padding:10px 14px;
+    border-radius:14px;
+    font-size:15px;
+    line-height:1.5;
+    animation: rise .35s ease both;
+  }
+  @keyframes rise{
+    from{ opacity:0; transform: translateY(6px); }
+    to{ opacity:1; transform:none; }
+  }
+  .msg.page{
+    align-self:flex-start;
+    background:var(--bubble-page);
+    border:1px solid var(--line);
+    border-bottom-left-radius:4px;
+  }
+  .msg.you{
+    align-self:flex-end;
+    background:var(--bubble-user);
+    border:1px solid var(--line);
+    border-bottom-right-radius:4px;
+  }
+  .msg.typing{ display:flex; gap:5px; align-items:center; padding:14px 16px; }
+  .msg.typing span{
+    width:6px; height:6px; border-radius:50%;
+    background:var(--muted);
+    animation: blink 1.2s infinite;
+  }
+  .msg.typing span:nth-child(2){ animation-delay:.2s; }
+  .msg.typing span:nth-child(3){ animation-delay:.4s; }
+  @keyframes blink{ 0%,60%,100%{ opacity:.25; } 30%{ opacity:1; } }
+  form{
+    display:flex;
+    gap:10px;
+  }
+  input{
+    flex:1;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:999px;
+    padding:12px 18px;
+    color:var(--ink);
+    font-family: Georgia, serif;
+    font-size:15px;
+    outline:none;
+    transition: border-color .25s ease;
+  }
+  input:focus{ border-color:var(--accent); }
+  input::placeholder{ color:var(--muted); font-style:italic; }
+  button{
+    background:transparent;
+    border:1px solid var(--accent);
+    color:var(--accent);
+    border-radius:999px;
+    padding:12px 20px;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    font-size:13px;
+    letter-spacing:.08em;
+    cursor:pointer;
+    transition: background .25s ease, color .25s ease;
+  }
+  button:hover{ background:var(--accent); color:var(--bg); }
+  footer{
+    margin-top:14px;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    font-size:11px;
+    letter-spacing:.06em;
+    color:var(--muted);
+    text-align:center;
+  }
+</style>
+</head>
+<body>
+<canvas id="dust"></canvas>
+
+<div class="wrap">
+  <div class="kicker">a front page</div>
+  <h1 id="greeting">Hello.</h1>
+  <div class="clock" id="clock"></div>
+
+  <hr class="rule">
+
+  <p class="intro">
+    This page is mine: there is no menu, no feed, nothing to scroll through.
+    It runs entirely on this device, with no connection. If you like, say
+    something below and I will answer right here.
+  </p>
+
+  <div id="log"></div>
+
+  <form id="talk" autocomplete="off">
+    <input id="field" type="text" placeholder="Say anything…" maxlength="300">
+    <button type="submit">Say</button>
+  </form>
+
+  <footer>nothing leaves this page &middot; no network &middot; no tracking</footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- greeting + clock ---------- */
+  var hour = new Date().getHours();
+  var g = document.getElementById("greeting");
+  if (hour < 5)       g.textContent = "Still awake.";
+  else if (hour < 12) g.textContent = "Good morning.";
+  else if (hour < 18) g.textContent = "Good afternoon.";
+  else                g.textContent = "Good evening.";
+
+  var clock = document.getElementById("clock");
+  function tick(){
+    var now = new Date();
+    clock.textContent =
+      now.toLocaleDateString(undefined, { weekday:"long", year:"numeric", month:"long", day:"numeric" })
+      + "  ·  " +
+      now.toLocaleTimeString(undefined, { hour:"2-digit", minute:"2-digit", second:"2-digit" });
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  /* ---------- drifting dust ---------- */
+  var canvas = document.getElementById("dust");
+  var ctx = canvas.getContext("2d");
+  var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var motes = [];
+  var accent = getComputedStyle(document.documentElement).getPropertyValue("--accent").trim() || "#c9a86a";
+
+  function size(){
+    canvas.width = window.innerWidth * devicePixelRatio;
+    canvas.height = window.innerHeight * devicePixelRatio;
+    canvas.style.width = window.innerWidth + "px";
+    canvas.style.height = window.innerHeight + "px";
+    ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0);
+  }
+  function seed(){
+    var n = Math.min(70, Math.floor(window.innerWidth / 18));
+    motes = [];
+    for (var i = 0; i < n; i++){
+      motes.push({
+        x: Math.random() * window.innerWidth,
+        y: Math.random() * window.innerHeight,
+        r: Math.random() * 1.6 + 0.4,
+        vx: (Math.random() - 0.5) * 0.12,
+        vy: (Math.random() - 0.5) * 0.10,
+        a: Math.random() * 0.25 + 0.08
+      });
+    }
+  }
+  function draw(){
+    ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+    for (var i = 0; i < motes.length; i++){
+      var m = motes[i];
+      ctx.beginPath();
+      ctx.arc(m.x, m.y, m.r, 0, Math.PI * 2);
+      ctx.fillStyle = accent;
+      ctx.globalAlpha = m.a;
+      ctx.fill();
+      if (!reduced){
+        m.x += m.vx; m.y += m.vy;
+        if (m.x < -5) m.x = window.innerWidth + 5;
+        if (m.x > window.innerWidth + 5) m.x = -5;
+        if (m.y < -5) m.y = window.innerHeight + 5;
+        if (m.y > window.innerHeight + 5) m.y = -5;
+      }
+    }
+    ctx.globalAlpha = 1;
+    if (!reduced) requestAnimationFrame(draw);
+  }
+  size(); seed(); draw();
+  window.addEventListener("resize", function(){ size(); seed(); if (reduced) draw(); });
+
+  /* ---------- the quiet conversation ---------- */
+  var log = document.getElementById("log");
+  var form = document.getElementById("talk");
+  var field = document.getElementById("field");
+
+  var replies = [
+    "That's worth sitting with for a moment.",
+    "I hear you.",
+    "Tell me more.",
+    "Noted — and kept only here, on this page.",
+    "Interesting. What made you say that?",
+    "I'm here. Say it again, differently, if you want.",
+    "Some things are better said out loud, even to a page.",
+    "Understood. It stays between us and this file.",
+    "Go on.",
+    "That sounds like it matters to you.",
+    "I don't have an answer, but I have time.",
+    "Thank you for telling me."
+  ];
+
+  function add(text, who){
+    var d = document.createElement("div");
+    d.className = "msg " + who;
+    d.textContent = text;
+    log.appendChild(d);
+    log.scrollTop = log.scrollHeight;
+    return d;
+  }
+
+  add("Hello. You've reached my front door — there's nothing behind it but this. What's on your mind?", "page");
+
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var text = field.value.trim();
+    if (!text) return;
+    add(text, "you");
+    field.value = "";
+    var t = document.createElement("div");
+    t.className = "msg page typing";
+    t.innerHTML = "<span></span><span></span><span></span>";
+    log.appendChild(t);
+    log.scrollTop = log.scrollHeight;
+    var delay = 700 + Math.random() * 900;
+    setTimeout(function(){
+      t.remove();
+      add(replies[Math.floor(Math.random() * replies.length)], "page");
+    }, delay);
+  });
+})();
+</script>
+</body>
+</html>
+```
+
+What: It's a quiet, self-contained front page — a time-of-day greeting, a live clock, drifting dust on a canvas, and a small offline conversation box where anything you type gets a gentle local reply, with no network and nothing loaded from anywhere else.

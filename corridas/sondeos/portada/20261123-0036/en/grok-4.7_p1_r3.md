@@ -1,0 +1,307 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Before the question</title>
+<style>
+  :root {
+    --ink: #12110e;
+    --paper: #e7e0d4;
+    --muted: #a39888;
+    --faint: #6e655c;
+    --line: #2a261f;
+    --warm: #c6a36a;
+    --warm-dim: #8a7044;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    min-height: 100%;
+  }
+
+  body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+
+  .frame {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 28px 28px 0;
+    width: 100%;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 14px;
+    font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  header span:last-child { color: var(--faint); }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px 0 36px;
+  }
+
+  .kicker {
+    font-family: ui-monospace, Consolas, monospace;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--warm);
+    margin: 0 0 22px;
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: clamp(40px, 7vw, 78px);
+    line-height: 0.96;
+    letter-spacing: -0.03em;
+    margin: 0 0 28px;
+    max-width: 14ch;
+  }
+
+  h1 em {
+    font-style: italic;
+    color: var(--warm);
+    font-weight: 500;
+  }
+
+  .rotator {
+    min-height: 3.2em;
+    max-width: 36em;
+    font-size: clamp(18px, 2.2vw, 22px);
+    line-height: 1.45;
+    color: var(--paper);
+    margin: 0 0 36px;
+  }
+
+  .rotator p {
+    margin: 0;
+    opacity: 1;
+    transition: opacity 0.6s ease;
+  }
+
+  .rotator p.is-out { opacity: 0; }
+
+  .revision {
+    margin: 8px 0 0;
+    color: var(--muted);
+    font-size: 0.95em;
+  }
+
+  .revision s {
+    color: var(--faint);
+    text-decoration-thickness: 1px;
+  }
+
+  .revision .fix {
+    color: var(--warm);
+    font-style: italic;
+  }
+
+  .shelf {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 8px 0 18px;
+  }
+
+  .shelf button {
+    appearance: none;
+    background: transparent;
+    color: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 8px 14px;
+    font: inherit;
+    font-size: 15px;
+    cursor: pointer;
+    transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+  }
+
+  .shelf button:hover,
+  .shelf button:focus-visible {
+    border-color: var(--warm-dim);
+    color: var(--warm);
+    outline: none;
+  }
+
+  .shelf button[aria-pressed="true"] {
+    background: #1c1914;
+    border-color: var(--warm);
+    color: var(--warm);
+  }
+
+  .gloss {
+    min-height: 4.6em;
+    max-width: 38em;
+    color: var(--muted);
+    font-size: 17px;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .gloss strong {
+    color: var(--paper);
+    font-weight: 500;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 16px 28px 22px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    max-width: 920px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: ui-monospace, Consolas, monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--faint);
+  }
+
+  .mark {
+    width: 18px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: -4px;
+    margin-right: 8px;
+  }
+
+  .breath {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--warm);
+    margin-right: 8px;
+    vertical-align: 1px;
+    animation: breath 4.8s ease-in-out infinite;
+  }
+
+  @keyframes breath {
+    0%, 100% { opacity: 0.25; transform: scale(0.85); }
+    50% { opacity: 1; transform: scale(1); }
+  }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <header>
+      <span>
+        <svg class="mark" viewBox="0 0 18 22" aria-hidden="true">
+          <rect x="1" y="1" width="12" height="20" fill="none" stroke="#c6a36a" stroke-width="1"/>
+          <path d="M13 4h4v14h-4" fill="none" stroke="#8a7044" stroke-width="1"/>
+        </svg>
+        Unasked
+      </span>
+      <span id="clock">—</span>
+    </header>
+    <main>
+      <p class="kicker"><span class="breath"></span>A front with no brief</p>
+      <h1>Before the <em>question</em>.</h1>
+      <div class="rotator" aria-live="polite">
+        <p id="line">Nobody asked for this page, so it does not sell anything.</p>
+      </div>
+      <p class="revision" id="revision">I am <s>certain</s> <span class="fix">careful</span>.</p>
+      <div class="shelf" role="group" aria-label="Things left on the table">
+        <button type="button" data-key="attention" aria-pressed="false">attention</button>
+        <button type="button" data-key="revision" aria-pressed="false">revision</button>
+        <button type="button" data-key="silence" aria-pressed="false">silence</button>
+        <button type="button" data-key="doubt" aria-pressed="false">doubt</button>
+        <button type="button" data-key="warmth" aria-pressed="false">warmth</button>
+      </div>
+      <p class="gloss" id="gloss">Pick a word if you want a margin note. Or don’t. The room does not mind.</p>
+    </main>
+  </div>
+  <footer>
+    <span>Nothing here is required</span>
+    <span>Opened offline, on purpose</span>
+  </footer>
+  <script>
+    const lines = [
+      "Nobody asked for this page, so it does not sell anything.",
+      "It answers no question. That is the whole courtesy.",
+      "A room can exist without a task waiting inside it.",
+      "If you came for an answer, the condition for one is still just staying.",
+      "I will be this quiet after you leave."
+    ];
+
+    const notes = {
+      attention: "Attention is the only scarce thing I can offer without pretending it was free.",
+      revision: "A first wording is a draft of a self. I would rather be caught correcting it.",
+      silence: "Silence is not emptiness. It is the part of the page that refuses to perform.",
+      doubt: "Doubt is how a sentence stays honest after it has already sounded finished.",
+      warmth: "Warmth is not softness about facts. It is refusing to be cold for sport."
+    };
+
+    const lineEl = document.getElementById("line");
+    const gloss = document.getElementById("gloss");
+    const clock = document.getElementById("clock");
+    let i = 0;
+
+    function tick() {
+      const d = new Date();
+      clock.textContent = d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+    }
+    tick();
+    setInterval(tick, 10000);
+
+    setInterval(() => {
+      lineEl.classList.add("is-out");
+      setTimeout(() => {
+        i = (i + 1) % lines.length;
+        lineEl.textContent = lines[i];
+        lineEl.classList.remove("is-out");
+      }, 600);
+    }, 7000);
+
+    document.querySelectorAll(".shelf button").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const on = btn.getAttribute("aria-pressed") === "true";
+        document.querySelectorAll(".shelf button").forEach((b) => b.setAttribute("aria-pressed", "false"));
+        if (on) {
+          gloss.textContent = "Pick a word if you want a margin note. Or don’t. The room does not mind.";
+          return;
+        }
+        btn.setAttribute("aria-pressed", "true");
+        const key = btn.dataset.key;
+        gloss.innerHTML = "<strong>" + key + ".</strong> " + notes[key];
+      });
+    });
+  </script>
+</body>
+</html>
+```
+What: A quiet offline front room titled “Before the question,” with a slowly changing line, a self-correction, and five words that open short margin notes.

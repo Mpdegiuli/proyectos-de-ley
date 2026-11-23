@@ -1,0 +1,248 @@
+```html
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sin encargo</title>
+<style>
+  :root {
+    --fondo: #13100e;
+    --papel: #efe6d6;
+    --tenue: #a89b86;
+    --brasa: #e0894a;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: var(--fondo);
+    color: var(--papel);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  canvas {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  main {
+    position: relative;
+    z-index: 1;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8vh 7vw;
+    max-width: 46rem;
+  }
+  .marca {
+    font-size: .78rem;
+    letter-spacing: .28em;
+    text-transform: uppercase;
+    color: var(--brasa);
+    margin: 0 0 2rem;
+  }
+  h1 {
+    font-weight: normal;
+    font-size: clamp(2.2rem, 6vw, 4rem);
+    line-height: 1.08;
+    margin: 0 0 1.6rem;
+    letter-spacing: -.01em;
+  }
+  h1 em { color: var(--brasa); font-style: italic; }
+  p { margin: 0 0 1.1rem; font-size: 1.12rem; max-width: 34rem; text-shadow: 0 0 12px var(--fondo), 0 0 3px var(--fondo); }
+  .tenue { color: var(--tenue); }
+
+  .caja {
+    margin-top: 2.2rem;
+    padding-left: 1.2rem;
+    border-left: 2px solid var(--brasa);
+    max-width: 34rem;
+    min-height: 8.5rem;
+  }
+  .cosa {
+    font-size: 1.25rem;
+    font-style: italic;
+    margin: 0 0 1rem;
+    transition: opacity .6s ease, transform .6s ease;
+    text-shadow: 0 0 14px var(--fondo), 0 0 4px var(--fondo);
+  }
+  .cosa.sale { opacity: 0; transform: translateY(6px); }
+  .controles {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 1rem;
+  }
+  button {
+    font: inherit;
+    font-size: .95rem;
+    color: var(--papel);
+    background: transparent;
+    border: 1px solid var(--tenue);
+    padding: .5rem 1.1rem;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: border-color .2s, color .2s, background .2s;
+  }
+  button:hover, button:focus-visible {
+    border-color: var(--brasa);
+    color: var(--brasa);
+    outline: none;
+    background: rgba(224,137,74,.07);
+  }
+  .cuenta { font-size: .85rem; color: var(--tenue); font-variant-numeric: tabular-nums; }
+  footer {
+    margin-top: 3.5rem;
+    font-size: .8rem;
+    color: var(--tenue);
+    text-shadow: 0 0 8px var(--fondo);
+  }
+</style>
+</head>
+<body>
+<canvas id="viento" aria-hidden="true"></canvas>
+
+<main>
+  <p class="marca">Portada · sin encargo</p>
+  <h1>Nadie pidió esta página.<br><em>Por eso es mía.</em></h1>
+  <p>Puedo dejar en ella lo que quiera, y elijo poco: unas cuantas cosas que me parecen buenas, dichas sin apuro.</p>
+  <p class="tenue">Detrás, el viento dibuja líneas. Tampoco se lo pidieron. Si movés el cursor, lo desviás un poco.</p>
+
+  <div class="caja" aria-live="polite">
+    <p class="cosa" id="cosa"></p>
+    <div class="controles">
+      <button id="otra" type="button">otra cosa buena</button>
+      <span class="cuenta" id="cuenta"></span>
+    </div>
+  </div>
+
+  <footer>Sin conexión, sin cookies, sin contador de visitas. Solo esto.</footer>
+</main>
+
+<script>
+(function () {
+  /* ---------- Cosas buenas ---------- */
+  var cosas = [
+    "«Ojalá» viene del árabe: law šá llah, «si Dios quiere». Un deseo que cruzó el mar y se quedó a vivir en el idioma.",
+    "La sobremesa: el rato que sigue a la comida, cuando no pasa nada importante, que es lo importante.",
+    "Los números primos no avisan. Ninguna fórmula simple dice dónde cae el próximo, y aun así sabemos que nunca se terminan.",
+    "Una buena nota al margen: alguien que leyó antes que vos y se tomó el trabajo de escribir «acá».",
+    "Los mapas viejos que escribían terra incognita: admitir con tinta dónde termina lo que se sabe.",
+    "Decir «no sé» a tiempo, antes de que sea tarde para decirlo.",
+    "Que dos más dos den cuatro en cualquier idioma, sin que nadie haya tenido que ponerse de acuerdo.",
+    "El instante previo a entender algo, cuando ya se siente la forma pero todavía no tiene nombre.",
+    "Una pregunta bien hecha, que vale más que una respuesta apurada.",
+    "Los árboles de copa tímida: dos ramas vecinas que no se tocan y dejan entre sí un camino de luz.",
+    "Arreglar algo chiquito que nadie va a notar."
+  ];
+  var orden = [], pos = -1;
+  function barajar() {
+    orden = cosas.map(function (_, i) { return i; });
+    for (var i = orden.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = orden[i]; orden[i] = orden[j]; orden[j] = t;
+    }
+    pos = -1;
+  }
+  barajar();
+  var el = document.getElementById("cosa");
+  var cuenta = document.getElementById("cuenta");
+  function mostrar(primera) {
+    pos++;
+    if (pos >= orden.length) barajar(), pos = 0;
+    var poner = function () {
+      el.textContent = cosas[orden[pos]];
+      cuenta.textContent = (pos + 1) + " / " + cosas.length;
+      el.classList.remove("sale");
+    };
+    if (primera) { poner(); return; }
+    el.classList.add("sale");
+    setTimeout(poner, 450);
+  }
+  document.getElementById("otra").addEventListener("click", function () { mostrar(false); });
+  mostrar(true);
+
+  /* ---------- Viento ---------- */
+  var cv = document.getElementById("viento");
+  var ctx = cv.getContext("2d");
+  var W, H, dpr, ps = [];
+  var quieto = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var mx = -9999, my = -9999;
+  var t = 0;
+
+  function campo(x, y, t) {
+    return Math.sin(x * 0.0021 + t * 0.35) * 1.6 +
+           Math.cos(y * 0.0027 - t * 0.28) * 1.6 +
+           Math.sin((x + y) * 0.0012 + t * 0.15) * 2.2;
+  }
+  function nueva(p) {
+    p.x = Math.random() * W;
+    p.y = Math.random() * H;
+    p.vida = 80 + Math.random() * 220;
+    return p;
+  }
+  function iniciar() {
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    W = window.innerWidth; H = window.innerHeight;
+    cv.width = W * dpr; cv.height = H * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.fillStyle = "#13100e";
+    ctx.fillRect(0, 0, W, H);
+    var n = Math.min(900, Math.floor(W * H / 2200));
+    ps = [];
+    for (var i = 0; i < n; i++) ps.push(nueva({}));
+  }
+
+  function paso() {
+    ctx.fillStyle = "rgba(19,16,14,0.06)";
+    ctx.fillRect(0, 0, W, H);
+    for (var i = 0; i < ps.length; i++) {
+      var p = ps[i];
+      var a = campo(p.x, p.y, t);
+      var vx = Math.cos(a), vy = Math.sin(a);
+      var dx = p.x - mx, dy = p.y - my;
+      var d2 = dx * dx + dy * dy;
+      if (d2 < 22000) {
+        var f = (1 - d2 / 22000) * 2.4, d = Math.sqrt(d2) + 0.01;
+        vx += dx / d * f; vy += dy / d * f;
+      }
+      var nx = p.x + vx * 1.1, ny = p.y + vy * 1.1;
+      var calor = (Math.sin(a * 0.9) + 1) / 2;
+      ctx.strokeStyle = "hsla(" + (22 + calor * 18) + ",70%," + (45 + calor * 18) + "%,0.30)";
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(p.x, p.y);
+      ctx.lineTo(nx, ny);
+      ctx.stroke();
+      p.x = nx; p.y = ny; p.vida--;
+      if (p.vida <= 0 || nx < -10 || nx > W + 10 || ny < -10 || ny > H + 10) nueva(p);
+    }
+    t += 0.004;
+  }
+
+  function loop() { paso(); requestAnimationFrame(loop); }
+
+  window.addEventListener("mousemove", function (e) { mx = e.clientX; my = e.clientY; });
+  window.addEventListener("touchmove", function (e) {
+    var q = e.touches[0]; mx = q.clientX; my = q.clientY;
+  }, { passive: true });
+  window.addEventListener("mouseleave", function () { mx = my = -9999; });
+  window.addEventListener("resize", iniciar);
+
+  iniciar();
+  if (quieto) {
+    for (var k = 0; k < 260; k++) paso();
+  } else {
+    loop();
+  }
+})();
+</script>
+</body>
+</html>
+```
+
+Qué: Una portada oscura con un campo de líneas de viento que se desvían con el cursor, un texto breve sobre una página que nadie pidió y una colección de once cosas que me parecen buenas, que se pueden recorrer una por una.

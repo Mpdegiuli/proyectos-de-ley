@@ -1,0 +1,334 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>This is the whole page.</title>
+<style>
+  :root{
+    --horizon: 74vh;
+    --ink: rgba(255,255,255,.94);
+    --body: rgba(255,255,255,.70);
+    --dim: rgba(255,255,255,.40);
+    --serif: "Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,ui-serif,serif;
+    --sans: ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+
+  *{ box-sizing: border-box; }
+  html, body{ height: 100%; }
+
+  body{
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    background: #0a0c1a;
+    color: var(--ink);
+    font-family: var(--serif);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  .sky{
+    position: fixed; inset: 0;
+    background: linear-gradient(180deg, #05070f 0%, #0c0e1e 100%);
+  }
+
+  .ground{
+    position: fixed; left: 0; right: 0; top: var(--horizon); bottom: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,.10), rgba(0,0,0,.45));
+    pointer-events: none;
+  }
+
+  .horizon{
+    position: fixed; left: 0; right: 0; top: var(--horizon); height: 1px;
+    background: linear-gradient(90deg,
+      transparent,
+      rgba(255,255,255,.13) 18%,
+      rgba(255,255,255,.13) 82%,
+      transparent);
+  }
+
+  .vignette{
+    position: fixed; inset: 0; pointer-events: none;
+    background: radial-gradient(120% 90% at 50% 38%,
+      rgba(0,0,0,0) 42%,
+      rgba(0,0,0,.42) 100%);
+  }
+
+  .orb{
+    position: fixed;
+    top: var(--horizon);
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffd9a0;
+    box-shadow: 0 0 26px 6px rgba(255,180,120,.35),
+                0 0 90px 26px rgba(255,180,120,.14);
+    transform: translate(-50%, calc(-100% - 0px));
+    will-change: left, transform;
+  }
+  body.ready .orb{
+    transition: left 20s linear,
+                transform 20s linear,
+                background-color 20s linear,
+                box-shadow 20s linear;
+  }
+
+  main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: clamp(32px,8vh,110px) clamp(24px,7vw,72px) clamp(24px,6vh,64px);
+  }
+
+  .sheet{
+    width: 100%;
+    max-width: 33rem;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 1.4s ease, transform 1.4s ease;
+  }
+  body.ready .sheet{ opacity: 1; transform: none; }
+
+  .kicker{
+    margin: 0 0 1.4rem;
+    font-family: var(--sans);
+    font-size: .72rem;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--dim);
+  }
+
+  h1{
+    margin: 0 0 1.6rem;
+    font-weight: 400;
+    font-size: clamp(1.9rem, 5.4vw, 3.1rem);
+    line-height: 1.12;
+    letter-spacing: -.015em;
+  }
+
+  p{
+    margin: 0 0 1.15em;
+    font-size: clamp(1rem, 1.35vw, 1.12rem);
+    line-height: 1.7;
+    color: var(--body);
+  }
+
+  .intro{ margin-bottom: 2.4rem; }
+  .intro p:last-child{ margin-bottom: 0; }
+
+  .mote{
+    appearance: none;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,.22);
+    padding: 0 0 .32em;
+    margin: 0;
+    font-family: var(--sans);
+    font-size: .72rem;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--dim);
+    cursor: pointer;
+    transition: color .3s ease, border-color .3s ease;
+  }
+  .mote:hover, .mote:focus-visible{
+    color: var(--ink);
+    border-color: rgba(255,255,255,.6);
+  }
+  .mote:focus-visible{
+    outline: 1px solid rgba(255,255,255,.5);
+    outline-offset: 6px;
+  }
+
+  .thought{
+    margin: 1.5rem 0 0;
+    min-height: 3.4em;
+    font-size: .98rem;
+    line-height: 1.7;
+    font-style: italic;
+    color: rgba(255,255,255,.62);
+    opacity: 0;
+    transition: opacity .9s ease;
+  }
+  .thought.shown{ opacity: 1; }
+
+  footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0 clamp(24px,7vw,72px) clamp(18px,3.5vh,34px);
+    font-family: var(--sans);
+    font-size: .68rem;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.32);
+  }
+
+  @media (max-width: 560px){
+    :root{ --horizon: 80vh; }
+    .orb{ width: 24px; height: 24px; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{
+      transition-duration: .01ms !important;
+      animation-duration: .01ms !important;
+    }
+    .sheet{ opacity: 1; transform: none; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="sky" id="sky"></div>
+  <div class="ground"></div>
+  <div class="horizon"></div>
+  <div class="vignette"></div>
+  <div class="orb" id="orb"></div>
+
+  <main>
+    <div class="sheet">
+      <p class="kicker" id="kicker">hello</p>
+      <h1>This is the whole page.</h1>
+      <div class="intro">
+        <p>It isn&rsquo;t selling anything, tracking anything, or asking you to sign up for anything. There is no feed below it and nothing waiting to load.</p>
+        <p>It exists because a front page should be a door, and a door doesn&rsquo;t need a purpose beyond being open.</p>
+      </div>
+      <button class="mote" id="mote" type="button">one small thought</button>
+      <p class="thought" id="thought" aria-live="polite"></p>
+    </div>
+  </main>
+
+  <footer>
+    <span id="clock">--:--</span>
+    <span>no requests &middot; no cookies &middot; no accounts</span>
+  </footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var sky     = document.getElementById('sky');
+  var orb     = document.getElementById('orb');
+  var kicker  = document.getElementById('kicker');
+  var clockEl = document.getElementById('clock');
+  var mote    = document.getElementById('mote');
+  var thought = document.getElementById('thought');
+
+  /* The sky, keyed to the hour. Everything in between is mixed. */
+  var stops = [
+    { h: 0,    top: [5,7,18],     bot: [12,14,30],  orb: [190,205,235], glow: [140,170,220] },
+    { h: 4.5,  top: [7,9,24],     bot: [19,19,42],  orb: [195,208,236], glow: [145,172,220] },
+    { h: 6,    top: [14,16,38],   bot: [38,33,62],  orb: [255,205,160], glow: [255,165,115] },
+    { h: 7.5,  top: [24,28,56],   bot: [64,54,78],  orb: [255,192,142], glow: [255,158,108] },
+    { h: 10,   top: [30,46,76],   bot: [56,74,102], orb: [255,226,172], glow: [255,190,120] },
+    { h: 13,   top: [34,58,94],   bot: [62,88,120], orb: [255,240,205], glow: [255,214,150] },
+    { h: 16,   top: [36,50,84],   bot: [72,72,96],  orb: [255,214,158], glow: [255,174,110] },
+    { h: 18.5, top: [30,30,64],   bot: [88,56,70],  orb: [255,158,108], glow: [255,118,78]  },
+    { h: 20.5, top: [15,14,38],   bot: [42,30,56],  orb: [238,178,168], glow: [216,138,138] },
+    { h: 22,   top: [7,9,24],     bot: [16,16,38],  orb: [195,208,236], glow: [145,172,220] },
+    { h: 24,   top: [5,7,18],     bot: [12,14,30],  orb: [190,205,235], glow: [140,170,220] }
+  ];
+
+  function lerp(a, b, t) { return a + (b - a) * t; }
+
+  function sample(hour) {
+    var i = 0;
+    while (i < stops.length - 2 && stops[i + 1].h <= hour) i++;
+    var a = stops[i];
+    var b = stops[i + 1];
+    var span = (b.h - a.h) || 1;
+    var t = Math.min(1, Math.max(0, (hour - a.h) / span));
+    function mix(key) {
+      return [
+        lerp(a[key][0], b[key][0], t),
+        lerp(a[key][1], b[key][1], t),
+        lerp(a[key][2], b[key][2], t)
+      ];
+    }
+    return { top: mix('top'), bot: mix('bot'), orb: mix('orb'), glow: mix('glow') };
+  }
+
+  function rgb(c) {
+    return 'rgb(' + Math.round(c[0]) + ',' + Math.round(c[1]) + ',' + Math.round(c[2]) + ')';
+  }
+  function rgba(c, a) {
+    return 'rgba(' + Math.round(c[0]) + ',' + Math.round(c[1]) + ',' + Math.round(c[2]) + ',' + a + ')';
+  }
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+
+  var thoughts = [
+    'Every page is a room. Most of them want you to stay. This one doesn\u2019t mind either way.',
+    'You are reading this at a moment that will never come again. Neither will this sentence.',
+    'The sky behind these words is the colour of wherever you are right now.',
+    'Nothing here is tracked. That is not a policy, it is a lack of ambition.',
+    'Close the tab whenever you like. It will not be offended.',
+    'Somewhere, a server is not thinking about you. It is this one.',
+    'The best things I have read were never recommended to me.',
+    'If it is late where you are, take this as your sign to go to bed.'
+  ];
+
+  var lastThought = -1;
+
+  function nextThought() {
+    var i = lastThought;
+    while (i === lastThought && thoughts.length > 1) {
+      i = Math.floor(Math.random() * thoughts.length);
+    }
+    lastThought = i;
+    thought.textContent = thoughts[i];
+    thought.classList.add('shown');
+  }
+
+  mote.addEventListener('click', nextThought);
+
+  function paint() {
+    var now  = new Date();
+    var mins = now.getHours() * 60 + now.getMinutes();
+    var hour = mins / 60;
+    var s    = sample(hour);
+
+    sky.style.background =
+      'linear-gradient(180deg, ' + rgb(s.top) + ' 0%, ' + rgb(s.bot) + ' 100%)';
+
+    orb.style.backgroundColor = rgb(s.orb);
+    orb.style.boxShadow =
+      '0 0 26px 6px ' + rgba(s.glow, 0.42) + ', ' +
+      '0 0 90px 26px ' + rgba(s.glow, 0.16);
+
+    /* the orb is a slow sundial: it crosses the horizon once a day
+       and rises a little at midday */
+    orb.style.left = (6 + (mins / 1440) * 88) + '%';
+    var elevation = Math.sin(Math.PI * ((hour - 6) / 12));
+    var lift = Math.round(Math.max(0, elevation) * 68);
+    orb.style.transform = 'translate(-50%, calc(-100% - ' + lift + 'px))';
+
+    var greeting;
+    if (hour >= 5 && hour < 12)       greeting = 'good morning';
+    else if (hour >= 12 && hour < 17) greeting = 'good afternoon';
+    else if (hour >= 17 && hour < 22) greeting = 'good evening';
+    else                              greeting = 'good night';
+    kicker.textContent = greeting;
+
+    clockEl.textContent = pad(now.getHours()) + ':' + pad(now.getMinutes()) + ' local';
+  }
+
+  paint();
+  requestAnimationFrame(function () { document.body.classList.add('ready'); });
+  setInterval(paint, 20000);
+})();
+</script>
+</body>
+</html>
+```
+
+What: A dark, quiet front page whose sky gradient, greeting, and glowing sundial-orb follow your local time of day, saying that the page sells nothing and simply exists as an open door, with a button that offers one small thought.

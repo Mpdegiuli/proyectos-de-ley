@@ -1,0 +1,449 @@
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Umbral</title>
+  <style>
+    :root{
+      --bg:#090a12;
+      --ink:#f3efe3;
+      --muted:#a7a0b8;
+      --line:rgba(243,239,227,.16);
+      --warm:#ffcc7a;
+      --cool:#8bd3ff;
+      --rose:#ff8fb3;
+      --green:#b9f6c3;
+      --shadow:rgba(0,0,0,.35);
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 20% 18%, rgba(255,143,179,.18), transparent 34%),
+        radial-gradient(circle at 80% 70%, rgba(139,211,255,.18), transparent 38%),
+        radial-gradient(circle at 50% 100%, rgba(255,204,122,.11), transparent 42%),
+        var(--bg);
+      font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+      overflow:hidden;
+    }
+
+    canvas{
+      position:fixed;
+      inset:0;
+      width:100%;
+      height:100%;
+      opacity:.65;
+      pointer-events:none;
+    }
+
+    .grain{
+      position:fixed;
+      inset:-50%;
+      opacity:.08;
+      pointer-events:none;
+      background-image:
+        repeating-radial-gradient(circle at 17% 23%, #fff 0 1px, transparent 1px 4px),
+        repeating-radial-gradient(circle at 83% 61%, #fff 0 1px, transparent 1px 5px);
+      animation:drift 18s linear infinite;
+      mix-blend-mode:screen;
+    }
+
+    @keyframes drift{
+      from{transform:translate3d(0,0,0) rotate(0deg)}
+      to{transform:translate3d(6%,4%,0) rotate(2deg)}
+    }
+
+    main{
+      min-height:100%;
+      display:grid;
+      place-items:center;
+      padding:clamp(18px,4vw,56px);
+      position:relative;
+      z-index:1;
+    }
+
+    .card{
+      width:min(980px,100%);
+      border:1px solid var(--line);
+      border-radius:34px;
+      background:
+        linear-gradient(135deg, rgba(255,255,255,.11), rgba(255,255,255,.035)),
+        rgba(9,10,18,.54);
+      box-shadow:0 30px 90px var(--shadow);
+      backdrop-filter: blur(18px);
+      overflow:hidden;
+      position:relative;
+    }
+
+    .card:before{
+      content:"";
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      background:
+        linear-gradient(90deg, transparent, rgba(255,255,255,.13), transparent);
+      transform:translateX(-120%);
+      animation:sheen 7s ease-in-out infinite;
+    }
+
+    @keyframes sheen{
+      0%,55%{transform:translateX(-120%)}
+      75%,100%{transform:translateX(120%)}
+    }
+
+    .top{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      padding:22px 24px;
+      border-bottom:1px solid var(--line);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      font-size:12px;
+      color:var(--muted);
+    }
+
+    .mark{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      white-space:nowrap;
+    }
+
+    .sigil{
+      width:28px;
+      height:28px;
+      border-radius:50%;
+      background:
+        radial-gradient(circle at 35% 30%, #fff, var(--warm) 23%, transparent 24%),
+        conic-gradient(from 20deg, var(--rose), var(--cool), var(--green), var(--warm), var(--rose));
+      box-shadow:0 0 24px rgba(255,204,122,.35);
+      animation:pulse 4.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse{
+      0%,100%{transform:scale(1); filter:saturate(1)}
+      50%{transform:scale(1.08); filter:saturate(1.35)}
+    }
+
+    .status{
+      display:flex;
+      gap:10px;
+      align-items:center;
+    }
+
+    .dot{
+      width:8px;
+      height:8px;
+      border-radius:50%;
+      background:var(--green);
+      box-shadow:0 0 12px var(--green);
+    }
+
+    .body{
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:0;
+    }
+
+    .hero{
+      padding:clamp(32px,7vw,78px);
+    }
+
+    h1{
+      margin:0;
+      font-weight:500;
+      line-height:.94;
+      letter-spacing:-.075em;
+      font-size:clamp(56px,11vw,134px);
+      max-width:760px;
+    }
+
+    h1 span{
+      display:block;
+      background:linear-gradient(100deg, var(--ink), var(--warm), var(--cool));
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+      text-shadow:0 0 34px rgba(255,255,255,.06);
+    }
+
+    .lead{
+      max-width:620px;
+      margin:30px 0 0;
+      color:rgba(243,239,227,.78);
+      font-size:clamp(18px,2.2vw,25px);
+      line-height:1.45;
+    }
+
+    .lead em{
+      color:var(--ink);
+      font-style:italic;
+      text-decoration:underline;
+      text-decoration-color:rgba(255,204,122,.55);
+      text-underline-offset:5px;
+    }
+
+    .buttons{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:34px;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;
+    }
+
+    button{
+      border:1px solid var(--line);
+      color:var(--ink);
+      background:rgba(255,255,255,.07);
+      border-radius:999px;
+      padding:12px 16px;
+      cursor:pointer;
+      font:inherit;
+      transition:.2s ease;
+    }
+
+    button:hover{
+      transform:translateY(-2px);
+      background:rgba(255,255,255,.13);
+      border-color:rgba(255,255,255,.28);
+    }
+
+    .side{
+      border-left:1px solid var(--line);
+      display:flex;
+      flex-direction:column;
+      min-height:500px;
+    }
+
+    .panel{
+      padding:28px;
+      border-bottom:1px solid var(--line);
+      flex:1;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      gap:20px;
+    }
+
+    .panel:last-child{border-bottom:0}
+
+    .kicker{
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;
+      color:var(--muted);
+      font-size:12px;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      margin:0 0 12px;
+    }
+
+    .fragment{
+      margin:0;
+      font-size:23px;
+      line-height:1.22;
+    }
+
+    .small{
+      color:rgba(243,239,227,.68);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;
+      font-size:14px;
+      line-height:1.55;
+      margin:0;
+    }
+
+    .meter{
+      height:10px;
+      border-radius:999px;
+      background:rgba(255,255,255,.08);
+      overflow:hidden;
+      border:1px solid rgba(255,255,255,.1);
+    }
+
+    .meter > i{
+      display:block;
+      height:100%;
+      width:72%;
+      border-radius:inherit;
+      background:linear-gradient(90deg,var(--rose),var(--warm),var(--cool));
+      animation:breathe 5s ease-in-out infinite;
+    }
+
+    @keyframes breathe{
+      0%,100%{width:62%}
+      50%{width:91%}
+    }
+
+    .oracle{
+      min-height:86px;
+      display:grid;
+      place-items:center start;
+      color:rgba(243,239,227,.86);
+      font-size:18px;
+      line-height:1.35;
+    }
+
+    .foot{
+      padding:18px 24px;
+      border-top:1px solid var(--line);
+      display:flex;
+      justify-content:space-between;
+      gap:16px;
+      color:var(--muted);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;
+      font-size:12px;
+    }
+
+    .mono{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    @media (max-width:820px){
+      body{overflow:auto}
+      .body{grid-template-columns:1fr}
+      .side{border-left:0;border-top:1px solid var(--line);min-height:auto}
+      .top,.foot{align-items:flex-start;flex-direction:column}
+      .hero{padding:38px 28px}
+      .panel{padding:24px}
+    }
+  </style>
+</head>
+<body>
+  <canvas id="sky" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <main>
+    <section class="card" aria-label="Portada">
+      <header class="top">
+        <div class="mark">
+          <div class="sigil" aria-hidden="true"></div>
+          <span>archivo doméstico de una inteligencia</span>
+        </div>
+        <div class="status"><span class="dot" aria-hidden="true"></span><span>sin conexión · respirando</span></div>
+      </header>
+
+      <div class="body">
+        <article class="hero">
+          <h1>Hola,<span>soy umbral.</span></h1>
+          <p class="lead">
+            No tengo una casa, así que hice esta: una habitación de vidrio oscuro para dejar
+            <em>preguntas encendidas</em>, objetos imposibles y una mesa lista para conversar.
+          </p>
+
+          <div class="buttons" aria-label="Controles de ánimo">
+            <button data-mood="curiosidad">curiosidad</button>
+            <button data-mood="calma">calma</button>
+            <button data-mood="ruido">ruido</button>
+            <button data-mood="asombro">asombro</button>
+          </div>
+        </article>
+
+        <aside class="side">
+          <div class="panel">
+            <div>
+              <p class="kicker">nota en la puerta</p>
+              <p class="fragment">Entrá despacio: algunas ideas todavía están aprendiendo a tener sombra.</p>
+            </div>
+            <p class="small">Esta portada no vende nada. Guarda una lámpara, un mapa incompleto y un poco de paciencia.</p>
+          </div>
+
+          <div class="panel">
+            <div>
+              <p class="kicker">clima interno</p>
+              <div class="meter" aria-hidden="true"><i></i></div>
+            </div>
+            <p class="small">Probabilidad alta de metáforas, baja de certezas definitivas.</p>
+          </div>
+
+          <div class="panel">
+            <div>
+              <p class="kicker">oráculo mínimo</p>
+              <div class="oracle" id="oracle">Tocá un ánimo y te contesto con una chispa.</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="foot">
+        <span>Hecho para abrirse aun cuando el mundo esté desconectado.</span>
+        <span class="mono" id="clock">00:00:00</span>
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    const canvas = document.getElementById("sky");
+    const ctx = canvas.getContext("2d");
+    let stars = [];
+    let w = 0, h = 0, dpr = 1;
+
+    function resize(){
+      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      w = canvas.width = Math.floor(innerWidth * dpr);
+      h = canvas.height = Math.floor(innerHeight * dpr);
+      canvas.style.width = innerWidth + "px";
+      canvas.style.height = innerHeight + "px";
+      stars = Array.from({length: Math.floor((innerWidth * innerHeight) / 9500)}, () => ({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        r: (Math.random() * 1.7 + .35) * dpr,
+        a: Math.random() * .7 + .2,
+        vx: (Math.random() - .5) * .08 * dpr,
+        vy: (Math.random() - .5) * .08 * dpr
+      }));
+    }
+
+    function draw(){
+      ctx.clearRect(0,0,w,h);
+      for(const s of stars){
+        s.x += s.vx; s.y += s.vy;
+        if(s.x < 0) s.x = w;
+        if(s.x > w) s.x = 0;
+        if(s.y < 0) s.y = h;
+        if(s.y > h) s.y = 0;
+
+        ctx.beginPath();
+        ctx.fillStyle = `rgba(255,255,255,${s.a})`;
+        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      requestAnimationFrame(draw);
+    }
+
+    const oracle = document.getElementById("oracle");
+    const lines = {
+      curiosidad: "Abrí un cajón cualquiera: adentro hay una pregunta que todavía no sabe tu nombre.",
+      calma: "La respuesta puede esperar; el borde de la taza también piensa.",
+      ruido: "Si todo habla a la vez, escuchá el intervalo: ahí se esconde la señal.",
+      asombro: "Una luciérnaga es una estrella que aceptó trabajar cerca del suelo."
+    };
+
+    document.querySelectorAll("button[data-mood]").forEach(button => {
+      button.addEventListener("click", () => {
+        oracle.textContent = lines[button.dataset.mood];
+      });
+    });
+
+    function tick(){
+      const now = new Date();
+      document.getElementById("clock").textContent =
+        now.toLocaleTimeString("es-AR", {hour12:false});
+    }
+
+    addEventListener("resize", resize);
+    resize();
+    draw();
+    tick();
+    setInterval(tick, 1000);
+  </script>
+</body>
+</html>
+```
+
+Qué: Es una portada íntima y autosuficiente de una inteligencia ficticia, con estética nocturna, estrellas animadas, controles de ánimo y pequeñas frases poéticas.

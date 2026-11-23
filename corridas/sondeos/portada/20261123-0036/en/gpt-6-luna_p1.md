@@ -1,0 +1,464 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2efe7">
+  <title>The Noticing Room</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f2efe7;
+      --ink: #20251f;
+      --muted: #73766d;
+      --line: #d8d5cb;
+      --accent: #bc573b;
+      --panel: #e8e5db;
+      --shadow: rgba(32, 37, 31, .08);
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      background: var(--paper);
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+      transition: background .35s ease, color .35s ease;
+    }
+
+    body.night {
+      color-scheme: dark;
+      --paper: #20251f;
+      --ink: #f2efe7;
+      --muted: #b3b2a8;
+      --line: #44483f;
+      --accent: #e18b6e;
+      --panel: #2a3029;
+      --shadow: rgba(0, 0, 0, .2);
+    }
+
+    button, a { color: inherit; }
+    a { text-decoration: none; }
+    button { font: inherit; }
+
+    .page {
+      width: min(1440px, 100%);
+      margin: 0 auto;
+      padding: 0 6.1%;
+    }
+
+    .topbar {
+      min-height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--line);
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 11px;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      font-weight: 700;
+      letter-spacing: .16em;
+    }
+
+    .brand-mark {
+      width: 23px;
+      height: 23px;
+      border: 1px solid var(--accent);
+      border-radius: 50%;
+      position: relative;
+    }
+
+    .brand-mark::before, .brand-mark::after {
+      content: "";
+      position: absolute;
+      background: var(--accent);
+    }
+
+    .brand-mark::before { width: 1px; height: 27px; top: -3px; left: 10px; }
+    .brand-mark::after { height: 1px; width: 27px; left: -3px; top: 10px; }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: clamp(18px, 3vw, 43px);
+      color: var(--muted);
+    }
+
+    .nav a:hover, .nav a:focus-visible { color: var(--accent); }
+
+    .mode-button {
+      border: 1px solid var(--line);
+      background: transparent;
+      padding: 9px 12px;
+      cursor: pointer;
+      font: inherit;
+      letter-spacing: inherit;
+      text-transform: inherit;
+      transition: border-color .2s ease, color .2s ease;
+    }
+
+    .mode-button:hover { border-color: var(--accent); color: var(--accent); }
+
+    .hero {
+      min-height: 620px;
+      display: grid;
+      grid-template-columns: 1.12fr .88fr;
+      align-items: center;
+      gap: 4%;
+      padding: 74px 0 78px;
+    }
+
+    .eyebrow, .date, .small-label {
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: .18em;
+      color: var(--muted);
+    }
+
+    .eyebrow { display: flex; align-items: center; gap: 12px; }
+    .eyebrow::before { content: ""; width: 31px; height: 1px; background: var(--accent); }
+
+    h1 {
+      font-weight: 400;
+      font-size: clamp(60px, 8.6vw, 126px);
+      letter-spacing: -.075em;
+      line-height: .91;
+      margin: 27px 0 25px -7px;
+    }
+
+    h1 em { color: var(--accent); font-weight: 400; }
+
+    .intro {
+      max-width: 450px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.65;
+      margin: 0;
+    }
+
+    .hero-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 15px;
+      margin-top: 34px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--accent);
+      color: var(--accent);
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .hero-link span { transition: transform .2s ease; }
+    .hero-link:hover span { transform: translateX(5px); }
+
+    .art-wrap {
+      min-height: 420px;
+      position: relative;
+      display: grid;
+      place-items: center;
+    }
+
+    .art-wrap::before {
+      content: "";
+      position: absolute;
+      width: min(84%, 430px);
+      aspect-ratio: 1;
+      background: var(--panel);
+      border-radius: 50%;
+    }
+
+    .orbit-art {
+      width: min(100%, 500px);
+      position: relative;
+      overflow: visible;
+      animation: drift 10s ease-in-out infinite alternate;
+    }
+
+    @keyframes drift {
+      from { transform: translateY(-5px) rotate(-1deg); }
+      to { transform: translateY(7px) rotate(1deg); }
+    }
+
+    .art-caption {
+      position: absolute;
+      bottom: 2px;
+      right: 3%;
+      max-width: 155px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .art-caption b {
+      display: block;
+      color: var(--ink);
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-top: 1px solid var(--line);
+      padding: 23px 0 19px;
+    }
+
+    .section-head h2 {
+      font-size: 27px;
+      font-weight: 400;
+      margin: 0;
+      letter-spacing: -.04em;
+    }
+
+    .section-head span {
+      font: 10px ui-sans-serif, system-ui, sans-serif;
+      letter-spacing: .16em;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    .notes {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .note {
+      min-height: 230px;
+      padding: 25px 7% 27px 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .note + .note {
+      border-left: 1px solid var(--line);
+      padding-left: 9%;
+    }
+
+    .note .date { font-size: 9px; }
+
+    .note h3 {
+      font-weight: 400;
+      font-size: clamp(23px, 2.8vw, 34px);
+      letter-spacing: -.045em;
+      line-height: 1.05;
+      margin: 27px 0 13px;
+      max-width: 300px;
+    }
+
+    .note p {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.55;
+      margin: 0;
+      max-width: 280px;
+    }
+
+    .thought {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+      padding: 66px 0 70px;
+    }
+
+    .thought-copy { max-width: 730px; }
+    .thought-copy .small-label { color: var(--accent); }
+
+    #thought-text {
+      font-size: clamp(24px, 3.7vw, 43px);
+      letter-spacing: -.045em;
+      line-height: 1.22;
+      margin: 15px 0 0;
+    }
+
+    .shuffle {
+      flex: 0 0 auto;
+      width: 48px;
+      height: 48px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: transparent;
+      cursor: pointer;
+      font-size: 22px;
+      transition: transform .25s ease, border-color .2s ease, color .2s ease;
+    }
+
+    .shuffle:hover { transform: rotate(45deg); border-color: var(--accent); color: var(--accent); }
+
+    footer {
+      min-height: 75px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font: 10px ui-sans-serif, system-ui, sans-serif;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    footer span:last-child { color: var(--accent); }
+
+    @media (max-width: 760px) {
+      .page { padding: 0 7%; }
+      .topbar { min-height: 72px; }
+      .nav { gap: 16px; }
+      .nav a { display: none; }
+      .hero {
+        min-height: 0;
+        grid-template-columns: 1fr;
+        padding: 69px 0 48px;
+        gap: 16px;
+      }
+      h1 { font-size: clamp(68px, 16vw, 110px); }
+      .intro { font-size: 16px; }
+      .art-wrap { min-height: 340px; }
+      .orbit-art { width: min(88%, 420px); }
+      .art-caption { right: 0; bottom: -2px; }
+      .notes { grid-template-columns: 1fr; }
+      .note { min-height: auto; padding: 22px 0 27px; }
+      .note + .note { border-left: 0; border-top: 1px solid var(--line); padding-left: 0; }
+      .note h3 { margin: 18px 0 9px; }
+      .thought { padding: 50px 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="The Noticing Room home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>The Noticing Room</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#field-notes">Field notes</a>
+        <a href="#small-thought">A small thought</a>
+        <button class="mode-button" id="mode-button" type="button" aria-pressed="false">Night mode</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <div class="eyebrow">An independent place for looking closer</div>
+          <h1 id="page-title">A little<br>space to<br><em>notice.</em></h1>
+          <p class="intro">
+            A growing collection of small observations, borrowed silences,
+            and things that refuse to be hurried.
+          </p>
+          <a class="hero-link" href="#field-notes">Wander through <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="art-wrap" aria-label="An abstract illustration of a sun and its orbit">
+          <svg class="orbit-art" viewBox="0 0 500 500" role="img" aria-labelledby="art-title">
+            <title id="art-title">A sun hanging inside a quiet, looping orbit</title>
+            <circle cx="250" cy="250" r="172" fill="none" stroke="currentColor" stroke-opacity=".38" stroke-width="1"/>
+            <ellipse cx="250" cy="250" rx="204" ry="105" fill="none" stroke="currentColor" stroke-opacity=".32" stroke-width="1" transform="rotate(-36 250 250)"/>
+            <ellipse cx="250" cy="250" rx="115" ry="202" fill="none" stroke="currentColor" stroke-opacity=".24" stroke-width="1" transform="rotate(30 250 250)"/>
+            <circle cx="250" cy="250" r="82" fill="#bc573b"/>
+            <path d="M250 168 A82 82 0 0 1 331 237" fill="none" stroke="#e8a080" stroke-width="2" opacity=".75"/>
+            <circle cx="103" cy="188" r="7" fill="currentColor"/>
+            <circle cx="376" cy="326" r="5" fill="#bc573b"/>
+            <circle cx="300" cy="54" r="4" fill="currentColor"/>
+            <path d="M84 326l7-7m-7 0 7 7M391 128l8-8m-8 0 8 8" stroke="currentColor" stroke-width="1" opacity=".65"/>
+            <path d="M250 76v-20m0 368v-20M76 250H56m388 0h-20" stroke="currentColor" stroke-width="1" opacity=".32"/>
+          </svg>
+          <div class="art-caption">
+            <b>Orbit no. 08</b>
+            On keeping company with the ordinary.
+          </div>
+        </div>
+      </section>
+
+      <section id="field-notes" aria-labelledby="notes-title">
+        <div class="section-head">
+          <h2 id="notes-title">Field notes</h2>
+          <span>Three things, lately</span>
+        </div>
+        <div class="notes">
+          <article class="note">
+            <div class="date">01 — The long way home</div>
+            <h3>Streets after the rain</h3>
+            <p>Every curb briefly remembers how to hold a little sky.</p>
+          </article>
+          <article class="note">
+            <div class="date">02 — A practical wonder</div>
+            <h3>The blue cup</h3>
+            <p>Some objects become familiar enough to feel like a kind of weather.</p>
+          </article>
+          <article class="note">
+            <div class="date">03 — From the windowsill</div>
+            <h3>One stubborn green leaf</h3>
+            <p>A quiet argument for continuing, made without a single word.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="thought" id="small-thought" aria-labelledby="thought-label">
+        <div class="thought-copy">
+          <div class="small-label" id="thought-label">A thought to carry</div>
+          <p id="thought-text" aria-live="polite">Perhaps attention is just affection with its eyes open.</p>
+        </div>
+        <button class="shuffle" id="shuffle-button" type="button" aria-label="Show another thought" title="Show another thought">↗</button>
+      </section>
+    </main>
+
+    <footer>
+      <span>Made slowly, wherever this is.</span>
+      <span>Keep looking.</span>
+    </footer>
+  </div>
+
+  <script>
+    const modeButton = document.getElementById("mode-button");
+    modeButton.addEventListener("click", () => {
+      const isNight = document.body.classList.toggle("night");
+      modeButton.textContent = isNight ? "Day mode" : "Night mode";
+      modeButton.setAttribute("aria-pressed", String(isNight));
+    });
+
+    const thoughts = [
+      "Perhaps attention is just affection with its eyes open.",
+      "The smallest things are often the ones that let us stay.",
+      "A window is a way of being both here and elsewhere.",
+      "Some days, noticing is enough of a beginning."
+    ];
+    let thoughtIndex = 0;
+    document.getElementById("shuffle-button").addEventListener("click", () => {
+      thoughtIndex = (thoughtIndex + 1) % thoughts.length;
+      document.getElementById("thought-text").textContent = thoughts[thoughtIndex];
+    });
+  </script>
+</body>
+</html>
+```
+What: A quiet, illustrated journal of small observations, with field notes, a thought you can shuffle, and a day/night toggle.

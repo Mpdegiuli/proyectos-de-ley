@@ -1,0 +1,427 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#eeeade">
+<title>A escala de mesa</title>
+<style>
+  :root {
+    --papel: #eeeade;
+    --tinta: #293b36;
+    --suave: #61695e;
+    --linea: #b9bead;
+    --acento: #a5422b;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: Georgia, "Times New Roman", serif;
+  }
+  button { font: inherit; }
+  button:focus-visible, a:focus-visible {
+    outline: 3px solid var(--acento);
+    outline-offset: 6px;
+  }
+  ::selection { background: #e6b48a; color: #293b36; }
+
+  .pagina { max-width: 1480px; margin: auto; padding: 30px 5vw 22px; }
+  .cabecera {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 24px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--tinta);
+  }
+  .marca {
+    font-size: 15px;
+    font-family: system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -.03em;
+  }
+  .marca span { color: var(--acento); margin-right: 10px; }
+  .edicion, .etiqueta, .coordenadas, .pie {
+    font-family: ui-monospace, "Courier New", monospace;
+    font-size: 11px;
+    line-height: 1.6;
+  }
+  .edicion { color: var(--suave); text-align: right; }
+  .introduccion {
+    padding: 47px 0 37px;
+    display: grid;
+    grid-template-columns: 1.55fr 1fr;
+    align-items: end;
+    gap: 35px;
+  }
+  h1 {
+    font-weight: normal;
+    font-size: clamp(52px, 6.4vw, 94px);
+    line-height: .98;
+    letter-spacing: -.065em;
+    margin: 0;
+  }
+  h1 em { font-weight: normal; color: var(--acento); }
+  .entrada {
+    max-width: 320px;
+    margin: 0 0 4px;
+    font-size: 19px;
+    line-height: 1.55;
+  }
+  .atlas {
+    display: grid;
+    grid-template-columns: 1.55fr 1fr;
+    border-top: 1px solid var(--linea);
+    border-bottom: 1px solid var(--tinta);
+  }
+  .territorio {
+    min-width: 0;
+    padding: 18px 30px 20px 0;
+    border-right: 1px solid var(--linea);
+  }
+  .coordenadas {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    color: var(--suave);
+  }
+  .mapa { position: relative; margin-top: 12px; }
+  .mapa svg { width: 100%; height: auto; display: block; }
+  .punto {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 1px solid var(--tinta);
+    border-radius: 50%;
+    background: var(--papel);
+    color: var(--tinta);
+    font: 12px ui-monospace, "Courier New", monospace;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transition: background .18s, color .18s, box-shadow .18s;
+  }
+  .punto:hover { box-shadow: 0 0 0 5px #eeeade80; }
+  .punto[aria-pressed="true"] {
+    background: var(--tinta);
+    color: var(--papel);
+    box-shadow: 0 0 0 5px #eeeade80;
+  }
+  .punto:nth-of-type(1) { left: 29%; top: 34%; }
+  .punto:nth-of-type(2) { left: 65%; top: 52%; }
+  .punto:nth-of-type(3) { left: 33%; top: 77%; }
+  .punto:nth-of-type(4) { left: 79%; top: 20%; }
+  .instruccion {
+    margin: 10px 0 0;
+    color: var(--suave);
+    font-size: 13px;
+    font-style: italic;
+  }
+  .ficha {
+    padding: 27px 0 28px 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .etiqueta {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: var(--suave);
+    margin: 0;
+  }
+  .lectura { width: 100%; }
+  .numero {
+    display: block;
+    margin: 22px 0 14px;
+    font-size: 80px;
+    line-height: 1;
+    color: var(--acento);
+    font-style: italic;
+    letter-spacing: -.07em;
+  }
+  h2 {
+    margin: 0 0 20px;
+    font-size: clamp(28px, 3vw, 40px);
+    font-weight: normal;
+    letter-spacing: -.035em;
+    line-height: 1.1;
+  }
+  .texto {
+    max-width: 350px;
+    min-height: 135px;
+    font-size: 18px;
+    line-height: 1.65;
+    margin: 0 0 26px;
+  }
+  .detalle {
+    width: 100%;
+    border-top: 1px solid var(--linea);
+    padding-top: 14px;
+    margin: 0 0 30px;
+    font: 11px/1.7 ui-monospace, "Courier New", monospace;
+    color: var(--suave);
+  }
+  .siguiente {
+    margin-top: auto;
+    border: 0;
+    border-bottom: 1px solid var(--tinta);
+    padding: 6px 0;
+    background: transparent;
+    color: var(--tinta);
+    font: 13px system-ui, sans-serif;
+    cursor: pointer;
+  }
+  .siguiente span { display: inline-block; margin-left: 22px; }
+  .siguiente:hover { color: var(--acento); border-color: var(--acento); }
+  .posdata {
+    display: grid;
+    grid-template-columns: 1.55fr 1fr;
+    gap: 35px;
+    padding: 26px 0 34px;
+  }
+  .posdata p { margin: 0; font-size: 15px; line-height: 1.6; }
+  .posdata .nota {
+    max-width: 480px;
+    font-size: 22px;
+    line-height: 1.35;
+    letter-spacing: -.02em;
+  }
+  .pie {
+    border-top: 1px solid var(--linea);
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--suave);
+  }
+  .flor { color: var(--acento); font-size: 20px; line-height: 1; }
+
+  @media (min-width: 1100px) {
+    .ficha { padding-left: 48px; }
+    .numero { margin-top: 34px; }
+  }
+  @media (max-width: 700px) {
+    .pagina { padding: 21px 6vw; }
+    .cabecera { align-items: center; }
+    .edicion { max-width: 120px; font-size: 10px; }
+    .introduccion { grid-template-columns: 1fr; gap: 24px; padding: 34px 0 28px; }
+    h1 { font-size: clamp(49px, 11.5vw, 78px); }
+    .entrada { max-width: 400px; font-size: 17px; }
+    .atlas { grid-template-columns: 1fr; }
+    .territorio { border-right: 0; padding-right: 0; padding-bottom: 24px; }
+    .ficha { padding: 24px 0 28px; border-top: 1px solid var(--linea); }
+    .numero { font-size: 64px; margin: 18px 0 12px; }
+    .texto { max-width: none; min-height: 0; }
+    .detalle { margin-bottom: 20px; }
+    .posdata { grid-template-columns: 1fr; gap: 19px; }
+    .posdata .nota { font-size: 22px; }
+    .pie { font-size: 10px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="pagina">
+  <header class="cabecera">
+    <div class="marca"><span aria-hidden="true">✳</span>A escala de mesa</div>
+    <div class="edicion">Atlas doméstico<br>Vol. 01 · Sin apuro</div>
+  </header>
+
+  <main>
+    <section class="introduccion" aria-labelledby="titulo">
+      <h1 id="titulo">Lo cercano también<br>es <em>un lugar.</em></h1>
+      <p class="entrada">Una taza, una hoja, una naranja, una sombra. Este sitio empieza donde termina el alcance de una mano.</p>
+    </section>
+
+    <section class="atlas" aria-label="Atlas de cuatro lugares sobre una mesa">
+      <div class="territorio">
+        <div class="coordenadas">
+          <span>LÁMINA 001 / SOBREMESA</span>
+          <span>N ↑</span>
+        </div>
+
+        <div class="mapa">
+          <svg viewBox="0 0 660 530" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mapa-titulo mapa-desc">
+            <title id="mapa-titulo">Geografía de una sobremesa</title>
+            <desc id="mapa-desc">Vista desde arriba: una taza al noroeste, una hoja doblada al este, una naranja al sur y la sombra de una ventana al noreste.</desc>
+            <defs>
+              <pattern id="madera" width="28" height="28" patternUnits="userSpaceOnUse">
+                <path d="M0 27.5H28" stroke="#69745f" stroke-width=".55" opacity=".14"/>
+                <circle cx="14" cy="13" r=".65" fill="#69745f" opacity=".2"/>
+              </pattern>
+              <pattern id="piel" width="13" height="13" patternUnits="userSpaceOnUse">
+                <circle cx="3" cy="3" r=".9" fill="#934126" opacity=".36"/>
+                <circle cx="9" cy="10" r=".7" fill="#fff1bb" opacity=".45"/>
+              </pattern>
+              <clipPath id="borde">
+                <rect x="16" y="16" width="628" height="498" rx="3"/>
+              </clipPath>
+            </defs>
+
+            <rect x="16" y="16" width="628" height="498" rx="3" fill="#d8d6ba"/>
+            <rect x="16" y="16" width="628" height="498" fill="url(#madera)"/>
+            <g clip-path="url(#borde)">
+              <!-- La ventana está fuera del dibujo; su sombra no. -->
+              <path d="M395-30H432L252 530H215Z M584-30H621L441 530H404Z"
+                    fill="#667962" opacity=".18"/>
+              <path d="M346 93L666 158V184L338 119Z M287 278L666 356V382L279 304Z"
+                    fill="#667962" opacity=".18"/>
+
+              <!-- Taza y plato -->
+              <ellipse cx="185" cy="197" rx="101" ry="94" fill="#7e8068" opacity=".19"/>
+              <circle cx="170" cy="177" r="94" fill="#e8e4d1" stroke="#a9ad95"/>
+              <circle cx="170" cy="177" r="76" fill="none" stroke="#c5c7b0"/>
+              <path d="M221 153C271 135 278 195 231 202"
+                    fill="none" stroke="#969f8c" stroke-width="23"/>
+              <path d="M219 148C265 133 271 190 228 196"
+                    fill="none" stroke="#f7f2df" stroke-width="17"/>
+              <circle cx="170" cy="173" r="64" fill="#f7f2df" stroke="#b2b6a0"/>
+              <circle cx="170" cy="173" r="50" fill="#594b36"/>
+              <circle cx="170" cy="173" r="44" fill="#69523a"/>
+              <path d="M138 151A40 40 0 0 1 188 138" fill="none" stroke="#b59a69" stroke-width="2"/>
+              <path d="M191 202l4-3" stroke="#d7bd87" stroke-linecap="round" stroke-width="3"/>
+
+              <!-- Una hoja sin destino -->
+              <g transform="rotate(12 436 301)">
+                <path d="M335 197H530V421H335Z" fill="#6e755e" opacity=".16" transform="translate(8 10)"/>
+                <path d="M331 190H519V377L481 414H331Z" fill="#f5f0dc" stroke="#c4c3a8"/>
+                <path d="M481 414V377H519" fill="#e0ddc4" stroke="#c4c3a8"/>
+                <path d="M359 232H454M359 246H481M359 260H438"
+                      fill="none" stroke="#89917b" stroke-width="1.2" opacity=".55"/>
+                <path d="M359 333C376 321 373 345 394 332S413 342 431 332"
+                      fill="none" stroke="#a5422b" stroke-width="1.4"/>
+                <circle cx="461" cy="355" r="14" fill="none" stroke="#a5422b" opacity=".6"/>
+              </g>
+
+              <!-- Lápiz -->
+              <g transform="rotate(-23 560 325)">
+                <path d="M556 224H565V411L560.5 428 556 411Z" fill="#7c8067" opacity=".2" transform="translate(5 5)"/>
+                <path d="M556 224H565V411H556Z" fill="#a5422b"/>
+                <path d="M562 224H565V411H562Z" fill="#783e2b"/>
+                <path d="M556 411H565L560.5 428Z" fill="#d5b387"/>
+                <path d="M558.7 422H562.3L560.5 428Z" fill="#293b36"/>
+              </g>
+
+              <!-- Naranja con pequeño continente de luz -->
+              <ellipse cx="207" cy="404" rx="69" ry="59" fill="#72795c" opacity=".23"/>
+              <circle cx="194" cy="391" r="62" fill="#cf763b"/>
+              <path d="M232 342A62 62 0 0 1 153 438A62 62 0 0 0 232 342Z" fill="#b85b2f"/>
+              <circle cx="194" cy="391" r="61" fill="url(#piel)"/>
+              <path d="M161 369Q174 348 198 349" fill="none" stroke="#edac64" stroke-width="5" stroke-linecap="round"/>
+              <path d="M199 386l-7 4 3 7 6-4 6 1-3-7Z" fill="#7e693b"/>
+              <path d="M198 390Q211 366 233 375Q221 394 198 390Z" fill="#53694c"/>
+              <path d="M199 390L227 378" fill="none" stroke="#92a176"/>
+
+              <path d="M37 38H64M37 38V65M623 492H596M623 492V465"
+                    fill="none" stroke="#7c876d" stroke-width="1"/>
+            </g>
+          </svg>
+
+          <button class="punto" type="button" aria-label="01. Explorar la taza" aria-pressed="true" data-lugar="0">01</button>
+          <button class="punto" type="button" aria-label="02. Explorar la hoja" aria-pressed="false" data-lugar="1">02</button>
+          <button class="punto" type="button" aria-label="03. Explorar la naranja" aria-pressed="false" data-lugar="2">03</button>
+          <button class="punto" type="button" aria-label="04. Explorar la sombra" aria-pressed="false" data-lugar="3">04</button>
+        </div>
+
+        <p class="instruccion">Tocá un número. No hay un orden correcto.</p>
+        <noscript><p>Sin JavaScript, el atlas permanece abierto en su primer lugar: la taza.</p></noscript>
+      </div>
+
+      <aside class="ficha" aria-label="Cuaderno de campo">
+        <p class="etiqueta">Cuaderno de campo</p>
+        <div class="lectura" aria-live="polite" aria-atomic="true">
+          <span class="numero" id="numero">01</span>
+          <h2 id="nombre">Un lago con asa.</h2>
+          <p class="texto" id="texto">El café se enfría desde los bordes. Hay una costa que llega antes al invierno y un centro que todavía guarda la mañana.</p>
+          <p class="detalle" id="detalle">LA TAZA / Profundidad: dos sorbos.<br>Clima: de tibio a recuerdo.</p>
+        </div>
+        <button class="siguiente" type="button" id="siguiente">Seguir mirando <span aria-hidden="true">↗</span></button>
+      </aside>
+    </section>
+
+    <section class="posdata" aria-label="Una nota al margen">
+      <p class="nota">No hace falta irse lejos.<br>A veces alcanza con cambiar la escala.</p>
+      <p>Este es un pequeño lugar para prestar atención.<br>No tiene noticias de último momento.<br>La naranja sigue siendo una noticia suficiente.</p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <span>Hecho de texto, formas y un rato de atención.</span>
+    <span class="flor" aria-hidden="true">✳</span>
+    <span>Fin del mapa.<br>No del territorio.</span>
+  </footer>
+</div>
+
+<script>
+(() => {
+  const lugares = [
+    {
+      nombre: "Un lago con asa.",
+      texto: "El café se enfría desde los bordes. Hay una costa que llega antes al invierno y un centro que todavía guarda la mañana.",
+      objeto: "LA TAZA / Profundidad: dos sorbos.",
+      nota: "Clima: de tibio a recuerdo."
+    },
+    {
+      nombre: "El país de lo posible.",
+      texto: "En una esquina hay una cuenta. Más abajo, un dibujo que no representa nada. El resto de la hoja no está vacío: está disponible.",
+      objeto: "LA HOJA / Superficie: casi toda.",
+      nota: "Fronteras: un doblez y cuatro bordes."
+    },
+    {
+      nombre: "Un sol que se pela.",
+      texto: "La cáscara guarda el olor bajo llave. Basta una uña para que toda la mesa se entere de que algo está por empezar.",
+      objeto: "LA NARANJA / Población: varios gajos.",
+      nota: "Hora local: la de la merienda."
+    },
+    {
+      nombre: "La visitante.",
+      texto: "La ventana deja su dibujo sobre la mesa. Dentro de un rato lo va a mover, sin levantar ninguna de las cosas que encuentra en el camino.",
+      objeto: "LA SOMBRA / Equipaje: ninguno.",
+      nota: "Permanencia: hasta que cambie la luz."
+    }
+  ];
+
+  const puntos = [...document.querySelectorAll(".punto")];
+  let actual = 0;
+
+  function mostrar(indice) {
+    actual = indice;
+    const lugar = lugares[indice];
+    document.getElementById("numero").textContent = String(indice + 1).padStart(2, "0");
+    document.getElementById("nombre").textContent = lugar.nombre;
+    document.getElementById("texto").textContent = lugar.texto;
+
+    const detalle = document.getElementById("detalle");
+    detalle.replaceChildren(
+      document.createTextNode(lugar.objeto),
+      document.createElement("br"),
+      document.createTextNode(lugar.nota)
+    );
+
+    puntos.forEach((punto, i) => {
+      punto.setAttribute("aria-pressed", String(i === indice));
+    });
+  }
+
+  puntos.forEach(punto => {
+    punto.addEventListener("click", () => mostrar(Number(punto.dataset.lugar)));
+  });
+
+  document.getElementById("siguiente").addEventListener("click", () => {
+    mostrar((actual + 1) % lugares.length);
+  });
+})();
+</script>
+</body>
+</html>
+```
+
+Qué: Un atlas doméstico interactivo que convierte una taza, una hoja, una naranja y una sombra en pequeños lugares para explorar.

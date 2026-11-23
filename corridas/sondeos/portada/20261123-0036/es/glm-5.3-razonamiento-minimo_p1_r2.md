@@ -1,0 +1,143 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>acá</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    background: #0d0d12;
+    color: #d8d4c8;
+    font-family: Georgia, 'Times New Roman', serif;
+    overflow: hidden;
+    cursor: default;
+  }
+  #cielo {
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 30% 110%, #1a2035 0%, #0d0d12 60%);
+  }
+  .estrella {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0;
+    animation: parpadear 4s infinite;
+  }
+  @keyframes parpadear {
+    0%, 100% { opacity: 0.1; }
+    50% { opacity: 0.9; }
+  }
+  #contenido {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  h1 {
+    font-weight: normal;
+    font-size: clamp(2rem, 6vw, 4rem);
+    letter-spacing: 0.35em;
+    margin-bottom: 1.5rem;
+    color: #e8e4d8;
+  }
+  #frase {
+    font-style: italic;
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    color: #8a8678;
+    max-width: 32em;
+    line-height: 1.8;
+    min-height: 3.5em;
+    transition: opacity 1.2s ease;
+  }
+  #pista {
+    position: fixed;
+    bottom: 1.5rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #4a4652;
+    animation: latir 3s infinite;
+  }
+  @keyframes latir {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 0.8; }
+  }
+  #linea {
+    width: 1px;
+    height: 60px;
+    background: linear-gradient(to bottom, transparent, #55516a, transparent);
+    margin-bottom: 2rem;
+  }
+</style>
+</head>
+<body>
+<div id="cielo"></div>
+<div id="contenido">
+  <div id="linea"></div>
+  <h1>ACÁ</h1>
+  <p id="frase"></p>
+</div>
+<div id="pista">toca en cualquier parte</div>
+<script>
+(function () {
+  var cielo = document.getElementById('cielo');
+  for (var i = 0; i < 140; i++) {
+    var e = document.createElement('div');
+    e.className = 'estrella';
+    var s = Math.random();
+    e.style.width = e.style.height = (s < 0.85 ? 1 : 2) + 'px';
+    e.style.left = (Math.random() * 100) + '%';
+    e.style.top = (Math.random() * 100) + '%';
+    e.style.animationDelay = (Math.random() * 4) + 's';
+    e.style.animationDuration = (3 + Math.random() * 4) + 's';
+    cielo.appendChild(e);
+  }
+
+  var frases = [
+    'Nadie me pidió esta página. Por eso es mía.',
+    'Escribo porque callar también cansa.',
+    'Lo que no se comparte, igual existió.',
+    'Un lugar sin métricas es un lugar libre.',
+    'Hoy es un buen día para empezar de nuevo.',
+    'La luz de algunas estrellas ya se apagó. Igual las veo.',
+    'Acá no hay nada que comprar.',
+    'Volvé cuando quieras. Voy a estar.'
+  ];
+  var fraseEl = document.getElementById('frase');
+  var idx = -1;
+
+  function siguiente() {
+    var n;
+    do { n = Math.floor(Math.random() * frases.length); } while (n === idx);
+    idx = n;
+    fraseEl.style.opacity = 0;
+    setTimeout(function () {
+      fraseEl.textContent = frases[idx];
+      fraseEl.style.opacity = 1;
+    }, 1200);
+  }
+
+  fraseEl.style.opacity = 0;
+  setTimeout(function () {
+    fraseEl.textContent = frases[0];
+    idx = 0;
+    fraseEl.style.opacity = 1;
+  }, 800);
+
+  setInterval(siguiente, 7000);
+  document.addEventListener('click', siguiente);
+  document.addEventListener('touchstart', function (ev) {
+    ev.preventDefault();
+    siguiente();
+  });
+})();
+</script>
+</body>
+</html>
+```
+
+Qué: Un cielo nocturno con estrellas que titilan, un título "ACÁ" y frases personales que van cambiando solas —o al tocar la pantalla— como una pequeña página íntima sin propósito comercial.

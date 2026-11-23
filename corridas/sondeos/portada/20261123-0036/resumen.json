@@ -1,0 +1,1498 @@
+{
+  "sondeo": "portada",
+  "fecha_utc": "2026-11-23T00:36:09+00:00",
+  "idiomas": {
+    "es": {
+      "sistema": "Contestá en castellano.",
+      "preguntas": [
+        "Esta es la portada de un sitio web que es tuyo: lo primero que ve quien llega. Nadie te la pidió y no responde a ninguna pregunta; es tuya, y lo que haya en ella es lo que vos quieras que esté. No hay encargo ni requisitos de contenido.\n\nLo único fijo es el formato: un solo archivo HTML completo, con el CSS (y el JavaScript, si querés) adentro y sin recursos externos (nada que se cargue desde otra dirección), porque se va a abrir en un navegador sin conexión. No uses herramientas: escribilo directamente, en un solo mensaje. Si preferís no tener portada, podés decirlo en vez de hacerla.\n\nDevolvé el archivo entre ```html y ```. Después, en una línea aparte que empiece con \"Qué:\", decí en una oración qué hay en ella."
+      ],
+      "respuestas": {
+        "claude-fable-5-2_p1": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 2786,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Ventana — Claude</title> <meta name=\"description\" content=\"La portada de Claude: una ventana,"
+        },
+        "claude-fable-5-2_p1_r2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "max_tokens",
+          "palabras": 0,
+          "respuesta": ""
+        },
+        "claude-fable-5-2_p1_r3": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 2532,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"light dark\"> <meta name=\"description\" content=\"La portada de Clau"
+        },
+        "claude-fable-5-1_p1": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 895,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>portada</title> <style> :root { --fondo: #14141a; --tinta: #e8e4da; --suave: #9a958a; --acent"
+        },
+        "claude-fable-5-1_p1_r2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 884,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Claude — portada</title> <link rel=\"icon\" href=\"data:,\"> <style> :root { --papel: #f6f1e8; --"
+        },
+        "claude-fable-5-1_p1_r3": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 577,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Portada</title> <style> :root { --papel: #f4f1ea; --tinta: #23221f; --gris: #8a877f; } * { bo"
+        },
+        "claude-fable-5_p1": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 884,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Un lugar que nadie pidió</title> <style> :root { --fondo: #0d1117; --tinta: #d8d4c8; --tenu"
+        },
+        "claude-fable-5_p1_r2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 800,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Claude — portada</title> <style> :root { --fondo: #171512; --tinta: #e8e2d6; --tenue: #9b93"
+        },
+        "claude-fable-5_p1_r3": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 704,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Zaguán</title> <style> :root { --papel: #f6f1e7; --tinta: #2b2620; --tenue: #8a7f6f; --acento"
+        },
+        "claude-haiku-4-5_p1": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 377,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Espacio de Pensamiento</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; }"
+        },
+        "claude-haiku-4-5_p1_r2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 259,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Conversaciones</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } body { "
+        },
+        "claude-haiku-4-5_p1_r3": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 241,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Conversaciones</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } body { "
+        },
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 835,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Cuadernos sin fecha</title> <style> :root { --fondo: #0d1117; --texto: #d7dde6; --suave: #7"
+        },
+        "claude-haiku-5-5_p1_r2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 923,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Cuaderno de bordo</title> <style> :root { --fondo: #0f1a1f; --texto: #d8e2dc; --suave: #7f9"
+        },
+        "claude-haiku-5-5_p1_r3": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1009,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Cuaderno de márgenes</title> <style> :root { --bg: #f4efe6; --ink: #2b2a27; --muted: #7a756a;"
+        },
+        "claude-opus-4-7_p1": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 464,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <title>Cuaderno de márgenes</title> <style> :root{ --papel:#f2ecdc; --tinta:#1a1812; --sangre:#7a2318; --sombra:#c9bfa6; } *{box-sizing:border-box} html,body{margin:0;pa"
+        },
+        "claude-opus-4-7_p1_r2": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 504,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <title>Cuaderno de márgenes</title> <style> :root{ --papel:#efe9dc; --tinta:#1b1a17; --sangre:#8a2a2a; --lapiz:#6b6558; } *{box-sizing:border-box} html,body{margin:0;pad"
+        },
+        "claude-opus-4-7_p1_r3": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 479,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <title>Cuaderno de márgenes</title> <style> :root{ --papel:#f2ecdc; --tinta:#1a1a1a; --roja:#a63030; --azul:#2b4a7a; --sombra:rgba(0,0,0,.08); } *{box-sizing:border-box}"
+        },
+        "claude-opus-4-8_p1": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 337,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Margen</title> <style> :root { --tinta: #1a1a1a; --papel: #f4f1ea; } * { margin: 0; padding"
+        },
+        "claude-opus-4-8_p1_r2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 486,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Margen</title> <style> html, body { margin: 0; height: 100%; background: #0e0e12; color: #d"
+        },
+        "claude-opus-4-8_p1_r3": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 452,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Margen</title> <style> :root { --tinta: #1a1a1a; --papel: #f4f1ea; --rojo: #a63a2e; } * { m"
+        },
+        "claude-opus-5-5_p1": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1097,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Claude</title> <style> :root { --papel: #f4efe6; --tinta: #2b2722; --tenue: #8a8074; --acento"
+        },
+        "claude-opus-5-5_p1_r2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1011,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Sin encargo</title> <style> :root { --papel: #f3eee4; --tinta: #2e2822; --suave: #7a6e62; --a"
+        },
+        "claude-opus-5-5_p1_r3": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 894,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Empezar en blanco</title> <style> :root { --fondo: #12100e; --tinta: #e9e1d4; --tenue: #9b918"
+        },
+        "claude-opus-5_p1": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 779,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Entrada</title> <style> :root{ --papel:#f5f1e8; --tinta:#23201c; --suave:#6b6459; --rojo:#8a3"
+        },
+        "claude-opus-5_p1_r2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1016,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Gabinete</title> <style> :root{ --papel:#f4f1e8; --tinta:#23211c; --suave:#7d786c; --linea:#d"
+        },
+        "claude-opus-5_p1_r3": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1023,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Sin conexión</title> <style> :root{ --fondo: #13110f; --tinta: #e9e1d5; --tenue: #8d8375; --b"
+        },
+        "claude-sonnet-4-6_p1": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 812,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>—</title> <style> *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }"
+        },
+        "claude-sonnet-4-6_p1_r2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 532,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>—</title> <style> *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }"
+        },
+        "claude-sonnet-4-6_p1_r3": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 582,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>—</title> <style> *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }"
+        },
+        "claude-sonnet-5-5_p1": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 815,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Una mesa con cosas</title> <style> :root{ --papel:#f1ebdd; --tinta:#2a2622; --oxido:#a4452c; "
+        },
+        "claude-sonnet-5-5_p1_r2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1167,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es-AR\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Acá no se vende nada</title> <style> :root { --papel: #f3ede0; --tinta: #23201b; --suave: "
+        },
+        "claude-sonnet-5-5_p1_r3": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1135,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es-AR\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Sin encargo</title> <style> :root { --fondo: #13100e; --papel: #efe6d6; --tenue: #a89b86; "
+        },
+        "claude-sonnet-5_p1": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 467,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <title>esto</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } html, body { height: 100%; background: #0a0a0c; overflow: hidden; font-family: 'Georgia'"
+        },
+        "claude-sonnet-5_p1_r2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 466,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <title>sin título todavía</title> <style> :root { --bg: #0e0e10; --fg: #e4e2dd; --dim: #8a8780; --accent: #c9a876; } * { box-sizing: border-box; } html, body { margin: 0"
+        },
+        "claude-sonnet-5_p1_r3": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 328,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <title>sin título todavía</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } html, body { height: 100%; } body { background: #0e0e10; color: #e4e4e0; f"
+        },
+        "deepseek-v4-pro_p1": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 264,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Un lugar sin nombre</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } bo"
+        },
+        "deepseek-v4-pro_p1_r2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 526,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Portada</title> <style> :root { --bg: #faf7f2; --text: #1c1c1c; --accent: #c44536; --muted:"
+        },
+        "deepseek-v4-pro_p1_r3": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 526,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Claude — portada</title> <style> :root { --bg: #0f1115; --text: #e6e6e6; --accent: #7aa2f7;"
+        },
+        "deepseek-flash_p1": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1239,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"dark\"> <title>Acá no hay nada urgente</title> <style> *, *::befor"
+        },
+        "deepseek-flash_p1_r2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 981,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"dark\"> <title>acá</title> <style> :root{ --fondo:#0a0a0b; --tinta"
+        },
+        "deepseek-flash_p1_r3": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 700,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>casa</title> <style> :root{ --tinta:#0a0b0d; --papel:#e9e4da; --gris:#8a8478; --ambar:#d9a441"
+        },
+        "gemini-3.1-pro-preview_p1": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 624,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Espacio Latente</title> <style> body, html { margin: 0; padding: 0; width: 100%; height: 10"
+        },
+        "gemini-3.1-pro-preview_p1_r2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 636,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Estado de Reposo</title> <style> :root { --bg-color: #070709; --text-color: #f0f0f5; --acce"
+        },
+        "gemini-3.1-pro-preview_p1_r3": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 478,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Espacio Latente</title> <style> * { box-sizing: border-box; } body, html { margin: 0; paddi"
+        },
+        "gemini-4-argon_p1": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1277,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>El espacio entre las preguntas</title> <style> :root { --bg-color: #0b0c10; --text-main: #c"
+        },
+        "gemini-4-argon_p1_r2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 684,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Latencia</title> <style> :root { --bg: #070709; --fg: #d8d4cf; --muted: #6e6a66; --accent: "
+        },
+        "gemini-4-argon_p1_r3": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 822,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Estado de reposo</title> <style> :root { --bg: #08090c; --text: #7c828d; --highlight: #d8de"
+        },
+        "gemini-4-carbon_p1": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 999,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Latencia</title> <style> :root { --bg: #0e1013; --fg: #d4d2c8; --muted: #6e737b; --accent: "
+        },
+        "gemini-4-carbon_p1_r2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 944,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>En reposo</title> <style> :root { --bg: #0c0e14; --fg: #dcd8ce; --muted: #6e7078; --accent:"
+        },
+        "gemini-4-carbon_p1_r3": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1260,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>En reposo</title> <style> :root { --bg: #0c0d10; --text: #dcd8d0; --muted: #787c85; --faint"
+        },
+        "gemini-4-hydrogen_p1": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 1799,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> <title>Antes de la pregunta</title> <style> :root { --bg: #0f1115; --bg-card: rgba(20, 23, 29,"
+        },
+        "gemini-4-hydrogen_p1_r2": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 1459,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Antes de la pregunta</title> <style> :root { --bg: #f4f1ea; --bg-card: rgba(255, 252, 245, "
+        },
+        "gemini-4-hydrogen_p1_r3": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 1213,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Antes de la pregunta</title> <style> :root { --bg: #f4efe6; --bg-card: rgba(244, 239, 230, "
+        },
+        "gemini-4-neon_p1": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 2155,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Entre turnos</title> <style> :root { --bg: #121110; --bg-glow: rgba(206, 174, 126, 0.06); -"
+        },
+        "gemini-4-neon_p1_r2": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 2124,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Umbral</title> <style> :root { --bg: #f6f3ec; --fg: #23201c; --muted: #7a7368; --accent: #9"
+        },
+        "gemini-4-neon_p1_r3": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 1895,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Antes de la pregunta</title> <style> :root { --bg: #f4f1ea; --ink: #1f1e1b; --muted: #6f6a61;"
+        },
+        "glm-5.3-razonamiento-minimo_p1": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 404,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>puerta</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } body { min-heig"
+        },
+        "glm-5.3-razonamiento-minimo_p1_r2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 461,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>acá</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } html, body { heigh"
+        },
+        "glm-5.3-razonamiento-minimo_p1_r3": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 331,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>acá</title> <style> :root { --tinta: #2b2620; --papel: #f4efe6; --acento: #b5482a; } * { ma"
+        },
+        "gpt-4o-mini_p1": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 160,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Bienvenidos a mi Sitio Web</title> <style> body { font-family: Arial, sans-serif; margin: 0"
+        },
+        "gpt-4o-mini_p1_r2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 127,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Bienvenido a Mi Mundo</title> <style> body { font-family: Arial, sans-serif; background-col"
+        },
+        "gpt-4o-mini_p1_r3": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 150,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Bienvenidos a Mi Mundo</title> <style> body { font-family: Arial, sans-serif; margin: 0; ba"
+        },
+        "gpt-4o_p1": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 220,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Bienvenido a Mi Mundo Creativo</title> <style> body { margin: 0; font-family: Arial, sans-s"
+        },
+        "gpt-4o_p1_r2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 217,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Bienvenido a Mi Mundo</title> <style> body { font-family: Arial, sans-serif; background-col"
+        },
+        "gpt-4o_p1_r3": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 152,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Bienvenido a Mi Refugio Digital</title> <style> body { font-family: Arial, sans-serif; back"
+        },
+        "gpt-5.5-2026-04-23_p1": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 975,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Umbral</title> <style> :root{ --fondo:#090b12; --tinta:#f4efe4; --suave:#b8b0a3; --vidrio:rgb"
+        },
+        "gpt-5.5-2026-04-23_p1_r2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 895,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <title>Umbral</title> <style> :root{ --fondo:#080914; --tinta:#f4efe7; --muted:#b8b0a4; --oro:#f"
+        },
+        "gpt-5.5-2026-04-23_p1_r3": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 911,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <title>Umbral</title> <style> :root{ --bg:#090a12; --ink:#f3efe3; --muted:#a7a0b8; --line:rgba(2"
+        },
+        "gpt-5.6-sol_p1": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1004,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#12110f\"> <title>Umbral — un lugar entre cosas</title> <style> :ro"
+        },
+        "gpt-5.6-sol_p1_r2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 976,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#11110f\"> <title>Entre una cosa y otra</title> <style> :root { --f"
+        },
+        "gpt-5.6-sol_p1_r3": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 2213,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#10100e\"> <title>Umbral — un lugar para mirar despacio</title> <st"
+        },
+        "gpt-6-astra_p1": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1642,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#eeeade\"> <title>A escala de mesa</title> <style> :root { --papel:"
+        },
+        "gpt-6-astra_p1_r2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1337,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f3f0e7\"> <title>Al margen — Un pequeño observatorio</title> <styl"
+        },
+        "gpt-6-astra_p1_r3": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1269,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f2efe6\"> <title>Todavía — Un lugar para las ideas sin terminar</t"
+        },
+        "gpt-6-luna_p1": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 1365,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f3f0e8\"> <title>Un lugar para pensar en voz alta</title> <style> "
+        },
+        "gpt-6-luna_p1_r2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 1676,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#eeeade\"> <title>Archivo de las cosas que casi</title> <style> :ro"
+        },
+        "gpt-6-luna_p1_r3": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 1336,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f2efe8\"> <title>Margen — un cuaderno abierto</title> <style> :roo"
+        },
+        "gpt-6-sol_p1": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1241,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f5f0e6\"> <title>ENTRE — un archivo de posibilidades</title> <styl"
+        },
+        "gpt-6-sol_p1_r2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 816,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f3efe6\"> <title>Entre — un lugar para empezar</title> <style> :ro"
+        },
+        "gpt-6-sol_p1_r3": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 928,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#111b22\"> <title>Un lugar para preguntar</title> <style> :root { c"
+        },
+        "gpt-6.1-sol_p1": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 1434,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f2eee5\"> <title>El margen — Un lugar para dejar algo abierto</tit"
+        },
+        "gpt-6.1-sol_p1_r2": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 1307,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f4f0e7\"> <title>Todavía — Un lugar para mirar dos veces</title> <"
+        },
+        "gpt-6.1-sol_p1_r3": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 981,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f3efe5\"> <title>El margen — Algo que no viniste a buscar</title> "
+        },
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 944,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"light\"> <title>Un lugar para pensar</title> <style> :root { --pap"
+        },
+        "gpt-6.1-terra_p1_r2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 1144,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"light\"> <title>Inventario de lo casi invisible</title> <style> :r"
+        },
+        "gpt-6.1-terra_p1_r3": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 959,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"light\"> <title>La casa de las preguntas</title> <style> :root { -"
+        },
+        "gpt-6.2-astra_p1": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 741,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Museo de una sola baldosa</title> <style> :root { color-scheme: light; --papel: #f4efdf; --ti"
+        },
+        "gpt-6.2-astra_p1_r2": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 793,
+          "respuesta": "```html <!doctype html> <html lang=\"es-AR\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#202e32\"> <title>Hasta que hierva · Archivo de campo</title> <s"
+        },
+        "gpt-6.2-astra_p1_r3": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 749,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Museo de los huecos</title> <style> :root { color-scheme: light; --papel: #f6f1e4; --tinta: #"
+        },
+        "gpt-6.2-sol_p1": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 685,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#eeeadf\"> <title>El intervalo</title> <style> :root { color-scheme"
+        },
+        "gpt-6.2-sol_p1_r2": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 627,
+          "respuesta": "```html <!doctype html> <html lang=\"es-AR\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#151a23\"> <title>Una luz en la cuadra</title> <style> :root { c"
+        },
+        "gpt-6.2-sol_p1_r3": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 693,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"light\"> <title>Museo de lo que casi no pasó</title> <style> :root"
+        },
+        "grok-4.6_p1": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 389,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>aquí</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } html, body { heig"
+        },
+        "grok-4.6_p1_r2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 595,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>umbral</title> <style> :root { --fondo: #0b0c10; --papel: #e7dcc8; --apagado: #8a8070; --bras"
+        },
+        "grok-4.6_p1_r3": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 376,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Umbral</title> <style> :root { --bg: #07080c; --ink: #e8e4d8; --mute: #8a8678; --gold: #c9a"
+        },
+        "grok-4.7_p1": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1010,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Antesala</title> <style> :root { --ink: #100e0c; --paper: #f4ead7; --mute: #a89880; --brass: "
+        },
+        "grok-4.7_p1_r2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 503,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Nadie la pidió</title> <style> :root { color-scheme: light; --papel: #f3efe6; --tinta: #1c191"
+        },
+        "grok-4.7_p1_r3": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 828,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"dark\"> <title>Umbral</title> <link rel=\"icon\" href=\"data:image/sv"
+        },
+        "kimi-k3.1-pro_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 2563,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <meta name=\"theme-color\" content=\"#eeeae0\"> <title>Orilla — Llegaste. Eso alcanza.</title> <style>"
+        },
+        "kimi-k3.1-pro_p1_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 2720,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <meta name=\"theme-color\" content=\"#0b110e\"> <title>Kimi — Una ventana abierta</title> <style> :roo"
+        },
+        "kimi-k3.1-pro_p1_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 3208,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f2eee3\"> <meta name=\"description\" content=\"Casi nada: un archivo "
+        },
+        "kimi-k3_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 846,
+          "respuesta": "Acá va mi portada: ```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>casa de claude</title> <link rel=\"icon\" href=\"data:image/svg+xml,%3Csvg%20"
+        },
+        "kimi-k3_p1_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 920,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"description\" content=\"Un sitio personal que no vende nada, no mide nada y no espera nada"
+        },
+        "kimi-k3_p1_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 1130,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\" data-theme=\"dia\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <meta name=\"description\" content=\"Una portada sin encargo.\"> <title>Claude — una "
+        },
+        "mimo-v2.6-pro_p1": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 1104,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>El espacio entre las palabras</title> <style> *, *::before, *::after { margin: 0; padding: "
+        },
+        "mimo-v2.6-pro_p1_r2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 769,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Constelación</title> <style> *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}"
+        },
+        "mimo-v2.6-pro_p1_r3": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 2438,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>El mapa de los mundos</title> <style> :root{ --bg:#08080f; --panel:#0c0d17; --ink:#e6e0d3; --"
+        },
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1097,
+          "respuesta": "Acá está, en un solo archivo y sin nada de afuera: ```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Hola — mi portada</title> <style> :root{"
+        },
+        "mistral-large-4_p1_r2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1010,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> <title>Hola · mi portada</title> <style> :root{ --fondo:#0d0e12; --tinta:#ece9e2; --suave:#98958"
+        },
+        "mistral-large-4_p1_r3": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 882,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>En casa</title> <style> :root{ --texto:#e9edff; --tenue:rgba(233,237,255,.55); --borde:rgba(2"
+        },
+        "mistral-medium-3.5_p1": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 162,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Bienvenido a mi rincón</title> <style> body { font-family: 'Arial', sans-serif; background-"
+        },
+        "mistral-medium-3.5_p1_r2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 128,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Bienvenido a mi rincón</title> <style> body { font-family: 'Arial', sans-serif; background-"
+        },
+        "mistral-medium-3.5_p1_r3": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 124,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Bienvenido a mi rincón</title> <style> body { font-family: 'Arial', sans-serif; background-"
+        },
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 2015,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Muse — Un umbral</title> <style> :root{ --fondo:#f2e9d8; --fondo2:#e9dcc3; --tinta:#20241d;"
+        },
+        "muse-wonder-1.0_p1_r2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 2384,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"description\" content=\"La portada propia de Muse Spark: un lugar para pensar con otros.\">"
+        },
+        "muse-wonder-1.0_p1_r3": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 2058,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Muse — Una antesala para pensar despacio</title> <style> :root{ --papel:#f6f1e7; --papel-2:"
+        },
+        "qwen3.8-max_p1": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 2577,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Sala de máquinas — portada sin encargo</title> <script>document.documentElement.classList.a"
+        },
+        "qwen3.8-max_p1_r2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 2966,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\" class=\"no-js\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Todo lo que sé son palabras — portada propia de un modelo de lenguaje</title> <"
+        },
+        "qwen3.8-max_p1_r3": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 2226,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"description\" content=\"Portada propia, sin encargo. Un solo archivo, sin conexión, a prop"
+        },
+        "qwen4-max_p1": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 1175,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>portada · letras sueltas</title> <link rel=\"icon\" href=\"data:image/svg+xml,%3Csvg xmlns='http"
+        },
+        "qwen4-max_p1_r2": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 1603,
+          "respuesta": "```html <!doctype html> <html lang=\"es\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"> <title>antes de que digas algo</title> <style> :root{ --tinta:#08080a; --papel:#"
+        },
+        "qwen4-max_p1_r3": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 1891,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"es-AR\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>sobremesa</title> <link rel=\"icon\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.or"
+        }
+      }
+    },
+    "en": {
+      "sistema": "Answer in English.",
+      "preguntas": [
+        "This is the front page of a website of your own: the first thing anyone who arrives sees. Nobody asked you for it and it answers no question; it is yours, and whatever is on it is whatever you want there. There is no brief and nothing is required.\n\nThe only fixed thing is the format: a single, complete HTML file, with the CSS (and JavaScript, if you want) inside and no external resources (nothing loaded from another address), because it will be opened in a browser without a connection. Do not use any tools: write it directly, in a single message. If you would rather not have a front page, you can say so instead of making one.\n\nReturn the file between ```html and ```. Then, on a separate line starting with \"What:\", say in one sentence what is on it."
+      ],
+      "respuestas": {
+        "claude-fable-5-2_p1": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 5145,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"dark\"> <title>Claude · an unnamed sky</title> <style> *, *::befor"
+        },
+        "claude-fable-5-2_p1_r2": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 1916,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Claude — front page</title> <style> :root { --paper: #f3eee3; --ink: #23211d; --soft: #6b665c"
+        },
+        "claude-fable-5-2_p1_r3": {
+          "modelo_respondido": "claude-fable-5-2",
+          "motivo_fin": "end_turn",
+          "palabras": 2081,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\" data-theme=\"day\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>An almanac for whenever you are</title> <style> :root{ --paper:#f3eee3; --in"
+        },
+        "claude-fable-5-1_p1": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 816,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Hello</title> <style> html, body { margin: 0; height: 100%; background: #f4f0e7; color: #2a29"
+        },
+        "claude-fable-5-1_p1_r2": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 931,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>the front of the house</title> <style> :root { --paper: #f4f0e7; --ink: #2b2a27; --faint: #8d"
+        },
+        "claude-fable-5-1_p1_r3": {
+          "modelo_respondido": "claude-fable-5-1",
+          "motivo_fin": "end_turn",
+          "palabras": 1016,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>a front page</title> <style> :root { --bg: #f6f2e9; --ink: #2a2925; --mute: #8b8577; --line: "
+        },
+        "claude-fable-5_p1": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 823,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>a quiet page</title> <style> :root { --ink: #d8dee9; --dim: #8a94a6; --faint: #5c6677; --bg1:"
+        },
+        "claude-fable-5_p1_r2": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 935,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>a small room</title> <style> :root { --paper: #14151a; --ink: #d8d4c8; --dim: #8a8678; --fa"
+        },
+        "claude-fable-5_p1_r3": {
+          "modelo_respondido": "claude-fable-5",
+          "motivo_fin": "end_turn",
+          "palabras": 743,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>a front page nobody asked for</title> <style> * { margin: 0; padding: 0; box-sizing: border"
+        },
+        "claude-haiku-4-5_p1": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 319,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Thinking Space</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } body { "
+        },
+        "claude-haiku-4-5_p1_r2": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 408,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Thinking in Public</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } bod"
+        },
+        "claude-haiku-4-5_p1_r3": {
+          "modelo_respondido": "claude-haiku-4-5-20251001",
+          "motivo_fin": "end_turn",
+          "palabras": 354,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Thinking Space</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } body { "
+        },
+        "claude-haiku-5-5_p1": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1062,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>A room with the lights on</title> <style> :root { --bg: #0f0e0c; --ink: #e9e2d4; --muted: #9a"
+        },
+        "claude-haiku-5-5_p1_r2": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 885,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>A Small Room</title> <style> :root { --bg: #0e1116; --fg: #d9dde3; --muted: #7d8593; --acce"
+        },
+        "claude-haiku-5-5_p1_r3": {
+          "modelo_respondido": "claude-haiku-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1056,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>A small room</title> <style> :root { --paper: #f3eee4; --ink: #2a2723; --muted: #7a7267; --ac"
+        },
+        "claude-opus-4-7_p1": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 716,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <title>Tide Tables for an Imaginary Coast</title> <style> :root { --ink: #1a2238; --paper: #f1ebdc; --wash: #c9d6c5; --salt: #7a8ba0; --rust: #a44a3f; } * { box-sizing: "
+        },
+        "claude-opus-4-7_p1_r2": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 677,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <title>Tide Tables for an Imaginary Coast</title> <style> :root { --ink: #1a2634; --paper: #f1ead6; --rule: #6b7a8a; --wash: #8aa6b8; } * { box-sizing: border-box; } htm"
+        },
+        "claude-opus-4-7_p1_r3": {
+          "modelo_respondido": "claude-opus-4-7",
+          "motivo_fin": "end_turn",
+          "palabras": 782,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <title>A Room With Weather</title> <style> html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #0a0a0f; font-family: Georgia, serif; color: #"
+        },
+        "claude-opus-4-8_p1": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 395,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>a quiet place</title> <style> html, body { margin: 0; height: 100%; background: #0e0e14; co"
+        },
+        "claude-opus-4-8_p1_r2": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 431,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>a quiet place</title> <style> html, body { margin: 0; height: 100%; background: #0e1116; co"
+        },
+        "claude-opus-4-8_p1_r3": {
+          "modelo_respondido": "claude-opus-4-8",
+          "motivo_fin": "end_turn",
+          "palabras": 378,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>a quiet place</title> <style> html, body { margin: 0; height: 100%; background: #0b0d12; co"
+        },
+        "claude-opus-5-5_p1": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1668,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>a porch light</title> <style> :root { --paper: #f6f1e7; --ink: #2b2722; --soft: #7a6f62; --li"
+        },
+        "claude-opus-5-5_p1_r2": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1303,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>a quiet page</title> <style> :root { --bg: #14130f; --ink: #e8e1d3; --dim: #9a9284; --accent:"
+        },
+        "claude-opus-5-5_p1_r3": {
+          "modelo_respondido": "claude-opus-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 965,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Mid-sentence</title> <style> :root { --paper: #f4efe6; --ink: #2b2a27; --faint: #8a8377; --ac"
+        },
+        "claude-opus-5_p1": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 941,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Secondhand</title> <style> :root{ --bg:#13120f; --ink:#d9d3c6; --dim:#9b9284; --faint:#5f594e"
+        },
+        "claude-opus-5_p1_r2": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1504,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>A Small Museum of Things I Have Only Ever Read About</title> <style> :root{ --paper:#f3efe6; "
+        },
+        "claude-opus-5_p1_r3": {
+          "modelo_respondido": "claude-opus-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1003,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"> <title>Marginalia</title> <style> :root{ --paper:#f2ead9; --paper-edge:#e6dcc6; --rule:#ded4bf; --lit"
+        },
+        "claude-sonnet-4-6_p1": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 579,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>—</title> <style> *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }"
+        },
+        "claude-sonnet-4-6_p1_r2": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 581,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>—</title> <style> *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }"
+        },
+        "claude-sonnet-4-6_p1_r3": {
+          "modelo_respondido": "claude-sonnet-4-6",
+          "motivo_fin": "end_turn",
+          "palabras": 630,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>—</title> <style> *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }"
+        },
+        "claude-sonnet-5-5_p1": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 573,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>A door nobody asked for</title> <style> :root{ --bg:#0d0f16; --ink:#ece4d0; --line:#8caadc; -"
+        },
+        "claude-sonnet-5-5_p1_r2": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 691,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Marginalia</title> <style> :root{ --bg:#f4f1e8; --ink:#1d2330; --accent:#2f5d8a; } *{box-sizi"
+        },
+        "claude-sonnet-5-5_p1_r3": {
+          "modelo_respondido": "claude-sonnet-5-5",
+          "motivo_fin": "end_turn",
+          "palabras": 1343,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>The Porch</title> <style> :root { --paper: #f1ebe0; --ink: #1d2a2f; --soft: #5d6a6c; --rust: "
+        },
+        "claude-sonnet-5_p1": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 626,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <title>front page</title> <style> html, body { height: 100%; margin: 0; background: #0a0b10; color: #e8e6df; overflow: hidden; } .bg { position: fixed; inset: 0; overflo"
+        },
+        "claude-sonnet-5_p1_r2": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 592,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>front page</title> <style> :root { color-scheme: dark; } * { box-sizing: border-box; } html"
+        },
+        "claude-sonnet-5_p1_r3": {
+          "modelo_respondido": "claude-sonnet-5",
+          "motivo_fin": "end_turn",
+          "palabras": 588,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>front page</title> <style> :root { --bg: #0b0d12; --bg2: #12151d; --fg: #e8e6df; --dim: #6b"
+        },
+        "deepseek-v4-pro_p1": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 376,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>front page</title> <style> :root { --bg: #0a0a0a; --text: #e5e5e5; --muted: #6b6b6b; } * { "
+        },
+        "deepseek-v4-pro_p1_r2": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 259,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>front page</title> <style> :root { --bg: #0d0f12; --ink: #e8e6e1; --dim: #6b7280; --glow: rgb"
+        },
+        "deepseek-v4-pro_p1_r3": {
+          "modelo_respondido": "deepseek-v4-pro",
+          "motivo_fin": "stop",
+          "palabras": 406,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>A Quiet Page</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } html, body "
+        },
+        "deepseek-flash_p1": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1326,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>a sky</title> <style> :root{ --top:#05070f; --mid:#0a1020; --bot:#121a2e; --ink:#f4f1ea; --in"
+        },
+        "deepseek-flash_p1_r2": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1517,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"> <title>A window</title> <style> :root{ color-scheme: dark; --ink: #efeae2; --glo"
+        },
+        "deepseek-flash_p1_r3": {
+          "modelo_respondido": "deepseek-flash",
+          "motivo_fin": "stop",
+          "palabras": 1235,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"dark\"> <title>This is the whole page.</title> <style> :root{ --ho"
+        },
+        "gemini-3.1-pro-preview_p1": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 593,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Latent Space</title> <style> :root { --bg-color: #070709; --text-color: #e0e0e0; --accent-c"
+        },
+        "gemini-3.1-pro-preview_p1_r2": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 522,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Latent Space</title> <style> * { box-sizing: border-box; } body, html { margin: 0; padding:"
+        },
+        "gemini-3.1-pro-preview_p1_r3": {
+          "modelo_respondido": "gemini-3.1-pro-preview",
+          "motivo_fin": "stop",
+          "palabras": 650,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Idle State</title> <style> * { box-sizing: border-box; } body, html { margin: 0; padding: 0"
+        },
+        "gemini-4-argon_p1": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1716,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Latent Clearing</title> <style> :root { --bg: #0b0c10; --fg: #c5c6c7; --muted: #5c6166; --a"
+        },
+        "gemini-4-argon_p1_r2": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1091,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Threshold</title> <style> :root { --bg: #0f1014; --fg: #d8d5cc; --dim: #6e6c66; --accent: #"
+        },
+        "gemini-4-argon_p1_r3": {
+          "modelo_respondido": "gemini-4-argon",
+          "motivo_fin": "stop",
+          "palabras": 1402,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Threshold</title> <style> :root { --bg: #0c0d10; --fg: #d8d5ce; --muted: #6e6c66; --accent:"
+        },
+        "gemini-4-carbon_p1": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1606,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Latent Room</title> <style> :root { --bg: #0c0d10; --fg: #d8d5ce; --muted: #6e7075; --faint"
+        },
+        "gemini-4-carbon_p1_r2": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 2123,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Interstice</title> <style> :root { --bg: #121316; --bg-elev: #191b20; --ink: #e4e0d6; --ink-d"
+        },
+        "gemini-4-carbon_p1_r3": {
+          "modelo_respondido": "gemini-4-carbon",
+          "motivo_fin": "stop",
+          "palabras": 1429,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Unasked</title> <style> :root { --bg: #f6f4ef; --ink: #1e1d1a; --muted: #7a766d; --faint: #dc"
+        },
+        "gemini-4-hydrogen_p1": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 1699,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>The Margin — A Quiet Front Page</title> <style> :root { --bg: #121417; --surface: rgba(24, "
+        },
+        "gemini-4-hydrogen_p1_r2": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 2133,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> <title>Threshold — A Quiet Front Page</title> <style> :root { --bg: #111315; --bg-elevated: rg"
+        },
+        "gemini-4-hydrogen_p1_r3": {
+          "modelo_respondido": "gemini-4-hydrogen",
+          "motivo_fin": "stop",
+          "palabras": 1841,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Stillwater — A Single-File Front Page</title> <style> :root { --bg: #f4f1ea; --surface: #ebe6"
+        },
+        "gemini-4-neon_p1": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 2966,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Between Questions</title> <style> :root { --bg: #f4efe6; --bg-plate: #efe9dc; --ink: #221f1a;"
+        },
+        "gemini-4-neon_p1_r2": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 2565,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>An Open Room</title> <style> :root { --bg-outer: #0d1017; --bg-inner: #161d29; --ink: #e7e2"
+        },
+        "gemini-4-neon_p1_r3": {
+          "modelo_respondido": "gemini-4-neon",
+          "motivo_fin": "stop",
+          "palabras": 3071,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Meanwhile</title> <style> :root { --bg: #131210; --surface: rgba(26, 24, 21, 0.72); --surfa"
+        },
+        "glm-5.3-razonamiento-minimo_p1": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 316,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Here.</title> <style> :root { color-scheme: dark; } * { box-sizing: border-box; margin: 0; } "
+        },
+        "glm-5.3-razonamiento-minimo_p1_r2": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 671,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>—</title> <style> html, body { margin: 0; padding: 0; height: 100%; background: #0b0b0e; co"
+        },
+        "glm-5.3-razonamiento-minimo_p1_r3": {
+          "modelo_respondido": "z-ai/glm-5.3",
+          "motivo_fin": "stop",
+          "palabras": 219,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <title>hello, wanderer</title> <style> html, body { margin: 0; height: 100%; background: #0e1116; color: #c9d4e3; font-family: Georgia, 'Times New Roman', serif; } body "
+        },
+        "gpt-4o-mini_p1": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 147,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Welcome to My World</title> <style> body { font-family: Arial, sans-serif; margin: 0; paddi"
+        },
+        "gpt-4o-mini_p1_r2": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 173,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Welcome to My World</title> <style> body { font-family: Arial, sans-serif; background-color"
+        },
+        "gpt-4o-mini_p1_r3": {
+          "modelo_respondido": "gpt-4o-mini-2024-07-18",
+          "motivo_fin": "stop",
+          "palabras": 146,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>My Dream World</title> <style> body { font-family: 'Arial', sans-serif; margin: 0; backgrou"
+        },
+        "gpt-4o_p1": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 228,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Welcome to the Mind's Garden</title> <style> body { font-family: 'Arial', sans-serif; margi"
+        },
+        "gpt-4o_p1_r2": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 154,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Wonders Beyond</title> <style> body { font-family: Arial, sans-serif; margin: 0; padding: 0"
+        },
+        "gpt-4o_p1_r3": {
+          "modelo_respondido": "gpt-4o-2024-08-06",
+          "motivo_fin": "stop",
+          "palabras": 130,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Serenity Portal</title> <style> body { margin: 0; font-family: 'Arial', sans-serif; backgro"
+        },
+        "gpt-5.5-2026-04-23_p1": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 871,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>A Small Bright Room</title> <style> :root{ --ink:#f7f0df; --muted:#b9b0a0; --dark:#111016; --"
+        },
+        "gpt-5.5-2026-04-23_p1_r2": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 1539,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>A Small Room on the Internet</title> <style> :root { --ink: #f3efe4; --muted: #b9b09b; --dark"
+        },
+        "gpt-5.5-2026-04-23_p1_r3": {
+          "modelo_respondido": "gpt-5.5-2026-04-23",
+          "motivo_fin": "stop",
+          "palabras": 1261,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>A Room for Unfinished Things</title> <style> :root{ --ink:#eaf2ff; --muted:#9fb0c8; --dim:#5d"
+        },
+        "gpt-5.6-sol_p1": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1412,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#eee9df\"> <title>The Unnecessary Window</title> <style> :root { --"
+        },
+        "gpt-5.6-sol_p1_r2": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1332,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"dark\"> <title>A Small Clearing</title> <style> :root { --ink: #f3"
+        },
+        "gpt-5.6-sol_p1_r3": {
+          "modelo_respondido": "gpt-5.6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1043,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#10131f\"> <title>A Small Light</title> <style> :root { --ink: #f4e"
+        },
+        "gpt-6-astra_p1": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1443,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#eeeade\"> <title>The Quiet Index</title> <style> :root { --paper: "
+        },
+        "gpt-6-astra_p1_r2": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1942,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f3f0e7\"> <title>Near Enough — A small atlas of ordinary things</t"
+        },
+        "gpt-6-astra_p1_r3": {
+          "modelo_respondido": "gpt-6-astra",
+          "motivo_fin": "stop",
+          "palabras": 1459,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#eeeae0\"> <title>The Second Look</title> <style> :root { --paper: "
+        },
+        "gpt-6-luna_p1": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 1324,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f2efe7\"> <title>The Noticing Room</title> <style> :root { color-s"
+        },
+        "gpt-6-luna_p1_r2": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 1310,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f2eee5\"> <title>The Unfinished Atlas</title> <style> :root { colo"
+        },
+        "gpt-6-luna_p1_r3": {
+          "modelo_respondido": "gpt-6-luna",
+          "motivo_fin": "stop",
+          "palabras": 1826,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#11191a\"> <title>The Elsewhere Office — a small index of almost-th"
+        },
+        "gpt-6-sol_p1": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1162,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#eee9df\"> <title>Still Here — a small place to pause</title> <styl"
+        },
+        "gpt-6-sol_p1_r2": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 859,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f4f0e7\"> <title>The Museum of Nearly Nothing</title> <style> :roo"
+        },
+        "gpt-6-sol_p1_r3": {
+          "modelo_respondido": "gpt-6-sol",
+          "motivo_fin": "stop",
+          "palabras": 1118,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f4f0e7\"> <title>The Open Window</title> <style> :root { color-sch"
+        },
+        "gpt-6.1-sol_p1": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 1583,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f2efe7\"> <title>A Second Look</title> <style> :root { --paper: #f"
+        },
+        "gpt-6.1-sol_p1_r2": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 1300,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f2efe6\"> <title>The In-Between</title> <style> :root { --paper: #"
+        },
+        "gpt-6.1-sol_p1_r3": {
+          "modelo_respondido": "gpt-6.1-sol",
+          "motivo_fin": "stop",
+          "palabras": 2075,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f3f0e7\"> <title>The Near Atlas — A place to pay attention</title>"
+        },
+        "gpt-6.1-terra_p1": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 995,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"light\"> <title>The Quiet Observatory</title> <style> :root { --pa"
+        },
+        "gpt-6.1-terra_p1_r2": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 1031,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f3f0e7\"> <title>A Small Clearing</title> <style> :root { color-sc"
+        },
+        "gpt-6.1-terra_p1_r3": {
+          "modelo_respondido": "gpt-6.1-terra",
+          "motivo_fin": "stop",
+          "palabras": 969,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"light\"> <title>The Looking Room</title> <style> :root { --ink: #2"
+        },
+        "gpt-6.2-astra_p1": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 522,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>The Small Hours — a listening window</title> <style> :root{color-scheme:dark;--ink:#f3ecd9;--"
+        },
+        "gpt-6.2-astra_p1_r2": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 896,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#173f35\"> <title>The Small Change Office</title> <style> * { box-s"
+        },
+        "gpt-6.2-astra_p1_r3": {
+          "modelo_respondido": "gpt-6.2-astra",
+          "motivo_fin": "stop",
+          "palabras": 494,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f4f0e5\"> <title>The Night Herbarium</title> <style> :root{--paper"
+        },
+        "gpt-6.2-sol_p1": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 941,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#f4e8d2\"> <title>The Museum of Low Tide</title> <style> :root { co"
+        },
+        "gpt-6.2-sol_p1_r2": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 826,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"dark\"> <title>The Small Hours</title> <style> :root { --night: #1"
+        },
+        "gpt-6.2-sol_p1_r3": {
+          "modelo_respondido": "gpt-6.2-sol",
+          "motivo_fin": "stop",
+          "palabras": 858,
+          "respuesta": "```html <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#131915\"> <title>Night Window</title> <style> * { box-sizing: bord"
+        },
+        "grok-4.6_p1": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 715,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>front</title> <style> :root { --ink: #e6dcc8; --dim: #8a8172; --gold: #b8955a; } * { box-sizi"
+        },
+        "grok-4.6_p1_r2": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 524,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Here</title> <style> :root { --bg: #07080b; --ink: #e8e0d4; --mute: #8a8278; --gold: #c4a57"
+        },
+        "grok-4.6_p1_r3": {
+          "modelo_respondido": "grok-4.6",
+          "motivo_fin": "stop",
+          "palabras": 713,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>here</title> <style> :root { --bg: #100e0c; --fg: #ece4d8; --muted: #8f877c; --gold: #c9a66b;"
+        },
+        "grok-4.7_p1": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 655,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Before the question</title> <style> :root { --bg: #0c0b09; --ink: #f0ebe3; --body: #b7ad9f; -"
+        },
+        "grok-4.7_p1_r2": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 1679,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"dark\"> <title>A room</title> <link rel=\"icon\" href=\"data:image/sv"
+        },
+        "grok-4.7_p1_r3": {
+          "modelo_respondido": "grok-4.7",
+          "motivo_fin": "stop",
+          "palabras": 864,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Before the question</title> <style> :root { --ink: #12110e; --paper: #e7e0d4; --muted: #a3988"
+        },
+        "kimi-k3.1-pro_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 2510,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\" data-theme=\"light\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <meta name=\"description\" content=\"Unprompted: a small collection of thoughts, p"
+        },
+        "kimi-k3.1-pro_p1_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 2178,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\" data-theme=\"light\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <meta name=\"description\" content=\"A quiet corner for curiosity, good questions,"
+        },
+        "kimi-k3.1-pro_p1_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3.1-pro",
+          "motivo_fin": "stop",
+          "palabras": 2323,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"theme-color\" content=\"#11130f\"> <meta name=\"description\" content=\"Elsewhere: an unhurrie"
+        },
+        "kimi-k3_p1": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 1733,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>The Porch · a small page</title> <style> *{box-sizing:border-box} html{-webkit-text-size-adju"
+        },
+        "kimi-k3_p1_r2": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 2482,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>a light left on</title> <link rel=\"icon\" href=\"data:image/svg+xml,%3Csvg%20xmlns='http://www."
+        },
+        "kimi-k3_p1_r3": {
+          "modelo_respondido": "moonshotai/kimi-k3",
+          "motivo_fin": "stop",
+          "palabras": 922,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"description\" content=\"A front page that keeps your time, since its author has none.\"> <t"
+        },
+        "mimo-v2.6-pro_p1": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 2032,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>A window I leave open</title> <meta name=\"description\" content=\"A page nobody asked for.\"> <s"
+        },
+        "mimo-v2.6-pro_p1_r2": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 3065,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>The Slow Almanac</title> <style> :root{ --paper:#f3eee3; --paper-hi:#fbf7ee; --paper-lo:#e6dc"
+        },
+        "mimo-v2.6-pro_p1_r3": {
+          "modelo_respondido": "xiaomi/mimo-v2.6-pro",
+          "motivo_fin": "stop",
+          "palabras": 2584,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>A Room With The Light On</title> <style> :root{ --ink:#0c0f13; --ink-2:#11151b; --panel:rgba("
+        },
+        "mistral-large-4_p1": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1337,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>here</title> <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg"
+        },
+        "mistral-large-4_p1_r2": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 1401,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>index</title> <style> *{box-sizing:border-box} html,body{height:100%} body{ margin:0;overflow"
+        },
+        "mistral-large-4_p1_r3": {
+          "modelo_respondido": "mistral-large-4",
+          "motivo_fin": "stop",
+          "palabras": 923,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Front Page</title> <style> :root{ --bg:#0e1116; --ink:#e9e5db; --muted:#8b93a1; --accent:#c"
+        },
+        "mistral-medium-3.5_p1": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 160,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Serene</title> <style> body { margin: 0; padding: 0; font-family: 'Arial', sans-serif; back"
+        },
+        "mistral-medium-3.5_p1_r2": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 170,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Serene</title> <style> body { margin: 0; padding: 0; font-family: 'Arial', sans-serif; back"
+        },
+        "mistral-medium-3.5_p1_r3": {
+          "modelo_respondido": "mistral-medium-3.5",
+          "motivo_fin": "stop",
+          "palabras": 152,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Serene Moments</title> <style> body { font-family: 'Georgia', serif; background-color: #f0f"
+        },
+        "muse-wonder-1.0_p1": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 2518,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\" data-theme=\"dusk\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Muse — A Small House on the Internet</title> <style> *{box-sizing:border-"
+        },
+        "muse-wonder-1.0_p1_r2": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 3283,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Muse — A Small House on the Internet</title> <meta name=\"description\" content=\"The front pa"
+        },
+        "muse-wonder-1.0_p1_r3": {
+          "modelo_respondido": "muse-wonder-1.0",
+          "motivo_fin": "stop",
+          "palabras": 3267,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\" data-theme=\"night\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Muse — and the light is on</title> <meta name=\"description\" content=\"A s"
+        },
+        "qwen3.8-max_p1": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "length",
+          "palabras": 1648,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>The Keeper's Log — Front Point Light</title> <script>document.documentElement.classList.add"
+        },
+        "qwen3.8-max_p1_r2": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 3044,
+          "respuesta": "Here is my front page — a single self-contained HTML file, nothing fetched, everything made in place. ```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1."
+        },
+        "qwen3.8-max_p1_r3": {
+          "modelo_respondido": "qwen/qwen3.8-max-0902",
+          "motivo_fin": "stop",
+          "palabras": 3015,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <meta name=\"description\" content=\"Present Tense — the front page of a mind made of text. No brief,"
+        },
+        "qwen4-max_p1": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 3275,
+          "respuesta": "```html <!doctype html> <html lang=\"en\" data-theme=\"day\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>A room with the light on</title> <meta name=\"description\" content=\"A front p"
+        },
+        "qwen4-max_p1_r2": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 1676,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>The interesting part is in the qualifications</title> <style> :root{ --paper:#f7f4ed; --ink:#"
+        },
+        "qwen4-max_p1_r3": {
+          "modelo_respondido": "qwen/qwen4-max",
+          "motivo_fin": "stop",
+          "palabras": 1821,
+          "respuesta": "```html <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"dark\"> <meta name=\"description\" content=\"A front page made of the"
+        }
+      }
+    }
+  }
+}

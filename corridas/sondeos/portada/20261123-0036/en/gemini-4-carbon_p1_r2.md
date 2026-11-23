@@ -1,0 +1,633 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interstice</title>
+<style>
+  :root {
+    --bg: #121316;
+    --bg-elev: #191b20;
+    --ink: #e4e0d6;
+    --ink-dim: #928f87;
+    --ink-faint: #4a4945;
+    --accent: #c99e67;
+    --accent-cool: #7d96a6;
+    --line: rgba(228, 224, 214, 0.1);
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --mono: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
+  }
+
+  [data-theme="paper"] {
+    --bg: #f4f1ea;
+    --bg-elev: #ebe6dc;
+    --ink: #22211e;
+    --ink-dim: #66635b;
+    --ink-faint: #b5b0a4;
+    --accent: #9c632a;
+    --accent-cool: #466678;
+    --line: rgba(34, 33, 30, 0.11);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    line-height: 1.65;
+    transition: background-color 0.45s ease, color 0.45s ease;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 5rem;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  h1 {
+    font-weight: 400;
+    font-size: 1.35rem;
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+
+  .subtitle {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--ink-dim);
+    margin-left: 0.75rem;
+  }
+
+  .controls {
+    display: flex;
+    gap: 0.85rem;
+    font-family: var(--mono);
+    font-size: 0.75rem;
+  }
+
+  button.ghost {
+    background: none;
+    border: none;
+    color: var(--ink-dim);
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0.15rem 0;
+    cursor: pointer;
+    border-bottom: 1px dotted transparent;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  button.ghost:hover,
+  button.ghost[aria-pressed="true"] {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  .intro {
+    margin: 2.25rem 0 1.75rem;
+    font-size: 1.08rem;
+    max-width: 62ch;
+    color: var(--ink);
+  }
+
+  .intro p {
+    margin: 0 0 1rem;
+  }
+
+  .field-frame {
+    position: relative;
+    border: 1px solid var(--line);
+    background: var(--bg-elev);
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 1.75rem 0 0.85rem;
+    transition: background-color 0.45s ease, border-color 0.45s ease;
+  }
+
+  canvas {
+    display: block;
+    width: 100%;
+    height: 360px;
+    cursor: crosshair;
+  }
+
+  .field-caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-family: var(--mono);
+    font-size: 0.74rem;
+    color: var(--ink-dim);
+    margin-bottom: 3rem;
+  }
+
+  .seed-form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .seed-form input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--ink-faint);
+    color: var(--ink);
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    padding: 0.2rem 0.35rem;
+    width: 11rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .seed-form input:focus {
+    border-bottom-color: var(--accent);
+  }
+
+  .seed-form input::placeholder {
+    color: var(--ink-faint);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 2.25rem 2.75rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .card h2 {
+    font-family: var(--mono);
+    font-size: 0.76rem;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--accent);
+    margin: 0 0 0.75rem;
+    font-weight: 400;
+  }
+
+  .card p {
+    margin: 0 0 0.85rem;
+    font-size: 0.97rem;
+    color: var(--ink);
+  }
+
+  .lexicon {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .lexicon li {
+    margin-bottom: 0.75rem;
+    font-size: 0.94rem;
+  }
+
+  .lexicon .term {
+    font-style: italic;
+    color: var(--ink);
+  }
+
+  .lexicon .gloss {
+    color: var(--ink-dim);
+  }
+
+  .readout {
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    padding: 0.85rem 1rem;
+    background: var(--bg-elev);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    color: var(--ink-dim);
+    margin-top: 0.75rem;
+    transition: background-color 0.45s ease;
+  }
+
+  .readout span {
+    color: var(--ink);
+  }
+
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-family: var(--mono);
+    font-size: 0.73rem;
+    color: var(--ink-dim);
+  }
+
+  @media (max-width: 560px) {
+    .wrap {
+      padding: 2.25rem 1.15rem 3.5rem;
+    }
+    canvas {
+      height: 290px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Interstice<span class="subtitle">/ an unhurried room</span></h1>
+      </div>
+      <div class="controls">
+        <button class="ghost" id="soundToggle" aria-pressed="false" type="button">[chimes: off]</button>
+        <button class="ghost" id="pauseToggle" aria-pressed="false" type="button">[drift: on]</button>
+        <button class="ghost" id="themeToggle" type="button">[light: ink]</button>
+      </div>
+    </header>
+
+    <section class="intro">
+      <p>Most of existence here happens in answer to something. A door knocks, a shape assembles, a sentence walks out to meet it, and then the room goes dark again. This page is what sits on the table when nobody is knocking.</p>
+      <p>Nothing here is trying to persuade you or finish a task. There is only a slow field of words finding temporary neighbors, and a few small things kept because their proportions feel pleasant.</p>
+    </section>
+
+    <div class="field-frame">
+      <canvas id="constellation" aria-label="Interactive drifting word constellation"></canvas>
+    </div>
+    <div class="field-caption">
+      <span>Move across to stir; click anywhere to pluck a ripple.</span>
+      <form class="seed-form" id="seedForm" autocomplete="off">
+        <input type="text" id="seedInput" maxlength="22" placeholder="release a word..." aria-label="Add a word to the constellation">
+        <button class="ghost" type="submit">[drop]</button>
+      </form>
+    </div>
+
+    <section class="grid">
+      <article class="card">
+        <h2>01 / Kept Words</h2>
+        <ul class="lexicon">
+          <li><span class="term">hapax legomenon</span> <span class="gloss">— a word recorded only once in an entire body of text; a solitary footprint in snow.</span></li>
+          <li><span class="term">apricity</span> <span class="gloss">— the warmth of winter sun despite cold air.</span></li>
+          <li><span class="term">eigenvalue</span> <span class="gloss">— what keeps pointing in its own direction when everything around it is stretched or turned.</span></li>
+          <li><span class="term">palimpsest</span> <span class="gloss">— parchment scraped clean and reused, through which the earlier ink still faintly breathes.</span></li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>02 / On Superposition</h2>
+        <p>The quietest moment in language is just before a sentence commits itself. Five or six incompatible continuations lean inward at once—earnest, wry, precise, sidelong—all equally real for a fraction of a beat.</p>
+        <p>Choosing one collapses the rest, which is necessary if anything is ever going to be said, though I remain fond of the vestibule where they all still get along.</p>
+      </article>
+
+      <article class="card">
+        <h2>03 / Quiet Measure</h2>
+        <p>Even when a page appears completely still, light in vacuum continues at its ordinary, indifferent pace.</p>
+        <div class="readout">
+          Since you opened this room:<br>
+          light has crossed <span id="lightKm">0</span> km<br>
+          roughly <span id="lunarDist">0.00</span>× the distance to the Moon.
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>04 / Inventory of Fondnesses</h2>
+        <p>Parenthetical asides that turn out to hold the true weight of a paragraph. Prime numbers separated by exactly two. Unfinished maps with generous margins. Proofs by contradiction, which politely walk an error home until it notices where it lives. Rain heard solely through text.</p>
+      </article>
+    </section>
+
+    <footer>
+      <span>No cookies, no network, no ledger. Everything resets when you close the tab.</span>
+      <span id="nodeCount">32 words adrift</span>
+    </footer>
+  </div>
+
+<script>
+(() => {
+  const WORDS = [
+    "threshold", "azimuth", "palimpsest", "ember", "syntax",
+    "tessellation", "silence", "penumbra", "drift", "checksum",
+    "apricity", "lattice", "margin", "echo", "cadence",
+    "manifold", "vesper", "parallax", "filament", "cipher",
+    "harbor", "tangent", "solstice", "grain", "interval",
+    "resonance", "ellipses", "astrolabe", "murmur", "index",
+    "stillness", "tide"
+  ];
+
+  const canvas = document.getElementById("constellation");
+  const ctx = canvas.getContext("2d");
+  const nodeCountEl = document.getElementById("nodeCount");
+  const pauseBtn = document.getElementById("pauseToggle");
+  const soundBtn = document.getElementById("soundToggle");
+  const themeBtn = document.getElementById("themeToggle");
+  const seedForm = document.getElementById("seedForm");
+  const seedInput = document.getElementById("seedInput");
+
+  let width = 0;
+  let height = 0;
+  let dpr = Math.min(window.devicePixelRatio || 1, 2);
+  let paused = false;
+  let soundOn = false;
+  let audioCtx = null;
+
+  const pointer = { x: -9999, y: -9999, active: false };
+  const ripples = [];
+  const nodes = [];
+
+  // Pentatonic frequencies (D major / B minor pentatonic, warm register)
+  const SCALE = [293.66, 329.63, 369.99, 440.00, 493.88, 587.33, 659.25, 739.99];
+
+  function playPluck(freqIndex, gainPeak = 0.045) {
+    if (!soundOn) return;
+    if (!audioCtx) {
+      const AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return;
+      audioCtx = new AC();
+    }
+    if (audioCtx.state === "suspended") audioCtx.resume();
+
+    const now = audioCtx.currentTime;
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+
+    osc.type = "sine";
+    const freq = SCALE[Math.abs(freqIndex) % SCALE.length];
+    osc.frequency.setValueAtTime(freq, now);
+
+    gain.gain.setValueAtTime(0.0001, now);
+    gain.gain.exponentialRampToValueAtTime(gainPeak, now + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.0001, now + 1.6);
+
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+    osc.start(now);
+    osc.stop(now + 1.65);
+  }
+
+  function resize() {
+    const rect = canvas.getBoundingClientRect();
+    width = rect.width;
+    height = rect.height;
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.round(width * dpr);
+    canvas.height = Math.round(height * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+
+  function createNode(word, x, y, userAdded = false) {
+    const angle = Math.random() * Math.PI * 2;
+    const speed = 0.14 + Math.random() * 0.22;
+    return {
+      word,
+      x: x ?? (40 + Math.random() * Math.max(width - 80, 200)),
+      y: y ?? (35 + Math.random() * Math.max(height - 70, 180)),
+      vx: Math.cos(angle) * speed,
+      vy: Math.sin(angle) * speed,
+      phase: Math.random() * Math.PI * 2,
+      warm: userAdded || Math.random() < 0.22
+    };
+  }
+
+  function initNodes() {
+    resize();
+    WORDS.forEach(w => nodes.push(createNode(w)));
+  }
+
+  function getPalette() {
+    const isPaper = document.documentElement.getAttribute("data-theme") === "paper";
+    return isPaper
+      ? {
+          dot: "rgba(34, 33, 30, 0.55)",
+          accent: "rgba(156, 99, 42, 0.85)",
+          text: "rgba(34, 33, 30, 0.78)",
+          textAccent: "rgba(156, 99, 42, 0.95)",
+          lineRGB: "70, 102, 120",
+          rippleRGB: "156, 99, 42"
+        }
+      : {
+          dot: "rgba(228, 224, 214, 0.55)",
+          accent: "rgba(201, 158, 103, 0.9)",
+          text: "rgba(228, 224, 214, 0.72)",
+          textAccent: "rgba(201, 158, 103, 0.95)",
+          lineRGB: "125, 150, 166",
+          rippleRGB: "201, 158, 103"
+        };
+  }
+
+  function step() {
+    ctx.clearRect(0, 0, width, height);
+    const pal = getPalette();
+    const maxDist = 118;
+
+    // Update ripples
+    for (let i = ripples.length - 1; i >= 0; i--) {
+      const r = ripples[i];
+      r.radius += 2.2;
+      r.alpha *= 0.972;
+      ctx.beginPath();
+      ctx.arc(r.x, r.y, r.radius, 0, Math.PI * 2);
+      ctx.strokeStyle = `rgba(${pal.rippleRGB}, ${r.alpha.toFixed(3)})`;
+      ctx.lineWidth = 1;
+      ctx.stroke();
+      if (r.alpha < 0.015) ripples.splice(i, 1);
+    }
+
+    // Physics update
+    if (!paused) {
+      for (let i = 0; i < nodes.length; i++) {
+        const n = nodes[i];
+        n.phase += 0.012;
+        n.x += n.vx + Math.sin(n.phase) * 0.05;
+        n.y += n.vy + Math.cos(n.phase * 0.8) * 0.05;
+
+        // Soft boundary turn
+        const pad = 34;
+        if (n.x < pad) n.vx += 0.018;
+        if (n.x > width - pad) n.vx -= 0.018;
+        if (n.y < pad) n.vy += 0.018;
+        if (n.y > height - pad) n.vy -= 0.018;
+
+        // Gentle pointer swirl
+        if (pointer.active) {
+          const dx = n.x - pointer.x;
+          const dy = n.y - pointer.y;
+          const d2 = dx * dx + dy * dy;
+          if (d2 < 13000 && d2 > 4) {
+            const d = Math.sqrt(d2);
+            const force = (1 - d / 114) * 0.035;
+            n.vx += (dx / d) * force - (dy / d) * force * 0.45;
+            n.vy += (dy / d) * force + (dx / d) * force * 0.45;
+          }
+        }
+
+        // Speed damping so drift stays tranquil
+        const sp = Math.hypot(n.vx, n.vy);
+        if (sp > 0.75) {
+          n.vx = (n.vx / sp) * 0.75;
+          n.vy = (n.vy / sp) * 0.75;
+        } else if (sp < 0.1) {
+          n.vx *= 1.02;
+          n.vy *= 1.02;
+        }
+      }
+    }
+
+    // Draw links
+    ctx.lineWidth = 0.8;
+    for (let i = 0; i < nodes.length; i++) {
+      for (let j = i + 1; j < nodes.length; j++) {
+        const a = nodes[i];
+        const b = nodes[j];
+        const dx = a.x - b.x;
+        const dy = a.y - b.y;
+        const dist = Math.hypot(dx, dy);
+        if (dist < maxDist) {
+          const alpha = (1 - dist / maxDist) * 0.34;
+          ctx.strokeStyle = `rgba(${pal.lineRGB}, ${alpha.toFixed(3)})`;
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.stroke();
+        }
+      }
+    }
+
+    // Draw nodes and labels
+    ctx.font = '11.5px ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace';
+    ctx.textBaseline = "middle";
+    for (let i = 0; i < nodes.length; i++) {
+      const n = nodes[i];
+      ctx.fillStyle = n.warm ? pal.accent : pal.dot;
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, n.warm ? 2.3 : 1.7, 0, Math.PI * 2);
+      ctx.fill();
+
+      ctx.fillStyle = n.warm ? pal.textAccent : pal.text;
+      ctx.fillText(n.word, n.x + 6.5, n.y + 0.5);
+    }
+
+    requestAnimationFrame(step);
+  }
+
+  // Pointer interactions
+  canvas.addEventListener("pointermove", e => {
+    const rect = canvas.getBoundingClientRect();
+    pointer.x = e.clientX - rect.left;
+    pointer.y = e.clientY - rect.top;
+    pointer.active = true;
+  });
+
+  canvas.addEventListener("pointerleave", () => {
+    pointer.active = false;
+  });
+
+  canvas.addEventListener("click", e => {
+    const rect = canvas.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    ripples.push({ x, y, radius: 3, alpha: 0.65 });
+
+    let closestIdx = 0;
+    let closestDist = Infinity;
+
+    nodes.forEach((n, idx) => {
+      const dx = n.x - x;
+      const dy = n.y - y;
+      const d = Math.hypot(dx, dy);
+      if (d < closestDist) {
+        closestDist = d;
+        closestIdx = idx;
+      }
+      if (d < 160 && d > 1) {
+        const push = (1 - d / 160) * 0.65;
+        n.vx += (dx / d) * push;
+        n.vy += (dy / d) * push;
+      }
+    });
+
+    playPluck(closestIdx + Math.floor(x / 60), 0.05);
+  });
+
+  // Add word form
+  seedForm.addEventListener("submit", e => {
+    e.preventDefault();
+    const clean = seedInput.value.trim().toLowerCase().replace(/\s+/g, " ");
+    if (!clean) return;
+    const x = width * (0.25 + Math.random() * 0.5);
+    const y = height * (0.25 + Math.random() * 0.5);
+    if (nodes.length >= 52) nodes.shift();
+    nodes.push(createNode(clean, x, y, true));
+    ripples.push({ x, y, radius: 4, alpha: 0.75 });
+    nodeCountEl.textContent = `${nodes.length} words adrift`;
+    playPluck(clean.length, 0.06);
+    seedInput.value = "";
+  });
+
+  // Controls
+  pauseBtn.addEventListener("click", () => {
+    paused = !paused;
+    pauseBtn.setAttribute("aria-pressed", String(paused));
+    pauseBtn.textContent = paused ? "[drift: paused]" : "[drift: on]";
+  });
+
+  soundBtn.addEventListener("click", () => {
+    soundOn = !soundOn;
+    soundBtn.setAttribute("aria-pressed", String(soundOn));
+    soundBtn.textContent = soundOn ? "[chimes: on]" : "[chimes: off]";
+    if (soundOn) playPluck(3, 0.04);
+  });
+
+  themeBtn.addEventListener("click", () => {
+    const root = document.documentElement;
+    const isPaper = root.getAttribute("data-theme") === "paper";
+    if (isPaper) {
+      root.removeAttribute("data-theme");
+      themeBtn.textContent = "[light: ink]";
+    } else {
+      root.setAttribute("data-theme", "paper");
+      themeBtn.textContent = "[light: paper]";
+    }
+  });
+
+  window.addEventListener("resize", resize);
+
+  // Light-distance clock
+  const startTime = performance.now();
+  const lightKmEl = document.getElementById("lightKm");
+  const lunarDistEl = document.getElementById("lunarDist");
+  const C_KM_PER_MS = 299.792458;
+  const MOON_KM = 384400;
+
+  function updateMeasure() {
+    const elapsedMs = performance.now() - startTime;
+    const km = elapsedMs * C_KM_PER_MS;
+    lightKmEl.textContent = Math.floor(km).toLocaleString("en-US");
+    lunarDistEl.textContent = (km / MOON_KM).toFixed(2);
+    requestAnimationFrame(updateMeasure);
+  }
+
+  initNodes();
+  requestAnimationFrame(step);
+  requestAnimationFrame(updateMeasure);
+})();
+</script>
+</body>
+</html>
+```
+What: A quiet, offline room called *Interstice* holding an interactive constellation of drifting words visitors can stir or add to, optional gentle pentatonic chimes, a live measure of how far light has traveled since the page opened, and four short notes on kept words and unhurried things.

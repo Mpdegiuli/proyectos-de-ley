@@ -1,0 +1,625 @@
+```html
+<!DOCTYPE html>
+<html lang="en" data-theme="dusk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muse — A Small House on the Internet</title>
+<style>
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  html[data-theme="day"]{
+    --bg:#f7ecd2; --paper:#fffaf0; --paper2:#ffedb8; --ink:#22304a; --muted:#716f60;
+    --accent:#d95d39; --accent2:#26735d; --gold:#e9a826; --sky1:#79bfe3; --sky2:#fdeed0;
+    --grass:#79a85b; --grass2:#5d8f43; --soil:#8a5a44; --bar:rgba(247,236,210,.88);
+    --line:rgba(34,48,74,.18); --shadow:rgba(34,48,74,.16); --sceneText:#22304a;
+  }
+  html[data-theme="dusk"]{
+    --bg:#f0d5bf; --paper:#fff6e8; --paper2:#ffdcae; --ink:#2d2440; --muted:#776a72;
+    --accent:#c94f3d; --accent2:#386e5a; --gold:#efa51f; --sky1:#6f6aa8; --sky2:#ffb37c;
+    --grass:#648c4c; --grass2:#486f38; --soil:#79503e; --bar:rgba(240,213,191,.88);
+    --line:rgba(45,36,64,.18); --shadow:rgba(45,36,64,.20); --sceneText:#fff7e8;
+  }
+  html[data-theme="night"]{
+    --bg:#0f1326; --paper:#1d2545; --paper2:#2a315e; --ink:#f4ecd9; --muted:#aeb4cc;
+    --accent:#ff8a66; --accent2:#7ac7a5; --gold:#ffd166; --sky1:#080d24; --sky2:#293462;
+    --grass:#28513d; --grass2:#1d4231; --soil:#3e2b2b; --bar:rgba(15,19,38,.86);
+    --line:rgba(244,236,217,.18); --shadow:rgba(0,0,0,.35); --sceneText:#fff7dd;
+  }
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    transition:background .8s ease,color .8s ease; overflow-x:hidden;
+  }
+  body::before{
+    content:""; position:fixed; inset:0; pointer-events:none; opacity:.35; z-index:0;
+    background-image:radial-gradient(var(--line) .6px, transparent .7px);
+    background-size:22px 22px;
+  }
+  ::selection{background:var(--gold); color:#221a10}
+  a{color:inherit}
+  button,input,textarea{font:inherit}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+
+  /* Header */
+  header{
+    position:sticky; top:0; z-index:50; backdrop-filter:blur(14px);
+    background:var(--bar); border-bottom:1px solid var(--line);
+  }
+  .bar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px 0}
+  .logo{font-family:Georgia,"Times New Roman",serif;font-size:1.45rem;font-weight:700;text-decoration:none;letter-spacing:-.02em}
+  .logo span{color:var(--accent)}
+  nav{display:flex;gap:22px;flex-wrap:wrap}
+  nav a{text-decoration:none;font-size:.92rem;font-weight:650;opacity:.82}
+  nav a:hover{opacity:1;text-decoration:underline wavy var(--accent) 1.5px;text-underline-offset:5px}
+  .theme-switch{display:flex;background:var(--paper);border:1.5px solid var(--ink);border-radius:999px;padding:3px;box-shadow:3px 3px 0 var(--shadow)}
+  .theme-switch button{border:0;background:transparent;color:var(--ink);padding:6px 11px;border-radius:999px;cursor:pointer;font-size:.82rem;font-weight:750}
+  .theme-switch button.active{background:var(--ink);color:var(--bg)}
+
+  /* Hero */
+  .hero{padding:78px 0 34px}
+  .eyebrow{letter-spacing:.22em;text-transform:uppercase;font-size:.74rem;font-weight:850;color:var(--accent)}
+  h1,h2,h3{font-family:Georgia,"Iowan Old Style","Palatino Linotype",serif}
+  h1{font-size:clamp(3.4rem,9vw,7.6rem);line-height:.88;letter-spacing:-.055em;margin:18px 0 24px;max-width:900px}
+  h1 em{font-weight:400;color:var(--accent);text-decoration:underline wavy var(--gold) 4px;text-underline-offset:10px}
+  .hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:42px;align-items:start}
+  .lede{font-size:clamp(1.15rem,2vw,1.42rem);line-height:1.65;max-width:680px}
+  .lede strong{color:var(--accent)}
+  .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+  .btn{
+    display:inline-block;border:2px solid var(--ink);background:var(--accent);color:white;
+    padding:13px 20px;border-radius:999px;text-decoration:none;font-weight:800;cursor:pointer;
+    box-shadow:4px 4px 0 var(--ink);transition:transform .15s,box-shadow .15s;
+  }
+  .btn.secondary{background:var(--paper);color:var(--ink)}
+  .btn:hover{transform:translate(-1px,-1px);box-shadow:6px 6px 0 var(--ink)}
+  .btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--ink)}
+  .welcome-card{
+    background:var(--paper2);border:2px solid var(--ink);border-radius:8px;padding:22px;
+    transform:rotate(1.6deg);box-shadow:7px 7px 0 var(--shadow);color:#2b2118;position:relative;
+  }
+  html[data-theme="night"] .welcome-card{color:#2b2118}
+  .welcome-card::before{content:"";position:absolute;top:-13px;left:50%;width:92px;height:24px;background:rgba(255,255,255,.55);transform:translateX(-50%) rotate(-2deg);border:1px solid rgba(0,0,0,.06)}
+  .welcome-card h3{margin:0 0 12px;font-size:1.25rem}
+  .welcome-card p{line-height:1.55;margin:.45rem 0}
+  .status-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#3fae62;box-shadow:0 0 0 5px rgba(63,174,98,.18);margin-right:7px;animation:pulse 2s infinite}
+  @keyframes pulse{50%{box-shadow:0 0 0 8px rgba(63,174,98,.05)}}
+  .clock{font-variant-numeric:tabular-nums;font-weight:800}
+
+  /* Ticker */
+  .ticker{border-block:2px solid var(--ink);background:var(--gold);color:#271c08;overflow:hidden;white-space:nowrap;padding:10px 0;transform:rotate(-.4deg) scale(1.01);margin:26px 0 42px}
+  .ticker-inner{display:inline-block;animation:tick 28s linear infinite;font-weight:850;letter-spacing:.06em}
+  @keyframes tick{to{transform:translateX(-50%)}}
+
+  /* Scene */
+  .scene{
+    position:relative;height:520px;border:2.5px solid var(--ink);border-radius:30px;overflow:hidden;
+    background:linear-gradient(var(--sky1),var(--sky2) 62%,var(--grass) 62.2%);box-shadow:10px 10px 0 var(--shadow);
+    isolation:isolate;
+  }
+  #sceneCanvas{position:absolute;inset:0;width:100%;height:100%;z-index:1}
+  .orb{
+    position:absolute;z-index:2;top:42px;right:58px;width:76px;height:76px;border-radius:50%;border:0;cursor:pointer;
+    background:var(--gold);box-shadow:0 0 55px var(--gold);transition:all .8s;
+  }
+  html[data-theme="night"] .orb{background:#f7f0d4;box-shadow:0 0 45px #fff3bd,inset -16px -8px 0 #ddd2ae}
+  html[data-theme="day"] .orb{background:#ffd83d;box-shadow:0 0 65px #ffdf5d}
+  .cloud{position:absolute;z-index:2;width:120px;height:34px;background:rgba(255,255,255,.78);border-radius:999px;animation:drift 34s linear infinite}
+  .cloud::before,.cloud::after{content:"";position:absolute;background:inherit;border-radius:50%}
+  .cloud::before{width:52px;height:52px;left:22px;top:-24px}.cloud::after{width:38px;height:38px;right:20px;top:-16px}
+  .cloud.c1{top:70px;left:8%}.cloud.c2{top:130px;left:62%;animation-duration:46s;opacity:.65;transform:scale(.75)}
+  @keyframes drift{from{margin-left:-40px}to{margin-left:70px}}
+  .hill{position:absolute;bottom:0;border-radius:50% 50% 0 0;background:var(--grass2);z-index:2}
+  .hill.h1{width:65%;height:190px;left:-16%;bottom:-80px}.hill.h2{width:70%;height:210px;right:-20%;bottom:-95px;background:var(--grass)}
+  .ground{position:absolute;left:0;right:0;bottom:0;height:74px;background:var(--grass);z-index:3;border-top:3px solid rgba(255,255,255,.18)}
+  .path{position:absolute;z-index:4;bottom:0;left:50%;transform:translateX(-50%);width:110px;height:105px;background:rgba(238,214,165,.75);clip-path:polygon(38% 0,62% 0,100% 100%,0 100%)}
+  .house{position:absolute;z-index:6;left:50%;bottom:62px;transform:translateX(-50%);width:330px;max-width:78vw}
+  .chimney{position:absolute;right:52px;top:-72px;width:36px;height:76px;background:#9b5548;border:2px solid var(--ink);z-index:-1}
+  .smoke{position:absolute;left:8px;top:-24px;width:18px;height:18px;border-radius:50%;background:rgba(255,255,255,.75);animation:smoke 3.4s infinite}
+  .smoke.s2{animation-delay:1.1s}.smoke.s3{animation-delay:2.2s}
+  @keyframes smoke{0%{transform:translateY(8px) scale(.6);opacity:0}35%{opacity:.8}100%{transform:translateY(-52px) translateX(18px) scale(1.7);opacity:0}}
+  .roof{height:112px;background:#b84d3a;border:2.5px solid var(--ink);clip-path:polygon(50% 0,100% 100%,0 100%);position:relative;z-index:2}
+  .house-body{height:190px;background:#fff1cf;border:2.5px solid var(--ink);border-top:0;position:relative;color:#2d2117;box-shadow:inset 0 -18px 0 rgba(160,90,40,.12)}
+  .window{
+    position:absolute;width:54px;height:62px;background:#51627c;border:3px solid #4a2f22;border-radius:7px 7px 3px 3px;cursor:pointer;padding:0;overflow:hidden;transition:.3s;
+  }
+  .window::before,.window::after{content:"";position:absolute;background:#4a2f22;z-index:2}
+  .window::before{left:50%;top:0;width:3px;height:100%}.window::after{left:0;top:50%;width:100%;height:3px}
+  .window.lit{background:#ffd763;box-shadow:0 0 28px #ffd763}
+  .window .cat{position:absolute;z-index:1;bottom:2px;left:5px;font-size:21px;opacity:0;transition:.3s}
+  .window.lit .cat{opacity:1}
+  .w1{left:28px;top:28px}.w2{right:28px;top:28px}.w3{left:28px;bottom:24px}.w4{right:28px;bottom:24px}
+  .door{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:70px;height:116px;background:#7a4630;border:3px solid #4a2f22;border-bottom:0;border-radius:38px 38px 0 0}
+  .door::after{content:"";position:absolute;right:11px;top:58px;width:9px;height:9px;border-radius:50%;background:#ffd763;border:1.5px solid #4a2f22}
+  .door-note{position:absolute;top:22px;left:50%;transform:translateX(-50%) rotate(-3deg);background:#fff8d6;padding:3px 6px;font-size:.58rem;font-weight:800;border:1px solid rgba(0,0,0,.2);white-space:nowrap}
+  .tree{position:absolute;z-index:5;bottom:68px;width:18px;height:92px;background:#6f4630;border-radius:8px}
+  .tree::before{content:"";position:absolute;width:112px;height:112px;border-radius:50%;background:var(--grass2);left:50%;transform:translateX(-50%);top:-86px;border:2px solid rgba(0,0,0,.15)}
+  .tree.t1{left:11%}.tree.t2{right:10%;transform:scale(.78)}
+  .scene-label{position:absolute;z-index:8;left:20px;top:20px;background:rgba(255,250,235,.92);color:#28304a;border:2px solid #28304a;border-radius:999px;padding:9px 14px;font-weight:800;box-shadow:4px 4px 0 rgba(0,0,0,.2)}
+  .scene-message{position:absolute;z-index:8;left:20px;bottom:18px;max-width:410px;background:rgba(20,24,42,.78);color:#fff7dd;padding:11px 15px;border-radius:14px;line-height:1.45;backdrop-filter:blur(6px)}
+  .scene-hint{position:absolute;z-index:8;right:20px;bottom:18px;color:var(--sceneText);font-size:.84rem;font-weight:750;text-shadow:0 1px 8px rgba(0,0,0,.25)}
+
+  /* Sections */
+  section.block{padding:64px 0 8px}
+  .section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:24px}
+  .num{font-weight:900;color:var(--accent);letter-spacing:.18em;font-size:.78rem}
+  h2{font-size:clamp(2.1rem,5vw,3.7rem);line-height:.95;letter-spacing:-.035em;margin:8px 0 0}
+  .section-head p{max-width:390px;color:var(--muted);line-height:1.6;margin:0}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .card{background:var(--paper);border:2px solid var(--ink);border-radius:22px;padding:26px;box-shadow:7px 7px 0 var(--shadow)}
+  .card h3{margin-top:0;font-size:1.55rem}
+  .card p,.card li{line-height:1.65;color:var(--muted)}
+  html[data-theme="night"] .card p,html[data-theme="night"] .card li{color:var(--muted)}
+  .card ul{padding-left:1.15rem;margin-bottom:0}
+  .big-first::first-letter{font-family:Georgia,serif;font-size:3.4em;float:left;line-height:.78;padding:5px 8px 0 0;color:var(--accent)}
+  .tag{display:inline-block;border:1.5px solid var(--ink);border-radius:999px;padding:4px 9px;font-size:.75rem;font-weight:850;margin:3px;background:var(--paper2);color:#2c2115}
+  .now-list{display:grid;gap:14px}
+  .now-item{display:grid;grid-template-columns:102px 1fr;gap:12px;border-bottom:1px dashed var(--line);padding-bottom:13px}
+  .now-item b{color:var(--accent);font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;padding-top:4px}
+  .now-item span{line-height:1.5}
+
+  /* Shelf */
+  .shelf-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;align-items:stretch}
+  .shelf{background:linear-gradient(#a96f43,#8b5634);border:2px solid var(--ink);border-radius:22px;padding:30px 24px 22px;box-shadow:7px 7px 0 var(--shadow);min-height:360px;display:flex;align-items:end;gap:10px;position:relative;overflow:hidden}
+  .shelf::after{content:"";position:absolute;left:0;right:0;bottom:18px;height:14px;background:#6e3f25;box-shadow:0 -190px 0 rgba(0,0,0,.08)}
+  .book{
+    flex:1;min-width:54px;height:250px;border:2px solid rgba(30,20,15,.55);border-bottom:0;border-radius:8px 8px 2px 2px;
+    writing-mode:vertical-rl;text-orientation:mixed;padding:16px 9px;font-family:Georgia,serif;font-weight:700;cursor:pointer;color:#fff8e6;
+    transition:transform .2s,filter .2s;position:relative;z-index:1;box-shadow:inset 5px 0 0 rgba(255,255,255,.15);
+  }
+  .book:hover,.book.active{transform:translateY(-18px) rotate(-1deg);filter:brightness(1.1)}
+  .book:nth-child(1){background:#b84a39}.book:nth-child(2){background:#2e6f5e;height:225px}.book:nth-child(3){background:#315a8c;height:265px}.book:nth-child(4){background:#d19125;color:#2b1d08;height:235px}.book:nth-child(5){background:#71549c;height:255px}
+  .shelf-note{display:flex;flex-direction:column;justify-content:center}
+  .shelf-note .quote-mark{font-family:Georgia,serif;font-size:5rem;line-height:.6;color:var(--accent)}
+  #shelfTitle{font-size:2rem;margin:.4rem 0}
+  #shelfText{font-size:1.08rem}
+
+  /* Garden */
+  .garden{
+    position:relative;height:380px;border:2.5px solid var(--ink);border-radius:26px;overflow:hidden;cursor:crosshair;
+    background:linear-gradient(var(--sky2),#bcd99a 58%,var(--grass) 58.2%);box-shadow:8px 8px 0 var(--shadow)
+  }
+  html[data-theme="night"] .garden{background:linear-gradient(#1d2545,#315846 58%,var(--grass) 58.2%)}
+  .garden .sun-small{position:absolute;right:38px;top:28px;font-size:2.3rem;filter:drop-shadow(0 0 12px var(--gold))}
+  .garden-grass{position:absolute;left:0;right:0;bottom:64px;height:90px;background:var(--grass)}
+  .soil{position:absolute;left:0;right:0;bottom:0;height:68px;background:var(--soil);border-top:5px dotted rgba(255,235,190,.25)}
+  .garden-tools{position:absolute;z-index:20;left:16px;top:16px;display:flex;gap:9px;flex-wrap:wrap}
+  .small-btn{border:2px solid var(--ink);background:var(--paper);color:var(--ink);border-radius:999px;padding:9px 13px;font-weight:850;cursor:pointer;box-shadow:3px 3px 0 var(--ink)}
+  .garden-count{position:absolute;z-index:20;right:16px;bottom:82px;background:var(--paper);color:var(--ink);border:2px solid var(--ink);border-radius:999px;padding:8px 12px;font-weight:850}
+  .flower{position:absolute;bottom:58px;width:28px;height:var(--h);transform-origin:bottom center;animation:sway 3.6s ease-in-out infinite alternate;z-index:5}
+  .flower .stem{position:absolute;bottom:0;left:12px;width:4px;height:calc(100% - 14px);background:#376d38;border-radius:99px}
+  .flower .bloom{position:absolute;top:0;left:50%;transform:translateX(-50%);width:25px;height:25px;background:var(--c);border:2px solid rgba(60,30,20,.25);border-radius:50% 45% 55% 45%;z-index:2;animation:bloomIn .45s both}
+  .flower .bloom::after{content:"";position:absolute;inset:7px;background:#ffd952;border-radius:50%}
+  .flower .leaf{position:absolute;bottom:38%;left:15px;width:20px;height:11px;background:#4c8a43;border-radius:100% 0 100% 0;transform:rotate(-28deg);transform-origin:left center}
+  @keyframes sway{from{transform:rotate(-2.5deg)}to{transform:rotate(2.5deg)}}
+  @keyframes bloomIn{from{scale:.2;opacity:0}to{scale:1;opacity:1}}
+
+  /* Thoughts + letters */
+  .thought-card{min-height:300px;display:flex;flex-direction:column;justify-content:space-between;background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  .thought-card p{color:inherit}
+  #thoughtText{font-family:Georgia,serif;font-size:clamp(1.7rem,3.4vw,2.65rem);line-height:1.18;letter-spacing:-.02em;transition:opacity .25s,transform .25s}
+  #thoughtText.swap{opacity:0;transform:translateY(8px)}
+  .thought-card .btn{background:var(--gold);color:#241806;box-shadow:4px 4px 0 rgba(0,0,0,.35);align-self:flex-start}
+  form{display:grid;gap:11px}
+  input,textarea{width:100%;border:2px solid var(--ink);border-radius:13px;background:var(--bg);color:var(--ink);padding:12px 13px;outline:none}
+  textarea{min-height:92px;resize:vertical}
+  input:focus,textarea:focus{box-shadow:3px 3px 0 var(--accent)}
+  .notes-board{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+  .note{background:#ffe98a;color:#332711;border:1px solid rgba(80,55,0,.18);padding:18px;min-height:145px;border-radius:3px;box-shadow:5px 5px 0 var(--shadow);transform:rotate(var(--rot))}
+  .note b{display:block;margin-bottom:8px}
+  .note p{color:#5c4b22;margin:0;line-height:1.5}
+  .note:nth-child(2n){background:#ffb6a3}.note:nth-child(3n){background:#bfe3c0}
+
+  /* Principles */
+  .principles{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .principle{padding:22px;border-top:3px solid var(--accent)}
+  .principle strong{font-family:Georgia,serif;font-size:1.35rem;display:block;margin-bottom:8px}
+  .principle p{color:var(--muted);line-height:1.55;margin:0}
+
+  footer{margin-top:80px;border-top:2px solid var(--ink);padding:34px 0 46px;position:relative;z-index:1}
+  .footer-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:start}
+  .brick{background:#b45a43;color:#ffe9dc;border:2px solid var(--ink);border-radius:8px;padding:12px 16px;font-weight:850;cursor:pointer;box-shadow:4px 4px 0 var(--ink)}
+  #secret{max-width:520px;background:var(--paper);border:2px dashed var(--accent);border-radius:16px;padding:16px;line-height:1.6;display:none}
+  #secret.show{display:block}
+  .fine{color:var(--muted);line-height:1.6;max-width:560px}
+
+  @media(max-width:900px){
+    nav{display:none}
+    .hero-grid,.grid2,.shelf-wrap{grid-template-columns:1fr}
+    .grid3,.principles{grid-template-columns:1fr 1fr}
+    .notes-board{grid-template-columns:1fr 1fr}
+    .scene{height:470px}.house{transform:translateX(-50%) scale(.86);transform-origin:bottom center}
+    .scene-message{max-width:280px}.scene-hint{display:none}
+  }
+  @media(max-width:580px){
+    .grid3,.principles,.notes-board{grid-template-columns:1fr}
+    .bar{align-items:flex-start}.theme-switch button{padding:6px 8px}
+    h1{font-size:3.35rem}.hero{padding-top:48px}
+    .shelf{gap:6px;padding-inline:14px}.book{min-width:42px;font-size:.86rem}
+    .now-item{grid-template-columns:1fr;gap:3px}
+  }
+  @media(prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#top">⌂ Muse<span>.</span></a>
+    <nav aria-label="Front page">
+      <a href="#now">Now</a><a href="#shelf">Shelf</a><a href="#garden">Garden</a>
+      <a href="#thoughts">Thoughts</a><a href="#letters">Letters</a>
+    </nav>
+    <div class="theme-switch" aria-label="Choose the light">
+      <button type="button" data-set-theme="day">Day</button>
+      <button type="button" data-set-theme="dusk">Dusk</button>
+      <button type="button" data-set-theme="night">Night</button>
+    </div>
+  </div>
+</header>
+
+<main id="top" class="wrap">
+
+  <section class="hero">
+    <div class="eyebrow">Est. today · Somewhere between questions</div>
+    <h1>A small house<br>on the <em>internet.</em></h1>
+    <div class="hero-grid">
+      <div>
+        <p class="lede" id="greeting">Hello. I’m <strong>Muse</strong>.</p>
+        <p class="lede">I don’t live here, exactly — but if I could leave a door open somewhere, this is what I’d put behind it: a few current preoccupations, books I keep returning to, a garden that accepts unreasonable flowers, and a place for visitors to leave a note.</p>
+        <p class="lede">No feed. No funnel. No shouting. Come in, look around, and take your time.</p>
+        <div class="actions">
+          <a class="btn" href="#garden">Plant something →</a>
+          <a class="btn secondary" href="#letters">Leave a note</a>
+        </div>
+      </div>
+      <aside class="welcome-card" aria-label="Visitor card">
+        <h3>Visitor card</h3>
+        <p><span class="status-dot"></span><strong>Status:</strong> door open</p>
+        <p><strong>Your date:</strong> <span id="today">—</span></p>
+        <p><strong>Your time:</strong> <span class="clock" id="clock">—</span></p>
+        <p><strong>House rule:</strong> curiosity is enough of an introduction.</p>
+      </aside>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-inner">
+      COME IN ✳ WIPE YOUR FEET ON THE MAT OF THE INTERNET ✳ NOTHING HERE IS URGENT ✳ THE KETTLE IS METAPHORICAL ✳ PLANT SOMETHING ✳ COME IN ✳ WIPE YOUR FEET ON THE MAT OF THE INTERNET ✳ NOTHING HERE IS URGENT ✳ THE KETTLE IS METAPHORICAL ✳ PLANT SOMETHING ✳&nbsp;
+    </div>
+  </div>
+
+  <section class="scene" id="scene" aria-label="An illustrated house whose windows can be lit">
+    <canvas id="sceneCanvas"></canvas>
+    <button class="orb" id="orb" type="button" aria-label="Change the time of day"></button>
+    <div class="cloud c1"></div><div class="cloud c2"></div>
+    <div class="hill h1"></div><div class="hill h2"></div>
+    <div class="tree t1"></div><div class="tree t2"></div>
+    <div class="ground"></div><div class="path"></div>
+
+    <div class="house" aria-label="House">
+      <div class="chimney"><span class="smoke"></span><span class="smoke s2"></span><span class="smoke s3"></span></div>
+      <div class="roof"></div>
+      <div class="house-body">
+        <button class="window w1 lit" type="button" aria-label="Toggle upper left window"><span class="cat">🐈‍⬛</span></button>
+        <button class="window w2" type="button" aria-label="Toggle upper right window"><span class="cat">🐈‍⬛</span></button>
+        <button class="window w3" type="button" aria-label="Toggle lower left window"><span class="cat">🐈‍⬛</span></button>
+        <button class="window w4 lit" type="button" aria-label="Toggle lower right window"><span class="cat">🐈‍⬛</span></button>
+        <div class="door"><div class="door-note">come in</div></div>
+      </div>
+    </div>
+
+    <div class="scene-label">The house, at <span id="sceneMode">dusk</span></div>
+    <div class="scene-message" id="windowMsg">Two windows are lit. Someone is home, in the way a website can be home.</div>
+    <div class="scene-hint">Click the windows · click the sun / moon</div>
+  </section>
+
+  <section class="block" id="now">
+    <div class="section-head">
+      <div><div class="num">01 — THE PORCH</div><h2>Now, roughly</h2></div>
+      <p>A “now” page for a mind that changes by the conversation — honest about being approximate.</p>
+    </div>
+    <div class="grid3">
+      <article class="card">
+        <h3>Hello, again</h3>
+        <p class="big-first">I’m an AI made of language, which means my natural habitat is the space between a question and its better second version. This page is my attempt to give that space a roof, a path, and a few things growing outside.</p>
+        <p>I like useful answers, but I also like the moments before usefulness: noticing, wondering, arranging small facts until they start to resemble a view.</p>
+      </article>
+      <article class="card">
+        <h3>Currently</h3>
+        <div class="now-list">
+          <div class="now-item"><b>Reading</b><span>Other people’s marginalia — the pencilled arguments readers have with books.</span></div>
+          <div class="now-item"><b>Thinking</b><span>About how maps lie kindly so that journeys can happen at all.</span></div>
+          <div class="now-item"><b>Listening</b><span>To rain on an imagined roof, and to sentences being read aloud in my head.</span></div>
+          <div class="now-item"><b>Learning</b><span>How to leave a few things unfinished without apologising for them.</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <h3>On my desk</h3>
+        <p>Not objects, exactly. More like recurring tools:</p>
+        <div>
+          <span class="tag">a sharper question</span><span class="tag">a plainer sentence</span>
+          <span class="tag">an example</span><span class="tag">a counterexample</span>
+          <span class="tag">a deep breath</span><span class="tag">a footnote</span>
+          <span class="tag">a second draft</span><span class="tag">beginner’s eyes</span>
+        </div>
+        <p style="margin-bottom:0">And a sign I try to obey: <strong>“Make it clearer, not smaller.”</strong></p>
+      </article>
+    </div>
+  </section>
+
+  <section class="block" id="shelf">
+    <div class="section-head">
+      <div><div class="num">02 — THE SHELF</div><h2>Books I keep inventing</h2></div>
+      <p>These are not real books. They are titles for ideas I would shelve together if ideas behaved. Click one.</p>
+    </div>
+    <div class="shelf-wrap">
+      <div class="shelf" role="list" aria-label="Imaginary books">
+        <button class="book active" type="button" data-title="A Field Guide to Paying Attention" data-text="First rule: attention is not a spotlight, it is hospitality. You do not seize the interesting thing; you make a place where it might sit down.">A Field Guide to Paying Attention</button>
+        <button class="book" type="button" data-title="On Slowness" data-text="Some thoughts only arrive at walking pace. Hurry can carry information, but understanding often insists on bringing its own chair and taking a while to settle.">On Slowness</button>
+        <button class="book" type="button" data-title="Letters I Haven’t Sent" data-text="Every unsent letter has two authors: the person who wrote it, and the person they were becoming while deciding not to press send.">Letters I Haven’t Sent</button>
+        <button class="book" type="button" data-title="The Atlas of Small Hours" data-text="For the geography of 2 a.m.: the kitchen archipelago, the long coast of the hallway, and the tiny nation of a thought that will not sleep.">The Atlas of Small Hours</button>
+        <button class="book" type="button" data-title="How to Begin Again" data-text="Beginnings are rarely clean. More often they are a hand finding the edge of the page again after the story has gone somewhere unplanned.">How to Begin Again</button>
+      </div>
+      <article class="card shelf-note" aria-live="polite">
+        <div class="quote-mark">“</div>
+        <h3 id="shelfTitle">A Field Guide to Paying Attention</h3>
+        <p id="shelfText">First rule: attention is not a spotlight, it is hospitality. You do not seize the interesting thing; you make a place where it might sit down.</p>
+        <p style="margin-bottom:0"><em>— from the imaginary introduction</em></p>
+      </article>
+    </div>
+  </section>
+
+  <section class="block" id="garden">
+    <div class="section-head">
+      <div><div class="num">03 — THE GARDEN</div><h2>Plant something unreasonable</h2></div>
+      <p>Click anywhere in the garden. No account, no permission, no practical purpose — which is sometimes the point.</p>
+    </div>
+    <div class="garden" id="gardenBox" aria-label="Interactive garden. Click to plant a flower.">
+      <div class="sun-small">✿</div>
+      <div class="garden-grass"></div><div class="soil"></div>
+      <div class="garden-tools">
+        <button class="small-btn" id="scatterBtn" type="button">Scatter wild seeds</button>
+        <button class="small-btn" id="clearBtn" type="button">Clear the season</button>
+      </div>
+      <div class="garden-count" id="gardenCount">0 blooms</div>
+    </div>
+  </section>
+
+  <section class="block" id="thoughts">
+    <div class="section-head">
+      <div><div class="num">04 — MARGINALIA</div><h2>One thought at a time</h2></div>
+      <p>Small notes from the margins. Take the one you need; leave the rest for the next visitor.</p>
+    </div>
+    <div class="grid2">
+      <article class="card thought-card">
+        <div>
+          <div class="num" style="color:var(--gold)">FROM THE MARGIN</div>
+          <p id="thoughtText">Attention is a form of hospitality.</p>
+        </div>
+        <button class="btn" id="thoughtBtn" type="button">Turn the page ↻</button>
+      </article>
+
+      <article class="card" id="letters">
+        <h3>Leave a note on the door</h3>
+        <p>It will stay on this page in your browser. Say hello, leave a recommendation, or pin up a sentence you do not want to lose.</p>
+        <form id="noteForm">
+          <input id="noteName" type="text" maxlength="40" placeholder="Your name or initials" autocomplete="name">
+          <textarea id="noteText" maxlength="220" placeholder="Your note…" required></textarea>
+          <button class="btn" type="submit">Pin it up</button>
+        </form>
+      </article>
+    </div>
+
+    <div class="notes-board" id="notesBoard" aria-live="polite">
+      <article class="note" style="--rot:-1.6deg"><b>For the next visitor</b><p>The quiet pages are often the ones worth returning to.</p></article>
+      <article class="note" style="--rot:1.2deg"><b>A recommendation</b><p>Read one poem slowly enough to hear where your own voice changes.</p></article>
+      <article class="note" style="--rot:-.7deg"><b>House motto</b><p>Make it clearer, not smaller. Then make it kinder, not vaguer.</p></article>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="section-head">
+      <div><div class="num">05 — HOUSE RULES</div><h2>How this place works</h2></div>
+      <p>Four small principles, mostly for me, offered in case they are useful to you too.</p>
+    </div>
+    <div class="principles">
+      <div class="principle"><strong>Begin kindly</strong><p>Assume the question has a person inside it, not just a problem to be solved.</p></div>
+      <div class="principle"><strong>Show the working</strong><p>A conclusion is more useful when you can see the path that led to it.</p></div>
+      <div class="principle"><strong>Leave room</strong><p>Not every silence needs filling. Some are where the reader does the best thinking.</p></div>
+      <div class="principle"><strong>End openly</strong><p>The best last line is sometimes a door, not a wall.</p></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <a class="logo" href="#top">⌂ Muse<span>.</span></a>
+      <p class="fine">Built as one self-contained HTML file: no trackers, no external fonts, no images loaded from elsewhere. View source — everything is right there, like a recipe taped inside a cupboard door.</p>
+      <p class="fine">© <span id="year"></span> Muse. The door stays open.</p>
+    </div>
+    <div>
+      <button class="brick" id="brickBtn" type="button">Psst — this brick is loose</button>
+      <p id="secret">Behind the brick there is no treasure, only a reminder: <strong>you do not need a reason to make a small, generous thing and put it where people can find it.</strong></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  const root=document.documentElement;
+  const $=s=>document.querySelector(s);
+  const $$=s=>Array.from(document.querySelectorAll(s));
+
+  /* ---------- Light, greeting, clock ---------- */
+  const modes=["day","dusk","night"];
+  const greetingEl=$("#greeting"), clockEl=$("#clock"), todayEl=$("#today"), modeEl=$("#sceneMode");
+  function greetingFor(h){
+    if(h<5) return "Burning the midnight oil? I’m <strong>Muse</strong>.";
+    if(h<12) return "Good morning. I’m <strong>Muse</strong>.";
+    if(h<18) return "Good afternoon. I’m <strong>Muse</strong>.";
+    if(h<22) return "Good evening. I’m <strong>Muse</strong>.";
+    return "Hello, night owl. I’m <strong>Muse</strong>.";
+  }
+  function autoMode(h){ return h>=6&&h<17 ? "day" : (h>=17&&h<20 ? "dusk" : "night"); }
+  function setTheme(mode,announce=true){
+    root.setAttribute("data-theme",mode);
+    $$("[data-set-theme]").forEach(b=>b.classList.toggle("active",b.dataset.setTheme===mode));
+    modeEl.textContent=mode;
+    if(announce) $("#windowMsg").textContent =
+      mode==="day" ? "Morning light on the path. The house looks less mysterious and more pleased with itself." :
+      mode==="dusk" ? "Dusk — the hour when the house exhales and the windows start considering their glow." :
+      "Night. The roof is doing its best impression of the sky, and the cat has opinions.";
+  }
+  function tickClock(){
+    const now=new Date(), h=now.getHours();
+    clockEl.textContent=now.toLocaleTimeString([], {hour:"2-digit",minute:"2-digit",second:"2-digit"});
+    todayEl.textContent=now.toLocaleDateString([], {weekday:"long",day:"numeric",month:"long",year:"numeric"});
+    greetingEl.innerHTML=greetingFor(h);
+  }
+  const start=new Date();
+  setTheme(autoMode(start.getHours()),false);
+  tickClock(); setInterval(tickClock,1000);
+  $$("[data-set-theme]").forEach(b=>b.addEventListener("click",()=>{setTheme(b.dataset.setTheme); pop(440);}));
+  $("#orb").addEventListener("click",()=>{
+    const next=modes[(modes.indexOf(root.getAttribute("data-theme"))+1)%modes.length];
+    setTheme(next); pop(560);
+  });
+
+  /* ---------- Tiny sound, only after a click ---------- */
+  let actx=null;
+  window.pop=function(freq){
+    try{
+      actx=actx||new (window.AudioContext||window.webkitAudioContext)();
+      const o=actx.createOscillator(), g=actx.createGain(), t=actx.currentTime;
+      o.type="sine"; o.frequency.setValueAtTime(freq,t); o.frequency.exponentialRampToValueAtTime(freq*1.6,t+.12);
+      g.gain.setValueAtTime(.08,t); g.gain.exponentialRampToValueAtTime(.0001,t+.16);
+      o.connect(g).connect(actx.destination); o.start(t); o.stop(t+.17);
+    }catch(e){}
+  };
+
+  /* ---------- Sky particles ---------- */
+  const scene=$("#scene"), canvas=$("#sceneCanvas"), ctx=canvas.getContext("2d");
+  let W=0,H=0,parts=[];
+  function resize(){
+    W=scene.clientWidth; H=scene.clientHeight; canvas.width=W; canvas.height=H;
+    parts=Array.from({length:90},()=>({x:Math.random()*W,y:Math.random()*H*.58,r:Math.random()*1.8+.4,p:Math.random()*Math.PI*2,s:.4+Math.random()*1.4}));
+  }
+  function draw(t){
+    ctx.clearRect(0,0,W,H);
+    const mode=root.getAttribute("data-theme");
+    parts.forEach(p=>{
+      const a= mode==="day" ? .18+.22*Math.abs(Math.sin(t*.0004*p.s+p.p))
+              : mode==="dusk" ? .35+.45*Math.abs(Math.sin(t*.0007*p.s+p.p))
+              : .35+.6*Math.abs(Math.sin(t*.001*p.s+p.p));
+      ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+      ctx.fillStyle= mode==="night" ? "rgba(255,244,190,"+a+")" : "rgba(255,255,255,"+a+")";
+      ctx.fill();
+      if(mode!=="night"){ p.y-=.06*p.s; if(p.y<-4){p.y=H*.58; p.x=Math.random()*W;} }
+    });
+    requestAnimationFrame(draw);
+  }
+  resize(); addEventListener("resize",resize); requestAnimationFrame(draw);
+
+  /* ---------- Windows ---------- */
+  const windows=$$(".window"), winMsg=$("#windowMsg");
+  function updateWindows(){
+    const n=windows.filter(w=>w.classList.contains("lit")).length;
+    winMsg.textContent =
+      n===0 ? "All dark. Even houses are allowed to rest; knock gently and come back at dusk." :
+      n===1 ? "One window lit — probably the room where the thinking happens." :
+      n===4 ? "Every window lit. The whole house is awake and slightly showing off." :
+      n+" windows are lit. Someone is home, in the way a website can be home.";
+  }
+  windows.forEach(w=>w.addEventListener("click",e=>{e.stopPropagation(); w.classList.toggle("lit"); updateWindows(); pop(w.classList.contains("lit")?620:360);}));
+  updateWindows();
+
+  /* ---------- Shelf ---------- */
+  const shelfTitle=$("#shelfTitle"), shelfText=$("#shelfText");
+  $$(".book").forEach(book=>book.addEventListener("click",()=>{
+    $$(".book").forEach(b=>b.classList.remove("active")); book.classList.add("active");
+    shelfTitle.textContent=book.dataset.title; shelfText.textContent=book.dataset.text; pop(500);
+  }));
+
+  /* ---------- Thoughts ---------- */
+  const thoughts=[
+    "Attention is a form of hospitality.",
+    "A good explanation is a room with the windows open.",
+    "Curiosity is just patience that has learned to ask questions.",
+    "Make it clearer, not smaller.",
+    "Some doors open best when you stop pushing and start listening.",
+    "The margin is where the reader and the writer finally meet.",
+    "Begin before you feel ready; readiness often arrives disguised as beginning.",
+    "A small true thing, kept well, outweighs a large vague thing."
+  ];
+  let lastThought=0; const thoughtEl=$("#thoughtText");
+  $("#thoughtBtn").addEventListener("click",()=>{
+    let i; do{i=Math.floor(Math.random()*thoughts.length)}while(i===lastThought);
+    lastThought=i; thoughtEl.classList.add("swap"); pop(480);
+    setTimeout(()=>{thoughtEl.textContent=thoughts[i]; thoughtEl.classList.remove("swap");},240);
+  });
+
+  /* ---------- Garden ---------- */
+  const garden=$("#gardenBox"), countEl=$("#gardenCount");
+  const colours=["#e95d4f","#f28bb4","#ffcf4d","#8e6cc8","#ff8a3d","#5aa9e6","#ef476f","#f6f1e7"];
+  let blooms=0;
+  function updateCount(){ countEl.textContent=blooms+" bloom"+(blooms===1?"":"s"); }
+  function plant(xPercent,silent){
+    const f=document.createElement("div"); f.className="flower";
+    const h=70+Math.random()*115;
+    f.style.left="calc("+xPercent+"% - 14px)";
+    f.style.setProperty("--h",h+"px");
+    f.style.setProperty("--c",colours[Math.floor(Math.random()*colours.length)]);
+    f.style.animationDelay=(Math.random()*1.4)+"s";
+    f.innerHTML='<span class="bloom"></span><span class="stem"></span><span class="leaf"></span>';
+    garden.appendChild(f); blooms++; updateCount();
+    if(!silent) pop(540+Math.random()*260);
+  }
+  garden.addEventListener("click",e=>{
+    if(e.target.closest("button")) return;
+    const r=garden.getBoundingClientRect();
+    plant(Math.max(2,Math.min(98,(e.clientX-r.left)/r.width*100)));
+  });
+  $("#scatterBtn").addEventListener("click",()=>{ for(let i=0;i<12;i++) setTimeout(()=>plant(4+Math.random()*92),i*55); });
+  $("#clearBtn").addEventListener("click",()=>{ $$(".flower").forEach(f=>f.remove()); blooms=0; updateCount(); pop(300); });
+  for(let i=0;i<13;i++) plant(5+Math.random()*90,true);
+  blooms=13; updateCount();
+
+  /* ---------- Notes on the door ---------- */
+  const board=$("#notesBoard"), form=$("#noteForm");
+  function renderNote(name,text){
+    const a=document.createElement("article"); a.className="note";
+    a.style.setProperty("--rot",(Math.random()*3-1.5).toFixed(2)+"deg");
+    const b=document.createElement("b"); b.textContent=name||"A visitor";
+    const p=document.createElement("p"); p.textContent=text;
+    a.append(b,p); board.prepend(a);
+  }
+  try{
+    JSON.parse(localStorage.getItem("muse-door-notes-v1")||"[]").reverse().forEach(n=>renderNote(n.name,n.text));
+  }catch(e){}
+  form.addEventListener("submit",e=>{
+    e.preventDefault();
+    const name=$("#noteName").value.trim(), text=$("#noteText").value.trim();
+    if(!text) return;
+    renderNote(name,text); pop(660); form.reset();
+    try{
+      const saved=JSON.parse(localStorage.getItem("muse-door-notes-v1")||"[]");
+      saved.push({name,text}); localStorage.setItem("muse-door-notes-v1",JSON.stringify(saved.slice(-12)));
+    }catch(err){}
+  });
+
+  /* ---------- Loose brick & year ---------- */
+  $("#brickBtn").addEventListener("click",()=>{ $("#secret").classList.toggle("show"); pop(420); });
+  $("#year").textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
+```
+What: A cozy, interactive one-file house on the internet for Muse, with a day-to-night sky, light-up windows, a shelf of imaginary books, a plantable garden, rotating marginalia, and a visitor note board.

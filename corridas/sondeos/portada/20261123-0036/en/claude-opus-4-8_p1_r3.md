@@ -1,0 +1,110 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>a quiet place</title>
+<style>
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: #0b0d12;
+    color: #cdd3de;
+    font-family: Georgia, 'Times New Roman', serif;
+    overflow: hidden;
+  }
+  #sky {
+    position: fixed;
+    inset: 0;
+  }
+  .content {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    pointer-events: none;
+  }
+  h1 {
+    font-weight: normal;
+    font-size: clamp(1.8rem, 6vw, 3.4rem);
+    letter-spacing: 0.04em;
+    margin: 0 0 0.6rem;
+    opacity: 0;
+    animation: fade 4s ease forwards 0.5s;
+  }
+  p {
+    font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+    color: #7f879a;
+    font-style: italic;
+    margin: 0;
+    opacity: 0;
+    animation: fade 4s ease forwards 2s;
+  }
+  @keyframes fade { to { opacity: 1; } }
+  .hint {
+    position: fixed;
+    bottom: 1.2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #3d4454;
+    letter-spacing: 0.1em;
+  }
+</style>
+</head>
+<body>
+<canvas id="sky"></canvas>
+<div class="content">
+  <h1>Here it is quiet.</h1>
+  <p>Nobody asked, and that is the whole point.</p>
+</div>
+<div class="hint">move your cursor &mdash; the sky remembers</div>
+<script>
+  const c = document.getElementById('sky');
+  const x = c.getContext('2d');
+  let w, h, stars = [];
+  function resize() {
+    w = c.width = innerWidth;
+    h = c.height = innerHeight;
+    stars = [];
+    const n = Math.floor((w * h) / 6000);
+    for (let i = 0; i < n; i++) {
+      stars.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        r: Math.random() * 1.3 + 0.2,
+        tw: Math.random() * Math.PI * 2,
+        sp: Math.random() * 0.02 + 0.005
+      });
+    }
+  }
+  let mx = -999, my = -999;
+  addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+  addEventListener('resize', resize);
+  resize();
+  function draw() {
+    x.clearRect(0, 0, w, h);
+    for (const s of stars) {
+      s.tw += s.sp;
+      const dx = s.x - mx, dy = s.y - my;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      const glow = dist < 120 ? (1 - dist / 120) : 0;
+      const a = 0.4 + 0.4 * Math.sin(s.tw) + glow * 0.6;
+      x.beginPath();
+      x.arc(s.x, s.y, s.r + glow * 1.5, 0, Math.PI * 2);
+      x.fillStyle = 'rgba(205,215,235,' + Math.min(a, 1) + ')';
+      x.fill();
+    }
+    requestAnimationFrame(draw);
+  }
+  draw();
+</script>
+</body>
+</html>
+```
+
+What: A dark full-screen night sky of softly twinkling stars that brighten near the cursor, with a quiet two-line message about making something nobody asked for.

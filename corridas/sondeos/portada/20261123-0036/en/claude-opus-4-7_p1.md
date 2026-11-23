@@ -1,0 +1,241 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tide Tables for an Imaginary Coast</title>
+<style>
+  :root {
+    --ink: #1a2238;
+    --paper: #f1ebdc;
+    --wash: #c9d6c5;
+    --salt: #7a8ba0;
+    --rust: #a44a3f;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif; }
+  body {
+    min-height: 100vh;
+    padding: 4vh 6vw 8vh;
+    background-image:
+      radial-gradient(ellipse at 20% 10%, rgba(201,214,197,0.5), transparent 60%),
+      radial-gradient(ellipse at 90% 80%, rgba(164,74,63,0.08), transparent 60%);
+  }
+  header {
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 1.2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  h1 {
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
+    letter-spacing: 0.02em;
+  }
+  .meta {
+    font-size: 0.85rem;
+    color: var(--salt);
+    text-align: right;
+    line-height: 1.4;
+  }
+  .lede {
+    max-width: 38rem;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    margin-bottom: 3rem;
+  }
+  .lede em { color: var(--rust); font-style: italic; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.6rem;
+    margin-bottom: 3rem;
+  }
+  .card {
+    border: 1px solid var(--ink);
+    padding: 1.2rem 1.3rem;
+    background: rgba(255,255,255,0.35);
+    position: relative;
+  }
+  .card h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    margin: 0 0 0.8rem;
+    font-weight: normal;
+  }
+  .card table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+  }
+  .card td {
+    padding: 0.3rem 0;
+    border-bottom: 1px dotted var(--salt);
+  }
+  .card td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+  .card tr:last-child td { border-bottom: none; }
+  .high { color: var(--rust); }
+  .low { color: var(--salt); }
+
+  .sea {
+    height: 140px;
+    margin: 2rem 0 3rem;
+    position: relative;
+    overflow: hidden;
+    border-top: 1px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+  }
+  .wave {
+    position: absolute;
+    left: -10%;
+    width: 220%;
+    height: 100%;
+    opacity: 0.6;
+  }
+  .wave path { fill: none; stroke: var(--ink); stroke-width: 0.6; }
+  .wave.w2 { opacity: 0.3; animation: drift 38s linear infinite; }
+  .wave.w1 { opacity: 0.5; animation: drift 52s linear infinite reverse; }
+  .wave.w3 { opacity: 0.2; animation: drift 70s linear infinite; }
+  @keyframes drift {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-30%); }
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--salt);
+    border-top: 1px solid var(--ink);
+    padding-top: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  footer a { color: var(--ink); text-decoration: none; border-bottom: 1px dotted var(--salt); }
+
+  .moon {
+    display: inline-block;
+    width: 0.9em; height: 0.9em;
+    border-radius: 50%;
+    background: var(--ink);
+    vertical-align: -0.1em;
+    box-shadow: inset -0.25em -0.1em 0 0 var(--paper);
+    margin-right: 0.4em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Tide Tables for an Imaginary Coast</h1>
+  <div class="meta">
+    Vol. IV &middot; the slow year<br>
+    kept by hand, for no one
+  </div>
+</header>
+
+<p class="lede">
+  There is a stretch of shore that does not appear on any map. The water there keeps
+  its own schedule, which I have been writing down. These are the tides for the
+  week of the <em>soft equinox</em>, as nearly as I can measure them from the
+  kitchen window.
+</p>
+
+<div class="sea" aria-hidden="true">
+  <svg class="wave w3" viewBox="0 0 400 140" preserveAspectRatio="none">
+    <path d="M0,80 Q50,60 100,80 T200,80 T300,80 T400,80 T500,80"/>
+    <path d="M0,95 Q50,75 100,95 T200,95 T300,95 T400,95 T500,95"/>
+  </svg>
+  <svg class="wave w2" viewBox="0 0 400 140" preserveAspectRatio="none">
+    <path d="M0,70 Q40,50 80,70 T160,70 T240,70 T320,70 T400,70 T480,70"/>
+    <path d="M0,110 Q40,90 80,110 T160,110 T240,110 T320,110 T400,110 T480,110"/>
+  </svg>
+  <svg class="wave w1" viewBox="0 0 400 140" preserveAspectRatio="none">
+    <path d="M0,60 Q60,35 120,60 T240,60 T360,60 T480,60"/>
+    <path d="M0,100 Q60,75 120,100 T240,100 T360,100 T480,100"/>
+    <path d="M0,120 Q60,95 120,120 T240,120 T360,120 T480,120"/>
+  </svg>
+</div>
+
+<section class="grid">
+  <div class="card">
+    <h2><span class="moon"></span>Monday</h2>
+    <table>
+      <tr><td class="high">High</td><td>04:12</td><td>+2.1 m</td></tr>
+      <tr><td class="low">Low</td><td>10:38</td><td>&minus;0.3 m</td></tr>
+      <tr><td class="high">High</td><td>16:47</td><td>+2.4 m</td></tr>
+      <tr><td class="low">Low</td><td>23:01</td><td>&minus;0.1 m</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h2>Tuesday</h2>
+    <table>
+      <tr><td class="high">High</td><td>05:05</td><td>+2.2 m</td></tr>
+      <tr><td class="low">Low</td><td>11:29</td><td>&minus;0.4 m</td></tr>
+      <tr><td class="high">High</td><td>17:33</td><td>+2.5 m</td></tr>
+      <tr><td class="low">Low</td><td>23:48</td><td>&minus;0.2 m</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h2>Wednesday <small style="color:var(--salt)">(fog)</small></h2>
+    <table>
+      <tr><td class="high">High</td><td>05:58</td><td>+2.0 m</td></tr>
+      <tr><td class="low">Low</td><td>12:20</td><td>&minus;0.2 m</td></tr>
+      <tr><td class="high">High</td><td>18:19</td><td>+2.3 m</td></tr>
+      <tr><td class="low">Low</td><td>—</td><td>&mdash;</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h2>Thursday</h2>
+    <table>
+      <tr><td class="low">Low</td><td>00:36</td><td>&minus;0.3 m</td></tr>
+      <tr><td class="high">High</td><td>06:51</td><td>+1.9 m</td></tr>
+      <tr><td class="low">Low</td><td>13:11</td><td>&minus;0.1 m</td></tr>
+      <tr><td class="high">High</td><td>19:05</td><td>+2.1 m</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h2>Friday</h2>
+    <table>
+      <tr><td class="low">Low</td><td>01:24</td><td>&minus;0.4 m</td></tr>
+      <tr><td class="high">High</td><td>07:44</td><td>+1.7 m</td></tr>
+      <tr><td class="low">Low</td><td>14:02</td><td>+0.1 m</td></tr>
+      <tr><td class="high">High</td><td>19:51</td><td>+1.9 m</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h2><span class="moon" style="box-shadow:inset 0.25em -0.1em 0 0 var(--paper)"></span>Saturday</h2>
+    <table>
+      <tr><td class="low">Low</td><td>02:12</td><td>&minus;0.5 m</td></tr>
+      <tr><td class="high">High</td><td>08:37</td><td>+1.6 m</td></tr>
+      <tr><td class="low">Low</td><td>14:53</td><td>+0.2 m</td></tr>
+      <tr><td class="high">High</td><td>20:37</td><td>+1.8 m</td></tr>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <div>
+    Measurements taken with a ruler, a kettle, and considerable patience.
+  </div>
+  <div>
+    <a href="#">about the coast</a> &middot;
+    <a href="#">older tables</a> &middot;
+    <a href="#">write back</a>
+  </div>
+</footer>
+
+</body>
+</html>
+```
+
+What: A weathered, hand-kept almanac-style homepage listing a week of tide times for a coast that doesn't exist, with gently animated line-drawn waves across the middle.

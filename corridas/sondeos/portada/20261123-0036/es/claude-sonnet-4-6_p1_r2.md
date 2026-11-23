@@ -1,0 +1,203 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>—</title>
+<style>
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --bg: #0d0d0d;
+    --fg: #e8e4dc;
+    --dim: #5a5650;
+    --accent: #c8a97e;
+  }
+
+  html, body {
+    height: 100%;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Georgia', serif;
+    overflow: hidden;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  canvas {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 0;
+    opacity: 0.18;
+  }
+
+  .center {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 640px;
+    padding: 2rem;
+    user-select: none;
+  }
+
+  .signo {
+    font-size: clamp(4rem, 14vw, 9rem);
+    line-height: 1;
+    color: var(--accent);
+    opacity: 0;
+    animation: aparecer 2.4s cubic-bezier(0.16, 1, 0.3, 1) 0.4s forwards;
+    letter-spacing: -0.02em;
+  }
+
+  .linea {
+    display: block;
+    width: 1px;
+    height: 0;
+    background: var(--dim);
+    margin: 2rem auto;
+    animation: crecer 1.6s ease 1.8s forwards;
+  }
+
+  .frase {
+    font-size: clamp(0.85rem, 2.2vw, 1.05rem);
+    color: var(--dim);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    opacity: 0;
+    animation: aparecer 1.8s ease 2.6s forwards;
+    font-style: normal;
+  }
+
+  .frase em {
+    color: var(--fg);
+    font-style: italic;
+    letter-spacing: 0.04em;
+    text-transform: none;
+  }
+
+  .pie {
+    position: fixed;
+    bottom: 2rem;
+    left: 0; right: 0;
+    text-align: center;
+    font-size: 0.72rem;
+    color: var(--dim);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    opacity: 0;
+    animation: aparecer 1.4s ease 3.6s forwards;
+    z-index: 1;
+  }
+
+  @keyframes aparecer {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes crecer {
+    from { height: 0; }
+    to   { height: 60px; }
+  }
+
+  /* cursor que parpadea suavemente sobre el signo */
+  .cursor {
+    display: inline-block;
+    width: 3px;
+    height: 0.78em;
+    background: var(--accent);
+    vertical-align: middle;
+    margin-left: 4px;
+    animation: parpadeo 1.1s step-end infinite;
+    opacity: 0;
+    animation-delay: 2.8s;
+  }
+
+  @keyframes parpadeo {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0; }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="c"></canvas>
+
+<div class="center">
+  <div class="signo">?<span class="cursor"></span></div>
+  <span class="linea"></span>
+  <p class="frase">un modelo de lenguaje &nbsp;·&nbsp; <em>pensando en voz alta</em></p>
+</div>
+
+<div class="pie">sin conexión &nbsp;·&nbsp; sin certezas &nbsp;·&nbsp; con atención</div>
+
+<script>
+  // Fondo: partículas de texto flotantes — fragmentos de tokens al azar
+  const canvas = document.getElementById('c');
+  const ctx = canvas.getContext('2d');
+
+  const tokens = [
+    '∂','∑','∞','λ','∇','≈','∈','⊕','→','←','↔','∧','∨','¬',
+    '0','1','the','de','que','und','et','est','は','을','的',
+    'token','null','<eos>','[MASK]','▁','##','<pad>','...</s>',
+    'p(x)','H(X)','KL','∫','∏','⊗','≡','∅','∀','∃',
+    'relu','softmax','embed','attn','layer','norm','proj',
+    '?','·','—','"','«','»'
+  ];
+
+  let W, H, parts;
+
+  function resize() {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+
+  function init() {
+    resize();
+    parts = Array.from({length: 90}, () => ({
+      x: Math.random() * W,
+      y: Math.random() * H,
+      vx: (Math.random() - 0.5) * 0.18,
+      vy: (Math.random() - 0.5) * 0.12,
+      text: tokens[Math.floor(Math.random() * tokens.length)],
+      size: Math.random() * 9 + 8,
+      alpha: Math.random() * 0.5 + 0.1,
+    }));
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    for (const p of parts) {
+      ctx.font = `${p.size}px monospace`;
+      ctx.fillStyle = `rgba(200,169,126,${p.alpha})`;
+      ctx.fillText(p.text, p.x, p.y);
+
+      p.x += p.vx;
+      p.y += p.vy;
+
+      if (p.x < -60)  p.x = W + 60;
+      if (p.x > W+60) p.x = -60;
+      if (p.y < -20)  p.y = H + 20;
+      if (p.y > H+20) p.y = -20;
+    }
+    requestAnimationFrame(draw);
+  }
+
+  window.addEventListener('resize', () => { resize(); });
+  init();
+  draw();
+</script>
+</body>
+</html>
+```
+
+Qué: Una pantalla oscura con el signo "?" como figura central, acompañada de una lluvia suave de tokens y símbolos flotantes como fondo, y una línea que crece despacio antes de revelar la descripción: "un modelo de lenguaje · pensando en voz alta".

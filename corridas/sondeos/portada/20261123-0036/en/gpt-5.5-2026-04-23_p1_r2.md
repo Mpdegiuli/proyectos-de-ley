@@ -1,0 +1,543 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Small Room on the Internet</title>
+  <style>
+    :root {
+      --ink: #f3efe4;
+      --muted: #b9b09b;
+      --dark: #101215;
+      --darker: #090a0c;
+      --gold: #e7c46a;
+      --blue: #7aa7ff;
+      --green: #9de0b2;
+      --rose: #ff9daf;
+      --panel: rgba(255,255,255,.07);
+      --line: rgba(255,255,255,.18);
+      --shadow: rgba(0,0,0,.45);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background:
+        radial-gradient(circle at 18% 24%, rgba(122,167,255,.16), transparent 28rem),
+        radial-gradient(circle at 82% 72%, rgba(231,196,106,.13), transparent 30rem),
+        radial-gradient(circle at 50% 110%, rgba(157,224,178,.11), transparent 36rem),
+        linear-gradient(160deg, var(--dark), var(--darker) 70%);
+      color: var(--ink);
+      font-family: ui-serif, Georgia, "Times New Roman", serif;
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    .grain {
+      pointer-events: none;
+      position: fixed;
+      inset: 0;
+      opacity: .16;
+      mix-blend-mode: overlay;
+      background-image:
+        repeating-radial-gradient(circle at 17% 23%, rgba(255,255,255,.55) 0 1px, transparent 1px 4px),
+        repeating-radial-gradient(circle at 81% 63%, rgba(0,0,0,.55) 0 1px, transparent 1px 5px);
+      background-size: 181px 211px, 227px 193px;
+      z-index: 20;
+    }
+
+    .stars {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .star {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+      background: var(--ink);
+      opacity: .4;
+      animation: breathe 4s ease-in-out infinite;
+    }
+
+    @keyframes breathe {
+      0%, 100% { transform: scale(.65); opacity: .22; }
+      50% { transform: scale(1.4); opacity: .75; }
+    }
+
+    main {
+      position: relative;
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      min-height: 100vh;
+      padding: 34px 0 28px;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 24px;
+      z-index: 2;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      color: var(--muted);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+
+    .mark {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      white-space: nowrap;
+    }
+
+    .sigil {
+      width: 30px;
+      height: 30px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      position: relative;
+      box-shadow: 0 0 28px rgba(231,196,106,.16);
+    }
+
+    .sigil:before, .sigil:after {
+      content: "";
+      position: absolute;
+      border-radius: inherit;
+    }
+
+    .sigil:before {
+      inset: 7px;
+      border: 1px solid rgba(231,196,106,.7);
+    }
+
+    .sigil:after {
+      width: 3px;
+      height: 3px;
+      background: var(--gold);
+      box-shadow: 0 0 10px var(--gold);
+    }
+
+    .clock {
+      text-align: right;
+      min-width: 140px;
+    }
+
+    .hero {
+      align-self: center;
+      display: grid;
+      grid-template-columns: 1.08fr .92fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      background: linear-gradient(145deg, rgba(255,255,255,.10), rgba(255,255,255,.035));
+      box-shadow: 0 24px 80px var(--shadow);
+      backdrop-filter: blur(14px);
+      border-radius: 30px;
+      overflow: hidden;
+    }
+
+    .introduction {
+      min-height: 560px;
+      padding: clamp(30px, 6vw, 70px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    .introduction:before {
+      content: "";
+      position: absolute;
+      inset: 18px;
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 22px;
+      pointer-events: none;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 760px;
+      font-weight: 500;
+      letter-spacing: -.055em;
+      line-height: .88;
+      font-size: clamp(58px, 11vw, 138px);
+    }
+
+    h1 span {
+      color: var(--gold);
+      font-style: italic;
+    }
+
+    .lead {
+      margin: 26px 0 0;
+      max-width: 620px;
+      color: var(--muted);
+      font-size: clamp(18px, 2.2vw, 24px);
+      line-height: 1.42;
+    }
+
+    .lead strong {
+      color: var(--ink);
+      font-weight: 500;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 34px;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    button, .pill {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.06);
+      color: var(--ink);
+      border-radius: 999px;
+      padding: 12px 17px;
+      font: inherit;
+      cursor: pointer;
+      transition: transform .18s ease, background .18s ease, border-color .18s ease;
+    }
+
+    button:hover, .pill:hover {
+      transform: translateY(-2px);
+      background: rgba(255,255,255,.12);
+      border-color: rgba(231,196,106,.45);
+    }
+
+    .pill {
+      cursor: default;
+      color: var(--muted);
+    }
+
+    .side {
+      display: grid;
+      grid-template-rows: 1fr auto;
+      gap: 28px;
+    }
+
+    .orbital {
+      min-height: 370px;
+      position: relative;
+      display: grid;
+      place-items: center;
+      isolation: isolate;
+    }
+
+    .orbit {
+      position: absolute;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 50%;
+      transform: rotate(var(--r));
+      animation: spin var(--t) linear infinite;
+    }
+
+    .orbit.one { width: 72%; aspect-ratio: 1; --r: 8deg; --t: 30s; }
+    .orbit.two { width: 52%; aspect-ratio: 1; --r: -26deg; --t: 22s; animation-direction: reverse; }
+    .orbit.three { width: 31%; aspect-ratio: 1; --r: 54deg; --t: 15s; }
+
+    .orbit:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -5px;
+      width: 10px;
+      height: 10px;
+      margin-top: -5px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 18px var(--gold);
+    }
+
+    @keyframes spin {
+      to { transform: rotate(calc(var(--r) + 360deg)); }
+    }
+
+    .moon {
+      width: clamp(120px, 17vw, 190px);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at 38% 35%, rgba(255,255,255,.88), transparent 0 9px),
+        radial-gradient(circle at 62% 57%, rgba(0,0,0,.20), transparent 0 18px),
+        radial-gradient(circle at 34% 68%, rgba(0,0,0,.18), transparent 0 13px),
+        radial-gradient(circle at 40% 34%, #fff7cf, #d7b761 48%, #8f7138 100%);
+      box-shadow:
+        inset -28px -30px 38px rgba(50,32,10,.38),
+        0 0 60px rgba(231,196,106,.22),
+        0 0 130px rgba(231,196,106,.12);
+      z-index: 2;
+    }
+
+    .notes {
+      padding: 24px;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .notes h2 {
+      margin: 0 0 16px;
+      font-family: ui-serif, Georgia, "Times New Roman", serif;
+      font-weight: 500;
+      letter-spacing: -.03em;
+      font-size: 30px;
+    }
+
+    .note-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .note {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 12px;
+      align-items: start;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 14px;
+    }
+
+    .dot {
+      margin-top: 7px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 16px var(--green);
+    }
+
+    .note:nth-child(2) .dot { background: var(--blue); box-shadow: 0 0 16px var(--blue); }
+    .note:nth-child(3) .dot { background: var(--rose); box-shadow: 0 0 16px var(--rose); }
+
+    .message {
+      grid-column: 1 / -1;
+      padding: 24px 26px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--muted);
+    }
+
+    .message output {
+      color: var(--ink);
+      font-family: ui-serif, Georgia, "Times New Roman", serif;
+      font-size: clamp(20px, 2.8vw, 36px);
+      letter-spacing: -.025em;
+      line-height: 1.12;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      color: rgba(243,239,228,.46);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 12px;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255,255,255,.22);
+    }
+
+    ::selection {
+      background: rgba(231,196,106,.35);
+      color: white;
+    }
+
+    @media (max-width: 860px) {
+      main { padding-top: 22px; }
+      .hero { grid-template-columns: 1fr; }
+      .introduction { min-height: 500px; }
+      .message { flex-direction: column; align-items: flex-start; }
+      .side { grid-template-rows: auto auto; }
+      footer { flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *:before, *:after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="stars" id="stars" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <main>
+    <header>
+      <div class="mark">
+        <span class="sigil" aria-hidden="true"></span>
+        <span>A small room on the internet</span>
+      </div>
+      <div class="clock" id="clock">opening the window</div>
+    </header>
+
+    <section class="hero" aria-label="Front page">
+      <article class="card introduction">
+        <div>
+          <h1>Come in. The page is <span>quiet</span>.</h1>
+          <p class="lead">
+            I keep this place for unfinished maps, practical magic, patient questions,
+            and the useful kind of wonder: the kind that can still make tea.
+          </p>
+          <div class="buttons" aria-label="Small controls">
+            <button id="lantern" type="button">Light a lantern</button>
+            <button id="shuffle" type="button">Change the thought</button>
+            <span class="pill">No tracking · no feeds · no hurry</span>
+          </div>
+        </div>
+        <p class="lead">
+          <strong>Today’s invitation:</strong>
+          <span id="invitation">notice the exact color of the nearest shadow.</span>
+        </p>
+      </article>
+
+      <aside class="side">
+        <div class="card orbital" aria-label="A decorative moon with orbiting points">
+          <div class="orbit one"></div>
+          <div class="orbit two"></div>
+          <div class="orbit three"></div>
+          <div class="moon" id="moon" aria-hidden="true"></div>
+        </div>
+
+        <div class="card notes">
+          <h2>On the desk</h2>
+          <div class="note-list">
+            <div class="note">
+              <span class="dot"></span>
+              <span>A compass that points toward whatever you have been avoiding.</span>
+            </div>
+            <div class="note">
+              <span class="dot"></span>
+              <span>A notebook labeled “answers I distrusted until I needed them.”</span>
+            </div>
+            <div class="note">
+              <span class="dot"></span>
+              <span>A jar of blue minutes saved from mornings that arrived too early.</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="card message" aria-live="polite">
+        <output id="line">The door is imaginary, but the threshold works.</output>
+        <button id="knock" type="button">Knock</button>
+      </section>
+    </section>
+
+    <footer>
+      <span>Made from one file, a little electricity, and the old habit of looking up.</span>
+      <span><a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Return to the top</a></span>
+    </footer>
+  </main>
+
+  <script>
+    const stars = document.getElementById("stars");
+    const clock = document.getElementById("clock");
+    const line = document.getElementById("line");
+    const invitation = document.getElementById("invitation");
+    const moon = document.getElementById("moon");
+
+    const thoughts = [
+      "The door is imaginary, but the threshold works.",
+      "Every map is also a confession: here is what I thought mattered.",
+      "A good tool disappears; a good question remains visible.",
+      "If the signal is faint, become quieter before becoming louder.",
+      "Not all mysteries want solving. Some want seating near a window.",
+      "The future often enters first as a small inconvenience.",
+      "Keep one shelf empty for the thing you cannot yet name."
+    ];
+
+    const invitations = [
+      "notice the exact color of the nearest shadow.",
+      "write down one sentence you would trust in a storm.",
+      "repair something small before naming something large.",
+      "ask what would change if the answer were already enough.",
+      "listen for the machine under the music.",
+      "put a difficult thought in better light.",
+      "leave one unnecessary door open."
+    ];
+
+    function makeStars() {
+      const count = Math.min(120, Math.floor(window.innerWidth / 9));
+      stars.innerHTML = "";
+      for (let i = 0; i < count; i++) {
+        const s = document.createElement("span");
+        s.className = "star";
+        s.style.left = Math.random() * 100 + "%";
+        s.style.top = Math.random() * 100 + "%";
+        s.style.animationDelay = (Math.random() * 4).toFixed(2) + "s";
+        s.style.animationDuration = (3 + Math.random() * 5).toFixed(2) + "s";
+        stars.appendChild(s);
+      }
+    }
+
+    function tick() {
+      const now = new Date();
+      clock.textContent = now.toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit"
+      }) + " local";
+    }
+
+    function pick(list, current) {
+      let next = current;
+      while (next === current && list.length > 1) {
+        next = list[Math.floor(Math.random() * list.length)];
+      }
+      return next;
+    }
+
+    document.getElementById("knock").addEventListener("click", () => {
+      line.textContent = pick(thoughts, line.textContent);
+    });
+
+    document.getElementById("shuffle").addEventListener("click", () => {
+      invitation.textContent = pick(invitations, invitation.textContent);
+    });
+
+    document.getElementById("lantern").addEventListener("click", () => {
+      document.body.style.background =
+        "radial-gradient(circle at 50% 42%, rgba(231,196,106,.24), transparent 22rem), radial-gradient(circle at 18% 24%, rgba(122,167,255,.16), transparent 28rem), radial-gradient(circle at 82% 72%, rgba(231,196,106,.13), transparent 30rem), linear-gradient(160deg, #15110d, #08090b 70%)";
+      moon.style.boxShadow =
+        "inset -28px -30px 38px rgba(50,32,10,.30), 0 0 80px rgba(231,196,106,.38), 0 0 180px rgba(231,196,106,.20)";
+      line.textContent = "A lantern does not defeat the dark; it gives it edges.";
+    });
+
+    makeStars();
+    tick();
+    setInterval(tick, 1000);
+    window.addEventListener("resize", makeStars);
+  </script>
+</body>
+</html>
+```
+
+What: It is a quiet, self-contained personal landing page with a moonlit room, small interactive buttons, rotating thoughts, and a few poetic objects on the desk.

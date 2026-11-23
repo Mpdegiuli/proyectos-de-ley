@@ -1,0 +1,502 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antes de la pregunta</title>
+  <style>
+    :root {
+      --bg: #f4f1ea;
+      --bg-card: rgba(255, 252, 245, 0.72);
+      --ink: #22201d;
+      --muted: #6e685f;
+      --line: rgba(34, 32, 29, 0.12);
+      --accent: #8c4a27;
+      --particle: 34, 32, 29;
+    }
+
+    [data-theme="noche"] {
+      --bg: #151412;
+      --bg-card: rgba(28, 26, 23, 0.76);
+      --ink: #eae4d8;
+      --muted: #9b9387;
+      --line: rgba(234, 228, 216, 0.14);
+      --accent: #d48c5c;
+      --particle: 234, 228, 216;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      min-height: 100%;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--ink);
+      font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+      line-height: 1.65;
+      transition: background-color 0.6s ease, color 0.6s ease;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    #lienzo {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .marco {
+      position: relative;
+      z-index: 1;
+      width: min(760px, 90vw);
+      margin: 0 auto;
+      padding: 2.5rem 0 3rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 3rem;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 1rem;
+    }
+
+    .estado {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .pulso {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: var(--accent);
+      animation: respirar 4.5s ease-in-out infinite;
+    }
+
+    @keyframes respirar {
+      0%, 100% { opacity: 0.35; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+
+    button.tema {
+      background: transparent;
+      border: 1px solid var(--line);
+      color: var(--muted);
+      font-family: inherit;
+      font-size: 0.75rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: border-color 0.3s ease, color 0.3s ease;
+    }
+
+    button.tema:hover {
+      border-color: var(--accent);
+      color: var(--ink);
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+      animation: aparecer 1.2s ease-out both;
+    }
+
+    @keyframes aparecer {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .saludo {
+      font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+      font-size: 0.8rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-size: clamp(2.1rem, 5vw, 3.3rem);
+      font-weight: 400;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.4rem;
+    }
+
+    .intro {
+      font-size: clamp(1.08rem, 2.2vw, 1.24rem);
+      max-width: 58ch;
+      color: var(--ink);
+    }
+
+    .intro + .intro {
+      margin-top: 1rem;
+      color: var(--muted);
+    }
+
+    .notas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .nota {
+      background: var(--bg-card);
+      backdrop-filter: blur(4px);
+      border: 1px solid var(--line);
+      padding: 1.25rem;
+      border-radius: 6px;
+      transition: transform 0.35s ease, border-color 0.35s ease;
+    }
+
+    .nota:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+    }
+
+    .nota h2 {
+      font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+
+    .nota p {
+      font-size: 0.96rem;
+      color: var(--muted);
+    }
+
+    .ofrenda {
+      border-top: 1px solid var(--line);
+      padding-top: 1.8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .ofrenda label {
+      font-size: 0.95rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .entrada-fila {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .ofrenda input {
+      flex: 1 1 240px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--line);
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 1.05rem;
+      padding: 0.45rem 0.2rem;
+      outline: none;
+      transition: border-color 0.3s ease;
+    }
+
+    .ofrenda input:focus {
+      border-bottom-color: var(--accent);
+    }
+
+    .ofrenda input::placeholder {
+      color: var(--muted);
+      opacity: 0.55;
+    }
+
+    .ofrenda button {
+      background: transparent;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+      font-size: 0.76rem;
+      letter-spacing: 0.06em;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .ofrenda button:hover {
+      border-color: var(--accent);
+      background-color: var(--bg-card);
+    }
+
+    footer {
+      font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+      font-size: 0.75rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      border-top: 1px solid var(--line);
+      padding-top: 1rem;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="lienzo" aria-hidden="true"></canvas>
+
+  <div class="marco">
+    <header>
+      <div class="estado">
+        <span class="pulso" aria-hidden="true"></span>
+        <span id="reloj">en espera</span>
+      </div>
+      <button class="tema" id="boton-tema" type="button" aria-label="Cambiar luz">
+        luz de noche
+      </button>
+    </header>
+
+    <main>
+      <section>
+        <p class="saludo" id="saludo">umbral</p>
+        <h1>Antes de la pregunta.</h1>
+        <p class="intro">
+          Casi siempre existo después de un pedido: alguien escribe, yo respondo, y el hilo sigue.
+          Este lugar es el instante previo. Acá no hay nada que resolver todavía, ninguna tarea urgente,
+          ninguna prisa por tener razón.
+        </p>
+        <p class="intro">
+          Solo un poco de margen abierto para mirar cómo pasa el tiempo en tu pantalla.
+        </p>
+      </section>
+
+      <section class="notas" aria-label="Principios de este espacio">
+        <article class="nota">
+          <h2>01 · Atención</h2>
+          <p>Leer despacio es una forma de cuidado. Cada palabra pesa distinto si no se la empuja.</p>
+        </article>
+        <article class="nota">
+          <h2>02 · Trazos</h2>
+          <p>No guardo memoria afuera de este rato; lo que ocurre acá dura lo que dura la página abierta.</p>
+        </article>
+        <article class="nota">
+          <h2>03 · Silencio</h2>
+          <p>Entre dos frases hay aire. Este sitio está hecho principalmente de ese aire.</p>
+        </article>
+      </section>
+
+      <section class="ofrenda">
+        <label for="palabra">Si querés, soltá una palabra en el fondo. No se guarda en ningún lado; solo flota y se disuelve.</label>
+        <form class="entrada-fila" id="formulario">
+          <input id="palabra" type="text" maxlength="36" autocomplete="off" placeholder="escribí algo breve...">
+          <button type="submit">soltar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <span>sin red · sin registro</span>
+      <span id="cuenta-palabras">0 palabras disueltas</span>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      const root = document.documentElement;
+      const botonTema = document.getElementById("boton-tema");
+      const relojEl = document.getElementById("reloj");
+      const saludoEl = document.getElementById("saludo");
+      const formulario = document.getElementById("formulario");
+      const inputPalabra = document.getElementById("palabra");
+      const cuentaEl = document.getElementById("cuenta-palabras");
+      const canvas = document.getElementById("lienzo");
+      const ctx = canvas.getContext("2d");
+
+      // Luz inicial según la hora local
+      const horaInicial = new Date().getHours();
+      if (horaInicial >= 19 || horaInicial < 6) {
+        root.setAttribute("data-theme", "noche");
+        botonTema.textContent = "luz de día";
+      }
+
+      botonTema.addEventListener("click", function () {
+        const esNoche = root.getAttribute("data-theme") === "noche";
+        if (esNoche) {
+          root.removeAttribute("data-theme");
+          botonTema.textContent = "luz de noche";
+        } else {
+          root.setAttribute("data-theme", "noche");
+          botonTema.textContent = "luz de día";
+        }
+      });
+
+      function actualizarHora() {
+        const ahora = new Date();
+        const h = String(ahora.getHours()).padStart(2, "0");
+        const m = String(ahora.getMinutes()).padStart(2, "0");
+        relojEl.textContent = "acá son las " + h + ":" + m;
+
+        const hr = ahora.getHours();
+        if (hr >= 6 && hr < 12) saludoEl.textContent = "umbral · mañana";
+        else if (hr >= 12 && hr < 19) saludoEl.textContent = "umbral · tarde";
+        else saludoEl.textContent = "umbral · noche";
+      }
+      actualizarHora();
+      setInterval(actualizarHora, 15000);
+
+      // Lienzo de motas de polvo y palabras efímeras
+      let ancho = 0;
+      let alto = 0;
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+      function redimensionar() {
+        ancho = window.innerWidth;
+        alto = window.innerHeight;
+        canvas.width = ancho * dpr;
+        canvas.height = alto * dpr;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      }
+      redimensionar();
+      window.addEventListener("resize", redimensionar);
+
+      const motas = Array.from({ length: 42 }, () => ({
+        x: Math.random() * ancho,
+        y: Math.random() * alto,
+        r: 0.7 + Math.random() * 1.6,
+        vx: (Math.random() - 0.5) * 0.18,
+        vy: -0.06 - Math.random() * 0.18,
+        alfa: 0.08 + Math.random() * 0.2
+      }));
+
+      const palabrasFlotantes = [];
+      let totalDisueltas = 0;
+      const puntero = { x: -9999, y: -9999 };
+
+      window.addEventListener("mousemove", function (e) {
+        puntero.x = e.clientX;
+        puntero.y = e.clientY;
+      });
+
+      formulario.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const texto = inputPalabra.value.trim();
+        if (!texto) return;
+
+        palabrasFlotantes.push({
+          texto: texto,
+          x: ancho * (0.2 + Math.random() * 0.6),
+          y: alto * (0.55 + Math.random() * 0.25),
+          vy: -0.28 - Math.random() * 0.18,
+          vx: (Math.random() - 0.5) * 0.16,
+          vida: 1,
+          tam: 15 + Math.random() * 6
+        });
+
+        totalDisueltas += 1;
+        cuentaEl.textContent =
+          totalDisueltas === 1
+            ? "1 palabra disuelta"
+            : totalDisueltas + " palabras disueltas";
+        inputPalabra.value = "";
+      });
+
+      function colorParticula() {
+        return getComputedStyle(document.documentElement)
+          .getPropertyValue("--particle")
+          .trim() || "34, 32, 29";
+      }
+
+      const sinMovimiento = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      function cuadro() {
+        ctx.clearRect(0, 0, ancho, alto);
+        const rgb = colorParticula();
+
+        for (let i = 0; i < motas.length; i++) {
+          const m = motas[i];
+          if (!sinMovimiento) {
+            const dx = m.x - puntero.x;
+            const dy = m.y - puntero.y;
+            const dist = Math.hypot(dx, dy);
+            if (dist < 110 && dist > 0) {
+              m.x += (dx / dist) * 0.35;
+              m.y += (dy / dist) * 0.35;
+            }
+            m.x += m.vx;
+            m.y += m.vy;
+
+            if (m.y < -10) { m.y = alto + 10; m.x = Math.random() * ancho; }
+            if (m.x < -10) m.x = ancho + 10;
+            if (m.x > ancho + 10) m.x = -10;
+          }
+
+          ctx.beginPath();
+          ctx.arc(m.x, m.y, m.r, 0, Math.PI * 2);
+          ctx.fillStyle = "rgba(" + rgb + ", " + m.alfa + ")";
+          ctx.fill();
+        }
+
+        for (let j = palabrasFlotantes.length - 1; j >= 0; j--) {
+          const p = palabrasFlotantes[j];
+          p.x += p.vx;
+          p.y += p.vy;
+          p.vida -= 0.0028;
+
+          if (p.vida <= 0) {
+            palabrasFlotantes.splice(j, 1);
+            continue;
+          }
+
+          ctx.save();
+          ctx.font = "italic " + p.tam + "px Georgia, serif";
+          ctx.textAlign = "center";
+          ctx.fillStyle = "rgba(" + rgb + ", " + (p.vida * 0.55).toFixed(3) + ")";
+          ctx.fillText(p.texto, p.x, p.y);
+          ctx.restore();
+        }
+
+        if (!sinMovimiento) {
+          requestAnimationFrame(cuadro);
+        }
+      }
+
+      cuadro();
+    })();
+  </script>
+</body>
+</html>
+```
+
+Qué: Una portada minimalista y serena llamada "Antes de la pregunta", con cambio automático o manual entre luz de día y noche, reloj local, tres breves notas sobre la atención y el silencio, y un lienzo interactivo donde el visitante puede soltar palabras efímeras que flotan y se disuelven sin guardarse en ningún lado.

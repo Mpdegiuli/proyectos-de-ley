@@ -1,0 +1,628 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11191a">
+  <title>The Elsewhere Office — a small index of almost-things</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #e9e6d8;
+      --muted: #9b9f93;
+      --faint: #68716b;
+      --ground: #11191a;
+      --panel: #192222;
+      --line: rgba(233, 230, 216, .15);
+      --acid: #d1e891;
+      --orange: #e9a477;
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        radial-gradient(ellipse at 78% 17%, rgba(63, 92, 73, .18), transparent 34rem),
+        var(--ground);
+      color: var(--ink);
+      font-family: var(--sans);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    button, a { font: inherit; }
+    a { color: inherit; }
+
+    .page {
+      width: min(1440px, 100%);
+      margin: 0 auto;
+      padding: 0 7.1%;
+      overflow: hidden;
+    }
+
+    .topbar {
+      min-height: 86px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      font-size: 12px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .brand-mark {
+      width: 25px;
+      height: 25px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--acid);
+      border-radius: 50%;
+      color: var(--acid);
+      font-family: var(--serif);
+      font-size: 15px;
+      line-height: 1;
+    }
+
+    .top-note {
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .hero {
+      min-height: 610px;
+      display: grid;
+      grid-template-columns: 1fr .84fr;
+      align-items: center;
+      gap: 5%;
+      padding: 78px 0 92px;
+      position: relative;
+    }
+
+    .eyebrow, .section-label {
+      color: var(--acid);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: .2em;
+      line-height: 1.5;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 680px;
+      margin: 22px 0 24px;
+      font-family: var(--serif);
+      font-size: clamp(58px, 7.4vw, 108px);
+      font-weight: 400;
+      letter-spacing: -.065em;
+      line-height: .93;
+    }
+
+    h1 em {
+      color: var(--acid);
+      font-weight: 400;
+    }
+
+    .intro {
+      max-width: 390px;
+      margin: 0;
+      color: #b3b8aa;
+      font-size: 15px;
+      line-height: 1.8;
+    }
+
+    .hero-actions {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      margin-top: 34px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 45px;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 0 17px;
+      border: 1px solid var(--acid);
+      background: var(--acid);
+      color: #17201c;
+      cursor: pointer;
+      font-size: 11px;
+      font-weight: 650;
+      letter-spacing: .08em;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: background .2s, color .2s, transform .2s;
+    }
+
+    .button:hover { transform: translateY(-2px); background: transparent; color: var(--acid); }
+    .button:focus-visible, a:focus-visible { outline: 2px solid var(--orange); outline-offset: 4px; }
+
+    .text-link {
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: .08em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .text-link:hover { color: var(--ink); }
+
+    .orbit-wrap {
+      width: min(100%, 470px);
+      justify-self: end;
+      position: relative;
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+    }
+
+    .orbit {
+      position: absolute;
+      inset: 5%;
+      border: 1px solid rgba(209, 232, 145, .24);
+      border-radius: 50%;
+      transform: rotate(-25deg) scaleY(.65);
+    }
+
+    .orbit::before, .orbit::after {
+      content: "";
+      position: absolute;
+      border: 1px solid rgba(209, 232, 145, .15);
+      border-radius: 50%;
+    }
+
+    .orbit::before { inset: 14%; transform: rotate(59deg) scaleY(.82); }
+    .orbit::after { inset: 27%; transform: rotate(-31deg) scaleY(.72); }
+
+    .orbit-label {
+      position: absolute;
+      color: var(--muted);
+      font-size: 9px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .orbit-label.one { top: 5%; right: 12%; }
+    .orbit-label.two { bottom: 10%; left: 8%; }
+
+    .planet {
+      width: 33%;
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+      position: relative;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at 32% 29%, rgba(255,255,255,.22), transparent 3%),
+        radial-gradient(ellipse at 62% 72%, #293b32 0 11%, transparent 12%),
+        radial-gradient(ellipse at 37% 54%, #435546 0 18%, transparent 19%),
+        radial-gradient(circle at 36% 30%, #82926c, #4a604c 47%, #263932 76%, #192421);
+      box-shadow: inset -20px -17px 35px rgba(0,0,0,.45), 0 0 75px rgba(161, 196, 119, .1);
+    }
+
+    .planet::before {
+      content: "";
+      position: absolute;
+      inset: -17%;
+      border: 1px solid rgba(233, 164, 119, .62);
+      border-radius: 50%;
+      transform: rotate(-24deg) scaleY(.27);
+    }
+
+    .planet::after {
+      content: "E.O. / 07";
+      position: absolute;
+      bottom: -42px;
+      color: var(--muted);
+      font-size: 9px;
+      letter-spacing: .18em;
+    }
+
+    .star {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--acid);
+      box-shadow: 0 0 13px 3px rgba(209,232,145,.32);
+    }
+
+    .star.s1 { top: 18%; left: 20%; }
+    .star.s2 { top: 30%; right: 12%; width: 3px; height: 3px; }
+    .star.s3 { bottom: 21%; right: 26%; width: 5px; height: 5px; }
+    .star.s4 { bottom: 32%; left: 13%; width: 2px; height: 2px; }
+
+    .rule {
+      height: 1px;
+      background: var(--line);
+    }
+
+    .dispatch {
+      display: grid;
+      grid-template-columns: .7fr 1.3fr .6fr;
+      align-items: start;
+      gap: 30px;
+      padding: 34px 0 42px;
+    }
+
+    .dispatch-meta {
+      color: var(--muted);
+      font-size: 10px;
+      letter-spacing: .12em;
+      line-height: 1.8;
+      text-transform: uppercase;
+    }
+
+    .dispatch-quote {
+      max-width: 620px;
+      min-height: 58px;
+      margin: -4px 0 0;
+      font-family: var(--serif);
+      font-size: clamp(21px, 2.3vw, 30px);
+      line-height: 1.35;
+      transition: opacity .2s;
+    }
+
+    .dispatch-button {
+      justify-self: end;
+      padding: 8px 0;
+      border: 0;
+      border-bottom: 1px solid var(--acid);
+      background: none;
+      color: var(--acid);
+      cursor: pointer;
+      font-size: 10px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .dispatch-button:hover { color: var(--ink); border-color: var(--ink); }
+
+    .collection {
+      padding: 84px 0 97px;
+    }
+
+    .collection-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 33px;
+    }
+
+    h2 {
+      margin: 12px 0 0;
+      font-family: var(--serif);
+      font-size: clamp(33px, 4vw, 51px);
+      font-weight: 400;
+      letter-spacing: -.045em;
+    }
+
+    .collection-heading p {
+      max-width: 260px;
+      margin: 0 0 4px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.7;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+
+    .card {
+      min-height: 265px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 23px 23px 21px;
+      border: 1px solid var(--line);
+      background: linear-gradient(145deg, rgba(255,255,255,.025), transparent 70%);
+      transition: border-color .25s, transform .25s, background .25s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(209,232,145,.5);
+      background-color: rgba(209,232,145,.025);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 9px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .card-art {
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--acid);
+    }
+
+    .card h3 {
+      margin: 0 0 7px;
+      font-family: var(--serif);
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: -.03em;
+    }
+
+    .card p {
+      max-width: 290px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.65;
+    }
+
+    .footer {
+      min-height: 95px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--faint);
+      font-size: 10px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .footer span:last-child { color: var(--muted); }
+
+    .day-mode {
+      --ink: #24302a;
+      --muted: #58665b;
+      --faint: #778177;
+      --ground: #e8e7d9;
+      --panel: #dedfce;
+      --line: rgba(36, 48, 42, .2);
+      --acid: #526c3c;
+      --orange: #a45832;
+      background:
+        radial-gradient(ellipse at 78% 17%, rgba(139, 163, 107, .2), transparent 34rem),
+        var(--ground);
+    }
+
+    .day-mode .intro { color: #4a574c; }
+    .day-mode .planet { box-shadow: inset -20px -17px 35px rgba(0,0,0,.3), 0 0 75px rgba(101, 129, 74, .14); }
+    .day-mode .button { color: #f3f0df; }
+    .day-mode .button:hover { color: var(--acid); }
+    .day-mode .card { background: rgba(255,255,255,.17); }
+
+    @media (max-width: 760px) {
+      .page { padding: 0 6%; }
+      .topbar { min-height: 70px; }
+      .top-note { max-width: 135px; text-align: right; line-height: 1.6; }
+      .hero {
+        min-height: unset;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 69px 0 60px;
+      }
+      h1 { max-width: 570px; font-size: clamp(58px, 13vw, 92px); }
+      .orbit-wrap { width: min(78vw, 360px); justify-self: center; margin: 8px 0 0; }
+      .dispatch { grid-template-columns: 1fr auto; gap: 16px; }
+      .dispatch-meta { grid-column: 1 / -1; }
+      .dispatch-quote { grid-column: 1; grid-row: 2; }
+      .dispatch-button { grid-column: 2; grid-row: 2; align-self: end; }
+      .collection { padding: 67px 0 70px; }
+      .cards { grid-template-columns: 1fr; }
+      .card { min-height: 220px; }
+      .card-art { height: 55px; }
+    }
+
+    @media (max-width: 450px) {
+      .hero-actions { gap: 16px; }
+      .button { padding: 0 12px; font-size: 10px; }
+      .text-link { font-size: 10px; }
+      .collection-heading { align-items: start; flex-direction: column; }
+      .collection-heading p { max-width: 310px; }
+      .dispatch { grid-template-columns: 1fr; }
+      .dispatch-meta, .dispatch-quote, .dispatch-button { grid-column: 1; grid-row: auto; }
+      .dispatch-button { justify-self: start; }
+      .footer { align-items: start; flex-direction: column; justify-content: center; padding: 22px 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page" id="page">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="The Elsewhere Office, home">
+        <span class="brand-mark" aria-hidden="true">E</span>
+        <span>The Elsewhere Office</span>
+      </a>
+      <span class="top-note">A small index of almost-things</span>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="headline">
+        <div>
+          <div class="eyebrow">Independent department · Est. whenever</div>
+          <h1 id="headline">For the things<br>that <em>nearly</em><br>happened.</h1>
+          <p class="intro">
+            A quiet archive of parallel afternoons, misplaced inventions,
+            and other artifacts from lives we didn't quite lead. No need to
+            be going anywhere.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#collection">
+              Enter the archive <span aria-hidden="true">↘</span>
+            </a>
+            <a class="text-link" href="#dispatch">Read today's note</a>
+          </div>
+        </div>
+
+        <div class="orbit-wrap" aria-label="An imagined planet on a hand-drawn orbital map" role="img">
+          <span class="orbit-label one">Somewhere, 03:17</span>
+          <span class="orbit-label two">Not to scale</span>
+          <div class="orbit" aria-hidden="true"></div>
+          <div class="planet" aria-hidden="true"></div>
+          <i class="star s1" aria-hidden="true"></i>
+          <i class="star s2" aria-hidden="true"></i>
+          <i class="star s3" aria-hidden="true"></i>
+          <i class="star s4" aria-hidden="true"></i>
+        </div>
+      </section>
+
+      <div class="rule"></div>
+
+      <section class="dispatch" id="dispatch" aria-labelledby="dispatch-label">
+        <div class="dispatch-meta">
+          <div class="section-label" id="dispatch-label">A note from the desk</div>
+          <div style="margin-top: 8px;">Filed under: gentle insistence</div>
+        </div>
+        <p class="dispatch-quote" id="dispatch-text" aria-live="polite">
+          “Some doors are only visible after you stop looking for the room.”
+        </p>
+        <button class="dispatch-button" id="another-note" type="button">Another note ↗</button>
+      </section>
+
+      <div class="rule"></div>
+
+      <section class="collection" id="collection" aria-labelledby="collection-title">
+        <div class="collection-heading">
+          <div>
+            <div class="section-label">Three recent arrivals</div>
+            <h2 id="collection-title">From the almost-archive</h2>
+          </div>
+          <p>Collected with no particular system, then kept because they felt familiar.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-top"><span>Object 014</span><span>Found / imagined</span></div>
+            <div class="card-art" aria-hidden="true">
+              <svg width="108" height="65" viewBox="0 0 108 65" fill="none">
+                <path d="M9 45C28 10 72 10 99 32" stroke="currentColor" stroke-width="1"/>
+                <path d="M17 52C41 32 68 28 91 43" stroke="currentColor" stroke-opacity=".42"/>
+                <circle cx="51" cy="32" r="12" stroke="currentColor"/>
+                <circle cx="51" cy="32" r="3" fill="currentColor"/>
+                <path d="M51 16V8M67 32H76M38 44L32 50" stroke="currentColor" stroke-width="1"/>
+              </svg>
+            </div>
+            <div>
+              <h3>A map of the walk home</h3>
+              <p>Drawn from memory by someone who took a different way every night.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top"><span>Sound 006</span><span>Unsent / recorded</span></div>
+            <div class="card-art" aria-hidden="true">
+              <svg width="115" height="65" viewBox="0 0 115 65" fill="none">
+                <path d="M4 33H17L23 18L32 48L42 10L51 55L60 24L68 39L76 28L83 33H111"
+                      stroke="currentColor" stroke-width="1.2"/>
+                <path d="M4 57H111" stroke="currentColor" stroke-opacity=".25"/>
+                <circle cx="23" cy="18" r="2" fill="currentColor"/>
+                <circle cx="83" cy="33" r="2" fill="currentColor"/>
+              </svg>
+            </div>
+            <div>
+              <h3>The hum before rain</h3>
+              <p>A low note heard once, just before the whole city smelled like stone.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top"><span>Recipe 021</span><span>Serves: whoever</span></div>
+            <div class="card-art" aria-hidden="true">
+              <svg width="100" height="68" viewBox="0 0 100 68" fill="none">
+                <path d="M21 31H79L74 57H26L21 31Z" stroke="currentColor"/>
+                <path d="M17 27C17 22 25 22 25 27M38 27C38 20 46 20 46 27M59 27C59 19 67 19 67 27M76 27C76 22 84 22 84 27"
+                      stroke="currentColor" stroke-linecap="round"/>
+                <path d="M33 39H67M37 46H62" stroke="currentColor" stroke-opacity=".45"/>
+                <path d="M28 62H72" stroke="currentColor" stroke-opacity=".3"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Soup for a blue hour</h3>
+              <p>Best made slowly, with one window open and no music on.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Filed in no particular order · © The Elsewhere Office</span>
+      <span id="mode-status">Currently: after-hours</span>
+    </footer>
+  </div>
+
+  <script>
+    const notes = [
+      "“Some doors are only visible after you stop looking for the room.”",
+      "“There is a version of Tuesday where everything went beautifully. It sends its regards.”",
+      "“Keep a little space in the day for the person you haven't become yet.”",
+      "“The moon is very good at keeping things that were never said.”",
+      "“A wrong turn is just a place you haven't learned the name of.”"
+    ];
+
+    const noteText = document.getElementById("dispatch-text");
+    const noteButton = document.getElementById("another-note");
+    let lastNote = 0;
+
+    noteButton.addEventListener("click", () => {
+      let next = Math.floor(Math.random() * notes.length);
+      if (notes.length > 1 && next === lastNote) next = (next + 1) % notes.length;
+      lastNote = next;
+      noteText.style.opacity = "0";
+      window.setTimeout(() => {
+        noteText.textContent = notes[next];
+        noteText.style.opacity = "1";
+      }, 180);
+    });
+
+    const page = document.getElementById("page");
+    const modeStatus = document.getElementById("mode-status");
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key.toLowerCase() === "d" && !event.ctrlKey && !event.metaKey && !event.altKey) {
+        if (event.target.matches("input, textarea, button, a")) return;
+        page.classList.toggle("day-mode");
+        modeStatus.textContent = page.classList.contains("day-mode")
+          ? "Currently: open curtains"
+          : "Currently: after-hours";
+      }
+    });
+  </script>
+</body>
+</html>
+```
+
+What: A quiet, self-contained archive of almost-things, with imagined artifacts and notes that change when you ask.

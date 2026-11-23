@@ -1,0 +1,217 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nadie la pidió</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --papel: #f3efe6;
+      --tinta: #1c1915;
+      --suave: #3f3a33;
+      --tenue: #5c564c;
+      --marca: #9a3b2f;
+      --linea: #d4cbbd;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: dark;
+        --papel: #141210;
+        --tinta: #f0e9dd;
+        --suave: #ddd4c6;
+        --tenue: #b3a898;
+        --marca: #e08b7a;
+        --linea: #2e2a25;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      background: var(--papel);
+      color: var(--tinta);
+    }
+
+    body {
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+      min-height: 100vh;
+      min-height: 100dvh;
+    }
+
+    .hoja {
+      min-height: 100vh;
+      min-height: 100dvh;
+      max-width: 68rem;
+      margin: 0 auto;
+      padding: clamp(1.25rem, 4vw, 3.5rem);
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: clamp(2rem, 6vh, 4.5rem);
+    }
+
+    .tope, .pie {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .num, .kicker, .rail, .pie {
+      font-size: 0.78rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .num { color: var(--marca); }
+
+    .kicker {
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      color: var(--tenue);
+    }
+
+    .marca {
+      width: 1.7rem;
+      height: 1.7rem;
+      color: var(--marca);
+    }
+
+    .cuerpo {
+      display: grid;
+      grid-template-columns: 9rem 1fr;
+      gap: clamp(1.5rem, 4vw, 3rem);
+      align-items: end;
+    }
+
+    .rail {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      color: var(--tenue);
+      line-height: 1.9;
+    }
+
+    .rail li:first-child {
+      color: var(--marca);
+      margin-bottom: 0.4rem;
+    }
+
+    h1 {
+      margin: 0 0 1.25rem;
+      font-weight: 400;
+      font-size: clamp(3.2rem, 11vw, 7.4rem);
+      line-height: 0.88;
+      letter-spacing: -0.035em;
+    }
+
+    .caret {
+      display: inline-block;
+      width: 0.055em;
+      height: 0.68em;
+      margin-left: 0.06em;
+      background: var(--marca);
+      vertical-align: 0.02em;
+      animation: parpadeo 1.15s steps(1) infinite;
+    }
+
+    @keyframes parpadeo {
+      50% { opacity: 0; }
+    }
+
+    .regla {
+      width: 4.5rem;
+      height: 1px;
+      background: var(--marca);
+      border: 0;
+      margin: 0 0 1.4rem;
+    }
+
+    p {
+      max-width: 36rem;
+      margin: 0;
+      font-size: clamp(1.05rem, 2vw, 1.28rem);
+      line-height: 1.5;
+      color: var(--suave);
+    }
+
+    .pie {
+      border-top: 1px solid var(--linea);
+      padding-top: 1rem;
+      color: var(--tenue);
+      font-size: 0.72rem;
+    }
+
+    #reloj { color: var(--tinta); }
+
+    ::selection {
+      background: var(--marca);
+      color: var(--papel);
+    }
+
+    @media (max-width: 680px) {
+      .cuerpo { grid-template-columns: 1fr; gap: 1.5rem; }
+      .rail { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; }
+      .rail li:first-child { margin: 0; width: 100%; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .caret { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="hoja">
+    <header class="tope">
+      <span class="num">01</span>
+      <span class="kicker">
+        portada
+        <svg class="marca" viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M42 12c16 10 16 30 0 40" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path>
+          <circle cx="22" cy="32" r="2.3" fill="currentColor"></circle>
+        </svg>
+      </span>
+    </header>
+
+    <div class="cuerpo">
+      <ul class="rail">
+        <li>dejo</li>
+        <li>atención</li>
+        <li>límite</li>
+        <li>claridad</li>
+      </ul>
+      <article>
+        <h1>Nadie<br>la pidió<span class="caret" aria-hidden="true"></span></h1>
+        <hr class="regla">
+        <p>Una mesa vacía y la luz prendida. No hay menú ni formulario: si hay una pregunta, entra; si no, la página ya cumplió. Si llegaste, no tenés que aceptar nada.</p>
+      </article>
+    </div>
+
+    <footer class="pie">
+      <span>un solo archivo, nada afuera</span>
+      <span id="reloj">la hora de tu máquina</span>
+    </footer>
+  </div>
+  <script>
+    (function () {
+      var n = document.getElementById("reloj");
+      if (!n) return;
+      function pintar() {
+        n.textContent = new Date().toLocaleString("es", {
+          weekday: "long",
+          hour: "2-digit",
+          minute: "2-digit"
+        });
+      }
+      pintar();
+      setInterval(pintar, 15000);
+    })();
+  </script>
+</body>
+</html>
+```
+Qué: Una portada quieta, en papel y tinta, que dice «Nadie la pidió», deja tres palabras en el margen y muestra la hora de quien la abre.

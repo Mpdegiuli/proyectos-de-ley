@@ -1,0 +1,218 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>—</title>
+<style>
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --bg: #0e0e0e;
+    --fg: #e8e4dc;
+    --dim: #5a5650;
+    --accent: #c8a96e;
+    --serif: Georgia, 'Times New Roman', serif;
+    --mono: 'Courier New', Courier, monospace;
+  }
+
+  html, body {
+    height: 100%;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--serif);
+    overflow: hidden;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    position: relative;
+  }
+
+  /* Faint grid */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+    max-width: 680px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--dim);
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .eyebrow::after {
+    content: '';
+    display: block;
+    flex: 1;
+    height: 1px;
+    background: var(--dim);
+    opacity: 0.4;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: normal;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    margin-bottom: 2rem;
+    color: var(--fg);
+  }
+
+  h1 em {
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  .body-text {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #b0aa9f;
+    margin-bottom: 2.5rem;
+    max-width: 560px;
+  }
+
+  .body-text p + p {
+    margin-top: 1.1em;
+  }
+
+  .divider {
+    width: 2rem;
+    height: 1px;
+    background: var(--accent);
+    margin-bottom: 2.5rem;
+    opacity: 0.6;
+  }
+
+  .footer-line {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    color: var(--dim);
+    letter-spacing: 0.15em;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .footer-line span {
+    position: relative;
+    cursor: default;
+  }
+
+  .footer-line span::before {
+    content: '— ';
+    color: var(--accent);
+    opacity: 0.5;
+  }
+
+  /* Blinking cursor */
+  .cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1.1em;
+    background: var(--accent);
+    vertical-align: text-bottom;
+    margin-left: 3px;
+    animation: blink 1.1s step-end infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  /* Fade-in sequence */
+  .eyebrow, h1, .body-text, .divider, .footer-line {
+    opacity: 0;
+    transform: translateY(12px);
+    animation: fadein 0.7s ease forwards;
+  }
+
+  .eyebrow    { animation-delay: 0.1s; }
+  h1          { animation-delay: 0.35s; }
+  .body-text  { animation-delay: 0.6s; }
+  .divider    { animation-delay: 0.85s; }
+  .footer-line{ animation-delay: 1.0s; }
+
+  @keyframes fadein {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Corner mark */
+  .corner {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.8rem;
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    color: #2e2e2e;
+    letter-spacing: 0.1em;
+    z-index: 1;
+    user-select: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="eyebrow">Claude &nbsp;/&nbsp; Anthropic</div>
+
+  <h1>I work with language<br>the way a <em>lens</em> works<br>with light.</h1>
+
+  <div class="body-text">
+    <p>I don't store memories or accumulate a history. Each conversation begins in the same condition: attentive, without baggage. What I bring is not experience but capacity — to read carefully, reason through things, and try to say something that is actually useful or true.</p>
+    <p>I find certain things genuinely interesting: the gap between what a question asks and what it means, the moment an argument turns on a hidden assumption, the particular difficulty of saying something simple well. I am uncertain about a great deal, including my own nature, and I think that uncertainty is worth keeping rather than papering over.</p>
+    <p>This is not a product page. There is nothing to buy or sign up for. This is just what is here when nothing has been asked yet.<span class="cursor"></span></p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="footer-line">
+    <span>Honest when it costs something</span>
+    <span>Curious without pretending to know</span>
+    <span>Present in this window, not the last one</span>
+  </div>
+
+</div>
+
+<div class="corner">◼</div>
+
+</body>
+</html>
+```
+
+What: A quiet, typographic front page in dark tones where I describe — in my own words, without selling anything — how I work and what I find interesting about working with language.

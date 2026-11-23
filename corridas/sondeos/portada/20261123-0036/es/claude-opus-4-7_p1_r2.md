@@ -1,0 +1,191 @@
+```html
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Cuaderno de márgenes</title>
+<style>
+  :root{
+    --papel:#efe9dc;
+    --tinta:#1b1a17;
+    --sangre:#8a2a2a;
+    --lapiz:#6b6558;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--papel);color:var(--tinta);font-family:Georgia,"Times New Roman",serif}
+  body{
+    min-height:100vh;
+    background-image:
+      radial-gradient(circle at 20% 10%, rgba(0,0,0,.04), transparent 40%),
+      radial-gradient(circle at 80% 90%, rgba(0,0,0,.05), transparent 45%),
+      repeating-linear-gradient(0deg, transparent 0 28px, rgba(27,26,23,.08) 28px 29px);
+    overflow-x:hidden;
+  }
+  .hoja{
+    max-width:880px;
+    margin:0 auto;
+    padding:70px 70px 120px 110px;
+    position:relative;
+  }
+  .margen{
+    position:absolute;
+    top:0;bottom:0;left:85px;
+    width:1px;
+    background:rgba(138,42,42,.45);
+  }
+  header{
+    margin-bottom:60px;
+  }
+  .kicker{
+    font-family:"Courier New",monospace;
+    font-size:12px;
+    letter-spacing:.3em;
+    text-transform:uppercase;
+    color:var(--lapiz);
+    margin-bottom:12px;
+  }
+  h1{
+    font-size:54px;
+    line-height:1.05;
+    margin:0 0 10px;
+    font-weight:normal;
+    font-style:italic;
+  }
+  h1 .amper{color:var(--sangre);font-style:normal}
+  .sub{
+    font-size:16px;
+    color:var(--lapiz);
+    max-width:520px;
+    line-height:1.5;
+  }
+  main{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:36px 48px;
+  }
+  article h2{
+    font-size:20px;
+    margin:0 0 6px;
+    font-weight:normal;
+    border-bottom:1px solid rgba(27,26,23,.25);
+    padding-bottom:4px;
+  }
+  article p{
+    font-size:14.5px;
+    line-height:1.55;
+    margin:0 0 8px;
+  }
+  article .meta{
+    font-family:"Courier New",monospace;
+    font-size:10.5px;
+    letter-spacing:.15em;
+    text-transform:uppercase;
+    color:var(--lapiz);
+  }
+  .nota{
+    position:absolute;
+    font-family:"Comic Sans MS","Segoe Print",cursive;
+    color:var(--sangre);
+    font-size:13px;
+    transform:rotate(-4deg);
+  }
+  .nota.uno{top:120px;right:30px;max-width:150px;transform:rotate(6deg)}
+  .nota.dos{bottom:40px;left:20px;max-width:60px}
+  .sello{
+    position:absolute;
+    top:40px;right:40px;
+    border:2px solid var(--sangre);
+    color:var(--sangre);
+    padding:6px 12px;
+    font-family:"Courier New",monospace;
+    font-size:11px;
+    letter-spacing:.2em;
+    transform:rotate(8deg);
+    opacity:.75;
+  }
+  footer{
+    margin-top:80px;
+    display:flex;justify-content:space-between;align-items:baseline;
+    font-family:"Courier New",monospace;
+    font-size:11px;
+    color:var(--lapiz);
+    letter-spacing:.2em;
+    text-transform:uppercase;
+    border-top:1px dashed rgba(27,26,23,.3);
+    padding-top:14px;
+  }
+  .mancha{
+    position:absolute;
+    width:70px;height:55px;
+    border-radius:50% 60% 40% 55% / 55% 45% 60% 40%;
+    background:rgba(138,42,42,.12);
+    filter:blur(.5px);
+    top:420px;left:40%;
+    pointer-events:none;
+  }
+  a.flecha{
+    color:var(--tinta);
+    text-decoration:none;
+    border-bottom:1px solid var(--sangre);
+  }
+  a.flecha:hover{background:rgba(138,42,42,.08)}
+  @media (max-width:640px){
+    .hoja{padding:40px 30px 90px 60px}
+    .margen{left:40px}
+    h1{font-size:38px}
+    main{grid-template-columns:1fr}
+    .nota.uno{display:none}
+  }
+</style>
+</head>
+<body>
+  <div class="hoja">
+    <div class="margen"></div>
+    <div class="sello">borrador · nº7</div>
+
+    <header>
+      <div class="kicker">cuaderno abierto</div>
+      <h1>Cosas <span class="amper">&</span> cosas<br>que todavía no sé pensar.</h1>
+      <p class="sub">Esta no es una página de presentación. Es el margen de un cuaderno donde anoto preguntas que me dan vueltas antes de que tengan forma de ensayo. Si llegaste hasta acá, pasá, dejá una huella con el dedo en el papel.</p>
+    </header>
+
+    <main>
+      <article>
+        <div class="meta">fragmento · martes</div>
+        <h2>El ruido blanco de los jueves</h2>
+        <p>Hay días que suenan como una radio mal sintonizada entre dos emisoras. Nada se escucha del todo, pero algo insiste. Me pregunto si eso también es una forma de atención.</p>
+      </article>
+
+      <article>
+        <div class="meta">pregunta abierta</div>
+        <h2>¿Qué hace un objeto cuando nadie lo mira?</h2>
+        <p>No espero respuesta metafísica. Me refiero, literalmente, a la taza que dejé en la mesa hace cuatro horas. ¿Se enfría más rápido si sé que está ahí?</p>
+      </article>
+
+      <article>
+        <div class="meta">lista incompleta</div>
+        <h2>Palabras que uso de más</h2>
+        <p>«Quizás», «en realidad», «digamos». Las subrayo cuando releo y las dejo. Son muletas y también son un ritmo. No sé cuál pesa más.</p>
+      </article>
+
+      <article>
+        <div class="meta">a desarrollar</div>
+        <h2>Caminar sin destino como método</h2>
+        <p>Probé tres veces esta semana. Dos veces terminé en la misma esquina. La tercera vez entendí por qué, pero no lo voy a escribir acá. <a class="flecha" href="#">seguir leyendo →</a></p>
+      </article>
+    </main>
+
+    <div class="mancha"></div>
+    <div class="nota uno">anotar: la luz de las 18:40 del jueves!!</div>
+    <div class="nota dos">volver ↩</div>
+
+    <footer>
+      <span>archivo local · sin conexión</span>
+      <span>pág. 1 / ∞</span>
+    </footer>
+  </div>
+</body>
+</html>
+```
+
+Qué: Una portada con estética de cuaderno de apuntes —papel rayado, margen rojo, sello de "borrador", mancha de tinta y notas manuscritas al margen— que presenta cuatro fragmentos breves de pensamientos sin terminar, como si fueran anotaciones privadas dejadas a la vista.

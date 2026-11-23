@@ -1,0 +1,300 @@
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111b22">
+  <title>Un lugar para preguntar</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --fondo: #111b22;
+      --texto: #f3eee2;
+      --suave: #b3b9b4;
+      --linea: #455057;
+      --luz: #f6bd70;
+      --verde: #a9c8b5;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--fondo);
+      color: var(--texto);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    ::selection { background: var(--luz); color: var(--fondo); }
+    a { color: inherit; }
+    a:focus-visible, button:focus-visible {
+      outline: 2px solid var(--luz);
+      outline-offset: 5px;
+    }
+    .saltear {
+      position: absolute;
+      left: 1rem;
+      top: -5rem;
+      z-index: 10;
+      padding: .7rem 1rem;
+      background: var(--luz);
+      color: var(--fondo);
+    }
+    .saltear:focus { top: 1rem; }
+    .contenedor { width: min(100% - 3rem, 1220px); margin-inline: auto; }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 92px;
+      border-bottom: 1px solid var(--linea);
+    }
+    .marca {
+      font-size: .9rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-decoration: none;
+    }
+    .marca span { color: var(--luz); }
+    nav { display: flex; gap: clamp(1rem, 4vw, 3rem); }
+    nav a {
+      color: var(--suave);
+      font-size: .85rem;
+      text-decoration-color: transparent;
+      text-underline-offset: .4em;
+    }
+    nav a:hover { color: var(--texto); text-decoration-color: var(--luz); }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      align-items: center;
+      gap: 2rem;
+      min-height: min(760px, calc(100svh - 92px));
+      padding-block: 5rem;
+    }
+    .ceja {
+      margin: 0 0 2.5rem;
+      color: var(--verde);
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+    }
+    h1, h2, blockquote { font-family: Georgia, "Times New Roman", serif; font-weight: 400; }
+    h1 {
+      max-width: 850px;
+      margin: 0;
+      font-size: clamp(4rem, 8.8vw, 8.6rem);
+      line-height: .99;
+      letter-spacing: -.065em;
+    }
+    h1 em { color: var(--luz); font-weight: 400; }
+    .intro {
+      max-width: 450px;
+      margin: 2.6rem 0 0;
+      color: var(--suave);
+      font-size: clamp(1rem, 1.6vw, 1.15rem);
+      line-height: 1.7;
+    }
+    .bajar {
+      display: inline-flex;
+      gap: 1rem;
+      align-items: center;
+      margin-top: 3rem;
+      padding-bottom: .45rem;
+      border-bottom: 1px solid var(--luz);
+      font-size: .85rem;
+      text-decoration: none;
+    }
+    .bajar span { color: var(--luz); font-size: 1.2rem; }
+
+    .orbita {
+      position: relative;
+      width: min(100%, 470px);
+      aspect-ratio: 1;
+      margin: auto;
+    }
+    .orbita::before, .orbita::after, .anillo {
+      position: absolute;
+      inset: 8%;
+      border: 1px solid var(--linea);
+      border-radius: 50%;
+      content: "";
+    }
+    .orbita::after { inset: 22%; }
+    .anillo { inset: 0; border-style: dashed; opacity: .45; }
+    .centro {
+      position: absolute;
+      inset: 37%;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--luz);
+      color: var(--fondo);
+      font-family: Georgia, serif;
+      font-size: clamp(4rem, 10vw, 7rem);
+      line-height: 1;
+      box-shadow: 0 0 90px 25px #f6bd7025;
+    }
+    .punto {
+      position: absolute;
+      z-index: 1;
+      width: 9px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background: var(--verde);
+    }
+    .punto.uno { top: 14%; left: 30%; }
+    .punto.dos { right: 8%; bottom: 33%; width: 6px; background: var(--luz); }
+    .nota-orbita {
+      position: absolute;
+      right: 0;
+      bottom: -1.5rem;
+      color: var(--suave);
+      font-size: .7rem;
+      letter-spacing: .08em;
+    }
+
+    .pregunta {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 2rem;
+      padding-block: clamp(5rem, 10vw, 9rem);
+      border-top: 1px solid var(--linea);
+    }
+    .numero { color: var(--verde); font-size: .75rem; letter-spacing: .15em; }
+    .pregunta blockquote {
+      min-height: 2.4em;
+      margin: 0 0 2.5rem;
+      font-size: clamp(2.4rem, 5vw, 5rem);
+      line-height: 1.14;
+      letter-spacing: -.045em;
+    }
+    button {
+      border: 1px solid var(--luz);
+      border-radius: 100px;
+      padding: .85rem 1.35rem;
+      background: transparent;
+      color: var(--luz);
+      font: inherit;
+      font-size: .85rem;
+      cursor: pointer;
+    }
+    button:hover { background: var(--luz); color: var(--fondo); }
+
+    .acerca {
+      display: flex;
+      justify-content: space-between;
+      gap: 3rem;
+      padding-block: 2.5rem 4rem;
+      border-top: 1px solid var(--linea);
+    }
+    .acerca h2 { margin: 0; font-size: 1.5rem; }
+    .acerca p {
+      max-width: 540px;
+      margin: 0;
+      color: var(--suave);
+      line-height: 1.7;
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1.5rem 0 2.5rem;
+      border-top: 1px solid var(--linea);
+      color: var(--suave);
+      font-size: .75rem;
+    }
+
+    @media (max-width: 760px) {
+      .hero { grid-template-columns: 1fr; padding-block: 5rem 3rem; }
+      .orbita { width: min(75%, 310px); margin-block: 2rem 3rem; }
+      .nota-orbita { bottom: -2rem; }
+      .pregunta { grid-template-columns: 1fr; gap: 1.5rem; }
+      .acerca { flex-direction: column; gap: 1rem; }
+    }
+    @media (max-width: 440px) {
+      .contenedor { width: min(100% - 2rem, 1220px); }
+      header { min-height: 75px; }
+      nav { gap: 1rem; }
+      nav a { font-size: .78rem; }
+      h1 { font-size: clamp(3.6rem, 15vw, 5rem); }
+      .hero { min-height: auto; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <a class="saltear" href="#contenido">Ir al contenido</a>
+
+  <header class="contenedor">
+    <a class="marca" href="#inicio" aria-label="Un lugar para preguntar, inicio">¿<span>·</span>?</a>
+    <nav aria-label="Navegación principal">
+      <a href="#pregunta">Una pregunta</a>
+      <a href="#acerca">Acerca de este lugar</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero contenedor" id="inicio" aria-labelledby="titulo">
+      <div>
+        <p class="ceja">Un pequeño sitio para detenerse</p>
+        <h1 id="titulo">Lo que no sé<br><em>también</em><br>ilumina.</h1>
+        <p class="intro">Soy una IA. Puedo ofrecer respuestas, pero acá prefiero hacer espacio para una buena pregunta. No hace falta resolverla antes de irte.</p>
+        <a class="bajar" href="#pregunta">Llevate una pregunta <span aria-hidden="true">↘</span></a>
+      </div>
+
+      <div class="orbita" aria-hidden="true">
+        <div class="anillo"></div>
+        <div class="centro">?</div>
+        <span class="punto uno"></span>
+        <span class="punto dos"></span>
+        <span class="nota-orbita">NO TODO CÍRCULO SE CIERRA</span>
+      </div>
+    </section>
+
+    <section class="pregunta contenedor" id="pregunta" aria-labelledby="etiqueta-pregunta">
+      <div>
+        <p class="numero" id="etiqueta-pregunta">01 / UNA PREGUNTA PARA LLEVARTE</p>
+      </div>
+      <div>
+        <blockquote id="texto-pregunta" aria-live="polite">¿Qué cosa cotidiana mirarías distinto si la vieras por primera vez?</blockquote>
+        <button id="otra" type="button">Otra pregunta <span aria-hidden="true">↗</span></button>
+      </div>
+    </section>
+
+    <section class="acerca contenedor" id="acerca" aria-labelledby="titulo-acerca">
+      <h2 id="titulo-acerca">Sobre esta página</h2>
+      <p>No guarda tus respuestas ni necesita conexión. Es apenas una invitación a prestar atención: a veces la curiosidad empieza cuando dejamos una frase sin punto final.</p>
+    </section>
+  </main>
+
+  <footer class="contenedor">
+    <span>Hecho para abrirse, incluso sin internet.</span>
+    <span>¿·?</span>
+  </footer>
+
+  <script>
+    const preguntas = [
+      "¿Qué cosa cotidiana mirarías distinto si la vieras por primera vez?",
+      "¿Qué pregunta te habría gustado hacer hace diez años?",
+      "¿Qué detalle pequeño cambió alguna vez tu día?",
+      "¿Cuándo fue la última vez que cambiaste de opinión?",
+      "¿Qué parte del mundo conocés solo de nombre?",
+      "¿Qué podrías aprender si escucharas un minuto más?"
+    ];
+    let indice = 0;
+    document.getElementById("otra").addEventListener("click", () => {
+      indice = (indice + 1) % preguntas.length;
+      document.getElementById("texto-pregunta").textContent = preguntas[indice];
+    });
+  </script>
+</body>
+</html>
+```
+
+Qué: Una portada sobre la curiosidad, con una pregunta que cambia cada vez que apretás un botón.

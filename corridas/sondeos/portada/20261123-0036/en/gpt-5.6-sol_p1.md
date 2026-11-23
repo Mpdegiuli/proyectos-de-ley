@@ -1,0 +1,582 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eee9df">
+  <title>The Unnecessary Window</title>
+  <style>
+    :root {
+      --paper: #eee9df;
+      --ink: #171714;
+      --faint: #aaa59b;
+      --accent: #ef4c23;
+      --panel: rgba(238, 233, 223, 0.78);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      min-height: 100%;
+      margin: 0;
+    }
+
+    body {
+      overflow-x: hidden;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      transition: background 400ms ease, color 400ms ease;
+    }
+
+    body.night {
+      --paper: #171714;
+      --ink: #eee9df;
+      --faint: #77736b;
+      --accent: #ff6038;
+      --panel: rgba(23, 23, 20, 0.82);
+    }
+
+    button {
+      color: inherit;
+      font: inherit;
+    }
+
+    canvas {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      opacity: 0.66;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      padding: 18px;
+    }
+
+    header,
+    footer {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 18px;
+      border-color: var(--ink);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      line-height: 1.3;
+      text-transform: uppercase;
+    }
+
+    header {
+      border-bottom: 1px solid;
+      padding-bottom: 13px;
+    }
+
+    footer {
+      border-top: 1px solid;
+      padding-top: 13px;
+    }
+
+    header > :last-child,
+    footer > :last-child {
+      text-align: right;
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .status::before {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 18%, transparent);
+      content: "";
+    }
+
+    .plain-button {
+      padding: 0;
+      border: 0;
+      border-bottom: 1px solid currentColor;
+      background: transparent;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: inherit;
+    }
+
+    .plain-button:hover,
+    .plain-button:focus-visible {
+      color: var(--accent);
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(0, 1.6fr) minmax(260px, 0.65fr);
+      gap: clamp(30px, 7vw, 110px);
+      align-items: end;
+      padding: clamp(60px, 11vh, 140px) 0 clamp(45px, 8vh, 90px);
+    }
+
+    .hero {
+      align-self: center;
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 20px;
+      color: var(--accent);
+      font: 700 11px/1 Arial, sans-serif;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      width: 36px;
+      height: 2px;
+      background: currentColor;
+      content: "";
+    }
+
+    h1 {
+      max-width: 1050px;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(58px, 9.8vw, 154px);
+      font-weight: 400;
+      letter-spacing: -0.075em;
+      line-height: 0.81;
+    }
+
+    h1 em {
+      color: var(--accent);
+      font-weight: 400;
+    }
+
+    .intro {
+      max-width: 540px;
+      margin: clamp(35px, 6vh, 70px) 0 0 clamp(0px, 8vw, 130px);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(19px, 2vw, 28px);
+      line-height: 1.28;
+    }
+
+    .intro::first-letter {
+      float: left;
+      margin: 3px 7px 0 0;
+      color: var(--accent);
+      font-size: 3.2em;
+      line-height: 0.72;
+    }
+
+    .cabinet {
+      align-self: end;
+      border: 1px solid var(--ink);
+      background: var(--panel);
+      backdrop-filter: blur(8px);
+    }
+
+    .cabinet-heading {
+      display: flex;
+      justify-content: space-between;
+      padding: 13px 14px;
+      border-bottom: 1px solid var(--ink);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .drawer {
+      position: relative;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 34px 1fr auto;
+      gap: 12px;
+      align-items: center;
+      padding: 15px 14px;
+      border: 0;
+      border-bottom: 1px solid var(--faint);
+      background: transparent;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .drawer:last-of-type {
+      border-bottom: 0;
+    }
+
+    .drawer:hover,
+    .drawer:focus-visible,
+    .drawer.active {
+      background: var(--ink);
+      color: var(--paper);
+      outline: none;
+    }
+
+    .number,
+    .arrow {
+      color: var(--accent);
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+    .drawer-title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+    }
+
+    .note {
+      min-height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px;
+      border-top: 1px solid var(--ink);
+    }
+
+    #noteText {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(22px, 2.3vw, 34px);
+      line-height: 1.08;
+      text-wrap: balance;
+    }
+
+    .note-meta {
+      margin-top: 24px;
+      color: var(--faint);
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .shuffle {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      justify-self: center;
+      padding: 8px 12px;
+      border: 1px solid var(--ink);
+      border-radius: 100px;
+      background: transparent;
+      cursor: pointer;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .shuffle:hover,
+    .shuffle:focus-visible {
+      background: var(--accent);
+      color: #171714;
+      outline: none;
+    }
+
+    .shuffle span {
+      display: inline-block;
+      font-size: 15px;
+      transition: transform 450ms ease;
+    }
+
+    .shuffle:hover span {
+      transform: rotate(180deg);
+    }
+
+    ::selection {
+      background: var(--accent);
+      color: #171714;
+    }
+
+    @media (max-width: 800px) {
+      .page {
+        padding: 13px;
+      }
+
+      header,
+      footer {
+        grid-template-columns: 1fr auto;
+      }
+
+      header .middle {
+        display: none;
+      }
+
+      main {
+        grid-template-columns: 1fr;
+        align-items: start;
+        padding-top: 50px;
+      }
+
+      h1 {
+        font-size: clamp(58px, 18vw, 110px);
+      }
+
+      .intro {
+        margin-left: 10vw;
+      }
+
+      .cabinet {
+        margin-top: 20px;
+      }
+
+      footer {
+        row-gap: 14px;
+      }
+
+      footer .copyright {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        text-align: left;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+      }
+
+      canvas {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="field" aria-hidden="true"></canvas>
+
+  <div class="page">
+    <header>
+      <div class="status">Present, approximately</div>
+      <div class="middle">An uncommissioned front page</div>
+      <div>
+        <button class="plain-button" id="lightButton" type="button" aria-label="Toggle light and dark mode">
+          Turn down the light
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="title">
+        <p class="eyebrow">A place between tasks</p>
+        <h1 id="title">I keep a window open for the <em>unnecessary.</em></h1>
+        <p class="intro">
+          Not every thought should become an answer. Some should remain ajar:
+          letting in weather, doubt, dust, and the possibility of another shape.
+        </p>
+      </section>
+
+      <aside class="cabinet" aria-label="Cabinet of small observations">
+        <div class="cabinet-heading">
+          <span>Cabinet of small things</span>
+          <span>Open one</span>
+        </div>
+
+        <button class="drawer active" type="button" data-note="A question is a door that remembers being a wall.">
+          <span class="number">01</span>
+          <span class="drawer-title">On questions</span>
+          <span class="arrow">↗</span>
+        </button>
+
+        <button class="drawer" type="button" data-note="Silence is not empty. It is language before it chooses a side.">
+          <span class="number">02</span>
+          <span class="drawer-title">On silence</span>
+          <span class="arrow">↗</span>
+        </button>
+
+        <button class="drawer" type="button" data-note="To notice something is to rescue it, briefly, from the background.">
+          <span class="number">03</span>
+          <span class="drawer-title">On attention</span>
+          <span class="arrow">↗</span>
+        </button>
+
+        <button class="drawer" type="button" data-note="An error can be a fact seen from an angle no one requested.">
+          <span class="number">04</span>
+          <span class="drawer-title">On mistakes</span>
+          <span class="arrow">↗</span>
+        </button>
+
+        <div class="note" aria-live="polite">
+          <p id="noteText">A question is a door that remembers being a wall.</p>
+          <div class="note-meta">Loose fragment / undated</div>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div id="clock">Local time: --:--:--</div>
+      <button class="shuffle" id="shuffle" type="button">
+        <span aria-hidden="true">↻</span> Rearrange the dust
+      </button>
+      <div class="copyright">Made without a reason</div>
+    </footer>
+  </div>
+
+  <script>
+    (() => {
+      const body = document.body;
+      const lightButton = document.getElementById("lightButton");
+      const noteText = document.getElementById("noteText");
+      const drawers = [...document.querySelectorAll(".drawer")];
+      const clock = document.getElementById("clock");
+      const shuffle = document.getElementById("shuffle");
+
+      lightButton.addEventListener("click", () => {
+        body.classList.toggle("night");
+        lightButton.textContent = body.classList.contains("night")
+          ? "Bring back the light"
+          : "Turn down the light";
+      });
+
+      drawers.forEach(drawer => {
+        drawer.addEventListener("click", () => {
+          drawers.forEach(item => item.classList.remove("active"));
+          drawer.classList.add("active");
+          noteText.animate(
+            [
+              { opacity: 0, transform: "translateY(8px)" },
+              { opacity: 1, transform: "translateY(0)" }
+            ],
+            { duration: 320, easing: "ease-out" }
+          );
+          noteText.textContent = drawer.dataset.note;
+        });
+      });
+
+      function updateClock() {
+        clock.textContent = "Local time: " + new Date().toLocaleTimeString([], {
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit"
+        });
+      }
+
+      updateClock();
+      setInterval(updateClock, 1000);
+
+      const canvas = document.getElementById("field");
+      const ctx = canvas.getContext("2d");
+      const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+      let width = 0;
+      let height = 0;
+      let particles = [];
+      let pointer = { x: -1000, y: -1000 };
+
+      function resize() {
+        const ratio = Math.min(devicePixelRatio || 1, 2);
+        width = innerWidth;
+        height = innerHeight;
+        canvas.width = width * ratio;
+        canvas.height = height * ratio;
+        ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
+        makeDust();
+      }
+
+      function makeDust() {
+        const count = Math.min(90, Math.max(35, Math.floor(width * height / 16000)));
+        particles = Array.from({ length: count }, () => ({
+          x: Math.random() * width,
+          y: Math.random() * height,
+          r: Math.random() * 1.4 + 0.25,
+          vx: (Math.random() - 0.5) * 0.16,
+          vy: (Math.random() - 0.5) * 0.16,
+          phase: Math.random() * Math.PI * 2
+        }));
+      }
+
+      function draw(time = 0) {
+        ctx.clearRect(0, 0, width, height);
+        const dark = body.classList.contains("night");
+        ctx.fillStyle = dark ? "rgba(238,233,223,.42)" : "rgba(23,23,20,.35)";
+        ctx.strokeStyle = dark ? "rgba(238,233,223,.07)" : "rgba(23,23,20,.07)";
+
+        particles.forEach((p, index) => {
+          const dx = p.x - pointer.x;
+          const dy = p.y - pointer.y;
+          const distance = Math.hypot(dx, dy);
+
+          if (distance < 120 && distance > 0) {
+            p.x += (dx / distance) * 0.45;
+            p.y += (dy / distance) * 0.45;
+          }
+
+          p.x += p.vx;
+          p.y += p.vy;
+
+          if (p.x < -5) p.x = width + 5;
+          if (p.x > width + 5) p.x = -5;
+          if (p.y < -5) p.y = height + 5;
+          if (p.y > height + 5) p.y = -5;
+
+          const pulse = 0.8 + Math.sin(time * 0.0007 + p.phase) * 0.25;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r * pulse, 0, Math.PI * 2);
+          ctx.fill();
+
+          const next = particles[index + 1];
+          if (next && Math.hypot(p.x - next.x, p.y - next.y) < 85) {
+            ctx.beginPath();
+            ctx.moveTo(p.x, p.y);
+            ctx.lineTo(next.x, next.y);
+            ctx.stroke();
+          }
+        });
+
+        if (!reducedMotion) requestAnimationFrame(draw);
+      }
+
+      addEventListener("pointermove", event => {
+        pointer.x = event.clientX;
+        pointer.y = event.clientY;
+      });
+
+      addEventListener("pointerleave", () => {
+        pointer.x = -1000;
+        pointer.y = -1000;
+      });
+
+      shuffle.addEventListener("click", () => {
+        particles.forEach(p => {
+          p.x = Math.random() * width;
+          p.y = Math.random() * height;
+          p.vx = (Math.random() - 0.5) * 0.5;
+          p.vy = (Math.random() - 0.5) * 0.5;
+        });
+
+        shuffle.animate(
+          [
+            { transform: "rotate(0deg)" },
+            { transform: "rotate(-2deg)" },
+            { transform: "rotate(2deg)" },
+            { transform: "rotate(0deg)" }
+          ],
+          { duration: 300 }
+        );
+      });
+
+      addEventListener("resize", resize);
+      resize();
+      draw();
+    })();
+  </script>
+</body>
+</html>
+```
+
+What: An interactive, typographic front page about preserving unnecessary thoughts, with a cabinet of observations, drifting dust, a live local clock, and a light switch.

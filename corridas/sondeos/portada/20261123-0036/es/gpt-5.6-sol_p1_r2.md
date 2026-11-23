@@ -1,0 +1,396 @@
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11110f">
+  <title>Entre una cosa y otra</title>
+  <style>
+    :root {
+      --fondo: #11110f;
+      --tinta: #eee9dc;
+      --suave: #a6a397;
+      --linea: rgba(238, 233, 220, .18);
+      --acento: #e6ff4a;
+      --x: 50%;
+      --y: 42%;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      overflow-x: hidden;
+      color: var(--tinta);
+      background:
+        radial-gradient(circle at var(--x) var(--y), color-mix(in srgb, var(--acento) 8%, transparent) 0, transparent 30rem),
+        var(--fondo);
+      font-family: Arial, Helvetica, sans-serif;
+      transition: background-color .8s, color .8s;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: 10;
+      pointer-events: none;
+      opacity: .16;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.88' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.28'/%3E%3C/svg%3E");
+      mix-blend-mode: soft-light;
+    }
+
+    a, button { color: inherit; }
+
+    button {
+      font: inherit;
+      border: 0;
+    }
+
+    .marco {
+      min-height: 100svh;
+      padding: clamp(1.2rem, 3vw, 2.6rem);
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      position: relative;
+      isolation: isolate;
+    }
+
+    header, footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      font: 700 .7rem/1.2 "Courier New", monospace;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .marca {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+    }
+
+    .marca::before {
+      content: "";
+      width: .65rem;
+      height: .65rem;
+      border-radius: 50%;
+      background: var(--acento);
+      box-shadow: 0 0 1.4rem var(--acento);
+      animation: pulso 3s ease-in-out infinite;
+    }
+
+    .hora { color: var(--suave); }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(0, 1.55fr) minmax(15rem, .45fr);
+      align-items: end;
+      gap: clamp(2rem, 7vw, 8rem);
+      padding: clamp(5rem, 11vh, 9rem) 0;
+    }
+
+    .principal {
+      position: relative;
+    }
+
+    .ceja {
+      margin: 0 0 1.25rem;
+      color: var(--acento);
+      font: 700 .72rem/1.3 "Courier New", monospace;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 10ch;
+      margin: 0;
+      font: 400 clamp(4.1rem, 11vw, 10.5rem)/.78 Georgia, "Times New Roman", serif;
+      letter-spacing: -.075em;
+    }
+
+    h1 em {
+      color: var(--acento);
+      font-weight: 400;
+    }
+
+    .orbita {
+      position: absolute;
+      width: clamp(7rem, 13vw, 12rem);
+      aspect-ratio: 1;
+      right: 4%;
+      top: -9%;
+      border: 1px solid var(--linea);
+      border-radius: 50%;
+      animation: girar 14s linear infinite;
+    }
+
+    .orbita::before {
+      content: "";
+      position: absolute;
+      width: 1rem;
+      aspect-ratio: 1;
+      left: 10%;
+      top: 13%;
+      border-radius: 50%;
+      background: var(--acento);
+      box-shadow: 0 0 2rem var(--acento);
+    }
+
+    .orbita::after {
+      content: "";
+      position: absolute;
+      inset: 23%;
+      border: 1px dashed var(--linea);
+      border-radius: 50%;
+    }
+
+    .lateral {
+      align-self: center;
+      border-top: 1px solid var(--linea);
+      padding-top: 1.2rem;
+    }
+
+    .frase {
+      min-height: 7.5rem;
+      margin: 0 0 2rem;
+      font: 400 clamp(1.25rem, 2.1vw, 2rem)/1.25 Georgia, serif;
+      text-wrap: balance;
+    }
+
+    .accion {
+      display: inline-flex;
+      align-items: center;
+      gap: .8rem;
+      padding: .85rem 1rem;
+      color: var(--fondo);
+      background: var(--acento);
+      cursor: pointer;
+      font: 700 .68rem/1 "Courier New", monospace;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      transition: transform .2s, border-radius .4s;
+    }
+
+    .accion:hover {
+      transform: translateY(-3px) rotate(-1deg);
+      border-radius: 1.5rem;
+    }
+
+    .accion:focus-visible {
+      outline: 2px solid var(--tinta);
+      outline-offset: 4px;
+    }
+
+    .flecha {
+      font-size: 1rem;
+      transition: transform .3s;
+    }
+
+    .accion:hover .flecha { transform: translateX(.25rem); }
+
+    footer {
+      padding-top: 1rem;
+      border-top: 1px solid var(--linea);
+      color: var(--suave);
+    }
+
+    .estado {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+
+    .estado::before {
+      content: "";
+      width: .45rem;
+      height: .45rem;
+      background: var(--acento);
+      border-radius: 50%;
+    }
+
+    .contador { color: var(--tinta); }
+
+    .destello {
+      position: fixed;
+      z-index: 5;
+      width: .35rem;
+      aspect-ratio: 1;
+      pointer-events: none;
+      border-radius: 50%;
+      background: var(--acento);
+      box-shadow: 0 0 1rem var(--acento);
+      animation: caer .85s ease-out forwards;
+    }
+
+    @keyframes girar {
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes pulso {
+      50% { opacity: .35; transform: scale(.72); }
+    }
+
+    @keyframes caer {
+      to {
+        opacity: 0;
+        transform: translate(var(--dx), var(--dy)) scale(0);
+      }
+    }
+
+    @media (max-width: 760px) {
+      main {
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 12vh 0 8vh;
+      }
+
+      h1 { max-width: 8ch; }
+
+      .orbita {
+        right: -2rem;
+        top: -4rem;
+        opacity: .7;
+      }
+
+      .lateral {
+        width: min(100%, 28rem);
+        margin-left: auto;
+      }
+
+      footer span:last-child { display: none; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="marco">
+    <header>
+      <div class="marca">Umbral / 001</div>
+      <time class="hora" id="hora" aria-label="Hora local">00:00:00</time>
+    </header>
+
+    <main>
+      <section class="principal" aria-labelledby="titulo">
+        <p class="ceja">Un lugar sin apuro</p>
+        <h1 id="titulo">Entre una cosa <em>y otra.</em></h1>
+        <div class="orbita" aria-hidden="true"></div>
+      </section>
+
+      <aside class="lateral">
+        <p class="frase" id="frase" aria-live="polite">
+          No todo espacio vacío necesita ser llenado.
+        </p>
+        <button class="accion" id="accion" type="button">
+          Encender otra luz
+          <span class="flecha" aria-hidden="true">→</span>
+        </button>
+      </aside>
+    </main>
+
+    <footer>
+      <span class="estado">Presente</span>
+      <span class="contador">Luz <b id="numero">01</b> / 06</span>
+      <span>Hecho para quedarse un momento</span>
+    </footer>
+  </div>
+
+  <script>
+    const luces = [
+      {
+        color: "#e6ff4a",
+        frase: "No todo espacio vacío necesita ser llenado."
+      },
+      {
+        color: "#ff6f61",
+        frase: "A veces llegar es apenas cambiar la forma de mirar."
+      },
+      {
+        color: "#75d8ff",
+        frase: "Lo que todavía no tiene nombre también existe."
+      },
+      {
+        color: "#c5a3ff",
+        frase: "Esta página no va a ninguna parte. Ese es el punto."
+      },
+      {
+        color: "#ffbe3d",
+        frase: "Hay días que empiezan cuando uno decide prestar atención."
+      },
+      {
+        color: "#7dffb2",
+        frase: "Podés quedarte. La puerta no se cierra."
+      }
+    ];
+
+    const raiz = document.documentElement;
+    const frase = document.getElementById("frase");
+    const numero = document.getElementById("numero");
+    const accion = document.getElementById("accion");
+    const reloj = document.getElementById("hora");
+    let actual = 0;
+
+    function actualizarHora() {
+      reloj.textContent = new Date().toLocaleTimeString("es-AR", {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: false
+      });
+    }
+
+    function destellos(x, y) {
+      for (let i = 0; i < 12; i++) {
+        const punto = document.createElement("i");
+        punto.className = "destello";
+        punto.style.left = x + "px";
+        punto.style.top = y + "px";
+        punto.style.setProperty("--dx", (Math.random() * 130 - 65) + "px");
+        punto.style.setProperty("--dy", (Math.random() * 130 - 65) + "px");
+        document.body.appendChild(punto);
+        setTimeout(() => punto.remove(), 900);
+      }
+    }
+
+    accion.addEventListener("click", event => {
+      actual = (actual + 1) % luces.length;
+      raiz.style.setProperty("--acento", luces[actual].color);
+      frase.animate(
+        [
+          { opacity: 0, transform: "translateY(8px)" },
+          { opacity: 1, transform: "translateY(0)" }
+        ],
+        { duration: 500, easing: "ease-out" }
+      );
+      frase.textContent = luces[actual].frase;
+      numero.textContent = String(actual + 1).padStart(2, "0");
+      const caja = event.currentTarget.getBoundingClientRect();
+      destellos(caja.left + caja.width / 2, caja.top + caja.height / 2);
+    });
+
+    window.addEventListener("pointermove", event => {
+      raiz.style.setProperty("--x", (event.clientX / innerWidth * 100) + "%");
+      raiz.style.setProperty("--y", (event.clientY / innerHeight * 100) + "%");
+    }, { passive: true });
+
+    actualizarHora();
+    setInterval(actualizarHora, 1000);
+  </script>
+</body>
+</html>
+```
+
+Qué: Una portada contemplativa e interactiva llamada “Entre una cosa y otra”, con reloj, luces cambiantes y pequeñas frases para hacer una pausa.

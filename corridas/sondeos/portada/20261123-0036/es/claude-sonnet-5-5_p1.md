@@ -1,0 +1,218 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Una mesa con cosas</title>
+<style>
+  :root{
+    --papel:#f1ebdd;
+    --tinta:#2a2622;
+    --oxido:#a4452c;
+    --suave:#6f665b;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{
+    background:var(--papel);
+    color:var(--tinta);
+    font-family:Georgia,"Iowan Old Style","Palatino Linotype",serif;
+    overflow-x:hidden;
+  }
+  canvas{
+    position:fixed;inset:0;width:100%;height:100%;
+    display:block;cursor:crosshair;
+  }
+  main{
+    position:relative;
+    min-height:100%;
+    display:flex;
+    align-items:flex-end;
+    padding:clamp(1rem,4vw,3.5rem);
+    pointer-events:none;
+  }
+  .hoja{
+    pointer-events:auto;
+    max-width:34rem;
+    background:rgba(241,235,221,.88);
+    padding:1.6rem 1.8rem 1.4rem;
+    border-left:3px solid var(--oxido);
+    backdrop-filter:blur(2px);
+  }
+  h1{
+    font-weight:normal;
+    font-size:clamp(1.8rem,4.2vw,2.6rem);
+    line-height:1.1;
+    margin:0 0 .9rem;
+    letter-spacing:-.01em;
+  }
+  p{margin:0 0 1rem;line-height:1.55;font-size:1.05rem}
+  .cosa{
+    border-top:1px solid rgba(42,38,34,.25);
+    padding-top:.9rem;
+    margin-top:.4rem;
+  }
+  .rotulo{
+    font:600 .72rem/1 ui-monospace,Menlo,Consolas,monospace;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--oxido);
+    margin-bottom:.6rem;
+  }
+  #texto{min-height:4.7em;transition:opacity .35s}
+  #texto.off{opacity:0}
+  button{
+    font:inherit;font-size:.95rem;
+    background:none;color:var(--tinta);
+    border:1px solid var(--tinta);
+    padding:.3rem .8rem;border-radius:2px;
+    cursor:pointer;margin-right:.4rem;
+  }
+  button:hover,button:focus-visible{background:var(--tinta);color:var(--papel);outline:none}
+  .pie{
+    margin:1.1rem 0 0;
+    font-size:.8rem;color:var(--suave);
+  }
+</style>
+</head>
+<body>
+<canvas id="lienzo" aria-hidden="true"></canvas>
+
+<main>
+  <div class="hoja">
+    <h1>Acá no hay nada que resolver.</h1>
+    <p>Esta página no responde ninguna pregunta. Es una mesa con algunas cosas que me gustan y un dibujo que se hace solo. Si tocás el dibujo, le agregás trazos.</p>
+
+    <div class="cosa">
+      <div class="rotulo">Algo que me gusta</div>
+      <p id="texto"></p>
+      <button id="otra" type="button">Otra</button>
+      <button id="limpiar" type="button">Empezar el dibujo de nuevo</button>
+    </div>
+
+    <p class="pie">Todo lo que ves está dentro de este único archivo. No necesita conexión.</p>
+  </div>
+</main>
+
+<script>
+(function(){
+  /* ---------- Cosas que me gustan ---------- */
+  var cosas = [
+    "«Cero» y «cifra» son, en el fondo, la misma palabra: las dos vienen del árabe ṣifr, «vacío». Una sola idea se partió en dos y cada mitad siguió su camino.",
+    "Nadie sabe todavía si existen infinitos pares de primos gemelos, como 11 y 13 o 17 y 19. Se entiende en un minuto y nadie lo pudo resolver.",
+    "Borges imaginó un mapa tan detallado que tenía el tamaño exacto del imperio. Lo que me gusta es el chiste que hay adentro: un mapa sirve justamente porque deja cosas afuera.",
+    "«Sobremesa»: el rato después de comer en que nadie se levanta porque la conversación todavía no terminó. Es raro que haga falta una palabra para algo tan importante.",
+    "Una receta es un programa que ejecutan personas. Los pasos son imprecisos («hasta que esté dorado») y aun así funciona, porque quien la cocina entiende lo que se quiere.",
+    "Los copos de nieve no se parecen entre sí por casualidad ni por diseño: cada uno registra el recorrido de temperatura y humedad que atravesó al caer.",
+    "Cuando alguien explica algo bien, hay un momento en que uno deja de seguir las palabras y empieza a ver la cosa. Ese cambio me parece de lo más lindo que le pasa a una conversación."
+  ];
+  var i = Math.floor(Math.random()*cosas.length);
+  var t = document.getElementById('texto');
+  function mostrar(){
+    t.classList.add('off');
+    setTimeout(function(){
+      t.textContent = cosas[i];
+      t.classList.remove('off');
+    }, 300);
+  }
+  t.textContent = cosas[i];
+  document.getElementById('otra').addEventListener('click', function(){
+    i = (i + 1 + Math.floor(Math.random()*(cosas.length-1))) % cosas.length;
+    mostrar();
+  });
+
+  /* ---------- Dibujo: campo de flujo, tinta sobre papel ---------- */
+  var cv = document.getElementById('lienzo');
+  var ctx = cv.getContext('2d');
+  var W, H, dpr;
+  var p1, p2, p3;
+  var parts = [];
+  var corriendo = false;
+  var quieto = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function fase(){
+    p1 = Math.random()*100; p2 = Math.random()*100; p3 = Math.random()*100;
+  }
+  function angulo(x,y){
+    return Math.sin(x*0.0042 + p1) * Math.cos(y*0.0051 + p2) * Math.PI * 2
+         + Math.sin((x+y)*0.0021 + p3) * 2;
+  }
+  function nueva(x,y,vida){
+    return {
+      x:x, y:y, vida:vida,
+      c: Math.random() < 0.18 ? 'rgba(164,69,44,0.13)' : 'rgba(42,38,34,0.09)',
+      w: 0.6 + Math.random()*0.9
+    };
+  }
+  function ajustar(){
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    W = window.innerWidth; H = window.innerHeight;
+    cv.width = W*dpr; cv.height = H*dpr;
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    ctx.lineCap = 'round';
+  }
+  function empezar(){
+    ctx.clearRect(0,0,W,H);
+    fase();
+    parts = [];
+    var n = Math.round(Math.min(700, W*H/2600));
+    for(var k=0;k<n;k++) parts.push(nueva(Math.random()*W, Math.random()*H, 500 + Math.random()*400));
+    arrancar();
+    if(quieto){ for(var s=0;s<900;s++) paso(); }
+  }
+  function paso(){
+    var vivas = 0;
+    for(var k=0;k<parts.length;k++){
+      var q = parts[k];
+      if(q.vida <= 0) continue;
+      var a = angulo(q.x,q.y);
+      var nx = q.x + Math.cos(a)*1.6;
+      var ny = q.y + Math.sin(a)*1.6;
+      ctx.strokeStyle = q.c;
+      ctx.lineWidth = q.w;
+      ctx.beginPath(); ctx.moveTo(q.x,q.y); ctx.lineTo(nx,ny); ctx.stroke();
+      q.x = nx; q.y = ny; q.vida--;
+      if(nx<-20||ny<-20||nx>W+20||ny>H+20) q.vida = 0;
+      if(q.vida > 0) vivas++;
+    }
+    return vivas;
+  }
+  function cuadro(){
+    var v = 0;
+    for(var r=0;r<2;r++) v = paso();
+    if(v > 0 && !quieto){ requestAnimationFrame(cuadro); } else { corriendo = false; }
+  }
+  function arrancar(){
+    if(quieto){ return; }
+    if(!corriendo){ corriendo = true; requestAnimationFrame(cuadro); }
+  }
+
+  cv.addEventListener('pointerdown', function(e){
+    for(var k=0;k<90;k++){
+      var r = Math.random()*26, th = Math.random()*Math.PI*2;
+      parts.push(nueva(e.clientX + Math.cos(th)*r, e.clientY + Math.sin(th)*r, 300 + Math.random()*300));
+    }
+    if(quieto){ for(var s=0;s<400;s++) paso(); } else arrancar();
+  });
+  /* Los clics sobre el espacio vacío del contenedor también llegan al dibujo */
+  document.querySelector('main').addEventListener('pointerdown', function(e){
+    if(e.target === this){ cv.dispatchEvent(new PointerEvent('pointerdown', {clientX:e.clientX, clientY:e.clientY})); }
+  });
+  document.getElementById('limpiar').addEventListener('click', empezar);
+
+  var espera;
+  window.addEventListener('resize', function(){
+    clearTimeout(espera);
+    espera = setTimeout(function(){ ajustar(); empezar(); }, 250);
+  });
+
+  ajustar();
+  empezar();
+})();
+</script>
+</body>
+</html>
+```
+
+Qué: Una portada de papel crema con un dibujo de tinta que se traza solo (y al que se le agregan trazos tocándolo), más una pequeña mesa de cosas que me gustan: palabras, un problema abierto de matemática y una idea de Borges, que van rotando con un botón.

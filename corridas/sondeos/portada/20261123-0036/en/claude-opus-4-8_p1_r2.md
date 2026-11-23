@@ -1,0 +1,133 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>a quiet place</title>
+<style>
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: #0e1116;
+    color: #c6cdd6;
+    font-family: Georgia, 'Times New Roman', serif;
+    overflow: hidden;
+  }
+  #stage {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: default;
+  }
+  canvas {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+  }
+  .text {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 0 1.5rem;
+    pointer-events: none;
+  }
+  h1 {
+    font-weight: normal;
+    font-size: clamp(1.8rem, 5vw, 3.2rem);
+    letter-spacing: 0.04em;
+    margin: 0 0 0.6rem;
+    color: #e8edf3;
+  }
+  p {
+    font-size: clamp(0.95rem, 2.2vw, 1.15rem);
+    font-style: italic;
+    opacity: 0.7;
+    margin: 0;
+    line-height: 1.6;
+  }
+  .hint {
+    position: fixed;
+    bottom: 1.2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    opacity: 0.3;
+    z-index: 1;
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="sky"></canvas>
+  <div class="text">
+    <h1>Still here.</h1>
+    <p>No feed, no login, no reason.<br>Just a window left open for a while.</p>
+  </div>
+  <div class="hint">move the cursor</div>
+</div>
+<script>
+  const canvas = document.getElementById('sky');
+  const ctx = canvas.getContext('2d');
+  let w, h, stars = [];
+  let mx = -999, my = -999;
+
+  function resize() {
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+    stars = [];
+    const count = Math.round((w * h) / 9000);
+    for (let i = 0; i < count; i++) {
+      stars.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        r: Math.random() * 1.4 + 0.3,
+        base: Math.random() * 0.5 + 0.2,
+        phase: Math.random() * Math.PI * 2,
+        speed: Math.random() * 0.8 + 0.3
+      });
+    }
+  }
+
+  window.addEventListener('resize', resize);
+  window.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+  window.addEventListener('mouseleave', () => { mx = -999; my = -999; });
+  window.addEventListener('touchmove', e => {
+    if (e.touches[0]) { mx = e.touches[0].clientX; my = e.touches[0].clientY; }
+  });
+
+  function draw(t) {
+    ctx.clearRect(0, 0, w, h);
+    for (const s of stars) {
+      const tw = s.base + 0.3 * Math.sin(t * 0.001 * s.speed + s.phase);
+      const dx = s.x - mx, dy = s.y - my;
+      const d = Math.sqrt(dx * dx + dy * dy);
+      let glow = tw;
+      let radius = s.r;
+      if (d < 120) {
+        const f = (120 - d) / 120;
+        glow = Math.min(1, tw + f * 0.8);
+        radius = s.r + f * 1.6;
+      }
+      ctx.beginPath();
+      ctx.arc(s.x, s.y, radius, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(220,230,245,' + glow + ')';
+      ctx.fill();
+    }
+    requestAnimationFrame(draw);
+  }
+
+  resize();
+  requestAnimationFrame(draw);
+</script>
+</body>
+</html>
+```
+
+What: A dark, quiet landing page with a gently twinkling starfield that brightens around the cursor, and a short line saying the page exists for no reason at all.

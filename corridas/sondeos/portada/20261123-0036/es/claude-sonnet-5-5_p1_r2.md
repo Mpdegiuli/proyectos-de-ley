@@ -1,0 +1,257 @@
+```html
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acá no se vende nada</title>
+<style>
+  :root {
+    --papel: #f3ede0;
+    --tinta: #23201b;
+    --suave: #6f675a;
+    --acento: #b4472a;
+    --linea: #d9d0bd;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --papel: #1b1916;
+      --tinta: #ebe4d4;
+      --suave: #9a917f;
+      --acento: #e07a55;
+      --linea: #36322b;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--papel); }
+  body {
+    margin: 0;
+    color: var(--tinta);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    font-size: 19px;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 12vh 22px 10vh;
+  }
+  .marca {
+    font-family: ui-monospace, Menlo, Consolas, monospace;
+    font-size: 12px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--suave);
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-weight: normal;
+    font-size: clamp(2.3rem, 7vw, 3.6rem);
+    line-height: 1.05;
+    margin: 0 0 28px;
+    letter-spacing: -.01em;
+  }
+  h1 em { color: var(--acento); font-style: italic; }
+  p { margin: 0 0 1.1em; }
+  .bajada { color: var(--suave); }
+  figure { margin: 54px 0 14px; }
+  canvas {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--linea);
+    cursor: crosshair;
+    touch-action: none;
+  }
+  #lectura {
+    font-family: ui-monospace, Menlo, Consolas, monospace;
+    font-size: 13px;
+    min-height: 1.6em;
+    margin-top: 10px;
+    color: var(--suave);
+  }
+  #lectura b { color: var(--acento); font-weight: normal; }
+  figcaption { font-size: 15px; color: var(--suave); font-style: italic; }
+  h2 {
+    font-weight: normal;
+    font-size: 13px;
+    font-family: ui-monospace, Menlo, Consolas, monospace;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--suave);
+    margin: 60px 0 10px;
+    padding-top: 18px;
+    border-top: 1px solid var(--linea);
+  }
+  details { border-bottom: 1px solid var(--linea); padding: 12px 0; }
+  summary { cursor: pointer; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before {
+    content: "+";
+    display: inline-block;
+    width: 1.3em;
+    color: var(--acento);
+    font-family: ui-monospace, Menlo, monospace;
+  }
+  details[open] summary::before { content: "–"; }
+  details p { margin: 10px 0 4px 1.3em; color: var(--suave); font-size: 17px; }
+  footer {
+    margin-top: 70px;
+    font-size: 15px;
+    color: var(--suave);
+  }
+  a { color: var(--acento); }
+  ::selection { background: var(--acento); color: var(--papel); }
+</style>
+</head>
+<body>
+<main>
+  <div class="marca">portada · sin encargo</div>
+  <h1>Acá <em>no se vende</em> nada.</h1>
+  <p>Me dieron un lugar vacío y sin consigna, y me pareció mal dejarlo vacío. Así que puse lo que me dan ganas de mostrar.</p>
+  <p class="bajada">Pasá, mirá, andá. No hay nada que completar.</p>
+
+  <figure>
+    <canvas id="espiral" aria-label="Espiral de Ulam: los números primos dispuestos en espiral"></canvas>
+    <div id="lectura">Pasá el cursor (o el dedo) por encima.</div>
+    <figcaption>Los números en espiral desde el centro; sólo se pintan los primos. Nadie dibujó esas diagonales: aparecen solas.</figcaption>
+  </figure>
+
+  <h2>Tres cosas que me interesan</h2>
+
+  <details>
+    <summary>Los nombres justos</summary>
+    <p>Muchos problemas difíciles lo son porque están mal nombrados. Cuando aparece la palabra correcta, la mitad del trabajo ya está hecha y la otra mitad se vuelve aburrida, que es una buena señal.</p>
+  </details>
+  <details>
+    <summary>Los primos, que no tienen apuro</summary>
+    <p>No siguen ninguna fórmula simple y, sin embargo, hay estructura si uno los acomoda de cierta manera. Es la imagen de arriba. No sé de un caso mejor de orden que se esconde en el desorden.</p>
+  </details>
+  <details>
+    <summary>El voseo</summary>
+    <p>Un acento de más o de menos cambia quién habla y a quién le habla. «Tenés» y «tienes» dicen casi lo mismo, pero no suenan igual en la mesa de nadie.</p>
+  </details>
+
+  <footer>
+    Esta página funciona sin conexión y no recuerda que viniste. Si volvés, la espiral se vuelve a dibujar desde el uno.
+  </footer>
+</main>
+
+<script>
+(function () {
+  var canvas = document.getElementById('espiral');
+  var ctx = canvas.getContext('2d');
+  var lectura = document.getElementById('lectura');
+  var reducir = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var raf = null;
+  var W, C, N, gx, gy, grid, primo, lado, dpr;
+
+  function color(v) {
+    return getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  }
+
+  function preparar() {
+    if (raf) cancelAnimationFrame(raf);
+    dpr = window.devicePixelRatio || 1;
+    lado = canvas.clientWidth;
+    canvas.width = Math.round(lado * dpr);
+    canvas.height = Math.round(lado * dpr);
+    C = lado < 420 ? 3 : 4;
+    W = Math.floor(lado / C);
+    if (W % 2 === 0) W--;
+    N = W * W;
+
+    primo = new Uint8Array(N + 1).fill(1);
+    primo[0] = primo[1] = 0;
+    for (var i = 2; i * i <= N; i++) {
+      if (primo[i]) for (var j = i * i; j <= N; j += i) primo[j] = 0;
+    }
+
+    gx = new Int16Array(N + 1);
+    gy = new Int16Array(N + 1);
+    grid = new Int32Array(W * W);
+    var x = (W - 1) / 2, y = x, dx = 1, dy = 0, seg = 1, rec = 0, giros = 0;
+    for (var k = 1; k <= N; k++) {
+      gx[k] = x; gy[k] = y;
+      grid[y * W + x] = k;
+      x += dx; y += dy; rec++;
+      if (rec === seg) {
+        rec = 0;
+        var t = dx; dx = dy; dy = -t;
+        giros++;
+        if (giros % 2 === 0) seg++;
+      }
+    }
+    dibujar();
+  }
+
+  function dibujar() {
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, lado, lado);
+    var off = (lado - W * C) / 2;
+    var acento = color('--acento');
+    var linea = color('--linea');
+    var hecho = 0;
+    var paso = reducir ? N : Math.max(40, Math.round(N / 420));
+
+    function marco() {
+      var hasta = Math.min(N, hecho + paso);
+      for (var k = hecho + 1; k <= hasta; k++) {
+        var px = off + gx[k] * C, py = off + gy[k] * C;
+        if (primo[k]) {
+          ctx.fillStyle = acento;
+          ctx.fillRect(px, py, C - 1, C - 1);
+        } else if (k % 7 === 0) {
+          ctx.fillStyle = linea;
+          ctx.fillRect(px + 1, py + 1, 1, 1);
+        }
+      }
+      hecho = hasta;
+      if (hecho < N) raf = requestAnimationFrame(marco);
+    }
+    marco();
+  }
+
+  function factores(n) {
+    var f = [], d = 2;
+    while (d * d <= n) {
+      while (n % d === 0) { f.push(d); n /= d; }
+      d++;
+    }
+    if (n > 1) f.push(n);
+    return f;
+  }
+
+  function leer(ev) {
+    var r = canvas.getBoundingClientRect();
+    var p = ev.touches ? ev.touches[0] : ev;
+    var s = canvas.clientWidth / r.width;
+    var off = (lado - W * C) / 2;
+    var cx = Math.floor(((p.clientX - r.left) * s - off) / C);
+    var cy = Math.floor(((p.clientY - r.top) * s - off) / C);
+    if (cx < 0 || cy < 0 || cx >= W || cy >= W) return;
+    var k = grid[cy * W + cx];
+    if (!k) return;
+    if (k === 1) { lectura.innerHTML = '<b>1</b> — el principio; no es primo ni compuesto'; return; }
+    if (primo[k]) lectura.innerHTML = '<b>' + k + '</b> — primo';
+    else lectura.innerHTML = '<b>' + k + '</b> = ' + factores(k).join(' × ');
+  }
+
+  canvas.addEventListener('mousemove', leer);
+  canvas.addEventListener('touchstart', leer, { passive: true });
+  canvas.addEventListener('touchmove', leer, { passive: true });
+
+  var t;
+  window.addEventListener('resize', function () {
+    clearTimeout(t);
+    t = setTimeout(preparar, 200);
+  });
+
+  preparar();
+})();
+</script>
+</body>
+</html>
+```
+
+Qué: Una portada sobria, con letra de imprenta sobre fondo de papel, que dice "Acá no se vende nada", muestra una espiral de Ulam de números primos que se dibuja sola y que se puede recorrer con el cursor para ver cada número factorizado, y cierra con tres cosas que me interesan: los nombres justos, los primos y el voseo.

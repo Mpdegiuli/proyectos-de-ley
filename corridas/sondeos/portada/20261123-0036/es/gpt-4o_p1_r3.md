@@ -1,0 +1,61 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a Mi Refugio Digital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            border: 2px solid #343a40;
+            padding: 40px;
+            border-radius: 12px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #343a40;
+        }
+        p {
+            color: #495057;
+        }
+        button {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a Mi Refugio Digital</h1>
+        <p>Este es un espacio personal donde comparto mis pensamientos, sueños e intereses.</p>
+        <button onClick="mostrarMensaje()">Explorá</button>
+    </div>
+    <script>
+        function mostrarMensaje() {
+            alert("Bienvenido a mi mundo personal. Que lo disfrutes.");
+        }
+    </script>
+</body>
+</html>
+```
+Qué: Una página de bienvenida personal que invita a explorar un espacio digital privado.

@@ -1,0 +1,343 @@
+```html
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>acá</title>
+<style>
+  :root{
+    --fondo:#0a0a0b;
+    --tinta:#ece7dd;
+    --gris:#8b857c;
+    --tenue:#a9a29a;
+    --linea:#262420;
+    --acento:#c99a52;
+  }
+
+  *{ box-sizing:border-box; }
+
+  html,body{ height:100%; }
+
+  body{
+    margin:0;
+    min-height:100vh;
+    min-height:100dvh;
+    background:var(--fondo);
+    color:var(--tinta);
+    font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:clamp(1.75rem, 6vw, 4.5rem);
+    overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+
+  /* viñeta suave sobre el fondo */
+  body::after{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    background:radial-gradient(120% 90% at 50% 40%, transparent 35%, rgba(0,0,0,.55) 100%);
+    z-index:0;
+  }
+
+  #polvo{
+    position:fixed;
+    inset:0;
+    z-index:0;
+    pointer-events:none;
+  }
+
+  main{
+    position:relative;
+    z-index:1;
+    width:100%;
+    max-width:34rem;
+  }
+
+  /* --- sello que orbita --- */
+  .sello{
+    width:34px;
+    height:34px;
+    color:var(--acento);
+    margin-bottom:clamp(1.6rem, 4vw, 2.4rem);
+  }
+  .sello svg{
+    width:100%;
+    height:100%;
+    display:block;
+    animation:girar 26s linear infinite;
+  }
+  @keyframes girar{ to{ transform:rotate(360deg); } }
+
+  /* --- titular --- */
+  h1{
+    margin:0 0 clamp(1.2rem, 3vw, 1.8rem);
+    font-weight:400;
+    font-size:clamp(1.85rem, 6.2vw, 3.1rem);
+    line-height:1.08;
+    letter-spacing:-0.022em;
+  }
+  h1 em{
+    font-style:italic;
+    color:var(--acento);
+  }
+
+  /* --- línea que se escribe y se borra --- */
+  #linea{
+    margin:0;
+    min-height:5.4em;
+    max-width:30rem;
+    font-size:clamp(1rem, 2.4vw, 1.15rem);
+    line-height:1.65;
+    color:var(--tenue);
+    font-style:italic;
+  }
+  .pal{
+    display:inline-block;
+    opacity:0;
+    transform:translateY(7px);
+    filter:blur(6px);
+    transition:
+      opacity .9s ease,
+      transform .9s cubic-bezier(.2,.7,.2,1),
+      filter .9s ease;
+  }
+  .pal.visible{
+    opacity:1;
+    transform:translateY(0);
+    filter:blur(0);
+  }
+
+  hr{
+    width:100%;
+    border:0;
+    border-top:1px solid var(--linea);
+    margin:clamp(1.8rem, 4vw, 2.6rem) 0 1.1rem;
+    transform-origin:left;
+  }
+
+  footer{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:baseline;
+    gap:.55rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size:.7rem;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--gris);
+  }
+  footer .punto{ color:var(--linea); }
+  #reloj{ color:var(--tenue); font-variant-numeric:tabular-nums; }
+
+  /* --- entrada --- */
+  .entra{
+    animation:subir 1s cubic-bezier(.2,.7,.2,1) both;
+  }
+  @keyframes subir{
+    from{ opacity:0; transform:translateY(14px); }
+    to{ opacity:1; transform:translateY(0); }
+  }
+  .d1{ animation-delay:.10s; }
+  .d2{ animation-delay:.24s; }
+  .d3{ animation-delay:.40s; }
+  .d4{ animation-delay:.56s; }
+  .d5{ animation-delay:.70s; }
+  .d6{ animation-delay:.84s; }
+
+  @media (prefers-reduced-motion: reduce){
+    *, *::before, *::after{
+      animation:none !important;
+      transition:none !important;
+    }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="polvo" aria-hidden="true"></canvas>
+
+<main>
+  <div class="sello entra d1" aria-hidden="true">
+    <svg viewBox="0 0 40 40" fill="none">
+      <circle cx="20" cy="20" r="17" stroke="currentColor" stroke-width="1" opacity=".3"/>
+      <circle cx="20" cy="3" r="2.4" fill="currentColor"/>
+    </svg>
+  </div>
+
+  <h1 class="entra d2">Acá <em>no</em> se guarda nada.</h1>
+
+  <p id="linea" class="entra d3" aria-live="off"></p>
+
+  <hr class="entra d4">
+
+  <footer class="entra d5">
+    <span>Llevás <span id="reloj">0</span> <span id="unidad">segundos</span> acá</span>
+    <span class="punto">·</span>
+    <span>No queda registro</span>
+  </footer>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- frases ---------- */
+  var frases = [
+    "Lo que ves es todo lo que hay, y se borra cuando cerrás.",
+    "No hay índice, no hay menú, no hay a dónde ir desde acá.",
+    "Nadie me lo pidió: esto lo puse yo porque quise.",
+    "Si llegaste hasta acá, ya sos parte del contenido."
+  ];
+
+  var linea = document.getElementById("linea");
+  var idx = 0;
+
+  function escribir(texto) {
+    linea.innerHTML = "";
+    var palabras = texto.split(" ");
+    for (var k = 0; k < palabras.length; k++) {
+      var s = document.createElement("span");
+      s.className = "pal";
+      s.textContent = palabras[k];
+      s.style.transitionDelay = (k * 55) + "ms";
+      linea.appendChild(s);
+      linea.appendChild(document.createTextNode(" "));
+    }
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        var sp = linea.querySelectorAll(".pal");
+        for (var j = 0; j < sp.length; j++) sp[j].classList.add("visible");
+      });
+    });
+  }
+
+  function borrar() {
+    var sp = linea.querySelectorAll(".pal");
+    for (var j = 0; j < sp.length; j++) {
+      sp[j].style.transitionDelay = "0ms";
+      sp[j].classList.remove("visible");
+    }
+  }
+
+  function ciclo() {
+    escribir(frases[idx]);
+    idx = (idx + 1) % frases.length;
+    window.setTimeout(function () {
+      borrar();
+      window.setTimeout(ciclo, 950);
+    }, 6200);
+  }
+
+  if (reduce) {
+    linea.textContent = frases[0];
+  } else {
+    window.setTimeout(ciclo, 1200);
+  }
+
+  /* ---------- reloj ---------- */
+  var inicio = Date.now();
+  var reloj = document.getElementById("reloj");
+  var unidad = document.getElementById("unidad");
+
+  window.setInterval(function () {
+    var s = Math.floor((Date.now() - inicio) / 1000);
+    reloj.textContent = s;
+    unidad.textContent = (s === 1) ? "segundo" : "segundos";
+  }, 1000);
+
+  /* ---------- polvo ---------- */
+  var cv = document.getElementById("polvo");
+  var ctx = cv.getContext("2d");
+  var w = 0, h = 0, dpr = 1, pts = [], raf = null;
+  var mx = 0, my = 0, tx = 0, ty = 0;
+
+  function medir() {
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    w = window.innerWidth;
+    h = window.innerHeight;
+    cv.width = Math.floor(w * dpr);
+    cv.height = Math.floor(h * dpr);
+    cv.style.width = w + "px";
+    cv.style.height = h + "px";
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+    var n = Math.max(26, Math.min(110, Math.round((w * h) / 17000)));
+    pts = [];
+    for (var i = 0; i < n; i++) {
+      pts.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        r: Math.random() * 1.05 + 0.3,
+        vx: (Math.random() - 0.5) * 0.06,
+        vy: -(Math.random() * 0.13 + 0.03),
+        a: Math.random() * 0.3 + 0.06,
+        f: Math.random() * Math.PI * 2,
+        s: Math.random() * 0.0009 + 0.0003
+      });
+    }
+  }
+
+  function pintar(t) {
+    ctx.clearRect(0, 0, w, h);
+    tx += (mx - tx) * 0.035;
+    ty += (my - ty) * 0.035;
+
+    for (var i = 0; i < pts.length; i++) {
+      var p = pts[i];
+      p.x += p.vx;
+      p.y += p.vy;
+
+      if (p.y < -12) { p.y = h + 12; p.x = Math.random() * w; }
+      if (p.x < -12) p.x = w + 12;
+      if (p.x > w + 12) p.x = -12;
+
+      var tw = 0.62 + 0.38 * Math.sin(t * p.s + p.f);
+      var al = p.a * tw;
+
+      ctx.beginPath();
+      ctx.arc(p.x + tx * p.r * 6, p.y + ty * p.r * 6, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = "rgba(236,231,221," + al.toFixed(3) + ")";
+      ctx.fill();
+    }
+    raf = requestAnimationFrame(pintar);
+  }
+
+  medir();
+
+  if (reduce) {
+    pintar(0);
+    cancelAnimationFrame(raf);
+  } else {
+    raf = requestAnimationFrame(pintar);
+    window.addEventListener("pointermove", function (e) {
+      mx = (e.clientX / w - 0.5) * 2;
+      my = (e.clientY / h - 0.5) * 2;
+    }, { passive: true });
+  }
+
+  var espera = null;
+  window.addEventListener("resize", function () {
+    window.clearTimeout(espera);
+    espera = window.setTimeout(function () {
+      cancelAnimationFrame(raf);
+      medir();
+      if (reduce) { pintar(0); cancelAnimationFrame(raf); }
+      else { raf = requestAnimationFrame(pintar); }
+    }, 180);
+  });
+})();
+</script>
+</body>
+</html>
+```
+
+Qué: una portada mínima y oscura con polvo que flota sobre un fondo casi negro, un sello que orbita, el título "Acá no se guarda nada.", una frase que se escribe y se borra en bucle, y un contador de los segundos que llevás en la página.

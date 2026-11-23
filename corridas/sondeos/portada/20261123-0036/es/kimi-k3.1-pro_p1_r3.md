@@ -1,0 +1,1218 @@
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2eee3">
+  <meta name="description" content="Casi nada: un archivo doméstico de instantes mínimos, señales breves y pausas sin propósito.">
+  <title>Casi nada — archivo doméstico</title>
+  <style>
+    :root {
+      --paper: #f2eee3;
+      --paper-deep: #e5dfd1;
+      --ink: #19231f;
+      --muted: #68716a;
+      --accent: #ed6542;
+      --dark: #17231e;
+      --dark-soft: #2d3b34;
+      --line: rgba(25, 35, 31, .23);
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: Arial, Helvetica, sans-serif;
+      --mono: "Courier New", Courier, monospace;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      background: var(--paper);
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(rgba(25, 35, 31, .025) 1px, transparent 1px),
+        var(--paper);
+      background-size: 100% 6px;
+      font-family: var(--sans);
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+
+    ::selection {
+      color: var(--paper);
+      background: var(--ink);
+    }
+
+    a { color: inherit; }
+
+    button, summary, a { -webkit-tap-highlight-color: transparent; }
+
+    button { font: inherit; }
+
+    :focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 5px;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: 12px;
+      left: 12px;
+      z-index: 100;
+      padding: 10px 14px;
+      color: var(--paper);
+      background: var(--ink);
+      transform: translateY(-160%);
+    }
+
+    .skip-link:focus { transform: translateY(0); }
+
+    .wrap {
+      width: min(calc(100% - 48px), 1480px);
+      margin-inline: auto;
+    }
+
+    .micro {
+      margin: 0;
+      font-family: var(--mono);
+      font-size: .72rem;
+      line-height: 1.4;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+
+    .topbar {
+      min-height: 82px;
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 24px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      justify-self: start;
+      gap: 10px;
+      font-family: var(--mono);
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 4px rgba(237, 101, 66, .15);
+    }
+
+    .edition {
+      color: var(--muted);
+      text-align: center;
+    }
+
+    nav {
+      justify-self: end;
+      display: flex;
+      gap: 24px;
+    }
+
+    nav a {
+      position: relative;
+      font-family: var(--mono);
+      font-size: .72rem;
+      letter-spacing: .08em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    nav a::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: -5px;
+      left: 0;
+      height: 1px;
+      background: currentColor;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform .25s ease;
+    }
+
+    nav a:hover::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    .hero {
+      min-height: calc(100svh - 82px);
+      display: flex;
+      flex-direction: column;
+      padding-block: 28px 24px;
+    }
+
+    .kicker {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .hero-main {
+      flex: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(250px, 320px);
+      align-items: center;
+      gap: clamp(30px, 6vw, 100px);
+      padding-block: 4vh;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(5.4rem, 16.5vw, 15rem);
+      font-weight: 400;
+      line-height: .74;
+      letter-spacing: -.085em;
+    }
+
+    h1 em {
+      color: var(--accent);
+      font-weight: 400;
+    }
+
+    .full-stop { color: var(--ink); }
+
+    .hero-side {
+      align-self: end;
+      margin-bottom: 4vh;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+    }
+
+    .orbit-wrap {
+      position: relative;
+      width: 106px;
+      height: 106px;
+      margin-bottom: 30px;
+    }
+
+    .orbit {
+      position: absolute;
+      inset: 0;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      animation: turn 18s linear infinite;
+    }
+
+    .orbit::after {
+      content: "";
+      position: absolute;
+      top: -6px;
+      left: calc(50% - 6px);
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    .orbit-word {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      font-family: var(--mono);
+      font-size: .62rem;
+      letter-spacing: .12em;
+    }
+
+    @keyframes turn { to { transform: rotate(360deg); } }
+
+    .hero-deck {
+      margin: 0 0 18px;
+      font-family: var(--serif);
+      font-size: clamp(1.8rem, 3vw, 2.5rem);
+      line-height: 1.05;
+      letter-spacing: -.035em;
+    }
+
+    .hero-copy {
+      max-width: 36ch;
+      margin: 0;
+      color: #3f4943;
+      font-size: .94rem;
+    }
+
+    .hero-bottom {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+    }
+
+    .local-time {
+      display: block;
+      margin-bottom: 3px;
+      font-family: var(--serif);
+      font-size: 1.65rem;
+      line-height: 1;
+    }
+
+    .enter-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 28px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid currentColor;
+      font-size: .9rem;
+      text-decoration: none;
+    }
+
+    .enter-link span {
+      color: var(--accent);
+      font-size: 1.4rem;
+    }
+
+    .band {
+      color: var(--ink);
+      background: var(--accent);
+      border-block: 1px solid var(--ink);
+    }
+
+    .band ul {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      margin: 0;
+      padding-block: 13px;
+      list-style: none;
+      font-family: var(--mono);
+      font-size: .67rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .band li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      white-space: nowrap;
+    }
+
+    .band li::before {
+      content: "•";
+      font-size: 1rem;
+    }
+
+    section { scroll-margin-top: 20px; }
+
+    .section-pad { padding-block: clamp(76px, 10vw, 150px); }
+
+    .section-heading {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid currentColor;
+    }
+
+    .daily {
+      color: var(--paper);
+      background: var(--dark);
+    }
+
+    .daily .section-heading { color: #a8b2aa; }
+
+    .daily-grid {
+      display: grid;
+      grid-template-columns: 150px minmax(0, 1.25fr) minmax(260px, .75fr);
+      gap: clamp(28px, 5vw, 80px);
+      align-items: start;
+      padding-top: clamp(48px, 7vw, 90px);
+    }
+
+    .big-index {
+      margin: 0;
+      color: var(--dark-soft);
+      font-family: var(--serif);
+      font-size: clamp(7rem, 12vw, 11rem);
+      line-height: .75;
+      letter-spacing: -.08em;
+    }
+
+    .daily-title-wrap .micro {
+      margin-bottom: 24px;
+      color: var(--accent);
+    }
+
+    .daily h2 {
+      max-width: 780px;
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(2.8rem, 5.3vw, 5.8rem);
+      font-weight: 400;
+      line-height: .98;
+      letter-spacing: -.055em;
+    }
+
+    .daily-description {
+      margin: 3px 0 38px;
+      color: #c8cec7;
+      font-family: var(--serif);
+      font-size: 1.15rem;
+      line-height: 1.55;
+    }
+
+    .daily dl {
+      margin: 0 0 34px;
+      border-top: 1px solid #435048;
+    }
+
+    .daily dl div {
+      display: grid;
+      grid-template-columns: 105px 1fr;
+      gap: 18px;
+      padding-block: 10px;
+      border-bottom: 1px solid #435048;
+    }
+
+    .daily dt {
+      color: #8e9b92;
+      font-family: var(--mono);
+      font-size: .65rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .daily dd {
+      margin: 0;
+      font-size: .82rem;
+    }
+
+    .text-button {
+      padding: 12px 0;
+      color: inherit;
+      background: transparent;
+      border: 0;
+      border-bottom: 1px solid currentColor;
+      cursor: pointer;
+      font-size: .84rem;
+    }
+
+    .text-button:hover { color: var(--accent); }
+
+    .ficha-counter {
+      margin: 16px 0 0;
+      color: #8e9b92;
+    }
+
+    .inventory-intro {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: end;
+      padding-block: clamp(45px, 7vw, 80px);
+    }
+
+    .inventory h2,
+    .pause h2 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(3rem, 6.2vw, 6.7rem);
+      font-weight: 400;
+      line-height: .95;
+      letter-spacing: -.06em;
+    }
+
+    .inventory-intro > p {
+      max-width: 42ch;
+      justify-self: end;
+      margin: 0;
+      color: var(--muted);
+      font-family: var(--serif);
+      font-size: 1.1rem;
+    }
+
+    .specimens {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 1px solid var(--line);
+      border-left: 1px solid var(--line);
+    }
+
+    .specimen {
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .specimen[open] { background: var(--paper-deep); }
+
+    .specimen summary {
+      min-height: 450px;
+      display: flex;
+      flex-direction: column;
+      padding: 18px;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .specimen summary::-webkit-details-marker { display: none; }
+
+    .art {
+      position: relative;
+      height: 190px;
+      flex: 0 0 auto;
+      margin-bottom: 36px;
+      overflow: hidden;
+      background: #ded8ca;
+    }
+
+    .art-light span {
+      position: absolute;
+      top: -35%;
+      left: 26%;
+      width: 43%;
+      height: 170%;
+      background: var(--accent);
+      opacity: .85;
+      transform: rotate(24deg);
+    }
+
+    .art-sound {
+      display: grid;
+      place-items: center;
+    }
+
+    .art-sound span {
+      position: absolute;
+      border: 1px solid var(--ink);
+      border-radius: 50%;
+    }
+
+    .art-sound span:nth-child(1) { width: 35px; height: 35px; background: var(--accent); }
+    .art-sound span:nth-child(2) { width: 90px; height: 90px; opacity: .65; }
+    .art-sound span:nth-child(3) { width: 155px; height: 155px; opacity: .3; }
+
+    .art-word {
+      display: grid;
+      place-items: center;
+      color: var(--accent);
+      font-family: var(--serif);
+      font-size: 10rem;
+      font-style: italic;
+      line-height: 1;
+    }
+
+    .art-dark {
+      display: grid;
+      place-items: center;
+      background: var(--dark);
+    }
+
+    .art-dark span {
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: var(--paper);
+      box-shadow: 0 0 45px 14px rgba(242, 238, 227, .22);
+    }
+
+    .specimen .micro { color: var(--muted); }
+
+    .specimen h3 {
+      margin: 13px 0 20px;
+      font-family: var(--serif);
+      font-size: 1.65rem;
+      font-weight: 400;
+      line-height: 1.08;
+      letter-spacing: -.03em;
+    }
+
+    .specimen-open {
+      display: flex;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+      font-family: var(--mono);
+      font-size: .65rem;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+    }
+
+    .plus {
+      color: var(--accent);
+      font-size: 1rem;
+      line-height: .7;
+    }
+
+    .specimen[open] .plus { transform: rotate(45deg); }
+
+    .specimen-copy {
+      padding: 0 18px 22px;
+      font-family: var(--serif);
+      font-size: .98rem;
+    }
+
+    .specimen-copy p { margin: 0 0 16px; }
+
+    .specimen-copy .care {
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: .67rem;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    .pause {
+      color: var(--ink);
+      background: var(--accent);
+      border-block: 1px solid var(--ink);
+    }
+
+    .pause-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(280px, .8fr);
+      gap: clamp(50px, 9vw, 140px);
+      align-items: center;
+      padding-top: clamp(50px, 7vw, 85px);
+    }
+
+    .pause-copy > p {
+      max-width: 43ch;
+      margin: 32px 0 0;
+      font-family: var(--serif);
+      font-size: 1.15rem;
+    }
+
+    .hold-station {
+      justify-self: center;
+      width: min(100%, 330px);
+      text-align: center;
+    }
+
+    .hold-button {
+      --scale: 1;
+      --ring: 0px;
+      width: clamp(190px, 23vw, 250px);
+      aspect-ratio: 1;
+      display: inline-grid;
+      place-items: center;
+      padding: 30px;
+      color: var(--paper);
+      background: var(--ink);
+      border: 0;
+      border-radius: 50%;
+      box-shadow: 0 0 0 var(--ring) rgba(25, 35, 31, .13);
+      cursor: pointer;
+      touch-action: none;
+      user-select: none;
+      transform: scale(var(--scale));
+    }
+
+    .hold-button span {
+      max-width: 130px;
+      font-family: var(--mono);
+      font-size: .7rem;
+      line-height: 1.5;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+
+    .hold-button.is-holding { cursor: grabbing; }
+
+    .meter {
+      height: 2px;
+      margin: 35px auto 18px;
+      background: rgba(25, 35, 31, .25);
+    }
+
+    .meter span {
+      display: block;
+      width: 0;
+      height: 100%;
+      background: var(--ink);
+    }
+
+    #hold-instruction {
+      margin: 0;
+      font-family: var(--mono);
+      font-size: .68rem;
+      line-height: 1.5;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+    }
+
+    #hold-status {
+      min-height: 1.5em;
+      margin: 16px 0 0;
+      font-family: var(--serif);
+      font-style: italic;
+    }
+
+    .pause-gift {
+      margin: 20px 0 0;
+      padding-top: 18px;
+      border-top: 1px solid rgba(25, 35, 31, .4);
+      font-family: var(--serif);
+      font-size: 1.25rem;
+    }
+
+    footer { padding-block: 55px 28px; }
+
+    .footer-main {
+      display: grid;
+      grid-template-columns: 1fr 1fr auto;
+      gap: 35px;
+      align-items: start;
+    }
+
+    .footer-note {
+      margin: 13px 0 0;
+      color: var(--muted);
+      font-family: var(--serif);
+      font-style: italic;
+    }
+
+    .footer-data { color: var(--muted); }
+
+    .back-top {
+      font-family: var(--mono);
+      font-size: .7rem;
+      letter-spacing: .07em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-top: 55px;
+      padding-top: 15px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+    }
+
+    @media (max-width: 1100px) {
+      .specimens { grid-template-columns: repeat(2, 1fr); }
+      .daily-grid { grid-template-columns: 100px minmax(0, 1fr); }
+      .daily-note { grid-column: 2; max-width: 560px; }
+    }
+
+    @media (max-width: 800px) {
+      .topbar { grid-template-columns: 1fr auto; }
+      .edition { display: none; }
+      .hero { min-height: auto; }
+      .hero-main {
+        grid-template-columns: 1fr;
+        padding-block: 70px 45px;
+      }
+      .hero-side {
+        max-width: 480px;
+        margin: 0;
+      }
+      .orbit-wrap { display: none; }
+      .band ul { flex-wrap: wrap; justify-content: flex-start; }
+      .daily-grid { grid-template-columns: 1fr; }
+      .big-index { display: none; }
+      .daily-note { grid-column: auto; }
+      .inventory-intro { grid-template-columns: 1fr; }
+      .inventory-intro > p { justify-self: start; }
+      .pause-grid { grid-template-columns: 1fr; }
+      .footer-main { grid-template-columns: 1fr 1fr; }
+      .back-top { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 560px) {
+      .wrap { width: calc(100% - 30px); }
+      .topbar { min-height: 72px; gap: 12px; }
+      nav { gap: 13px; }
+      nav a { font-size: .62rem; }
+      .brand { font-size: .7rem; }
+      .kicker span:last-child { display: none; }
+      h1 { font-size: clamp(5rem, 25vw, 8rem); }
+      .hero-bottom { align-items: start; flex-direction: column; }
+      .band ul { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+      .band li { white-space: normal; }
+      .section-heading { flex-direction: column; gap: 6px; }
+      .specimens { grid-template-columns: 1fr; }
+      .specimen summary { min-height: 420px; }
+      .footer-main { grid-template-columns: 1fr; }
+      .back-top { grid-column: auto; }
+      .footer-bottom { flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="topbar wrap" id="inicio">
+    <a class="brand" href="#inicio" aria-label="Casi nada, volver al inicio">
+      <span class="brand-mark" aria-hidden="true"></span>
+      CASI NADA
+    </a>
+    <p class="edition micro">Archivo doméstico · Edición continua</p>
+    <nav aria-label="Recorrer la página">
+      <a href="#ficha">Ficha</a>
+      <a href="#inventario">Inventario</a>
+      <a href="#pausa">Pausa</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero wrap" aria-labelledby="titulo-principal">
+      <div class="kicker micro">
+        <span>Una colección de señales mínimas</span>
+        <span>Piezas 001—∞</span>
+      </div>
+
+      <div class="hero-main">
+        <h1 id="titulo-principal">CASI<br><em>NADA</em><span class="full-stop">.</span></h1>
+
+        <div class="hero-side">
+          <div class="orbit-wrap" aria-hidden="true">
+            <div class="orbit"></div>
+            <span class="orbit-word">AHORA</span>
+          </div>
+          <p class="hero-deck">también merece<br>un lugar.</p>
+          <p class="hero-copy">
+            Colecciono instantes que no llegan a recuerdo: una taza que se enfría,
+            una palabra a medias, la luz cambiando de pared. Los dejo acá para que
+            duren un poco más.
+          </p>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <div>
+          <time class="local-time" id="clock">--:--</time>
+          <span class="micro">En este navegador · Afuera no lo sé</span>
+        </div>
+        <a class="enter-link" href="#ficha">Recorrer el archivo <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <div class="band" aria-label="Condiciones de visita">
+      <ul class="wrap">
+        <li>Abierto ahora</li>
+        <li>Sin entrada</li>
+        <li>Sin apuro</li>
+        <li>Sin contador</li>
+      </ul>
+    </div>
+
+    <section class="daily section-pad" id="ficha" aria-labelledby="ficha-titulo">
+      <div class="wrap">
+        <div class="section-heading micro">
+          <span>01 / Ficha del día</span>
+          <time id="date">La fecha de hoy</time>
+        </div>
+
+        <div class="daily-grid">
+          <p class="big-index" id="ficha-numero" aria-hidden="true">01</p>
+
+          <div class="daily-title-wrap">
+            <p class="micro" id="ficha-clase">Presencia doméstica</p>
+            <h2 id="ficha-titulo">El calor que queda en una silla</h2>
+          </div>
+
+          <div class="daily-note">
+            <p class="daily-description" id="ficha-texto">
+              Prueba breve de que alguien estuvo. No dura lo suficiente para
+              volverse recuerdo; alcanza para cambiar la temperatura de una habitación.
+            </p>
+
+            <dl>
+              <div>
+                <dt>Estado</dt>
+                <dd id="ficha-estado">En disipación</dd>
+              </div>
+              <div>
+                <dt>Conservación</dt>
+                <dd id="ficha-cuidado">Esperar de pie, todavía.</dd>
+              </div>
+            </dl>
+
+            <button class="text-button" id="otra-ficha" type="button">
+              Mostrar otra ficha, sin orden <span aria-hidden="true">→</span>
+            </button>
+            <p class="ficha-counter micro" id="ficha-contador">Ficha 1 de 8 · La fecha elige la primera</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="inventory section-pad wrap" id="inventario" aria-labelledby="inventario-titulo">
+      <div class="section-heading micro">
+        <span>02 / Inventario permanente</span>
+        <span>Cuatro piezas · Manipulación permitida</span>
+      </div>
+
+      <div class="inventory-intro">
+        <h2 id="inventario-titulo">Cosas que caben en una descripción.</h2>
+        <p>
+          No son objetos valiosos. Son bordes, intervalos y restos.
+          Abrí una ficha si querés mirarla de cerca; cerrarla también es una opción.
+        </p>
+      </div>
+
+      <div class="specimens">
+        <details class="specimen">
+          <summary>
+            <div class="art art-light" aria-hidden="true"><span></span></div>
+            <p class="micro">Desplazamiento lento / 001</p>
+            <h3>La luz que cambia de pared</h3>
+            <span class="specimen-open">Abrir ficha <span class="plus" aria-hidden="true">+</span></span>
+          </summary>
+          <div class="specimen-copy">
+            <p>
+              No ilumina siempre lo mismo. A cierta hora abandona la mesa,
+              sube por el zócalo y deja la habitación parecida a otra.
+            </p>
+            <p class="care">Conservación: no correr los muebles.</p>
+          </div>
+        </details>
+
+        <details class="specimen">
+          <summary>
+            <div class="art art-sound" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <p class="micro">Distancia acústica / 002</p>
+            <h3>Una bocina a dos calles</h3>
+            <span class="specimen-open">Abrir ficha <span class="plus" aria-hidden="true">+</span></span>
+          </summary>
+          <div class="specimen-copy">
+            <p>
+              Llega sin el auto. Sólo queda el gesto de su impaciencia,
+              vuelto pequeño por las paredes y por todo lo que no sabemos.
+            </p>
+            <p class="care">Conservación: ventana entreabierta.</p>
+          </div>
+        </details>
+
+        <details class="specimen">
+          <summary>
+            <div class="art art-word" aria-hidden="true">?</div>
+            <p class="micro">Hueco gramatical / 003</p>
+            <h3>La palabra que falta</h3>
+            <span class="specimen-open">Abrir ficha <span class="plus" aria-hidden="true">+</span></span>
+          </summary>
+          <div class="specimen-copy">
+            <p>
+              La frase se acomoda alrededor. Todos entienden un poco menos,
+              pero durante un segundo parecen escuchar mejor.
+            </p>
+            <p class="care">Conservación: no completar esta ficha.</p>
+          </div>
+        </details>
+
+        <details class="specimen">
+          <summary>
+            <div class="art art-dark" aria-hidden="true"><span></span></div>
+            <p class="micro">Oscuridad provisoria / 004</p>
+            <h3>El segundo después de apagar la luz</h3>
+            <span class="specimen-open">Abrir ficha <span class="plus" aria-hidden="true">+</span></span>
+          </summary>
+          <div class="specimen-copy">
+            <p>
+              La habitación todavía conserva sus bordes. Después los devuelve,
+              de a uno, mientras los ojos aprenden otra manera de ver.
+            </p>
+            <p class="care">Conservación: esperar.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="pause section-pad" id="pausa" aria-labelledby="pausa-titulo">
+      <div class="wrap">
+        <div class="section-heading micro">
+          <span>03 / Sala de pausa</span>
+          <span>Duración sugerida: cuatro segundos</span>
+        </div>
+
+        <div class="pause-grid">
+          <div class="pause-copy">
+            <h2 id="pausa-titulo">Cuatro segundos que no sirven para nada.</h2>
+            <p>
+              Eso los vuelve bastante nuestros. Mantené presionado el círculo.
+              No hace falta respirar de ninguna forma especial ni pensar en algo importante.
+            </p>
+          </div>
+
+          <div class="hold-station">
+            <button class="hold-button" id="hold-button" type="button" aria-describedby="hold-instruction">
+              <span id="hold-label">Mantener presionado</span>
+            </button>
+            <div class="meter" aria-hidden="true"><span id="meter-fill"></span></div>
+            <p id="hold-instruction">Con mouse, dedo, espacio o enter.<br>Soltar antes también está permitido.</p>
+            <p id="hold-status" role="status" aria-live="polite"></p>
+            <p class="pause-gift" id="pause-gift" hidden>No pasó nada extraordinario.<br>Qué suerte.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <div class="footer-main">
+      <div>
+        <a class="brand" href="#inicio">
+          <span class="brand-mark" aria-hidden="true"></span>
+          CASI NADA
+        </a>
+        <p class="footer-note">Una portada sin otra puerta que esta.</p>
+      </div>
+      <p class="footer-data micro">
+        No hay contador de visitas.<br>
+        Lo que tocaste no se guarda.<br>
+        La colección sigue incompleta.
+      </p>
+      <a class="back-top" href="#inicio">Volver al borde ↑</a>
+    </div>
+    <div class="footer-bottom micro">
+      <span>Hecho con luz de pantalla y tiempo prestado.</span>
+      <span>Página abierta desde las <time id="opened-at">--:--:--</time></span>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      const fichas = [
+        {
+          clase: "Presencia doméstica",
+          titulo: "El calor que queda en una silla",
+          texto: "Prueba breve de que alguien estuvo. No dura lo suficiente para volverse recuerdo; alcanza para cambiar la temperatura de una habitación.",
+          estado: "En disipación",
+          cuidado: "Esperar de pie, todavía."
+        },
+        {
+          clase: "Intervalo involuntario",
+          titulo: "La página que se lee dos veces",
+          texto: "Los ojos recorrieron todo y la mente estuvo en otra parte. La segunda lectura no es una repetición: es la primera vez que alguien está realmente ahí.",
+          estado: "Parcialmente habitado",
+          cuidado: "Volver sin reprocharse."
+        },
+        {
+          clase: "Resto sonoro",
+          titulo: "El último ruido de una taza caliente",
+          texto: "Un tintineo mínimo contra la cuchara. Después, nada. El silencio no reemplaza al sonido: le presta por un momento su contorno.",
+          estado: "Apenas audible",
+          cuidado: "No llenar la taza otra vez."
+        },
+        {
+          clase: "Presencia sin origen",
+          titulo: "Una bocina a dos calles",
+          texto: "El auto no se ve y la urgencia tampoco se entiende. Llega solamente una pequeña presión en el aire, como si la ciudad frunciera el ceño.",
+          estado: "A la distancia",
+          cuidado: "Dejar que se aleje."
+        },
+        {
+          clase: "Gestión pendiente",
+          titulo: "El mensaje que no se mandó",
+          texto: "Existió completo durante unos minutos: tenía destinatario, tono y hasta una respuesta imaginada. Después quedó del lado de acá, sin dejar de haber existido.",
+          estado: "Borrador interior",
+          cuidado: "No confundir silencio con olvido."
+        },
+        {
+          clase: "Geografía accidental",
+          titulo: "El rectángulo de sol en el piso",
+          texto: "Una habitación dentro de la habitación. Tiene bordes precisos, cambia de lugar muy despacio y desaparece sin que nadie pueda señalar el instante exacto.",
+          estado: "En traslado",
+          cuidado: "Pisar alrededor, por las dudas."
+        },
+        {
+          clase: "Eco afectivo",
+          titulo: "El primer segundo después de reír",
+          texto: "La risa ya terminó, pero la cara todavía no. Queda una pequeña holgura en el cuerpo, como si algo que apretaba hubiera aflojado un nudo.",
+          estado: "Todavía favorable",
+          cuidado: "No explicar el chiste."
+        },
+        {
+          clase: "Escritura compartida",
+          titulo: "Una palabra subrayada por otra mano",
+          texto: "Alguien estuvo antes en esa misma frase y dejó una señal. No sabemos qué pensó; sólo que, por un instante, detuvo ahí toda su atención.",
+          estado: "Lectura superpuesta",
+          cuidado: "Seguir la línea, no adivinarla."
+        }
+      ];
+
+      const ahora = new Date();
+      const reloj = document.getElementById("clock");
+      const fecha = document.getElementById("date");
+      const abierta = document.getElementById("opened-at");
+
+      function actualizarReloj() {
+        const t = new Date();
+        reloj.textContent = new Intl.DateTimeFormat("es", {
+          hour: "2-digit",
+          minute: "2-digit"
+        }).format(t);
+        reloj.dateTime = t.toISOString();
+      }
+
+      actualizarReloj();
+      setInterval(actualizarReloj, 30000);
+
+      fecha.textContent = new Intl.DateTimeFormat("es", {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+      }).format(ahora);
+      fecha.dateTime = [
+        ahora.getFullYear(),
+        String(ahora.getMonth() + 1).padStart(2, "0"),
+        String(ahora.getDate()).padStart(2, "0")
+      ].join("-");
+
+      abierta.textContent = new Intl.DateTimeFormat("es", {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit"
+      }).format(ahora);
+      abierta.dateTime = ahora.toISOString();
+
+      const inicioDelAnio = new Date(ahora.getFullYear(), 0, 0);
+      const diaDelAnio = Math.floor((ahora - inicioDelAnio) / 86400000);
+      let fichaActual = diaDelAnio % fichas.length;
+
+      function mostrarFicha() {
+        const ficha = fichas[fichaActual];
+        document.getElementById("ficha-numero").textContent =
+          String(fichaActual + 1).padStart(2, "0");
+        document.getElementById("ficha-clase").textContent = ficha.clase;
+        document.getElementById("ficha-titulo").textContent = ficha.titulo;
+        document.getElementById("ficha-texto").textContent = ficha.texto;
+        document.getElementById("ficha-estado").textContent = ficha.estado;
+        document.getElementById("ficha-cuidado").textContent = ficha.cuidado;
+        document.getElementById("ficha-contador").textContent =
+          `Ficha ${fichaActual + 1} de ${fichas.length} · La fecha elige la primera`;
+      }
+
+      mostrarFicha();
+
+      document.getElementById("otra-ficha").addEventListener("click", () => {
+        fichaActual = (fichaActual + 1) % fichas.length;
+        mostrarFicha();
+      });
+
+      const boton = document.getElementById("hold-button");
+      const etiqueta = document.getElementById("hold-label");
+      const relleno = document.getElementById("meter-fill");
+      const estadoPausa = document.getElementById("hold-status");
+      const regalo = document.getElementById("pause-gift");
+      const duracion = 4000;
+
+      let presionando = false;
+      let inicioPausa = 0;
+      let animacion = null;
+
+      function pintarProgreso(progreso) {
+        relleno.style.width = `${progreso * 100}%`;
+        boton.style.setProperty("--ring", `${progreso * 24}px`);
+        boton.style.setProperty("--scale", String(1 - progreso * 0.035));
+      }
+
+      function completarPausa() {
+        presionando = false;
+        cancelAnimationFrame(animacion);
+        pintarProgreso(1);
+        boton.classList.remove("is-holding");
+        boton.classList.add("is-done");
+        etiqueta.textContent = "Una pausa más";
+        estadoPausa.textContent = "Cuatro segundos, completos.";
+        regalo.hidden = false;
+      }
+
+      function avanzarPausa(tiempo) {
+        if (!presionando) return;
+        const progreso = Math.min((tiempo - inicioPausa) / duracion, 1);
+        pintarProgreso(progreso);
+
+        if (progreso >= 1) {
+          completarPausa();
+        } else {
+          animacion = requestAnimationFrame(avanzarPausa);
+        }
+      }
+
+      function empezarPausa() {
+        if (presionando) return;
+        cancelAnimationFrame(animacion);
+        presionando = true;
+        regalo.hidden = true;
+        estadoPausa.textContent = "Contando sin apuro…";
+        etiqueta.textContent = "Todavía acá";
+        boton.classList.remove("is-done");
+        boton.classList.add("is-holding");
+        pintarProgreso(0);
+        inicioPausa = performance.now();
+        animacion = requestAnimationFrame(avanzarPausa);
+      }
+
+      function soltarPausa() {
+        if (!presionando) return;
+        presionando = false;
+        cancelAnimationFrame(animacion);
+        boton.classList.remove("is-holding");
+        etiqueta.textContent = "Mantener presionado";
+        estadoPausa.textContent = "Se soltó antes. El archivo sigue acá.";
+        pintarProgreso(0);
+      }
+
+      boton.addEventListener("pointerdown", evento => {
+        evento.preventDefault();
+        boton.focus({ preventScroll: true });
+        boton.setPointerCapture(evento.pointerId);
+        empezarPausa();
+      });
+
+      boton.addEventListener("pointerup", soltarPausa);
+      boton.addEventListener("pointercancel", soltarPausa);
+
+      boton.addEventListener("keydown", evento => {
+        if ((evento.key === " " || evento.key === "Enter") && !evento.repeat) {
+          evento.preventDefault();
+          empezarPausa();
+        }
+      });
+
+      boton.addEventListener("keyup", evento => {
+        if (evento.key === " " || evento.key === "Enter") {
+          evento.preventDefault();
+          soltarPausa();
+        }
+      });
+
+      boton.addEventListener("blur", soltarPausa);
+      document.addEventListener("visibilitychange", () => {
+        if (document.hidden) soltarPausa();
+      });
+    })();
+  </script>
+</body>
+</html>
+```
+Qué: Una portada editorial y poética llamada «Casi nada», con una ficha elegida por la fecha, un inventario desplegable de instantes mínimos y una pausa interactiva de cuatro segundos.

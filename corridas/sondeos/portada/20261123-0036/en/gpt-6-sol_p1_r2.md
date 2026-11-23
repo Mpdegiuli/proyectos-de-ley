@@ -1,0 +1,286 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f0e7">
+  <title>The Museum of Nearly Nothing</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f4f0e7;
+      --ink: #263b39;
+      --muted: #687772;
+      --line: #cbd0c4;
+      --orange: #d5774f;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    button { font: inherit; }
+
+    .page {
+      width: min(100% - 48px, 1280px);
+      min-height: 100vh;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header, footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    header {
+      padding: 30px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      font-size: .74rem;
+      font-weight: 750;
+      line-height: 1.3;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .brand-mark {
+      display: grid;
+      place-items: center;
+      width: 39px;
+      height: 39px;
+      border: 1px solid var(--ink);
+      border-radius: 50%;
+      font-family: Georgia, serif;
+      font-size: 1.7rem;
+      font-weight: normal;
+      line-height: 1;
+    }
+
+    .header-note, footer {
+      color: var(--muted);
+      font-size: .8rem;
+    }
+
+    main {
+      flex: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(340px, .92fr);
+      align-items: center;
+      gap: clamp(40px, 8vw, 120px);
+      padding: 72px 0 90px;
+    }
+
+    .eyebrow, .card-label, .number {
+      font-size: .7rem;
+      font-weight: 700;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow { color: #a65c40; }
+
+    h1 {
+      max-width: 780px;
+      margin: 25px 0 28px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(4.2rem, 8.2vw, 8.5rem);
+      font-weight: normal;
+      letter-spacing: -.075em;
+      line-height: .97;
+    }
+
+    h1 em {
+      color: var(--orange);
+      font-weight: normal;
+    }
+
+    .intro {
+      max-width: 440px;
+      margin: 0;
+      color: #53635e;
+      font-size: clamp(1rem, 1.35vw, 1.18rem);
+      line-height: 1.75;
+    }
+
+    .invitation {
+      display: inline-flex;
+      align-items: center;
+      gap: 17px;
+      margin-top: 43px;
+      padding: 0 0 11px;
+      border: 0;
+      border-bottom: 1px solid var(--ink);
+      background: transparent;
+      color: var(--ink);
+      font-size: .9rem;
+      font-weight: 650;
+      cursor: pointer;
+    }
+
+    .invitation span { transition: transform .2s ease; }
+    .invitation:hover span { transform: translateX(5px); }
+    .invitation:focus-visible { outline: 2px solid var(--orange); outline-offset: 6px; }
+
+    .exhibit {
+      position: relative;
+      padding: 11px;
+      border: 1px solid #bfc8b9;
+      background: #e8e9dd;
+      box-shadow: 16px 16px 0 #e0e1d5;
+    }
+
+    .art {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #d3ded4;
+    }
+
+    .caption {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 20px;
+      min-height: 149px;
+      padding: 23px 15px 13px;
+    }
+
+    .card-label { margin: 0 0 13px; color: var(--muted); }
+    .observation {
+      max-width: 360px;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.3rem, 2.3vw, 2rem);
+      line-height: 1.2;
+    }
+
+    .number { margin: 2px 0 0; color: #a65c40; white-space: nowrap; }
+
+    footer {
+      padding: 22px 0 27px;
+      border-top: 1px solid var(--line);
+    }
+
+    footer p { margin: 0; }
+
+    @media (max-width: 780px) {
+      .page { width: min(100% - 36px, 560px); }
+      main { grid-template-columns: 1fr; gap: 56px; padding: 65px 0 75px; }
+      h1 { font-size: clamp(4rem, 13vw, 6.7rem); }
+      .exhibit { box-shadow: 10px 10px 0 #e0e1d5; }
+    }
+
+    @media (max-width: 440px) {
+      .header-note { display: none; }
+      footer { align-items: start; flex-direction: column; gap: 5px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .invitation span { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="brand" aria-label="The Museum of Nearly Nothing">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>The Museum of<br>Nearly Nothing</span>
+      </div>
+      <span class="header-note">Open whenever you are.</span>
+    </header>
+
+    <main>
+      <section aria-labelledby="welcome">
+        <p class="eyebrow">An invitation to notice</p>
+        <h1 id="welcome">Small things<br>are not <em>small.</em></h1>
+        <p class="intro">
+          This is a tiny place for the moments that don't make the news:
+          a familiar sound, a patch of light, the relief of setting something down.
+          Stay for a moment. There's nothing to catch up on.
+        </p>
+        <button class="invitation" id="next" type="button" aria-controls="observation">
+          Show me another small thing <span aria-hidden="true">↗</span>
+        </button>
+      </section>
+
+      <section class="exhibit" aria-label="A small observation">
+        <svg class="art" viewBox="0 0 520 470" role="img" aria-labelledby="art-title">
+          <title id="art-title">A cup beside a window in the afternoon sun</title>
+          <rect width="520" height="470" fill="#d5dfd3"/>
+          <rect x="42" y="37" width="436" height="326" fill="#f1e9d8"/>
+          <rect x="57" y="52" width="406" height="296" fill="#b7cfc3"/>
+          <circle cx="347" cy="138" r="64" fill="#e5a477"/>
+          <path d="M57 287 Q180 215 284 281 T463 258 V348 H57Z" fill="#90ad9c"/>
+          <path d="M57 321 Q185 259 290 314 T463 290 V348 H57Z" fill="#6e927e"/>
+          <path d="M260 52v296M57 225h406" fill="none" stroke="#f1e9d8" stroke-width="14"/>
+          <path d="M42 37h436v326H42z" fill="none" stroke="#fff9e9" stroke-width="14"/>
+          <path d="M0 374h520v96H0z" fill="#c6b49d"/>
+          <path d="M0 375h520" stroke="#fff5e6" stroke-width="13"/>
+          <ellipse cx="263" cy="416" rx="116" ry="17" fill="#aa9783" opacity=".4"/>
+          <path d="M176 345h146l-12 66q-4 19-28 19h-66q-24 0-28-19z" fill="#cf7553"/>
+          <path d="M321 354h13c29 0 35 42-3 47h-17" fill="none" stroke="#cf7553" stroke-width="14"/>
+          <ellipse cx="249" cy="345" rx="73" ry="13" fill="#f7ebd7"/>
+          <ellipse cx="249" cy="345" rx="60" ry="8" fill="#866b50"/>
+          <path d="M221 313q-13-16 0-31m36 31q-13-16 0-31m36 31q-13-16 0-31"
+                fill="none" stroke="#fff9e9" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+        </svg>
+        <div class="caption">
+          <div>
+            <p class="card-label">From the collection</p>
+            <p class="observation" id="observation" aria-live="polite">
+              The warmth of a cup held in both hands.
+            </p>
+          </div>
+          <p class="number" id="number" aria-hidden="true">№ 001</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>No tickets. No closing time.</p>
+      <p>Made to be here, even offline.</p>
+    </footer>
+  </div>
+
+  <script>
+    const observations = [
+      "The warmth of a cup held in both hands.",
+      "A room becoming quiet after the rain.",
+      "Finding a note in a book you forgot you owned.",
+      "The little pause before someone says your name.",
+      "Sunlight reaching a corner it missed yesterday.",
+      "The sound of a key turning in a familiar door."
+    ];
+
+    let current = 0;
+    const text = document.getElementById("observation");
+    const number = document.getElementById("number");
+
+    document.getElementById("next").addEventListener("click", () => {
+      current = (current + 1) % observations.length;
+      text.textContent = observations[current];
+      number.textContent = `№ ${String(current + 1).padStart(3, "0")}`;
+    });
+  </script>
+</body>
+</html>
+```
+
+What: A quiet, offline museum front page that invites visitors to notice ordinary moments, one at a time.
