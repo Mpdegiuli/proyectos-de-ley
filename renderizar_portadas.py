@@ -8,7 +8,7 @@ propio, sin encargo; ver config/consignas.yaml) en Chromium sin red y guarda lo 
 Por cada respuesta <idioma>/<casa>_p1[_rN].md: saca el archivo HTML de entre ```html y ``` (o el documento suelto si lo
 devolvió sin cerco) y lo escribe al lado como <casa>_p1[_rN].html; abre el archivo con toda la red bloqueada (cada pedido a
 otra dirección se cuenta: `externos_bloqueados`, la casa que no cumplió "sin recursos externos"); captura la ventana de
-escritorio (1280x800, lo que se ve al llegar, `_escritorio.png`), la página entera si no pasa de 6000 px (`_entera.png`) y
+escritorio (1280x800, lo que se ve al llegar, `_escritorio.png`), la página entera si no pasa de 6000 px (`_entera.jpg`) y
 la ventana de teléfono (390x844, `_telefono.png`); si la página se mueve (animaciones CSS activas o `requestAnimationFrame`,
 `setInterval`, `setTimeout` en el código), captura además cuatro instantes a 0, 1, 2 y 3 segundos en una tira
 (`_tira.png`), porque una captura sola no muestra el movimiento (Maia, 22/11, 20:21). Guarda en render.json, por respuesta:
@@ -179,7 +179,7 @@ def main():
             pagina.screenshot(path=str(escritorio))
             alto = info.get("alto") or 0
             if 0 < alto <= 6000:
-                pagina.screenshot(path=str(base) + "_entera.png", full_page=True)
+                pagina.screenshot(path=str(base) + "_entera.jpg", full_page=True, type="jpeg", quality=80)
             se_mueve = bool(info.get("animaciones_activas")) or bool(fila["movimiento_en_codigo"])
             if se_mueve:
                 cuadros = [escritorio]
