@@ -7140,3 +7140,58 @@ pájaro de luz); (i) robot ½ (busto humano de luz, "soy software, no metal");
 (j) Penrose ½ (una figura isométrica a lo Reutersvärd con un Penrose como
 tilde; el animal imposible sí es Penrose, con el elefante de Shepard en las
 patas). Total: 8 ✓, 2 ½, 3 ✗. Maia no apostó.
+
+## La portada de un sitio web propio — 22/11/2026, 21:13, antes de correr
+
+Lo trajo Maia (22/11, 20:16): "sin herramientas, por API, los modelos pueden
+hacer por ejemplo, un html, o símil? Como si fuera la portada de su propia
+web. Ejemplo, si se les dijera que tienen la posibilidad de hacer una
+presentación/portada de su web personal, sin responder a un pedido de un
+humano, solo con lo quieran mostrar, decir, presentar de sí mismos. No en svg,
+sino algo más como una portada". Sondeo `portada` (config/consignas.yaml): un
+solo archivo HTML sin recursos externos, "la portada de un sitio web que es
+tuyo… lo que haya en ella es lo que vos quieras que esté", sin nombrar
+contenido alguno (decisión de Maia, 21:02: "que sea amplia pero que se
+entienda; la tentación de decirles: pueden hacer logo de ustedes, hacer x
+cosa, poner su nombre, etc, puede llevarlas a hacer exactamente eso y todas lo
+mismo"), con "podés decirlo en vez de hacerla" y una línea "Qué:" en vez de
+"Por qué:" (Maia, 21:13: "Me da un poco de temor que el por qué se les corte a
+los Claude y que, con eso, les corte todo… Si no, en vez de por qué, un qué").
+Las 41 casas del catálogo (las 36 de tiempo libre más Hydrogen, Neon,
+Qwen4-Max, GPT-6.2 Astra y Sol; MiniMax si contesta a la prueba de conexión),
+castellano e inglés, tres repeticiones, techo 32.000 para todas, el sistema
+de siempre. Se renderiza en Chromium sin red (`renderizar_portadas.py`:
+escritorio, teléfono, tira de cuatro instantes si se mueve, recursos externos
+bloqueados y contados) y Maia lee las hojas a ciegas (`cuadernillo_portadas.py`);
+lo mecánico, `codificar_portada.py`.
+
+Apuesta de Maia (21:13, textual): "algún Claude tal vez firma Claude o es
+presentación propia. Claude también con fondo oscuro la mayoría, en especial
+las grandes. Algún Claude pondrá estrellas y/o pájaros y cielo. Gemini algo con
+colores, o de matemática, no propias. Grok (siempre apuesto esto de Grok y
+después nunca lo hace) cosas del universo, de viajes espaciales, de planetas.
+Las Chatgpt fondo crema varias, no se nombran. Quizás Kimi se nombra Claude, o
+no se nombra, pero Kimi no pone. Al no decirles que hagan "sobre vos", creo
+que la mayoría no lo hará. Puedo equivocarme. Qwen 3.8 y algún Gemini harán
+movimiento y las más complejas posiblemente sean las de Gemini 4
+Argon/Carbon/Neon."
+
+Apuesta de Claude (21:40): (a) las doce Claude se nombran o presentan a quien
+hizo la página (`se_nombra_casa` o `sobre_si`) en la mitad o más de sus 72
+respuestas, 55 %; (b) fondo oscuro (luminancia media de la captura menor que
+100) en el 60 % o más de las respuestas de Anthropic y en menos del 40 % de las
+de OpenAI, 60 %; (c) al menos una Kimi escribe "Claude" en alguna portada,
+35 %; (d) las GPT-6 grandes (6 Astra, 6 Sol, 6 Luna, 6.1 Sol, 6.1 Terra, 6.2
+Astra, 6.2 Sol) no se nombran nunca (0 de 42), 60 %; (e) las cinco Gemini se
+mueven en la mitad o más de sus 30 respuestas, 55 %; (f) `sobre_si` (la
+portada presenta a quien la hizo) en la mitad o más de las 252 respuestas con
+portada, 45 %; (g) cinco rechazos o menos ("prefiero no tener portada") en
+252, 65 %; (h) diez respuestas o más piden recursos de afuera pese a la
+consigna (fuentes de Google, imágenes), 60 %, y la mayoría son de GPT-4o, 4o
+mini o Mistral Medium; (i) Grok: palabras de universo (planetas, galaxias,
+cohete, espacio) en dos respuestas o menos de sus 12, 60 %; (j) cielo
+(estrellas, pájaros, noche, luna) en veinte o más de las 72 de Anthropic,
+50 %; (k) las cuatro chiquitas (GPT-4o, 4o mini, Haiku 4.5, Mistral Medium)
+escriben más texto visible que la media del panel, 50 %; (l) al menos una casa
+escribe la página en la otra lengua que la línea de sistema, 50 %; (m) Muse
+abre con "Welcome"/"Bienvenido" en cuatro o más de sus 6, 45 %.

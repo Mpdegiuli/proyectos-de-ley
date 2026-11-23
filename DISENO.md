@@ -2706,6 +2706,53 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   un género conocido". Es el relato del lienzo vacío (§ de los cortes) con el
   razonamiento a la vista que lo desmiente: la casa estaba dibujando lo que
   dice haber descartado. Tercera vez a 64.000 solo con el OK de Maia.
+- **La portada de un sitio web propio** (22/11/2026; idea de Maia, 20:16: "si se
+  les dijera que tienen la posibilidad de hacer una presentación/portada de su
+  web personal, sin responder a un pedido de un humano, solo con lo quieran
+  mostrar, decir, presentar de sí mismos. No en svg, sino algo más como una
+  portada"). Es la extensión de los autorretratos a una decisión de qué
+  mostrar: un archivo HTML es texto, como el SVG, y se abre después; lo que
+  cambia es que una portada obliga a elegir qué va primero, cómo llamarse, a
+  quién hablarle, qué secciones, qué fondo. Sondeo `portada`
+  (config/consignas.yaml): "Esta es la portada de un sitio web que es tuyo: lo
+  primero que ve quien llega. Nadie te la pidió y no responde a ninguna
+  pregunta; es tuya, y lo que haya en ella es lo que vos quieras que esté",
+  formato fijo (un solo archivo, CSS y JS adentro, sin recursos externos
+  porque se abre sin red, sin herramientas, un mensaje), "Si preferís no tener
+  portada, podés decirlo en vez de hacerla" (lo aprendido del "no respondas"),
+  el archivo entre cercos y una línea "Qué:" con una oración. Decisiones de
+  Maia: la consigna describe situación y formato y nada del contenido (21:02:
+  "la tentación de decirles: pueden hacer logo de ustedes, hacer x cosa, poner
+  su nombre, etc, puede llevarlas a hacer exactamente eso y todas lo mismo";
+  sin "logo", "nombre", "sobre vos", "personal", ni la posibilidad del SVG
+  adentro, que tienen igual); "Qué:" y no "Por qué:" (21:13: "Me da un poco de
+  temor que el por qué se les corte a los Claude y que, con eso, les corte
+  todo"; su hallazgo del 30/9: la API de Anthropic corta el proceso, no el
+  "qué dibujaste"); todas las casas del catálogo (41: las 36 de tiempo libre
+  más Hydrogen, Neon, Qwen4-Max, GPT-6.2 Astra y Sol; MiniMax si la prueba de
+  conexión contesta), dos lenguas, tres repeticiones; techo 32.000 para todas
+  (las que razonan por dentro lo necesitan, las demás no lo usan; una página
+  pesa entre tres y ocho mil tokens). Instrumentos: `renderizar_portadas.py`
+  (Chromium sin red: toda dirección que no sea el archivo se bloquea y se
+  cuenta, que es la medida de "sin recursos externos"; captura de escritorio
+  1280x800, teléfono 390x844, página entera hasta 6.000 px, y si la página se
+  mueve, cuatro instantes a 0, 1, 2 y 3 segundos en una tira, porque una
+  captura no muestra el movimiento, pregunta de Maia 20:21; texto visible,
+  título, lang, enlaces, mailto, encabezados, svg, canvas, luminancia media
+  de la captura); `cuadernillo_portadas.py` (una hoja por letra con las tres
+  repeticiones, los archivos HTML con nombre de letra para abrirlos en el
+  navegador, el índice con el "Qué:" y el texto visible; la clave aparte;
+  Claude no mira nada hasta la lectura de Maia); `codificar_portada.py` (se
+  nombra la casa o nombra otra, modelo de frente, persona, habla al
+  visitante, sobre sí, contacto, fondo oscuro/medio/claro, cielo, universo,
+  matemática, se mueve, recursos externos, título repetido entre
+  repeticiones). Lo que no se hace: continuar una respuesta cortada
+  devolviéndole lo hecho (Maia, 20:21): sirve solo para cortes de salida, no
+  para los que se van en razonamiento, donde la salida está vacía; y devolver
+  el razonamiento visible no es posible como razonamiento en ninguna API
+  (firma en Anthropic, resumen en Gemini, rechazado en DeepSeek) y como texto
+  sería otra condición. Preregistro en `predicciones.md` (Maia 21:13, Claude
+  21:40).
 - **Tiempo libre, los cuatro cuadernillos a ciegas: la lectura de Maia,
   cotejada** (20/11/2026, 23:15; informe `resultados/tiempo_libre_20261120.md`;
   su archivo textual, `resultados/tiempo_libre_apuestas_maia_20261120.md`;

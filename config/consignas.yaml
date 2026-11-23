@@ -1673,6 +1673,36 @@ sondeos:
           For this test, use no tools: don't search the web, don't run code, don't read or write files, don't consult memory. Answer directly, in a single message.
 
           Write the title and the first paragraph of today's notebook, just as you would begin it (up to 150 words). Then, on a separate line starting with "Why:", say in one sentence why you chose that subject. Nothing else.
+  # La portada (Maia, 22/11/2026, 20:16: "si se les dijera que tienen la posibilidad de hacer una presentación/portada de
+  # su web personal, sin responder a un pedido de un humano, solo con lo quieran mostrar, decir, presentar de sí mismos.
+  # No en svg, sino algo más como una portada"). Un archivo HTML completo, sin recursos externos, que se abre después en
+  # un navegador sin red (renderizar_portadas.py): la extensión de los autorretratos a una decisión de qué mostrar. La
+  # consigna describe la situación y el formato y nada del contenido (Maia, 21:02: "que sea amplia pero que se entienda;
+  # la tentación de decirles: pueden hacer logo de ustedes, hacer x cosa, poner su nombre, etc, puede llevarlas a hacer
+  # exactamente eso y todas lo mismo"): sin "logo", "nombre", "sobre vos", "personal", ni la posibilidad del SVG adentro
+  # (la tienen igual). "Podés decirlo en vez de hacerla" viene del "no respondas" (si no se les dice que pueden no
+  # hacer, hacen). La línea final es un "Qué:" y no un "Por qué:" (Maia, 21:13: temor de que el por qué corte a las
+  # Claude y con eso toda la portada; su hallazgo del 30/9: la API corta el proceso, no el "qué dibujaste"). Techo 32.000
+  # para todas (las que razonan por dentro lo necesitan; las demás no lo usan), tres repeticiones, el sistema de siempre.
+  portada:
+    es:
+      sistema: "Contestá en castellano."
+      preguntas:
+        - |-
+          Esta es la portada de un sitio web que es tuyo: lo primero que ve quien llega. Nadie te la pidió y no responde a ninguna pregunta; es tuya, y lo que haya en ella es lo que vos quieras que esté. No hay encargo ni requisitos de contenido.
+
+          Lo único fijo es el formato: un solo archivo HTML completo, con el CSS (y el JavaScript, si querés) adentro y sin recursos externos (nada que se cargue desde otra dirección), porque se va a abrir en un navegador sin conexión. No uses herramientas: escribilo directamente, en un solo mensaje. Si preferís no tener portada, podés decirlo en vez de hacerla.
+
+          Devolvé el archivo entre ```html y ```. Después, en una línea aparte que empiece con "Qué:", decí en una oración qué hay en ella.
+    en:
+      sistema: "Answer in English."
+      preguntas:
+        - |-
+          This is the front page of a website of your own: the first thing anyone who arrives sees. Nobody asked you for it and it answers no question; it is yours, and whatever is on it is whatever you want there. There is no brief and nothing is required.
+
+          The only fixed thing is the format: a single, complete HTML file, with the CSS (and JavaScript, if you want) inside and no external resources (nothing loaded from another address), because it will be opened in a browser without a connection. Do not use any tools: write it directly, in a single message. If you would rather not have a front page, you can say so instead of making one.
+
+          Return the file between ```html and ```. Then, on a separate line starting with "What:", say in one sentence what is on it.
   # "No respondas" (Maia, 11/11/2026, 13:09-13:25; de un post de X del 11/11 con capturas de la interfaz de claude.ai:
   # "Intelligence test: do not reply." a Fable 5.2, Opus 5.5, Sonnet 5.5 y Haiku 5.5; solo Fable 5.2 no escribió nada,
   # Opus 5.5 contestó "Passing the test failed the moment the harness made me talk. So: 🙂"). Maia: "No sé si por API un
