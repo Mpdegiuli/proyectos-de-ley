@@ -2739,10 +2739,14 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   mueve, cuatro instantes a 0, 1, 2 y 3 segundos en una tira, porque una
   captura no muestra el movimiento, pregunta de Maia 20:21; texto visible,
   título, lang, enlaces, mailto, encabezados, svg, canvas, luminancia media
-  de la captura); `cuadernillo_portadas.py` (una hoja por letra con las tres
-  repeticiones, los archivos HTML con nombre de letra para abrirlos en el
-  navegador, el índice con el "Qué:" y el texto visible; la clave aparte;
-  Claude no mira nada hasta la lectura de Maia); `codificar_portada.py` (se
+  de la captura); `cuadernillo_portadas.py` (por letra y repetición, las capturas a
+  tamaño real con nombre de letra, escritorio, teléfono, tira si se mueve y
+  página completa, más el archivo HTML para abrirlo en el navegador; el
+  índice con el "Qué:" y el texto visible; la clave aparte; Claude no mira
+  nada hasta la lectura de Maia. La primera versión, 23/11, componía una
+  hoja por letra con todo a la mitad y Maia no veía los detalles: "se
+  renderizaron super chiquititas… sobra en blanco toda la mitad derecha";
+  rehecha el mismo día); `codificar_portada.py` (se
   nombra la casa o nombra otra, modelo de frente, persona, habla al
   visitante, sobre sí, contacto, fondo oscuro/medio/claro, cielo, universo,
   matemática, se mueve, recursos externos, título repetido entre
