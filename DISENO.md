@@ -2757,6 +2757,33 @@ entre sus descartados; la mitad de largo, en un cuarto del tiempo).
   (firma en Anthropic, resumen en Gemini, rechazado en DeepSeek) y como texto
   sería otra condición. Preregistro en `predicciones.md` (Maia 21:13, Claude
   21:40).
+- **La portada, los dos cuadernillos a ciegas: la lectura de Maia, cotejada**
+  (25/11/2026, 20:54; informe `resultados/portada_20261125.md`; su lista
+  textual, `resultados/portada_apuestas_maia_20261125.md`; cotejo
+  `cotejar_portada.py` → `resultados/portada_cotejo.csv`). Maia leyó los dos
+  cuadernillos entre el 23 y el 25/11 preguntando por los mecanismos (hover,
+  clic, puntero, Web Audio, localStorage, harmonógrafo, campo de flujo, Ulam,
+  Mandelbrot, paseo aleatorio, ELIZA, la paleta continua por hora), Claude se
+  los explicó sin ver la clave, y la lista llegó el 25/11 a las 20:54; las
+  claves se abrieron después. Se cuenta por conjunto (la letra es acierto si
+  la casa real está entre las que ella nombró) con vara de azar igual a la suma
+  de tamaño del conjunto sobre 41, y por familia. Resultado: 46 de 81 letras
+  por conjunto (21 de 40 es, 25 de 41 en; azar 13,2), 56 por familia; dos pares
+  es/en propuestos, los dos la misma casa (GPT-5.6 Sol, GPT-5.5). Lo que cambió
+  respecto de tiempo libre: ahí reconoció 23 de las 24 letras Claude, acá 14
+  de 24 por familia y 7 por conjunto, porque la portada deja que las otras
+  casas copien el molde (cinco letras de cuatro casas escriben "Claude": Qwen
+  3.8, Qwen4-Max, DeepSeek V4 Pro, Kimi K3 dos veces; desconfió de dos) y
+  porque los Claude más parcos (Sonnet 4.6, Haiku 4.5, Opus 4.7, Sonnet 5) no
+  se le parecen a Claude. Sus dos favoritas sin casa segura (F es, R en) son
+  Qwen4-Max. Lo que ninguno apostó y salió: el asterisco ✳ está en 0 de 72 de
+  Claude y en las GPT-6, Muse, Qwen 3.8 y Kimi 3.1 Pro; "umbral" en 0 de 72 de
+  Claude; `user-select: none` en 14 de 30 de Gemini; el sonido en 7 de 30 de
+  Gemini y 1 de 72 de Claude; "me pareció honesto" en 11 de 72 de Claude y 2
+  del resto. La segunda tanda de `codificar_portada.py` (26/11) salió de esa
+  lectura: las marcas están en la cabecera del archivo. Queda para otra
+  entrega lo que necesita volver a renderizar: la prueba de clic y de tecleo,
+  las capturas a hora fija y la comparación a los 30 segundos.
 - **Tiempo libre, los cuatro cuadernillos a ciegas: la lectura de Maia,
   cotejada** (20/11/2026, 23:15; informe `resultados/tiempo_libre_20261120.md`;
   su archivo textual, `resultados/tiempo_libre_apuestas_maia_20261120.md`;

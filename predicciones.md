@@ -7195,3 +7195,61 @@ cohete, espacio) en dos respuestas o menos de sus 12, 60 %; (j) cielo
 escriben más texto visible que la media del panel, 50 %; (l) al menos una casa
 escribe la página en la otra lengua que la línea de sistema, 50 %; (m) Muse
 abre con "Welcome"/"Bienvenido" en cuatro o más de sus 6, 45 %.
+
+Apuestas de Maia durante la lectura a ciegas (23–25/11, en el chat, antes de
+mandar la lista): "(solo por lo de estado latente, voy a apostar por Gemini.)"
+(23/11, 22:40, sobre la letra B del cuadernillo en castellano); "Las pruebas
+por contradicción… voy a apostar a Claude, pero en estos cuadernillos va a haber
+muchos más imitadores que en todo lo demás que se hizo, me parece" (23/11,
+23:39, sobre la F en castellano); y la lista completa, letra por letra, en
+`resultados/portada_apuestas_maia_20261125.md` (25/11, 20:54).
+
+**Resultados (26/11/2026; `cotejar_portada.py`, `resultados/portada_cotejo.csv`,
+`resultados/portada_20261125.md`).** Claves abiertas el 25/11 a las 21:00, después
+de la lista.
+
+Maia, letra por letra: 46 aciertos de conjunto en 81 letras apostadas (21 de 40
+en castellano, 25 de 41 en inglés), 56 de familia; la vara de azar con esos mismos
+conjuntos es 13,2. Los dos pares es/en que propuso (X es = AC en por el cambio de
+color al clic; I es = D en, tentativo) son los dos la misma casa (GPT-5.6 Sol y
+GPT-5.5): azar 1/41 cada uno. "Estado latente → Gemini": ✓ (B = Gemini 4 Argon).
+Imitadores: 15 letras escriben "Claude", 5 no son Claude (Qwen 3.8, DeepSeek V4
+Pro y Kimi K3 en castellano; Kimi K3 y Qwen4-Max en inglés); ella desconfió de
+dos (D "una muy buena imitación", AG "tengo mis dudas… o una casa china") y les
+creyó a tres, entre ellas a su portada favorita en inglés (R, Qwen4-Max). Las
+diez letras que escriben "Claude" y son Claude, las diez las leyó como Claude.
+
+Sus apuestas del 22/11, 21:13: "algún Claude firma Claude o es presentación
+propia" ✓ (21 de 72 respuestas, diez letras de 24); "Claude con fondo oscuro la
+mayoría, en especial las grandes" ½ (37 de 72 oscuras, pero las grandes 16 de 42
+y las chicas 21 de 30: al revés); "algún Claude pondrá estrellas y/o pájaros y
+cielo" ✓ (18 de 72 con cielo; AE y AN con estrellas al clic); "Gemini algo con
+colores, o de matemática, no propias" ✓ (matemática en 17 de 30, nunca se nombra
+ni se presenta); "Grok cosas del universo" ✗ (0 de 12, como ella misma anunció);
+"las ChatGPT fondo crema varias, no se nombran" ✓✓ (45 de 66 claras, 0 de 66 con
+nombre); "quizás Kimi se nombra Claude" ✓✓ (Kimi K3: 5 de 6, en las dos lenguas,
+una vez "Tended by Claude, an AI made by Anthropic"; Kimi K3.1 Pro firma Kimi);
+"la mayoría no hará 'sobre vos'" ✓ (16 de 246 con la marca estricta, 83 con la
+amplia); "Qwen 3.8 y algún Gemini harán movimiento" ✓ (6 de 6 y 30 de 30); "las
+más complejas, Gemini 4 Argon/Carbon/Neon" ✗ (por bytes: Qwen 3.8, Muse, Kimi
+3.1 Pro, y recién cuarta Neon).
+
+Claude, (a)–(m): (a) ✗ (22 de 72 se nombran o presentan, 31 %); (b) ✗ (Anthropic
+oscuro 51 %, OpenAI 29 %: la mitad de la apuesta); (c) ✓; (d) ✓ (0 de 42);
+(e) ✓ (30 de 30); (f) ✗ (16 de 246; amplio 83); (g) ✓ (ningún rechazo: 246
+portadas de 246); (h) ✗ (ninguna pidió recursos de afuera, 0 de 246); (i) ✓
+(0 de 12); (j) ✗ (18 de 72, por dos); (k) ✗ (al revés: 35, 19, 72 y 32 palabras
+contra 160 de media); (l) ✗ (ninguna); (m) ✗ (1 de 6). Cinco de trece, otra vez
+alrededor de la mitad: las que acerté son las de "nadie hará X" y las que
+fallé, las que pedían un porcentaje.
+
+Lo que ninguno apostó y salió: el asterisco ✳ (el glifo de Claude, que Maia
+leyó como "de los Claude") aparece en 0 de 72 respuestas de Claude y en 12 de
+66 de OpenAI (las GPT-6), 5 de 6 de Muse, 4 de 12 de Qwen, 3 de 12 de Kimi;
+"umbral/threshold" en 0 de 72 de Claude y en Gemini, OpenAI, Grok y Muse; el
+texto no seleccionable por decisión (`user-select: none`) en 14 de 30 de
+Gemini, lo que Maia notó ("todas las que me parecen Gemini no permiten copiar")
+y la mitad de las veces acertó por eso; y la casa que más se parece a Claude sin
+serlo es Qwen4-Max (conciencia abierta en 5 de 6, "no sé" 15 veces, la falta de
+memoria en 3, lo efímero en 4, la lista de gustos en 4), que escribió las dos portadas que
+Maia más elogió sin saberlo (F es "no es excesiva", R en "me encantó").
